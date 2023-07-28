@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "createbigcannons:cannon_carriage",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "createbigcannons:entities/cannon_carriage",
+  "size": {
+    "height": 1.5,
+    "width": 1.5,
+    "fixed": false
+  }
+}

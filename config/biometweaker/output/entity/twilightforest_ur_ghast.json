@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:ur_ghast",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/ur_ghast",
+  "size": {
+    "height": 18.0,
+    "width": 14.0,
+    "fixed": false
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "quark:deferred_feature_fluid_springs",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "quark:deferred_feature_fluid_springs"
+  }
+}

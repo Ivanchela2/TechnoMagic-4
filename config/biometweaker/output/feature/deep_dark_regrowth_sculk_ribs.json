@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "deep_dark_regrowth:sculk_ribs",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:sculk_ribs",
+    "placement": [
+      {
+        "count": 33,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

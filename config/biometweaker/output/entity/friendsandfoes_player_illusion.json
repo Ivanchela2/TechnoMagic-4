@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "friendsandfoes:player_illusion",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "friendsandfoes:entities/player_illusion",
+  "size": {
+    "height": 1.875,
+    "width": 0.7,
+    "fixed": false
+  }
+}

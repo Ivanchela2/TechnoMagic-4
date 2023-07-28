@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:gnumus_farm",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "gnumus:gnumus_farm"
+  }
+}

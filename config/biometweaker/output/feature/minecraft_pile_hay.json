@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:pile_hay",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:pile_hay",
+    "placement": []
+  }
+}

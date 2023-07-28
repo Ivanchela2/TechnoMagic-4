@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:ignis_abyss_fireball",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 20,
+  "update_interval": 1,
+  "defaul_loot_table": "cataclysm:entities/ignis_abyss_fireball",
+  "size": {
+    "height": 0.6,
+    "width": 0.6,
+    "fixed": false
+  }
+}

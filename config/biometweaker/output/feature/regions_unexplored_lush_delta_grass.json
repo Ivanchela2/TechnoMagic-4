@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:lush_delta_grass",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_grass",
+    "placement": [
+      {
+        "count": 32,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

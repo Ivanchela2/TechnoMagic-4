@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.depth",
+  "colors": [
+    "67487d",
+    "886aa4"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "naturesaura:depth_ingot"
+  }
+}

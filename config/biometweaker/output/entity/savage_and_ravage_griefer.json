@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "savage_and_ravage:griefer",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "savage_and_ravage:entities/griefer",
+  "size": {
+    "height": 1.99,
+    "width": 0.6,
+    "fixed": false
+  }
+}

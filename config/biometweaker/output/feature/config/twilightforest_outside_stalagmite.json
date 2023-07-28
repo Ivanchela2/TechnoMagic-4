@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:outside_stalagmite",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:block_spike"
+  }
+}

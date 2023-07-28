@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:zadybug",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "enemyexpansion:entities/zadybug",
+  "size": {
+    "height": 0.95,
+    "width": 0.9,
+    "fixed": false
+  }
+}

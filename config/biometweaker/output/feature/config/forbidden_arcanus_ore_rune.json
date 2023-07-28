@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "forbidden_arcanus:ore_rune",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "forbidden_arcanus:runic_stone"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "forbidden_arcanus:runic_deepslate"
+          }
+        },
+        {
+          "target": {
+            "block": "forbidden_arcanus:darkstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "forbidden_arcanus:runic_darkstone"
+          }
+        }
+      ],
+      "size": 3,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

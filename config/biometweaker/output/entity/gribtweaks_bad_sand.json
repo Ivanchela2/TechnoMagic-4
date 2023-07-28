@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "gribtweaks:bad_sand",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "gribtweaks:entities/bad_sand",
+  "size": {
+    "height": 3.0,
+    "width": 3.0,
+    "fixed": false
+  }
+}

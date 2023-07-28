@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:fiddlehead",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:fiddlehead",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

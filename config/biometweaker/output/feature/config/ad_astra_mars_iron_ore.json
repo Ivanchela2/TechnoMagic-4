@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "ad_astra:mars_iron_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "ad_astra:mars_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "ad_astra:mars_iron_ore"
+          }
+        }
+      ],
+      "size": 11,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

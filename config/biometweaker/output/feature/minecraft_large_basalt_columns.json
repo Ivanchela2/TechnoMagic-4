@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:large_basalt_columns",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:large_basalt_columns",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

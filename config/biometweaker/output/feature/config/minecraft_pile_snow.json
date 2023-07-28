@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "minecraft:pile_snow",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "state": {
+          "Properties": {
+            "layers": "1"
+          },
+          "Name": "minecraft:snow"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  }
+}

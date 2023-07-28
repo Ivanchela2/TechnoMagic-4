@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "collectorsreap:patch_pomegranate",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 35,
+      "xz_spread": 10,
+      "y_spread": 10,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Properties": {
+                  "half": "lower",
+                  "age": "2"
+                },
+                "Name": "collectorsreap:pomegranate_bush"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "collectorsreap:bush_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "minecraft:nylium",
+                  "type": "minecraft:matching_block_tag"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "friendsandfoes:glare",
+  "category": "glares",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 2,
+  "defaul_loot_table": "friendsandfoes:entities/glare",
+  "size": {
+    "height": 1.4375,
+    "width": 0.875,
+    "fixed": false
+  }
+}

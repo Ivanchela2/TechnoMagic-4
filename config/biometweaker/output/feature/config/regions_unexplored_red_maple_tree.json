@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "regions_unexplored:red_maple_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "branch_provider": {
+        "state": {
+          "Properties": {
+            "facing": "north"
+          },
+          "Name": "regions_unexplored:maple_branch"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": 6,
+      "size_variation": 4,
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "regions_unexplored:maple_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "waterlogged": "false",
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "regions_unexplored:red_maple_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "regions_unexplored:maple_tree"
+  }
+}

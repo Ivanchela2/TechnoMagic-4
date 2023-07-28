@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:earth_crystal_oak_tree",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:earth_crystal_oak_tree"
+  }
+}

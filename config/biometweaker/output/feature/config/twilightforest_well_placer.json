@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:well_placer",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "twilightforest:fancy_well",
+          "chance": 0.05
+        }
+      ],
+      "default": "twilightforest:simple_well"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

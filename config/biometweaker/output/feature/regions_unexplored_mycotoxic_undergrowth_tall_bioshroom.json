@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:mycotoxic_undergrowth_tall_bioshroom",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_tall_yellow_bioshroom",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "silentgear:slingshot_projectile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "silentgear:entities/slingshot_projectile",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

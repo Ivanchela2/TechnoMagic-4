@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:fancy_well",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:fancy_well"
+  }
+}

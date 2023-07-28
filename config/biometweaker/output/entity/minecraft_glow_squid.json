@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:glow_squid",
+  "category": "UNDERGROUND_WATER_CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/glow_squid",
+  "size": {
+    "height": 0.8,
+    "width": 0.8,
+    "fixed": false
+  }
+}

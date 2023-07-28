@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "farmersrespite:patch_wild_tea_bush",
+  "worldgen/placed_feature": {
+    "feature": "farmersrespite:patch_wild_tea_bush",
+    "placement": [
+      {
+        "chance": 1,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "biome_tag": "minecraft:is_overworld",
+        "type": "farmersdelight:biome_tag"
+      }
+    ]
+  }
+}

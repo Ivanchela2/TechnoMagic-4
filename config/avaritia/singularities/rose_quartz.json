@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.rose_quartz",
+  "colors": [
+    "ff3686",
+    "ffa9bc"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  }
+}

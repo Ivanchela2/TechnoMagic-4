@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "ad_astra:mars",
+  "dimension": {
+    "type": "ad_astra:mars",
+    "generator": {
+      "biome_source": {
+        "biomes": [
+          {
+            "parameters": {
+              "erosion": 0.0,
+              "depth": 0.0,
+              "weirdness": 0.0,
+              "offset": 0.175,
+              "temperature": -0.5,
+              "humidity": 0.0,
+              "continentalness": 0.0
+            },
+            "biome": "ad_astra:martian_wastelands"
+          },
+          {
+            "parameters": {
+              "erosion": 0.0,
+              "depth": 0.0,
+              "weirdness": -0.25,
+              "offset": 0.0,
+              "temperature": -0.5,
+              "humidity": 0.0,
+              "continentalness": 0.0
+            },
+            "biome": "ad_astra:martian_canyon_creek"
+          },
+          {
+            "parameters": {
+              "erosion": 0.0,
+              "depth": 0.0,
+              "weirdness": -0.5,
+              "offset": 0.0,
+              "temperature": -0.5,
+              "humidity": 0.0,
+              "continentalness": 0.0
+            },
+            "biome": "ad_astra:martian_polar_caps"
+          }
+        ],
+        "type": "minecraft:multi_noise"
+      },
+      "settings": "ad_astra:mars",
+      "type": "minecraft:noise"
+    }
+  }
+}

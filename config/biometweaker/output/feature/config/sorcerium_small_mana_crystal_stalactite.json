@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:small_mana_crystal_stalactite",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:small_mana_crystal_stalactite"
+  }
+}

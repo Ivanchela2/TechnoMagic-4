@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "minecraft:blackstone_blobs",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:netherrack"
+      },
+      "state": {
+        "Name": "minecraft:blackstone"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 7
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

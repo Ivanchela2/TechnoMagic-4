@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "forbidden_arcanus:edelwood",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "forbidden_arcanus:edelwood"
+  }
+}

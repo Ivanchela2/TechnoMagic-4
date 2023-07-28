@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create:crafting_blueprint",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "create:entities/crafting_blueprint",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

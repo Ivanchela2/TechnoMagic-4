@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "rottencreatures:dead_beard",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "rottencreatures:entities/dead_beard",
+  "size": {
+    "height": 2.05,
+    "width": 1.0,
+    "fixed": false
+  }
+}

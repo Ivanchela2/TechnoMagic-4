@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:patch_sugar_cane_desert",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_sugar_cane",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

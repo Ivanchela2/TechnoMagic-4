@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "aquamirae:captain_cornelia",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "aquamirae:entities/captain_cornelia",
+  "size": {
+    "height": 2.3,
+    "width": 0.6,
+    "fixed": false
+  }
+}

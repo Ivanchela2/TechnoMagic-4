@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:prismachasm_sprout",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_prismoss_sprout",
+    "placement": [
+      {
+        "count": 25,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "minecraft:ore_blackstone",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:blackstone"
+          }
+        }
+      ],
+      "size": 33,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

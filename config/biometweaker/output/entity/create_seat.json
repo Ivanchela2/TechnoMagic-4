@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create:seat",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "create:entities/seat",
+  "size": {
+    "height": 0.35,
+    "width": 0.25,
+    "fixed": false
+  }
+}

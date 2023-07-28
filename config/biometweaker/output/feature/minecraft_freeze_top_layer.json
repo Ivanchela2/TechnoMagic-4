@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:freeze_top_layer",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:freeze_top_layer",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

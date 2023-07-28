@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:spruce_earth_crystal",
+  "worldgen/placed_feature": {
+    "feature": "sorcerium:spruce_earth_crystal",
+    "placement": []
+  }
+}

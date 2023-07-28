@@ -1,0 +1,16 @@
+{
+	id: "76FF7D33925025AE"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "create:andesite_alloy" }
+		{ item: "create:zinc_ingot" }
+		{ item: "extendedgears:oak_cogwheel" }
+		{ item: "extendedgears:large_oak_cogwheel" }
+		{ item: "create:polished_rose_quartz" }
+		{ item: "create:sweet_roll" }
+		{ item: "create_central_kitchen:pumpkin_pie_slice" }
+		{ item: "createaddition:chocolate_cake" }
+	]
+	title: "create"
+}

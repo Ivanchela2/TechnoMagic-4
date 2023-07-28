@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:grove_ruins",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:grove_ruins"
+  }
+}

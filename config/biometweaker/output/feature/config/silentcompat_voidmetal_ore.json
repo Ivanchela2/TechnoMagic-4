@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "silentcompat:voidmetal_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentcompat:voidmetal_ore"
+          }
+        }
+      ],
+      "size": 4,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

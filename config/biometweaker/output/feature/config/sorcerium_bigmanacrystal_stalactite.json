@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:bigmanacrystal_stalactite",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:bigmanacrystal_stalactite"
+  }
+}

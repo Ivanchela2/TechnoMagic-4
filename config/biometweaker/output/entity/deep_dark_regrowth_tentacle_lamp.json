@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "deep_dark_regrowth:tentacle_lamp",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 16,
+  "update_interval": 3,
+  "defaul_loot_table": "deep_dark_regrowth:entities/tentacle_lamp",
+  "size": {
+    "height": 4.0,
+    "width": 0.8,
+    "fixed": false
+  }
+}

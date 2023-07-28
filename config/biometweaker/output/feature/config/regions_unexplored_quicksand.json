@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "regions_unexplored:quicksand",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "regions_unexplored:sands",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "regions_unexplored:quicksand"
+          }
+        }
+      ],
+      "size": 32,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

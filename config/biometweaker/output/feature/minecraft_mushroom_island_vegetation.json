@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:mushroom_island_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:mushroom_island_vegetation",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:hanging_prismarite_cluster",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:hanging_prismarite"
+  }
+}

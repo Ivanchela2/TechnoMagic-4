@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "rootsclassic:phantom_skeleton",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 6,
+  "update_interval": 3,
+  "defaul_loot_table": "rootsclassic:entities/phantom_skeleton",
+  "size": {
+    "height": 1.99,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:the_sculk_heart",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deep_dark_regrowth:the_sculk_heart"
+  }
+}

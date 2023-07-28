@@ -1,0 +1,9 @@
+
+["food effects tooltip"]
+	#Use Lists as Whitelists instead.
+	whitelistInstead = false
+	#Blacklisted Item.
+	blacklistItems = ["modid:testitem"]
+	#Blacklisted Mod IDs.
+	blacklistModsIDs = ["modid"]
+

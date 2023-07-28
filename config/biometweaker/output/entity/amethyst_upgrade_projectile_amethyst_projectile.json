@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "amethyst_upgrade:projectile_amethyst_projectile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 1,
+  "defaul_loot_table": "amethyst_upgrade:entities/projectile_amethyst_projectile",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

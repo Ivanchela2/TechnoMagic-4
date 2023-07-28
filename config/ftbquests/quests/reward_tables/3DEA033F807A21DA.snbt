@@ -1,0 +1,174 @@
+{
+	empty_weight: 10.0f
+	hide_tooltip: true
+	id: "3DEA033F807A21DA"
+	loot_crate: {
+		color: 15073535
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "▹ Сингулярный Ящик ◃"
+		string_id: "singularity_crate"
+	}
+	loot_size: 17
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:amethyst"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:calorite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:dark_matter"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:depth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:etherium"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:experience"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:fiery_blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:gribony"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:knight_metal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:tyrian_steel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:precision_mechanism"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:rose_quartz"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:soul_steel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:steel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:terrasteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:neutronium"
+				}
+			}
+		}
+	]
+	title: "&d ▹ Сингулярный Ящик ◃"
+	use_title: true
+}

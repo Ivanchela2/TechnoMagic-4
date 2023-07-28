@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:prairie_barley",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_barley",
+    "placement": [
+      {
+        "chance": 4,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

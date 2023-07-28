@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "gardens_of_the_dead:soulblight_fungus_planted",
+  "worldgen/configured_feature": {
+    "config": {
+      "valid_base_block": {
+        "Name": "minecraft:soul_soil"
+      },
+      "stem_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "gardens_of_the_dead:soulblight_stem"
+      },
+      "hat_state": {
+        "Name": "gardens_of_the_dead:blightwart_block"
+      },
+      "planted": true
+    },
+    "type": "gardens_of_the_dead:soulblight_fungus"
+  }
+}

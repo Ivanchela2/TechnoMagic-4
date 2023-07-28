@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "regions_unexplored:lush_delta_azalea",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:lush_delta_azalea",
+    "placement": [
+      {
+        "count": 64,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:oak_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

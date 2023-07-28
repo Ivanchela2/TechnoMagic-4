@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:cobalt_earlight",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_cobalt_earlight",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

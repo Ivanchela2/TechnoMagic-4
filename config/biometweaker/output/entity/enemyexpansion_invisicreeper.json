@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:invisicreeper",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 0,
+  "update_interval": 3,
+  "defaul_loot_table": "enemyexpansion:entities/invisicreeper",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

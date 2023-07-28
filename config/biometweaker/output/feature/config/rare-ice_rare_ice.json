@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "rare-ice:rare_ice",
+  "worldgen/configured_feature": {
+    "config": {
+      "size": 20
+    },
+    "type": "rare-ice:rare_ice"
+  }
+}

@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "deep_dark_regrowth:fluorescent_moss",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:fluorescent_moss",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": -10
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

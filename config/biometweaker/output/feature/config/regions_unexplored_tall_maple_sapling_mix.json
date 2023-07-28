@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "regions_unexplored:tall_maple_sapling_mix",
+  "worldgen/configured_feature": {
+    "config": {
+      "sapling_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "half": "lower"
+              },
+              "Name": "regions_unexplored:tall_maple_sapling"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Properties": {
+                "half": "lower"
+              },
+              "Name": "regions_unexplored:tall_red_maple_sapling"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "regions_unexplored:tall_sapling"
+  }
+}

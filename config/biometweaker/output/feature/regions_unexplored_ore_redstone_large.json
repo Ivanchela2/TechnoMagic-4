@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "regions_unexplored:ore_redstone_large",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:ore_redstone_large",
+    "placement": [
+      {
+        "count": 16,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 112
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

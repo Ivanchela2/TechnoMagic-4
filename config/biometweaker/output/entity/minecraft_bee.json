@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:bee",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/bee",
+  "size": {
+    "height": 0.6,
+    "width": 0.7,
+    "fixed": false
+  }
+}

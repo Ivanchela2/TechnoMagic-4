@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "minecraft:ore_ancient_debris_large",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ore_ancient_debris_large",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 8
+          },
+          "max_inclusive": {
+            "absolute": 24
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

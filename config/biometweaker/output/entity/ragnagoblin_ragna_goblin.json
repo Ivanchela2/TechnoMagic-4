@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "ragnagoblin:ragna_goblin",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "ragnagoblin:entities/ragna_goblin",
+  "size": {
+    "height": 1.0,
+    "width": 0.5,
+    "fixed": false
+  }
+}

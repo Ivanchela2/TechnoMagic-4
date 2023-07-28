@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:wither_missile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "cataclysm:entities/wither_missile",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

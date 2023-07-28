@@ -1,0 +1,251 @@
+
+{
+  "registry_name": "twilightforest:twilight_forest",
+  "dimension": {
+    "type": "twilightforest:twilight_forest_type",
+    "generator": {
+      "noise_generation_settings": "twilightforest:twilight_noise_gen",
+      "generate_dark_forest_canopy": true,
+      "dark_forest_canopy_height": 19,
+      "landmark_placement_allowed_biomes": {
+        "twilightforest:dark_forest": [
+          "knight_stronghold"
+        ],
+        "twilightforest:dark_forest_center": [
+          "dark_tower"
+        ],
+        "twilightforest:enchanted_forest": [
+          "quest_grove"
+        ],
+        "twilightforest:final_plateau": [
+          "final_castle"
+        ],
+        "twilightforest:fire_swamp": [
+          "hydra_lair"
+        ],
+        "twilightforest:glacier": [
+          "ice_tower"
+        ],
+        "twilightforest:highlands": [
+          "troll_lairs"
+        ],
+        "twilightforest:snowy_forest": [
+          "yeti_lairs"
+        ],
+        "twilightforest:swamp": [
+          "labyrinth"
+        ]
+      },
+      "wrapped_generator": {
+        "biome_source": {
+          "biome_landscape": [
+            {
+              "key_biome": "twilightforest:dense_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:dense_forest"
+              },
+              "depth": 0.1,
+              "scale": 0.2
+            },
+            {
+              "key_biome": "twilightforest:final_plateau",
+              "biome_layers": {
+                "0.0": "twilightforest:final_plateau"
+              },
+              "depth": 13.75,
+              "scale": 0.025
+            },
+            {
+              "key_biome": "twilightforest:forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:forest"
+              },
+              "depth": 0.025,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:dark_forest_center",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:dark_forest_center"
+              },
+              "depth": 0.025,
+              "scale": 0.005
+            },
+            {
+              "key_biome": "twilightforest:swamp",
+              "biome_layers": {
+                "-3.9": "twilightforest:underground",
+                "-1.9": "twilightforest:swamp"
+              },
+              "depth": -0.9,
+              "scale": 0.15
+            },
+            {
+              "key_biome": "twilightforest:snowy_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:snowy_forest"
+              },
+              "depth": 0.05,
+              "scale": 0.15
+            },
+            {
+              "key_biome": "twilightforest:mushroom_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:mushroom_forest"
+              },
+              "depth": 0.025,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:oak_savannah",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:oak_savannah"
+              },
+              "depth": 0.05,
+              "scale": 0.1
+            },
+            {
+              "key_biome": "twilightforest:spooky_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:spooky_forest"
+              },
+              "depth": 0.025,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:fire_swamp",
+              "biome_layers": {
+                "-3.2": "twilightforest:underground",
+                "-1.2": "twilightforest:fire_swamp"
+              },
+              "depth": -0.2,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:lake",
+              "biome_layers": {
+                "-4.9700003": "twilightforest:underground",
+                "-2.97": "twilightforest:lake"
+              },
+              "depth": -1.97,
+              "scale": 0.0
+            },
+            {
+              "key_biome": "twilightforest:thornlands",
+              "biome_layers": {
+                "0.0": "twilightforest:thornlands"
+              },
+              "depth": 7.0,
+              "scale": 0.1
+            },
+            {
+              "key_biome": "twilightforest:highlands",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:highlands"
+              },
+              "depth": 3.0,
+              "scale": 0.25
+            },
+            {
+              "key_biome": "twilightforest:firefly_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:firefly_forest"
+              },
+              "depth": 0.0625,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:dense_mushroom_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:dense_mushroom_forest"
+              },
+              "depth": 0.05,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:stream",
+              "biome_layers": {
+                "-4.65": "twilightforest:underground",
+                "-2.65": "twilightforest:stream"
+              },
+              "depth": -1.65,
+              "scale": 0.25
+            },
+            {
+              "key_biome": "twilightforest:enchanted_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:enchanted_forest"
+              },
+              "depth": 0.025,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:dark_forest",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:dark_forest"
+              },
+              "depth": 0.025,
+              "scale": 0.005
+            },
+            {
+              "key_biome": "twilightforest:glacier",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:glacier"
+              },
+              "depth": 0.025,
+              "scale": 0.05
+            },
+            {
+              "key_biome": "twilightforest:clearing",
+              "biome_layers": {
+                "-3.0": "twilightforest:underground",
+                "-1.0": "twilightforest:clearing"
+              },
+              "depth": 0.005,
+              "scale": 0.005
+            }
+          ],
+          "base_offset": -1.25,
+          "base_factor": 2.5,
+          "seed": -7426928625752642321,
+          "underground_biome": "twilightforest:underground",
+          "type": "twilightforest:twilight_biomes"
+        },
+        "settings": "twilightforest:twilight_noise_gen",
+        "type": "minecraft:noise"
+      },
+      "structures_placements": [
+        "twilightforest:hedge_maze",
+        "twilightforest:quest_grove",
+        "twilightforest:mushroom_tower",
+        "twilightforest:small_hollow_hill",
+        "twilightforest:medium_hollow_hill",
+        "twilightforest:large_hollow_hill",
+        "twilightforest:naga_courtyard",
+        "twilightforest:lich_tower",
+        "twilightforest:labyrinth",
+        "twilightforest:hydra_lair",
+        "twilightforest:knight_stronghold",
+        "twilightforest:dark_tower",
+        "twilightforest:yeti_cave",
+        "twilightforest:aurora_palace",
+        "twilightforest:troll_cave",
+        "twilightforest:final_castle"
+      ],
+      "type": "twilightforest:structure_locating_wrapper"
+    }
+  }
+}

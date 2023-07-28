@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:hoglin",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/hoglin",
+  "size": {
+    "height": 1.4,
+    "width": 1.3964844,
+    "fixed": false
+  }
+}

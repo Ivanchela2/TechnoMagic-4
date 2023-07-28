@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "regions_unexplored:patch_seagrass",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.6
+    },
+    "type": "minecraft:seagrass"
+  }
+}

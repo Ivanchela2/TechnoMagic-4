@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:lich_minion",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/lich_minion",
+  "size": {
+    "height": 1.95,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:iceberg_packed",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:iceberg_packed",
+    "placement": [
+      {
+        "chance": 16,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

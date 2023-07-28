@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:ancient_fossil",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deep_dark_regrowth:ancient_fossil"
+  }
+}

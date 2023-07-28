@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:elder_guardian",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/elder_guardian",
+  "size": {
+    "height": 1.9975,
+    "width": 1.9975,
+    "fixed": false
+  }
+}

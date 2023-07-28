@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:gnumus_ruins",
+  "worldgen/placed_feature": {
+    "feature": "gnumus:gnumus_ruins",
+    "placement": []
+  }
+}

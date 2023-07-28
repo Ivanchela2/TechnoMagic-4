@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:magic_missile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 2,
+  "defaul_loot_table": "botania:entities/magic_missile",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

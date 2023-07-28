@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "regions_unexplored:magma_delta",
+  "worldgen/configured_feature": {
+    "config": {
+      "contents": {
+        "Name": "minecraft:magma_block"
+      },
+      "rim": {
+        "Name": "minecraft:obsidian"
+      },
+      "size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 7,
+          "max_inclusive": 8
+        }
+      },
+      "rim_size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
+    },
+    "type": "minecraft:delta_feature"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "dummmmmmy:target_dummy",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "dummmmmmy:entities/target_dummy",
+  "size": {
+    "height": 2.0,
+    "width": 0.6,
+    "fixed": false
+  }
+}

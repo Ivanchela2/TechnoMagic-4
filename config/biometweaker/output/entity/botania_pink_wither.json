@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:pink_wither",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 3,
+  "defaul_loot_table": "botania:entities/pink_wither",
+  "size": {
+    "height": 3.5,
+    "width": 0.9,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:goblin_fear",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 1,
+  "update_interval": 3,
+  "defaul_loot_table": "enemyexpansion:entities/goblin_fear",
+  "size": {
+    "height": 0.01,
+    "width": 0.01,
+    "fixed": false
+  }
+}

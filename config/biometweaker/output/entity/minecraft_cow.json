@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:cow",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/cow",
+  "size": {
+    "height": 1.4,
+    "width": 0.9,
+    "fixed": false
+  }
+}

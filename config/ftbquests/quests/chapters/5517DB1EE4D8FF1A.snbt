@@ -1,0 +1,3633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5517DB1EE4D8FF1A"
+	group: "1D0E618C92EE8561"
+	icon: "ae2:controller"
+	id: "5517DB1EE4D8FF1A"
+	order_index: 1
+	quest_links: [
+		{
+			id: "51EE4CDEEA79CEFF"
+			linked_quest: "51FE3C9431CEAFA6"
+			shape: "hexagon"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "02AFC8E7C2E3664D"
+			linked_quest: "5B923987601DBFE8"
+			x: -0.5d
+			y: 5.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["4735BEF35A0ACF06"]
+			id: "3CD0CFB73FD947D9"
+			rewards: [{
+				id: "7BA9AB2475145A1A"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "475BC9FC6742C49A"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3CD0CFB73FD947D9"]
+			id: "6D3141B419D6E4CE"
+			rewards: [{
+				id: "2DC812FD50D5D37A"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F8083869295B225"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D3141B419D6E4CE"]
+			id: "1107511401574F35"
+			rewards: [{
+				id: "1FB6FF8A868D8FE2"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C7E04FF66907112"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1107511401574F35"]
+			id: "6A4B8803076D0E17"
+			rewards: [{
+				id: "3C38DA0895D380E6"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C3A64FF5B064590"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			id: "502A3D7786BECD6E"
+			rewards: [{
+				id: "755CC3DA0ADD1CE7"
+				item: "sophisticatedstorage:shulker_box"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "76C5ADA41A46B0AB"
+				item: "sophisticatedstorage:shulker_box"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["502A3D7786BECD6E"]
+			id: "226FE2ADAD485917"
+			rewards: [{
+				id: "715C3751FC0E6F99"
+				item: "sophisticatedstorage:iron_shulker_box"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E29C67A3283E83"
+				item: "sophisticatedstorage:iron_shulker_box"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["226FE2ADAD485917"]
+			id: "386B2DBDC7E670AC"
+			rewards: [{
+				id: "56726D69FFC4BFD3"
+				item: "sophisticatedstorage:gold_shulker_box"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "08255FF83BFB653E"
+				item: "sophisticatedstorage:gold_shulker_box"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["386B2DBDC7E670AC"]
+			id: "5965380BD210242E"
+			rewards: [{
+				id: "6918B3AF6FBD902F"
+				item: "sophisticatedstorage:diamond_shulker_box"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "500C85B4F3F61CB4"
+				item: "sophisticatedstorage:diamond_shulker_box"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5965380BD210242E"]
+			id: "68AF5C45B1C33C4B"
+			rewards: [{
+				id: "088F8DB28E268D67"
+				item: "sophisticatedstorage:netherite_shulker_box"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "741642BD155DEB43"
+				item: "sophisticatedstorage:netherite_shulker_box"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ED7EECAB7CC1D44"]
+			id: "3927C57C3293792B"
+			rewards: [{
+				id: "6D8167D543126EBE"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC5D02BFC1931E1"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3927C57C3293792B"]
+			id: "27388A7FCAE6B09F"
+			rewards: [{
+				id: "1D8053679A59C86E"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A84C5A60CABF085"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27388A7FCAE6B09F"]
+			id: "7C1389BC788A5DBE"
+			rewards: [{
+				id: "3B127DB869601DD4"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "59752026EAE34E4B"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C1389BC788A5DBE"]
+			id: "27C1866EB0EC0909"
+			rewards: [{
+				id: "6CF40B93802AC102"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "42D438EDE0B184F9"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4DD7AB38DF664130"
+				"3C6624111A411B97"
+				"758CA053B018B926"
+			]
+			description: ["Перемещает предметы сквозь измерения, не требуя ничего взамен"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0264B37D34C087BA"
+			rewards: [{
+				count: 7
+				id: "7A3740D33206286A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5EB40C6D2EE177AE"
+				item: "dimstorage:dimensional_chest"
+				type: "item"
+			}]
+			x: -10.435034013605417d
+			y: 4.720068027210893d
+		}
+		{
+			dependencies: ["3A6C46994552C0A4"]
+			description: ["Позволяет просмотреть содержимое определённой ачейки"]
+			id: "07F2B12E07BC474A"
+			rewards: [{
+				id: "4EF8CE8992BD89C3"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BFD24D8DFDE26BF"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5B923987601DBFE8"
+				"3D95D4CD24EDEFF7"
+			]
+			description: ["Сердце вашей мэ-системы"]
+			id: "01F8FC11A4BD3AA2"
+			rewards: [{
+				id: "58712B1678CD366D"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F12DCFEAF50708A"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4DD7AB38DF664130"
+				"3C6624111A411B97"
+				"758CA053B018B926"
+			]
+			description: ["Может перемещать воду через измерения, имея бесконечный источник воды"]
+			hide_dependency_lines: true
+			id: "3789267EB687F4F7"
+			rewards: [{
+				count: 3
+				id: "678EFF3A247B8581"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1ED277D5C25199A9"
+				item: "dimstorage:dimensional_tank"
+				type: "item"
+			}]
+			x: -11.935034013605417d
+			y: 4.720068027210893d
+		}
+		{
+			dependencies: [
+				"4DD7AB38DF664130"
+				"3C6624111A411B97"
+				"758CA053B018B926"
+			]
+			description: ["Предоставляет доступ к сундуку измерений"]
+			hide_dependency_lines: true
+			id: "2267383041531FE9"
+			rewards: [{
+				count: 32
+				id: "10976C0C75FA5F8C"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1A7BC8AA1D226F55"
+				item: {
+					Count: 1b
+					id: "dimstorage:dimensional_tablet"
+					tag: {
+						autocollect: 1b
+						bound: 1b
+						frequency: {
+							channel: 1
+							ownerText: "public"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.185034013605417d
+			y: 5.470068027210893d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "27DA9116DA9B879A"
+			invisible: true
+			tasks: [{
+				id: "2FB213485086C82A"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E5A4DBB268ED773"]
+			id: "52EF1F32A626EA4D"
+			invisible: true
+			tasks: [{
+				id: "1E5A4DBB268ED773"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "1B9D6F3DCB903CB7"
+			invisible: true
+			tasks: [{
+				id: "69D8E4C5F6957C78"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69D8E4C5F6957C78"]
+			id: "55801F4C0F67AD1C"
+			invisible: true
+			tasks: [{
+				id: "6A9FF2C183916438"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "7402FD539C8F20BC"
+			invisible: true
+			tasks: [{
+				id: "65430D1697E3488A"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65430D1697E3488A"]
+			id: "7ED2C2F46475967E"
+			invisible: true
+			tasks: [{
+				id: "7874958B6B914267"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "1C1FEDEB75A3D9B4"
+			invisible: true
+			tasks: [{
+				id: "41B1AFC7D6B97C53"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41B1AFC7D6B97C53"]
+			id: "48F8680E395C22D2"
+			invisible: true
+			tasks: [{
+				id: "1E09D77F5F650ECE"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "359C206C3A32CB32"
+			invisible: true
+			tasks: [{
+				id: "34CFA6EB5BCBDA6F"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B50F314BA1783AC"]
+			id: "6E112C219E0744D6"
+			invisible: true
+			tasks: [{
+				id: "12C3D42706B8E918"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51FE3C9431CEAFA6"]
+			description: ["Установите контроллер на землю и расставьте 6 стабилизаторов направленные на кристалическую матрицу."]
+			id: "41758D3112569FA1"
+			rewards: [{
+				id: "1B0B5098D5E8C31E"
+				item: {
+					Count: 1b
+					id: "occultism:satchel"
+					tag: {
+						spiritName: "Ulfsirlynd"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Оснавная часть данного хранилища."
+			tasks: [{
+				id: "44192D8FD1C49BD5"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41758D3112569FA1"]
+			id: "44F6C434920B26B6"
+			rewards: [{
+				id: "09EC873EA8B0345D"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Беспроводной терминал кристального хранилища."
+			tasks: [{
+				id: "48A209D4C240E61B"
+				item: "occultism:storage_remote_inert"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "4F9B28E4E31DD2F3"
+			invisible: true
+			tasks: [{
+				id: "219A8CDBD2684184"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["219A8CDBD2684184"]
+			id: "0D820FA5B01D8426"
+			invisible: true
+			tasks: [{
+				id: "47AA52A57F10F50A"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "5469718A2CB6E190"
+			invisible: true
+			tasks: [{
+				id: "5E34298F38066229"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44F6C434920B26B6"]
+			id: "18ED56A616170C81"
+			rewards: [{
+				count: 4
+				id: "6CDD1250D96852C2"
+				item: {
+					Count: 1b
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Терминал позволяющий пользоваться данным хранилищем во всех измерениях."
+			tasks: [{
+				id: "45056E45DFA3F479"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E34298F38066229"]
+			id: "4C433F338D52A7E3"
+			invisible: true
+			tasks: [{
+				id: "288AD443041FA73B"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "2E389582114D1EFA"
+			invisible: true
+			tasks: [{
+				id: "5810EDBEA5EDA62F"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5810EDBEA5EDA62F"]
+			id: "5BB5AA820B391374"
+			invisible: true
+			tasks: [{
+				id: "25CEEBED64972808"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "226172CE2B2C4A3A"
+			invisible: true
+			tasks: [{
+				id: "327B3D1171F9D71C"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["327B3D1171F9D71C"]
+			id: "3A365F5EB551D629"
+			invisible: true
+			tasks: [{
+				id: "5136DA96FAF035C7"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51FE3C9431CEAFA6"]
+			id: "507B0D8C243D5ED8"
+			rewards: [{
+				id: "15C0791F0CA1A0A4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Позволяет добавить 256 типов предметов в кристальное хранилище."
+			tasks: [{
+				id: "2F03A4B320D916C9"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["507B0D8C243D5ED8"]
+			id: "1C6647E5DA53588F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6373FC00B69A3DED"
+				table_id: 8426232739861285635L
+				type: "random"
+			}]
+			subtitle: "Позволяет добавить 512 типов предметов в кристальное хранилище."
+			tasks: [{
+				id: "25C857F8C19D9BD3"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "582D9DEBBD3C3AC5"
+			invisible: true
+			tasks: [{
+				id: "7ACF96E769E1F5B2"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C6647E5DA53588F"]
+			id: "4EA6D72665207C56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "460CA552E8F4548A"
+				table_id: 8426232739861285635L
+				type: "random"
+			}]
+			subtitle: "Позволяет добавить 1024 типов предметов в кристальное хранилище."
+			tasks: [{
+				id: "6C0430E949A8B43B"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "3712F0D9E2A753DF"
+			invisible: true
+			tasks: [{
+				id: "03460BDBDCB261B1"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["03460BDBDCB261B1"]
+			id: "04780715CDE77608"
+			invisible: true
+			tasks: [{
+				id: "2C7877F960AF7B28"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EA6D72665207C56"]
+			id: "70A962748590664D"
+			rewards: [
+				{
+					count: 8
+					id: "7D7FC0C1E9B844A5"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D86C4302CAD427F"
+					table_id: 8426232739861285635L
+					type: "random"
+				}
+			]
+			subtitle: "Позволяет добавить 2048 типов предметов в кристальное хранилище."
+			tasks: [{
+				id: "0979F357DDC89940"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C7877F960AF7B28"]
+			id: "6294B22E963A1AF5"
+			invisible: true
+			tasks: [{
+				id: "0F041F5B03730D33"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "424D76A114173378"
+			invisible: true
+			tasks: [{
+				id: "7A9275136D73E5BA"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "6426D3AF44D58696"
+			invisible: true
+			tasks: [{
+				id: "78FEEE70A28C55D6"
+				item: "sophisticatedstorage:pump_upgrade"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78FEEE70A28C55D6"]
+			id: "2E2201629AF458E4"
+			invisible: true
+			tasks: [{
+				id: "5CA984C759526C21"
+				item: "sophisticatedstorage:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CA984C759526C21"]
+			id: "73B96D216DE12F31"
+			invisible: true
+			tasks: [{
+				id: "495058F14EAD7A21"
+				item: "sophisticatedstorage:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "4CB17C315FA3DCF8"
+			invisible: true
+			tasks: [{
+				id: "7B50F314BA1783AC"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "3BA342E5ED874AF0"
+			invisible: true
+			tasks: [{
+				id: "4D21B5AF014450B3"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D21B5AF014450B3"]
+			id: "03C3C6782494BD8F"
+			invisible: true
+			tasks: [{
+				id: "432A78BE2A191C21"
+				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7942B6D2D2D2663F"
+			tasks: [{
+				id: "0120E35285CF23EF"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7942B6D2D2D2663F"]
+			hide_dependency_lines: true
+			id: "1183E063536D52A8"
+			tasks: [{
+				id: "5D35B0C5F787C2CF"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1183E063536D52A8"]
+			hide_dependency_lines: true
+			id: "1B6298CC970373CC"
+			tasks: [{
+				id: "617F5783F0BE4F7A"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11B286D3C7C8770E"]
+			hide_dependency_lines: true
+			id: "12161F356B582BCF"
+			tasks: [{
+				id: "6059D2A3A63DD12B"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "4EC095E2A4E765EE"
+			invisible: true
+			tasks: [{
+				id: "095AFABD18F3B1BB"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Улучшение \"Сбор\""
+			x: -22.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12161F356B582BCF"]
+			hide_dependency_lines: true
+			id: "0A44A10667F4D2D3"
+			tasks: [{
+				id: "04D2A8EC220B71BF"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6298CC970373CC"]
+			hide_dependency_lines: true
+			id: "11B286D3C7C8770E"
+			tasks: [{
+				id: "6E5E7EA3816C025D"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 7.0d
+		}
+		{
+			id: "269813405F3B5046"
+			rewards: [{
+				count: 4
+				id: "0FDC8209349D5B72"
+				item: "minecraft:leather"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "051121C7F1CC9F0E"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["269813405F3B5046"]
+			id: "6F3ED172708F95C7"
+			rewards: [
+				{
+					count: 16
+					id: "147BC1EEB1297A7C"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53868B7CCEA191DC"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23676029107AD066"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6F3ED172708F95C7"]
+			id: "0EAD36DB2E644000"
+			rewards: [
+				{
+					id: "726B90B797EE527F"
+					item: "minecraft:piglin_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "5285CCB74DE67382"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01DDD130A877CC49"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EAD36DB2E644000"]
+			id: "598830A8467F6D97"
+			rewards: [
+				{
+					id: "279F7368E95ED09F"
+					item: "minecraft:yellow_shulker_box"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "50E60D6ABF9B2BEA"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EE07AF4514C6E4A"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["598830A8467F6D97"]
+			id: "04B7DDBA6E340A63"
+			rewards: [
+				{
+					id: "6CCED3E13DF21DB0"
+					item: "minecraft:gold_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A3E4E8974C97F2D"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32AA75F702AB261C"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4735BEF35A0ACF06"
+			rewards: [{
+				id: "0B2A2742E5A8CDFB"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "510E1FFFECCB6001"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7ED7EECAB7CC1D44"
+			rewards: [{
+				id: "130769469C1ACB01"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F42CEE1085A8C70"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EC095E2A4E765EE"]
+			hide_dependency_lines: true
+			id: "76CD5EBDA90621B7"
+			invisible: true
+			tasks: [{
+				id: "6702B0E68EA2CC0E"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "679B0D1400D798B7"
+			invisible: true
+			tasks: [{
+				id: "05E60F29336AA029"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05E60F29336AA029"]
+			id: "5FBDED711BA7B5A6"
+			invisible: true
+			tasks: [{
+				id: "1FC9313901719BBA"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79D9C8C137C0D919"]
+			id: "38BD05D6076F294A"
+			invisible: true
+			tasks: [{
+				id: "01B33C3F57213BB1"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "7ADB245300C5074C"
+			invisible: true
+			tasks: [{
+				id: "79D9C8C137C0D919"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "3AC99A6C5A933876"
+			invisible: true
+			tasks: [{
+				id: "37914DC3E6C19F16"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["37914DC3E6C19F16"]
+			id: "0D9E19BDAF9513FF"
+			invisible: true
+			tasks: [{
+				id: "37C4D1530C7F4B71"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "558B0BAE3A27B028"
+			invisible: true
+			tasks: [{
+				id: "24AB18920CB59A37"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["24AB18920CB59A37"]
+			hide_dependency_lines: true
+			id: "210C0EB89F870EEF"
+			invisible: true
+			tasks: [{
+				id: "578B20743E23D0D9"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "77A50ECB948949AC"
+			invisible: true
+			tasks: [{
+				id: "3839165A905EC471"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3839165A905EC471"]
+			id: "6D62792EFDB5CD23"
+			invisible: true
+			tasks: [{
+				id: "0304E2BBDEB28B64"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "5A328643E5070FF5"
+			invisible: true
+			tasks: [{
+				id: "25BB126175D81A08"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25BB126175D81A08"]
+			dependency_requirement: "one_completed"
+			id: "04D5281B7E5C7A7F"
+			invisible: true
+			tasks: [{
+				id: "443579E86ABA8737"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6154794D7E547C88"]
+			id: "33C0D47EB3C61A1F"
+			invisible: true
+			tasks: [{
+				id: "4F4CA929D1DD1E78"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "2AE4BDA21A7FDB41"
+			invisible: true
+			tasks: [{
+				id: "0CA24F6C0C74C806"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "64366AF06E011349"
+			invisible: true
+			tasks: [{
+				id: "12EB8872937A7550"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["521EFCD6B4ACD336"]
+			id: "5E2AD141DA05CA2F"
+			invisible: true
+			tasks: [{
+				id: "59BEC46CEB5CFBDB"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "2A02030B36142416"
+			invisible: true
+			tasks: [{
+				id: "281C59437F1C9AC4"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "7C63D038F66FF0E2"
+			invisible: true
+			tasks: [{
+				id: "487BEB199E3B5E75"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["487BEB199E3B5E75"]
+			id: "369648F58C248416"
+			invisible: true
+			tasks: [{
+				id: "4804FE31F0DBC2C5"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "0A8FB8B39F4E9629"
+			invisible: true
+			tasks: [{
+				id: "545D3BF6AB298048"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["545D3BF6AB298048"]
+			id: "6D74A91FA65E4501"
+			invisible: true
+			tasks: [{
+				id: "01B6D90D8B16CACD"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["375D33F7EA98297A"]
+			id: "4E37485D30940F0B"
+			invisible: true
+			tasks: [{
+				id: "3CEA87FEE34878AF"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CEA87FEE34878AF"]
+			id: "6135D4421C96CD26"
+			invisible: true
+			tasks: [{
+				id: "0DE3127EADE677D7"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "38F4C6C99C042902"
+			invisible: true
+			tasks: [{
+				id: "7E44514A7487DF65"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "608AD31D92D07FD6"
+			invisible: true
+			tasks: [{
+				id: "1A001EA88C33D9B8"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "57AB70B7059B86E6"
+			invisible: true
+			tasks: [{
+				id: "521EFCD6B4ACD336"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["521EFCD6B4ACD336"]
+			id: "7C9838B4FF00ACB0"
+			invisible: true
+			tasks: [{
+				id: "6AE481BA44E55DE1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6AE481BA44E55DE1"]
+			id: "73BD331A54BE23E2"
+			invisible: true
+			tasks: [{
+				id: "4A89104380021C87"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A89104380021C87"]
+			id: "75A1FDE7A5085B4C"
+			invisible: true
+			tasks: [{
+				id: "525F5F54AADAF5B1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "3815B932D36C0568"
+			invisible: true
+			tasks: [{
+				id: "0E76B7A22EAB8295"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E76B7A22EAB8295"]
+			id: "708F60DA22663C6A"
+			invisible: true
+			tasks: [{
+				id: "439D4B19AD90FDAC"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "63C90CA99F2E449A"
+			invisible: true
+			tasks: [{
+				id: "2518DF0774A410B4"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "349FE69015C56279"
+			invisible: true
+			tasks: [{
+				id: "2E908B953903A276"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["09F3784A179C3705"]
+			id: "21387B9209F9506A"
+			invisible: true
+			tasks: [{
+				id: "08E320E211A687FE"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["08E320E211A687FE"]
+			id: "3AFAC11C39571417"
+			invisible: true
+			tasks: [{
+				id: "27CF688EE22836CE"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "139EAF9E9BBA8D23"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "6485F2256594F3A5"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "56FEFAE2FA19606B"
+			invisible: true
+			tasks: [{
+				id: "09F3784A179C3705"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["25AD335A29A79765"]
+			hide_dependency_lines: true
+			id: "0D7D79659098DFA3"
+			invisible: true
+			tasks: [{
+				id: "6154794D7E547C88"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["269813405F3B5046"]
+			hide_dependency_lines: true
+			id: "25AD335A29A79765"
+			tasks: [{
+				id: "375D33F7EA98297A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27C1866EB0EC0909"]
+			description: ["Подключает все сундуки которые стоят вместе в одно хранилище"]
+			hide_dependency_lines: true
+			id: "3EAA22517515E4A5"
+			rewards: [{
+				id: "5A8C4EF518527317"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DDB89385F4B44D"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3658D602EDB74FE6"]
+			description: ["Предоставляет возможность производить крафты внутри системы"]
+			id: "2A0E241DD873E25F"
+			rewards: [{
+				id: "2E57A0907D6042CB"
+				item: "minecraft:diamond_block"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CB32973947136DE"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EAA22517515E4A5"]
+			description: ["Позволяет работать с вещами в данной системе хранения"]
+			id: "3658D602EDB74FE6"
+			rewards: [{
+				count: 16
+				id: "0A6DFF5BC11817D7"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66666A7B5A8974D0"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D45BE7AC519B83A"]
+			description: ["Главное во всём что связано с ядрами"]
+			id: "758CA053B018B926"
+			rewards: [
+				{
+					id: "5EB06E0E4CC14625"
+					table_id: 6910744682423747065L
+					type: "random"
+				}
+				{
+					id: "5ABEC219CE48E710"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [{
+				id: "372881DA96FC4867"
+				item: "dimstorage:dim_core"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25A4EAB98B5899DD"]
+			description: ["Перед вами сама 4 стена, которую хочет сломать каждый"]
+			id: "3C6624111A411B97"
+			rewards: [{
+				count: 3
+				id: "1FCFD1F382AA86C9"
+				item: "dimstorage:dim_wall"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12CF8E36B6FF9960"
+				item: "dimstorage:dim_wall"
+				type: "item"
+			}]
+			x: -9.617176870748281d
+			y: 3.558163265306142d
+		}
+		{
+			dependencies: ["758CA053B018B926"]
+			description: ["Это тоже самое ядро, но оно стало надёжней"]
+			hide_dependency_lines: true
+			id: "4DD7AB38DF664130"
+			rewards: [{
+				count: 3
+				id: "0AB24B33FA8F8544"
+				item: "dimstorage:solid_dim_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7564BECCBCA2C658"
+				item: "dimstorage:solid_dim_core"
+				type: "item"
+			}]
+			x: -11.091836734693857d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EAA22517515E4A5"]
+			description: ["кабель он и в африке кабель"]
+			id: "4795C432434F4164"
+			rewards: [{
+				count: 30
+				id: "0DEB369709097B57"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "3E63A4D2945B6D34"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["241B063D64CEC25F"]
+			description: ["Подключает сундук с возможностью фильтра видимового в нём ресурса"]
+			id: "0827325BEAB6AD13"
+			rewards: [{
+				count: 3
+				id: "0AEF3B51DB08C150"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77FCDA6556D3A120"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4795C432434F4164"]
+			description: ["Позволяет подключить сундук удалёный от систимы"]
+			id: "241B063D64CEC25F"
+			rewards: [{
+				count: 8
+				id: "48CE3F8D3FA6BE53"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			tasks: [{
+				id: "497178D54280ADBC"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00C0F76A50604EF7"]
+			description: [
+				"Позволяет пользоваться терминалом в любой точке базы"
+				"Ограниченое действие работы"
+			]
+			id: "65259BEDAAE156E1"
+			rewards: [{
+				id: "41DF76209592FA43"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DCB575B1B3D0BAE"
+				item: {
+					Count: 1b
+					id: "toms_storage:ts.adv_wireless_terminal"
+					tag: {
+						BindDim: "minecraft:overworld"
+						BindX: 19
+						BindY: 8
+						BindZ: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EAA22517515E4A5"]
+			description: [
+				"Предоставляет достпу к терминалу на рассояние"
+				"Для работы наведитесь планшетом на терминал"
+				"Важно чтобы терминал был в зоне видимости планшета"
+				"Работает на ограниченом расстояние"
+			]
+			hide_dependency_lines: true
+			id: "00C0F76A50604EF7"
+			rewards: [{
+				count: 8
+				id: "11CCD85DB1FE012D"
+				item: "minecraft:blaze_powder"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "47928A780DC405B1"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			description: ["Хранит все диски с ресурсами и не только ресурсами"]
+			id: "4F3E0461DA1EB52F"
+			rewards: [{
+				id: "3F656E345369E585"
+				item: "ae2:item_cell_housing"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECF933B3B364862"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B86A502898A6439"]
+			description: ["Конвертирует энергию других модов для питания механизмов из ae2"]
+			id: "3D95D4CD24EDEFF7"
+			rewards: [{
+				id: "5E78003DEDED1CCA"
+				item: "ftbic:antimatter_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7093C664A07BFAC1"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3717A960E8DB96B7"
+				"5B923987601DBFE8"
+			]
+			description: ["Позволяет заряжать кристалы"]
+			hide: true
+			id: "634E1DF433409C38"
+			rewards: [
+				{
+					id: "176F90F0AF59F5FB"
+					item: "ae2:charged_certus_quartz_crystal"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 8
+					id: "30547B60935C89C5"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BCE8C113F51FAB4"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09B28E610AA919BE"]
+			description: ["Позволяет вам работать с шаблонами не подходя к механизмам"]
+			id: "7AC44D612C7E16F7"
+			rewards: [{
+				id: "5E9455616F43BE16"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA67242B94A00BE"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71E4DC92D552032E"]
+			description: ["Позволяет с помощью пустых шаблонов создавать шаблоны крафтов на любых механизмах "]
+			id: "7F622A1604488FE8"
+			rewards: [{
+				count: 4
+				id: "34B3390D9619924D"
+				item: "ae2:blank_pattern"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "416CBA32EEAE5F63"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["09B28E610AA919BE"]
+			description: ["Предостовляет доступ к вашим вещам в вашей системе"]
+			id: "3A6C46994552C0A4"
+			rewards: [{
+				id: "792878E241EA6FFC"
+				item: "minecraft:diamond_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "189BBB493D583833"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A6C46994552C0A4"]
+			description: ["Тот же самый терминал но только уже с возможностью крафтить"]
+			id: "71E4DC92D552032E"
+			rewards: [{
+				id: "074AB23CE4BA5B57"
+				item: "minecraft:emerald_block"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0707EC4BEBFBE78E"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C6DF140F2723152"]
+			description: ["Самая обыкновенная панелька не имеющаю никакого практического применения"]
+			id: "09B28E610AA919BE"
+			rewards: [{
+				id: "1EE53A5827ADF87F"
+				item: "ae2:crafting_monitor"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "282F878BCFDABF74"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C6DF140F2723152"]
+			description: ["Увеличивает скорость роста кристалов в воде"]
+			id: "659FDB2C331DA48A"
+			rewards: [{
+				id: "572455259CE923E9"
+				item: "ae2:fluix_crystal"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ADB802C6BD5A0B7"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4801B79E2585BA2A"]
+			description: ["Позволяет посмотреть потребление вашей мэ-системы ,и что в данный момент подключено к вашей системе"]
+			id: "5610E8C278BDA81F"
+			rewards: [{
+				id: "7CC66DF100D22935"
+				item: "alloyed:steel_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BEE53498499999E"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F3E0461DA1EB52F"]
+			description: ["Служит основой для создания всех кабелей "]
+			id: "4801B79E2585BA2A"
+			rewards: [{
+				count: 8
+				id: "7CD50B45736337F7"
+				item: "ae2:fluix_glass_cable"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "42D02CFA2E40DB88"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4801B79E2585BA2A"]
+			description: ["Самый простой кабель для подключения механизмов"]
+			id: "2C6DF140F2723152"
+			rewards: [{
+				count: 4
+				id: "0FE4AD1D82958FCD"
+				item: "ae2:fluix_smart_cable"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA5CCEDD2F38D9C"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			description: ["Выторгуйте прессы у местного рабочего "]
+			id: "0B0AC29FF6D90ECE"
+			rewards: [
+				{
+					id: "3D9932623761BE48"
+					item: "ae2:logic_processor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "06586B605ADCA177"
+					item: "ae2:calculation_processor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "71F4FBDD9C2B878C"
+					item: "ae2:engineering_processor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33093E915A0EAFCF"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "54BA828386D3D7E0"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "52DBC06924AE20A3"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "32B0F7DCA5A4B1E8"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F3E0461DA1EB52F"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "2BA7BE8EE1CEE15E"
+			rewards: [{
+				count: 16
+				id: "014BBCA8FF247714"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02CE43A1A8894749"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BA7BE8EE1CEE15E"]
+			description: [""]
+			id: "00B0A7E5BEB2E2F1"
+			rewards: [
+				{
+					count: 24
+					id: "5585AE3E90D14667"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "46460A2CEBAEDFC1"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CC032E68849DC81"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00B0A7E5BEB2E2F1"]
+			id: "27B56B8CD0FC2F1B"
+			rewards: [
+				{
+					count: 24
+					id: "1EAC676FDCF44A04"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DA515DABA4BDF58"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "735385EC0D096BF9"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27B56B8CD0FC2F1B"]
+			id: "49FF1BEBF8E05488"
+			rewards: [
+				{
+					count: 24
+					id: "01A5705F2491008C"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7150E9491D9A4A53"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F3B9A9003619D66"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49FF1BEBF8E05488"]
+			id: "335F166B89BC3708"
+			rewards: [
+				{
+					count: 12
+					id: "1BF2936646A24D56"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "02EA2789742A6387"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21E367BBD6E4AC73"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CC3A5769DDCC119"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["335F166B89BC3708"]
+			id: "55DDAB6D300D9E05"
+			rewards: [
+				{
+					count: 64
+					id: "416AB9F15DA70613"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "17B4F9BD20446516"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75ADCF512B1D79F7"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55DDAB6D300D9E05"]
+			id: "6A7560F6FF1FEA05"
+			rewards: [
+				{
+					id: "24BCD6D2F41C49A6"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "069216554E1F0C5D"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E064246735DBD29"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A7560F6FF1FEA05"]
+			id: "0B1854FA89C6497F"
+			rewards: [
+				{
+					id: "6836BC1AD6F3ADE3"
+					item: "megacells:cell_component_1m"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E18CD234535AB79"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4059710A9973EA8D"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B1854FA89C6497F"]
+			id: "6C48FD65DFF22CAD"
+			rewards: [
+				{
+					count: 64
+					id: "46E2A280A4DF173D"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "477BD07F24DE50FA"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4955AE0B968ABF50"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19AE26291FC8FD4C"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47CE0DFF7CA6B2C0"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C48FD65DFF22CAD"]
+			id: "72824896CC5CED11"
+			rewards: [
+				{
+					id: "7AB3D7AB72F1D6F3"
+					item: "megacells:cell_component_16m"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3798C942593F7234"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EA804F7E1394BB1"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01F8FC11A4BD3AA2"]
+			description: ["Создает шарики с материей или же сингулярности"]
+			id: "0C75402756EC049F"
+			rewards: [{
+				id: "24D7B194B07D8125"
+				item: "minecraft:diamond_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC37BD1911DEDE5"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B2C8A5449D009C2"]
+			description: ["С помощью данного набора можно создать квантовый мост между двумя точками в мире"]
+			id: "02684C9352032E20"
+			rewards: [{
+				id: "132A762BEFE4B848"
+				item: "ae2:fluix_smart_dense_cable"
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "3D7468D99D4B6742"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C96C34871C453B2"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C0577E192AD406B"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C75402756EC049F"]
+			description: ["Создайте сингуляность из 256к любых блоков или предметов"]
+			id: "7B2C8A5449D009C2"
+			rewards: [{
+				id: "2C1B7185EE8AFBDA"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717A113A5D212DF5"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C75402756EC049F"]
+			description: ["У вас в руках чатичка материи пространства"]
+			id: "5A8C1D49D49C8822"
+			rewards: [{
+				id: "2F4E3D029C5043F2"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BC98EACB20E0121"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2BA7BE8EE1CEE15E"]
+			description: ["Хранит определённое количество типов вещей"]
+			id: "7A31B7FBED11B20E"
+			tasks: [{
+				id: "54B46EFCB0E8A77C"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BA7BE8EE1CEE15E"]
+			id: "07F466CC5546361D"
+			optional: true
+			tasks: [{
+				id: "0B07E20E30014B89"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BA7BE8EE1CEE15E"]
+			description: ["Хранит вещи в независимости от того сколько типов вещей будет в системе"]
+			id: "154ECABA4E86EE70"
+			tasks: [{
+				id: "47DADC6EABCCDD93"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BA7BE8EE1CEE15E"]
+			id: "20919930060653F7"
+			tasks: [{
+				id: "4910FEB2097CE88E"
+				item: {
+					Count: 1b
+					id: "appbot:mana_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00B0A7E5BEB2E2F1"]
+			id: "6205925F0EDB90AB"
+			tasks: [{
+				id: "4F3E4ED15FAD1C80"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00B0A7E5BEB2E2F1"]
+			id: "568275C3D912C10B"
+			optional: true
+			tasks: [{
+				id: "014C230CB9E21C86"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00B0A7E5BEB2E2F1"]
+			id: "401D550AA335C97C"
+			tasks: [{
+				id: "6822F167A08E33E7"
+				item: {
+					Count: 1b
+					id: "appbot:mana_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00B0A7E5BEB2E2F1"]
+			id: "3038CCF754DED426"
+			tasks: [{
+				id: "5FB58E511D185D74"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27B56B8CD0FC2F1B"]
+			id: "0157CC6BCEB8741A"
+			tasks: [{
+				id: "066C24F6C2290593"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27B56B8CD0FC2F1B"]
+			id: "4E0D1EEF96CADA24"
+			optional: true
+			tasks: [{
+				id: "075DCC338C65FFB6"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27B56B8CD0FC2F1B"]
+			id: "32F5B846C309857F"
+			tasks: [{
+				id: "4658D3660A458383"
+				item: {
+					Count: 1b
+					id: "appbot:mana_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27B56B8CD0FC2F1B"]
+			id: "6DF4640F69E3C9CB"
+			tasks: [{
+				id: "37123DB68DEB7A23"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49FF1BEBF8E05488"]
+			id: "7039CCD00AABDBE0"
+			tasks: [{
+				id: "2782E4F00E5FD95D"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49FF1BEBF8E05488"]
+			id: "0569038C0D95F7E3"
+			optional: true
+			tasks: [{
+				id: "381BC29BDD744338"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49FF1BEBF8E05488"]
+			id: "7E62026D5737EF12"
+			tasks: [{
+				id: "50F64BB3CF32A7DB"
+				item: {
+					Count: 1b
+					id: "appbot:mana_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49FF1BEBF8E05488"]
+			id: "2DDF251C93BBE754"
+			tasks: [{
+				id: "05335411A2673F77"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["335F166B89BC3708"]
+			id: "2CD7F7FA02C17064"
+			tasks: [{
+				id: "7821D18E707FDB82"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["335F166B89BC3708"]
+			id: "19940F4B6006BF1C"
+			optional: true
+			tasks: [{
+				id: "0DED68E478E43CFD"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["335F166B89BC3708"]
+			id: "54BC37C9789CDEE5"
+			tasks: [{
+				id: "74C74C4AD2AD1BEB"
+				item: {
+					Count: 1b
+					id: "appbot:mana_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["335F166B89BC3708"]
+			id: "53FD8B1E0DC088F0"
+			tasks: [{
+				id: "266B7344F407ACAE"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55DDAB6D300D9E05"]
+			id: "0B15413B1D75EC80"
+			tasks: [{
+				id: "1BC28605A11B47F4"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55DDAB6D300D9E05"]
+			id: "1913106510133B11"
+			optional: true
+			tasks: [{
+				id: "2162507653633A0A"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55DDAB6D300D9E05"]
+			id: "0AC19EA25F0AE813"
+			tasks: [{
+				id: "1C1D5D59F717ABBE"
+				item: {
+					Count: 1b
+					id: "megacells:mana_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A7560F6FF1FEA05"]
+			id: "0B16ABAB48E890D3"
+			tasks: [{
+				id: "3F39993F2EE90CF8"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A7560F6FF1FEA05"]
+			id: "1E83B6E639B14671"
+			optional: true
+			tasks: [{
+				id: "44A3B144DA6E8BAA"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A7560F6FF1FEA05"]
+			id: "34E41EE80C9FF265"
+			tasks: [{
+				id: "30C8753F5D6F0CA0"
+				item: {
+					Count: 1b
+					id: "megacells:mana_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B1854FA89C6497F"]
+			id: "457E56EAB67DE1CF"
+			tasks: [{
+				id: "426DF7B254277747"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B1854FA89C6497F"]
+			id: "1C465B00F254562C"
+			optional: true
+			tasks: [{
+				id: "6CB3B2569E10BDE8"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B1854FA89C6497F"]
+			id: "3F36133C4CF6FF33"
+			tasks: [{
+				id: "234CB522C191E849"
+				item: {
+					Count: 1b
+					id: "megacells:mana_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C48FD65DFF22CAD"]
+			id: "15B8FF37F89F1615"
+			tasks: [{
+				id: "18F16D55EEFEAF0A"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C48FD65DFF22CAD"]
+			id: "22B58A20E7B4AFDB"
+			optional: true
+			tasks: [{
+				id: "7C211A56166E3E72"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C48FD65DFF22CAD"]
+			id: "13A3FA26CB4D057F"
+			tasks: [{
+				id: "72CA39140499783D"
+				item: {
+					Count: 1b
+					id: "megacells:mana_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			id: "7A0A8784719BDC01"
+			tasks: [{
+				id: "24187E4C5D17FEE3"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			id: "70FD174E786023B9"
+			optional: true
+			tasks: [{
+				id: "155AF9AE3421CDE4"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			id: "549E7826FD5A8F8B"
+			tasks: [{
+				id: "2629D2739AED8655"
+				item: {
+					Count: 1b
+					id: "megacells:mana_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			hide_dependency_lines: true
+			id: "7316ECD0B5603323"
+			rewards: [{
+				count: 2
+				id: "49A22A22F031B921"
+				item: "chemlib:gribony_catalyst"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A2D3291C90413D5"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			hide_dependency_lines: true
+			id: "3C05DB3A8093992B"
+			rewards: [{
+				id: "2B6D016A4CB0B9BA"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E19A729C726C3E8"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72824896CC5CED11"]
+			hide_dependency_lines: true
+			id: "170957FE404FAEDD"
+			rewards: [{
+				id: "065E8498BAD1B883"
+				item: "tm4:neutronium_catalyst"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "09A8F9749350770D"
+				item: "appbot:creative_mana_cell"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01F8FC11A4BD3AA2"]
+			description: ["Вещи первой необходимости для создания автокрафта"]
+			id: "046E299810F06E9B"
+			rewards: [{
+				count: 4
+				id: "24F24046C4BD21A8"
+				item: "ae2:blank_pattern"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "666FB4397FD86196"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "30D46CAEA1F722C0"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "739685E0D6BA1660"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "4C2D2F7409D1C32B"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+			]
+			title: "Автокрафт начинается здесь"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["046E299810F06E9B"]
+			description: ["Улучшенные версии механизмов для автокрафта"]
+			id: "031CF3C8ED327373"
+			rewards: [
+				{
+					id: "13EF81C91F3BF5DC"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "09A43EDF6CF7DD52"
+					item: "ae2:blank_pattern"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1109696F0A4D422D"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "2B1E1D0EF805A63C"
+					item: "megacells:mega_crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "760CD4F3E0AC31EF"
+					item: "megacells:mega_crafting_unit"
+					type: "item"
+				}
+			]
+			title: "Улучшаем афтокрафт"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["046E299810F06E9B"]
+			description: ["Отвечает на сколько байт может быть заказан крафт"]
+			id: "6012DCA2C3D4679D"
+			rewards: [{
+				count: 6
+				id: "60DE433D4BDBCEA1"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFCC75B312F65FB"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6012DCA2C3D4679D"]
+			id: "054ABC48AF246251"
+			rewards: [{
+				count: 16
+				id: "5F845E424FFD3610"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F53171CC2E507FC"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["054ABC48AF246251"]
+			id: "3819008F6F1032FB"
+			rewards: [{
+				count: 36
+				id: "45E66C5F8AA7935D"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61C82A4D438B1079"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3819008F6F1032FB"]
+			id: "43561719E2B5897A"
+			rewards: [{
+				count: 64
+				id: "59B45D423A8F7EFD"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5386769D22199EB4"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43561719E2B5897A"]
+			id: "7328E1AB5C77AEDE"
+			rewards: [
+				{
+					count: 64
+					id: "5DDA0B788F6FD56A"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6F0B9C459F456466"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37A17B1B162EFDBB"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["031CF3C8ED327373"]
+			description: ["Отвечает на сколько байт может быть заказан крафт"]
+			id: "6DC6067C758651E7"
+			rewards: [{
+				id: "249979DA0C8A5BFD"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D1FA9B857F2FCA"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DC6067C758651E7"]
+			id: "052BB31D4E25929D"
+			rewards: [{
+				count: 2
+				id: "33A0049CADCB1AA5"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07666BDD017F2ECA"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["052BB31D4E25929D"]
+			id: "5F6560AD261B73BE"
+			rewards: [{
+				count: 3
+				id: "383E248538F0CC64"
+				item: "ftbic:antimatter_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FCE4DBBA0F3E4CB"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F6560AD261B73BE"]
+			id: "368A2BE0594E24AF"
+			rewards: [{
+				count: 16
+				id: "3060FB041E2D72FF"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5B7270D4CD9C43"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["368A2BE0594E24AF"]
+			id: "5A9E9D3E5F2CA52A"
+			rewards: [
+				{
+					id: "3D9DD5876366A389"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 7s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "66D6AB6FEB3724FE"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36FD9F09753F185E"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07F2B12E07BC474A"]
+			description: ["Необходим чтоб подключить беспроводной терминал к мэ-системе"]
+			id: "073EE087C412A477"
+			rewards: [{
+				count: 8
+				id: "5748E641197A0083"
+				item: "ae2:matter_ball"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A07376E60C495BD"
+				item: "ae2:security_station"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C6DF140F2723152"]
+			description: ["точка беспроводного доступа к мэ-системе"]
+			id: "0C50A0F7DD482BF8"
+			rewards: [{
+				id: "653DB80AA377D563"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D8B6F8665110486"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C50A0F7DD482BF8"]
+			description: ["С помощью этих усилитей можно увеличивать зону действия беспроводной системы"]
+			id: "4CFA06AE60335872"
+			rewards: [{
+				count: 64
+				id: "7AC66D17FAC16EE3"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "614E9F6CC00232FD"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3312FEBF6110D224"]
+			id: "2895092C7D29444B"
+			invisible: true
+			tasks: [{
+				id: "41F79E3624E458BC"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2895092C7D29444B"]
+			id: "5F262FC41DB117DE"
+			tasks: [{
+				id: "6777988A8FD83708"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3312FEBF6110D224"]
+			id: "4768D6F9B1BB23DF"
+			invisible: true
+			tasks: [{
+				id: "249E44BEC4F15653"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4768D6F9B1BB23DF"]
+			id: "2ADE8D50C319E810"
+			tasks: [{
+				id: "089D38B4FC4F151A"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4768D6F9B1BB23DF"]
+			id: "6A57E16956C929E8"
+			tasks: [{
+				id: "618321FCE922E443"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7303B62255CD5068"]
+			id: "7285DACE574C88A6"
+			tasks: [{
+				id: "2C57F4E3B1652086"
+				item: "megacells:mega_mana_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3312FEBF6110D224"]
+			id: "7303B62255CD5068"
+			invisible: true
+			tasks: [{
+				id: "4DCC92CEE49D6ABA"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			id: "758F0766427D6087"
+			rewards: [
+				{
+					id: "0929A8BEB853C8B2"
+					item: "ae2:logic_processor"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "0A286749BEBB76DA"
+					item: "ae2:calculation_processor"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "43B79C984BDB0F4B"
+					item: "ae2:engineering_processor"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34BB955C7CBDA32A"
+				item: "ae2things:advanced_inscriber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+	]
+	title: "&3Хранение"
+}

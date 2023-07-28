@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "occultism:possessed_enderman",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "occultism:entities/possessed_enderman",
+  "size": {
+    "height": 2.9,
+    "width": 0.6,
+    "fixed": false
+  }
+}

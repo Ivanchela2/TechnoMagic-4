@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "regions_unexplored:giant_green_bioshroom",
+  "worldgen/configured_feature": {
+    "config": {
+      "glow_block_provider": {
+        "state": {
+          "Name": "regions_unexplored:glowing_green_bioshroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": 8,
+      "size_variation": 5,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "minecraft:mushroom_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "cap_provider": {
+        "state": {
+          "Name": "regions_unexplored:green_bioshroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "regions_unexplored:giant_green_bioshroom"
+  }
+}

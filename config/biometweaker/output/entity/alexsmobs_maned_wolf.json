@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:maned_wolf",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/maned_wolf",
+  "size": {
+    "height": 1.26,
+    "width": 0.9,
+    "fixed": false
+  }
+}

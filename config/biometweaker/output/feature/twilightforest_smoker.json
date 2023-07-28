@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "twilightforest:smoker",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:smoker",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.calorite",
+  "colors": [
+    "cc0000",
+    "e13131"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "ad_astra:calorite_ingot"
+  }
+}

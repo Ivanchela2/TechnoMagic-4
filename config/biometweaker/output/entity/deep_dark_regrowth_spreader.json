@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "deep_dark_regrowth:spreader",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "deep_dark_regrowth:entities/spreader",
+  "size": {
+    "height": 2.5,
+    "width": 1.3,
+    "fixed": false
+  }
+}

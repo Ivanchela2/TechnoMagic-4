@@ -1,0 +1,1598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "1D0E618C92EE8561"
+	icon: "create:cogwheel"
+	id: "56ABD15808A6CBA2"
+	order_index: 0
+	quest_links: [{
+		id: "34E73CBF130DEE01"
+		linked_quest: "1FB7C1290A00B6DA"
+		x: -27.5d
+		y: -3.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"5D1AFEF9268A9857"
+				"1E36D9B7DC4E270E"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "1E84ED25A996910E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "434E8FCE31BBEF89"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			id: "76CFD98C0BD546F8"
+			rewards: [{
+				count: 2
+				id: "7192A8AB72B24F18"
+				item: "extendedgears:large_oak_cogwheel"
+				type: "item"
+			}]
+			subtitle: "Опять задумался? Большая шестерня)"
+			tasks: [{
+				id: "0EB36E26E88344E1"
+				item: "extendedgears:large_oak_cogwheel"
+				type: "item"
+			}]
+			title: "Большая шестерня"
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0749D26B0CAA8918"]
+			id: "0BF2452DF5C085CA"
+			rewards: [{
+				count: 16
+				id: "36C7BE7AEC90D185"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Да здравствует Create."
+			tasks: [
+				{
+					id: "5177F1C5CDF745E5"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "38722F793D8C47E4"
+					item: "extendedgears:shaftless_oak_cogwheel"
+					type: "item"
+				}
+				{
+					id: "2E20E594C55DC918"
+					item: "extendedgears:large_shaftless_oak_cogwheel"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0749D26B0CAA8918"]
+			id: "5D1AFEF9268A9857"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2FBB89D53801BF4A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			id: "64AD5C6C44A874BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61A26BB0F825F2D0"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Вместо использования кувалды и наковальни, лучше используй механизмы."
+			tasks: [{
+				id: "7A69A4D9402684E6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			icon: "create:mechanical_mixer"
+			id: "5095F94BDC3205C6"
+			rewards: [{
+				id: "13A22E2572CE873F"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
+			subtitle: "Типо блендера, но для материалов."
+			tasks: [
+				{
+					id: "6ED62B94F1B06D96"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "1A5376C74EEAB786"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			id: "7D0324A92EA71A31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FC2CB51CC18CBDB"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Кинь любой предмет сверху и получится пыль."
+			tasks: [{
+				id: "3D6D5BE8010398E2"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FB7C1290A00B6DA"]
+			id: "0E1D1D91B842C4A8"
+			tasks: [
+				{
+					id: "63B67AC4353391CE"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					id: "65226B7D0519DAA7"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			x: -29.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BF2452DF5C085CA"]
+			id: "4C9FF4A3314D3B15"
+			rewards: [{
+				count: 6
+				id: "7EC768CB12A9AA7B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Старт всех станков и механизмов начинается с малого."
+			tasks: [{
+				id: "43DA693F10629D77"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			id: "766104849B1CA52A"
+			rewards: [{
+				count: 2
+				id: "7391EC371D9711DE"
+				item: "extendedgears:oak_cogwheel"
+				type: "item"
+			}]
+			subtitle: "Маленькая шестерня... Много думать не надо)"
+			tasks: [{
+				id: "0A903A3E728F0AA6"
+				item: "extendedgears:oak_cogwheel"
+				type: "item"
+			}]
+			title: "Малая шестерня"
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"766104849B1CA52A"
+				"76CFD98C0BD546F8"
+			]
+			id: "4FDF35361031D25E"
+			rewards: [{
+				id: "6BBD2E1E780565E1"
+				item: "create:wrench"
+				type: "item"
+			}]
+			subtitle: "Уменьшение занимаемого места на рабочей области, очень помогает)"
+			tasks: [{
+				id: "2E08F55FCBAC5434"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FDF35361031D25E"]
+			id: "5C9C51BA6A803D82"
+			rewards: [{
+				id: "7FD1FA3429176BAB"
+				item: "create:black_toolbox"
+				type: "item"
+			}]
+			subtitle: "Разновидности коробок передач."
+			tasks: [
+				{
+					id: "056A1D308E1C5B9B"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+				{
+					id: "2F3EF9A07D507AF1"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"04DCC7FEAA77D675"
+				"7389E3685582FF11"
+				"5095F94BDC3205C6"
+			]
+			id: "08EAF26673CE5F22"
+			rewards: [{
+				count: 5
+				id: "1BDDD06F964CE197"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Да здравствует Латунь."
+			tasks: [{
+				id: "24E8406D5DAC8CF1"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08EAF26673CE5F22"]
+			id: "32697BCFC9B16CB4"
+			rewards: [{
+				count: 5
+				id: "499905BFC186CC87"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			subtitle: "Латунный лист... более ничего."
+			tasks: [{
+				id: "6618A7508D1490AC"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			id: "6E545C68D9B4F830"
+			subtitle: "В туалет с ней лучше не ходить."
+			tasks: [{
+				id: "6C08C6934B40B54A"
+				item: {
+					Count: 1b
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E545C68D9B4F830"]
+			id: "356ADE2ABF0E62EC"
+			subtitle: "Шлифовка это залипательный момент в ручной обработке материалов."
+			tasks: [{
+				id: "38BB5FB717EEEDCB"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08EAF26673CE5F22"]
+			hide_dependency_lines: false
+			id: "7CAB0375A59AC778"
+			rewards: [{
+				id: "724E08F4EDE5703C"
+				item: "create:brass_block"
+				type: "item"
+			}]
+			subtitle: "Ооо... Прогресс в развитии."
+			tasks: [{
+				id: "10FEE51660127986"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E1D1D91B842C4A8"]
+			id: "25C5BCAF12391CBD"
+			tasks: [
+				{
+					id: "5EC9D52CC462EBA8"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "3BD76D392F49081C"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			x: -29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FB7C1290A00B6DA"]
+			id: "0B50483F8FF876BC"
+			tasks: [{
+				id: "17487F40BDB141BC"
+				item: {
+					Count: 1b
+					id: "create:filter"
+					tag: {
+						Items: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B50483F8FF876BC"]
+			id: "323E0E2599E26560"
+			tasks: [{
+				id: "5A294FB612AB9A1D"
+				item: {
+					Count: 1b
+					id: "create:attribute_filter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AD5C6C44A874BB"]
+			icon: "create:copper_sheet"
+			id: "7389E3685582FF11"
+			rewards: [{
+				count: 5
+				id: "7C0A50EAF85693EE"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			subtitle: "Компонент для создания латуни №2 и основа для жидкостных механизмов."
+			tasks: [
+				{
+					id: "6A5B1D365412B06B"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "65B466A84EA1B2FC"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Медный Лист"
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FDF35361031D25E"]
+			id: "5BFA29AC29A0A54B"
+			rewards: [{
+				id: "1DD05D463386B3E2"
+				item: "create:goggles"
+				type: "item"
+			}]
+			subtitle: "Цепные механизмы наше все."
+			tasks: [
+				{
+					id: "063BA8B5371A7C65"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "2AF7C23B5D03CC2D"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+			]
+			title: "Цепные привода"
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64AD5C6C44A874BB"]
+			icon: "create:zinc_ingot"
+			id: "04DCC7FEAA77D675"
+			rewards: [{
+				count: 5
+				id: "6CCFD61573D75AF5"
+				item: "createaddition:zinc_sheet"
+				type: "item"
+			}]
+			subtitle: "Компонент для создания латуни №1."
+			tasks: [
+				{
+					id: "0F4B04095F383722"
+					item: "createaddition:zinc_sheet"
+					type: "item"
+				}
+				{
+					id: "1846EA4C2712BE57"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1E84ED25A996910E"
+				"4BA91AB519070D4D"
+			]
+			hide: true
+			icon: "create:white_sail"
+			id: "7B503ADAF682DD96"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "41D0EDEEFFC6AC47"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E249BAB45D189F5"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Ветряная мельница"
+			x: -25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["356ADE2ABF0E62EC"]
+			id: "49DAE53F5CBB1D67"
+			subtitle: "Простецкая электронная лампа."
+			tasks: [{
+				id: "13BC4E96840EAD7E"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7389E3685582FF11"]
+			id: "4DFEBB987B2F0E42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06153E376A0669E7"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "083F12C962A43B1C"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7389E3685582FF11"]
+			id: "5C1D6E0C109B5809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09CCCB483F0E17DB"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Баллон для сжатого воздуха."
+			tasks: [{
+				id: "36C9908EAF52F654"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "7BDE7F63A6615582"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42CF264A3758DF5B"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Ваш личный бармен."
+			tasks: [{
+				id: "664D5AB5BF505BE5"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "7EFE4B7F7F5C3CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6AF3FFF92B1AF5"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Опустошитель ваших вёдер."
+			tasks: [{
+				id: "1CAA9B0D85E45AA0"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "01F6C53D48090A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "353AF06CF6A266E0"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Напечатает партию газет... И не только)"
+			tasks: [{
+				id: "1E65854F9E608555"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "1925BA5133085CD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54B0F8A8A7396194"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Осушитель ваших вёдер."
+			tasks: [{
+				id: "48FE41F3C5D2638D"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "67341268F6380FB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A50B2B0AB3AE327"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Да это же хобот..."
+			tasks: [{
+				id: "6F3289B73535FB54"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4DFEBB987B2F0E42"]
+			id: "0C16C4785EDDA82A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6652403615EA20"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Передай жидкости с помощью автоматики."
+			tasks: [{
+				id: "20EC0FF0CA57C25C"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7389E3685582FF11"]
+			id: "6C6F16E6B121C2D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A338F4D8E4AFFF4"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Труба... Просто труба."
+			tasks: [
+				{
+					id: "775DB6B67EE4F5F1"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2E74AD70B1FD5F83"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C6F16E6B121C2D0"]
+			id: "0730793B1CB55FB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD0014E7DF6E863"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Носом можно уже не качать..."
+			tasks: [{
+				id: "749305534150A2C4"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C6F16E6B121C2D0"]
+			id: "3164CCB86BF0D994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F9DCC1903BCB57"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Останови свою жидкость на уровне автоматики."
+			tasks: [{
+				id: "564234B46F8D7CA7"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B503ADAF682DD96"]
+			icon: "create:steam_engine"
+			id: "0FDC1D377A4567DB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1A980697FCFD330E"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53B3025BE2B11261"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "41D97C91F191326F"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Паровой генератор"
+			x: -25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7389E3685582FF11"]
+			id: "12B2F2A40172AFC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B90603CB6B3D04B"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Прогресивный способ получения энергии вращения."
+			tasks: [{
+				id: "64AABC585AC08CCE"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7389E3685582FF11"]
+			id: "476D5B7D007007E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CF2FE7DE3B07E7C"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Стационарный жидкостный накопитель"
+			tasks: [{
+				id: "1F42199DC08F4509"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FDC1D377A4567DB"]
+			id: "7930336C13A7CF46"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5D3DB88090A5A198"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "4C59EFB0C6BC4AA7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4C4704BA491028"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Механическая пила... Пилит дерево..."
+			tasks: [{
+				id: "41FEA31DD14895C7"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "542997698E61EBD3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41C156F0CA87B76B"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Это просто дрель..."
+			tasks: [{
+				id: "0FAE92F9F8644CD1"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			icon: "create:sticky_mechanical_piston"
+			id: "166907CB18B1C28D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03FA3763472B3C9F"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Прилепись и не отклеивайся)"
+			tasks: [
+				{
+					id: "1952C185A9A98DE7"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "0EDF02E0FDA55CC3"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "414F048B2C992B8B"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+				{
+					id: "12F688546D0603AC"
+					item: "create:sticker"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CAB0375A59AC778"]
+			id: "67482E513F189F57"
+			rewards: [{
+				count: 3
+				id: "484651855088882F"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			subtitle: "Огромные крафты... Залипательно."
+			tasks: [{
+				id: "31E2F6ACBEEADD74"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "1C969B35BD1975D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CD5D5BA2FAB5727"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Стационарная зарядка для предметов и инструментов."
+			tasks: [{
+				id: "7F1E3CD5DA55B502"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "2C85649966922F5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0554752424CA8A8E"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Быстрый дробитель и Умножитель ресурсов)"
+			tasks: [{
+				count: 2L
+				id: "0F74CB20E2C3FE7E"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Колесо Дробленния"
+			x: -22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "7849DCBC8C0DFD37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62549A034D62E57D"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Ральф Дибни позавидует..."
+			tasks: [{
+				id: "661C5D6B58D54F2E"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "0FD5E71F6F48B462"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F6C5A21FC395DD6"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Ну можно теперь и секретные лаборатории организовывать"
+			tasks: [{
+				id: "4C507E9B65910005"
+				item: "create_things_and_misc:card_press"
+				type: "item"
+			}]
+			title: "Програматор карт доступа"
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FD5E71F6F48B462"]
+			id: "75C3A0A6CE80AC3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "104E33FD5A9195C8"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Только Леону их не показывай..."
+			tasks: [
+				{
+					id: "4BF3EC5BA1409847"
+					item: "create_things_and_misc:card_reader"
+					type: "item"
+				}
+				{
+					id: "24A143AFF40D4C2D"
+					item: "create_things_and_misc:empty_card"
+					type: "item"
+				}
+			]
+			title: "Карты доступа"
+			x: -18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "6737335B4B0EC692"
+			rewards: [{
+				count: 2
+				id: "3EE45DC3AA1E0B29"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			subtitle: "Основа для электромоторов."
+			tasks: [{
+				id: "4EEEE44D81F395DC"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6737335B4B0EC692"]
+			id: "2045922DBFC74250"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484FB8E3790DAA72"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Используй его для вырабатывания электроэнегрии."
+			tasks: [{
+				id: "1D8A05C9E89023F7"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2045922DBFC74250"]
+			id: "3D51192165125ABB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24DCC536BEB60487"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Потребляй энергию и получай вращение... Гениально!"
+			tasks: [{
+				id: "5C816385A69F4A8E"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			icon: "create:deployer"
+			id: "099C1679C5DF30A3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2578C33040C8B061"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Основной механизм для создания продвинутых механизмов."
+			tasks: [
+				{
+					id: "6E35D5BF4898D3AB"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "469E48CCF225E8B4"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "4D2446CE2FB97101"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49BAC623FD757531"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Поднимай любой блок, либо конструкцию в воздух)"
+			tasks: [{
+				id: "37394F600D03F74D"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			icon: "create:gantry_carriage"
+			id: "6DF66730686C8F21"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CA6DFA3C1D13E68"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Если совместить вместе с лебедкой можно и двигатели на СТО вынимать)"
+			tasks: [
+				{
+					id: "17B2262BCCAB6C94"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "107603BE96FE4783"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "690104C0BD5A643F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DFAC65C3DFC9D79"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Мама, Я фермер)"
+			tasks: [
+				{
+					id: "0F5ABA9CCF007BAD"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "039B07090C5AD41B"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "760B1AEDC621E9EE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "490A7C79A6CE407B"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Передай предмет с помощью автоматики."
+			tasks: [{
+				id: "111959D62AD76DE4"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67482E513F189F57"]
+			id: "38DF0C61396A090C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B88B90CECDE37E"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Несколько вариантов двигателей для улучшенного оборудования."
+			tasks: [
+				{
+					id: "1A4E2843E8320286"
+					item: "create_sa:steam_engine"
+					type: "item"
+				}
+				{
+					id: "2E13FD79926A7B47"
+					item: "create_sa:heat_engine"
+					type: "item"
+				}
+				{
+					id: "16E6328C7D881762"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+			]
+			title: "Прогресивные Двигатели"
+			x: -20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21D6728A30E2D8BB"]
+			id: "4A9398A7903FDA8D"
+			tasks: [{
+				id: "688D746457341686"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Медный Джетпак"
+			x: -18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A9398A7903FDA8D"]
+			id: "2E401D5B8F1558F9"
+			tasks: [{
+				id: "542FF699A5355B93"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Медный Экзоскелет"
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"16E6328C7D881762"
+				"38DF0C61396A090C"
+			]
+			dependency_requirement: "one_completed"
+			id: "21D6728A30E2D8BB"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71FE381DAC1AEF38"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Притяни к себе блоки и существ."
+			tasks: [{
+				id: "67E598084F0FBD61"
+				item: {
+					Count: 1b
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Подбиратель блоков"
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38DF0C61396A090C"]
+			description: ["Только не забудь ее заправить сначала."]
+			id: "7B8022CD4A359472"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C92F79B44B0EF05"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Дрель позволяющая добывать все что можно добыть."
+			tasks: [{
+				id: "39636A8018A87D26"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Портативная дрель"
+			x: -20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B8022CD4A359472"]
+			id: "68B6DC231FCB163F"
+			tasks: [{
+				id: "474304DC4C809D5A"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Латунный Джетпак"
+			x: -20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["68B6DC231FCB163F"]
+			id: "7FAA6CC8B950DD68"
+			tasks: [{
+				id: "48F2E08341F4AF27"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Латунный Экзоскелет"
+			x: -20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2E13FD79926A7B47"
+				"38DF0C61396A090C"
+			]
+			dependency_requirement: "one_completed"
+			id: "42B7FB125394F19F"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79DF3BF66AF6F3E4"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Я теперь Человек-Паук."
+			tasks: [{
+				id: "4E9554C5342BF162"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Крюк-кошка"
+			x: -19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42B7FB125394F19F"]
+			id: "7E79D9794708914B"
+			tasks: [{
+				id: "5DD6760ED949637A"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Андезитовый Джетпак"
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E79D9794708914B"]
+			id: "5797269088655103"
+			tasks: [{
+				id: "100ABBDF05D95490"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Андезитовый Экзоскелет"
+			x: -19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "7275FFAF87A336C9"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B466FEE18A34B62"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Само описание находится в названии)"
+			tasks: [{
+				id: "3D1A4559C9DEB761"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38DF0C61396A090C"]
+			id: "606EB25AE4BBCD06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A1A3B6B83C5B8C1"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Не забудь вооружиться огнетушителем"
+			tasks: [{
+				id: "272D9AF7DBA9229D"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Огнемёт"
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C9FF4A3314D3B15"]
+			hide_dependency_lines: true
+			id: "6DE6E78FC40616B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A5D785B8DFEFCF9"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Можно самому летать, либо отправлять в полет предметы."
+			tasks: [{
+				id: "6D26D78909270A36"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C85649966922F5C"]
+			id: "44A5556D88A872EC"
+			rewards: [{
+				id: "480AE81BA85F5C3A"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			subtitle: "Кристализированный опыт."
+			tasks: [{
+				count: 9L
+				id: "1C79D4B148371037"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			title: "Кусочки опыта?"
+			x: -22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44A5556D88A872EC"]
+			id: "6E25191E1912EFC9"
+			subtitle: "Инструменты из опыта... Что-то новенькое."
+			tasks: [
+				{
+					id: "4A6A21AED94316CF"
+					item: {
+						Count: 1b
+						id: "create_sa:experience_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1932796A97B24A40"
+					item: {
+						Count: 1b
+						id: "create_sa:experience_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1522E4A93F6B5602"
+					item: {
+						Count: 1b
+						id: "create_sa:experience_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04C92B0ABFCB79E4"
+					item: {
+						Count: 1b
+						id: "create_sa:experience_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Опытные инструмены"
+			x: -22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["356ADE2ABF0E62EC"]
+			id: "0193DB7759CCFC4A"
+			subtitle: "Сожмите розовый кварц и получите кварцевый лист."
+			tasks: [{
+				id: "35B2D2E6E16C5FDF"
+				item: "create_things_and_misc:rose_quartz_sheet"
+				type: "item"
+			}]
+			title: "Розовый кварцевый лист"
+			x: -23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E25191E1912EFC9"]
+			id: "5A0FE018FB3DD9BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1702C95BE621FCB0"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Руна для получения модификации починка на основе опыта."
+			tasks: [{
+				id: "04464B5D246743D9"
+				item: {
+					Count: 1b
+					id: "create_things_and_misc:mending_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Руна починки"
+			x: -22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5C1D6E0C109B5809"]
+			id: "3E7D63D9EC10D7EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52F6EBCB45476DA9"
+				table_id: 8574709875988243886L
+				type: "choice"
+			}]
+			subtitle: "Незеритовый баллон."
+			tasks: [{
+				id: "615003D5B576EDBC"
+				item: {
+					Count: 1b
+					id: "creategoggles:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Незеритовый баллон"
+			x: -12.5d
+			y: 1.0d
+		}
+	]
+	title: "&6Let's Create"
+}

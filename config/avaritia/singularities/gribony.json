@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.gribony",
+  "colors": [
+    "ff1100",
+    "ffefee"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "chemlib:gribony_ingot"
+  }
+}

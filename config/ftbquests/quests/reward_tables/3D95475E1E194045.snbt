@@ -1,0 +1,12 @@
+{
+	id: "3D95475E1E194045"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "minecraft:cobblestone", weight: 0.4f }
+		{ item: "gribtweaks:sand_trough", weight: 0.3f }
+		{ item: "minecraft:stick" }
+		{ item: "gribtweaks:sand_stone_pieces", weight: 0.8f }
+	]
+	title: "#1 стадия (2)"
+}

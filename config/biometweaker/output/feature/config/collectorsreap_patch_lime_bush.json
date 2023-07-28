@@ -1,0 +1,53 @@
+
+{
+  "registry_name": "collectorsreap:patch_lime_bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 15,
+      "xz_spread": 5,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Properties": {
+                  "stunted": "false",
+                  "half": "lower",
+                  "age": "0"
+                },
+                "Name": "collectorsreap:lime_bush"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "collectorsreap:bush_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "minecraft:dirt",
+                  "type": "minecraft:matching_block_tag"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

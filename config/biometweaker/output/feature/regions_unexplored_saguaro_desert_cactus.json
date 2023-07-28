@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "regions_unexplored:saguaro_desert_cactus",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:saguaro_cactus",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "regions_unexplored:sand_placement"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

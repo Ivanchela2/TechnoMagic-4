@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:item",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 20,
+  "defaul_loot_table": "minecraft:entities/item",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

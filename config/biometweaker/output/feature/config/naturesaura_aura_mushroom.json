@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "naturesaura:aura_mushroom",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "naturesaura:aura_mushroom"
+  }
+}

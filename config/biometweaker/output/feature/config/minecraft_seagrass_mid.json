@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "minecraft:seagrass_mid",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.6
+    },
+    "type": "minecraft:seagrass"
+  }
+}

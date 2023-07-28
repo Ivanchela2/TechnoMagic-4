@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "regions_unexplored:lava_fall",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:lava_fall",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

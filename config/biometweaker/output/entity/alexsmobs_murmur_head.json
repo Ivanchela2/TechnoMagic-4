@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:murmur_head",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/murmur_head",
+  "size": {
+    "height": 0.55,
+    "width": 0.55,
+    "fixed": false
+  }
+}

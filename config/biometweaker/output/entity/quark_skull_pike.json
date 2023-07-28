@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:skull_pike",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 3,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "quark:entities/skull_pike",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

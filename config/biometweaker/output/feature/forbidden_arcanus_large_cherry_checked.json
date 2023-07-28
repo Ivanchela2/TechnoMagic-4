@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "forbidden_arcanus:large_cherry_checked",
+  "worldgen/placed_feature": {
+    "feature": "forbidden_arcanus:large_cherry",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "forbidden_arcanus:cherry_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

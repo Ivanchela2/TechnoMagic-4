@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "regions_unexplored:overworld_lava_delta",
+  "worldgen/configured_feature": {
+    "config": {
+      "vegetation_chance": 0.1,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 7
+        }
+      },
+      "extra_edge_column_chance": 0.7,
+      "extra_bottom_block_chance": 0.8,
+      "vertical_range": 5,
+      "vegetation_feature": {
+        "feature": "minecraft:pointed_dripstone",
+        "placement": []
+      },
+      "surface": "floor",
+      "depth": 3,
+      "replaceable": "#minecraft:lush_ground_replaceable",
+      "ground_state": {
+        "state": {
+          "Properties": {
+            "has_gravity": "false"
+          },
+          "Name": "regions_unexplored:volcanic_ash"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "regions_unexplored:overworld_lava_delta"
+  }
+}

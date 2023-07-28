@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "regions_unexplored:ru_bamboo",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:bamboo_some_podzol",
+    "placement": [
+      {
+        "noise_to_count_ratio": 30,
+        "noise_factor": -0.8,
+        "noise_offset": 2.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

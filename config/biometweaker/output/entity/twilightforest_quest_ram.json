@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:quest_ram",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/quest_ram",
+  "size": {
+    "height": 2.9,
+    "width": 1.25,
+    "fixed": false
+  }
+}

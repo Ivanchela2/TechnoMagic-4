@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "echoing_expanse:blighted_fossil_1",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "echoing_expanse:blighted_fossil_1"
+  }
+}

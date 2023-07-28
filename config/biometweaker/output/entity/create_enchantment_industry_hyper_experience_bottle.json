@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create_enchantment_industry:hyper_experience_bottle",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "create_enchantment_industry:entities/hyper_experience_bottle",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

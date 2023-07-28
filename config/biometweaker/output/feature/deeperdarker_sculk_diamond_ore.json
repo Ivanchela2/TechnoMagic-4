@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "deeperdarker:sculk_diamond_ore",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "deeperdarker:sculk_stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "deeperdarker:sculk_stone_diamond_ore"
+            }
+          }
+        ],
+        "size": 5,
+        "discard_chance_on_air_exposure": 0.7
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "chance": 5,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": -32
+          },
+          "max_inclusive": {
+            "above_bottom": 50
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

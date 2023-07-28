@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:frilled_shark",
+  "category": "WATER_CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/frilled_shark",
+  "size": {
+    "height": 0.4,
+    "width": 1.3,
+    "fixed": false
+  }
+}

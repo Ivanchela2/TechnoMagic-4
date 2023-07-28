@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.soul_steel",
+  "colors": [
+    "3e4a6b",
+    "1b2545"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "tag": "forge:ingots/soul_steel"
+  }
+}

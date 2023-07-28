@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "hexerei:mahogany_checked",
+  "worldgen/placed_feature": {
+    "feature": "hexerei:mahogany_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "hexerei:mahogany_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

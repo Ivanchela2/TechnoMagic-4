@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "createbigcannons:ap_autocannon",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 1,
+  "defaul_loot_table": "createbigcannons:entities/ap_autocannon",
+  "size": {
+    "height": 0.2,
+    "width": 0.2,
+    "fixed": false
+  }
+}

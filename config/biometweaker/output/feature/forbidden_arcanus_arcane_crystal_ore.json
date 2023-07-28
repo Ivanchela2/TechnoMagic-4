@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "forbidden_arcanus:arcane_crystal_ore",
+  "worldgen/placed_feature": {
+    "feature": "forbidden_arcanus:ore_arcane_crystal",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -40
+          },
+          "max_inclusive": {
+            "absolute": 14
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

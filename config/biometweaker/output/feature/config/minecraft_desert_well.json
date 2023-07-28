@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:desert_well",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:desert_well"
+  }
+}

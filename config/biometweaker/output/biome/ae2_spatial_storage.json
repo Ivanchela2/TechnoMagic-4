@@ -1,0 +1,543 @@
+
+{
+  "registry_name": "ae2:spatial_storage",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "effects": {
+      "sky_color": 1118481,
+      "fog_color": 0,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_raw_generation"
+        }
+      ],
+      "LAKES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_lakes"
+        }
+      ],
+      "LOCAL_MODIFICATIONS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_local_modifications"
+        }
+      ],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:illager_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:time_capsule_chamber"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmanacrystalstalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:the_sculk_heart"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:big_mana_crystal_structure"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmanacrystal_stalactite"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:warden_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:small_mana_crystal_stalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:subterranean_vault"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:creeper_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_stalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_stalactite_structure"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:ancient_fossil"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_structure_1"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmana_crystal_structure_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_structure_1v_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_structures"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:wither_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:small_mana_crystal_stalactite"
+        }
+      ],
+      "SURFACE_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:large_gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_bonfire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_statue"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_farm"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_camp"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_surface_structures"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:traders_rest"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_gnumus_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:sorcerers_knowledge_book_structure"
+        }
+      ],
+      "STRONGHOLDS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_strongholds"
+        }
+      ],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fluorescent_moss"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:overloaded_sculk"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fake_sculk_sensor"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:black_marble"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_biter"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_soil"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium_buried"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium_extra"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium_lower"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_ores"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs_medium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:enlightened_deepslate"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_decoration"
+        }
+      ],
+      "FLUID_SPRINGS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_fluid_springs"
+        }
+      ],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_4"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:large_infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_4"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_sprouts"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:apatine_plant"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:soul_crystal"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:scion_weed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:exxo_growth"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:short_infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:vilethorn"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_6"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_3"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fernus"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_vegetal_decoration"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:large_fernus"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_3"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:pulse_flower"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_tendril"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_5"
+        }
+      ],
+      "TOP_LAYER_MODIFICATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_top_layer_modification"
+        }
+      ]
+    },
+    "carver": {},
+    "spawner_data": {
+      "creature_spawn_probability": 0.0,
+      "spawners": {
+        "monster": [
+          {
+            "type": "alexsmobs:farseer",
+            "weight": 30,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "gnumus:gnumus_hunter",
+            "weight": 20,
+            "minCount": 3,
+            "maxCount": 4
+          },
+          {
+            "type": "seeds:bad_grass",
+            "weight": 4,
+            "minCount": 2,
+            "maxCount": 5
+          },
+          {
+            "type": "quark:toretoise",
+            "weight": 120,
+            "minCount": 2,
+            "maxCount": 4
+          },
+          {
+            "type": "quark:stoneling",
+            "weight": 80,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        ],
+        "creature": [
+          {
+            "type": "gnumus:gnumus_merchant",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "gnumus:big_snout",
+            "weight": 2,
+            "minCount": 2,
+            "maxCount": 3
+          },
+          {
+            "type": "gnumus:marsupial_mousse",
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 3
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [
+          {
+            "type": "aquaculture:minnow",
+            "weight": 18,
+            "minCount": 1,
+            "maxCount": 5
+          },
+          {
+            "type": "aquaculture:gar",
+            "weight": 6,
+            "minCount": 1,
+            "maxCount": 2
+          },
+          {
+            "type": "aquaculture:muskellunge",
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:catfish",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:carp",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:brown_trout",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:red_grouper",
+            "weight": 6,
+            "minCount": 1,
+            "maxCount": 2
+          },
+          {
+            "type": "aquaculture:bluegill",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 6
+          },
+          {
+            "type": "aquaculture:jellyfish",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:perch",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 6
+          },
+          {
+            "type": "aquaculture:tuna",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:smallmouth_bass",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          }
+        ],
+        "misc": [],
+        "glares": []
+      },
+      "spawn_costs": {
+        "quark:wraith": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        },
+        "quark:foxhound": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        }
+      }
+    }
+  }
+}

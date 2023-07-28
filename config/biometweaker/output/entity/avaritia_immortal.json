@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "avaritia:immortal",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "avaritia:entities/immortal",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

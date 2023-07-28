@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:torch_arrow",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 20,
+  "defaul_loot_table": "quark:entities/torch_arrow",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

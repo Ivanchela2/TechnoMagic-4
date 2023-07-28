@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:patch_duckweed",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:duckweed",
+    "placement": [
+      {
+        "count": 32,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

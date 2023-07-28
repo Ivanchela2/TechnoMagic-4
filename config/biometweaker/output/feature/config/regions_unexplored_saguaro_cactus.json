@@ -1,0 +1,58 @@
+
+{
+  "registry_name": "regions_unexplored:saguaro_cactus",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "type": "regions_unexplored:saguaro_cactus_limbs"
+        }
+      ],
+      "ignore_vines": true,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:sand"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "stage": "0"
+          },
+          "Name": "regions_unexplored:cactus_flower"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 0,
+        "offset": 0,
+        "height": 0,
+        "type": "minecraft:blob_foliage_placer"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "cactus_shape": "up_down"
+          },
+          "Name": "regions_unexplored:saguaro_cactus"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 7,
+        "height_rand_a": 2,
+        "height_rand_b": 0,
+        "type": "minecraft:straight_trunk_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

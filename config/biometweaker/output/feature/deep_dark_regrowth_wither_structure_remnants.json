@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:wither_structure_remnants",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:wither_structure_remnants",
+    "placement": []
+  }
+}

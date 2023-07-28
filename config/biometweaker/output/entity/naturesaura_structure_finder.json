@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "naturesaura:structure_finder",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 2,
+  "defaul_loot_table": "naturesaura:entities/structure_finder",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

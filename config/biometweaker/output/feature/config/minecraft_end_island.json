@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:end_island",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:end_island"
+  }
+}

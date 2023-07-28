@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "echoing_expanse:deepslate_titanium_ore",
+  "worldgen/placed_feature": {
+    "feature": "echoing_expanse:deepslate_titanium_ore",
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -56
+          },
+          "max_inclusive": {
+            "absolute": -35
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

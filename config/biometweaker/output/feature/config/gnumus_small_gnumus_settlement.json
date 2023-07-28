@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:small_gnumus_settlement",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "gnumus:small_gnumus_settlement"
+  }
+}

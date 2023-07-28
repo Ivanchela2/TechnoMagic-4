@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:small_mana_crystal_stalactite_2",
+  "worldgen/placed_feature": {
+    "feature": "sorcerium:small_mana_crystal_stalactite_2",
+    "placement": []
+  }
+}

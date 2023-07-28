@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "aquamirae:poisoned_chakra",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 128,
+  "update_interval": 3,
+  "defaul_loot_table": "aquamirae:entities/poisoned_chakra",
+  "size": {
+    "height": 0.15,
+    "width": 1.3,
+    "fixed": false
+  }
+}

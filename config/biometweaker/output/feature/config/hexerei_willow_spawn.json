@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "hexerei:willow_spawn",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "hexerei:willow_checked",
+          "chance": 0.5
+        }
+      ],
+      "default": "hexerei:willow_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

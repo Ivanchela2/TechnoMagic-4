@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:birch_crystal_tree",
+  "worldgen/placed_feature": {
+    "feature": "sorcerium:birch_crystal_tree",
+    "placement": []
+  }
+}

@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "productivebees:stone_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:stone"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north"
+            },
+            "Name": "productivebees:stone_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:stone_nest"
+  }
+}

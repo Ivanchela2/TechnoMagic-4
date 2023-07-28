@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:delta",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:delta",
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

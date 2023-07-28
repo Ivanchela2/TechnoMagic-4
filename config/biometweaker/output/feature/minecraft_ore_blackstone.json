@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "minecraft:ore_blackstone",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ore_blackstone",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 5
+          },
+          "max_inclusive": {
+            "absolute": 31
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

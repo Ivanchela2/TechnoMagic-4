@@ -1,0 +1,51 @@
+
+{
+  "registry_name": "gardens_of_the_dead:short_hanging_soul_spore_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 64,
+      "xz_spread": 8,
+      "y_spread": 4,
+      "feature": {
+        "feature": {
+          "config": {
+            "length": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            },
+            "direction": "down",
+            "glowingChance": 0.0
+          },
+          "type": "gardens_of_the_dead:short_soul_spore_column"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "blocks": "minecraft:soul_soil",
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

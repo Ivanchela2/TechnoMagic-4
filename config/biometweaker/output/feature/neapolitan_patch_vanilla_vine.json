@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "neapolitan:patch_vanilla_vine",
+  "worldgen/placed_feature": {
+    "feature": "neapolitan:patch_vanilla_vine",
+    "placement": [
+      {
+        "chance": 64,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

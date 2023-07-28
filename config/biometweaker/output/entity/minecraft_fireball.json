@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:fireball",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "minecraft:entities/fireball",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

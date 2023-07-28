@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:magic_landmine",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 40,
+  "defaul_loot_table": "botania:entities/magic_landmine",
+  "size": {
+    "height": 0.1,
+    "width": 5.0,
+    "fixed": false
+  }
+}

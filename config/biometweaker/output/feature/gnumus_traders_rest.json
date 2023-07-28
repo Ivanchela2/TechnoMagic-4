@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:traders_rest",
+  "worldgen/placed_feature": {
+    "feature": "gnumus:traders_rest",
+    "placement": []
+  }
+}

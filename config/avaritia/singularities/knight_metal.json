@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.knight_metal",
+  "colors": [
+    "eee8aa",
+    "ffe4b5"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "tag": "forge:ingots/knightmetal"
+  }
+}

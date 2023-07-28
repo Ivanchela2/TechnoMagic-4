@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "create:striated_ores_nether",
+  "worldgen/placed_feature": {
+    "feature": "create:striated_ores_nether",
+    "placement": [
+      {
+        "entry": "create:striated_ores_nether",
+        "type": "create:config_driven"
+      }
+    ]
+  }
+}

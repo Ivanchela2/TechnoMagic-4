@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:bonus_chest",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:bonus_chest"
+  }
+}

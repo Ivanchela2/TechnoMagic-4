@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:hollow_log",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:fallen_hollow_log"
+  }
+}

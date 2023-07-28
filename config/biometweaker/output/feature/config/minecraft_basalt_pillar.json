@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:basalt_pillar",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:basalt_pillar"
+  }
+}

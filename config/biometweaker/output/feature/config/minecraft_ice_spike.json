@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:ice_spike",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:ice_spike"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:dark_mushrooms",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:dark_mushrooms",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

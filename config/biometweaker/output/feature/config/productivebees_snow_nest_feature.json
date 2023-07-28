@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "productivebees:snow_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "layers": "1"
+              },
+              "Name": "minecraft:snow"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north"
+            },
+            "Name": "productivebees:snow_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:snow_nest"
+  }
+}

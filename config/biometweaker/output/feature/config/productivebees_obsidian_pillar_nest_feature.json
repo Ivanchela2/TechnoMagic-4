@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "productivebees:obsidian_pillar_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:obsidian"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north"
+            },
+            "Name": "productivebees:obsidian_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:obsidian_pillar_nest"
+  }
+}

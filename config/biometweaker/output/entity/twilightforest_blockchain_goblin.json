@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:blockchain_goblin",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/blockchain_goblin",
+  "size": {
+    "height": 1.4,
+    "width": 0.9,
+    "fixed": false
+  }
+}

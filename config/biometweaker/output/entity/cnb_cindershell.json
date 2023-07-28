@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cnb:cindershell",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "cnb:entities/cindershell",
+  "size": {
+    "height": 1.45,
+    "width": 1.25,
+    "fixed": false
+  }
+}

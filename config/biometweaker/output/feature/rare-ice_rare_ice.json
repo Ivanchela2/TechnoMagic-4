@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "rare-ice:rare_ice",
+  "worldgen/placed_feature": {
+    "feature": "rare-ice:rare_ice",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 32
+          },
+          "max_inclusive": {
+            "below_top": 32
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

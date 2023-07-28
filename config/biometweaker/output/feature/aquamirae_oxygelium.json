@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "aquamirae:oxygelium",
+  "worldgen/placed_feature": {
+    "feature": "aquamirae:oxygelium",
+    "placement": []
+  }
+}

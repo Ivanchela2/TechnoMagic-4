@@ -1,0 +1,78 @@
+
+{
+  "registry_name": "regions_unexplored:bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 125,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false",
+                      "persistent": "true",
+                      "distance": "7"
+                    },
+                    "Name": "regions_unexplored:maple_leaves"
+                  },
+                  "weight": 2
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false",
+                      "persistent": "true",
+                      "distance": "7"
+                    },
+                    "Name": "minecraft:oak_leaves"
+                  },
+                  "weight": 2
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:air"
+                  },
+                  "weight": 75
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

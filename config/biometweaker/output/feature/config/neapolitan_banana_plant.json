@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "neapolitan:banana_plant",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "neapolitan:banana_plant"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "dreadsteel:scythe_projectile_default",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "dreadsteel:entities/scythe_projectile_default",
+  "size": {
+    "height": 1.0,
+    "width": 0.75,
+    "fixed": false
+  }
+}

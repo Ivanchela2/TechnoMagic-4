@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:falling_ice",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/falling_ice",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

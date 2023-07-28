@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "monsterplus:bloody_slash",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "monsterplus:entities/bloody_slash",
+  "size": {
+    "height": 1.5,
+    "width": 3.5,
+    "fixed": false
+  }
+}

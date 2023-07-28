@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:soul_sand_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:soul_sand"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:soul_sand_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:soul_sand_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "rottencreatures:zap",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "rottencreatures:entities/zap",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.terra_steel",
+  "colors": [
+    "30e72d",
+    "70ff6d"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "botania:terrasteel_ingot"
+  }
+}

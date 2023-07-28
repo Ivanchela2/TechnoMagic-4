@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "ad_astra:glacio",
+  "dimension": {
+    "type": "ad_astra:glacio",
+    "generator": {
+      "biome_source": {
+        "biomes": [
+          {
+            "parameters": {
+              "erosion": 0.0,
+              "depth": 0.0,
+              "weirdness": -0.5,
+              "offset": 0.0,
+              "temperature": 1.0,
+              "humidity": -1.0,
+              "continentalness": 0.0
+            },
+            "biome": "ad_astra:glacio_snowy_barrens"
+          },
+          {
+            "parameters": {
+              "erosion": 0.0,
+              "depth": 0.0,
+              "weirdness": -1.5,
+              "offset": 0.0,
+              "temperature": -0.5,
+              "humidity": 0.0,
+              "continentalness": 0.0
+            },
+            "biome": "ad_astra:glacio_ice_peaks"
+          }
+        ],
+        "type": "minecraft:multi_noise"
+      },
+      "settings": "ad_astra:glacio",
+      "type": "minecraft:noise"
+    }
+  }
+}

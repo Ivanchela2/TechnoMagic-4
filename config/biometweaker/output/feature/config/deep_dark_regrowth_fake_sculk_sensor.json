@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "deep_dark_regrowth:fake_sculk_sensor",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "sculk_sensor_phase": "inactive",
+                "power": "0"
+              },
+              "Name": "minecraft:sculk_sensor"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "north"
+            },
+            "Name": "deep_dark_regrowth:fake_sculk_sensor"
+          }
+        }
+      ],
+      "size": 9,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "deep_dark_regrowth:fake_sculk_sensor"
+  }
+}

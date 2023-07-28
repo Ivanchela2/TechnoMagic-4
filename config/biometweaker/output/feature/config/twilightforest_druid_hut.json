@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:druid_hut",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:druid_hut"
+  }
+}

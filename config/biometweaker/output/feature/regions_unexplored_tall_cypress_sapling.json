@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "regions_unexplored:tall_cypress_sapling",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:tall_cypress_sapling",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:oak_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

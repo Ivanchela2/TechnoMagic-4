@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:firefly_lamppost",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:firefly_lamppost",
+    "placement": []
+  }
+}

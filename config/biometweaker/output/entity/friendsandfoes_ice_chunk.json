@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "friendsandfoes:ice_chunk",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 3,
+  "defaul_loot_table": "friendsandfoes:entities/ice_chunk",
+  "size": {
+    "height": 1.0,
+    "width": 2.5,
+    "fixed": false
+  }
+}

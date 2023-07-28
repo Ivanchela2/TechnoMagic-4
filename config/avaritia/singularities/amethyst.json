@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.amethyst",
+  "colors": [
+    "9f6de7",
+    "6c6c6c"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "minecraft:amethyst_block"
+  }
+}

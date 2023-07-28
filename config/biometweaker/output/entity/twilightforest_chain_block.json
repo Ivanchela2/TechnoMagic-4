@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:chain_block",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 1,
+  "defaul_loot_table": "twilightforest:entities/chain_block",
+  "size": {
+    "height": 0.6,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,26 @@
+
+{
+  "registry_name": "minecraft:disk_clay",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:disk_clay",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "fluids": "minecraft:water",
+          "type": "minecraft:matching_fluids"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

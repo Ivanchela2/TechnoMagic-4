@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:projectile_wasp_sting_projectile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 1,
+  "defaul_loot_table": "enemyexpansion:entities/projectile_wasp_sting_projectile",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

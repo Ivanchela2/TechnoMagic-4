@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:vine_lasso",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/vine_lasso",
+  "size": {
+    "height": 0.2,
+    "width": 0.85,
+    "fixed": false
+  }
+}

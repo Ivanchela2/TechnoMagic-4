@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "mushroom_travelers:mushroom_house",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "mushroom_travelers:mushroom_house"
+  }
+}

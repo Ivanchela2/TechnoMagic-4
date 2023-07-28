@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "regions_unexplored:tall_jungle_sapling",
+  "worldgen/configured_feature": {
+    "config": {
+      "sapling_provider": {
+        "state": {
+          "Properties": {
+            "half": "lower"
+          },
+          "Name": "regions_unexplored:tall_jungle_sapling"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "regions_unexplored:tall_sapling"
+  }
+}

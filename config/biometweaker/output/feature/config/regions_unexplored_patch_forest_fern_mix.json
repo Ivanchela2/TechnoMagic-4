@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "regions_unexplored:patch_forest_fern_mix",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 32,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:large_fern"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:fern"
+                  },
+                  "weight": 2
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:flower"
+  }
+}

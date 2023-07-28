@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:noise_autumn_bush",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:autumn_bush",
+    "placement": [
+      {
+        "count": 25,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

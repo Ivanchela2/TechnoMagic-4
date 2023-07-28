@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:rock_pillar",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:rock_pillar"
+  }
+}

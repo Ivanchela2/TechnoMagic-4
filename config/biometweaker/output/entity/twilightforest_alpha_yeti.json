@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:alpha_yeti",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/alpha_yeti",
+  "size": {
+    "height": 5.0,
+    "width": 3.8,
+    "fixed": false
+  }
+}

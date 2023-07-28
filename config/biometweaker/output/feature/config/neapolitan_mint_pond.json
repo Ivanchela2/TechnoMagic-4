@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "neapolitan:mint_pond",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "neapolitan:mind_pond"
+  }
+}

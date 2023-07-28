@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "aquaculture:muskellunge",
+  "category": "WATER_AMBIENT",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "aquaculture:entities/muskellunge",
+  "size": {
+    "height": 0.4,
+    "width": 0.8,
+    "fixed": false
+  }
+}

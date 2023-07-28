@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "twilightforest:flower_placer_alt",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:flower_placer_alt",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

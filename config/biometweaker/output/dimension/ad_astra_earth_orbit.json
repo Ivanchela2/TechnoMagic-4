@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "ad_astra:earth_orbit",
+  "dimension": {
+    "type": "ad_astra:earth_orbit",
+    "generator": {
+      "biome_source": {
+        "biome": "ad_astra:orbit",
+        "type": "minecraft:fixed"
+      },
+      "settings": "ad_astra:orbit",
+      "type": "minecraft:noise"
+    }
+  }
+}

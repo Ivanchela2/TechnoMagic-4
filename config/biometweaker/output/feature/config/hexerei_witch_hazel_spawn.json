@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "hexerei:witch_hazel_spawn",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "hexerei:witch_hazel_checked",
+          "chance": 0.5
+        }
+      ],
+      "default": "hexerei:witch_hazel_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

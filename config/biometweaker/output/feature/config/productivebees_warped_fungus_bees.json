@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "productivebees:warped_fungus_bees",
+  "worldgen/configured_feature": {
+    "config": {
+      "decor_state": {
+        "Name": "minecraft:shroomlight"
+      },
+      "nest_state": {
+        "Properties": {
+          "honey_level": "0",
+          "facing": "north"
+        },
+        "Name": "productivebees:warped_bee_nest"
+      },
+      "decorators": [
+        {
+          "probability": 0.0,
+          "type": "productivebees:nether_beehive"
+        }
+      ],
+      "planted": false,
+      "valid_base_block": {
+        "Name": "minecraft:warped_nylium"
+      },
+      "stem_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:warped_stem"
+      },
+      "hat_state": {
+        "Name": "minecraft:warped_wart_block"
+      }
+    },
+    "type": "productivebees:decorated_huge_fungus"
+  }
+}

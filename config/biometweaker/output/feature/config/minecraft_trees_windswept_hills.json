@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "minecraft:trees_windswept_hills",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:spruce_checked",
+          "chance": 0.666
+        },
+        {
+          "feature": "minecraft:fancy_oak_checked",
+          "chance": 0.1
+        }
+      ],
+      "default": "minecraft:oak_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

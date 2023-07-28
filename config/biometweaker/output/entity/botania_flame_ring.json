@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:flame_ring",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 3,
+  "update_interval": 40,
+  "defaul_loot_table": "botania:entities/flame_ring",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

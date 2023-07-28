@@ -1,0 +1,84 @@
+
+{
+  "registry_name": "farmersrespite:patch_wild_tea_bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "primary_feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "farmersrespite:wild_tea_bush"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "minecraft:dirt",
+                  "type": "minecraft:matching_block_tag"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "secondary_feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:fern"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "minecraft:dirt",
+                  "type": "minecraft:matching_block_tag"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "tries": 3,
+      "xz_spread": 5,
+      "y_spread": 2
+    },
+    "type": "farmersdelight:wild_crop"
+  }
+}

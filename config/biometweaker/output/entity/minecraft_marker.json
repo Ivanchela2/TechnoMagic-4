@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:marker",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 0,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/marker",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

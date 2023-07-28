@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:patch_sunflower",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_sunflower",
+    "placement": [
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

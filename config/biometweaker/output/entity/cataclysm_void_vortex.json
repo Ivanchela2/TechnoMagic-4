@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:void_vortex",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "cataclysm:entities/void_vortex",
+  "size": {
+    "height": 0.5,
+    "width": 2.5,
+    "fixed": false
+  }
+}

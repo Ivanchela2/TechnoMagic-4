@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "silentgear:crimson_iron_ore",
+  "worldgen/placed_feature": {
+    "feature": "silentgear:crimson_iron_ore",
+    "placement": [
+      {
+        "count": 14,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 10
+          },
+          "max_inclusive": {
+            "below_top": 10
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

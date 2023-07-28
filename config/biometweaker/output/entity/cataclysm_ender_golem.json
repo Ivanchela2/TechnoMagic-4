@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:ender_golem",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "cataclysm:entities/ender_golem",
+  "size": {
+    "height": 3.5,
+    "width": 2.5,
+    "fixed": false
+  }
+}

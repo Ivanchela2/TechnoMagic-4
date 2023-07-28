@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "deeperdarker:sculk_coal_ore",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "deeperdarker:sculk_stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "deeperdarker:sculk_stone_coal_ore"
+            }
+          }
+        ],
+        "size": 8,
+        "discard_chance_on_air_exposure": 0.1
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "below_top": 64
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

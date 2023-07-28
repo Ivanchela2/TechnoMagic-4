@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "twilightforest:small_diorite",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      ],
+      "size": 16,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

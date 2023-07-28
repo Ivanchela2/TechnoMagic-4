@@ -1,0 +1,36 @@
+# Load suggestions by using disassembler on "load" methods of entities and block entities.
+# Default value: true
+use_disassembler = true
+
+# Load suggestions from resource files (required to load item nbt suggestions).
+# Default value: true
+load_from_resources = true
+
+# Use new thread to load suggestions after loading Minecraft.
+# Default value: true
+use_new_thread = true
+
+# Suggest 1b/0b instead of true/false for boolean value.
+# Default value: false
+short_boolean = false
+
+# Hide Forge specific tags.
+# Default value: true
+hide_forge_tags = true
+
+# Show tag type next to its name in suggestions list.
+# Default value: true
+show_tag_types = true
+
+# Predict suggestions for known tags.
+# Default value: true
+predict_suggestions = true
+
+# Save suggestions to file - ".minecraft/nbt_ac_output.txt"
+# 0 - Disabled
+# 1 - Enabled
+# 2 - Enabled and sorted (easier for comparing)
+# Other values will be treated as 0.
+# Default value: 0
+save_suggestions = 0
+

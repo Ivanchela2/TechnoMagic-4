@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:alpha_dandelion_bonemeal",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:alpha_dandelion",
+    "placement": [
+      {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

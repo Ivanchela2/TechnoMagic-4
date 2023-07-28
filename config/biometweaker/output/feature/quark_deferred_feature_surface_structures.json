@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "quark:deferred_feature_surface_structures",
+  "worldgen/placed_feature": {
+    "feature": "quark:deferred_feature_surface_structures",
+    "placement": []
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:mangrove_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:tall_mangrove_checked",
+          "chance": 0.85
+        }
+      ],
+      "default": "minecraft:mangrove_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

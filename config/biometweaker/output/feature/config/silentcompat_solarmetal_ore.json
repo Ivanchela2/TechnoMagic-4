@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "silentcompat:solarmetal_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "level": "0"
+              },
+              "Name": "minecraft:lava"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "silentcompat:solarmetal_ore"
+          }
+        }
+      ],
+      "size": 4,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

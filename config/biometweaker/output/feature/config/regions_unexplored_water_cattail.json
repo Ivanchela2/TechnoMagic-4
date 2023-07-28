@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:water_cattail",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:water_cattail"
+  }
+}

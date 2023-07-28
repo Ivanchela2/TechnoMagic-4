@@ -1,0 +1,1713 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7"
+	group: "472A643616306AAC"
+	icon: "botania:brewery"
+	id: "44C00C8D4D0B88B6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27F16682E4761ED8"]
+			description: [
+				"Добро пожаловать в седьмую стадию!"
+				""
+				"Вам предстоит управлять магией цветов, сразиться с Гайей, полететь на Венеру и Меркурий и многое другое!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "044526F172270DF5"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "295AECF056E2D30B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1081647172
+									955334828
+									-1428732954
+									-172702434
+								]
+								Name: "Kranie"
+								Properties: {
+									textures: [{
+										Signature: "ORGWqH0BztqNzIk/BQm1+9R0ynwAbsl3QFN8xt9HikAgNBKuQSL6RdYML/6yXxTRgVpLmWHCT3DlH2G9i7238exdyJJBi6Ost6qQiH9BNMYeVULGxibbC3NvBnVQD8dWRb5r2z+BC0/Sq3Vt3XTlopPc2Ibe3XoSuBFdF0N6Vf5jzh8inZ6mvIFGJuBsuO/w4fJ9ydG+Ffm994KFmA+jJb2/2oxv+AHz2LJ5GiMXOqPCv5EHwpce/OvPK+6rTk82+zyjWmdM/eLSjh2oWaH+otmcMtC4cTyAS5y6Y3xBvSd38YQVZrgG8URg7576VpqJ6qv33NGurBupt12ULb4JphPV1eiWQL48ZUwhVmUM4ezzbpE5HniQqqnxhn+E83nglVhvHO+KghpSyqvWJ91ees3KzzbaWBCnVzJU4Px31AVow/GnocffjGPTcY2sq2r3oaSR4Gj1QpoCiSQTWU3sbwvUnnemX63KmwpAWvmbtFbvCWyuIY4Cl95EBWjYin636oKR4rh1y3D5A7Yu2HTG4MLyP4Sci+i92EL9IIFRpULQJmU6B6GSLooS8I6l9IQtRCvBuSy6mHkcEf1qB6W+o+nv2mtE9QM/23XWiSLYJK/LE7MbommXDkvxo1+y60VoUhSC+XgOmjLxQgL1ip0NzE4JxtdX5r8cUXKDFbcW6fE="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4Mzg3ODIwMjk3NywKICAicHJvZmlsZUlkIiA6ICJiZjg3NWZiYzM4ZjE0MGFjYWFkNzQzZTZmNWI0YzUxZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmFuaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1MTNmNTBjYzg2NmI5YTI5NjJjMWYyNTZmZjVhYmUyOGJjMGNiMjY5MzU2MWU5NjFiMTM2NDk1YmVkNTU3NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F7A793A807C78A"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2111550943
+									-1212330312
+									-2062262521
+									567742714
+								]
+								Name: "Sklam1x"
+								Properties: {
+									textures: [{
+										Signature: "oJ2+7fyh3UTkUyRy53RQ+Ak24nea308qRz0IJidvG3R7RrLUzhbhiubcCjS9baIlnApxsTLuxQjSpy+xWJ9opI5RupAtUFTn37bDn4A0LQYPxH28On0/sCQpWwHOnSTh+BTYjEXid2qS4nUq2BdoEvlE62E+rvWIvoHUdbSdY7SC7JDf3X/DWjDzR1+NzlNsKplhMicQZUz+OfHyBZfy8uTBfH4poQ9XriXazLJmzFWsUh2Gp1xG+2G3NKKboidpYuT3EtfzRLh4FSQvcwCZM6fWjoeHjAghNUlaW3/MooGC6uZYFAzBeuTUSKlbDAxME8J9/4bGHJdh+/SWlilW6CGUa1zksEEn2wJs2UZpReyeM2AdMWVVWRRkFHwimYhZbXqSjZCU8Woeuhb010ItaI7RpiCFRfq+AhXzOxtzN3ZKx9apfqdICyVZdOPFge2j8PsCF4+rIVWYZKoAlqZr+X3md1UiD5hGTy1N1QcvjK+Tvggf1zvghDltMIHnprpKCAhuUbe/y3ea8hqIewPcDlmHIQjIvsQ48MpU7UKsH2/iVq+UGi33lCP5TAx6OAkFjNERZ7nIkaxHI9WjVYEfSnTK1ufdtlkLStl08pnJlt2O87QJUp0U/ZSbuGaRepOB8dJezK4blC2QvREFzscLhb5hzBZnEwSER38gByYKm4s="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4Mzg5MTE3Njg5OCwKICAicHJvZmlsZUlkIiA6ICI3ZGRiYjVkZmI3YmQ0ZWI4ODUxNDVmMDcyMWQ3MTBmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2xhbTF4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkOGRlNTI3M2FiOTQ4OGNhMjlhNzFiZmU5NmJhNDg5MGUwMzUzMWI2MTBiYzgwZTUwMTZkZjU1Y2ZmNWFkNTEiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "760D5B0E59465F91"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:s7_botania ()"
+					id: "580D19137AA259D8"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "5ACA6F0CA118F681"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Странный цветочный запах начинает завораживать\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "42DCCDDE55FDED97"
+					player_command: false
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0B5A3B6B8F720EB3"
+				title: "&5Стадия 7"
+				type: "checkmark"
+			}]
+			x: -1.1000000000000059d
+			y: -1.9785714285714384d
+		}
+		{
+			dependencies: ["2DF20A08FCF56A6C"]
+			description: ["Скрафтите лепестковый аптекарь и на нем создайте чистую маргаритку"]
+			icon: "botania:pure_daisy"
+			id: "7CF4C70423A53448"
+			rewards: [{
+				id: "1B874F1BC2D3946D"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66F1A12C63DD5BA9"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "1E4BC88D99353221"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			title: "Чистая маргаритка"
+			x: -1.1000000000000059d
+			y: 2.2714285714285616d
+		}
+		{
+			dependencies: ["044526F172270DF5"]
+			description: [
+				"Мистические цветы получаются только из химических элементов в объединителе из Alchemistry."
+				""
+				"Вы также можете выращивать цветы, кликнув лепестком соответствующего цветка по земле и затем, вырастив его костной мукой"
+				""
+				"В будущем вы сможете получать цветы с помощью удобрения"
+			]
+			id: "2DF20A08FCF56A6C"
+			rewards: [{
+				id: "78254FCD820725CD"
+				item: "botania:white_petal"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33F960D466113160"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			title: "Как получить мистические цветы?"
+			x: -1.1000000000000059d
+			y: 0.021428571428561582d
+		}
+		{
+			dependencies: ["7CF4C70423A53448"]
+			description: ["Для крафта поставьте около чистой маргаритки потустороннее дерево"]
+			id: "39D12BB895A1D8D8"
+			rewards: [{
+				id: "2B4142A53EA16922"
+				item: "botania:livingwood"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "57354CD799D736B4"
+				item: "botania:livingwood"
+				type: "item"
+			}]
+			title: "Жизнедерево"
+			x: -3.100000000000006d
+			y: 4.021428571428562d
+		}
+		{
+			dependencies: ["7CF4C70423A53448"]
+			description: ["Для крафта поставьте около чистой маргаритки лунный камень"]
+			id: "70361FA058FFB101"
+			rewards: [{
+				id: "2BDF8F4B7172B031"
+				item: "botania:livingrock"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "29F63748945C4CE8"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			title: "Жизнекамень"
+			x: 0.8999999999999941d
+			y: 4.021428571428562d
+		}
+		{
+			dependencies: ["39D12BB895A1D8D8"]
+			description: [
+				"Распространитель маны нужен для передачи маны в различные предметы, например, бассейн маны"
+				""
+				"Соедините цветы с распространителем маны с помощью посоха леса, а сам распространитель с бассейном маны"
+			]
+			id: "0487B8A00D49AB0F"
+			rewards: [{
+				id: "6514AD660B90CBEB"
+				item: "botania:white_petal_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "5581A2EF8C7A5C09"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -3.100000000000006d
+			y: 6.521428571428562d
+		}
+		{
+			dependencies: ["70361FA058FFB101"]
+			description: ["Емкость бассейна разбавленной маны составляет примерно 1/100 от обычного бассейна маны"]
+			id: "01441E30124110D2"
+			rewards: [{
+				id: "5EFCCAB1A12C854D"
+				item: "botania:manasteel_nugget"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "1F1C0CAC27679EB9"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: 0.8999999999999941d
+			y: 6.521428571428562d
+		}
+		{
+			dependencies: ["7CF4C70423A53448"]
+			description: [
+				"Первые цветы, вырабатывающие ману. Они производят ману засчет погодных условий"
+				""
+				"Рейнут производит ману, пока идет дождь (не работает в снежных биомах)"
+				""
+				"Глацифлора производит ману, пока идет снег"
+			]
+			id: "7E5ED569F8401542"
+			rewards: [{
+				id: "19B897BC272A97D5"
+				table_id: 4664548526860651201L
+				title: "Случайный цветок"
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "18341A87D573AEAD"
+					item: "botanicadds:flowers/rainute"
+					type: "item"
+				}
+				{
+					id: "5A0DF420061A2D3C"
+					item: "botanicadds:flowers/glaciflora"
+					type: "item"
+				}
+			]
+			title: "Первая мана!"
+			x: -1.092857142857146d
+			y: 5.257142857142849d
+		}
+		{
+			dependencies: [
+				"7E5ED569F8401542"
+				"01441E30124110D2"
+				"0487B8A00D49AB0F"
+			]
+			description: [
+				"Вы научились получать и использовать ману. Поздравляю!"
+				""
+				"Теперь вам нужно увеличивать ее производство"
+			]
+			icon: "botania:manasteel_ingot"
+			id: "774A31C218E33D61"
+			rewards: [
+				{
+					id: "0082E28417D3B582"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "0F0EF992D03A77C7"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "57A0917248DC6842"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7C2E1EB746B95EFC"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "6772FA29375CE7E2"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "68E6030303C2BAF0"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+			]
+			title: "Мана-ресурсы"
+			x: -1.1000000000000059d
+			y: 8.021428571428562d
+		}
+		{
+			dependencies: ["39D12BB895A1D8D8"]
+			description: ["Посох леса имеет 2 режима: функциональный и привязки"]
+			id: "1F2A082165866A59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "162DEAFEDE334428"
+				table_id: 4664548526860651201L
+				type: "random"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "23D2A9768A1F69D4"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.9000000000000057d
+			y: 3.2214285714285618d
+		}
+		{
+			dependencies: ["4230A40240172024"]
+			description: [
+				"На руническом алтаре создаются руны и некоторые другие предметы"
+				""
+				"Выложите на алтаре предметы, направьте на него ману и по завершении наполнения маной алтаря, положите на него жизнекамень и кликните ПКМ посохом леса"
+			]
+			id: "3A35127266C9F2D0"
+			rewards: [{
+				id: "23B58EB87A2E6624"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "2EE3B857C63C9CDD"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -1.1000000000000059d
+			y: 12.771428571428562d
+		}
+		{
+			dependencies: ["774A31C218E33D61"]
+			description: ["Планшет маны - это переносное хранилище маны"]
+			id: "4230A40240172024"
+			rewards: [{
+				count: 2
+				id: "1731180A3D47A99E"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "708578124DE4D49E"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -1.1000000000000059d
+			y: 10.521428571428562d
+		}
+		{
+			dependencies: ["0487B8A00D49AB0F"]
+			description: ["Линзы маны прикрепляются к распространителям, давая им некоторые возможности"]
+			id: "73935E863F0E6741"
+			rewards: [{
+				count: 4
+				id: "5C66C0D4B54762F4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			size: 0.8d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "1DEB8580FB17D89D"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.2d
+		}
+		{
+			dependencies: ["4230A40240172024"]
+			description: ["Емкость бассейна маны составляет 1,000,000 единиц"]
+			id: "2FB0CB328E6CA691"
+			rewards: [{
+				id: "0A9312E6845C9E1B"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3359DD928E9650EB"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -2.600000000000006d
+			y: 11.021428571428562d
+		}
+		{
+			dependencies: ["774A31C218E33D61"]
+			description: ["Пилоны маны могут использоваться вместо книжных полок на столе зачарования"]
+			id: "392216AAC2710253"
+			rewards: [{
+				id: "2DE343DEBB5674C7"
+				item: "botania:manasteel_block"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "47F6BDC23A65C6F4"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 0.49999999999999467d
+			y: 8.821428571428562d
+		}
+		{
+			dependencies: ["774A31C218E33D61"]
+			description: ["Поставьте катализатор под бассейн маны, чтобы изменить в нем рецепты"]
+			id: "0E401766291A2BB8"
+			rewards: [{
+				count: 4
+				id: "778248C667353E0D"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "746C15DE412427B9"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -2.700000000000006d
+			y: 8.821428571428562d
+		}
+		{
+			dependencies: ["4230A40240172024"]
+			description: [
+				"Такой же функционал, как и у планшета маны, но может быть экипировано в слот безделушек"
+				""
+				"Если улучшить кольцо террасталью, то емкость увеличится в 4 раза"
+			]
+			id: "409D441AC5D97B33"
+			rewards: [{
+				count: 2
+				id: "3085F4959F764D4A"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E95CDCB25D7E63"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 0.39999999999999414d
+			y: 11.021428571428562d
+		}
+		{
+			dependencies: ["3A35127266C9F2D0"]
+			description: [
+				"На агломерационной плите вы можете скрафтить террасталь"
+				""
+				"Для своей работы она требует структуру 3x3 под ней, состоящую из четырех блоков лазурита и пяти жизнекамня"
+				""
+				"{image:stage7:textures/screenshots/terra_plate.png width:150 height:100 align:1}"
+			]
+			id: "0D40BBE03A8EDABF"
+			rewards: [{
+				id: "0F4EAF0A6D3CAFE9"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "244507B5C592A67A"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 1.738095238095248d
+			y: 12.759523809523778d
+		}
+		{
+			dependencies: ["0D40BBE03A8EDABF"]
+			description: ["На крафт тратится половина бассейна маны (500,000 маны)"]
+			id: "1225DF902E41CFCE"
+			rewards: [{
+				id: "4DDA4835583FD74E"
+				item: "botania:terrasteel_nugget"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "532C43A0C048C672"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 4.649319727891161d
+			y: 12.755782312925163d
+		}
+		{
+			dependencies: ["3A35127266C9F2D0"]
+			description: ["&dБотанический катализатор&r используется в крафтах компонентов ракеты 3-го уровня"]
+			id: "4D15A6236607EDAC"
+			rewards: [{
+				id: "68B9AF4C57DFE546"
+				table_id: 5627423409816671129L
+				title: "Случайная руна"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "1335AC459546DA5A"
+				item: "ivanchela:botany_catalyst"
+				type: "item"
+			}]
+			x: -2.9000000000000057d
+			y: 13.82142857142856d
+		}
+		{
+			dependencies: ["1225DF902E41CFCE"]
+			description: [
+				"Портал в эльфхейм нужен для получения важных ресурсов"
+				""
+				"Для активации портала требуется довольно много маны"
+				"{image:stage7:textures/screenshots/Botania_Portal_to_Alfheim.png width:100 height:100 align:1}"
+			]
+			id: "27167BC51C639600"
+			rewards: [{
+				id: "1B137D4F899439A1"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Подробнее в лексиконе"
+			tasks: [
+				{
+					id: "7EBE53D1741B93AD"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "361381889AE59DA8"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1970D55A58277057"
+					item: "botania:livingwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1A86F56EA58AF0FC"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "Портал в эльфхейм"
+			x: 6.976190476190482d
+			y: 12.723979591836738d
+		}
+		{
+			dependencies: ["27167BC51C639600"]
+			description: ["Скрафтите &6ракету 2-го уровня&r и приземлитесь на &6Марсе&r "]
+			icon: "ad_astra:mars_globe"
+			id: "7A0A0C200A682AED"
+			rewards: [
+				{
+					count: 3
+					id: "102A472C8F99F49C"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "1BD057EA85F12C41"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [
+				{
+					id: "540D541CF8F67B63"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_2_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "738D46045FF79981"
+					title: "Приземлиться на &6Марсе"
+					type: "dimension"
+				}
+			]
+			title: "Полет на &6Марс"
+			x: 6.94047619047619d
+			y: 9.72397959183673d
+		}
+		{
+			dependencies: ["1225DF902E41CFCE"]
+			id: "38CA26E3F0586976"
+			rewards: [{
+				id: "0A7C06171E43D2C3"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "001265FA71A4738F"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "026731DA52EC90A4"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E8F6FE874218CBD"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724424A116A7AA19"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из террастали"
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1225DF902E41CFCE"]
+			id: "5AEFAD3B68468EB0"
+			rewards: [{
+				count: 2
+				id: "52A750B6CA093D9A"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A91A3C5898FEA0F"
+					item: {
+						Count: 1b
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50BC3853C91734E8"
+					item: {
+						Count: 1b
+						id: "botania:terra_pick"
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC542143B05F0F1"
+					item: {
+						Count: 1b
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из террастали"
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1225DF902E41CFCE"]
+			description: ["Емкость большого кольца больше обычного в 4 раза"]
+			id: "099241F6FB50D157"
+			rewards: [{
+				id: "437220A12DF70379"
+				item: "botania:terrasteel_nugget"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A7BC4CEEFD6A846"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3A35127266C9F2D0"]
+			description: ["Кольцо ауры медленно генерирует ману"]
+			id: "1EC9C9786AA66C98"
+			rewards: [{
+				id: "738B13C1A8CCD3E7"
+				item: "botania:manasteel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 0.8d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "223004575A58EA02"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7A0A0C200A682AED"]
+			description: ["Спавнится на &6Марсе"]
+			id: "15CB232A77B62423"
+			rewards: [{
+				count: 8
+				id: "1F5AD2B0CC5A81F5"
+				item: "ad_astra:mars_ostrum_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6105EBFC05AED92A"
+				item: "ad_astra:mars_ostrum_ore"
+				type: "item"
+			}]
+			title: "Острум"
+			x: 4.995578231292491d
+			y: 9.696938775510198d
+		}
+		{
+			dependencies: ["1225DF902E41CFCE"]
+			description: ["Генерирует ману значительно быстрее"]
+			id: "2CB24B95F4C2D164"
+			rewards: [{
+				id: "6321650466A0CA81"
+				item: "botania:terrasteel_nugget"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "691562D046562CE2"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7A0A0C200A682AED"]
+			description: ["Создается из двух острумов, если бросить их в портал в эльфхейм"]
+			id: "7967A8ED6E8D76A4"
+			rewards: [{
+				count: 2
+				id: "69DC46C1508DCE02"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "760EFECBE9B08AAA"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 6.945238095238103d
+			y: 7.472619047619034d
+		}
+		{
+			dependencies: ["7967A8ED6E8D76A4"]
+			description: [
+				"Для призыва Стража Гайи сначала поставьте активированный маяк, затем на 1 блок выше 4 Гайа пилона и самое главное - очень много свободного пространства."
+				""
+				"Когда вы готовы, кликните террасталью по маяку и Страж Гайи появится"
+				""
+				"&c&lВажно:&r Страж Гайи - очень сильный босс и перед битвой с ним, стоит хорошо подготовиться"
+				"{image:stage7:textures/screenshots/Gaia_Ritual.png width:100 height:100 align:1}"
+			]
+			icon: "botania:gaia_pylon"
+			id: "4C511DC62177DF3C"
+			rewards: [{
+				count: 12
+				id: "7FD1C81F6792D923"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "09024B41369331A0"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "36EB729310A73E4D"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Ритуал Гайи"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C511DC62177DF3C"]
+			id: "5AA76ACC046A771E"
+			rewards: [
+				{
+					count: 2
+					id: "4047579BBB7EA9D8"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "1AE0175A3A4FBC58"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "0081DF0BCA4A1A8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			description: [
+				"На агломерационной плите Гайи крафтятся Гайясталь и компоненты ракеты 4-го уровня"
+				""
+				"Для своей работы она требует структуру 3x3, состоящую из четырех эльфийских блоков лазурита и 5 камней мечтаний"
+			]
+			id: "15587FC673553B60"
+			rewards: [{
+				id: "33225F9C432EE411"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "4C672E8698E27CD3"
+				item: "botanicadds:gaia_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27167BC51C639600"]
+			id: "29CF7070430162BC"
+			rewards: [{
+				id: "49D976AB10F207CE"
+				item: "botanicadds:elven_lapis"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1C91E70380606229"
+				item: "botanicadds:elven_lapis"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.6d
+		}
+		{
+			dependencies: ["27167BC51C639600"]
+			id: "45F267EEE3ABCF59"
+			rewards: [{
+				id: "31D0543E87A83870"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "45834E254399AD39"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 8.8d
+			y: 12.8d
+		}
+		{
+			dependencies: ["27167BC51C639600"]
+			id: "4E06CE843BC1413D"
+			rewards: [{
+				id: "099A412E261383D9"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "54C72A4485AFDECA"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["01441E30124110D2"]
+			description: ["Искра передает ману из бассейнов маны в другие предметы, в том числе и другие бассейны очень быстро"]
+			id: "26B257F4C592791A"
+			rewards: [{
+				id: "400B2BA77E6093AC"
+				item: "botania:spark"
+				type: "item"
+			}]
+			size: 0.8d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "5F3C2F0C5A42B429"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 1.6d
+			y: 7.2d
+		}
+		{
+			dependencies: ["15587FC673553B60"]
+			id: "4D62279676E67C46"
+			rewards: [{
+				id: "3E465989804C4C78"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BCB4A5E1C02565D"
+				item: "botanicadds:gaiasteel_ingot"
+				title: "&cГайясталь"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51D38EB848F121C3"]
+			description: ["С крафтом &5ракеты 3-го уровня&r становятся доступны &6Венера&r и &5Меркурий"]
+			icon: "ad_astra:venus_globe"
+			id: "577AFF77E648C927"
+			rewards: [
+				{
+					count: 2
+					id: "0178980ECBE4C4EE"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					id: "3C3EA348B6831DE7"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [
+				{
+					id: "3AB0CD010E49F39A"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_3_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "3157363B2F8C9C84"
+					title: "Приземлиться на &6Венере"
+					type: "dimension"
+				}
+			]
+			title: "Полет на &6Венеру"
+			x: 4.5d
+			y: 1.05d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			id: "750DE25BC082CF89"
+			rewards: [{
+				id: "0F23B0B3D8CA81CD"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E296F117B319BEA"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["750DE25BC082CF89"]
+			description: ["Ритуал вызова Стража Гайи 2-го уровня вызывается так же, но вместо слитка террастали используется слиток духа Гайи"]
+			icon: "botania:gaia_head"
+			id: "1D382E57A717401B"
+			rewards: [{
+				id: "06111FE36057CE5D"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "2C7CD6B4D0B3AAD2"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "Гайа 2-го уровня"
+			x: 3.452380952380963d
+			y: 9.128571428571405d
+		}
+		{
+			dependencies: ["577AFF77E648C927"]
+			description: ["Калорит спавнится на Венере"]
+			id: "7F46B82276A6CCF7"
+			rewards: [{
+				count: 3
+				id: "3CCC1F94D32244FB"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "502C43AA653D46C9"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "&cКалорит"
+			x: 6.6d
+			y: 1.05d
+		}
+		{
+			dependencies: [
+				"7F46B82276A6CCF7"
+				"4460AFFB060545C0"
+			]
+			description: ["Последним квестом в 7 стадии является крафт &cракеты 4-го уровня&r и полет на &bГласио!"]
+			icon: "ad_astra:glacio_globe"
+			id: "527305C0634DF83B"
+			rewards: [
+				{
+					id: "13431D8A00FB7828"
+					item: "botania:maximum_catalyst"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C2D78DC1CF8022D"
+					item: "botanicadds:gaiasteel_ingot"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/summon firework_rocket ~ ~3 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;14188952],FadeColors:[I;12801229]}]}}}}"
+					id: "6A12DFF8A1168BCC"
+					player_command: false
+					title: "Фейерверк"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "(почти)"
+			tasks: [
+				{
+					id: "00C8148C9EFDCF0D"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_4_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "5EEB2E50B8039191"
+					title: "Приземлиться на &bГласио"
+					type: "dimension"
+				}
+			]
+			title: "&l&bФинал!"
+			x: 9.1d
+			y: 1.05d
+		}
+		{
+			dependencies: ["0D40BBE03A8EDABF"]
+			description: ["&dЛепесток бесконечности&r используется в крафтах компонентов ракеты 3-го уровня"]
+			id: "1FE2494CD1B57B6D"
+			rewards: [{
+				count: 2
+				id: "27DC7C6314138760"
+				item: "botania:orange_petal_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "54F04E9DD84471A1"
+				item: "botania:infinity_petal"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 14.664285714285683d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			description: ["&7Гайа катализатор&r используется в крафтах компонентов ракеты 3-го уровня"]
+			id: "5485DC01C6AF3AE0"
+			rewards: [{
+				id: "11390D19D220E012"
+				item: "ivanchela:botany_catalyst"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2A227104F65C2416"
+				item: "botania:gaia_catalyst"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4D62279676E67C46"]
+			description: ["&bМаксимальный катализатор&r используется в крафтах компонентов ракеты 4-го уровня"]
+			id: "4460AFFB060545C0"
+			rewards: [{
+				id: "0B5C03A636CC0D10"
+				item: "botania:gaia_catalyst"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "6D505EF3892BA7F9"
+				item: "botania:maximum_catalyst"
+				type: "item"
+			}]
+			title: "&bМаксимальный катализатор!"
+			x: 9.1d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			description: ["Только в скафандре 2-го уровня можно пережить очень высокую температуру на &6Венере"]
+			id: "51D38EB848F121C3"
+			rewards: [{
+				count: 2
+				id: "4BA4631F1669B3FF"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "7EF14C5480499A2B"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61036C1F09F9C620"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3060B34ED543AAA0"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "155DAA8D5B06F841"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Скафандр 2-го уровня"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			description: [
+				"Тиара дает творческий полет"
+				""
+				"Для своей работы требует ману в кольце или планшете"
+			]
+			id: "79800F9F11B4A8B3"
+			rewards: [{
+				id: "413AEEE89E558381"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			subtitle: "Подробнее в лексиконе"
+			tasks: [{
+				id: "38C89F3700069DA2"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3A35127266C9F2D0"]
+			id: "5BE613023BEDDB20"
+			rewards: [{
+				id: "6A3B9DE5E24F2B48"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "785571575DCB3516"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -1.497619047619061d
+			y: 14.36071428571426d
+		}
+		{
+			dependencies: ["577AFF77E648C927"]
+			id: "2B41E9D279AF6758"
+			rewards: [{
+				count: 8
+				id: "2370273292AB0AFC"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "6888891F61D17BBF"
+				title: "Приземлиться на &5Меркурии"
+				type: "dimension"
+			}]
+			title: "Полет на &5Меркурий"
+			x: 2.5d
+			y: 1.05d
+		}
+		{
+			dependencies: ["7F46B82276A6CCF7"]
+			description: ["В реактивном костюме доступен очень быстрый полет, работающий от энергии"]
+			id: "78B43A1AE0FC3A84"
+			rewards: [{
+				id: "0E5E9A0DD7266348"
+				item: "botanicadds:gaiasteel_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FAACF149B997819"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDB4B88B769115B"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DB31463317D9355"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6635EC3A3F191D"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cРеактивный костюм"
+			x: 6.6d
+			y: -0.7559523809523654d
+		}
+		{
+			dependencies: ["7967A8ED6E8D76A4"]
+			description: ["Эльфийский распространитель передает ману без потерь на расстоянии 20 блоков и делает это в разы быстрее"]
+			id: "5105AA8DF72D5295"
+			rewards: [{
+				count: 4
+				id: "3F5A5A0169443B4C"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7724DD3FBF2721A1"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5AA76ACC046A771E"]
+			description: ["Распространитель Гайи передает ману без потерь на расстоянии 48 блоков"]
+			id: "6A1CD76276195841"
+			rewards: [{
+				id: "5D158A27C0D650E8"
+				item: "botanicadds:gaia_shard"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "74289EDD30B45CF4"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3A35127266C9F2D0"]
+			description: [
+				"Такой же функционал, но легче автоматизировать крафты"
+				""
+				"Поставлять ману можно через искру, распространитель маны или манабатарею"
+			]
+			id: "1CE308E6E0A1755E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12FEE18D9894D5FD"
+					table_id: 5627423409816671129L
+					type: "random"
+				}
+				{
+					id: "7A00BB8AFB1E6850"
+					item: "botania:elementium_ingot"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "585A2452D4EB45AB"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: -2.9357142857142833d
+			y: 12.18928571428571d
+		}
+		{
+			dependencies: ["0D40BBE03A8EDABF"]
+			description: [
+				"Такой же функционал, но легче автоматизировать крафты"
+				""
+				"Поставлять ману можно через искру или манабатарею"
+			]
+			id: "69C82B6D4C3AE2A0"
+			rewards: [{
+				id: "271167DE6BA755C7"
+				item: "botania:terrasteel_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "017618FCE0522D87"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 1.721428571428575d
+			y: 11.017857142857139d
+		}
+		{
+			dependencies: ["2FB0CB328E6CA691"]
+			description: [
+				"Такой же функционал, но легче автоматизировать крафты"
+				""
+				"Поставлять ману можно через искру или манабатарею"
+			]
+			id: "02D81C6577F6EB15"
+			rewards: [
+				{
+					count: 32
+					id: "56CC0FB4F1784E30"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "187B33DF011C6E23"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11827C5B442DEBC2"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A60E29C8D138818"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BBCAB0F315FD40A"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7CF4C70423A53448"]
+			description: ["Такой же функционал, но легче автоматизировать крафты"]
+			id: "0AEE33B2DDCB7DB7"
+			rewards: [{
+				id: "2DC3D4C620A0C531"
+				item: "botania:elementium_ingot"
+				random_bonus: 11
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D1ABA0153CBF889"
+				item: "botanicalmachinery:mechanical_daisy"
+				type: "item"
+			}]
+			x: 0.8976190476190595d
+			y: 2.290476190476191d
+		}
+		{
+			dependencies: ["27167BC51C639600"]
+			description: [
+				"Такой же функционал, но легче автоматизировать крафты"
+				""
+				"Поставлять ману можно через искру или манабатарею"
+			]
+			id: "402A25D92B61FF3D"
+			rewards: [
+				{
+					count: 16
+					id: "294A9CAF1CDE3EFB"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7E44D913F9AD1BB5"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "422823B147C41DF2"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E3478F6CFD57926"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "695F75EDB6E857A0"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7CF4C70423A53448"]
+			description: ["Такой же функционал, но легче автоматизировать крафты"]
+			id: "189EB4F18A353A76"
+			rewards: [{
+				id: "17D36E8526F2492C"
+				item: "botania:life_essence"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "493690670E0A4E7F"
+				item: "botanicalmachinery:mechanical_apothecary"
+				type: "item"
+			}]
+			x: -3.0833333333333357d
+			y: 2.213095238095221d
+		}
+		{
+			dependencies: ["5BE613023BEDDB20"]
+			description: [
+				"Такой же функционал, но легче автоматизировать крафты"
+				""
+				"Поставлять ману можно через искру или манабатарею"
+			]
+			id: "1F45AF504D122AD5"
+			rewards: [
+				{
+					count: 16
+					id: "22D0D1091A3ECAAF"
+					item: "botania:flask"
+					type: "item"
+				}
+				{
+					id: "6F2385678070BD4C"
+					item: "botania:elementium_ingot"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "740B520B7CF22AB4"
+				item: "botanicalmachinery:mechanical_brewery"
+				type: "item"
+			}]
+			x: -1.8309523809523895d
+			y: 15.682142857142829d
+		}
+		{
+			dependencies: [
+				"4D62279676E67C46"
+				"15587FC673553B60"
+			]
+			description: [
+				"Питает все машины из Botanical Machinery"
+				""
+				"Мана подается с помощью распространителя маны или искры"
+				""
+				"Хранит целых 10,000,000 маны, что равносильно с 10 бассейнами"
+			]
+			id: "5689197A34647440"
+			rewards: [{
+				id: "5D5B80FA5CBEEEDD"
+				item: "botanicadds:gaiasteel_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "548A4795DAF72916"
+				item: "botanicalmachinery:mana_battery"
+				type: "item"
+			}]
+			x: 6.792857142857166d
+			y: 2.1809523809523483d
+		}
+	]
+	title: "&5Стадия: 7"
+}

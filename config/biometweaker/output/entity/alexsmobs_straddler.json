@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:straddler",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/straddler",
+  "size": {
+    "height": 3.0,
+    "width": 1.65,
+    "fixed": false
+  }
+}

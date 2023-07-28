@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:thorn_chakram",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 10,
+  "defaul_loot_table": "botania:entities/thorn_chakram",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

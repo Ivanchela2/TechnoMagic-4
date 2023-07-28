@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "reliquary:kraken_slime",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 128,
+  "update_interval": 5,
+  "defaul_loot_table": "reliquary:entities/kraken_slime",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

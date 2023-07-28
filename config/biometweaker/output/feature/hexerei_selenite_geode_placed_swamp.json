@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "hexerei:selenite_geode_placed_swamp",
+  "worldgen/placed_feature": {
+    "feature": "hexerei:selenite_geode",
+    "placement": [
+      {
+        "chance": 24,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 6
+          },
+          "max_inclusive": {
+            "absolute": 30
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

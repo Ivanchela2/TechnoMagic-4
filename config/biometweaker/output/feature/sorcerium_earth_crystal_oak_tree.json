@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:earth_crystal_oak_tree",
+  "worldgen/placed_feature": {
+    "feature": "sorcerium:earth_crystal_oak_tree",
+    "placement": []
+  }
+}

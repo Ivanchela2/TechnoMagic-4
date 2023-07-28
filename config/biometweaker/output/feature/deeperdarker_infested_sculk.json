@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "deeperdarker:infested_sculk",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "minecraft:sculk",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "deeperdarker:infested_sculk"
+            }
+          }
+        ],
+        "size": 3,
+        "discard_chance_on_air_exposure": 0.0
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 35,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

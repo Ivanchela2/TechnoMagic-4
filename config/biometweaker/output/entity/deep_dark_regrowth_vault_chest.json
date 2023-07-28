@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "deep_dark_regrowth:vault_chest",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 3,
+  "defaul_loot_table": "deep_dark_regrowth:entities/vault_chest",
+  "size": {
+    "height": 2.0,
+    "width": 1.4,
+    "fixed": false
+  }
+}

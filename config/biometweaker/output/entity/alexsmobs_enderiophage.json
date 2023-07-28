@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:enderiophage",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "alexsmobs:entities/enderiophage",
+  "size": {
+    "height": 1.95,
+    "width": 0.85,
+    "fixed": false
+  }
+}

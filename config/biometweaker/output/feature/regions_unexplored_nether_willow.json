@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "regions_unexplored:nether_willow",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:nether_willow",
+    "placement": [
+      {
+        "count": 155,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

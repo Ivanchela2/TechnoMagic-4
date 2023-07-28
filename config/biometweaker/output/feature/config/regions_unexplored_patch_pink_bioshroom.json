@@ -1,0 +1,51 @@
+
+{
+  "registry_name": "regions_unexplored:patch_pink_bioshroom",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 6,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "regions_unexplored:tall_pink_bioshroom"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "stage": "0"
+                    },
+                    "Name": "regions_unexplored:pink_bioshroom"
+                  },
+                  "weight": 10
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

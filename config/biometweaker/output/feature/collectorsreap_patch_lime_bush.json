@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "collectorsreap:patch_lime_bush",
+  "worldgen/placed_feature": {
+    "feature": "collectorsreap:patch_lime_bush",
+    "placement": [
+      {
+        "chance": 22,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

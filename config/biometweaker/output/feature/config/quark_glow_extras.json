@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "quark:glow_extras",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "quark:glow_extras"
+  }
+}

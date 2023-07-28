@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "ad_astra:mercury_iron_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "ad_astra:mercury_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "ad_astra:mercury_iron_ore"
+          }
+        }
+      ],
+      "size": 8,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

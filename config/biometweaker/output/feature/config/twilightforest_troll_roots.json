@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "twilightforest:troll_roots",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "twilightforest:trollvidr"
+      }
+    },
+    "type": "twilightforest:troll_vines"
+  }
+}

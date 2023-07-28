@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "hexerei:witch_ore",
+  "worldgen/placed_feature": {
+    "feature": "hexerei:witch_ore",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -16
+          },
+          "max_inclusive": {
+            "absolute": 4
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

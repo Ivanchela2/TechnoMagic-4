@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:gnumus_bonfire",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "gnumus:gnumus_bonfire"
+  }
+}

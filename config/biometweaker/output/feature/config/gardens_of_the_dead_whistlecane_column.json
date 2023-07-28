@@ -1,0 +1,44 @@
+
+{
+  "registry_name": "gardens_of_the_dead:whistlecane_column",
+  "worldgen/configured_feature": {
+    "config": {
+      "layers": [
+        {
+          "height": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 1,
+              "max_inclusive": 5
+            }
+          },
+          "provider": {
+            "state": {
+              "Name": "gardens_of_the_dead:whistlecane_plant"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Properties": {
+                "growing": "false"
+              },
+              "Name": "gardens_of_the_dead:whistlecane"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ],
+      "direction": "up",
+      "allowed_placement": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "prioritize_tip": true
+    },
+    "type": "minecraft:block_column"
+  }
+}

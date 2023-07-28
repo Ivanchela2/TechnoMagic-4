@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:totem",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 128,
+  "defaul_loot_table": "quark:entities/totem",
+  "size": {
+    "height": 1.0,
+    "width": 0.5,
+    "fixed": false
+  }
+}

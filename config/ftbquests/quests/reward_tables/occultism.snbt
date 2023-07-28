@@ -1,0 +1,23 @@
+{
+	id: "74EFFE086632CB03"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 4, item: "occultism:spirit_attuned_gem", random_bonus: 4 }
+		{ count: 5, item: "occultism:raw_silver", random_bonus: 5, weight: 0.3f }
+		{ count: 5, item: "occultism:raw_iesnium", random_bonus: 3, weight: 0.1f }
+		{ count: 3, item: "occultism:silver_ingot", random_bonus: 3, weight: 0.3f }
+		{ count: 3, item: "occultism:iesnium_ingot", random_bonus: 3, weight: 0.1f }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "occultism:soul_gem"
+				tag: { }
+			}
+			random_bonus: 2
+			weight: 0.5f
+		}
+	]
+	title: "occultism"
+}

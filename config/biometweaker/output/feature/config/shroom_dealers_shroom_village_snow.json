@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "shroom_dealers:shroom_village_snow",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "shroom_dealers:shroom_village_snow"
+  }
+}

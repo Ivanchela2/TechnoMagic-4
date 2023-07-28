@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:ore_infested_sculk",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:sculk",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "deeperdarker:infested_sculk"
+          }
+        }
+      ],
+      "size": 3,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

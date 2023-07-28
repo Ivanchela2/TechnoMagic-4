@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:patch_berry_bush",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_berry_bush",
+    "placement": []
+  }
+}

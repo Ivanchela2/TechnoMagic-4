@@ -1,0 +1,2274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "kc"
+	group: "68453F2D86137DED"
+	icon: "minecraft:red_mushroom_block"
+	id: "2D369DA1B8E43571"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "avaritia:blocks/craft/extreme_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:blocks/machine/compressor/front"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:blocks/machine/collector/front"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:items/resource/singularity"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "avaritia:items/resource/infinity_catalyst"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "avaritia:blocks/resource/infinity"
+			rotation: 0.0d
+			width: 2.25d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:blocks/resource/neutronium"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "avaritia:items/armor/helmet/layer_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "avaritia:items/armor/legs/layer_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "avaritia:items/armor/boots/layer_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "avaritia:textures/models/armor/infinity_armor_wing.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "avaritia:items/armor/chestplate/layer_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "avaritiafurnace:blocks/furnaceanimated"
+			rotation: 0.0d
+			width: 2.25d
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "botania:item/specific_rune_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "botania:item/basic_runic_stone"
+			rotation: 0.0d
+			width: 2.25d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:blocks/machine/absolute_collector/front"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "avaritiafurnace:textures/lava12x11.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "avaritia:items/resource/neutronium_gear"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "avaritia:blocks/machine/adv_collector/front"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chemlib:item/infinity_element"
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "titanium:textures/blocks/creative/top.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "titanium:textures/blocks/creative/top.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "titanium:textures/blocks/creative/bottom.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "titanium:textures/blocks/creative/bottom.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.75d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "titanium:textures/blocks/creative/bottom.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.25d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:block/creative_pool_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "create:block/creative_casing"
+			rotation: 0.0d
+			width: 2.25d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7C80AC4A5973EA66"
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "chemlib:block/gribony_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -6.5d
+			y: 10.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["527305C0634DF83B"]
+			description: [
+				"Ты прошёл &6огромный путь&r и теперь тебя ждёт &6огромная фармилка ресурсов&r."
+				"Попытайся пройти всю &bаваритию&r, дойди до создания &dтворческих &bмощнейших&9 предметов&r и &aфинальной&r           &cБесконечной Грибной Брони&4!"
+			]
+			hide: true
+			id: "4AED0D419807F065"
+			rewards: [
+				{
+					id: "414808C1337121BD"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-170207412
+									1670270204
+									-2022243568
+									1362224349
+								]
+								Name: "Neck1ch"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4Mjc2NzgyMzQ2MCwKICAicHJvZmlsZUlkIiA6ICJmNWRhZDc0YzYzOGU0Y2ZjODc3NzAzMTA1MTMxZTRkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWNrMWNoIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YyNjQzYjI1N2ExMGU2OGRlZmRhZDJhYWIyOTgxNzIyZWVlMGNlM2FmOTIyMDEyNWU4MmMyN2VmZTIwMjkwZGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A93F96ED1194B37"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1217902728
+									-1215608460
+									-1643948450
+									1865859871
+								]
+								Name: "General_Buba"
+								Properties: {
+									textures: [{
+										Signature: "qby2N2gb8DeAMowj7lZUVHnxBbPyIviRIeIZsLzHfJtdsxhesXDFkOeSNXrxITH4oj5WQliSzM+3R6pbgGWbDhBhZl2eQo14+J0bLg/KX8dMuUf1Eu3xRGwPMRnW/VE0a3lc6uXlM8s38O8LsJtZLb7DnpeVccw1ci9mYQQYWQZrooqoXx+okk/S366UdolcztDN0UsdBVMHoscx0EmYiO7RVPHDLzjNCyDpPqeVObtws4FAT2Qc0nrun0ZL0K2SPsheh3KIjv4S4TwpsMQexB9iCpvfKtrLA/wubafnhFDZMqlJvHo75KOQnkxttbvrnOHYVmYMGq5I1apCbZ/AxDiDKNWg6iF28Cs8n/PrMoSWOI2ypvAq7J8h0Y7Zne2JoFcyun9U+R1wqEHSt2xOkhzVWIaZkFgWPiaLDL4PLWgd1IFfVNlGmeCBFa7bgFGg9DWBTF2Ln82ze5NfuRqPO4njDNXEq3HYSjjM/ImDtkkowb8IYgGik52VEFJKCCO6urMQEwQF3Wytpv+wegMj82U3vlvMHKVKcxv8DEugf3BB+J6JOLAsBkhDSqvoxxTZl4e1oBvejqdxpwPMJjo1ox1XuiL0MaipAEFKykwSUoIoNesYvK4JBN7wWDOWU68goKMRi964uX2fYcQjRjZ10BW4QPQ6rZci9ISFwuQIeUw="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4Mjk1MjM1ODI1MCwKICAicHJvZmlsZUlkIiA6ICI0ODk3Yjg4OGI3OGI0OTc0OWUwMzU2NWU2ZjM2YzMxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZW5lcmFsX0J1YmEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg4NWVlNzg5OGZiN2ZiZGNjYjBjYmI5ZGNhY2ZlMDZkMDVkOGRkMDJkMGI1MGI1NDkwOWRhYzI0OWQzNWU4MCIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5E208EC2FB4301"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:trollface_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "2590AE855CB72CC8"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "&bНачало Конца!"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4AED0D419807F065"
+				"2F99603D81A2EE64"
+			]
+			id: "713F520B1F154531"
+			rewards: [
+				{
+					count: 4
+					id: "5D938DF0B2244CE8"
+					item: "avaritia:neutronium_ingot"
+					type: "item"
+				}
+				{
+					id: "77D679BE7B81D66E"
+					item: "simplehats:rgbdragonskull"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3929260CF1BB9EC4"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AED0D419807F065"]
+			description: [
+				"Компрессор нейтрония - создаёт так называемые сингулярности из предметов."
+				"Проще говоря, сжимает их огромное количество. Сингулярности, ресурсы не из дешёвых, особенно когда тебе требуется их огромное количество."
+			]
+			id: "3338AFDD69DFCAB3"
+			rewards: [
+				{
+					id: "59183EDD98EB0619"
+					item: "enemyexpansion:healing_goo_soup"
+					type: "item"
+				}
+				{
+					id: "191C79C5CDF82B8C"
+					item: "enigmaticlegacy:mega_sponge"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "653206B23E2580D4"
+				item: "avaritia:neutronium_compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3338AFDD69DFCAB3"]
+			description: ["{@pagebreak}"]
+			id: "792B0ED12653A80C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6712EF610A3AC335"
+					table_id: 4461381952137208282L
+					type: "loot"
+				}
+				{
+					id: "01D3753CF754612D"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:headbiter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FCBDD4FE5047205"
+					item: "simplehats:rabbitonhead"
+					type: "item"
+				}
+				{
+					id: "588171697FB2A35A"
+					item: "simplehats:antlers"
+					type: "item"
+				}
+				{
+					id: "794B2071472CD943"
+					item: "simplehats:floweronhead"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0618F45EB1D6672B"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:amethyst"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0665EFEBF64F48F6"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:bronze"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "689CCBED39A6F2F7"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:calorite"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0B3373FB10925566"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:dark_matter"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5B0D91FD9EBA3A5D"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:depth"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0FEB3596DA62AF09"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:etherium"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "518A9791EB23351D"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:experience"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "274B443E62EC4F49"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:fiery_blood"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "77752CC8D63106EE"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:gribony"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "225C399314AC84D7"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:knight_metal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7F0C31D1A685B776"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:precision_mechanism"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3BEBE563CBF16EFE"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:rose_quartz"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2B41E3FAD3102717"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:soul_steel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3FAC89165BCEBFB3"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:steel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7443B40C488488AB"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:terrasteel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "03F64AB9803CA657"
+					item: {
+						Count: 1b
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:tyrian_steel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Сингулярности"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"792B0ED12653A80C"
+				"633DABE150A95A64"
+			]
+			id: "4BDD0B17B6CB947B"
+			rewards: [
+				{
+					id: "33BCB62C750185BF"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:astral_breaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08AE709A5DF4698D"
+					item: "enigmaticlegacy:the_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E6C6D1F65961AA8"
+					table_id: 4461381952137208282L
+					type: "loot"
+				}
+				{
+					id: "1D0F16C1AC4677E4"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:tm4/infinity"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&7Это не конец..."
+			tasks: [{
+				id: "045FEDFB4FDFC711"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4BDD0B17B6CB947B"]
+			id: "1E253538B2AE1AEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "560B6C3CBB48FB02"
+					table_id: 4461381952137208282L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "2FBD17EED5B4C0DF"
+					item: {
+						Count: 1b
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "f5dad74c-638e-4cfc-8777-03105131e4dd"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20C19A89F82FDF09"
+					item: "simplehats:jesterhat"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "&7Великий для великих."
+			tasks: [{
+				id: "376C0786D6C00F50"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["713F520B1F154531"]
+			id: "46A9AD54EB5E1C8F"
+			rewards: [
+				{
+					id: "4526C938D5EB6A6F"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:spiderlatch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D45DC46060396BB"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:phantasm_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "180F3CDF8DD78151"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:phantasm_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "6D84ACF9D6D0A70D"
+				item: "avaritia:advanced_neutron_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "4B7C42C247D2334B"
+			rewards: [{
+				id: "220B994E3A8179E2"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1A0FC966881820CC"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "69D56ACEEBE6A2F8"
+			rewards: [{
+				id: "4EA6F09F4D008E01"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "700DBA55EC5890F9"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "01575DFE22E8165B"
+			rewards: [{
+				id: "29DBBCB8B81C13B1"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3BF119006BFC2243"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "4BCFCF0CF01798F7"
+			rewards: [{
+				id: "2A28E0F551114D15"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "186E85BC345021D7"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "66422C159F9DB8FE"
+			rewards: [{
+				id: "3B64F9D291D24093"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_pickaxe"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "78817621420F0E9D"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "1A1711822DD7A3F3"
+			rewards: [{
+				id: "7F4BB9A4DB585EDE"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_shovel"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7133D0E1C6BBD34A"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "5176912A215A6CED"
+			rewards: [{
+				id: "3485F11EAA91E5B6"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_axe"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "567743E5E9E0E82D"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "3704FB0AC263ADD2"
+			rewards: [{
+				id: "2CA51D4EE1524BA4"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_crossbow"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "10904BA45F42593C"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "66E877E9AA2CE012"
+			rewards: [{
+				id: "5F7ED73E425F286A"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "08848D540D880BB1"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E253538B2AE1AEB"]
+			id: "33E99A7A52243918"
+			rewards: [{
+				id: "01C9FAF9BBE4EA77"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_bow"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "1AB4A33997A3A143"
+				item: "avaritia:infinity_bow"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3338AFDD69DFCAB3"]
+			id: "7CC9A922F697BB64"
+			rewards: [
+				{
+					id: "18FB966F47A374B1"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:mini_wither_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4506D8874F2C43E6"
+					item: "simplehats:hatbag_summer"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2A9F4BBEEA80A3CB"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:neutronium"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7CC9A922F697BB64"]
+			id: "3EEBC16C4F823614"
+			rewards: [
+				{
+					id: "115EEC3089F0F373"
+					item: "reliquary:witherless_rose"
+					type: "item"
+				}
+				{
+					id: "6D19F9BD727A07A3"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:wither_skeleton"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1915FA6350E1AE09"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3B3973771D8FE7B3"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:tm4/neutronium"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26ADB1E1AC533807"
+				item: "tm4:neutronium_catalyst"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EEBC16C4F823614"]
+			id: "0B498A491510A296"
+			rewards: [
+				{
+					count: 8
+					id: "6AEC954215F0E645"
+					item: {
+						Count: 1b
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "f5dad74c-638e-4cfc-8777-03105131e4dd"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5369AE6CDFAA1D92"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0190C3DBF5D3C5D8"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EEBC16C4F823614"]
+			id: "7563E9CA2580B2EE"
+			rewards: [
+				{
+					id: "492E6413DFBB549A"
+					item: "botanicadds:gaiasteel_block"
+					type: "item"
+				}
+				{
+					id: "53AE9055D05851B7"
+					item: "simplehats:hatbag_easter"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "356C18A23EA93005"
+				item: "botania:infrangible_platform"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BDD0B17B6CB947B"]
+			id: "471F31B1BD92AE8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "447C732E74F5C401"
+					table_id: 4461381952137208282L
+					type: "loot"
+				}
+				{
+					id: "75CF30C664C09E48"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:banemask_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EFF4A5F7B0D3DB5"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:flutterfliers_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7855EF8C4C35A623"
+					item: "simplehats:stress"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "&7Я ожидал большего..."
+			tasks: [{
+				id: "09AC52B14C9C4059"
+				item: "avaritiafurnace:infinity_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AED0D419807F065"]
+			hide_dependency_lines: true
+			id: "633DABE150A95A64"
+			rewards: [
+				{
+					id: "6408A5D9E7F956A3"
+					item: "botania:cosmetic_groucho_glasses"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4097E509C8A9A843"
+					table_id: 4461381952137208282L
+					type: "loot"
+				}
+				{
+					id: "657A4927BAFFA035"
+					item: "dreadsteel:dreadsteel_scythe"
+					type: "item"
+				}
+				{
+					id: "393B6772BC3083F4"
+					item: "dreadsteel:dreadsteel_shield"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "&7Будущее в ваших руках."
+			tasks: [
+				{
+					id: "4B0555F60BB41032"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					id: "5C3D2B916B703605"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+				{
+					id: "680D2BB95CF821A3"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+				{
+					id: "6DBFA58759E35484"
+					item: "avaritia:record_fragment"
+					type: "item"
+				}
+				{
+					id: "0E337C8167854F25"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46A9AD54EB5E1C8F"]
+			id: "0709E37183E0D90D"
+			rewards: [{
+				id: "6C10B36EC88A5538"
+				item: {
+					Count: 1b
+					id: "occultism:satchel"
+					tag: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 9b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 10b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 11b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 12b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 13b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 14b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 15b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 16b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 17b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 18b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 19b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 20b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 21b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 22b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 23b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 24b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 25b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 26b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 27b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 28b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 29b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 30b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 31b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 32b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 33b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 34b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 35b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 36b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 37b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 38b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 39b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 40b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 41b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 42b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 43b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 44b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 45b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 46b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 47b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 48b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 49b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 50b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 51b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 52b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 53b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 54b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 55b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 56b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 57b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 58b
+								id: "avaritia:infinity_nugget"
+							}
+							{
+								Count: 1b
+								Slot: 59b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 60b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 61b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 62b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 63b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 64b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 65b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 66b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 67b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 68b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 69b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 70b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 71b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 72b
+								id: "villagersellanimals:crate_red_mooshroom"
+							}
+							{
+								Count: 1b
+								Slot: 73b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 74b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 75b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 76b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 77b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 78b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 79b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 80b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 81b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 82b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 83b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 84b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 85b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 86b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 87b
+								id: "minecraft:red_mushroom"
+							}
+							{
+								Count: 1b
+								Slot: 88b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 89b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 90b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 91b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 92b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 93b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 94b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 95b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 96b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 97b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 98b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 99b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 100b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 101b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 102b
+								id: "minecraft:red_mushroom_block"
+							}
+							{
+								Count: 1b
+								Slot: 103b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 104b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 105b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 106b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 107b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 108b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 109b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 110b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 111b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 112b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 113b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 114b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 115b
+								id: "avaritia:neutronium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 116b
+								id: "avaritia:neutronium_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "67AB2E8FED873FE3"
+				item: "avaritia:absolute_neutron_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["527305C0634DF83B"]
+			hide: true
+			id: "6FC557C64A0AA964"
+			rewards: [
+				{
+					id: "533FDA58A7FDAAC9"
+					item: {
+						Count: 1b
+						id: "enemyexpansion:gladling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "531BEFF3578708C0"
+					item: "simplehats:headphonesblue"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "10A5DA429D3FC74B"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FC557C64A0AA964"]
+			id: "0BFC72F31342609D"
+			rewards: [{
+				id: "19E1F1CA8BA1EDB6"
+				item: {
+					Count: 1b
+					id: "enemyexpansion:brutish_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "4A65A22BE7910619"
+				item: "tm4:infinity_heavy_cogwheel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0BFC72F31342609D"]
+			id: "1186E3702E989A75"
+			rewards: [{
+				id: "743EFC244D90B9B1"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2AD53A2821E0577F"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BFC72F31342609D"]
+			id: "1697AFDED715245A"
+			rewards: [
+				{
+					id: "64469A049BFBAFD0"
+					item: "naturesaura:color_changer"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "248923A19B2340C1"
+					item: "forbidden_arcanus:corrupted_pixie_utrem_jar"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "480B51E15817E7FF"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0BFC72F31342609D"]
+			id: "5758857F7AC33D87"
+			rewards: [{
+				id: "04B8A64D50022FEA"
+				item: "upgradednetherite_items:creative_upgraded_netherite_totem"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6048F8BE87538DAD"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5758857F7AC33D87"
+				"1697AFDED715245A"
+				"1186E3702E989A75"
+			]
+			id: "27ED25F5959B5431"
+			rewards: [{
+				id: "2B63AF5431E20823"
+				item: "hexerei:creative_waxing_kit"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.75d
+			subtitle: "Востаньте перед &dРазрушением!"
+			tasks: [{
+				id: "59A29C1AC2B83C70"
+				item: {
+					Count: 1b
+					id: "create:handheld_worldshaper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5758857F7AC33D87"
+				"1697AFDED715245A"
+				"1186E3702E989A75"
+			]
+			id: "6929E501D47E734C"
+			rewards: [{
+				id: "3FB34882100C98E7"
+				item: "botania:corporea_spark_creative"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.75d
+			subtitle: "Ваш любимый &dДубликатор Предметов!"
+			tasks: [{
+				id: "363AD55ACF050A7A"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F99603D81A2EE64"]
+			hide_dependency_lines: true
+			id: "7C6832201CB42F8A"
+			shape: "heart"
+			size: 1.25d
+			subtitle: "&7Целый мир свалился на вас..."
+			tasks: [{
+				id: "7964DC5C25D1D77E"
+				item: "solarflux:sp_avaritia.neutronium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["7C6832201CB42F8A"]
+			id: "0095587000645BE4"
+			shape: "heart"
+			size: 1.5d
+			subtitle: "&7Вселенная в ваших руках."
+			tasks: [{
+				id: "552C1C878436E821"
+				item: "solarflux:sp_avaritia.infinity"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["0095587000645BE4"]
+			id: "5F0D79E3FDCD472D"
+			shape: "heart"
+			size: 2.0d
+			subtitle: "&7Выбор грибов!"
+			tasks: [{
+				id: "5D9435729A4AAD00"
+				item: "solarflux:sp_custom_mushroom_infinity"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["527305C0634DF83B"]
+			hide: true
+			id: "2F99603D81A2EE64"
+			rewards: [{
+				id: "244C13BFCC66F412"
+				item: "simplehats:propelhat"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6630A82B731860FC"
+				item: "avaritia:neutronium_gear"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C80AC4A5973EA66"]
+			description: ["&2Только смерть могла остановить вас, но вы победили и её."]
+			id: "02F1AE36F5D2318B"
+			rewards: [
+				{
+					id: "03192E9D0D558734"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:tm4/infinity_gribony"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0342A89FC1E2B57E"
+					item: "simplehats:hatbag_easter"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "&cГрибной король!"
+			tasks: [{
+				id: "4471EE96DDB0D2DB"
+				item: "chemlib:infinity_gribony_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3EEBC16C4F823614"
+				"16D8E6C83DEEA565"
+			]
+			id: "69F9EB975A2F6D6D"
+			rewards: [
+				{
+					id: "53617B2D89A61550"
+					item: "simplehats:hatbag_summer"
+					type: "item"
+				}
+				{
+					id: "27E4C7DB8E245EC3"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+				{
+					id: "7750428D4D00BD11"
+					item: "simplehats:hatbag_halloween"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&3Бесконечность - то, к чем стремится ваш разум "
+			tasks: [{
+				id: "65C4769CDAF5BE65"
+				item: "chemlib:infinity_neutronium_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"36D6F4931F081D53"
+				"7A0464D1C40623A6"
+				"7F9C83EF79550033"
+			]
+			hide_dependency_lines: true
+			id: "7C80AC4A5973EA66"
+			rewards: [{
+				count: 2
+				id: "4EEC981036F0F31C"
+				item: "chemlib:infinity_neutronium_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&3Элементы - вот ваша слабость"
+			tasks: [{
+				id: "60CC2BDA4E9CB27C"
+				item: "chemlib:gribony_catalyst"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6FC557C64A0AA964"
+				"20557821598EEAB4"
+			]
+			hide_dependency_lines: true
+			id: "16D8E6C83DEEA565"
+			rewards: [{
+				count: 4
+				id: "2A7D18738B8D796A"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&3Время подчиняется вам"
+			tasks: [{
+				id: "19896BC40E02FC3F"
+				item: "chemlib:time_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+	]
+	title: "&k&cБесконечные страдания!"
+}

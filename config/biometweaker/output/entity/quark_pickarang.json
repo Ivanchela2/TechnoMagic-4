@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:pickarang",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "quark:entities/pickarang",
+  "size": {
+    "height": 0.4,
+    "width": 0.4,
+    "fixed": false
+  }
+}

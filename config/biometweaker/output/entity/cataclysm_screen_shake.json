@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:screen_shake",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": false,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "cataclysm:entities/screen_shake",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

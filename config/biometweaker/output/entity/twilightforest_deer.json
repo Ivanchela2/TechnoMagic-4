@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:deer",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/deer",
+  "size": {
+    "height": 1.8,
+    "width": 0.7,
+    "fixed": false
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "occultism:underground_grove",
+  "worldgen/placed_feature": {
+    "feature": "occultism:underground_grove",
+    "placement": []
+  }
+}

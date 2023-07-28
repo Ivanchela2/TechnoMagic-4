@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "aquamirae:ice_maze_wisteria",
+  "worldgen/placed_feature": {
+    "feature": "aquamirae:wisteria",
+    "placement": [
+      {
+        "chance": 5,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

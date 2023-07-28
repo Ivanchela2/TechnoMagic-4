@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:patch_taiga_grass",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_taiga_grass",
+    "placement": []
+  }
+}

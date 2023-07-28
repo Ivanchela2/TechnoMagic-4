@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "naturesaura:ancient_tree",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "naturesaura:ancient_tree"
+  }
+}

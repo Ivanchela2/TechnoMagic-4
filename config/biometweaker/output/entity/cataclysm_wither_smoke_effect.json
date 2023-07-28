@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:wither_smoke_effect",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "cataclysm:entities/wither_smoke_effect",
+  "size": {
+    "height": 0.5,
+    "width": 6.0,
+    "fixed": false
+  }
+}

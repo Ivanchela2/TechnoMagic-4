@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "alexsmobs:leafcutter_anthill",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "alexsmobs:leafcutter_anthill"
+  }
+}

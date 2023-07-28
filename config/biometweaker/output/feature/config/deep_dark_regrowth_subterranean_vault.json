@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:subterranean_vault",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deep_dark_regrowth:subterranean_vault"
+  }
+}

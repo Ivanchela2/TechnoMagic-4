@@ -1,0 +1,25 @@
+# FTB IC Expansion: Generators config file
+
+{
+	Machines: {
+		# Amount of energy is stored in the Advanced generator
+		# Default: 12000.0
+		# Range: 1.0 ~ 100000.0
+		"Advanced generator capacity": 12000.0d
+		
+		# Energy created from the Advanced generator
+		# Default: 30.0
+		# Range: 1.0 ~ 100000.0
+		"Advanced generator output": 30.0d
+		
+		# Amount of energy is stored in the Advanced geothermal generator
+		# Default: 7200.0
+		# Range: 1.0 ~ 100000.0
+		"Advanced geothermal generator capacity": 7200.0d
+		
+		# Energy created from the Advanced geothermal generator
+		# Default: 60.0
+		# Range: 1.0 ~ 100000.0
+		"Advanced geothermal generator output": 60.0d
+	}
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:guardian",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/guardian",
+  "size": {
+    "height": 0.85,
+    "width": 0.85,
+    "fixed": false
+  }
+}

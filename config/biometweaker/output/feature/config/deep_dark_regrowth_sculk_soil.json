@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "deep_dark_regrowth:sculk_soil",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:sculk"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "deep_dark_regrowth:sculk_soil"
+          }
+        }
+      ],
+      "size": 32,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "deep_dark_regrowth:sculk_soil"
+  }
+}

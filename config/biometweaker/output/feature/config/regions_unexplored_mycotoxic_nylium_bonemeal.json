@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "regions_unexplored:mycotoxic_nylium_bonemeal",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "regions_unexplored:mycotoxic_grass"
+            },
+            "weight": 87
+          },
+          {
+            "data": {
+              "Properties": {
+                "stage": "0"
+              },
+              "Name": "regions_unexplored:yellow_bioshroom"
+            },
+            "weight": 11
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "spread_width": 3,
+      "spread_height": 1
+    },
+    "type": "minecraft:nether_forest_vegetation"
+  }
+}

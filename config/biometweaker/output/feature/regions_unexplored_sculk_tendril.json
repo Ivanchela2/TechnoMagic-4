@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:sculk_tendril",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_sculk_tendril",
+    "placement": [
+      {
+        "count": 5,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

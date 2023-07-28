@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:snow_golem",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/snow_golem",
+  "size": {
+    "height": 1.9,
+    "width": 0.7,
+    "fixed": false
+  }
+}

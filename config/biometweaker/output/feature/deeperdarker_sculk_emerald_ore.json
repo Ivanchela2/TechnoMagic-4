@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "deeperdarker:sculk_emerald_ore",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "deeperdarker:sculk_stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "deeperdarker:sculk_stone_emerald_ore"
+            }
+          }
+        ],
+        "size": 6,
+        "discard_chance_on_air_exposure": 0.4
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": -16
+          },
+          "max_inclusive": {
+            "above_bottom": 30
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

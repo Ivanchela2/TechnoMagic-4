@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:lightning_bolt",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "minecraft:entities/lightning_bolt",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

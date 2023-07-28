@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:ignis",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "cataclysm:entities/ignis",
+  "size": {
+    "height": 3.5,
+    "width": 2.25,
+    "fixed": false
+  }
+}

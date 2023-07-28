@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.experience",
+  "colors": [
+    "baffb8",
+    "41ff81"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "create_sa:heap_of_experience"
+  }
+}

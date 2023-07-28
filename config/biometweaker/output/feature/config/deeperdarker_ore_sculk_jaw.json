@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "deeperdarker:ore_sculk_jaw",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:sculk",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "activated": "false"
+            },
+            "Name": "deeperdarker:sculk_jaw"
+          }
+        }
+      ],
+      "size": 8,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

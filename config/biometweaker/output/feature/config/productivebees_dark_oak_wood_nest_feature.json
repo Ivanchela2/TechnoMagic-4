@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "productivebees:dark_oak_wood_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:dark_oak_log"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north",
+              "axis": "y"
+            },
+            "Name": "productivebees:dark_oak_wood_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:dark_oak_wood_nest_feature"
+  }
+}

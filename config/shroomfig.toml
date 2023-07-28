@@ -1,0 +1,9 @@
+
+[village_spawning]
+	#Defines number of generated structures per 1 000 000 chunks
+	"General Village Spawning" = 1500.0
+	#Defines number of generated structures per 1 000 000 chunks
+	"Desert Village Spawning" = 1500.0
+	#Defines number of generated structures per 1 000 000 chunks
+	"Snowy Village Spawning" = 2000.0
+

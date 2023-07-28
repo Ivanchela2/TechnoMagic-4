@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:player",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": false,
+  "spawn_far_from_player": true,
+  "tracking_range": 32,
+  "update_interval": 2,
+  "defaul_loot_table": "minecraft:entities/player",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

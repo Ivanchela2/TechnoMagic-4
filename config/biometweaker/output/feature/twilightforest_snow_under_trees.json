@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "twilightforest:snow_under_trees",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:snow_under_trees",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

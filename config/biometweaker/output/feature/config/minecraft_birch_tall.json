@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:birch_tall",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:super_birch_bees_0002",
+          "chance": 0.5
+        }
+      ],
+      "default": "minecraft:birch_bees_0002"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

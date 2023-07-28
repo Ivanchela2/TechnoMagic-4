@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "minecraft:sea_pickle",
+  "worldgen/configured_feature": {
+    "config": {
+      "count": 20
+    },
+    "type": "minecraft:sea_pickle"
+  }
+}

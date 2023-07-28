@@ -1,0 +1,111 @@
+
+{
+  "registry_name": "regions_unexplored:overgrown_vine",
+  "worldgen/configured_feature": {
+    "config": {
+      "layers": [
+        {
+          "height": {
+            "distribution": [
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 19
+                  }
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 2
+                  }
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 6
+                  }
+                },
+                "weight": 10
+              }
+            ],
+            "type": "minecraft:weighted_list"
+          },
+          "provider": {
+            "entries": [
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false",
+                    "persistent": "true",
+                    "distance": "7"
+                  },
+                  "Name": "minecraft:azalea_leaves"
+                },
+                "weight": 4
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false",
+                    "persistent": "true",
+                    "distance": "7"
+                  },
+                  "Name": "minecraft:flowering_azalea_leaves"
+                },
+                "weight": 1
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "entries": [
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false",
+                    "persistent": "true",
+                    "distance": "7"
+                  },
+                  "Name": "minecraft:azalea_leaves"
+                },
+                "weight": 4
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false",
+                    "persistent": "true",
+                    "distance": "7"
+                  },
+                  "Name": "minecraft:flowering_azalea_leaves"
+                },
+                "weight": 1
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
+          }
+        }
+      ],
+      "direction": "down",
+      "allowed_placement": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "prioritize_tip": true
+    },
+    "type": "minecraft:block_column"
+  }
+}

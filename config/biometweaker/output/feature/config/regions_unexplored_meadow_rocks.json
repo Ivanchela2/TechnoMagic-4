@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:meadow_rocks",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:meadow_rocks_feature"
+  }
+}

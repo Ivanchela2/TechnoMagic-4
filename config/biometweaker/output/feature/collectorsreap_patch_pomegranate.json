@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "collectorsreap:patch_pomegranate",
+  "worldgen/placed_feature": {
+    "feature": "collectorsreap:patch_pomegranate",
+    "placement": [
+      {
+        "chance": 15,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

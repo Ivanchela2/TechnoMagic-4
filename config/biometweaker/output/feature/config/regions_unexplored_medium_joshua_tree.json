@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:medium_joshua_tree",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:medium_joshua_tree"
+  }
+}

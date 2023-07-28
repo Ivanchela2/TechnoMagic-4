@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:sorcerers_knowledge_book_structure",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:sorcerers_knowledge_book_structure"
+  }
+}

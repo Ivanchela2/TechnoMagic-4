@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "railways:conductor",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "railways:entities/conductor",
+  "size": {
+    "height": 1.5,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "echoing_expanse:deepslate_titanium_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:deepslate"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "echoing_expanse:deepslate_titanium_ore"
+          }
+        }
+      ],
+      "size": 3,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "echoing_expanse:deepslate_titanium_ore"
+  }
+}

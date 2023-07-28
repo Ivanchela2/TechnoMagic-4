@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "illageandspillage:ragno",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "illageandspillage:entities/ragno",
+  "size": {
+    "height": 1.8,
+    "width": 3.2,
+    "fixed": false
+  }
+}

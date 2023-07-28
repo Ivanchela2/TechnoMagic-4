@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "capybaramod:capybara",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "capybaramod:entities/capybara",
+  "size": {
+    "height": 0.8,
+    "width": 0.8,
+    "fixed": false
+  }
+}

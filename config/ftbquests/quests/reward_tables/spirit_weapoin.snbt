@@ -1,0 +1,72 @@
+{
+	id: "4DB24078DBAD3367"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "spirit_weapoin"
+	}
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "spirit:soul_steel_wand" }
+	]
+	title: "spirit weapoin"
+}

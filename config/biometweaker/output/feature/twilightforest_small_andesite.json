@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "twilightforest:small_andesite",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:small_andesite",
+    "placement": [
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 64
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "chance": 10,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 5,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

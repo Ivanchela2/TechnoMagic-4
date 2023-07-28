@@ -1,0 +1,18 @@
+{
+	id: "102A494343429E81"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ item: "ivanchela:raw_copper_nugget" }
+		{ item: "ivanchela:raw_gold_nugget" }
+		{ item: "ivanchela:raw_iron_nugget" }
+		{ item: "ivanchela:raw_zinc_nugget" }
+		{ item: "ivanchela:raw_lapis_fragment" }
+		{ item: "ivanchela:raw_redstone_fragment" }
+		{ item: "ivanchela:raw_copper_fragment", weight: 0.3f }
+		{ item: "ivanchela:raw_zinc_fragment", weight: 0.3f }
+		{ item: "ivanchela:raw_gold_fragment", weight: 0.3f }
+		{ item: "ivanchela:raw_iron_fragment", weight: 0.3f }
+	]
+	title: "#2 стадия (2)"
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "lilwings:gold_applefly_butterfly",
+  "category": "AMBIENT",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "lilwings:entities/gold_applefly_butterfly",
+  "size": {
+    "height": 0.7,
+    "width": 0.7,
+    "fixed": false
+  }
+}

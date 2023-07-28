@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "aquamirae:tortured_soul",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "aquamirae:entities/tortured_soul",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

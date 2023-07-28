@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:iron_golem",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/iron_golem",
+  "size": {
+    "height": 2.7,
+    "width": 1.4,
+    "fixed": false
+  }
+}

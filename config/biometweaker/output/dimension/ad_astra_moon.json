@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "ad_astra:moon",
+  "dimension": {
+    "type": "ad_astra:moon",
+    "generator": {
+      "biome_source": {
+        "biome": "ad_astra:lunar_wastelands",
+        "type": "minecraft:fixed"
+      },
+      "settings": "ad_astra:moon",
+      "type": "minecraft:noise"
+    }
+  }
+}

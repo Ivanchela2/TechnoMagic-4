@@ -1,0 +1,12 @@
+{
+	icon: "hexerei:dried_mandrake_flowers"
+	id: "610B98F7AF58A10D"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ item: "hexerei:dried_mugwort_flowers", random_bonus: 15 }
+		{ item: "hexerei:dried_mugwort_leaves", random_bonus: 15 }
+		{ item: "hexerei:dried_yellow_dock_flowers", random_bonus: 15 }
+	]
+	title: "высушенные травы"
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "savage_and_ravage:ice_chunk",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "savage_and_ravage:entities/ice_chunk",
+  "size": {
+    "height": 1.0,
+    "width": 2.2,
+    "fixed": false
+  }
+}

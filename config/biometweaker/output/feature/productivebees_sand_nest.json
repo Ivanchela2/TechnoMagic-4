@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:sand_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:sand"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:sand_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:sand_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

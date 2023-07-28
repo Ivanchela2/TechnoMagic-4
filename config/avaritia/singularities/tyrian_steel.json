@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.tyrian_steel",
+  "colors": [
+    "8b008b",
+    "800080"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "silentgear:tyrian_steel_ingot"
+  }
+}

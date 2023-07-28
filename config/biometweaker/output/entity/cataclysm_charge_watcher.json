@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:charge_watcher",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": false,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "cataclysm:entities/charge_watcher",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

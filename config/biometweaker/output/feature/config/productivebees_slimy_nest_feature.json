@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "productivebees:slimy_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north"
+            },
+            "Name": "productivebees:slimy_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:slimy_nest"
+  }
+}

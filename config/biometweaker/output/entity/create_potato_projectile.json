@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create:potato_projectile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 20,
+  "defaul_loot_table": "create:entities/potato_projectile",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

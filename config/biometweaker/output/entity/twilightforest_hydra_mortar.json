@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:hydra_mortar",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 150,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/hydra_mortar",
+  "size": {
+    "height": 0.75,
+    "width": 0.75,
+    "fixed": false
+  }
+}

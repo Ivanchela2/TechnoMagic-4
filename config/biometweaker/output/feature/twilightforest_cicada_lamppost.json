@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:cicada_lamppost",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:cicada_lamppost",
+    "placement": []
+  }
+}

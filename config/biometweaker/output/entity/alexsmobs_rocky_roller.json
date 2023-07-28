@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:rocky_roller",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/rocky_roller",
+  "size": {
+    "height": 1.45,
+    "width": 1.2,
+    "fixed": false
+  }
+}

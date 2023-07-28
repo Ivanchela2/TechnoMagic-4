@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "supplementaries:basalt_ash",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 36,
+      "xz_spread": 6,
+      "y_spread": 6
+    },
+    "type": "supplementaries:layered_blocks"
+  }
+}

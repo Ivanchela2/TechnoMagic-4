@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "occultism:otherworld_tree_natural",
+  "worldgen/placed_feature": {
+    "feature": "occultism:otherworld_tree_natural",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "uncovered": "false",
+              "stage": "0"
+            },
+            "Name": "occultism:otherworld_sapling_natural"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

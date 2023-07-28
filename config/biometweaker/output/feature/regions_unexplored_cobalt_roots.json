@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:cobalt_roots",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_cobalt_roots",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

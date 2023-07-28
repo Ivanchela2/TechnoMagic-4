@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "createbigcannons:pitch_contraption",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 3,
+  "defaul_loot_table": "createbigcannons:entities/pitch_contraption",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

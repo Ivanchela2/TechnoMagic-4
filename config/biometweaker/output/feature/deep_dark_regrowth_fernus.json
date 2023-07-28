@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "deep_dark_regrowth:fernus",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:fernus",
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

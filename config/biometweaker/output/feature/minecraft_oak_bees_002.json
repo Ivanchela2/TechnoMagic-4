@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "minecraft:oak_bees_002",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:oak_bees_002",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:oak_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

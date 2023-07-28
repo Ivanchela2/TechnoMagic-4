@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:ore_emerald_sculk",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "deeperdarker:sculk_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "deeperdarker:sculk_stone_emerald_ore"
+          }
+        }
+      ],
+      "size": 6,
+      "discard_chance_on_air_exposure": 0.4
+    },
+    "type": "minecraft:ore"
+  }
+}

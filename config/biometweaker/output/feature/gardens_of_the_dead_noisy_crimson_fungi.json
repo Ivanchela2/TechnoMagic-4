@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "gardens_of_the_dead:noisy_crimson_fungi",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:crimson_fungus",
+    "placement": [
+      {
+        "noise_to_count_ratio": 6,
+        "noise_factor": 180.0,
+        "noise_offset": 0.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "count": 1,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

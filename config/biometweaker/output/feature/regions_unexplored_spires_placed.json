@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "regions_unexplored:spires_placed",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:spires",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

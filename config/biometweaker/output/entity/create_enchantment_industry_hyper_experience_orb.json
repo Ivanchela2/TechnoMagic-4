@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create_enchantment_industry:hyper_experience_orb",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 20,
+  "defaul_loot_table": "create_enchantment_industry:entities/hyper_experience_orb",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+	id: "3A46D79E70BB18F6"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "ivanchela:raw_copper_nugget" }
+		{ item: "ivanchela:raw_zinc_nugget", weight: 0.5f }
+	]
+	title: "123"
+}

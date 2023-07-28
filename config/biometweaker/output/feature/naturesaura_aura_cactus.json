@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "naturesaura:aura_cactus",
+  "worldgen/placed_feature": {
+    "feature": "naturesaura:aura_cactus",
+    "placement": []
+  }
+}

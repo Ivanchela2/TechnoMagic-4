@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "quark:deferred_feature_top_layer_modification",
+  "worldgen/placed_feature": {
+    "feature": "quark:deferred_feature_top_layer_modification",
+    "placement": []
+  }
+}

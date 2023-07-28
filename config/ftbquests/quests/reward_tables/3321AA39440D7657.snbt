@@ -1,0 +1,11 @@
+{
+	icon: "botania:livingrock"
+	id: "3321AA39440D7657"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 5, item: "botania:livingrock" }
+		{ count: 5, item: "botania:livingwood" }
+	]
+	title: "Жмзне..."
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:gloomslate",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {},
+      "type": "deeperdarker:gloomslate"
+    },
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

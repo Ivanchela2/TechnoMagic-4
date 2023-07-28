@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "regions_unexplored:frozen_tundra_shrub_snow",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:oak_shrub_1",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "regions_unexplored:frozen_grass"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

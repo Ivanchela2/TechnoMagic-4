@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "ad_astra:large_infernal_spire_column",
+  "worldgen/placed_feature": {
+    "feature": "ad_astra:large_infernal_spire_column",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:glistering_meadow_spire",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_glister_spire",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "forbidden_arcanus:cherry_trees_plains",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "forbidden_arcanus:small_cherry_checked",
+          "chance": 0.2
+        }
+      ],
+      "default": "forbidden_arcanus:large_cherry_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

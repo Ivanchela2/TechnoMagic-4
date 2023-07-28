@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:mana_crystal_structure_1",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:mana_crystal_structure_1"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:vines",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:vines"
+  }
+}

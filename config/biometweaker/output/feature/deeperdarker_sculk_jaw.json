@@ -1,0 +1,51 @@
+
+{
+  "registry_name": "deeperdarker:sculk_jaw",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "minecraft:sculk",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Properties": {
+                "activated": "false"
+              },
+              "Name": "deeperdarker:sculk_jaw"
+            }
+          }
+        ],
+        "size": 8,
+        "discard_chance_on_air_exposure": 0.0
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 250,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

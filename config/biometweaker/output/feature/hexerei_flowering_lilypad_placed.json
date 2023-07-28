@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "hexerei:flowering_lilypad_placed",
+  "worldgen/placed_feature": {
+    "feature": "hexerei:flowering_lilypad",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

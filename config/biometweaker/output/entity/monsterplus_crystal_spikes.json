@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "monsterplus:crystal_spikes",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "monsterplus:entities/crystal_spikes",
+  "size": {
+    "height": 2.5,
+    "width": 1.0,
+    "fixed": false
+  }
+}

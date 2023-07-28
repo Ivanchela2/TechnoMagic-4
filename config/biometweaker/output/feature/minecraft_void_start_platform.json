@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:void_start_platform",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:void_start_platform",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:wither",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/wither",
+  "size": {
+    "height": 3.5,
+    "width": 0.9,
+    "fixed": false
+  }
+}

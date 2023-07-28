@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "twilightforest:tree/selector/dark_forest_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "twilightforest:tree/dark_forest_birch_tree",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "twilightforest:tree/dark_forest_oak_tree",
+            "placement": []
+          },
+          "chance": 0.2
+        }
+      ],
+      "default": {
+        "feature": "twilightforest:tree/darkwood_tree",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

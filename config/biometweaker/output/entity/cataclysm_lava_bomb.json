@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:lava_bomb",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 20,
+  "defaul_loot_table": "cataclysm:entities/lava_bomb",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

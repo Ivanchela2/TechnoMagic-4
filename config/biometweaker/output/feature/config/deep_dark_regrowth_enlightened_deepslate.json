@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "deep_dark_regrowth:enlightened_deepslate",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:deepslate"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "deep_dark_regrowth:enlightened_deepslate"
+          }
+        }
+      ],
+      "size": 8,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "deep_dark_regrowth:enlightened_deepslate"
+  }
+}

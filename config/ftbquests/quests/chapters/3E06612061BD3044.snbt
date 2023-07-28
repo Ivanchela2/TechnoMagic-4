@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3E06612061BD3044"
+	group: "1D0E618C92EE8561"
+	icon: "minecraft:red_mushroom"
+	id: "3E06612061BD3044"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Использовать портативные версии рабочих мест куда удобнее - получайте доступ к ним прямо из инвентаря"]
+			id: "2E5A62466B0FAF8B"
+			rewards: [{
+				id: "6D49793AB2A52CDD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "7C85E8B7EB2FDB93"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+				{
+					id: "747F0FD617949536"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "0601E0C02924BF7D"
+					item: "crafting_on_a_stick:stonecutter"
+					type: "item"
+				}
+				{
+					id: "5616EDEB38755FA0"
+					item: "crafting_on_a_stick:grindstone"
+					type: "item"
+				}
+				{
+					id: "43C4462422DFFAAD"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Станции на палочке"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Время в бутылке&r полезная вещь когда вам не хочется ждать, когда что-то скрафтится"
+				""
+				"С помощью бутылочки вы можете ускорить любой механизм, но взамен вы будете отдавать накопившееся наигранное время в этом мире"
+				""
+				"&l&4Обязательно нужно носить в инвентаре, в рюкзаках время не копится&r&r"
+			]
+			id: "5F0677D94F675271"
+			rewards: [{
+				id: "4386C74A5AB02ECB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "2E72DB5E3D6B643F"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Время в бутылке"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Собирайте &6амулеты&r, и тогда амулет моба которого вы надели, будет игнорировать вас"
+				""
+				"Храните все свои амулеты в одном месте с помощью &cпояса для амулетов&r"
+			]
+			id: "3D862DF7BEEE6B39"
+			rewards: [{
+				id: "5B826C22F0E1C673"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "27EBCFCFAFCC8225"
+					item: "reliquary:mob_charm_belt"
+					type: "item"
+				}
+				{
+					id: "4A89EAD768F85138"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:zombie"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Игнорирование мобов"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: ["Используйте сердца для уменьшения или увеличения уровня сложности"]
+			id: "5136D429D1E1FF40"
+			rewards: [{
+				id: "19A9E1162BF3649A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "03D6857F4C54C317"
+					item: "scalinghealth:enchanted_heart"
+					type: "item"
+				}
+				{
+					id: "135B0DE9489C805E"
+					item: "scalinghealth:cursed_heart"
+					type: "item"
+				}
+				{
+					id: "04BBCCD8787E8641"
+					item: "scalinghealth:chance_heart"
+					type: "item"
+				}
+			]
+			title: "Контроль уровня сложности"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Увеличь своё здоровье с помощью этих фишек:"
+				""
+				"&61.&r Сердца из мода Scaling Heart"
+				"&62.&r Фрукты жизни из мода Deeper and Darker"
+				"&63.&r С каждым 5м съеденым новым видом еды"
+			]
+			id: "6B7C1C9BAF186867"
+			rewards: [{
+				id: "169B6D27D283C92A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2739794CCA3CEB14"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "1493D1F3E21B2D5C"
+					item: "deep_dark_regrowth:life_fruit"
+					type: "item"
+				}
+			]
+			title: "Увеличение жизней"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: ["Используйте &6универсальные трубы&r, чтоб не вести множество труб к одному механизму"]
+			id: "1C70C695D72D5F5F"
+			rewards: [{
+				id: "68A799A27D540606"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 6L
+				id: "3BF60D3D2E6F9978"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			title: "Универсальная труба"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Квантовый ловец&r - изобретение нового поколения! Возьмите с собой любое живое существо которое вы хотите"
+				""
+				"Можно взять с собой котика на пляж, или жителя в свою берлогу ;)"
+			]
+			id: "161E42D28B60C551"
+			rewards: [{
+				id: "722B3B0BAEB6B101"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "423E4150ADA4E92B"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: ["Используйте &6медный горшок&r или &6кухонный котёл&r, для более удобного приготовдения еды"]
+			id: "5B86BB9AAB6CE139"
+			rewards: [{
+				id: "0B79BD4084C2A6DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0AA6872466F923CF"
+					item: "miners_delight:copper_pot"
+					type: "item"
+				}
+				{
+					id: "14AA5EC3A58EC81C"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Готовка"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Блок королевского металла&r - жёстко дамажит мобов, но уничтожает дроп. Можно использовать как мусорку"
+				""
+				"&6Блок огненого металла&r - дамажит мобов, но не уничтожает дроп"
+			]
+			id: "455E4C4E955426F9"
+			rewards: [{
+				id: "52AF8B67183ECDF5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "56682AB1A2D7294D"
+					item: "twilightforest:knightmetal_block"
+					type: "item"
+				}
+				{
+					id: "23EC00B1EDD40567"
+					item: "twilightforest:fiery_block"
+					type: "item"
+				}
+			]
+			title: "Убийство мобов"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&6Вороток&r - собирает вещи в определенном радиусе. Нужно поставить вплотную к сундуку"
+				""
+				"&6Улучшение \"Магнит\"&r - поместив в хранилища из мода Sophisticated Storage позволяет собирать предметы вокруг"
+				""
+				"&6Кольцо магнетизма&r - также собирает предметы дистанционно, но вокруг игрока и прямо ему в инвентарь! То есть тебе в инвентарь..."
+				""
+				"&6Магнитное кольцо&r -  прикинь, но работает также, как и верхнее :/"
+				""
+				"&6Улучшение \"Магнит\"&r - улучшение уже для рюкзака. Собирает предметы вокруг прямо в него"
+			]
+			id: "027736C7BAEAF5F3"
+			rewards: [{
+				id: "0EC67F8D502547D4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5D9494CD2A99A24C"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "16DD921477D2872F"
+					item: "sophisticatedstorage:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "6813F68137356CED"
+					item: "botania:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "6CEB1095F02EB971"
+					item: "enigmaticlegacy:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "03638BF1D4BD13D9"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+			]
+			title: "Дистанционный сбор предметов"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: ["Не знаю, как вы собираетесь применить эту механику, но эта штука позволит творить великие дела... Ужасные... Но великие!"]
+			id: "03B36CA2727F5510"
+			rewards: [{
+				id: "7F1019EE14723F60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "37780F48DB716EF6"
+				item: "quark:magnet"
+				type: "item"
+			}]
+			title: "Чудо-магнит"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Нужно нафармить тонну лута, который появляется только в сундуках разных данжей? &6Лутюльпан&r тебе в помощь!"
+				""
+				"Запитай его маной и этот товарищ сгенерирует хоть всю мать природу"
+			]
+			id: "7A579E2412EFD7F8"
+			rewards: [{
+				id: "62D918CE4AA48BEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3005B1C0C7532A44"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			title: "Лут с Данжей"
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+	title: "&2Фишки и советы"
+}

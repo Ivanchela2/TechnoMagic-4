@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "minecraft:lake_lava",
+  "worldgen/configured_feature": {
+    "config": {
+      "fluid": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:lava"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "barrier": {
+        "state": {
+          "Name": "minecraft:stone"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:lake"
+  }
+}

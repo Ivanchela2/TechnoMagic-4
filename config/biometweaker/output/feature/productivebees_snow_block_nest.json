@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:snow_block_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:snow_block"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:snow_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:snow_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

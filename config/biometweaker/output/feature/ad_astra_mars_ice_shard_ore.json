@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ad_astra:mars_ice_shard_ore",
+  "worldgen/placed_feature": {
+    "feature": "ad_astra:mars_ice_shard_ore",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -32
+          },
+          "max_inclusive": {
+            "absolute": 32
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

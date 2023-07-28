@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "regions_unexplored:tall_palm_mangrove_sapling_mix",
+  "worldgen/configured_feature": {
+    "config": {
+      "sapling_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "half": "lower"
+              },
+              "Name": "regions_unexplored:tall_palm_sapling"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
+              "Properties": {
+                "half": "lower"
+              },
+              "Name": "regions_unexplored:tall_mangrove_sapling"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "regions_unexplored:tall_sapling"
+  }
+}

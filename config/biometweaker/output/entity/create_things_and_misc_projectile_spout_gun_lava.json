@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create_things_and_misc:projectile_spout_gun_lava",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 1,
+  "defaul_loot_table": "create_things_and_misc:entities/projectile_spout_gun_lava",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

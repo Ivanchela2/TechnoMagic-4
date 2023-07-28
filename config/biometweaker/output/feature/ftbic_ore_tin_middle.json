@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ftbic:ore_tin_middle",
+  "worldgen/placed_feature": {
+    "feature": "ftbic:ore_tin",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -24
+          },
+          "max_inclusive": {
+            "absolute": 56
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

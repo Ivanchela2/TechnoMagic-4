@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deeperdarker:sculk_vines",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deeperdarker:sculk_vines"
+  }
+}

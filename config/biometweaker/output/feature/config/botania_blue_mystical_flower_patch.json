@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "botania:blue_mystical_flower_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 32,
+      "xz_spread": 6,
+      "y_spread": 4,
+      "feature": {
+        "feature": {
+          "config": {
+            "tall_chance": 0.05,
+            "to_place": {
+              "state": {
+                "Name": "botania:blue_mystical_flower"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "botania:mystical_flower"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

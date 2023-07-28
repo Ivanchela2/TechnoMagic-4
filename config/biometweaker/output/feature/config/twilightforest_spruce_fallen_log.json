@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "twilightforest:spruce_fallen_log",
+  "worldgen/configured_feature": {
+    "config": {
+      "normal": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:spruce_log"
+      },
+      "hollow": {
+        "Properties": {
+          "variant": "empty",
+          "axis": "x"
+        },
+        "Name": "twilightforest:hollow_spruce_log_horizontal"
+      }
+    },
+    "type": "twilightforest:fallen_small_log"
+  }
+}

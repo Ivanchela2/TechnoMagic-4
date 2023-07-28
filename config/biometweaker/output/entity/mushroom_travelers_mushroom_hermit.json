@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "mushroom_travelers:mushroom_hermit",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "mushroom_travelers:entities/mushroom_hermit",
+  "size": {
+    "height": 1.95,
+    "width": 0.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.fiery_blood",
+  "colors": [
+    "8b0000",
+    "b22222"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "tag": "twilightforest:fiery_vial"
+  }
+}

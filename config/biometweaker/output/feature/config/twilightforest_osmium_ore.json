@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "twilightforest:osmium_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "twilightforest:osmium_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "twilightforest:osmium_ore"
+          }
+        }
+      ],
+      "size": 12,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

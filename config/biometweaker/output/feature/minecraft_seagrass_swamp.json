@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:seagrass_swamp",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:seagrass_mid",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "count": 64,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

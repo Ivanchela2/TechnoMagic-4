@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.precision_mechanism",
+  "colors": [
+    "ffd700",
+    "daa520"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  }
+}

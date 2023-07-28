@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "repurposedlivings:hijacked_allay",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 2,
+  "defaul_loot_table": "repurposedlivings:entities/hijacked_allay",
+  "size": {
+    "height": 0.6,
+    "width": 0.35,
+    "fixed": false
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:flower_plain",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:flower_plain",
+    "placement": []
+  }
+}

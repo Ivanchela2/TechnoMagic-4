@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ad_astra:glacio_iron_ore",
+  "worldgen/placed_feature": {
+    "feature": "ad_astra:glacio_iron_ore",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -24
+          },
+          "max_inclusive": {
+            "absolute": 56
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

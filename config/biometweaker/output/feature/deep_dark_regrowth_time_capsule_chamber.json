@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:time_capsule_chamber",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:time_capsule_chamber",
+    "placement": []
+  }
+}

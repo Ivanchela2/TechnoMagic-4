@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "silentgear:azure_silver_ore",
+  "worldgen/placed_feature": {
+    "feature": "silentgear:azure_silver_ore",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 16
+          },
+          "max_inclusive": {
+            "absolute": 92
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

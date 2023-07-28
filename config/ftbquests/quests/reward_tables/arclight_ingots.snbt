@@ -1,0 +1,15 @@
+{
+	id: "5FE7E5AC894981F9"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "arclight:jade_ingot", random_bonus: 3 }
+		{ item: "arclight:arclight_ingot", random_bonus: 3 }
+		{ item: "arclight:moonlight_ingot", random_bonus: 3 }
+		{ item: "arclight:arclight_core", weight: 0.35f }
+		{ item: "arclight:bloodstone_ingot" }
+		{ item: "arclight:sculk_ingot" }
+		{ item: "arclight:cryorium_ingot" }
+	]
+	title: "Arclight ingots"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.dark_matter",
+  "colors": [
+    "8b008b",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "forbidden_arcanus:dark_matter"
+  }
+}

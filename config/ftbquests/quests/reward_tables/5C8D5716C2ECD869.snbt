@@ -1,0 +1,13 @@
+{
+	id: "5C8D5716C2ECD869"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "gribtweaks:sand_copper_nugget", weight: 0.2f }
+		{ item: "minecraft:cobblestone", weight: 0.4f }
+		{ item: "minecraft:stick" }
+		{ item: "gribtweaks:sand_trough", weight: 0.3f }
+		{ item: "gribtweaks:sand_stone_pieces" }
+	]
+	title: "#1 стадия (3)"
+}

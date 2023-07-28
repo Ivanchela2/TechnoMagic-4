@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "twilightforest:pumpkin_lamppost",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:jack_o_lantern"
+      }
+    },
+    "type": "twilightforest:lampposts"
+  }
+}

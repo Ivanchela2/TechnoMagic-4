@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "regions_unexplored:blackwood_forest_pink_bioshroom",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_pink_bioshroom",
+    "placement": [
+      {
+        "noise_level": -0.9,
+        "below_noise": 5,
+        "above_noise": 1,
+        "type": "minecraft:noise_threshold_count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

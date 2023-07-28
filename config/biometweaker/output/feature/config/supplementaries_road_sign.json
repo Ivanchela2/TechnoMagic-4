@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "supplementaries:road_sign",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "supplementaries:road_sign_feature"
+  }
+}

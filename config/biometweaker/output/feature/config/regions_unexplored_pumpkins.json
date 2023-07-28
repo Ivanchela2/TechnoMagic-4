@@ -1,0 +1,120 @@
+
+{
+  "registry_name": "regions_unexplored:pumpkins",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 125,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Name": "minecraft:pumpkin"
+                  },
+                  "weight": 4
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "facing": "north"
+                    },
+                    "Name": "minecraft:carved_pumpkin"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "facing": "south"
+                    },
+                    "Name": "minecraft:carved_pumpkin"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "facing": "east"
+                    },
+                    "Name": "minecraft:carved_pumpkin"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "facing": "west"
+                    },
+                    "Name": "minecraft:carved_pumpkin"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false",
+                      "persistent": "true",
+                      "distance": "7"
+                    },
+                    "Name": "regions_unexplored:red_maple_leaves"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false",
+                      "persistent": "true",
+                      "distance": "7"
+                    },
+                    "Name": "regions_unexplored:orange_maple_leaves"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:air"
+                  },
+                  "weight": 73
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

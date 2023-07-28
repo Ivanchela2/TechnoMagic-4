@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "twilightforest:mangrove_fallen_log",
+  "worldgen/configured_feature": {
+    "config": {
+      "normal": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "twilightforest:mangrove_log"
+      },
+      "hollow": {
+        "Properties": {
+          "variant": "empty",
+          "axis": "x"
+        },
+        "Name": "twilightforest:hollow_mangrove_log_horizontal"
+      }
+    },
+    "type": "twilightforest:fallen_small_log"
+  }
+}

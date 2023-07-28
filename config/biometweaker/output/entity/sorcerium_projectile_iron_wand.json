@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "sorcerium:projectile_iron_wand",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 1,
+  "defaul_loot_table": "sorcerium:entities/projectile_iron_wand",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "twilightforest:tf_caves",
+  "worldgen/configured_carver": {
+    "config": {
+      "lava_level": {
+        "above_bottom": 0
+      },
+      "replaceable": "#minecraft:overworld_carver_replaceables",
+      "probability": 0.1,
+      "y": {
+        "min_inclusive": {
+          "above_bottom": 5
+        },
+        "max_inclusive": {
+          "absolute": -8
+        },
+        "type": "minecraft:uniform"
+      },
+      "yScale": 0.6,
+      "horizontal_radius_multiplier": 1.0,
+      "vertical_radius_multiplier": 1.0,
+      "floor_level": -0.7
+    },
+    "type": "twilightforest:tf_caves"
+  }
+}

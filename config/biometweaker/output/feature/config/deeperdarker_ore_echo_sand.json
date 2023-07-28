@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:ore_echo_sand",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:sculk",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "deeperdarker:echo_soil"
+          }
+        }
+      ],
+      "size": 32,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

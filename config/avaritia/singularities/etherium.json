@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.etherium",
+  "colors": [
+    "00ffff",
+    "7fffd4"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  }
+}

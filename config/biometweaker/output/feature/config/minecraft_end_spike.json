@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:end_spike",
+  "worldgen/configured_feature": {
+    "config": {
+      "crystal_invulnerable": false,
+      "spikes": []
+    },
+    "type": "minecraft:end_spike"
+  }
+}

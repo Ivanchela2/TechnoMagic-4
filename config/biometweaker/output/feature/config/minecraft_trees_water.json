@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:trees_water",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:fancy_oak_checked",
+          "chance": 0.1
+        }
+      ],
+      "default": "minecraft:oak_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

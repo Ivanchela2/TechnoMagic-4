@@ -1,0 +1,12 @@
+{
+	icon: "rootsclassic:verdant_sprig"
+	id: "089AC4331CD698AC"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 2, item: "rootsclassic:old_root" }
+		{ count: 3, item: "rootsclassic:verdant_sprig" }
+		{ count: 5, item: "rootsclassic:oak_bark" }
+	]
+	title: "roots"
+}

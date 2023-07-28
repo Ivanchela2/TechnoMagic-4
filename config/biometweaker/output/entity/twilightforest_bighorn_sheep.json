@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:bighorn_sheep",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/bighorn_sheep",
+  "size": {
+    "height": 1.3,
+    "width": 0.9,
+    "fixed": false
+  }
+}

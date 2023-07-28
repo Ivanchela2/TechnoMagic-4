@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "gardens_of_the_dead:long_hanging_soul_spore_patch",
+  "worldgen/placed_feature": {
+    "feature": "gardens_of_the_dead:long_hanging_soul_spore_patch",
+    "placement": [
+      {
+        "count": 8,
+        "type": "gardens_of_the_dead:count_on_every_ceiling"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

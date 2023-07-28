@@ -1,0 +1,44 @@
+{
+	id: "6A2E709537D287BA"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:diamond"
+					}
+				}
+			}
+			random_bonus: 3
+		}
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lapis"
+					}
+				}
+			}
+			random_bonus: 3
+		}
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:redstone"
+					}
+				}
+			}
+			random_bonus: 5
+		}
+	]
+	title: "Energium Dust"
+}

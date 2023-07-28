@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "illageandspillage:web",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "illageandspillage:entities/web",
+  "size": {
+    "height": 0.2,
+    "width": 0.2,
+    "fixed": false
+  }
+}

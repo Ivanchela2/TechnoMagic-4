@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "ad_astra:glacio_deepslate_iron_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        }
+      ],
+      "size": 12,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

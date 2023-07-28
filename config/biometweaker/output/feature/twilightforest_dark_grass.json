@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "twilightforest:dark_grass",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:dark_grass",
+    "placement": [
+      {
+        "chance": 4,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

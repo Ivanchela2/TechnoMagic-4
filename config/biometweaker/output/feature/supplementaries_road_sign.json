@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "supplementaries:road_sign",
+  "worldgen/placed_feature": {
+    "feature": "supplementaries:road_sign",
+    "placement": []
+  }
+}

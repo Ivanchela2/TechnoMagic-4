@@ -1,0 +1,13 @@
+
+#Platter Settings
+[general]
+	#Item slots for the platter [default: 9]
+	#Range: > 0
+	platter_slots = 9
+	#Radius for the platter to feed [default: 5]
+	#Range: 0 ~ 32
+	platter_radius = 5
+	#Time (in seconds) to wait between platter searches [default: 60]
+	#Range: > 0
+	platter_period = 60
+

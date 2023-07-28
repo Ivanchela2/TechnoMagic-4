@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:subterranean_vault",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:subterranean_vault",
+    "placement": []
+  }
+}

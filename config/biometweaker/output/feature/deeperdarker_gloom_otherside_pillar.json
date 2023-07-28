@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:gloom_otherside_pillar",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {},
+      "type": "deeperdarker:gloom_otherside_pillar"
+    },
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

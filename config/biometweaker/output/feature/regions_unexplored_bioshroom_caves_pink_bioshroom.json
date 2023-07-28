@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:bioshroom_caves_pink_bioshroom",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_pink_bioshroom",
+    "placement": [
+      {
+        "count": 5,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

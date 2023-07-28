@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:ender_dragon",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/ender_dragon",
+  "size": {
+    "height": 8.0,
+    "width": 16.0,
+    "fixed": false
+  }
+}

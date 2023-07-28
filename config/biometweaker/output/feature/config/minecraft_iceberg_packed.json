@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:iceberg_packed",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:packed_ice"
+      }
+    },
+    "type": "minecraft:iceberg"
+  }
+}

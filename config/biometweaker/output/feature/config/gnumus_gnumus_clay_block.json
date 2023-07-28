@@ -1,0 +1,46 @@
+
+{
+  "registry_name": "gnumus:gnumus_clay_block",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:dirt"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "gnumus:gnumus_clay_block"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:sand"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "gnumus:gnumus_clay_block"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:gravel"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "gnumus:gnumus_clay_block"
+          }
+        }
+      ],
+      "size": 20,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "gnumus:gnumus_clay_block"
+  }
+}

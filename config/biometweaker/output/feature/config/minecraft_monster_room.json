@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:monster_room",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:monster_room"
+  }
+}

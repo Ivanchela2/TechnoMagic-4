@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "regions_unexplored:quicksand",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:quicksand",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 50
+          },
+          "max_inclusive": {
+            "absolute": 130
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

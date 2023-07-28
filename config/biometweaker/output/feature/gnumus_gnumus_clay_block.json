@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "gnumus:gnumus_clay_block",
+  "worldgen/placed_feature": {
+    "feature": "gnumus:gnumus_clay_block",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 63
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

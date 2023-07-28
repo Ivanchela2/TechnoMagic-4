@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "deep_dark_regrowth:infection_spider",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 32,
+  "update_interval": 3,
+  "defaul_loot_table": "deep_dark_regrowth:entities/infection_spider",
+  "size": {
+    "height": 0.7,
+    "width": 0.7,
+    "fixed": false
+  }
+}

@@ -1,0 +1,23 @@
+
+[Config]
+	#Defines whether warding pots will generate in the Deep Dark
+	"Warding Pot Generation" = true
+	#Defines how frequently a warding pot will spawn. set to a number inbetween 0 and 1 to decrease frequency
+	"Warding Pot Frequency" = 1.0
+	#Defines whether blight roots will generate
+	"Blight Roots Generation" = true
+	#Defines whether blight bone fossils will generate
+	"Blight Bone Generation" = true
+	#Defines whether night vision will expire in survival upon entering the Deep Dark
+	"Night Vision Expiration" = true
+	#Defines whether the deep dark will have falling ash particles
+	"Deep Dark Particles" = true
+	#Defines the amount of XP points stored per level in the XP tank (round this xp amount to the nearest level amount)
+	"XP Tank Amount" = 1395.0
+	#This has to be the same as the XP Tank Amount variable but converted into singular levels, otherwise things will not work properly
+	"XP Minimum Level" = 30.0
+	#Defines whether the replicator is able to replicate items
+	"Replicator Enabled" = true
+	#Defines whether titanium ore will generate in the deep dark
+	"Titanium Ore Generation" = true
+

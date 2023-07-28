@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "minecraft:ore_coal_upper",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ore_coal",
+    "placement": [
+      {
+        "count": 30,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 136
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

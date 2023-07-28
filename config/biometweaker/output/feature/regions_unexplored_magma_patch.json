@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:magma_patch",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:magma_delta",
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

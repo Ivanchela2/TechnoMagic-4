@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "deep_dark_regrowth:corrupted_skeleton_dead",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 16,
+  "update_interval": 3,
+  "defaul_loot_table": "deep_dark_regrowth:entities/corrupted_skeleton_dead",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

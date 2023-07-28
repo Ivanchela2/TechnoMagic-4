@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:end_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:end_stone"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:end_stone_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:end_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

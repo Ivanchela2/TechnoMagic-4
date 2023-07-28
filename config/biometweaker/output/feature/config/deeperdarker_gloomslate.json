@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deeperdarker:gloomslate",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deeperdarker:gloomslate"
+  }
+}

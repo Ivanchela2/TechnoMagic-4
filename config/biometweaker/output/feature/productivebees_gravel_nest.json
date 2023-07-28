@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:gravel_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:gravel"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:gravel_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:gravel_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

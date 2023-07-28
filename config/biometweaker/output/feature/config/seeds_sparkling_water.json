@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "seeds:sparkling_water",
+  "worldgen/configured_feature": {
+    "config": {
+      "fluid": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "seeds:sparkling_water"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "barrier": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "seeds:sparkling_water"
+  }
+}

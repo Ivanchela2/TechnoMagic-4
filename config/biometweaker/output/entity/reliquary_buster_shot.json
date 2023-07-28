@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "reliquary:buster_shot",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 128,
+  "update_interval": 5,
+  "defaul_loot_table": "reliquary:entities/buster_shot",
+  "size": {
+    "height": 0.01,
+    "width": 0.01,
+    "fixed": false
+  }
+}

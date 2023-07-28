@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:gnumus_bonfire",
+  "worldgen/placed_feature": {
+    "feature": "gnumus:gnumus_bonfire",
+    "placement": []
+  }
+}

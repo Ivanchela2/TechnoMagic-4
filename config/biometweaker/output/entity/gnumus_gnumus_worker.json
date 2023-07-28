@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "gnumus:gnumus_worker",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 50,
+  "update_interval": 3,
+  "defaul_loot_table": "gnumus:entities/gnumus_worker",
+  "size": {
+    "height": 1.7,
+    "width": 0.6,
+    "fixed": false
+  }
+}

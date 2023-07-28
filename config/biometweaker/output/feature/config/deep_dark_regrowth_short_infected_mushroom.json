@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "deep_dark_regrowth:short_infected_mushroom",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 70,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "deep_dark_regrowth:short_infected_mushroom"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "deep_dark_regrowth:short_infected_mushroom"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:noise_rocks",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:stones",
+    "placement": [
+      {
+        "count": 25,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:ore_geyser",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "deeperdarker:gloom_sculk",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "deeperdarker:geyser"
+          }
+        }
+      ],
+      "size": 5,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

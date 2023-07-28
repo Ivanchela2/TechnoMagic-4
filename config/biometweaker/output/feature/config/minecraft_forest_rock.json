@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:forest_rock",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:mossy_cobblestone"
+      }
+    },
+    "type": "minecraft:forest_rock"
+  }
+}

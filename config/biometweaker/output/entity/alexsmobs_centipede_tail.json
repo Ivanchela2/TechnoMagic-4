@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:centipede_tail",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "alexsmobs:entities/centipede_tail",
+  "size": {
+    "height": 0.9,
+    "width": 0.9,
+    "fixed": false
+  }
+}

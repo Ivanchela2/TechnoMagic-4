@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:nether_quartz_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:nether_quartz_ore"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:nether_quartz_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:nether_quartz_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

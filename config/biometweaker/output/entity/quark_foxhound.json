@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:foxhound",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "quark:entities/foxhound",
+  "size": {
+    "height": 0.8,
+    "width": 0.8,
+    "fixed": false
+  }
+}

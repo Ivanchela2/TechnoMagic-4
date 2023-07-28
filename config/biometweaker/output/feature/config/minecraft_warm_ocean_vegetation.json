@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "minecraft:warm_ocean_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {},
+            "type": "minecraft:coral_tree"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {},
+            "type": "minecraft:coral_claw"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {},
+            "type": "minecraft:coral_mushroom"
+          },
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

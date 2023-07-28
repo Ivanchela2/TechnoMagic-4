@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:spires",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:spire_feature"
+  }
+}

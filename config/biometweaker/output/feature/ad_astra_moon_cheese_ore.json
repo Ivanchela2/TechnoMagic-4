@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ad_astra:moon_cheese_ore",
+  "worldgen/placed_feature": {
+    "feature": "ad_astra:moon_cheese_ore",
+    "placement": [
+      {
+        "count": 9,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 6
+          },
+          "max_inclusive": {
+            "absolute": 192
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

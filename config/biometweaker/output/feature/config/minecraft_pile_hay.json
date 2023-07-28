@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "minecraft:pile_hay",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:hay_block"
+        },
+        "type": "minecraft:rotated_block_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  }
+}

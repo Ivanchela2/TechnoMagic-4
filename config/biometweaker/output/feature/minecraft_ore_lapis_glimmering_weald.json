@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "minecraft:ore_lapis_glimmering_weald",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ore_lapis",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

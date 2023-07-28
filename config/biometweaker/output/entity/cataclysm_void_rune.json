@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:void_rune",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 2,
+  "defaul_loot_table": "cataclysm:entities/void_rune",
+  "size": {
+    "height": 1.95,
+    "width": 0.6,
+    "fixed": false
+  }
+}

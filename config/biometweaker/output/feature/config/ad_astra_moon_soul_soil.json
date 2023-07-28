@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "ad_astra:moon_soul_soil",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "ad_astra:moon_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:soul_soil"
+          }
+        }
+      ],
+      "size": 60,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

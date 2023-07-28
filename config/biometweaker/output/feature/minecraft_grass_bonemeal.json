@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:grass_bonemeal",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:single_piece_of_grass",
+    "placement": [
+      {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

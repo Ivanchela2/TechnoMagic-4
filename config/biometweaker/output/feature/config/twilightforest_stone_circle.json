@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:stone_circle",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "twilightforest:stone_circle"
+  }
+}

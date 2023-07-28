@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "pigsteel:pigsteel_ore",
+  "worldgen/placed_feature": {
+    "feature": "pigsteel:pigsteel_ore",
+    "placement": [
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

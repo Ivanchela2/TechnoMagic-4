@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:wither_skull",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "minecraft:entities/wither_skull",
+  "size": {
+    "height": 0.3125,
+    "width": 0.3125,
+    "fixed": false
+  }
+}

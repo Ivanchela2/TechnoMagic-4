@@ -1,0 +1,30 @@
+
+{
+  "registry_name": "regions_unexplored:ru_mud_big",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:ru_disk_mud_big",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "fluids": "minecraft:water",
+          "type": "minecraft:matching_fluids"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

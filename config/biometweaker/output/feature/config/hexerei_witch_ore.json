@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "hexerei:witch_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "hexerei:witch_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "hexerei:witch_ore"
+          }
+        }
+      ],
+      "size": 4,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "gardens_of_the_dead:soulblight_fungi",
+  "worldgen/placed_feature": {
+    "feature": "gardens_of_the_dead:soulblight_fungus",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "predicate": {
+          "predicate": {
+            "fluids": "minecraft:lava",
+            "type": "minecraft:matching_fluids"
+          },
+          "type": "minecraft:not"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:soul_soil",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

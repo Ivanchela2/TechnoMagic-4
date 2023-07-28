@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:patch_lily_sparse",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_lily_pad",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

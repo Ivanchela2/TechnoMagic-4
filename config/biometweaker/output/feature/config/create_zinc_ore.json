@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "create:zinc_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "entry": "create:zinc_ore",
+      "discard_chance_on_air_exposure": 0.0,
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "create:zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "create:deepslate_zinc_ore"
+          }
+        }
+      ]
+    },
+    "type": "create:standard_ore"
+  }
+}

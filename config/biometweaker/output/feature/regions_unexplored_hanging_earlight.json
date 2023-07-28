@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "regions_unexplored:hanging_earlight",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:patch_hanging_earlight",
+    "placement": [
+      {
+        "count": 225,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

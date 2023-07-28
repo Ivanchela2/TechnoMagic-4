@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "regions_unexplored:eucalyptus_forest_eucalyptus_tree_canopy",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:roofed_eucalyptus_forest_eucalyptus_tree_canopy",
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "regions_unexplored:grass_placement"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

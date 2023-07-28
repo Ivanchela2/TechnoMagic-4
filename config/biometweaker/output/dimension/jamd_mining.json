@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "jamd:mining",
+  "dimension": {
+    "type": "jamd:mining",
+    "generator": {
+      "settings": {
+        "lakes": false,
+        "features": true,
+        "biome": "jamd:mining",
+        "layers": [
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          },
+          {
+            "height": 64,
+            "block": "minecraft:deepslate"
+          },
+          {
+            "height": 64,
+            "block": "minecraft:stone"
+          },
+          {
+            "height": 3,
+            "block": "minecraft:dirt"
+          },
+          {
+            "height": 1,
+            "block": "minecraft:grass_block"
+          }
+        ]
+      },
+      "type": "jamd:mining"
+    }
+  }
+}

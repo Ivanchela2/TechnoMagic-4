@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:iceberg_blue",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:blue_ice"
+      }
+    },
+    "type": "minecraft:iceberg"
+  }
+}

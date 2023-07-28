@@ -1,0 +1,21 @@
+{
+	icon: "naturesaura:infused_iron"
+	id: "6A3B814BC7FCB8DC"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "naturesaura:gold_leaf" }
+		{
+			item: {
+				Count: 1b
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+		}
+		{ item: "naturesaura:infused_iron", weight: 0.3f }
+		{ count: 16, item: "naturesaura:gold_powder", weight: 0.6f }
+	]
+	title: "nature's aura 2"
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:glowstone_extra",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:glowstone_blob"
+  }
+}

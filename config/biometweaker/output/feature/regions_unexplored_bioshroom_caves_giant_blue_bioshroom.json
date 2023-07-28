@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "regions_unexplored:bioshroom_caves_giant_blue_bioshroom",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:giant_blue_bioshroom",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:oak_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

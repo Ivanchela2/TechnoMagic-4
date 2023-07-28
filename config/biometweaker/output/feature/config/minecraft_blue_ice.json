@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:blue_ice",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:blue_ice"
+  }
+}

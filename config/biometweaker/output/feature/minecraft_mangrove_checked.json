@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "minecraft:mangrove_checked",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:mangrove",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "waterlogged": "false",
+              "stage": "0",
+              "hanging": "false",
+              "age": "0"
+            },
+            "Name": "minecraft:mangrove_propagule"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

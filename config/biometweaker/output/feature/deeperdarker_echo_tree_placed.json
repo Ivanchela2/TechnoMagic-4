@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "deeperdarker:echo_tree_placed",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {},
+      "type": "deeperdarker:echo_tree"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 8,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

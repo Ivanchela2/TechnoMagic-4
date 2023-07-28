@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "supplementaries:falling_sack",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 20,
+  "defaul_loot_table": "supplementaries:entities/falling_sack",
+  "size": {
+    "height": 0.98,
+    "width": 0.98,
+    "fixed": false
+  }
+}

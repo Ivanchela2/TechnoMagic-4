@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "twilightforest:firefly_lamppost",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "waterlogged": "false"
+        },
+        "Name": "twilightforest:firefly_jar"
+      }
+    },
+    "type": "twilightforest:lampposts"
+  }
+}

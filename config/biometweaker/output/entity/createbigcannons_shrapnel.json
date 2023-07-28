@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "createbigcannons:shrapnel",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 3,
+  "update_interval": 20,
+  "defaul_loot_table": "createbigcannons:entities/shrapnel",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

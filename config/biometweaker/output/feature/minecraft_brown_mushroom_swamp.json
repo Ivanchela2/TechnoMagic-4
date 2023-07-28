@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:brown_mushroom_swamp",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_brown_mushroom",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

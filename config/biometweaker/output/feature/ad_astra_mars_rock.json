@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "ad_astra:mars_rock",
+  "worldgen/placed_feature": {
+    "feature": "ad_astra:mars_rock",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

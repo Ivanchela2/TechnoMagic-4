@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:obsidian_spire",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:obsidian_spire"
+  }
+}

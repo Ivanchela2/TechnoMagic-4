@@ -1,0 +1,4363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "stage_6"
+	group: "472A643616306AAC"
+	icon: "chemlib:hydrogen"
+	id: "5B29CA8B0650BD13"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "1AC8D7847D07D95A"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "placebo:textures/wings/angel.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1AC8D7847D07D95A"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "arclight:item/angel_spawn"
+			order: -10
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.511904761904745d
+			y: 16.90476190476194d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1AC8D7847D07D95A"
+			dev: false
+			height: 5.5d
+			hover: [ ]
+			image: "placebo:textures/wings/angel.png"
+			order: -5
+			rotation: 0.0d
+			width: 5.5d
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ad_astra:textures/sky/earth.png"
+			rotation: 15.0d
+			width: 2.5d
+			x: 44.0d
+			y: 18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.9d
+			hover: [ ]
+			image: "ad_astra:textures/sky/moon.png"
+			rotation: 30.0d
+			width: 0.9d
+			x: 42.5d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/gui/sun.png"
+			order: -10
+			rotation: 0.0d
+			width: 4.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ad_astra:textures/sky/mars.png"
+			rotation: 65.0d
+			width: 1.7d
+			x: 49.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "ad_astra:textures/sky/mercury.png"
+			rotation: -30.0d
+			width: 1.2d
+			x: 40.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/venus.png"
+			rotation: 75.0d
+			width: 2.0d
+			x: 38.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/jupiter.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 54.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/saturn.png"
+			rotation: 15.0d
+			width: 6.0d
+			x: 35.5d
+			y: 21.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ad_astra:textures/sky/neptune.png"
+			rotation: 25.0d
+			width: 2.5d
+			x: 58.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/uranus.png"
+			rotation: 75.0d
+			width: 3.0d
+			x: 34.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/sky/glacio.png"
+			rotation: 15.0d
+			width: 1.5d
+			x: 22.0d
+			y: 20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.3d
+			hover: [ ]
+			image: "ad_astra:textures/sky/gui/blue_sun.png"
+			rotation: 0.0d
+			width: 3.3d
+			x: 16.0d
+			y: 22.3d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "22D3571C9AB084E1"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_solid_layer_1"
+			rotation: 0.0d
+			width: 0.5d
+			x: -17.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			color: 14886454
+			corner: false
+			dependency: "22D3571C9AB084E1"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_liquid_layer_0"
+			order: -1
+			rotation: 0.0d
+			width: 0.5d
+			x: -17.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "31BA881F9BA2E723"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_solid_layer_1"
+			rotation: -45.0d
+			width: 0.5d
+			x: -17.75d
+			y: 4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4BC8FABEEF773E06"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_solid_layer_1"
+			rotation: -90.0d
+			width: 0.5d
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "27F16682E4761ED8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_solid_layer_1"
+			rotation: -180.0d
+			width: 0.5d
+			x: -17.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2D45BE7AC519B83A"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_solid_layer_1"
+			rotation: -135.0d
+			width: 0.5d
+			x: -17.75d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4BC8FABEEF773E06"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_liquid_layer_0"
+			order: -1
+			rotation: -90.0d
+			width: 0.5d
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			color: 8388564
+			corner: false
+			dependency: "31BA881F9BA2E723"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_liquid_layer_0"
+			order: -1
+			rotation: -45.0d
+			width: 0.5d
+			x: -17.75d
+			y: 4.25d
+		}
+		{
+			click: ""
+			color: 0
+			corner: false
+			dependency: "27F16682E4761ED8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_liquid_layer_0"
+			order: -1
+			rotation: -180.0d
+			width: 0.5d
+			x: -17.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			color: 16764736
+			corner: false
+			dependency: "2D45BE7AC519B83A"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chemlib:items/element_liquid_layer_0"
+			order: -1
+			rotation: -135.0d
+			width: 0.5d
+			x: -17.75d
+			y: 5.75d
+		}
+		{
+			click: ""
+			color: 8026746
+			corner: false
+			dependency: "1AC8D7847D07D95A"
+			dev: false
+			height: 4.35d
+			hover: [ ]
+			image: "placebo:textures/wings/angel.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.35d
+			x: -4.5d
+			y: 16.65d
+		}
+		{
+			click: ""
+			color: 8026746
+			corner: false
+			dependency: "1AC8D7847D07D95A"
+			dev: false
+			height: 5.75d
+			hover: [ ]
+			image: "placebo:textures/wings/angel.png"
+			order: -10
+			rotation: 0.0d
+			width: 5.75d
+			x: -4.5d
+			y: 17.35d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 40.0d
+			hover: [ ]
+			image: "ftbquests:textures/1pxc.png"
+			order: -20
+			rotation: 0.0d
+			width: 40.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 30.0d
+			hover: [ ]
+			image: "ftbquests:textures/1pxc.png"
+			order: -17
+			rotation: 0.0d
+			width: 30.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 25.0d
+			hover: [ ]
+			image: "ftbquests:textures/2pxc.png"
+			order: -16
+			rotation: 0.0d
+			width: 25.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "ftbquests:textures/2pxc.png"
+			order: -15
+			rotation: 0.0d
+			width: 20.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "ftbquests:textures/4pxc.png"
+			order: -14
+			rotation: 0.0d
+			width: 15.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "ftbquests:textures/5pxc.png"
+			order: -13
+			rotation: 0.0d
+			width: 10.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "ftbquests:textures/4pxc.png"
+			order: -14
+			rotation: 0.0d
+			width: 15.0d
+			x: 16.0d
+			y: 22.3d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 35.0d
+			hover: [ ]
+			image: "ftbquests:textures/1pxc.png"
+			order: -18
+			rotation: 0.0d
+			width: 35.0d
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 23.0d
+			hover: [ ]
+			image: "ftbquests:textures/ru_periodic_table.png"
+			rotation: 0.0d
+			width: 45.0d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "27F16682E4761ED8"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "hexerei:textures/book/question_mark.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.0d
+			y: -13.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5288CB11698A642A"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3AFE6E2DC951ED27"
+				item: "chemlib:nickel"
+				type: "item"
+			}]
+			x: 1.1d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "67B9CD108AC36AFD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "78DB1D95260C60E6"
+				item: "chemlib:cobalt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "683C70F9E482203F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5D727F747DE1F928"
+				item: "chemlib:palladium"
+				type: "item"
+			}]
+			x: 1.1d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0CF299E6FE074D5C"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "05539F7D97C62C27"
+				item: "chemlib:silver"
+				type: "item"
+			}]
+			x: 3.2d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2A1F4C924CC1A594"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3F1968F858567853"
+				item: "chemlib:cadmium"
+				type: "item"
+			}]
+			x: 5.3d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "747F9D945FB06338"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6B3A1E38B1AB1CD0"
+				item: "chemlib:indium"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "05CA9FD8AF5882BC"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0FFB5117D3A2091A"
+				item: "chemlib:tin"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5E62B58850F2A3DB"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "216B61AAB9DD8219"
+				item: "chemlib:antimony"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1CA4691E988A88F4"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "42F015773986FAA7"
+				item: "chemlib:tellurium"
+				type: "item"
+			}]
+			x: 13.7d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "55ED8799EA1A0363"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3F2D0B002882E6EE"
+				item: "chemlib:iodine"
+				type: "item"
+			}]
+			x: 15.8d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "038485DD83F0FC3F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3EAB681B20B32CDF"
+				item: "chemlib:xenon"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "39F15C9F203494FD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "70F57F00122FDE55"
+				item: "chemlib:rhodium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "3EF4C99CDD5565F4"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5EB33663000FA5DF"
+				item: "chemlib:ruthenium"
+				type: "item"
+			}]
+			x: -3.1d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6094FAF069041C86"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3F2A787211992A6A"
+				item: "chemlib:technetium"
+				type: "item"
+			}]
+			x: -5.2d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1E4B6939771198D6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5215D84439CCF2DE"
+				item: "chemlib:molybdenum"
+				type: "item"
+			}]
+			x: -7.3d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "514690B26EDC06EE"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "60ADB8D4A9AE5B9F"
+				item: "chemlib:niobium"
+				type: "item"
+			}]
+			x: -9.4d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2DC7832BF814AEB3"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1B5ADDD9BF7CD769"
+				item: "chemlib:zirconium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5BAE50F983DAFD89"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "698CC47195C50FAB"
+				item: "chemlib:yttrium"
+				type: "item"
+			}]
+			x: -13.6d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "476F898E9C3681EE"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6432457CF65ED7D2"
+				item: "chemlib:rubidium"
+				type: "item"
+			}]
+			x: -17.849999999999998d
+			y: -13.35d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "502E953840BF663E"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3195C79BD98B0A7E"
+				item: "chemlib:barium"
+				type: "item"
+			}]
+			x: -15.7d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "03E4D1494E40047A"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "184BD6CEC7D6910C"
+				item: "chemlib:cesium"
+				type: "item"
+			}]
+			x: -17.8d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6B77118495059654"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "657526E16380EFE5"
+				item: "chemlib:krypton"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0E5BA2B9E6A4BE05"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0E5FCF827841EB04"
+				item: "chemlib:bromine"
+				type: "item"
+			}]
+			x: 15.8d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7E8BC54576648DB7"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "58505CA1A0AF9D2A"
+				item: "chemlib:selenium"
+				type: "item"
+			}]
+			x: 13.7d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7E03B40D8952B690"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7F4185C598F85497"
+				item: "chemlib:arsenic"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7D6B4829F0332A8A"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "029B935CA898A196"
+				item: "chemlib:germanium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "27076BE4513BE2FE"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "302B2A3382D45C49"
+				item: "chemlib:gallium"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "72988931807A0001"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7AE3ACA87F8FB5D5"
+				item: "chemlib:lead"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "69945248FC329211"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1EDA0C4A538A606C"
+				item: "chemlib:mercury"
+				type: "item"
+			}]
+			x: 5.3d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "384A51B8626CB73C"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6670EB28E76C891A"
+				item: "chemlib:gold"
+				type: "item"
+			}]
+			x: 3.2d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "065E6C53B807DCF4"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5865E60C504A5055"
+				item: "chemlib:platinum"
+				type: "item"
+			}]
+			x: 1.1d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "73FFC36A26CF7A06"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "05104C3037FCC7C1"
+				item: "chemlib:iridium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "47FCD078921B4EFD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3B56569511A1790E"
+				item: "chemlib:osmium"
+				type: "item"
+			}]
+			x: -3.1d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "3BB91BAE13B493EB"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0921AA0833431670"
+				item: "chemlib:rhenium"
+				type: "item"
+			}]
+			x: -5.2d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "77A9369C74B3DCA6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4A0BDD2D0D1825E4"
+				item: "chemlib:tungsten"
+				type: "item"
+			}]
+			x: -7.3d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "604E09A6D42CE0F8"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "63C45804F21D1703"
+				item: "chemlib:tantalum"
+				type: "item"
+			}]
+			x: -9.4d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "714BE8B38F9857C4"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4E6373BB99175F83"
+				item: "chemlib:hafnium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7439B204C6B83EE8"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5DB01C7D2AB4B6C9"
+				item: "chemlib:copper"
+				type: "item"
+			}]
+			x: 3.2d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "265BB73B7BBBEA28"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4A1906969B92DFD9"
+				item: "chemlib:zinc"
+				type: "item"
+			}]
+			x: 5.3d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "354FD6896C428505"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "31B345E6CEC8EB21"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			x: -3.1d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "01B1F39F9A6C0ABD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "304D89FF3E767382"
+				item: "chemlib:manganese"
+				type: "item"
+			}]
+			x: -5.2d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6F881101C072AEBF"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0A98482D7F332A14"
+				item: "chemlib:chromium"
+				type: "item"
+			}]
+			x: -7.3d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "51F8A730E93ABB6F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "689437999FD962AB"
+				item: "chemlib:vanadium"
+				type: "item"
+			}]
+			x: -9.4d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "092D2AF140465636"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "2A5AF0A786E72696"
+				item: "chemlib:titanium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "38664D4CAAA39264"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1F697A09A565ACAC"
+				item: "chemlib:scandium"
+				type: "item"
+			}]
+			x: -13.6d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "08A002626EE2AE80"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "097B45F4146FED1C"
+				item: "chemlib:strontium"
+				type: "item"
+			}]
+			x: -15.7d
+			y: -13.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1F13D320A8330D5A"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6B6C2A34023BFED8"
+				item: "chemlib:calcium"
+				type: "item"
+			}]
+			x: -15.7d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "501CB301CAC17B71"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "55C4BE8AB5ADE3A1"
+				item: "chemlib:potassium"
+				type: "item"
+			}]
+			x: -17.8d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4E62A05A58678304"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3C56AC0892773A9C"
+				item: "chemlib:magnesium"
+				type: "item"
+			}]
+			x: -15.7d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4C06C547B7CC30CD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "46EC9C55F1CCE9D8"
+				item: "chemlib:sodium"
+				type: "item"
+			}]
+			x: -17.8d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "08A61318EDFCA4A6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "69DD52348206C953"
+				item: "chemlib:aluminum"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "3FE7D37C9A2387A0"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1328982919CB36F3"
+				item: "chemlib:silicon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5299C195F43A9478"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6910C12222582A12"
+				item: "chemlib:phosphorus"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0D2A0B6FE8888526"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1581AD7AE3F0D677"
+				item: "chemlib:sulfur"
+				type: "item"
+			}]
+			x: 13.7d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4CF6471DC6486218"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "21091FE32536F26F"
+				item: "chemlib:chlorine"
+				type: "item"
+			}]
+			x: 15.8d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6D02376A2B0D13BA"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3C56EE33A5A91B7F"
+				item: "chemlib:argon"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -17.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "51370E26FC13EB7C"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "51DC6A6089596D60"
+				item: "chemlib:thallium"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -11.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "70B2E15582C01416"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "75022BF62EA92845"
+				item: "chemlib:neon"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4DB5228F8EC0FA89"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "42AD79CD1A1428A7"
+				item: "chemlib:fluorine"
+				type: "item"
+			}]
+			x: 15.8d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6EAB44FE7E8EC4C0"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "06138639B3FEB61B"
+				item: "chemlib:oxygen"
+				type: "item"
+			}]
+			x: 13.7d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4C0182CEB5DEAEB4"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "2179E96C7AABB87D"
+				item: "chemlib:nitrogen"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1307B43C4F8CC601"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "530CE67CACDA1A07"
+				item: "chemlib:carbon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "12A30B3C6A3DE20F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1095B3C98EE7E59A"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			x: -17.799999999999997d
+			y: -21.499999999999996d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1A82E835F1394E0C"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "69F1FC38EFC35889"
+				item: "chemlib:lithium"
+				type: "item"
+			}]
+			x: -17.79999999999999d
+			y: -19.499999999999993d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2BD95DBC311D1E05"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5F3EE5EB4A7B106D"
+				item: "chemlib:beryllium"
+				type: "item"
+			}]
+			x: -15.7d
+			y: -19.499999999999996d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "08339FB165729B88"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5432B44EAF2C43F7"
+				item: "chemlib:boron"
+				type: "item"
+			}]
+			x: 7.399999999999999d
+			y: -19.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5C4035288C144598"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "472167A8AE4251ED"
+				item: "chemlib:helium"
+				type: "item"
+			}]
+			x: 17.875d
+			y: -21.45d
+		}
+		{
+			dependencies: [
+				"3C4FAAC29B6437CA"
+				"295B34A99DDA14E6"
+				"6C7967AFBD51BDAC"
+				"269E4EB0991081B1"
+			]
+			dependency_requirement: "one_completed"
+			id: "0DF0EAE626C09688"
+			rewards: [
+				{
+					id: "55E849D3E5A91DD1"
+					item: "chemlib:periodic_table"
+					type: "item"
+				}
+				{
+					id: "230985EEBBAEF944"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D3B1040546FA214"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2005994401
+									-1811790906
+									-1474127005
+									1140911941
+								]
+								Name: "qq1pvll"
+								Properties: {
+									textures: [{
+										Signature: "FGkAmly4LowWgZ7eD+qJxh4IYsFUnFZsLtQtV1exdDXpRxPBgE2me7RDXSQI1/UAlBYFjmV3LTrDtfBej04y62MZhFkBibQw7Rxf0z4ezB0hXdxw4vrjHtNBODGtgpo+SBme95AFb8P2Qw0RvO4aYPjEKlUdZmmNRiEIhY4GXjqlwKTjNleGCTo4kzwv8ZWKdbNWk6ZvPFgovbEGqOyXhvj6xMwJFXrpWLx468jDpU9xQSP+d3eJV1q0dsz4tEzLBzCMij5G/FAaGhwPvEtoNSbdLFaDNJiiMO4bMRO+4xHj4HOakm3lVU+CrKF5axIAO2lUJJKAW7LoMY4iJYTwFn5XBjbK3OzOT1m6Yfmffh3nFFBi7W3VIST7iK6tRyf0p4tritZkXTrC44UFexd+5qw4Cfm2/RIQ1kCdQNMc9P0WKXBYDznO9CCa4qPw3zK4z/RLzZdFdEUl2NKAnRFg2Nk/KLFhIMlz1MY22yWWLHMOlKdpSjH0V7REczDokWb9NPfmCDYryd5inSHywnkEydV1S319xxgEhhTm4E32AQR5i555UlAnJ4sz3ejru8gAzRONz01S9H9yLrGq1Te1VQQiAqmq7KRucLFvNng5X1TPvNmNnRd64ae/W59sNPEf7iTCOiYMWQAXp3L80NvHC3XRuGr+/AP654gjm4mpfoY="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MzgwMTUwMjcxMywKICAicHJvZmlsZUlkIiA6ICI3NzkxMGJhMTk0MDI0M2M2YTgyMjliNjM0NDAwZWY0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJxcTFwdmxsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjYmRjMTg3MzdlYjJjOTM3OWE1ZmIxYzRkNGFkY2I0NGIwNGNhMWNiYjhiNWY0ZGNlYmMyYWY3MWUxNTRjZWEiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5Начало 6й стадии"
+			tasks: [{
+				id: "0F19AC7358A27D52"
+				title: "Все любят химию!"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			description: ["Используется для соединения химических элементов в предметы или в более сложные соединения. "]
+			id: "22D3571C9AB084E1"
+			rewards: [{
+				id: "73FC8F61F5CC7685"
+				item: "chemlib:protactinium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5Переход к другому моду"
+			tasks: [{
+				id: "704ABAD6E737647D"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			description: ["Используется для получения химических элементов из предметов или более сложных соединений."]
+			id: "2C1FF6BB5FD7804F"
+			rewards: [{
+				id: "69502CCDC04CB8B2"
+				item: "chemlib:niobium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "63FEC76352472CCD"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			description: ["Используется для сжатия химических элементов."]
+			id: "0A2B94B796591071"
+			rewards: [{
+				id: "79366E99CB8EC3CE"
+				item: "chemlib:actinium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1B699A55C55B43B9"
+				item: "alchemistry:compactor"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2C1FF6BB5FD7804F"
+				"22D3571C9AB084E1"
+				"0A2B94B796591071"
+			]
+			description: [
+				"&2Реактор&r нужен для создания одних элементов из других. (см. JEI)"
+				"Мультиблочная структура. (см. Размышления)"
+			]
+			id: "49B1935183B37CE5"
+			rewards: [
+				{
+					count: 9
+					id: "20DADD45192B5383"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "286E8FC868A2E760"
+					item: "ftbic:antimatter_crystal"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "75518D0E164211FC"
+				item: "alchemistry:reactor_casing"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"49B1935183B37CE5"
+				"2BA789D83CFBDC76"
+				"18373F95A49D1DA2"
+			]
+			description: ["Главный блок реактора."]
+			id: "44F96715665B92F6"
+			rewards: [{
+				id: "1DA6645F84F36CEB"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "288B5EFAB2B03BA0"
+				item: "alchemistry:fusion_chamber_controller"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49B1935183B37CE5"]
+			id: "18373F95A49D1DA2"
+			rewards: [{
+				id: "4AF79E2B3BBEE096"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "7A5CBC03B3AB39B4"
+				item: "alchemistry:fusion_core"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49B1935183B37CE5"]
+			description: ["Блоки для входа\\выхода предметов, входа энергии."]
+			id: "2BA789D83CFBDC76"
+			rewards: [{
+				count: 4
+				id: "1A1008D19BFEE69F"
+				item: "alchemistry:reactor_casing"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "15198FC7EE6D1FB8"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					id: "6111F380FC29D805"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+				{
+					id: "3EA70BE914316895"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44F96715665B92F6"]
+			id: "31BA881F9BA2E723"
+			rewards: [
+				{
+					id: "55BD6944E9E3FCAB"
+					item: "chemlib:actinium_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5830EF7A50AF009B"
+					item: "chemlib:niobium_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5Переход к другому моду"
+			tasks: [
+				{
+					id: "350BFC58AB5D3671"
+					item: "chemlib:actinium_ingot"
+					type: "item"
+				}
+				{
+					id: "559ACF59E1411060"
+					item: "chemlib:niobium_ingot"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31BA881F9BA2E723"]
+			description: ["Мультиблочная структура для выработки энергии. (см. Размышления)"]
+			id: "23AB2E375D4C3EC2"
+			rewards: [{
+				count: 9
+				id: "3112D85E09F8A56C"
+				item: "biggerreactors:reactor_glass"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Дополнительный источник энергии"
+			tasks: [{
+				id: "5222692DD2F8F92E"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			title: "Первый большой реактор"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23AB2E375D4C3EC2"]
+			description: ["Главный блок реактора."]
+			id: "213E4A3CED08283D"
+			rewards: [{
+				id: "66D76F0F7FF5521B"
+				item: "biggerreactors:reactor_casing"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "66B1856035F356D9"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23AB2E375D4C3EC2"]
+			description: ["Топливный стержень - хранит жидкий уран."]
+			id: "0407D6804926A11E"
+			rewards: [{
+				id: "7D38E7A28FD49240"
+				item: "biggerreactors:reactor_casing"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75809C3093C47D7F"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "2FEDD5CB66A9D244"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23AB2E375D4C3EC2"]
+			description: ["Блоки для выхода энергии и входа\\выхода ресурсов."]
+			id: "7D10AA4B873BE4F2"
+			rewards: [{
+				id: "6DAC67A43013A687"
+				item: "biggerreactors:reactor_casing"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "621E63ECBE62470C"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "41A1F0D3C240AD9F"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D10AA4B873BE4F2"
+				"0407D6804926A11E"
+				"213E4A3CED08283D"
+			]
+			description: ["Производит блутоний из двух слитков цианита и воды."]
+			id: "0D3E772E07907857"
+			rewards: [{
+				id: "390C93CA083CD1ED"
+				item: "biggerreactors:blutonium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "6682EE52899605D8"
+				item: "biggerreactors:cyanite_reprocessor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BC8FABEEF773E06"]
+			id: "5CBD8849E1818340"
+			rewards: [{
+				id: "4CB167D434F74741"
+				item: "minecraft:diamond_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "384D141C347C416D"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+				{
+					id: "426C6E0E6C4E701B"
+					item: "ad_astra:engine_frame"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BC8FABEEF773E06"]
+			id: "070D7CD01A513E6C"
+			rewards: [{
+				id: "4E4D15C7A60A958C"
+				item: "minecraft:emerald_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "0CDB9CAC6221DE5A"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			title: "Стальной бак"
+			x: 9.75d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"070D7CD01A513E6C"
+				"5CBD8849E1818340"
+				"1724AFE8A26625EB"
+				"3F945105B0E04D71"
+				"021C515B4E0C4FBF"
+				"7FBBF8EA347C2EB5"
+				"0C12164E2D78B218"
+			]
+			description: ["Разместите ракету на площадке, заправьте топливом, сядьте в нее и нажмите пробел."]
+			hide: false
+			id: "27F16682E4761ED8"
+			rewards: [
+				{
+					count: 16
+					id: "5DFDE2E97FD015C9"
+					item: "biggerreactors:uranium_block"
+					type: "item"
+				}
+				{
+					id: "3EAF61FCA5600D6C"
+					item: "botania:overgrowth_seed"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 6.0d
+			subtitle: "&6Первая остановка - Луна"
+			tasks: [{
+				id: "321A66C703F72048"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "К взлету готов! Прием?.. "
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46D10C4412BC495B"]
+			id: "3F945105B0E04D71"
+			rewards: [{
+				id: "76CA28641AE73663"
+				item: "ad_astra:steel_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "22365FD11490B06A"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			title: "Стабилизатор"
+			x: 8.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46D10C4412BC495B"]
+			id: "1724AFE8A26625EB"
+			rewards: [{
+				id: "15A935F7B1731450"
+				item: "minecraft:netherite_block"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "07FD8574C554F132"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5E23983FA5506676"
+				"53C334DB71DEF300"
+				"5404EFA5F2342442"
+				"4F7F6A58036E16E6"
+				"660BD4C03F77B971"
+				"09FE183569C4CBB1"
+			]
+			description: ["Сильное ядро, используемое в крафтах."]
+			id: "25A4EAB98B5899DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D57084C327C642"
+					table_id: 6910744682423747065L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:s6_arclight ()"
+					id: "4510A3FC9CC76DA2"
+					player_command: false
+					title: "остров - arclight"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "398124B01DDA825A"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ангелы спускаются в ваш мир\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "0EAF96BA63AF0633"
+					player_command: false
+					type: "command"
+				}
+			]
+			size: 1.5d
+			subtitle: "&6Сердце Ангела (почти)"
+			tasks: [{
+				id: "0A9033C4461F6836"
+				item: "arclight:arclight_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"25A4EAB98B5899DD"
+				"395110AEC64CC6BE"
+			]
+			id: "2D45BE7AC519B83A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FE0657EDFF06734"
+				table_id: 6910744682423747065L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5Переход к другому моду"
+			tasks: [{
+				id: "3CAA22086525CEA4"
+				item: "arclight:moonlight_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "71C881DCCC3D704F"
+			rewards: [{
+				id: "785EDC0F1E5E7749"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "55768B28BD6B4A14"
+				item: "arclight:arclight_gem"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "2258FD5815F38B9C"
+			rewards: [{
+				id: "624B0E0EDF6F12C5"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6EE54066DB910D41"
+				item: "arclight:moonlight_crystal"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "28FC20E2F1073A55"
+			rewards: [{
+				id: "0257B7882B5BF0DA"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0C4B837EAC2FC1A1"
+				item: "arclight:jade_gem"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "2F4E2F6025DCBCAE"
+			rewards: [{
+				id: "0A31C066CE43DEA0"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7DEAEC1E0E584DAB"
+				item: "arclight:bloodstone_gem"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "5404EFA5F2342442"
+			shape: "rsquare"
+			tasks: [{
+				id: "4788D200E6967503"
+				item: "arclight:arclight_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "4F7F6A58036E16E6"
+			shape: "rsquare"
+			tasks: [{
+				id: "6A77F7082602AF6F"
+				item: "arclight:moonlight_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "53C334DB71DEF300"
+			shape: "rsquare"
+			tasks: [{
+				id: "4AE3B35BB9FD2EB8"
+				item: "arclight:bloodstone_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "5E23983FA5506676"
+			shape: "rsquare"
+			tasks: [{
+				id: "0BCA29CF6E5FFC60"
+				item: "arclight:jade_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0D3E772E07907857"]
+			id: "4BC8FABEEF773E06"
+			rewards: [
+				{
+					id: "129EE46CF9D17E2E"
+					item: "alchemistry:fission_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F755B4A22876CEF"
+					item: "alchemistry:fission_core"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5Переход к другому моду"
+			tasks: [{
+				id: "2C121F109D81DCDA"
+				item: "biggerreactors:reinforced_ludicrite_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BC8FABEEF773E06"]
+			description: [
+				"Мультиблочная структура для выработки энергии."
+				"Для работы требуется пар. (Теплообменник)"
+			]
+			id: "3534283B09AF261F"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "368EC0048450DF08"
+				item: "biggerreactors:turbine_glass"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&6Дополнительный источник энергии"
+			tasks: [{
+				id: "169772905B2B5CEC"
+				item: "biggerreactors:turbine_casing"
+				type: "item"
+			}]
+			title: "Турбина"
+			x: 9.5d
+			y: 1.71d
+		}
+		{
+			dependencies: ["3534283B09AF261F"]
+			description: ["Главный блок турбины."]
+			id: "6BAEAF982A2BB3D0"
+			optional: true
+			rewards: [{
+				id: "351D7463F77B8435"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D21F9E8B1197697"
+				item: "biggerreactors:turbine_terminal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3534283B09AF261F"
+				"6BAEAF982A2BB3D0"
+			]
+			id: "7B43EE893F4532AD"
+			optional: true
+			rewards: [{
+				id: "2708473465363FE8"
+				item: "biggerreactors:ludicrite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3F3E3B7BBBDDE01F"
+					item: "biggerreactors:turbine_power_tap"
+					type: "item"
+				}
+				{
+					id: "53F0C1E913C55D0E"
+					item: "biggerreactors:turbine_fluid_port"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3534283B09AF261F"
+				"6BAEAF982A2BB3D0"
+			]
+			id: "7E62367D6DFEED27"
+			optional: true
+			rewards: [{
+				id: "50B73A0BA6BEBC5A"
+				item: "biggerreactors:turbine_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1A189D8C5445B9EA"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
+				}
+				{
+					id: "65C980BF041E9086"
+					item: "biggerreactors:turbine_rotor_shaft"
+					type: "item"
+				}
+				{
+					id: "66B6DC4BE2FA48D5"
+					item: "biggerreactors:turbine_rotor_bearing"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23AB2E375D4C3EC2"]
+			description: [
+				"Мультиблочная структура для выработки пара."
+				"Производит пар за счет тепла, получаемого с помощью реактора."
+			]
+			id: "349C095C296C8A9C"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "43C25787E15C7087"
+				item: "biggerreactors:heat_exchanger_glass"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7216FFCAE342A459"
+				item: "biggerreactors:heat_exchanger_casing"
+				type: "item"
+			}]
+			title: "Теплообменник"
+			x: -1.0d
+			y: 1.7113095238095113d
+		}
+		{
+			dependencies: ["349C095C296C8A9C"]
+			description: ["Главный блок теплообменника."]
+			id: "5D91259E5A5042E8"
+			optional: true
+			rewards: [
+				{
+					id: "3337EF1011318332"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+				{
+					id: "2D8BD46CB57B14E5"
+					item: "create_things_and_misc:blaze_ballon"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0F255F6AD22774A3"
+				item: "biggerreactors:heat_exchanger_terminal"
+				type: "item"
+			}]
+			x: -1.0238095238095042d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"349C095C296C8A9C"
+				"5D91259E5A5042E8"
+			]
+			id: "27FF8EF325686D51"
+			optional: true
+			rewards: [{
+				id: "6769544ACD371070"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1C12F380C8611343"
+					item: "biggerreactors:heat_exchanger_condenser_channel"
+					type: "item"
+				}
+				{
+					id: "582B8261D15CF053"
+					item: "biggerreactors:heat_exchanger_evaporator_channel"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"349C095C296C8A9C"
+				"5D91259E5A5042E8"
+			]
+			id: "5B335576BEF43583"
+			optional: true
+			rewards: [{
+				id: "11DEC76511BABE74"
+				item: "biggerreactors:heat_exchanger_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4233228C7F7586F2"
+				item: "biggerreactors:heat_exchanger_fluid_port"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"25A4EAB98B5899DD"
+				"0726D7A97EB46183"
+			]
+			description: ["Используйте корону на пьедестале, чтобы призвать Ангела! Пьедестал можно найти на острове."]
+			hide: true
+			id: "1AC8D7847D07D95A"
+			shape: "rsquare"
+			tasks: [{
+				id: "63DDA5A9C8523D62"
+				item: {
+					Count: 1b
+					id: "arclight:angel_spawn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ее нельзя надеть!"
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7E49B7C62FAE8271"]
+			description: ["Частичка могущественного Ангела."]
+			hide_dependency_lines: true
+			id: "395110AEC64CC6BE"
+			rewards: [
+				{
+					id: "4342F84B873708FB"
+					item: {
+						Count: 1b
+						id: "arclight:angel_spawn"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E5CDE609EAA1D5"
+					item: {
+						Count: 1b
+						id: "arclight:angel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7039D1E340A9FA50"
+				item: "arclight:angel_feather"
+				type: "item"
+			}]
+			title: "Перо Ангела"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC8D7847D07D95A"]
+			description: ["Одолейте Ангела. (Квест можно выполнять несколько раз)"]
+			hide: true
+			hide_text_until_complete: false
+			id: "7E49B7C62FAE8271"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45C884FDC5E8146F"
+				table_id: 6910744682423747065L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 2.5d
+			subtitle: "&6Думаешь это легко?"
+			tasks: [{
+				entity: "arclight:angel"
+				icon: {
+					Count: 1b
+					id: "arclight:angel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7955A717EC1A0794"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.511904761904738d
+			y: 16.892857142857153d
+		}
+		{
+			dependencies: ["395110AEC64CC6BE"]
+			description: ["Могущественная ангельская броня. Используется для создания скафандра."]
+			id: "07A43935DD1AAD3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "435E445CAAF6FA3D"
+				table_id: 6910744682423747065L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "128F6096E41C8C1E"
+					item: {
+						Count: 1b
+						id: "arclight:angel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48BB9E501DC5426C"
+					item: {
+						Count: 1b
+						id: "arclight:angel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D23625DE9426A76"
+					item: {
+						Count: 1b
+						id: "arclight:angel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4029B908F7CC7288"
+					item: {
+						Count: 1b
+						id: "arclight:angel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ангельская броня"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2D45BE7AC519B83A"]
+			id: "46D10C4412BC495B"
+			rewards: [{
+				id: "7F21E7AD41524D76"
+				item: "arclight:arclight_core"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2A03AA04177DAE8D"
+				item: "arclight:sculk_core"
+				type: "item"
+			}]
+			x: -1.0323129251700962d
+			y: 14.059523809523796d
+		}
+		{
+			dependencies: ["25A4EAB98B5899DD"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0726D7A97EB46183"
+			rewards: [{
+				id: "49A593165907AA87"
+				item: "forbidden_arcanus:dark_nether_star"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "08D6F8358A976BDE"
+				item: "arclight:scorpion_core"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2D45BE7AC519B83A"]
+			description: ["Для выхода в космос нужна очень хорошая подготовка! Убедитесь, что вы точно готовы!"]
+			id: "13D7162A351A029F"
+			rewards: [{
+				id: "75E6323C8F59C069"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "379362A20BF7D4C2"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13D7162A351A029F"]
+			description: ["Позволяет из нефти сделать топливо для ракеты."]
+			hide: false
+			id: "33053530B0E14028"
+			rewards: [{
+				count: 2
+				id: "068480AACED9BD74"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "243E8FC6E95F56A8"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["07A43935DD1AAD3A"]
+			description: ["Скафандр позволит вам выжить в космосе."]
+			id: "021C515B4E0C4FBF"
+			rewards: [
+				{
+					count: 2
+					id: "6D6C9E38AC3BC64D"
+					item: {
+						Count: 1b
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10447D2F5A9F3CEE"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ad_astra_giselle_addon:gravity_normalizing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3C6AC9C77A7A6926"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11D285EC7E88421D"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B929666E07BE211"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08CF4B0E936C6C29"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Скафандр"
+			x: 8.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65C9C12C7EB39E79"]
+			description: ["Позволяет получить из воды кислород и наполнить им кислородные баллончики."]
+			id: "7FBBF8EA347C2EB5"
+			rewards: [{
+				id: "021F1175EF8BB0F4"
+				item: {
+					Count: 1b
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "1B1644C4BE0D2905"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["33053530B0E14028"]
+			description: ["Размещается возле пусковой площадки для заправки ракеты топливом."]
+			id: "593F2BC8C93AF274"
+			rewards: [{
+				id: "1CC6CFCAA3D93EEE"
+				item: "alexsdelight:bunfungus_sandwich"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "617B494A56818B52"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["593F2BC8C93AF274"]
+			description: ["Пусковая площадка для запуска с нее ракеты."]
+			id: "65C9C12C7EB39E79"
+			rewards: [{
+				id: "799C42E50BB66474"
+				item: "ad_astra:white_flag"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "293505943EE9FA8F"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:moon_globe"
+			id: "58BD531AC6C64968"
+			rewards: [{
+				id: "6F2AD3AA0D010E82"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&3Прилететь на Луну."
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "3D7785D085F61E45"
+				type: "dimension"
+			}]
+			title: "Луна!"
+			x: 42.48299319727887d
+			y: 16.95578231292518d
+		}
+		{
+			dependencies: ["58BD531AC6C64968"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "513B68DCCE9A10A9"
+			rewards: [{
+				id: "2CBD27F55FF2A29C"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "&3Вернуться обратно на Землю."
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				icon: "ad_astra:earth_globe"
+				id: "0F96225DBC6B90D0"
+				type: "dimension"
+			}]
+			title: "Снова домой!"
+			x: 44.030612244897924d
+			y: 18.02721088435375d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:venus_globe"
+			id: "153F98E46EA6D16E"
+			rewards: [{
+				id: "1D3A9FB1D7AFFF33"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&3Прилететь на Венеру."
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "16279844FB2FDB22"
+				type: "dimension"
+			}]
+			title: "Венера!"
+			x: 38.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:mercury_globe"
+			id: "4C329CA421CA5FFF"
+			rewards: [{
+				id: "2FF7FBCC4EDCAE59"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.6d
+			subtitle: "&3Прилететь на Меркурий."
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "378AB8E71627CC15"
+				type: "dimension"
+			}]
+			title: "Меркурий!"
+			x: 40.48299319727889d
+			y: 14.503401360544231d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:glacio_globe"
+			id: "308394AF172D0B42"
+			rewards: [{
+				id: "7C0B931D8C881DF6"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			subtitle: "&3Прилететь на Гласио."
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "1B74A9848DB441BA"
+				type: "dimension"
+			}]
+			title: "Гласио!"
+			x: 22.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:mars_globe"
+			id: "306C745FC679A72E"
+			rewards: [{
+				id: "409CA58BB388B15A"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&3Прилететь на Марс."
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "0873846179414ED5"
+				type: "dimension"
+			}]
+			title: "Марс!"
+			x: 48.99319727891152d
+			y: 5.003401360544231d
+		}
+		{
+			dependencies: [
+				"308394AF172D0B42"
+				"306C745FC679A72E"
+				"4C329CA421CA5FFF"
+				"58BD531AC6C64968"
+				"153F98E46EA6D16E"
+				"513B68DCCE9A10A9"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "32222A61BDD0D299"
+			rewards: [{
+				count: 2
+				id: "2AD1FC016FDD5B23"
+				item: "enigmaticlegacy:enigmatic_item"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&3Посетить все доступные в моде планеты."
+			tasks: [{
+				id: "21DB2B44A0FF01FA"
+				type: "checkmark"
+			}]
+			title: "Это конец?"
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2838B22040145B4B"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1ACB1E7B79267A58"
+				item: "chemlib:bismuth"
+				type: "item"
+			}]
+			x: 11.61530612244899d
+			y: -11.40306122448979d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "17F41F989D6E102B"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6BD82D043F57B7A0"
+				item: "chemlib:polonium"
+				type: "item"
+			}]
+			x: 13.73877551020408d
+			y: -11.40306122448979d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7B01F45B60C3641F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4628D99B11FEB6D3"
+				item: "chemlib:astatine"
+				type: "item"
+			}]
+			x: 15.799999999999999d
+			y: -11.400000000000002d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1FE54EA55299B526"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5547525484A42A44"
+				item: "chemlib:radon"
+				type: "item"
+			}]
+			x: 17.887755102040828d
+			y: -11.39897959183674d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "119E4E47C3A5490A"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7911A4DB1FD00C72"
+				item: "chemlib:radium"
+				type: "item"
+			}]
+			x: -15.70408163265305d
+			y: -9.430272108843546d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "34CE357D1D371991"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "715FFDC9DA1EECF5"
+				item: "chemlib:francium"
+				type: "item"
+			}]
+			x: -17.799999999999997d
+			y: -9.425d
+		}
+		{
+			dependencies: [
+				"71C881DCCC3D704F"
+				"2258FD5815F38B9C"
+				"2F4E2F6025DCBCAE"
+				"28FC20E2F1073A55"
+				"410E53A0E28FAD92"
+				"0A50688B5F7CADAB"
+			]
+			description: ["Используется для создания слитков и брони из ArcLight."]
+			id: "233193BCDDD1FD7B"
+			rewards: [{
+				id: "65F17E66A311232F"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "62DCA907B0D42495"
+				item: "arclight:armor_forge"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "410E53A0E28FAD92"
+			rewards: [{
+				id: "3C0A428E18E16B24"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "59B009739CB762A4"
+				item: "arclight:cryorium_gem"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["22D3571C9AB084E1"]
+			id: "0A50688B5F7CADAB"
+			rewards: [{
+				id: "79189B8325FC95FA"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B50B9E595618501"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "09FE183569C4CBB1"
+			shape: "rsquare"
+			tasks: [{
+				id: "101430A28DCC865D"
+				item: "arclight:cryorium_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["233193BCDDD1FD7B"]
+			id: "660BD4C03F77B971"
+			rewards: [{
+				command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+				id: "2968CF9623C43701"
+				player_command: false
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EC58423B9347982"
+				item: "arclight:sculk_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7991E06C0A5E3731"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7C779926BA14119C"
+				item: "chemlib:roentgenium"
+				type: "item"
+			}]
+			x: 3.2250000000000005d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7415C3989A9397BE"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1C422E2AC475134F"
+				item: "chemlib:copernicium"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4E0859D6A04AF767"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "742245DB757C1DAE"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0EB8F853A5F020C9"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "2A03555838091511"
+				item: "chemlib:tennessine"
+				type: "item"
+			}]
+			x: 15.773809523809518d
+			y: -9.416666666666686d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "23A70D7B7B63D751"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "45FB17EC79ACDB95"
+				item: "chemlib:meitnerium"
+				type: "item"
+			}]
+			x: -0.975d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "4687F4A8046AE930"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "52B405DE20F3C2D1"
+				item: "chemlib:darmstadtium"
+				type: "item"
+			}]
+			x: 1.0749999999999997d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "1FB5C40296512D58"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "2D605B2633A88646"
+				item: "chemlib:lanthanum"
+				type: "item"
+			}]
+			x: -13.600000000000001d
+			y: -6.524999999999999d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "49E06487F18F7DEC"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6ED741D1E4DE41D7"
+				item: "chemlib:livermorium"
+				type: "item"
+			}]
+			x: 13.700000000000001d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5557B2E7027BB5B0"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "2DCDA0E717E1999B"
+				item: "chemlib:hassium"
+				type: "item"
+			}]
+			x: -3.1d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2C1DB56B9C53810F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "13799C886A4FD682"
+				item: "chemlib:nihonium"
+				type: "item"
+			}]
+			x: 7.375000000000002d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "700B844603C0B3FF"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4B170983E0FA4AC5"
+				item: "chemlib:flerovium"
+				type: "item"
+			}]
+			x: 9.525d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5CB9931776BB255D"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "30654094B019CF96"
+				item: "chemlib:moscovium"
+				type: "item"
+			}]
+			x: 11.650000000000002d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "22341035D82CA930"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "61B4BF7011E0103C"
+				item: "chemlib:bohrium"
+				type: "item"
+			}]
+			x: -5.207653061224484d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2EFBCD7A7927E06E"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6F361F23E7925DD5"
+				item: "chemlib:seaborgium"
+				type: "item"
+			}]
+			x: -7.300000000000001d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5334E3171E33364F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7FAEF7CDEEE5313C"
+				item: "chemlib:dubnium"
+				type: "item"
+			}]
+			x: -9.4d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7D629A41C893CA2D"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "6D60867CC080089A"
+				item: "chemlib:rutherfordium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.4d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "35298C47DA767FA8"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7532A1D20E391BBA"
+				item: "chemlib:erbium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5CF5BEEE308AB6A9"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "669C492B4FCB67C5"
+				item: "chemlib:holmium"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6DD2B1435E75B9A8"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1D9405BF8CBC38CB"
+				item: "chemlib:terbium"
+				type: "item"
+			}]
+			x: 3.1999999999999997d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5065C1E48E31BFAF"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "28BB1419D54484C5"
+				item: "chemlib:dysprosium"
+				type: "item"
+			}]
+			x: 5.300000000000001d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6391D8DEE86327F2"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "66F8D6B95F65DA21"
+				item: "chemlib:gadolinium"
+				type: "item"
+			}]
+			x: 1.0999999999999996d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "46FBAC58C32D342F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "7952A69A4FF88377"
+				item: "chemlib:samarium"
+				type: "item"
+			}]
+			x: -3.1d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0F7FB5E388B653F3"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5FA45C77E8CEFA99"
+				item: "chemlib:europium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6B1AEFDA724DBB1F"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "4DCFC40E4E9F49D4"
+				item: "chemlib:neodymium"
+				type: "item"
+			}]
+			x: -7.299999999999999d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "129F741E0BB9E404"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "55F90ACC5FC788D0"
+				item: "chemlib:praseodymium"
+				type: "item"
+			}]
+			x: -9.400000000000002d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "51BC076B511FE589"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "177C94EE47CD7607"
+				item: "chemlib:cerium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "12E85F722928BCA6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5A1734B9C56AE1F4"
+				item: "chemlib:thulium"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7A2418E863473A63"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0786401581888EF2"
+				item: "chemlib:ytterbium"
+				type: "item"
+			}]
+			x: 13.7d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7F4F08B990582793"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0DF161EE8839C56F"
+				item: "chemlib:lutetium"
+				type: "item"
+			}]
+			x: 15.799999999999999d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "5F93C0A113D10A66"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "30F14B8A238FE94D"
+				item: "chemlib:actinium"
+				type: "item"
+			}]
+			x: -13.600000000000001d
+			y: -4.475d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2935C1EED669317D"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5C2C649BEE46FBA2"
+				item: "chemlib:lawrencium"
+				type: "item"
+			}]
+			x: 15.799999999999999d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "64490EF9E265B677"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "0AA2DA5E8CA3BB61"
+				item: "chemlib:nobelium"
+				type: "item"
+			}]
+			x: 13.700000000000001d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "0678F4B6200C76AA"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5E78E93AF990950C"
+				item: "chemlib:mendelevium"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6F4D1E68F0E296B6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "1B734E14A92AEC57"
+				item: "chemlib:fermium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "3C96D5C019FE907D"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "27B0E70DDDC938FF"
+				item: "chemlib:einsteinium"
+				type: "item"
+			}]
+			x: 7.4d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "65355A37E4908518"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "19DE7AC83D9EDEAA"
+				item: "chemlib:californium"
+				type: "item"
+			}]
+			x: 5.300000000000001d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "40E552C20FCB2CD6"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "76AE6D770372B06D"
+				item: "chemlib:berkelium"
+				type: "item"
+			}]
+			x: 3.1999999999999997d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "407B00AFD0536EB7"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "692B45832EE17D74"
+				item: "chemlib:curium"
+				type: "item"
+			}]
+			x: 1.1d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "2A16B69F33A729EB"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "636E0BBF6BC4E4D2"
+				item: "chemlib:americium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "31A4B54920164E28"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "5F1E55E57A6351A6"
+				item: "chemlib:plutonium"
+				type: "item"
+			}]
+			x: -3.0999999999999996d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "6EDB8304685002CD"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "3E97EAD410B4CA1E"
+				item: "chemlib:neptunium"
+				type: "item"
+			}]
+			x: -5.199999999999999d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "585008FE405A6D67"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "323262CEF876F204"
+				item: "chemlib:uranium"
+				type: "item"
+			}]
+			x: -7.300000000000001d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "692DFDEA7B580EEB"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "547C03C80DD68FB0"
+				item: "chemlib:protactinium"
+				type: "item"
+			}]
+			x: -9.4d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "47744A40E14CDA98"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "24F16E1B2161F995"
+				item: "chemlib:thorium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DF0EAE626C09688"]
+			hide_dependency_lines: true
+			id: "7E3BAE3EE82B6841"
+			optional: true
+			size: 1.75d
+			tasks: [{
+				id: "31A7F9B75D4745AD"
+				item: "chemlib:promethium"
+				type: "item"
+			}]
+			x: -5.200000000000001d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"247E554CAF9B2FA2"
+				"1D66DC0900C525A3"
+				"6CC96E3D54A69336"
+				"541D2662A1E53D60"
+				"16B1D944016EE075"
+				"5D8105783B5E48E9"
+				"76B1B51F71ECA4EF"
+				"082345F89B1AC486"
+				"4B177F372132351C"
+				"052428CAED77301E"
+				"2DE38F54302A5DDB"
+				"7C84A644D0731D38"
+				"2F69CB8A270547B6"
+				"63B6CB3389BB83D6"
+				"797740C1DB4F254D"
+			]
+			description: ["&2Вы чувствуете как смесь всех химических элементов пахнет грибным супом."]
+			hide: true
+			id: "32945E894B59EC5D"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "&3Все элементы в одном"
+			tasks: [{
+				id: "06467E8C20ED1DE1"
+				item: "chemlib:pre_gribony"
+				type: "item"
+			}]
+			title: "&5&lПред-Грибоний"
+			x: 23.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["32945E894B59EC5D"]
+			description: ["&2Когда вы держите колбу с этим элементом, ваши руки потеют, а в глазах начинаются мелькать грибы."]
+			hide: true
+			id: "7F00A0CECCE9E515"
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "&3Попытка создать новый мир"
+			tasks: [{
+				id: "01675EBBA076B065"
+				item: "chemlib:unstable_gribony"
+				type: "item"
+			}]
+			title: "&e&lНестабильный Грибоний"
+			x: 29.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2F69CB8A270547B6"
+			tasks: [{
+				id: "55F841AF12FFA160"
+				item: "chemlib:gaia_element"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "63B6CB3389BB83D6"
+			tasks: [{
+				id: "501CAD11460A2A8F"
+				item: "chemlib:terrasteel_element"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "797740C1DB4F254D"
+			tasks: [{
+				id: "2909C70CCEE24D9D"
+				item: "chemlib:mana_element"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["44F96715665B92F6"]
+			description: ["Прочная обшивка, идеально подходит для ракеты."]
+			hide_dependency_lines: true
+			id: "0C12164E2D78B218"
+			rewards: [{
+				id: "02265DFC9898B397"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6C73D6AD3959D6D2"
+				item: "ad_astra:protasteel_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B177F372132351C"
+			tasks: [{
+				id: "4A7D025BD591450B"
+				item: "chemlib:all_reactive_non-metals_element"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2DE38F54302A5DDB"
+			tasks: [{
+				id: "5527AB880A3EB933"
+				item: "chemlib:all_alkali_metals_element"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "052428CAED77301E"
+			tasks: [{
+				id: "2435856361A6AE7A"
+				item: "chemlib:all_alkaline_earth_metals_element"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5D8105783B5E48E9"
+			tasks: [{
+				id: "7602DE9D81DF035F"
+				item: "chemlib:all_transition_metals_element"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "76B1B51F71ECA4EF"
+			tasks: [{
+				id: "4D1B77994EDD7E6B"
+				item: "chemlib:all_post-transition_metals_element"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C84A644D0731D38"
+			tasks: [{
+				id: "176471930753FF31"
+				item: "chemlib:all_unknown_properties_element"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "16B1D944016EE075"
+			tasks: [{
+				id: "5C6F8199172C0A79"
+				item: "chemlib:all_metalloids_element"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6CC96E3D54A69336"
+			tasks: [{
+				id: "1F84D9EDA1A3B785"
+				item: "chemlib:all_halogens_element"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1D66DC0900C525A3"
+			tasks: [{
+				id: "28E78F9C300499B1"
+				item: "chemlib:all_noble_gases_element"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "541D2662A1E53D60"
+			tasks: [{
+				id: "6913D4290C8DE4F6"
+				item: "chemlib:all_lanthanides_element"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "247E554CAF9B2FA2"
+			tasks: [{
+				id: "35E128F56D61A609"
+				item: "chemlib:all_actinides_element"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["27F16682E4761ED8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "082345F89B1AC486"
+			tasks: [{
+				id: "2FA1CA9E58E222C4"
+				item: "chemlib:all_radioactive_element"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["32945E894B59EC5D"]
+			hide_dependency_lines: true
+			id: "004C074C1D3BEDCC"
+			tasks: [{
+				id: "30A37A7B12088A9F"
+				item: "chemlib:pre_gribony_dust"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["004C074C1D3BEDCC"]
+			id: "07A00DF6A1E8C23D"
+			tasks: [{
+				id: "0F1FDC68E8CFC904"
+				item: "chemlib:pre_gribony_ingot"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["07A00DF6A1E8C23D"]
+			id: "11EEBCE394B7F8E6"
+			tasks: [{
+				id: "7EC60C6A82272F04"
+				item: "chemlib:pre_gribony_block"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7F00A0CECCE9E515"]
+			hide_dependency_lines: true
+			id: "3428DF52F21E7C97"
+			tasks: [{
+				id: "176A8B2CEE6F00E6"
+				item: "chemlib:unstable_gribony_dust"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["3428DF52F21E7C97"]
+			id: "4FF3447A2E4201D9"
+			tasks: [{
+				id: "0D4FA8284EA56A42"
+				item: "chemlib:unstable_gribony_ingot"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4FF3447A2E4201D9"]
+			id: "3D8A2DA5427C9E1E"
+			tasks: [{
+				id: "4920B13CB08CA5D3"
+				item: "chemlib:unstable_gribony_block"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"7F00A0CECCE9E515"
+				"5FF64A64DAC25E75"
+			]
+			description: ["&2Власть находится в ваших руках."]
+			hide: true
+			id: "35C2FBAEC2EC388D"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "&3Могущественный грибной элемент"
+			tasks: [{
+				id: "6F63F138AF7EE762"
+				item: "chemlib:gribony"
+				type: "item"
+			}]
+			title: "&4&lГрибоний"
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["25A4EAB98B5899DD"]
+			description: ["Используется для создания Ангельской брони."]
+			hide: true
+			id: "2E6F0772AFFF9783"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ECA3DCDCB9D01E7"
+				table_id: 6910744682423747065L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2236DCEF06DDDFCA"
+					item: {
+						Count: 1b
+						id: "arclight:arclight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A2458ED1D63B7BC"
+					item: {
+						Count: 1b
+						id: "arclight:arclight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DE83E6401C095A9"
+					item: {
+						Count: 1b
+						id: "arclight:arclight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73586C1E8AF90039"
+					item: {
+						Count: 1b
+						id: "arclight:arclight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arclight броня"
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F00A0CECCE9E515"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3B161FF7C4CFE512"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&3После стольких попыток"
+			tasks: [{
+				id: "4705A1B0845D73FD"
+				item: "chemlib:strange_mixture"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3B161FF7C4CFE512"]
+			description: ["&2Попробуйте использовать этот элемент, чтобы воссоздать &4Могущество."]
+			id: "5FF64A64DAC25E75"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&3Этому миру нужна стабильность"
+			tasks: [{
+				id: "4B842D26F49E0CEB"
+				item: "chemlib:stabilizing_element"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35C2FBAEC2EC388D"]
+			hide_dependency_lines: true
+			id: "278DF6BBAEC870B7"
+			tasks: [{
+				id: "0174A0C402804F85"
+				item: "chemlib:gribony_dust"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["278DF6BBAEC870B7"]
+			id: "08C45BD5C6CF0FD3"
+			tasks: [{
+				id: "0C25605E762030E9"
+				item: "chemlib:gribony_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["08C45BD5C6CF0FD3"]
+			id: "7A0464D1C40623A6"
+			tasks: [{
+				id: "5F369D43A2291489"
+				item: "chemlib:gribony_block"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5FF64A64DAC25E75"]
+			description: ["&2Злость или намерение сделать открытие?"]
+			hide: true
+			id: "20557821598EEAB4"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&3Ваш мозг поражает страх"
+			tasks: [{
+				id: "414F4FDE98155BDA"
+				item: "chemlib:destabilizing_element"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"35C2FBAEC2EC388D"
+				"20557821598EEAB4"
+			]
+			description: ["&2Попытка создать новый технический прорыв оказалась успешной. Где вы сможете использовать этот элемент?"]
+			hide: true
+			id: "7F9C83EF79550033"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&3Вы чувствуете боль"
+			tasks: [{
+				id: "2F7955D13AD705EE"
+				item: "chemlib:industrial_unstable_gribony"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2D47F88DE575723B"]
+			hide: true
+			id: "36D6F4931F081D53"
+			size: 2.0d
+			subtitle: "&3Вам нужно больше сил"
+			tasks: [
+				{
+					id: "39C31F1D712B7E9B"
+					item: "chemlib:neutronium_element"
+					type: "item"
+				}
+				{
+					id: "0235767F79F330ED"
+					item: "chemlib:infinity_element"
+					type: "item"
+				}
+			]
+			title: "&dТворческие элементы"
+			x: 42.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5FF64A64DAC25E75"]
+			hide: true
+			hide_dependency_lines: true
+			id: "74A1CD66D6C40799"
+			subtitle: "&3Разгадка близко - среди других планет"
+			tasks: [{
+				id: "0F0F5886474F2CD4"
+				item: "chemlib:cosmic_elements_mixture"
+				type: "item"
+			}]
+			x: 42.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["74A1CD66D6C40799"]
+			id: "308A999D3B08723E"
+			subtitle: "&3Оно будто съедает вас"
+			tasks: [{
+				id: "34003344E88FE5A9"
+				item: "chemlib:cosmic_mixture"
+				type: "item"
+			}]
+			x: 38.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["308A999D3B08723E"]
+			id: "2D47F88DE575723B"
+			subtitle: "&3Элементы - вот моя сила"
+			tasks: [{
+				id: "0970CF3F48290797"
+				item: "chemlib:cosmic_element"
+				type: "item"
+			}]
+			x: 38.5d
+			y: -18.5d
+		}
+	]
+	title: "&5Стадия: 6"
+}

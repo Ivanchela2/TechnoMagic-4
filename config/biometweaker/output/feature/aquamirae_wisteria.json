@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "aquamirae:wisteria",
+  "worldgen/placed_feature": {
+    "feature": "aquamirae:wisteria",
+    "placement": []
+  }
+}

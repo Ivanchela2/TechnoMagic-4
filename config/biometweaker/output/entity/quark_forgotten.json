@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "quark:forgotten",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "quark:entities/forgotten",
+  "size": {
+    "height": 2.4,
+    "width": 0.7,
+    "fixed": false
+  }
+}

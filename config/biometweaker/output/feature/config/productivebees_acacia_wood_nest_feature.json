@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "productivebees:acacia_wood_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:acacia_log"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north",
+              "axis": "y"
+            },
+            "Name": "productivebees:acacia_wood_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:acacia_wood_nest_feature"
+  }
+}

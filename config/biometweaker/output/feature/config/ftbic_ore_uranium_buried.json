@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ftbic:ore_uranium_buried",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "ftbic:uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "ftbic:deepslate_uranium_ore"
+          }
+        }
+      ],
+      "size": 9,
+      "discard_chance_on_air_exposure": 0.5
+    },
+    "type": "minecraft:ore"
+  }
+}

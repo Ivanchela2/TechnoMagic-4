@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "regions_unexplored:chest_boat",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "regions_unexplored:entities/chest_boat",
+  "size": {
+    "height": 0.5625,
+    "width": 1.375,
+    "fixed": false
+  }
+}

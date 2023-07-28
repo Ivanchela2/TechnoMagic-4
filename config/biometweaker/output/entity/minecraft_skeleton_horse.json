@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:skeleton_horse",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/skeleton_horse",
+  "size": {
+    "height": 1.6,
+    "width": 1.3964844,
+    "fixed": false
+  }
+}

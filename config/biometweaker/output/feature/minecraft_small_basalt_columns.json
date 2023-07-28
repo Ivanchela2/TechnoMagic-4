@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:small_basalt_columns",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:small_basalt_columns",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

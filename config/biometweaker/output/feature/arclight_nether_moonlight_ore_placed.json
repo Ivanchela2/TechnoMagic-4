@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "arclight:nether_moonlight_ore_placed",
+  "worldgen/placed_feature": {
+    "feature": "arclight:nether_moonlight_ore",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 30
+          },
+          "max_inclusive": {
+            "above_bottom": 80
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

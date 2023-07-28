@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:farseer",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "alexsmobs:entities/farseer",
+  "size": {
+    "height": 1.5,
+    "width": 0.99,
+    "fixed": false
+  }
+}

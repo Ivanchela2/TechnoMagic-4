@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "illageandspillage:igniter",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "illageandspillage:entities/igniter",
+  "size": {
+    "height": 1.95,
+    "width": 0.6,
+    "fixed": false
+  }
+}

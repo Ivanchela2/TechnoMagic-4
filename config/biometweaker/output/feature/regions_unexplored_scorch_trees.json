@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "regions_unexplored:scorch_trees",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:dead_oak_bush",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "regions_unexplored:green_bioshroom"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

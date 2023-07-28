@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "productivebees:coarse_dirt_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block_state": {
+                "Name": "minecraft:coarse_dirt"
+              },
+              "predicate_type": "minecraft:blockstate_match"
+            },
+            "state": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "productivebees:coarse_dirt_nest"
+            }
+          }
+        ]
+      },
+      "type": "productivebees:coarse_dirt_nest"
+    },
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

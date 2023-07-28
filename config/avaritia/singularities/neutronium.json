@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.neutronium",
+  "colors": [
+    "000000",
+    "313131"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "avaritia:neutronium_ingot"
+  }
+}

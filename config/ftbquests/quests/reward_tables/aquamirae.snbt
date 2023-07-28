@@ -1,0 +1,24 @@
+{
+	id: "2124866F4F96DF24"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 2, item: "aquamirae:anglers_fang", random_bonus: 2 }
+		{ count: 4, item: "aquamirae:fin", random_bonus: 3 }
+		{ item: "aquamirae:abyssal_amethyst", random_bonus: 1, weight: 0.3f }
+		{ count: 3, item: "aquamirae:sharp_bones", random_bonus: 5 }
+		{
+			count: 5
+			item: {
+				Count: 1b
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			random_bonus: 4
+			weight: 2.0f
+		}
+	]
+	title: "Aquamirae"
+}

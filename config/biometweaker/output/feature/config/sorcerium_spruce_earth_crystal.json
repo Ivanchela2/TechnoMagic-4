@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "sorcerium:spruce_earth_crystal",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "sorcerium:spruce_earth_crystal"
+  }
+}

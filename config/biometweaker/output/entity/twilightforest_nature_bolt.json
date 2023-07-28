@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:nature_bolt",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 150,
+  "update_interval": 5,
+  "defaul_loot_table": "twilightforest:entities/nature_bolt",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

@@ -1,0 +1,94 @@
+
+{
+  "registry_name": "productivebees:birch_solitary_nest",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "decorators": [
+          {
+            "type": "productivebees:wood_nest"
+          }
+        ],
+        "ignore_vines": true,
+        "force_dirt": false,
+        "dirt_provider": {
+          "state": {
+            "Name": "minecraft:dirt"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "minimum_size": {
+          "limit": 1,
+          "lower_size": 0,
+          "upper_size": 1,
+          "type": "minecraft:two_layers_feature_size"
+        },
+        "foliage_provider": {
+          "state": {
+            "Properties": {
+              "waterlogged": "false",
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "minecraft:birch_leaves"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "foliage_placer": {
+          "radius": 2,
+          "offset": 0,
+          "height": 3,
+          "type": "minecraft:blob_foliage_placer"
+        },
+        "trunk_provider": {
+          "state": {
+            "Properties": {
+              "axis": "y"
+            },
+            "Name": "minecraft:birch_log"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "trunk_placer": {
+          "base_height": 5,
+          "height_rand_a": 2,
+          "height_rand_b": 0,
+          "type": "minecraft:straight_trunk_placer"
+        }
+      },
+      "type": "productivebees:solitary_nest_tree"
+    },
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "chance": 10,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:birch_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

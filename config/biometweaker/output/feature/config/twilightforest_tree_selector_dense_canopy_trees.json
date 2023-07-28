@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "twilightforest:tree/selector/dense_canopy_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "twilightforest:tree/canopy_tree",
+            "placement": []
+          },
+          "chance": 0.7
+        }
+      ],
+      "default": {
+        "feature": "twilightforest:tree/twilight_oak_tree",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

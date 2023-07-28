@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "twilightforest:webs",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:webs",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "count": 60,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

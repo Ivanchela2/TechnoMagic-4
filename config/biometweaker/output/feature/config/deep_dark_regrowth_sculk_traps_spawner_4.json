@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "deep_dark_regrowth:sculk_traps_spawner_4",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 60,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "deep_dark_regrowth:sculk_traps_spawner_4"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "deep_dark_regrowth:sculk_traps_spawner_4"
+  }
+}

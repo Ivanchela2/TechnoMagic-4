@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "nethersdelight:patch_propelplant",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "nethersdelight:propelplant"
+  }
+}

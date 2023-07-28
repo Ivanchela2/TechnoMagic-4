@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:patch_grass_taiga_2",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_taiga_grass",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

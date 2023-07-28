@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "productivebees:crimson_fungus_bees_grow",
+  "worldgen/configured_feature": {
+    "config": {
+      "decor_state": {
+        "Name": "minecraft:shroomlight"
+      },
+      "nest_state": {
+        "Properties": {
+          "honey_level": "0",
+          "facing": "north"
+        },
+        "Name": "productivebees:crimson_bee_nest"
+      },
+      "decorators": [
+        {
+          "probability": 1.0,
+          "type": "productivebees:nether_beehive"
+        }
+      ],
+      "planted": false,
+      "valid_base_block": {
+        "Name": "minecraft:crimson_nylium"
+      },
+      "stem_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:crimson_stem"
+      },
+      "hat_state": {
+        "Name": "minecraft:nether_wart_block"
+      }
+    },
+    "type": "productivebees:decorated_huge_fungus"
+  }
+}

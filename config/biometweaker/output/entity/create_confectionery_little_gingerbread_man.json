@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create_confectionery:little_gingerbread_man",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "create_confectionery:entities/little_gingerbread_man",
+  "size": {
+    "height": 1.0,
+    "width": 0.5,
+    "fixed": false
+  }
+}

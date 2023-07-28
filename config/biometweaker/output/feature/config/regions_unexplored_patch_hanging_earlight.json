@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "regions_unexplored:patch_hanging_earlight",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "regions_unexplored:hanging_earlight"
+  }
+}

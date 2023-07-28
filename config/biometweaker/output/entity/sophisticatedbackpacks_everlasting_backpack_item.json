@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "sophisticatedbackpacks:everlasting_backpack_item",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 20,
+  "defaul_loot_table": "sophisticatedbackpacks:entities/everlasting_backpack_item",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

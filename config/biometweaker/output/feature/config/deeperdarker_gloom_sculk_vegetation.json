@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "deeperdarker:gloom_sculk_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "entries": [
+          {
+            "data": {
+              "Name": "deeperdarker:gloomy_grass"
+            },
+            "weight": 50
+          },
+          {
+            "data": {
+              "Properties": {
+                "age": "0"
+              },
+              "Name": "deeperdarker:gloom_cactus"
+            },
+            "weight": 35
+          },
+          {
+            "data": {
+              "Properties": {
+                "age": "0"
+              },
+              "Name": "deeperdarker:sculk_tendrils"
+            },
+            "weight": 16
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

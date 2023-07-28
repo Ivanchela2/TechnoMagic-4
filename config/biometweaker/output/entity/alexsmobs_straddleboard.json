@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:straddleboard",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/straddleboard",
+  "size": {
+    "height": 0.35,
+    "width": 1.5,
+    "fixed": false
+  }
+}

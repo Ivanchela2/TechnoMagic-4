@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "minecraft:ore_coal_lower",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ore_coal_buried",
+    "placement": [
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 192
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

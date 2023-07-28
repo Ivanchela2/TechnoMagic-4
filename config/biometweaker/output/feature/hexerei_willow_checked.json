@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "hexerei:willow_checked",
+  "worldgen/placed_feature": {
+    "feature": "hexerei:willow_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "hexerei:willow_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

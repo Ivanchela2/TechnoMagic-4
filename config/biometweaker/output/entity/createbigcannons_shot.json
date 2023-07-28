@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "createbigcannons:shot",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 1,
+  "defaul_loot_table": "createbigcannons:entities/shot",
+  "size": {
+    "height": 0.8,
+    "width": 0.8,
+    "fixed": false
+  }
+}

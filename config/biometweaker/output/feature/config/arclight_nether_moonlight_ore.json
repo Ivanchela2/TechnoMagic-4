@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "arclight:nether_moonlight_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_nether",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "arclight:moonlight_ore"
+          }
+        }
+      ],
+      "size": 9,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

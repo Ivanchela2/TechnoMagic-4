@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "neapolitan:patch_strawberry_bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 512,
+      "xz_spread": 5,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Properties": {
+                  "type": "none",
+                  "age": "0"
+                },
+                "Name": "neapolitan:strawberry_bush"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "neapolitan:strawberry_bush"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": "minecraft:grass_block",
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

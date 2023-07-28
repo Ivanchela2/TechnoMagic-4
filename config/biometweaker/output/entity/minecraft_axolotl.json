@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:axolotl",
+  "category": "AXOLOTLS",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "minecraft:entities/axolotl",
+  "size": {
+    "height": 0.42,
+    "width": 0.75,
+    "fixed": false
+  }
+}

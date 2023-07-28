@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:tiny_bird",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/tiny_bird",
+  "size": {
+    "height": 0.3,
+    "width": 0.3,
+    "fixed": false
+  }
+}

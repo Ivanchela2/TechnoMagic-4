@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "ad_astra:martian_raptor",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "ad_astra:entities/martian_raptor",
+  "size": {
+    "height": 2.0,
+    "width": 0.75,
+    "fixed": false
+  }
+}

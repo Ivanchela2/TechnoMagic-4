@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:fly",
+  "category": "AMBIENT",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/fly",
+  "size": {
+    "height": 0.35,
+    "width": 0.35,
+    "fixed": false
+  }
+}

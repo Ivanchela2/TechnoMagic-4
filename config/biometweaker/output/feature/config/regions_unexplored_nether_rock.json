@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "regions_unexplored:nether_rock",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "regions_unexplored:marrowstone"
+      }
+    },
+    "type": "regions_unexplored:nether_meadow_rock"
+  }
+}

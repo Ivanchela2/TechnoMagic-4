@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "mushroom_travelers:mushroom_house",
+  "worldgen/placed_feature": {
+    "feature": "mushroom_travelers:mushroom_house",
+    "placement": []
+  }
+}

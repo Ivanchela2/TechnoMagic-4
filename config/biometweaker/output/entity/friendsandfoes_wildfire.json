@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "friendsandfoes:wildfire",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 3,
+  "defaul_loot_table": "friendsandfoes:entities/wildfire",
+  "size": {
+    "height": 3.0,
+    "width": 1.12,
+    "fixed": false
+  }
+}

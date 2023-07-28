@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "gnumus:small_gnumus_settlement",
+  "worldgen/placed_feature": {
+    "feature": "gnumus:small_gnumus_settlement",
+    "placement": []
+  }
+}

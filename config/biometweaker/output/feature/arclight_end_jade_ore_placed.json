@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "arclight:end_jade_ore_placed",
+  "worldgen/placed_feature": {
+    "feature": "arclight:end_jade_ore",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 10
+          },
+          "max_inclusive": {
+            "above_bottom": 140
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "savage_and_ravage:creeper_enclosure",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "savage_and_ravage:creeper_enclosure"
+  }
+}

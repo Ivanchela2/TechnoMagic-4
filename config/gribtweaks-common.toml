@@ -1,0 +1,53 @@
+
+[general]
+	#Enable/disables all functionality of sandstorms
+	"Sandstorm Enabled" = true
+	#Chance for sandstorms to generate sand layers. The higher the value, the more rare it is. Set to 0 to disable.
+	#Range: 0 ~ 10000
+	"Sandstorm Sand Layer" = 3
+	#Multiplier to fog during sandstorms
+	#Range: 0 ~ 100
+	"Sandstorm Fog" = 2
+	#How light the sand particles are
+	#Range: 0 ~ 100
+	"Sandstorm Brightness" = 75
+	#Base transparency for sand particles
+	#Range: 0 ~ 100
+	"Sandstorm Base Transparency" = 10
+	#Sand particle transparency while wearing Sandstorm reducing helmets
+	#Range: 0 ~ 100
+	"Sandstorm Helmet Transparency" = 40
+	#Seconds it takes to transition from clear to sandstorm
+	#Range: 0 ~ 100
+	"Sandstorm Transition Time" = 25
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	particleamount = 32.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	particleDensity = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	sandmotemodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	snowmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	blizzardsnowmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	blizzardwindmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	updraftmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	windmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	sporemodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	soulmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	tearmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	rainmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	heavyrainmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	tumblebushmodifier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	fireflymodifier = 1.0
+

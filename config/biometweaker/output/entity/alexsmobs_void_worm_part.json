@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:void_worm_part",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 20,
+  "update_interval": 1,
+  "defaul_loot_table": "alexsmobs:entities/void_worm_part",
+  "size": {
+    "height": 1.35,
+    "width": 1.2,
+    "fixed": false
+  }
+}

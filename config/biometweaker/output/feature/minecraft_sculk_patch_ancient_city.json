@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:sculk_patch_ancient_city",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:sculk_patch_ancient_city",
+    "placement": []
+  }
+}

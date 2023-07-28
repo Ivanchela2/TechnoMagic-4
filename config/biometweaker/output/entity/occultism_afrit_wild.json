@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "occultism:afrit_wild",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "occultism:entities/afrit_wild",
+  "size": {
+    "height": 2.4,
+    "width": 1.2,
+    "fixed": false
+  }
+}

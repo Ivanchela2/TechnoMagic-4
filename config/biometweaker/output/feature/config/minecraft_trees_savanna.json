@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:trees_savanna",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:acacia_checked",
+          "chance": 0.8
+        }
+      ],
+      "default": "minecraft:oak_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

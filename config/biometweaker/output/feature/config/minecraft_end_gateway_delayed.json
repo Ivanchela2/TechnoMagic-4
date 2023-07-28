@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "minecraft:end_gateway_delayed",
+  "worldgen/configured_feature": {
+    "config": {
+      "exact": false
+    },
+    "type": "minecraft:end_gateway"
+  }
+}

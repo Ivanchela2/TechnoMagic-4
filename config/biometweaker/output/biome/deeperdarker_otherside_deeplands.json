@@ -1,0 +1,1314 @@
+
+{
+  "registry_name": "deeperdarker:otherside_deeplands",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 0.3,
+    "downfall": 0.0,
+    "effects": {
+      "music": {
+        "sound": "deeperdarker:ambience.deeplands",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "sky_color": 734794,
+      "fog_color": 289629,
+      "water_color": 340061,
+      "water_fog_color": 797271
+    },
+    "features": {
+      "RAW_GENERATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_raw_generation"
+        }
+      ],
+      "LAKES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_lakes"
+        }
+      ],
+      "LOCAL_MODIFICATIONS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_local_modifications"
+        }
+      ],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:fossil_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:fossil_lower"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:illager_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:time_capsule_chamber"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmanacrystalstalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:the_sculk_heart"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:big_mana_crystal_structure"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmanacrystal_stalactite"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:warden_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:small_mana_crystal_stalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:subterranean_vault"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:creeper_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_stalactite_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_stalactite_structure"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:ancient_fossil"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_structure_1"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:bigmana_crystal_structure_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:mana_crystal_structure_1v_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_structures"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:wither_structure_remnants"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:small_mana_crystal_stalactite"
+        }
+      ],
+      "SURFACE_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:large_gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_bonfire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_statue"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_farm"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_camp"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_surface_structures"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:traders_rest"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_gnumus_settlement"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:small_gnumus_ruins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:sorcerers_knowledge_book_structure"
+        }
+      ],
+      "STRONGHOLDS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_strongholds"
+        }
+      ],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_coal_ore"
+                      }
+                    }
+                  ],
+                  "size": 8,
+                  "discard_chance_on_air_exposure": 0.1
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 7,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "below_top": 64
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_iron_ore"
+                      }
+                    }
+                  ],
+                  "size": 7,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 6,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 24
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 128
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_copper_ore"
+                      }
+                    }
+                  ],
+                  "size": 6,
+                  "discard_chance_on_air_exposure": 0.2
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 5,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 24
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 256
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_iron_ore"
+                      }
+                    }
+                  ],
+                  "size": 7,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 6,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": -70
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 70
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Properties": {
+                          "lit": "false"
+                        },
+                        "Name": "deeperdarker:sculk_stone_redstone_ore"
+                      }
+                    }
+                  ],
+                  "size": 6,
+                  "discard_chance_on_air_exposure": 0.1
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 4,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 64
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_emerald_ore"
+                      }
+                    }
+                  ],
+                  "size": 6,
+                  "discard_chance_on_air_exposure": 0.4
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "chance": 3,
+                "type": "minecraft:rarity_filter"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": -16
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 30
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_lapis_ore"
+                      }
+                    }
+                  ],
+                  "size": 7,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 4,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 10
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 25
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:sculk_stone_diamond_ore"
+                      }
+                    }
+                  ],
+                  "size": 5,
+                  "discard_chance_on_air_exposure": 0.7
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "chance": 5,
+                "type": "minecraft:rarity_filter"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": -32
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 50
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fluorescent_moss"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:overloaded_sculk"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fake_sculk_sensor"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "sorcerium:black_marble"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_biter"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_soil"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium_buried"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium_extra"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_iridium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_aluminum_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_lead_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_uranium_lower"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "ftbic:ore_tin_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_ores"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_ribs_medium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:enlightened_deepslate"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "minecraft:sculk",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Properties": {
+                          "activated": "false"
+                        },
+                        "Name": "deeperdarker:sculk_jaw"
+                      }
+                    }
+                  ],
+                  "size": 8,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 250,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "deeperdarker:sculk_stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:sculk"
+                      }
+                    }
+                  ],
+                  "size": 64,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 50,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "minecraft:sculk",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "deeperdarker:infested_sculk"
+                      }
+                    }
+                  ],
+                  "size": 3,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:ore"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 35,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:trapezoid"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_underground_decoration"
+        }
+      ],
+      "FLUID_SPRINGS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_fluid_springs"
+        }
+      ],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "REFERENCE",
+              "registry_name": "minecraft:sculk_patch_deep_dark"
+            },
+            "placement": [
+              {
+                "count": 256,
+                "type": "minecraft:count"
+              },
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "absolute": 256
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {},
+                "type": "deeperdarker:otherside_pillar"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 60,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {},
+                "type": "deeperdarker:sculk_vines"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 32,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {},
+                "type": "deeperdarker:sculk_gleam_blob"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 26,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {},
+                "type": "deeperdarker:sculk_tendrils"
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "count": 55,
+                "type": "minecraft:count"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_4"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:large_infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_4"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_sprouts"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:apatine_plant"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:soul_crystal"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "gnumus:scion_weed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:exxo_growth"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:short_infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:infected_mushroom"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:vilethorn"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_6"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_3"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:fernus"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_vegetal_decoration"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:large_fernus"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_moss_3"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:pulse_flower"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_tendril"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "deep_dark_regrowth:sculk_traps_spawner_5"
+        }
+      ],
+      "TOP_LAYER_MODIFICATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "quark:deferred_feature_top_layer_modification"
+        }
+      ]
+    },
+    "carver": {
+      "AIR": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:cave"
+        }
+      ]
+    },
+    "spawner_data": {
+      "spawners": {
+        "monster": [
+          {
+            "type": "deeperdarker:sculk_snapper",
+            "weight": 120,
+            "minCount": 4,
+            "maxCount": 6
+          },
+          {
+            "type": "minecraft:phantom",
+            "weight": 50,
+            "minCount": 0,
+            "maxCount": 1
+          },
+          {
+            "type": "deeperdarker:sculk_centipede",
+            "weight": 55,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "alexsmobs:farseer",
+            "weight": 30,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "gnumus:gnumus_hunter",
+            "weight": 20,
+            "minCount": 3,
+            "maxCount": 4
+          },
+          {
+            "type": "seeds:bad_grass",
+            "weight": 4,
+            "minCount": 2,
+            "maxCount": 5
+          },
+          {
+            "type": "quark:toretoise",
+            "weight": 120,
+            "minCount": 2,
+            "maxCount": 4
+          },
+          {
+            "type": "quark:stoneling",
+            "weight": 80,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        ],
+        "creature": [
+          {
+            "type": "gnumus:gnumus_merchant",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "gnumus:big_snout",
+            "weight": 2,
+            "minCount": 2,
+            "maxCount": 3
+          },
+          {
+            "type": "gnumus:marsupial_mousse",
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 3
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [
+          {
+            "type": "aquaculture:minnow",
+            "weight": 18,
+            "minCount": 1,
+            "maxCount": 5
+          },
+          {
+            "type": "aquaculture:gar",
+            "weight": 6,
+            "minCount": 1,
+            "maxCount": 2
+          },
+          {
+            "type": "aquaculture:muskellunge",
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:catfish",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:carp",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:brown_trout",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:red_grouper",
+            "weight": 6,
+            "minCount": 1,
+            "maxCount": 2
+          },
+          {
+            "type": "aquaculture:bluegill",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 6
+          },
+          {
+            "type": "aquaculture:jellyfish",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          },
+          {
+            "type": "aquaculture:perch",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 6
+          },
+          {
+            "type": "aquaculture:tuna",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "aquaculture:smallmouth_bass",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 3
+          }
+        ],
+        "misc": [],
+        "glares": []
+      },
+      "spawn_costs": {
+        "quark:wraith": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        },
+        "quark:foxhound": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        }
+      }
+    }
+  }
+}

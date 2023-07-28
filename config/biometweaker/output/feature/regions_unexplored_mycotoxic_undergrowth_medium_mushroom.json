@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "regions_unexplored:mycotoxic_undergrowth_medium_mushroom",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:medium_yellow_mushroom",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:crimson_roots"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

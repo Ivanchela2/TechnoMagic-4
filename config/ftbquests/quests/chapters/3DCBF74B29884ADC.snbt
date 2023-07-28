@@ -1,0 +1,1927 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3DCBF74B29884ADC"
+	group: "1D0E618C92EE8561"
+	icon: "farmersdelight:stove"
+	id: "3DCBF74B29884ADC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34A3F8B6B2B7E460"]
+			hide: true
+			id: "7788B83F6681264B"
+			rewards: [{
+				id: "071B8AD4992A53CB"
+				item: {
+					Count: 1b
+					id: "delightful:steel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2B74D8BE138B56EE"
+					item: {
+						Count: 1b
+						id: "delightful:leaf_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FC4519C50AEEE5C"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "70190685D7A1CF47"
+			rewards: [{
+				id: "794D18E54C5C049C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "687D943839B524FB"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+				{
+					id: "5C0326F88C4F7533"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "0993408AD28E2624"
+			rewards: [{
+				id: "00ED0F871335F82D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "15C3EFF7BC65CB82"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+				{
+					id: "598C6146712C9A3B"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "786E65BDFE1CD7D8"
+			rewards: [{
+				id: "0E1D933DE46A2628"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "24448B540EB7EC3A"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+				{
+					id: "1D01AECD39D80468"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "35F477390BF3C06A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "67F29B3EDB0EEA9B"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+				{
+					id: "1AC55BF2DD483F01"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "71ECBCDEA7C7DDEF"
+			rewards: [{
+				id: "07123714E0DE174C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "734D3723F9BA2D9A"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "5E9F04B737A08E08"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "2F32835744D8F0F6"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "62021208966A1F2B"
+			rewards: [{
+				id: "01798819795D27AC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3FFCF0A0BBB1A2B5"
+					item: "farmersdelight:salmon_slice"
+					type: "item"
+				}
+				{
+					id: "4036BED39178A41A"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "069D9D0F3CB1F3F0"
+			rewards: [{
+				id: "7AED512D8C91417F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "54E9AB05EFCBE5C0"
+				item: "alexsdelight:kangaroo_shank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "5B2FFE1DC28371D3"
+			rewards: [{
+				id: "7512A9BBDC968222"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "15F4EE8BFF2B996C"
+				item: "alexsdelight:bison_mince"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "4CDB6AE7BFB61B61"
+			rewards: [{
+				id: "2E255C4793209DCF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "668CB354B06E3C9C"
+				item: "alexsdelight:raw_catfish_slice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "2A1AB65A32D05C5D"
+			rewards: [{
+				id: "3E1CBF1883A6E1F9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09F19FD884007798"
+				item: "delightful:venison_chops"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "50A439E4CBB1A4DA"
+			rewards: [{
+				id: "31D8143C81CDF7C1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3B3178E7D39922ED"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+				{
+					id: "6C1910D8D6473363"
+					item: "delightful:cantaloupe_slice"
+					type: "item"
+				}
+				{
+					id: "3DC692F4C6A0ACCD"
+					item: "cnb:apple_slice"
+					type: "item"
+				}
+				{
+					id: "01456F93743A9C8B"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "70925451E902AD28"
+			rewards: [{
+				id: "7EEF24A813C088C4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5E2D38D8D42732DB"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "54A344E5DCCF7E8B"
+			rewards: [{
+				id: "2964FD3031745CD8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1FC4149258C71FBC"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "2D66B8F7D260BEDA"
+			rewards: [{
+				id: "1D51E2CAA8A62F11"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E6C203ED7E174FC"
+					item: "farmersdelight:cabbage_leaf"
+					type: "item"
+				}
+				{
+					id: "6D70748667361BC1"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "00C0F6B0617ED2B3"
+			rewards: [{
+				id: "50185EC6E2C82E79"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "31B912A19F9D4DDD"
+				item: "delightful:cactus_flesh"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "058C2F95C5EE6F9C"
+			rewards: [{
+				id: "790B310EC5A7D640"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "4CBF6B3D031E07B0"
+				item: "collectorsreap:pomegranate_slice"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0993408AD28E2624"]
+			id: "5675F3DDDFD55928"
+			rewards: [{
+				id: "710D7AA674952A17"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7BB3B26537AF3294"
+				item: "fastfooddelight:pork_sandwich"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0993408AD28E2624"]
+			id: "1CB1DF1224396CA6"
+			rewards: [{
+				id: "06D7BF00CDB9745B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1D19EA9070DE3179"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71ECBCDEA7C7DDEF"]
+			id: "1479FF6884EB4280"
+			rewards: [{
+				id: "6966DD039FB1DCCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7A3D358981FA7BFC"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71ECBCDEA7C7DDEF"]
+			id: "23242898A7485259"
+			rewards: [{
+				id: "71D7F50B8D1D1E7F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7DA2A3B4C361B346"
+				item: "fastfooddelight:chicken_cheese_sandwich"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			id: "19575493105E743A"
+			rewards: [{
+				id: "1AD17509E5FE4562"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "037BFAFE7B8F0DB9"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19575493105E743A"]
+			id: "5264CC5BF4F2CA71"
+			rewards: [{
+				id: "15415485B41D70FC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0A93906E72C9543D"
+				item: "fastfooddelight:rabbit_sandwich"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71ECBCDEA7C7DDEF"]
+			id: "3993B9E207320A31"
+			rewards: [{
+				id: "2ABD443A9054238D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "25267987611575E9"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62021208966A1F2B"]
+			id: "1732E133306741C3"
+			rewards: [{
+				id: "16EF5B2F3FA8918D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2DE2F30B21615A67"
+				item: "fastfooddelight:salmon_sandwich"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["70190685D7A1CF47"]
+			id: "6FFE0D8445064EC6"
+			rewards: [{
+				id: "1FBB56635623197B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "21E058E8BFD1C4C7"
+				item: "fastfooddelight:cod_sandwich"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["465412D9721C0C70"]
+			id: "2AB235350521C333"
+			rewards: [{
+				id: "00D5896CA60A58C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7D7A80D2E0120261"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35F477390BF3C06A"]
+			id: "465412D9721C0C70"
+			rewards: [{
+				id: "1687742C264BEFC6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7A16DFDE796DB7CD"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35F477390BF3C06A"]
+			id: "62EEC0F0868DD519"
+			rewards: [{
+				id: "29C7B19E6D4B0F5A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "52A8B1891860B719"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"786E65BDFE1CD7D8"
+				"058C2F95C5EE6F9C"
+			]
+			id: "1CB5E757591388E2"
+			rewards: [{
+				id: "042738C3895FAB24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7208A77DFC9ABF27"
+				item: "collectorsreap:pomegranate_mutton"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["786E65BDFE1CD7D8"]
+			id: "7A3215C773F96542"
+			rewards: [{
+				id: "4526769401A07D90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D5ABE8DAB38412C"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["786E65BDFE1CD7D8"]
+			id: "676BE538523BD467"
+			rewards: [{
+				id: "657A509697EDF14F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "703B708F1572861E"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["786E65BDFE1CD7D8"]
+			id: "31E44A892C07056B"
+			rewards: [{
+				id: "721BE946BB2079D1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "13A6DAD8D249D3EB"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19575493105E743A"]
+			id: "0EB328D8D6913438"
+			rewards: [{
+				id: "7CB2ACCD88E28391"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "34A430486B5142FC"
+				item: "minecraft:rabbit_stew"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "4BFCDDEB5D2F102F"
+			rewards: [{
+				id: "0D6DAE1ED3E10216"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "64288EBB6056464C"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "42DBD9B2F54DCE2C"
+			rewards: [{
+				id: "1E2B061DB66EE7CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "403E54527D573708"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "13176B0B6D549296"
+			rewards: [{
+				id: "5C8D7396E0C2C70A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6FA2B7F6FE983F9E"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "450FCF6097A4A6BD"
+			rewards: [{
+				id: "64BDD670A262A455"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "15A6506AD5F0CB09"
+				item: "collectorsreap:portobello_risotto"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "247D6157314E859A"
+			rewards: [{
+				id: "36F47646E05E00BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0748F17BDE8AB7C8"
+				item: "collectorsreap:portobello_rice_soup"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70925451E902AD28"]
+			id: "45B9C8F0CF26EF1D"
+			rewards: [{
+				id: "369936FD23DA77C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "622503D8707CA563"
+				item: "delightful:sinigang"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D66B8F7D260BEDA"]
+			id: "07FF5A251860F1C2"
+			rewards: [{
+				id: "279798267AFB1B95"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "056E5818F545336F"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D66B8F7D260BEDA"]
+			id: "7CD3A2046C802EF3"
+			rewards: [{
+				id: "301FAE52D25A563E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "040DE256ADB21F91"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2D66B8F7D260BEDA"
+				"00C0F6B0617ED2B3"
+			]
+			id: "03A915F9FDA20607"
+			rewards: [{
+				id: "02205ED71803AF73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0D525CC88745AE1D"
+				item: "delightful:field_salad"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D66B8F7D260BEDA"]
+			id: "6EABE0F1FE8EF6AA"
+			rewards: [{
+				id: "068E0FAFD6779ED6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "216C6DBAEBB159DB"
+				item: "collectorsreap:portobello_wrap"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D66B8F7D260BEDA"]
+			id: "1310740442E2E9F3"
+			rewards: [{
+				id: "23F83179F751B189"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C3A3BDDDC680021"
+				item: "collectorsreap:deluxe_salad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D66B8F7D260BEDA"]
+			id: "64B0B05F6F7FC63D"
+			rewards: [{
+				id: "1DC3C99F77FF9BB9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0502E64FA7751A37"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["069D9D0F3CB1F3F0"]
+			id: "2593080824B2B128"
+			rewards: [{
+				id: "4EBE3C7CAA3D598B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D690454EA2F700C"
+				item: "alexsmobs:kangaroo_burger"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["069D9D0F3CB1F3F0"]
+			id: "1503EE748870808E"
+			rewards: [{
+				id: "7FF557E5297CFFD9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1C09A52D1696EC82"
+				item: "alexsdelight:kangaroo_stew"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["069D9D0F3CB1F3F0"]
+			id: "345794A612B99A67"
+			rewards: [{
+				id: "29835FA34872186D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "78DBC7D60891F9B4"
+				item: "alexsdelight:kangaroo_pasta"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B2FFE1DC28371D3"]
+			id: "685F2E32F5EFDF59"
+			rewards: [{
+				id: "1CEA5F350B3BBF9D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1A156C6C937FBED9"
+				item: "alexsdelight:bison_burger"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "0C5BFAD9BBF43D51"
+			rewards: [{
+				id: "0B96FA9148D315BC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "590CAC84B710D99A"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "365FAF07EBABE8E5"
+			rewards: [{
+				id: "34288ED0D08052D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0A8531CE4366DBA6"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "6BE2F5A315658266"
+			rewards: [{
+				id: "41246C47F25271DE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7879937008673677"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "081AD9D1A0D2C290"
+			rewards: [{
+				id: "227027E173326C5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "20320A3D324B084D"
+				item: "collectorsreap:portobello_pasta"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "507AD87E547CE06D"
+			rewards: [{
+				id: "09EC7474EC1ECA46"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5BD331B53CF9B57C"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "58A9B485621C6F4A"
+			rewards: [{
+				id: "7DA9E4D01A957D35"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "67E1FC9E5E021ED1"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "331B01BBEF2C982B"
+			rewards: [{
+				id: "09BB9B34A0EF0AC9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "12D0233DF64AA0CD"
+				item: "endersdelight:pearl_pasta"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "0FC93E4452D66352"
+			rewards: [{
+				id: "24C9D8F5F1ECC133"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6EA262AEF30B6DEB"
+				item: "alexsdelight:lobster_pasta"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			id: "18343140AB0494D3"
+			rewards: [{
+				id: "66E7A0E7D8E11206"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3C380FBF32753505"
+				item: "alexsdelight:kangaroo_pasta"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70190685D7A1CF47"]
+			id: "2178FF3756D0B8F5"
+			rewards: [{
+				id: "4072373AD56E77C6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7AE361B55FB36854"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70190685D7A1CF47"]
+			id: "616A83A9BF225C18"
+			rewards: [{
+				id: "1801840D05A9C711"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "51550BD3A7FACD2E"
+				item: "collectorsreap:cod_ceviche"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["70190685D7A1CF47"]
+			id: "6ECC75599ACD51D4"
+			rewards: [{
+				id: "24333D8473C870E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68F83E23C1200AC4"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["62021208966A1F2B"]
+			id: "04F2C46735BF566F"
+			rewards: [{
+				id: "464308799E11DAD3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5A373BD0A7E0C0D3"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["62021208966A1F2B"]
+			id: "7FF593501ABA01DC"
+			rewards: [{
+				id: "5578406590AE3A8E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4D4E5759F1F86DD0"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["62021208966A1F2B"]
+			id: "59ECC52B0BF761F6"
+			rewards: [{
+				id: "58988717A40FD6AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "44959CFC622B06EB"
+				item: "collectorsreap:mediterranean_salmon"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["62021208966A1F2B"]
+			id: "3682BC92A2BAAFFC"
+			rewards: [{
+				id: "1F2516730191D171"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1FCCC82211506C38"
+				item: "collectorsreap:salmon_tartare"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7788B83F6681264B"
+				"2D66B8F7D260BEDA"
+			]
+			hide_dependency_lines: true
+			id: "310F3EBACB18E905"
+			rewards: [{
+				id: "44BF60DFAAACE18B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "680F7E00E65F49F8"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54A344E5DCCF7E8B"]
+			hide_dependency_lines: true
+			id: "273DF99611A0C103"
+			rewards: [{
+				id: "16E5051F22955C4D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "39F9B11ABEA69BC7"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "2D155086532EB844"
+			rewards: [{
+				id: "581509B699A34BC1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "511FCF0454EC4E8E"
+				item: "endersdelight:crawling_sandwich"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0993408AD28E2624"]
+			id: "7799952F47CFC1A8"
+			rewards: [{
+				id: "0D7FF7603E1E3FB3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "621B8CF3420B0551"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19575493105E743A"]
+			id: "67FAC48EFF76197F"
+			rewards: [{
+				id: "63BD442EC680B827"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "49691F57AB61C189"
+				item: "miners_delight:rabbit_stew_cup"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71ECBCDEA7C7DDEF"]
+			id: "192AB284F0D37490"
+			rewards: [{
+				id: "40A959BAF61B8676"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6120EF5577EDD017"
+				item: "fastfooddelight:chicken_wrap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "636D5344832D901A"
+			rewards: [{
+				id: "01E369DFDF0D9187"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "188B6033EABB7156"
+					item: "fastfooddelight:cheese"
+					type: "item"
+				}
+				{
+					id: "4101EC46721D7F10"
+					item: "gnumus:gnumus_cheese"
+					type: "item"
+				}
+				{
+					id: "4D6FFBB8076A761B"
+					item: "ad_astra:cheese"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7788B83F6681264B"
+				"2D66B8F7D260BEDA"
+			]
+			hide_dependency_lines: true
+			id: "4A85A6519B14EBB7"
+			rewards: [{
+				id: "790F2FB53C9DA4B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "35A48B73F1AD57FA"
+				item: "fastfooddelight:cheese_wrap"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "5AF0A41B32678CCC"
+			rewards: [{
+				id: "49F4786E5616B7DA"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [
+				{
+					id: "5CC63C41EE0A8699"
+					item: "neapolitan:neapolitan_ice_cream"
+					type: "item"
+				}
+				{
+					id: "11BAB74B29321214"
+					item: "neapolitan:banana_ice_cream"
+					type: "item"
+				}
+				{
+					id: "359227A9D887A167"
+					item: "neapolitan:chocolate_ice_cream"
+					type: "item"
+				}
+				{
+					id: "0EA73C4FD61A9CAA"
+					item: "neapolitan:vanilla_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7A6179E1B835CDB4"
+					item: "neapolitan:strawberry_ice_cream"
+					type: "item"
+				}
+				{
+					id: "0B5DB2D7D36B8052"
+					item: "neapolitan:mint_ice_cream"
+					type: "item"
+				}
+				{
+					id: "4BDC00E7FB334295"
+					item: "neapolitan:adzuki_ice_cream"
+					type: "item"
+				}
+				{
+					id: "5B2C3B7EA0C009D7"
+					item: "collectorsreap:pomegranate_ice_cream"
+					type: "item"
+				}
+				{
+					id: "39C590A13B401C23"
+					item: "collectorsreap:lime_ice_cream"
+					type: "item"
+				}
+				{
+					id: "756AD9AA802708C1"
+					item: "fastfooddelight:chocolate_ice_cream"
+					type: "item"
+				}
+				{
+					id: "58997B7E88862D31"
+					item: "fastfooddelight:sweet_berry_ice_cream"
+					type: "item"
+				}
+				{
+					id: "44F40152259FA84D"
+					item: "fastfooddelight:fruit_ice_cream"
+					type: "item"
+				}
+			]
+			title: "Мороженое"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide: false
+			hide_dependency_lines: true
+			id: "27CE28869198D41C"
+			rewards: [{
+				id: "1FFD80B417E1CAA5"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [
+				{
+					id: "3EB95E13CCF094DD"
+					item: "neapolitan:chocolate_spider_eye"
+					type: "item"
+				}
+				{
+					id: "5987810724C60109"
+					item: "farmersdelight:wheat_dough"
+					type: "item"
+				}
+				{
+					id: "2B9ED9ABD650CF04"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "40D91CD061870C99"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "25AC134D2810C538"
+					item: "delightful:ender_nectar"
+					type: "item"
+				}
+				{
+					id: "6933836A79801395"
+					item: "endersdelight:shulker_mollusk"
+					type: "item"
+				}
+				{
+					id: "0D3CD295CCF2081E"
+					item: "endersdelight:shulker_filet"
+					type: "item"
+				}
+				{
+					id: "413FC34261B9F2B3"
+					item: "endersdelight:crawling_sandwich"
+					type: "item"
+				}
+				{
+					id: "435A762D482082EF"
+					item: "endersdelight:stuffed_shulker_bowl"
+					type: "item"
+				}
+				{
+					id: "0878B496BDB1025E"
+					item: "miners_delight:bat_wing"
+					type: "item"
+				}
+				{
+					id: "073BCD4B434742ED"
+					item: "miners_delight:squid"
+					type: "item"
+				}
+			]
+			title: "Гадости (или нет...)"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "18B8E85EDE06E486"
+			rewards: [
+				{
+					id: "7CA092355A18333D"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+				{
+					id: "53F8582EAAF83E7B"
+					item: "create_central_kitchen:chocolate_cake_slice"
+					type: "item"
+				}
+				{
+					id: "44379FFBE5496AB0"
+					item: "create_central_kitchen:honey_cake_slice"
+					type: "item"
+				}
+				{
+					id: "69967E342E586700"
+					item: "collectorsreap:pomegranate_cake_slice"
+					type: "item"
+				}
+				{
+					id: "368F8816D5192E8C"
+					item: "collectorsreap:lime_cake_slice"
+					type: "item"
+				}
+				{
+					id: "61F725E87AB764F9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					id: "02A08837D2899E29"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "3D763FFD51D1C52F"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "434EC65DF8272ABB"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					id: "7EDE59718B05FF84"
+					item: "collectorsreap:pomegranate_cake"
+					type: "item"
+				}
+				{
+					id: "740DAC488A7876AD"
+					item: "collectorsreap:lime_cake"
+					type: "item"
+				}
+				{
+					id: "545E9C16E4B9AD27"
+					item: "neapolitan:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "47E98F5065BBBA5E"
+					item: "neapolitan:vanilla_cake"
+					type: "item"
+				}
+				{
+					id: "7BA7E27E09FB5E55"
+					item: "neapolitan:banana_cake"
+					type: "item"
+				}
+				{
+					id: "266988A0CB3FCACC"
+					item: "neapolitan:chocolate_cake"
+					type: "item"
+				}
+			]
+			title: "Торты"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18B8E85EDE06E486"]
+			id: "6595A5CEFF1C9235"
+			rewards: [
+				{
+					id: "6CEF3DA313CAFF90"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "43CC20F91A3DCDC6"
+					item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41DE5B62D668D5E2"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "2973A32E0D0A533D"
+			rewards: [
+				{
+					id: "2C850841E6D8D385"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+				{
+					id: "27AEFCC12545C868"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+				{
+					id: "60998DED82878E6E"
+					item: "collectorsreap:lime_pie_slice"
+					type: "item"
+				}
+				{
+					id: "69B0D7C09BE8D90A"
+					item: "endersdelight:chorus_pie_slice"
+					type: "item"
+				}
+				{
+					id: "19B1CFED7503F3F3"
+					item: "farmersrespite:rose_hip_pie_slice"
+					type: "item"
+				}
+				{
+					id: "71D8120732F7BDC5"
+					item: "delightful:salmonberry_pie_slice"
+					type: "item"
+				}
+				{
+					id: "1CA5C05691E28BF5"
+					item: "create_central_kitchen:pumpkin_pie_slice"
+					type: "item"
+				}
+				{
+					id: "3359F14743A8A823"
+					item: "delightful:pumpkin_pie_slice"
+					type: "item"
+				}
+				{
+					id: "6E05CAF1B057F44D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2FA403C643C41C0D"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "2BC81CDE3D277445"
+					item: "farmersdelight:pie_crust"
+					type: "item"
+				}
+				{
+					id: "3E02179130211C14"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "387AE4B27B0CDF05"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "5BE757DD56770997"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "4AA79673784C5ED5"
+					item: "collectorsreap:lime_pie"
+					type: "item"
+				}
+				{
+					id: "6A19D7756FA32CAE"
+					item: "endersdelight:chorus_pie"
+					type: "item"
+				}
+				{
+					id: "48BB2FAF5755C284"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "6E2BCBB31B36D7B1"
+					item: "delightful:salmonberry_pie"
+					type: "item"
+				}
+			]
+			title: "Пироги"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "0D3465F818B89F5C"
+			rewards: [{
+				id: "05342CBFC49C5984"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [
+				{
+					id: "18986FFC6CD0F5B4"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "4E3AAF988816BA41"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "178AC698278F210F"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "26EAE555A67BE37F"
+					item: "quark:cooked_crab_leg"
+					type: "item"
+				}
+				{
+					id: "5F4E728C22ED18CF"
+					item: "delightful:cooked_venison_chops"
+					type: "item"
+				}
+				{
+					id: "13266AB1A9E4FA8F"
+					item: "forbidden_arcanus:cooked_tentacle"
+					type: "item"
+				}
+				{
+					id: "2D8DF262276736B1"
+					item: "nocubes_better_frogs:cooked_frog_leg"
+					type: "item"
+				}
+				{
+					id: "28D14A95ABCC7D79"
+					item: "alexsmobs:cooked_moose_ribs"
+					type: "item"
+				}
+				{
+					id: "7A85A091D1A30C58"
+					item: "alexsmobs:cooked_kangaroo_meat"
+					type: "item"
+				}
+				{
+					id: "6D0EE59770E07AE6"
+					item: "alexsmobs:cooked_lobster_tail"
+					type: "item"
+				}
+			]
+			title: "Жареное мясо"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "695137B0B817C83E"
+			rewards: [{
+				id: "41E368CC597A4628"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "262D5125A92854AB"
+				item: "endersdelight:ender_paella"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "27B62789072AAB41"
+			rewards: [{
+				id: "3F308F931B383996"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [
+				{
+					id: "13FC31E0E3B90DB0"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					id: "6EF57D66F7A6A89E"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+				{
+					id: "357E3F5935E36FC6"
+					item: "collectorsreap:pomegranate_custard"
+					type: "item"
+				}
+				{
+					id: "3164FBE6C0583F1B"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+			]
+			title: "Десерты"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0993408AD28E2624"]
+			id: "1EB419A1BBE9EBBC"
+			rewards: [{
+				id: "58F5E51246CE7CF6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "182F7EB04B78AEBB"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "1B094753689E07DF"
+			rewards: [{
+				id: "49C47BEF94614C5D"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [
+				{
+					id: "643694AC409F0213"
+					item: "collectorsreap:lime_gummy"
+					type: "item"
+				}
+				{
+					id: "2BB40571F0C7AB4B"
+					item: "collectorsreap:pomegranate_gummy"
+					type: "item"
+				}
+				{
+					id: "487AEFE7F446398A"
+					item: "collectorsreap:melon_gummy"
+					type: "item"
+				}
+				{
+					id: "39FBF6851FEB7AF8"
+					item: "collectorsreap:apple_gummy"
+					type: "item"
+				}
+				{
+					id: "4ABA65C6508A7E43"
+					item: "collectorsreap:banana_gummy"
+					type: "item"
+				}
+				{
+					id: "615027D06EEEB720"
+					item: "collectorsreap:vanilla_gummy"
+					type: "item"
+				}
+				{
+					id: "371D7BBB3B4A0572"
+					item: "collectorsreap:chocolate_gummy"
+					type: "item"
+				}
+				{
+					id: "63C2C2DD23E3A1FF"
+					item: "collectorsreap:strawberry_gummy"
+					type: "item"
+				}
+				{
+					id: "4A2315A599F0971A"
+					item: "collectorsreap:mint_gummy"
+					type: "item"
+				}
+				{
+					id: "545E2F054B1F5B57"
+					item: "collectorsreap:adzuki_gummy"
+					type: "item"
+				}
+				{
+					id: "63C63882168140BE"
+					item: "collectorsreap:green_tea_gummy"
+					type: "item"
+				}
+				{
+					id: "68E42CAB81D66DA7"
+					item: "collectorsreap:yellow_tea_gummy"
+					type: "item"
+				}
+				{
+					id: "37D0A2B94FD7E314"
+					item: "collectorsreap:black_tea_gummy"
+					type: "item"
+				}
+				{
+					id: "6A7F211AC5BD7C94"
+					item: "collectorsreap:coffee_gummy"
+					type: "item"
+				}
+			]
+			title: "Желе"
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "&9Кушать подано"
+}

@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:iceberg_blue",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:iceberg_blue",
+    "placement": [
+      {
+        "chance": 200,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

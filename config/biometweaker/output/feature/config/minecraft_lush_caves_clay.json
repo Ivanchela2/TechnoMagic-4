@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "minecraft:lush_caves_clay",
+  "worldgen/configured_feature": {
+    "config": {
+      "feature_true": {
+        "feature": "minecraft:clay_with_dripleaves",
+        "placement": []
+      },
+      "feature_false": {
+        "feature": "minecraft:clay_pool_with_dripleaves",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_boolean_selector"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:pile_pumpkin",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:pile_pumpkin",
+    "placement": []
+  }
+}

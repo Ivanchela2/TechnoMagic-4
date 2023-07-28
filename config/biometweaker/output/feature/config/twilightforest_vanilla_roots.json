@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "twilightforest:vanilla_roots",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "waterlogged": "false"
+        },
+        "Name": "minecraft:hanging_roots"
+      }
+    },
+    "type": "twilightforest:underground_plants"
+  }
+}

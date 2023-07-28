@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "regions_unexplored:cobalt_nylium_bonemeal",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "regions_unexplored:cobalt_roots"
+            },
+            "weight": 100
+          },
+          {
+            "data": {
+              "Name": "regions_unexplored:cobalt_earlight"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "spread_width": 3,
+      "spread_height": 1
+    },
+    "type": "minecraft:nether_forest_vegetation"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:pile_melon",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:pile_melon",
+    "placement": []
+  }
+}

@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "ftbic:ore_lead_small",
+  "worldgen/placed_feature": {
+    "feature": "ftbic:ore_lead_small",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 72
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

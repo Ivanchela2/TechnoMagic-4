@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:armored_giant",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/armored_giant",
+  "size": {
+    "height": 7.2,
+    "width": 2.4,
+    "fixed": false
+  }
+}

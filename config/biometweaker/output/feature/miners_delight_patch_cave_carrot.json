@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "miners_delight:patch_cave_carrot",
+  "worldgen/placed_feature": {
+    "feature": "miners_delight:patch_cave_carrot",
+    "placement": [
+      {
+        "chance": 32,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 10
+          },
+          "max_inclusive": {
+            "absolute": 48
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

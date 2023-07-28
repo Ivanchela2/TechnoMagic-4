@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "productivebees:nether_fortress_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:nether_bricks"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "north"
+            },
+            "Name": "productivebees:nether_brick_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:nether_fortress_nest"
+  }
+}

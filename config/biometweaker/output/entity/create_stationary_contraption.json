@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create:stationary_contraption",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 20,
+  "update_interval": 40,
+  "defaul_loot_table": "create:entities/stationary_contraption",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

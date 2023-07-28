@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "quark:deferred_feature_vegetal_decoration",
+  "worldgen/placed_feature": {
+    "feature": "quark:deferred_feature_vegetal_decoration",
+    "placement": []
+  }
+}

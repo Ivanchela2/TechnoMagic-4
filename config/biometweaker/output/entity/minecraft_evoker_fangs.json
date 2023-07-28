@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:evoker_fangs",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 6,
+  "update_interval": 2,
+  "defaul_loot_table": "minecraft:entities/evoker_fangs",
+  "size": {
+    "height": 0.8,
+    "width": 0.5,
+    "fixed": false
+  }
+}

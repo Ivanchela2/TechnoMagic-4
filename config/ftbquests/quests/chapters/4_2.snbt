@@ -1,0 +1,1761 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4_2"
+	group: "472A643616306AAC"
+	icon: "aquamirae:ship_graveyard_echo"
+	id: "70F3FC407354B807"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BA91AB519070D4D"
+			rewards: [
+				{
+					count: 4
+					id: "22F764A5106506DF"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					id: "69F0E90F82B87B43"
+					player_command: false
+					title: "Спавн острова \"Ocultism\""
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "53D44347CD1CD079"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ваш взгляд меняется\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "3E848A79A123ACC9"
+					player_command: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 1.6d
+			tasks: [{
+				id: "5BE6D8EE63C69654"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "Приветствую тебя, Призыватель."
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			description: ["Для добычи этого камня в жизни, надо сьесть демонический фрукт (получив эффект \"Третье око\" и добыть измененный андезит."]
+			id: "43ED3EAD23EA76A1"
+			rewards: [{
+				id: "076DED8F14D15E3E"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			subtitle: "Это не просто камень... "
+			tasks: [{
+				count: 4L
+				id: "6BB40CF2D61259CB"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			title: "Потусторонний камень"
+			x: -10.0d
+			y: 2.9000000000000004d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			description: ["Основная книга в данном моде, в которой рассказываются все механики и варианты крафтов и призывов."]
+			id: "0A137981A849B023"
+			ignore_reward_blocking: true
+			rewards: [{
+				id: "639D0C78FC2D7032"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Еще один Квестбук?"
+			tasks: [{
+				id: "058735498893F2C2"
+				item: "occultism:dictionary_of_spirits_icon"
+				type: "item"
+			}]
+			title: "Познание основ."
+			x: -8.5d
+			y: 2.9000000000000004d
+		}
+		{
+			dependencies: [
+				"0A137981A849B023"
+				"69632106C550C4AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "66E47D358CC607F9"
+			subtitle: "Да здравствует первый разнорабочий)"
+			tasks: [
+				{
+					id: "146BCAFE518B4FE1"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14D4955AADE3062B"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3C6A4929CFE0FEA6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6F4C5840805005DB"
+					item: "minecraft:white_candle"
+					type: "item"
+				}
+			]
+			title: "Первый призыв: Дробитель Фолиот"
+			x: -8.5d
+			y: 4.4d
+		}
+		{
+			dependencies: [
+				"0A137981A849B023"
+				"66E47D358CC607F9"
+			]
+			description: ["3 разных варианта мелков, которыми вы будете рисовать мелки на земле)"]
+			id: "4F943CCC0D6D0E87"
+			subtitle: "Поиграем в Классики?"
+			tasks: [
+				{
+					id: "13BD6F3DCC760960"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BEB1B47C0463BBF"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D73B86C0C628B36"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["43ED3EAD23EA76A1"]
+			description: ["Одно из необходимых составляющих для любых ритуаловю"]
+			icon: "occultism:spirit_attuned_gem"
+			id: "5C3F9AF1D9019A99"
+			rewards: [{
+				count: 16
+				id: "0D07EBF365035C1A"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			subtitle: "ГЕМы..."
+			tasks: [
+				{
+					count: 16L
+					id: "178421DE2E4ABF63"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "46473676D32FAEC0"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+			]
+			title: "Гем Духов"
+			x: -11.5d
+			y: 2.9000000000000004d
+		}
+		{
+			dependencies: ["5C3F9AF1D9019A99"]
+			icon: {
+				Count: 1b
+				id: "occultism:infused_pickaxe"
+				tag: {
+					Damage: 0
+					spiritName: "Krtimzur"
+				}
+			}
+			id: "66B95C4528A914B5"
+			rewards: [{
+				id: "4FE90D2919628C99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Кирка из гемов духа... ГЕМЫ..."
+			tasks: [
+				{
+					id: "134CFD3CAF630B97"
+					item: "occultism:spirit_attuned_pickaxe_head"
+					type: "item"
+				}
+				{
+					id: "63F8E8ACF539FF31"
+					item: {
+						Count: 1b
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Reivirmorn"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["43ED3EAD23EA76A1"]
+			description: ["С помощью данного ножа можно получить сало убивая любых (нет, подробности в описании) животных."]
+			id: "69632106C550C4AC"
+			rewards: [{
+				count: 4
+				id: "316C3DC1E47B96DA"
+				item: "occultism:tallow"
+				type: "item"
+			}]
+			subtitle: "Да начнется Резня"
+			tasks: [{
+				id: "0129A910160836B0"
+				item: {
+					Count: 1b
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["5C3F9AF1D9019A99"]
+			id: "3D495E67D175A51B"
+			subtitle: "Ну а как же ты сделаешь очки без линз?"
+			tasks: [{
+				id: "390155085EE411D0"
+				item: "occultism:lenses"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.9000000000000004d
+		}
+		{
+			dependencies: ["3D495E67D175A51B"]
+			id: "2ED26DB7D77AFF40"
+			tasks: [{
+				id: "54A11C6492FDCCD9"
+				item: "occultism:infused_lenses"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["2ED26DB7D77AFF40"]
+			id: "42B95EADCDBE5589"
+			tasks: [{
+				id: "39353D10D7A933F9"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "38FF01FE1835B023"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					id: "08D27A4BAA4E1132"
+					player_command: false
+					title: "Спавн острова \"Гриботавр\""
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "732BCBB328FD0178"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Споры грибов озаряют пустоту\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "54B44AAEC239FFF7"
+					player_command: false
+					type: "command"
+				}
+			]
+			subtitle: "Первая книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "2F66EB0C9B233DE1"
+				item: "occultism:book_of_binding_djinni"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.4d
+		}
+		{
+			dependencies: [
+				"4F943CCC0D6D0E87"
+				"38FF01FE1835B023"
+			]
+			id: "51FE3C9431CEAFA6"
+			subtitle: "Еще одна система хранения?"
+			tasks: [{
+				id: "1A49EE2F54B443CF"
+				item: {
+					Count: 1b
+					id: "occultism:dimensional_matrix"
+					tag: {
+						spiritName: "Reifirtron"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "6E1EDED68350DB4E"
+			subtitle: "Вторая книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "02CE121CD5A866C9"
+				item: "occultism:book_of_binding_afrit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "313C9E88626C0419"
+			subtitle: "Третья книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "2F0B234A514A088D"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4BA91AB519070D4D"
+				"045C3D369D9FADD6"
+			]
+			description: ["Найдите гидру под холмом в огненых болотах"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "twilightforest:hydra_trophy"
+			id: "1EE42A294EBBD610"
+			rewards: [
+				{
+					count: 6
+					id: "13BC161DF9117250"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					id: "06FF06EE016E2CA8"
+					player_command: false
+					title: "Спавн Острова \"Deeper & Darker\""
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "2C5BD5DDFBF47458"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Пустота вокруг вас начинает темнеть\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "3980F9EC5CFEC34E"
+					player_command: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "30DFA7BCE758DDC6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Вместо одной головы выростут три"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CC994D9CE81BCEB"]
+			description: ["Съешьте данный суп чтоб двигатся дальше по моду"]
+			id: "453998643157B472"
+			rewards: [{
+				id: "17A08ECF83A7FDEB"
+				item: "twilightforest:maze_map_focus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "736A88F2F2A7E756"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "Бедный гриботавр"
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["453998643157B472"]
+			description: ["Метьнись в ад и набери песочку"]
+			id: "118410C89DF00062"
+			rewards: [{
+				count: 64
+				id: "680447E9DBF8FF8D"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "14701CC90A63F530"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"118410C89DF00062"
+				"1609E737334014E8"
+			]
+			description: ["Кинь вещи в проклятый огонь, чтоб получит их другую версию"]
+			id: "39F67C9CE4BCAAC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4008B6F9E15E205E"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "20505F5F74857126"
+					item: "spirit:soul_powder"
+					type: "item"
+				}
+				{
+					id: "6B1D528F48DE25FC"
+					item: "spirit:soul_crystal_shard"
+					type: "item"
+				}
+			]
+			title: "Пыль души"
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"39F67C9CE4BCAAC4"
+				"5AA7F3F85375FD25"
+			]
+			id: "63FB48F4A894F6FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1780E6076F8BC903"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			tasks: [{
+				id: "443467A2E61B7883"
+				item: "spirit:crude_soul_crystal"
+				type: "item"
+			}]
+			title: "Сырой Кристалл Души"
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"63FB48F4A894F6FF"
+				"3A4D60AFDC52EC7C"
+			]
+			id: "02A0D443A9B73CE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379E6E2877936A4C"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6971EE0DAA578EB1"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
+			title: "Кристалл Души"
+			x: -13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["118410C89DF00062"]
+			hide_dependency_lines: true
+			id: "3A4D60AFDC52EC7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E8B0C43714606B9"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Третья подготовка к созданию вещей из мода Spirit."
+			tasks: [{
+				id: "255A11ED8348E24F"
+				item: "spirit:soul_glass"
+				type: "item"
+			}]
+			title: "Подготовка: Часть 3"
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["118410C89DF00062"]
+			hide_dependency_lines: true
+			id: "5AA7F3F85375FD25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403732671F4244CB"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Вторая подготовка к созданию вещей из мода Spirit."
+			tasks: [{
+				id: "6BBD261AF0CD284F"
+				item: "spirit:soul_slate"
+				type: "item"
+			}]
+			title: "Подготовка: Часть 2"
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["118410C89DF00062"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1609E737334014E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74382C14449D5444"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Первая подготовка к созданию вещей из мода Spirit."
+			tasks: [
+				{
+					count: 4L
+					id: "616C0402A84C34B2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chipped:lapis_block"
+						}
+					}
+					title: "Лазуритовый блок"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "10EB3F046F43AA05"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chipped:quartz_block"
+						}
+					}
+					title: "Кварцевый блок"
+					type: "item"
+				}
+			]
+			title: "Подготовка: Часть 1"
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["118410C89DF00062"]
+			description: ["Убивая любых существ, при этом владея кристаллом души, вы поглащаете душу того, кого вы убили. Однако кристал вмещает только 1 вид души. Запомните это."]
+			hide_dependency_lines: true
+			id: "2ADD3B41B236056F"
+			tasks: [{
+				id: "7E62B0EDF919B1EF"
+				title: "Первое убийство"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0068B039920F45E3"
+				"02A0D443A9B73CE4"
+				"2ADD3B41B236056F"
+			]
+			id: "045C3D369D9FADD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BFABA91B023429F"
+					table_id: 4853888491522249095L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					id: "2F242AB004BBEC13"
+					player_command: false
+					title: "Спавн острова \"Гидра\""
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "473C4A089CFB55F4"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Глаза горят, а воздух теплеет\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "572020E0AE2BC999"
+					player_command: false
+					type: "command"
+				}
+			]
+			subtitle: "Простой спаунер из мода Spirit."
+			tasks: [{
+				id: "70F51D928747FC08"
+				item: "spirit:soul_cage"
+				type: "item"
+			}]
+			title: "Клетка Душ"
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["118410C89DF00062"]
+			hide_dependency_lines: true
+			id: "0068B039920F45E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "359A42CBE30B1EAB"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Четвертая подготовка к созданию вещей из мода Spirit."
+			tasks: [{
+				id: "0F5D0924F0B6AB68"
+				item: "spirit:soul_steel_block"
+				type: "item"
+			}]
+			title: "Подготовка: Часть 4"
+			x: -15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1EE42A294EBBD610"]
+			description: ["Чтобы попасть дальше прийдется разобраться с охраником темных земель"]
+			id: "0152D66E23EE30B1"
+			rewards: [{
+				count: 4
+				id: "5AE55558E1815C28"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0311549681A50D29"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Хранитель"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0152D66E23EE30B1"]
+			description: ["Сердце охраника я заберу с собой, как сувенирчик"]
+			id: "41C65BD1CB61D79B"
+			rewards: [{
+				id: "40CE6AE9E28ACF84"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6046F1C34010E17F"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41C65BD1CB61D79B"]
+			description: ["Добро пожаловать в темнык земли"]
+			id: "68081DAD517B246E"
+			rewards: [{
+				count: 6
+				id: "44853C806EFC9BB1"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "57D26B5D179E8881"
+				type: "dimension"
+			}]
+			title: "Deeper and Darker"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68081DAD517B246E"]
+			description: ["Соберите местного мха, да побольше"]
+			id: "6EB36D6CE6B28111"
+			rewards: [{
+				count: 32
+				id: "0446AE87F1F834B8"
+				item: "deep_dark_regrowth:mossy_fluorite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1BB8BE6A6F9F134F"
+				item: "deep_dark_regrowth:mossy_fluorite"
+				type: "item"
+			}]
+			title: "Липкий Флуорит"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4BA91AB519070D4D"
+				"38FF01FE1835B023"
+			]
+			description: [
+				"Найдите лмбиринт гриботавра"
+				"Лабиринт расположен в огненых болотах"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7CC994D9CE81BCEB"
+			rewards: [
+				{
+					count: 5
+					id: "432AF5F49B50A276"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1483C1EA65CDFF1A"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5C7EB0712013AC0F"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "14B65C40E9CBAE66"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4360D044164FAC2B"
+					item: "twilightforest:mushgloom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3DD30216E2AD5EEE"
+					item: "quark:glow_shroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "28339B8CA3AEC41E"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "07B411304726E5ED"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "70F0244A6AC67BEB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Гриботавр"
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EB36D6CE6B28111"]
+			description: ["Найдите скалк сенсор"]
+			id: "0AE65EB87D0B9717"
+			rewards: [
+				{
+					count: 64
+					id: "73A4597B42F87B6A"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					id: "14704B19A648614F"
+					player_command: false
+					title: "Спавн острова \"Aquamirae\""
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set ()"
+					id: "0DA4A3DC8DDF4D8C"
+					player_command: false
+					title: "барьер"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Влажность становится выше\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "150C6F0FD7B77294"
+					player_command: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "14193466A3FCA78D"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6317A3CD85E467D0"]
+			description: [
+				"Увеличивает ваш урон в холодных биомах на 33%"
+				"Пригодится при прохождение Twilight Forest и не только"
+			]
+			id: "68363A2C555492E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12B6CB35C7EC4D57"
+					table_id: 2388181515047984932L
+					type: "random"
+				}
+				{
+					id: "275535031DD3DD58"
+					item: "aquamirae:frozen_key"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "098AFF0FB1BEBEA9"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4BA91AB519070D4D"
+				"0AE65EB87D0B9717"
+			]
+			description: ["Найдите и заберите у рыбок из мода aquamirai плавники"]
+			hide: true
+			hide_dependency_lines: true
+			id: "78E0DAF09902B2C5"
+			rewards: [
+				{
+					count: 4
+					id: "1B4B59212E14A0A1"
+					item: "aquamirae:fin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "18DE705FE43019C1"
+					item: "enigmaticlegacy:ocean_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72C9191C3B96BEB4"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78E0DAF09902B2C5"]
+			description: ["Клыки удильщика опасны как бритва у неопытного пацана"]
+			id: "27831E216B2BCA91"
+			rewards: [{
+				count: 2
+				id: "64A00FC3901B651A"
+				item: "aquamirae:anglers_fang"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A6A832DFDB17DB"
+				item: "aquamirae:anglers_fang"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78E0DAF09902B2C5"]
+			description: ["Сет ужасный как сама рыба из которой он сделан"]
+			id: "729C2B27E4ADA290"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC5ED6C6BDB0A0E"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3FF2434414040A72"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE37E85A7422880"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36B46105AD141A42"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2987AEE8E3549E9C"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78E0DAF09902B2C5"]
+			description: ["Бедная рыбка, только косточки остались"]
+			id: "2993FC18F2AFAEA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10FB6E57CDD53EC8"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "316E02943FDE3CBA"
+				item: "aquamirae:sharp_bones"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2993FC18F2AFAEA3"]
+			description: ["Пустим рыбку пожалуй на меч"]
+			id: "2D94614105876688"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AC2F0C6E048809A"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C1E7B9E4C586974"
+				item: {
+					Count: 1b
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27831E216B2BCA91"]
+			description: ["Клинок пропитаный ядом удильщика, заставит жертву страдать от яда который растекается по его жидам"]
+			hide_dependency_lines: true
+			id: "148615A93ED56286"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2106358F2AF34912"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06B14BBD28649282"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27831E216B2BCA91"]
+			description: ["Начинает кружит вокруг вас и спать, действует на первого врага"]
+			hide_dependency_lines: true
+			id: "28A030419943BB0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C13EF30363895CC"
+				table_id: 2388181515047984932L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6DC5064E4C02D7BA"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_chakra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27831E216B2BCA91"]
+			description: ["Он настолько ужасен, что только самые стойкие могут его поднять, не говоря уже про использование"]
+			hide_dependency_lines: true
+			id: "6CDC2B5A95CF2836"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD7E36A87986AF2"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BBE7C36B910704E"
+				item: {
+					Count: 1b
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["729C2B27E4ADA290"]
+			description: ["Хороший меч получился из плавника"]
+			id: "70A5E56DC9773652"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F307721464EC2C"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "155AA81850FF7A89"
+				item: {
+					Count: 1b
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78E0DAF09902B2C5"]
+			description: ["Улучшеный аметист с помощью души"]
+			hide_dependency_lines: true
+			id: "0B818E0C582EF14C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD7358DB6EEF6F3"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "258DBFE5EF83625F"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27831E216B2BCA91"]
+			description: ["Кто проживает на дне океана. Капитан Корнелии"]
+			id: "791A2E4717A4D1BA"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "00E4A42E5BF1A68E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Капитан Корнелии"
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78E0DAF09902B2C5"]
+			description: [
+				"Душа голадца"
+				"Но падает почти со всего живого"
+			]
+			hide_dependency_lines: true
+			id: "3A981070722F4A8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6986B790C536DEF2"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FED67ECF89DE6E6"
+				item: "aquamirae:ship_graveyard_echo"
+				type: "item"
+			}]
+			title: "Душа голандца"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B818E0C582EF14C"]
+			description: ["Броня из самой впадины у черта на рогах"]
+			hide_dependency_lines: true
+			id: "2A25512F702D25AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ADF965A563197E9"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6088E832A729693D"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56A1A52383FACB2F"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09C513FD78C93FBC"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BA4793A475FCDC4"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A25512F702D25AC"]
+			description: ["С этой тиарой вам не откажут даже при входе к амазонкам"]
+			id: "1DE309EC4FB79869"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD884B736844B06"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68450741028CBC81"
+				item: {
+					Count: 1b
+					id: "aquamirae:abyssal_tiara"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A25512F702D25AC"]
+			description: ["Рассекает не только всё живое, но и по слухам может раздвигать воду как моисей"]
+			id: "4E188111AFD45944"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "040E94139B444BB4"
+				table_id: 2388181515047984932L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "42F466A2F01C4AFE"
+				item: {
+					Count: 1b
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E188111AFD45944"]
+			description: ["Сама бездна вам шепчет"]
+			id: "44B322DA6056AF8F"
+			rewards: [
+				{
+					id: "211337CF3261327D"
+					item: "enigmaticlegacy:ocean_stone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7220FEEC847BE6CA"
+					table_id: 2388181515047984932L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "48CD478DA606740A"
+				item: {
+					Count: 1b
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DE309EC4FB79869"]
+			description: ["Начинает кружит вокруг вас и спать, действует на первого врага"]
+			id: "6B6696E6D3231142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7912772A2C449767"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E8936DEC7DC3950"
+				item: {
+					Count: 1b
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["791A2E4717A4D1BA"]
+			description: ["Ключ от сокровощь, что хранит капитан"]
+			id: "6317A3CD85E467D0"
+			rewards: [
+				{
+					count: 5
+					id: "40CF49697781F4A0"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+				{
+					id: "6154F23DD945036C"
+					item: "aquamirae:oxygen_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52D9A3489790B662"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["791A2E4717A4D1BA"]
+			description: ["Скафандр первой мировой, а может и первой, а второй"]
+			hide_dependency_lines: false
+			id: "3A7662307F166D76"
+			rewards: [{
+				id: "7EDF62442F85C3F3"
+				item: "aquamirae:frozen_chest"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C55CD2D771C7417"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A8E02E7AEDC17FE"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F3061061DE618C0"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46ADA6BCA700EFF6"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A7662307F166D76"]
+			description: ["Позволяет с местых барыг получать изумруды"]
+			id: "23795C1FC591FE13"
+			rewards: [{
+				id: "3A4BF722909C394C"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A364B93AED08C9"
+				item: {
+					Count: 1b
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["791A2E4717A4D1BA"]
+			description: ["Пика капита, любого кто против тебя можно посадить на пику"]
+			id: "4206CAF1FF7A3CF7"
+			rewards: [{
+				id: "012F7D44F931BA02"
+				item: "aquamirae:frozen_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5578783ABAB4C113"
+				item: {
+					Count: 1b
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["045C3D369D9FADD6"]
+			icon: "vitalize:soul_revitalizer"
+			id: "6B326CFCA6F2616F"
+			subtitle: "Улучшенный спаунер из аддона для мода Spirit, с возможностью улучшения."
+			tasks: [
+				{
+					id: "6D48947A743F1544"
+					item: "vitalize:soul_revitalizer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "72BFBAA39B3A0388"
+					item: "vitalize:pylon_base"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "5BCBD86BF74F96E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EACF41406B8012C"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "4498AEFC852086DA"
+				item: "vitalize:pylon_efficiency"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "1D51AEFCD2A370A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502A1B42F120920E"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "13EF67D53C6FE8DF"
+				item: "vitalize:pylon_beheading"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "2801CD3CE441474A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17242F8D6F34458B"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "2EA2B9B5C8719D5C"
+				item: "vitalize:pylon_looting"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "5A743011CD09E2BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23AD1CD04C1C3E5D"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "6F4F8DA39B140D76"
+				item: "vitalize:pylon_speed"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "4A94A79F95C576B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B6237EE8C9C36DA"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "1C4C51ADAA7C14F8"
+				item: "vitalize:pylon_experience"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "1920F56214B39CA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "662E7D65DDA61155"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "0C8767BD61BAAA3E"
+				item: "vitalize:pylon_flame"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B326CFCA6F2616F"]
+			id: "7B05300CC2698057"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5164C75AC5A608DB"
+				table_id: 5598608174600762215L
+				type: "random"
+			}]
+			subtitle: "Один из семи вариантов улучшенных пилонов"
+			tasks: [{
+				id: "1D4585D8FB6DDFFD"
+				item: "vitalize:pylon_recursive"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5AA7F3F85375FD25"]
+			id: "092E505A81E39B74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E3BF4EBE566EBFF"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Да здравствует создание жителей)"
+			tasks: [{
+				id: "224CEFA7BD29EAC5"
+				item: "spirit:pedestal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["092E505A81E39B74"]
+			id: "035AD0AC91240EF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C3B0520CE5C75F9"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
+			subtitle: "Компонент создания пьедестала души"
+			tasks: [{
+				id: "44C741060EDE4A0B"
+				item: "spirit:crystal_pedestal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["035AD0AC91240EF9"]
+			id: "26729CC406B64AF4"
+			rewards: [
+				{
+					count: 2
+					id: "1AD73BB170189EC2"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "37348508C6DA697C"
+					item: "simplehats:pighead"
+					type: "item"
+				}
+				{
+					id: "60C47FB889972A90"
+					item: "simplehats:rabbitears"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь можно и в некроманты записываться"
+			tasks: [{
+				id: "29DA8C7D70DF65FB"
+				item: "spirit:soul_pedestal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -10.0d
+		}
+	]
+	title: "&5Стадия: 4"
+}

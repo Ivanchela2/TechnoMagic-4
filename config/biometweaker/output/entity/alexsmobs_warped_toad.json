@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:warped_toad",
+  "category": "CREATURE",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "alexsmobs:entities/warped_toad",
+  "size": {
+    "height": 1.4,
+    "width": 0.9,
+    "fixed": false
+  }
+}

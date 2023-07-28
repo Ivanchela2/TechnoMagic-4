@@ -1,0 +1,98 @@
+
+{
+  "registry_name": "collectorsreap:patch_portobello",
+  "worldgen/configured_feature": {
+    "config": {
+      "primary_feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "source": {
+                "state": {
+                  "Properties": {
+                    "age": "0"
+                  },
+                  "Name": "collectorsreap:portobello_colony"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "property": "age",
+              "values": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 3
+                }
+              },
+              "type": "minecraft:randomized_int_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "collectorsreap:portobello_spawns",
+                  "type": "minecraft:matching_block_tag"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "secondary_feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "collectorsreap:portobello"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "collectorsreap:portobello_spawns",
+                  "type": "minecraft:matching_block_tag"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "tries": 32,
+      "xz_spread": 3,
+      "y_spread": 3
+    },
+    "type": "farmersdelight:wild_crop"
+  }
+}

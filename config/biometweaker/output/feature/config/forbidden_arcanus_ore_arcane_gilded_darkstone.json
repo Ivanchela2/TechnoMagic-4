@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "forbidden_arcanus:ore_arcane_gilded_darkstone",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "forbidden_arcanus:darkstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "forbidden_arcanus:gilded_darkstone"
+          }
+        }
+      ],
+      "size": 4,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

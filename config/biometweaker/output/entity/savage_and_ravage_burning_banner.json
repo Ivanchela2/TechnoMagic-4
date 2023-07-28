@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "savage_and_ravage:burning_banner",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": false,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "savage_and_ravage:entities/burning_banner",
+  "size": {
+    "height": 2.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

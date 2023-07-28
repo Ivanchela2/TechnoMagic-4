@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "sorcerium:boguslav_the_sorcerer",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "sorcerium:entities/boguslav_the_sorcerer",
+  "size": {
+    "height": 1.2,
+    "width": 1.5,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "gnumus:pitcher_mousse",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 30,
+  "update_interval": 3,
+  "defaul_loot_table": "gnumus:entities/pitcher_mousse",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

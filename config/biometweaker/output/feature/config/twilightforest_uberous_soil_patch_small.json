@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "twilightforest:uberous_soil_patch_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Name": "twilightforest:uberous_soil"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": []
+      },
+      "target": {
+        "blocks": [
+          "minecraft:podzol",
+          "minecraft:coarse_dirt",
+          "minecraft:dirt"
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "half_height": 0
+    },
+    "type": "twilightforest:mycelium_blob"
+  }
+}

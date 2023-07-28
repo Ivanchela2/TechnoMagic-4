@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "regions_unexplored:large_pointed_redstone",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:large_pointed_redstone",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 10,
+            "max_inclusive": 48
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 256
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:carminite_golem",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "twilightforest:entities/carminite_golem",
+  "size": {
+    "height": 2.9,
+    "width": 1.4,
+    "fixed": false
+  }
+}

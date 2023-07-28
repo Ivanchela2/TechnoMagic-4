@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "ad_astra:space_painting",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 10,
+  "update_interval": 2147483647,
+  "defaul_loot_table": "ad_astra:entities/space_painting",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

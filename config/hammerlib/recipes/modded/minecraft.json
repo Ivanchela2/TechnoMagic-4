@@ -1,0 +1,7 @@
+{
+    "active": {
+        "minecraft:glass": true,
+        "minecraft:player_head": true
+    },
+    "unregistered": {}
+}

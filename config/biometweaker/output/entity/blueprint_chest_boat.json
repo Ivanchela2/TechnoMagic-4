@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "blueprint:chest_boat",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "blueprint:entities/chest_boat",
+  "size": {
+    "height": 0.5625,
+    "width": 1.375,
+    "fixed": false
+  }
+}

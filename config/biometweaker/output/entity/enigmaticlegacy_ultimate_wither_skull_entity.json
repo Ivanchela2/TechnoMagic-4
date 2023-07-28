@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enigmaticlegacy:ultimate_wither_skull_entity",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "enigmaticlegacy:entities/ultimate_wither_skull_entity",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

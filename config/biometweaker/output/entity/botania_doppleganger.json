@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "botania:doppleganger",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 10,
+  "update_interval": 10,
+  "defaul_loot_table": "botania:entities/doppleganger",
+  "size": {
+    "height": 1.8,
+    "width": 0.6,
+    "fixed": false
+  }
+}

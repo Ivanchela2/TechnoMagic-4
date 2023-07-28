@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:void_start_platform",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:void_start_platform"
+  }
+}

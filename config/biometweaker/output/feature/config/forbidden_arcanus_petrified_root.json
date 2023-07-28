@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "forbidden_arcanus:petrified_root",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "forbidden_arcanus:petrified_root"
+      }
+    },
+    "type": "forbidden_arcanus:petrified_root"
+  }
+}

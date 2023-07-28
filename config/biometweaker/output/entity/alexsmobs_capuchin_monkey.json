@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "alexsmobs:capuchin_monkey",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "alexsmobs:entities/capuchin_monkey",
+  "size": {
+    "height": 0.75,
+    "width": 0.65,
+    "fixed": false
+  }
+}

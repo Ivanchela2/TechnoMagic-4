@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "twilightforest:mycelium_blob",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Properties": {
+              "snowy": "false"
+            },
+            "Name": "minecraft:mycelium"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": []
+      },
+      "target": {
+        "blocks": "minecraft:grass_block",
+        "type": "minecraft:matching_blocks"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 3
+    },
+    "type": "twilightforest:mycelium_blob"
+  }
+}

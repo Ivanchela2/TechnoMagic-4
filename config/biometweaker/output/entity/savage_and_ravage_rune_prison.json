@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "savage_and_ravage:rune_prison",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "savage_and_ravage:entities/rune_prison",
+  "size": {
+    "height": 0.7,
+    "width": 1.35,
+    "fixed": false
+  }
+}

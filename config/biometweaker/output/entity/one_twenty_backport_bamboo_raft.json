@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "one_twenty_backport:bamboo_raft",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 80,
+  "update_interval": 3,
+  "defaul_loot_table": "one_twenty_backport:entities/bamboo_raft",
+  "size": {
+    "height": 0.3,
+    "width": 1.375,
+    "fixed": false
+  }
+}

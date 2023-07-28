@@ -1,0 +1,18 @@
+{
+	id: "6121F54ED95F87F8"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ count: 8, item: "gribtweaks:sand_copper_nugget" }
+		{ count: 8, item: "gribtweaks:sand_gold_nugget" }
+		{ count: 12, item: "gribtweaks:sand_iron_nugget" }
+		{ count: 8, item: "gribtweaks:sand_zinc_nugget" }
+		{ count: 4, item: "gribtweaks:sand_redstone" }
+		{ count: 4, item: "gribtweaks:sand_lapis" }
+		{ count: 4, item: "gribtweaks:sand_copper", weight: 0.3f }
+		{ count: 4, item: "gribtweaks:sand_zinc", weight: 0.3f }
+		{ count: 4, item: "gribtweaks:sand_gold", weight: 0.3f }
+		{ count: 8, item: "gribtweaks:sand_iron", weight: 0.3f }
+	]
+	title: "#2 стадия (1)"
+}

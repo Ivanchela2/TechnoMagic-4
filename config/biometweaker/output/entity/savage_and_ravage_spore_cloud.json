@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "savage_and_ravage:spore_cloud",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 3,
+  "defaul_loot_table": "savage_and_ravage:entities/spore_cloud",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

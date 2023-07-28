@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:laser_beam",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "cataclysm:entities/laser_beam",
+  "size": {
+    "height": 0.3125,
+    "width": 0.3125,
+    "fixed": false
+  }
+}

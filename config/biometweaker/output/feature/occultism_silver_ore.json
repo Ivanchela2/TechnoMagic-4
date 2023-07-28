@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "occultism:silver_ore",
+  "worldgen/placed_feature": {
+    "feature": "occultism:silver_ore",
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 50
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

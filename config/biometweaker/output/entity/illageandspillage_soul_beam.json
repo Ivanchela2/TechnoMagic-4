@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "illageandspillage:soul_beam",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 20,
+  "defaul_loot_table": "illageandspillage:entities/soul_beam",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

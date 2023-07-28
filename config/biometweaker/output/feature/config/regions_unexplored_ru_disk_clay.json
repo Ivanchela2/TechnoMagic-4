@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "regions_unexplored:ru_disk_clay",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Name": "minecraft:clay"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": []
+      },
+      "target": {
+        "blocks": [
+          "regions_unexplored:forest_mud",
+          "regions_unexplored:forest_dirt",
+          "regions_unexplored:plains_dirt",
+          "minecraft:dirt",
+          "minecraft:clay"
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "half_height": 1
+    },
+    "type": "minecraft:disk"
+  }
+}

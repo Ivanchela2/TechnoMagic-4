@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "twilightforest:osmium_ore",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:osmium_ore",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -32
+          },
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:the_end",
+  "dimension": {
+    "type": "minecraft:the_end",
+    "generator": {
+      "settings": "minecraft:end",
+      "dimension": "minecraft:the_end",
+      "layers": [],
+      "biome_source": {
+        "original_biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "type": "blueprint:modded"
+      },
+      "type": "skyblockbuilder:the_end"
+    }
+  }
+}

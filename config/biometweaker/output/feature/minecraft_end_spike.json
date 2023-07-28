@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "minecraft:end_spike",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:end_spike",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

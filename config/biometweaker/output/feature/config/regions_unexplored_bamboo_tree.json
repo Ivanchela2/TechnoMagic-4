@@ -1,0 +1,98 @@
+
+{
+  "registry_name": "regions_unexplored:bamboo_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "type": "regions_unexplored:bamboo_leave_decorator"
+        }
+      ],
+      "ignore_vines": true,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "waterlogged": "false",
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "regions_unexplored:bamboo_leaves"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
+              "Properties": {
+                "waterlogged": "false",
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "regions_unexplored:bamboo_leaves"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 2,
+        "offset": 0,
+        "foliage_height": 5,
+        "leaf_placement_attempts": 150,
+        "type": "minecraft:random_spread_foliage_placer"
+      },
+      "trunk_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "waterlogged": "false",
+                "leaves": "false",
+                "axis": "y"
+              },
+              "Name": "regions_unexplored:bamboo_log"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Properties": {
+                "waterlogged": "false",
+                "leaves": "true",
+                "axis": "y"
+              },
+              "Name": "regions_unexplored:bamboo_log"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 12,
+        "height_rand_a": 9,
+        "height_rand_b": 0,
+        "type": "minecraft:straight_trunk_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

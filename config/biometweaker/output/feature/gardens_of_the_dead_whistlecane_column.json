@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "gardens_of_the_dead:whistlecane_column",
+  "worldgen/placed_feature": {
+    "feature": "gardens_of_the_dead:whistlecane_column",
+    "placement": [
+      {
+        "count": 20,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "growing": "true"
+            },
+            "Name": "gardens_of_the_dead:whistlecane"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

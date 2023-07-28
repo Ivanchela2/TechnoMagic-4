@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "naturesaura:aura_mushroom",
+  "worldgen/placed_feature": {
+    "feature": "naturesaura:aura_mushroom",
+    "placement": []
+  }
+}

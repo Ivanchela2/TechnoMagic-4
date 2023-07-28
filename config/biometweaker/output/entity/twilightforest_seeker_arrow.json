@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "twilightforest:seeker_arrow",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 150,
+  "update_interval": 1,
+  "defaul_loot_table": "twilightforest:entities/seeker_arrow",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

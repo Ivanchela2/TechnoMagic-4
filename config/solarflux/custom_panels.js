@@ -1,0 +1,100 @@
+function init() {
+	panel().name("mechanical")
+		.height(8 / 16.0)
+		.generation(16384)
+		.capacity(1048576)
+		.transfer(32768)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Mechanical Solar Panel")
+			.put("ru_ru", "Механическая Солнечная панель")
+			.build();
+
+	panel().name("technical")
+		.height(8 / 16.0)
+		.generation(131072)
+		.capacity(8388608)
+		.transfer(262144)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Technical Solar Panel")
+			.put("ru_ru", "Техническая Солнечная панель")
+			.build();
+
+	panel().name("alchemical")
+		.height(8 / 16.0)
+		.generation(262144)
+		.capacity(16777216)
+		.transfer(2097152)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Alchemical Solar Panel")
+			.put("ru_ru", "Алхимическая Солнечная панель")
+			.build();
+
+	panel().name("nature")
+		.height(8 / 16.0)
+		.generation(2048)
+		.capacity(131072)
+		.transfer(4096)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Nature Solar Panel")
+			.put("ru_ru", "Природная Солнечная панель")
+			.build();
+
+	panel().name("bee")
+		.height(8 / 16.0)
+		.generation(32768)
+		.capacity(2097152)
+		.transfer(65536)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Bee Solar Panel")
+			.put("ru_ru", "Пчелинная Солнечная панель")
+			.build();
+
+	panel().name("witchery")
+		.height(8 / 16.0)
+		.generation(8192)
+		.capacity(524288)
+		.transfer(16384)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Witchery Solar Panel")
+			.put("ru_ru", "Колдовская Солнечная панель")
+			.build();
+
+	panel().name("occult")
+		.height(8 / 16.0)
+		.generation(32768)
+		.capacity(2097152)
+		.transfer(65536)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Occult Solar Panel")
+			.put("ru_ru", "Оккультная Солнечная панель")
+			.build();
+
+	panel().name("gaia")
+		.height(8 / 16.0)
+		.generation(32768)
+		.capacity(2097152)
+		.transfer(65536)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Gaia Solar Panel")
+			.put("ru_ru", "Солнечная панель Гайи")
+			.build();
+
+	panel().name("mushroom_infinity")
+		.height(8 / 16.0)
+		.generation(33554432 * 8)
+		.capacity(262144000000 * 4)
+		.transfer(65536000 * 8)
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "§cMushroom Infinity Solar Panel")
+			.put("ru_ru", "§cГрибная Бесконечная Солнечная панель")
+			.build();
+}

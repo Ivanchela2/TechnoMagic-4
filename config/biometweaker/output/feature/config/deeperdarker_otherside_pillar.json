@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deeperdarker:otherside_pillar",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "deeperdarker:otherside_pillar"
+  }
+}

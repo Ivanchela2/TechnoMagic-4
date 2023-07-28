@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "twilightforest:torch_berries",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "has_torchberries": "true"
+        },
+        "Name": "twilightforest:torchberry_plant"
+      }
+    },
+    "type": "twilightforest:underground_plants"
+  }
+}

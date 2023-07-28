@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:freeze_top_layer",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:freeze_top_layer"
+  }
+}

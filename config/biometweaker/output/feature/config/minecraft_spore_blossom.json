@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "minecraft:spore_blossom",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:spore_blossom"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "regions_unexplored:ore_redstone_large",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Properties": {
+              "lit": "false"
+            },
+            "Name": "minecraft:redstone_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Properties": {
+              "lit": "false"
+            },
+            "Name": "minecraft:deepslate_redstone_ore"
+          }
+        }
+      ],
+      "size": 20,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

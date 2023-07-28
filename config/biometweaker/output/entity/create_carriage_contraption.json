@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "create:carriage_contraption",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 15,
+  "update_interval": 3,
+  "defaul_loot_table": "create:entities/carriage_contraption",
+  "size": {
+    "height": 1.0,
+    "width": 1.0,
+    "fixed": false
+  }
+}

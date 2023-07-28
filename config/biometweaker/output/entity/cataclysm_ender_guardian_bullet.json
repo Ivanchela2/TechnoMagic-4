@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "cataclysm:ender_guardian_bullet",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 1,
+  "defaul_loot_table": "cataclysm:entities/ender_guardian_bullet",
+  "size": {
+    "height": 0.3125,
+    "width": 0.3125,
+    "fixed": false
+  }
+}

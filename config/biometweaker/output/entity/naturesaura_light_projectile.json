@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "naturesaura:light_projectile",
+  "category": "MISC",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "naturesaura:entities/light_projectile",
+  "size": {
+    "height": 0.5,
+    "width": 0.5,
+    "fixed": false
+  }
+}

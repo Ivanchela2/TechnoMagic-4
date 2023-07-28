@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "gardens_of_the_dead:whistling_woods_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:crimson_roots"
+            },
+            "weight": 70
+          },
+          {
+            "data": {
+              "Name": "gardens_of_the_dead:blistercrown"
+            },
+            "weight": 18
+          },
+          {
+            "data": {
+              "Name": "minecraft:crimson_fungus"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "Name": "minecraft:warped_fungus"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "spread_width": 8,
+      "spread_height": 4
+    },
+    "type": "minecraft:nether_forest_vegetation"
+  }
+}

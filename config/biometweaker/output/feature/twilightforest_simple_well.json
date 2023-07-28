@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "twilightforest:simple_well",
+  "worldgen/placed_feature": {
+    "feature": "twilightforest:simple_well",
+    "placement": []
+  }
+}

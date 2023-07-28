@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "productivebees:bumble_bee_nest_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Properties": {
+              "facing": "up"
+            },
+            "Name": "productivebees:bumble_bee_nest"
+          }
+        }
+      ]
+    },
+    "type": "productivebees:bumble_bee_nest"
+  }
+}

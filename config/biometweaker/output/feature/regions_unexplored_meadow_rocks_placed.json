@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "regions_unexplored:meadow_rocks_placed",
+  "worldgen/placed_feature": {
+    "feature": "regions_unexplored:meadow_rocks",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

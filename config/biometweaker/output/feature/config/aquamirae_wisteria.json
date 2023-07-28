@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "aquamirae:wisteria",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "aquamirae:wisteria"
+  }
+}

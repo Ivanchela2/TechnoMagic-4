@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "corpse:corpse",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 128,
+  "update_interval": 1,
+  "defaul_loot_table": "corpse:entities/corpse",
+  "size": {
+    "height": 0.5,
+    "width": 2.0,
+    "fixed": false
+  }
+}

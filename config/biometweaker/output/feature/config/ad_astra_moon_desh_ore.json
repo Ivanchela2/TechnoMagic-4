@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "ad_astra:moon_desh_ore",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "ad_astra:moon_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "ad_astra:moon_desh_ore"
+          }
+        }
+      ],
+      "size": 9,
+      "discard_chance_on_air_exposure": 0.5
+    },
+    "type": "minecraft:ore"
+  }
+}

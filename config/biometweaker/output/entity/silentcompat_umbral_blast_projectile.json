@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "silentcompat:umbral_blast_projectile",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 4,
+  "update_interval": 10,
+  "defaul_loot_table": "silentcompat:entities/umbral_blast_projectile",
+  "size": {
+    "height": 0.25,
+    "width": 0.25,
+    "fixed": false
+  }
+}

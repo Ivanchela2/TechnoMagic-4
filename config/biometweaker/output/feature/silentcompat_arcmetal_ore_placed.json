@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "silentcompat:arcmetal_ore_placed",
+  "worldgen/placed_feature": {
+    "feature": "silentcompat:arcmetal_ore",
+    "placement": [
+      {
+        "count": 60,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 100
+          },
+          "max_inclusive": {
+            "absolute": 300
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

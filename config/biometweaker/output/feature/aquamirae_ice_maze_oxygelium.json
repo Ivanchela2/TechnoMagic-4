@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "aquamirae:ice_maze_oxygelium",
+  "worldgen/placed_feature": {
+    "feature": "aquamirae:oxygelium",
+    "placement": [
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

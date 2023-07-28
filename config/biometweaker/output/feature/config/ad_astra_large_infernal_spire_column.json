@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "ad_astra:large_infernal_spire_column",
+  "worldgen/configured_feature": {
+    "config": {
+      "reach": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 10
+        }
+      }
+    },
+    "type": "ad_astra:infernal_spire_column"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:ram",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "enemyexpansion:entities/ram",
+  "size": {
+    "height": 1.55,
+    "width": 1.3,
+    "fixed": false
+  }
+}

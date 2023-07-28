@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "deep_dark_regrowth:ancient_fossil",
+  "worldgen/placed_feature": {
+    "feature": "deep_dark_regrowth:ancient_fossil",
+    "placement": []
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "twilightforest:tree/selector/vanilla/vanilla_mushrooms",
+  "worldgen/configured_feature": {
+    "config": {
+      "feature_true": {
+        "feature": "minecraft:huge_red_mushroom",
+        "placement": []
+      },
+      "feature_false": {
+        "feature": "minecraft:huge_brown_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_boolean_selector"
+  }
+}
