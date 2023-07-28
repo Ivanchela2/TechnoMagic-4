@@ -56,19 +56,19 @@ ServerEvents.recipes(e => {
             id: `${prefix}mana_battery`
         },
         {
-            ingredients: [{item: 'appbot:mana_cell_housing'},{item: 'ae2:cell_component_1k'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'appbot:mana_cell_housing'},{item: 'ae2:cell_component_1k'}],
             result: {item: 'appbot:mana_storage_cell_1k'},
             mana: 80000,
             id: `${prefix}mana_storage_cell_1k`
         },
         {
-            ingredients: [{item: 'appbot:mana_storage_cell_1k'},{item: 'ae2:cell_component_4k'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'appbot:mana_storage_cell_1k'},{item: 'ae2:cell_component_4k'}],
             result: {item: 'appbot:mana_storage_cell_4k'},
             mana: 160000,
             id: `${prefix}mana_storage_cell_4k`
         },
         {
-            ingredients: [{item: 'appbot:mana_storage_cell_4k'},{item: 'ae2:cell_component_16k'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'appbot:mana_storage_cell_4k'},{item: 'ae2:cell_component_16k'}],
             result: {item: 'appbot:mana_storage_cell_16k'},
             mana: 320000,
             id: `${prefix}mana_storage_cell_16k`
@@ -86,19 +86,19 @@ ServerEvents.recipes(e => {
             id: `${prefix}mana_storage_cell_256k`
         },
         {
-            ingredients: [{item: 'ae2:chest'}, {item: 'ae2:cell_component_1k'}, {item: 'ae2:energy_cell'}, {item: 'appbot:mana_cell_housing'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'ae2:chest'}, {item: 'ae2:cell_component_1k'}, {item: 'ae2:energy_cell'}, {item: 'appbot:mana_cell_housing'}],
             result: {item: 'appbot:portable_mana_storage_cell_1k'},
             mana: 100000,
             id: `${prefix}portable_mana_storage_cell_1k`
         },
         {
-            ingredients: [{item: 'appbot:portable_mana_storage_cell_1k'}, {item: 'ae2:chest'}, {item: 'ae2:cell_component_4k'}, {item: 'ae2:energy_cell'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'appbot:portable_mana_storage_cell_1k'}, {item: 'ae2:chest'}, {item: 'ae2:cell_component_4k'}, {item: 'ae2:energy_cell'}],
             result: {item: 'appbot:portable_mana_storage_cell_4k'},
             mana: 160000,
             id: `${prefix}portable_mana_storage_cell_4k`
         },
         {
-            ingredients: [{item: 'appbot:portable_mana_storage_cell_4k'}, {item: 'ae2:chest'}, {item: 'ae2:cell_component_16k'}, {item: 'ae2:energy_cell'}, {item: 'botania:specific_rune_base'}],
+            ingredients: [{item: 'appbot:portable_mana_storage_cell_4k'}, {item: 'ae2:chest'}, {item: 'ae2:cell_component_16k'}, {item: 'ae2:energy_cell'}],
             result: {item: 'appbot:portable_mana_storage_cell_16k'},
             mana: 320000,
             id: `${prefix}portable_mana_storage_cell_16k`

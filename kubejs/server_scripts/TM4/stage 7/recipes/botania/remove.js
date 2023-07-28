@@ -35,7 +35,11 @@ ServerEvents.recipes(e => {
         'botania:daffomill',
         'botania:agricarnation',
         'botania:hydroangeas',
-        /\w*mana_\w*cell/
+        /\w*mana_\w*cell/,
+        'botania:mana_ring',
+        'botania:aura_ring',
+        'botania:pixie_ring',
+        'botania:reach_ring'
     ]
 
     const id = [

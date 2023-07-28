@@ -5,7 +5,7 @@ ServerEvents.recipes(e => {
         activation_item: {item: 'occultism:book_of_binding_bound_afrit'},
         duration: 2400,
         ritual_dummy: {item: "occultism:ritual_dummy/custom_ritual"},
-        ingredients: [{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'}, {item: 'forbidden_arcanus:deorum_ingot'}, {tag: 'tm4:petal_blocks'}, {item: 'ad_astra:desh_ingot'}, {tag: 'tm4:petal_blocks'}],
+        ingredients: [{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'},{tag: 'botania:livingwood_logs'}, {item: 'gribtweaks:hephaestus_ingot'}, {tag: 'tm4:petal_blocks'}, {item: 'ad_astra:desh_ingot'}, {tag: 'tm4:petal_blocks'}],
         result: {item: 'botania:mana_spreader'},
         id: `${prefix}mana_spreader`
     },

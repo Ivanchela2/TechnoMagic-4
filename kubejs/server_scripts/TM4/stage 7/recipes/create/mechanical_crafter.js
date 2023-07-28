@@ -1,46 +1,6 @@
 
 ServerEvents.recipes(e => {
   const prefix = 'tm4:create/mechanical_crafting/';
-    e.recipes.create.mechanical_crafting('2x ad_astra:reinforced_covering', [
-        'ABABABA',
-        'BCEIECB',
-        'ADHFHDA',
-        'BIFGFIB',
-        'ADHFHDA',
-        'BCEIECB',
-        'ABABABA',
-      ], {
-        A: 'ad_astra:desh_plate',
-        B: 'chemlib:lutetium_ingot',
-        C: 'ftbic:antimatter_crystal',
-        D: 'ad_astra:protasteel_block',
-        E: 'ftbic:advanced_alloy',
-        F: 'botania:terrasteel_ingot',
-        G: 'ftbic:advanced_machine_block',
-        H: 'botania:dragonstone',
-        I: 'create:brass_casing'
-      }).id(`${prefix}reinforced_covering`)
-
-      e.recipes.create.mechanical_crafting('2x ad_astra:advanced_covering', [
-        'ABABABA',
-        'BEEDEEB',
-        'AEHIHEA',
-        'BCFGFCB',
-        'AEHIHEA',
-        'BEEDEEB',
-        'ABABABA',
-      ], {
-        A: 'ad_astra:ostrum_plate',
-        B: 'chemlib:palladium_ingot',
-        C: 'botanicadds:dreaming_pool',
-        D: 'botania:elven_spreader',
-        E: 'forbidden_arcanus:stellarite_piece',
-        F: 'ad_astra:reinforced_covering',
-        G: 'botania:gaia_catalyst',
-        H: 'botania:life_essence',
-        I: 'botania:gaia_ingot'
-      }).id(`${prefix}advanced_covering`)
-
       e.recipes.create.mechanical_crafting('ad_astra:reinforced_rocket_nose_cone', [
         '   A   ',
         '  ACA  ',
@@ -48,7 +8,7 @@ ServerEvents.recipes(e => {
         '  AFA  ',
         ' AEDGA ',
         ' ABBBA ',
-        '  AAA  ',
+        '  AAA  '
       ], {
         A: '#forge:storage_blocks/steel',
         B: 'botania:terrasteel_ingot',
@@ -58,30 +18,10 @@ ServerEvents.recipes(e => {
         F: 'ad_astra:rocket_nose_cone',
         G: 'botania:rune_summer'
       })
-      e.recipes.create.mechanical_crafting('botania:specific_rune_base', [
-        '  ATI  ',
-        ' AABII ',
-        'AACDCII',
-        'AEFGHEI',
-        'AACDCII',
-        ' AABII ',
-        '  ATI  ',
-      ], {
-        A: 'botania:elementium_ingot',
-        B: 'reliquary:frozen_core',
-        C: 'botania:gaia_ingot',
-        D: 'forbidden_arcanus:deorum_ingot',
-        E: 'botania:gaia_pylon',
-        F: 'botania:purple_piece_of_specific_rune',
-        G: 'arclight:arclight_core',
-        H: 'botania:blue_piece_of_specific_rune',
-        T: 'botania:basic_runic_stone',
-        I: 'botania:manasteel_ingot'
-      }).id(`${prefix}specific_rune_base`)
       e.recipes.create.mechanical_crafting(Item.of('easy_villagers:villager', '{villager:{VillagerData:{level:2,profession:"butcher"}}}'), [
         'ABA',
         'CDC',
-        'ABA',
+        'ABA'
       ], {
         A: '#tm4:cooked_food',
         B: 'smoker',
@@ -96,7 +36,7 @@ ServerEvents.recipes(e => {
         'CJGFNJC',
         'BKHDHKB',
         'BKKLKKB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',
@@ -120,7 +60,7 @@ ServerEvents.recipes(e => {
         'CJGFGJC',
         'BKHDHKB',
         'BKKLKKB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',
@@ -143,7 +83,7 @@ ServerEvents.recipes(e => {
         'CNMFLNC',
         'BOHDHOB',
         'BPOGOPB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',
@@ -168,7 +108,7 @@ ServerEvents.recipes(e => {
         'CJGFGJC',
         'BKHDHKB',
         'BKKLKKB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',
@@ -191,7 +131,7 @@ ServerEvents.recipes(e => {
         'CJGFGJC',
         'BKHDHKB',
         'BNKLKNB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',
@@ -228,7 +168,7 @@ ServerEvents.recipes(e => {
         'CJGFGJC',
         'BKEDEKB',
         'BNKLKNB',
-        'ABBCBBA',
+        'ABBCBBA'
       ], {
         A: 'botania:elementium_block',
         B: 'botania:elementium_ingot',

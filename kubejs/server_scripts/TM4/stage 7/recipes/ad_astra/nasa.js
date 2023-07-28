@@ -36,6 +36,6 @@ ServerEvents.recipes(e => {
             ingredients: recipe.ingredients,
             ingredient: recipe.ingredient,
             output: recipe.output
-        })
+        }).id(recipe.id)
     })
 })

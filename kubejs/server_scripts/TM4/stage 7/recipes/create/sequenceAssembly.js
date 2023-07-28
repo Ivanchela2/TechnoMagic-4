@@ -2,7 +2,7 @@ ServerEvents.recipes(e => {
   const prefix = 'tm4:create/sequencedassembly/';
     e.recipes.createSequencedAssembly(['ad_astra:reinforced_rocket_fin'], 'ad_astra:rocket_fin', [
         e.recipes.create.deploying('ad_astra:incomplete_reinforced_rocket_fin',['ad_astra:incomplete_reinforced_rocket_fin','ad_astra:desh_plate']),
-        e.recipes.create.deploying('ad_astra:incomplete_reinforced_rocket_fin',['ad_astra:incomplete_reinforced_rocket_fin','create:precision_mechanism']),
+        e.recipes.create.deploying('ad_astra:incomplete_reinforced_rocket_fin',['ad_astra:incomplete_reinforced_rocket_fin','gribtweaks:mechanical_circuit']),
         e.recipes.create.deploying('ad_astra:incomplete_reinforced_rocket_fin',['ad_astra:incomplete_reinforced_rocket_fin','botania:terrasteel_ingot']),
         e.recipes.create.deploying('ad_astra:incomplete_reinforced_rocket_fin',['ad_astra:incomplete_reinforced_rocket_fin','forbidden_arcanus:deorum_block']),
         e.recipes.create.pressing('ad_astra:incomplete_reinforced_rocket_fin', 'ad_astra:incomplete_reinforced_rocket_fin'),
@@ -18,6 +18,7 @@ ServerEvents.recipes(e => {
 
       e.recipes.createSequencedAssembly(['botania:terra_pick'], 'occultism:infused_pickaxe', [
         e.recipes.create.deploying('botania:incomplete_terra_pick',['botania:incomplete_terra_pick','botania:terrasteel_ingot']),
+        e.recipes.create.deploying('botania:incomplete_terra_pick',['botania:incomplete_terra_pick','gribtweaks:oblivion_ingot']),
         e.recipes.create.deploying('botania:incomplete_terra_pick',['botania:incomplete_terra_pick','botania:livingwood_twig']),
         e.recipes.create.deploying('botania:incomplete_terra_pick',['botania:incomplete_terra_pick','botania:mana_tablet']),
         e.recipes.create.deploying('botania:incomplete_terra_pick',['botania:incomplete_terra_pick','botania:rune_earth']),
@@ -25,6 +26,7 @@ ServerEvents.recipes(e => {
 
       e.recipes.createSequencedAssembly(['botania:terra_axe'], 'naturesaura:sky_axe', [
         e.recipes.create.deploying('botania:incomplete_terra_axe',['botania:incomplete_terra_axe','botania:terrasteel_ingot']),
+        e.recipes.create.deploying('botania:incomplete_terra_axe',['botania:incomplete_terra_axe','gribtweaks:oblivion_ingot']),
         e.recipes.create.deploying('botania:incomplete_terra_axe',['botania:incomplete_terra_axe','botania:livingwood_twig']),
         e.recipes.create.deploying('botania:incomplete_terra_axe',['botania:incomplete_terra_axe','botania:mana_tablet']),
         e.recipes.create.deploying('botania:incomplete_terra_axe',['botania:incomplete_terra_axe','botania:rune_fire']),
@@ -32,6 +34,7 @@ ServerEvents.recipes(e => {
 
       e.recipes.createSequencedAssembly(['botania:terra_sword'], 'rootsclassic:living_sword', [
         e.recipes.create.deploying('botania:incomplete_terra_sword',['botania:incomplete_terra_sword','botania:terrasteel_ingot']),
+        e.recipes.create.deploying('botania:incomplete_terra_sword',['botania:incomplete_terra_axe','gribtweaks:oblivion_ingot']),
         e.recipes.create.deploying('botania:incomplete_terra_sword',['botania:incomplete_terra_sword','botania:livingwood_twig']),
         e.recipes.create.deploying('botania:incomplete_terra_sword',['botania:incomplete_terra_sword','botania:mana_tablet']),
         e.recipes.create.deploying('botania:incomplete_terra_sword',['botania:incomplete_terra_sword','botania:rune_mana']),

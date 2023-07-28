@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
         },
         {
             input: {type: 'block', block: 'occultism:otherworld_log'},
-            output: {name: "botania:livingwood"},
+            output: {name: "botania:livingwood_log"},
             id: `${prefix}livingwood`
         }
     ]

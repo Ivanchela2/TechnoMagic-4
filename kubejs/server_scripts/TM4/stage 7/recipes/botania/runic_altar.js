@@ -2,25 +2,25 @@ ServerEvents.recipes(e => {
     const prefix = 'tm4:botania/runic_altar/';
     const recipes = [
         {
-            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'occultism:iesnium_ingot'}, {item: 'aquaculture:diamond_fishing_rod'}, {item: 'forbidden_arcanus:arcane_bone_meal'}, {item: 'forbidden_arcanus:edelwood_water_bucket'}],
+            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'occultism:iesnium_ingot'}, {item: 'aquaculture:diamond_fishing_rod'}, {item: 'gribtweaks:water_rune'}, {item: 'forbidden_arcanus:arcane_bone_meal'}, {item: 'forbidden_arcanus:edelwood_water_bucket'}],
             mana: 10000,
             output: {item: 'botania:rune_water'},
             id: `${prefix}rune_water`
         },
         {
-            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {tag: 'twilightforest:fiery_vial'}, {item: 'forbidden_arcanus:corrupti_dust'}, {item: 'forbidden_arcanus:smelter_prism'}, {item: 'create:blaze_cake'}],
+            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {tag: 'twilightforest:fiery_vial'}, {item: 'forbidden_arcanus:corrupti_dust'}, {item: 'gribtweaks:fire_rune'}, {item: 'forbidden_arcanus:smelter_prism'}, {item: 'create:blaze_cake'}],
             mana: 10000,
             output: {item: 'botania:rune_fire'},
             id: `${prefix}rune_fire`
         },
         {
-            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'naturesaura:gold_leaf'}, {item:'naturesaura:ancient_sapling'}, {item: 'rootsclassic:old_root'}, {item: 'twilightforest:liveroot'}],
+            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'naturesaura:gold_leaf'}, {item:'naturesaura:ancient_sapling'}, {item: 'gribtweaks:earth_rune'}, {item: 'rootsclassic:old_root'}, {item: 'twilightforest:liveroot'}],
             mana: 10000,
             output: {item: 'botania:rune_earth'},
             id: `${prefix}rune_earth`
         },
         {
-            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'forbidden_arcanus:cloth'}, {item:'naturesaura:sky_ingot'}, {item: 'ad_astra:oxygen_bucket'}, {item: 'twilightforest:magic_map_focus'}],
+            ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'forbidden_arcanus:cloth'}, {item:'naturesaura:sky_ingot'}, {item:'gribtweaks:air_rune'}, {item: 'ad_astra:oxygen_bucket'}, {item: 'twilightforest:magic_map_focus'}],
             mana: 10000,
             output: {item: 'botania:rune_air'},
             id: `${prefix}rune_air`
@@ -116,13 +116,13 @@ ServerEvents.recipes(e => {
             id: `${prefix}rune_spring`
         },  
         {
-            ingredients: [{item: 'botania:rune_lust'}, {item: 'botania:rune_gluttony'}, {item: 'botania:rune_greed'}, {item: 'botania:rune_sloth'}, {item:'botania:rune_wrath'}, {item:'botania:rune_envy'}, {item: 'botania:rune_pride'}, {item: 'botanicadds:rune_energy'}, {item:'botanicadds:rune_tp'}],
+            ingredients: [{item: 'botania:rune_lust'}, {item: 'botania:rune_gluttony'}, {item: 'botania:rune_greed'}, {item: 'botania:rune_sloth'}, {item:'botania:rune_wrath'}, {item:'botania:rune_envy'}, {item: 'botania:rune_pride'}, {item: 'botanicadds:rune_energy'}, {item:'botanicadds:rune_tp'}, {item: 'gribtweaks:rune_admiration'}, {item: 'gribtweaks:rune_night'}, {item: 'gribtweaks:rune_sun'}],
             mana: 70000,
             output: {item: 'botania:botany_catalyst'},
             id: `${prefix}botany_catalyst`
         },
         {
-            ingredients: [{item: 'botanicadds:gaiasteel_ingot'}, {item: 'botanicadds:gaiasteel_ingot'}, {item: 'botania:botany_catalyst'}, {item: 'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item:'botania:shimmerrock'}],
+            ingredients: [{item: 'botanicadds:gaiasteel_ingot'}, {item: 'botanicadds:gaiasteel_ingot'}, {item: 'botania:botany_catalyst'}, {item: 'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item: 'enigmaticlegacy:astral_block'}],
             mana: 100000,
             output: {item: 'botania:rune_suspension'},
             id: `${prefix}rune_suspension`
@@ -140,6 +140,6 @@ ServerEvents.recipes(e => {
     e.forEachRecipe({output: /botania:rune_(lust|gluttony|greed|sloth|wrath|envy|pride)/}, recipe => {
         let ingredients = recipe.originalRecipeIngredients
         let output = recipe.originalRecipeResult
-        e.recipes.botania.runic_altar(output, [ingredients[0], ingredients[2], ingredients[3],'arclight:arclight_ingot', 'arclight:jade_ingot'], 20000).id(recipe.getOrCreateId())
+        e.recipes.botania.runic_altar(output, [ingredients[0], ingredients[2], ingredients[3],'gribtweaks:angel_ingot', 'gribtweaks:angel_ingot'], 20000).id(recipe.getOrCreateId())
     })
 })
