@@ -4,7 +4,7 @@
 	"Sandstorm Enabled" = true
 	#Chance for sandstorms to generate sand layers. The higher the value, the more rare it is. Set to 0 to disable.
 	#Range: 0 ~ 10000
-	"Sandstorm Sand Layer" = 3
+	"Sandstorm Sand Layer" = 15
 	#Multiplier to fog during sandstorms
 	#Range: 0 ~ 100
 	"Sandstorm Fog" = 2
