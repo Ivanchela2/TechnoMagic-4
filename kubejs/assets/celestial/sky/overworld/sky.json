@@ -1,0 +1,13 @@
+{
+    "sky_objects": [
+        "sun",
+        "moon",
+        "stars",
+        "mars",
+        "mars_behind",
+        "venus",
+        "venus_behind",
+        "mercury",
+        "mercury_behind"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+	"texture": "minecraft:textures/environment/moon_phases.png",
+	"display": {
+		"scale": "20",
+		"distance": "-100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 90"
+	},
+	"properties": {
+		"has_moon_phases": true
+	}
+}

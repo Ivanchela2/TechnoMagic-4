@@ -1,0 +1,9 @@
+{
+    "primaryColor": "#7c764f",
+    "secondaryColor": "#a5994f",
+    "size": 0.8,
+    "attack": 1.5,
+    "flowerBlock": "twilightforest:ironwood_block",
+    "createComb": true,
+    "renderer": "default_crystal"
+}

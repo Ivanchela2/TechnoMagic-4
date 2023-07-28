@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:bone",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:cloth",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:bone",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:cloth",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:bone",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:cloth",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:chainmail_boots",
+    "essences": {
+        "aureal": 100,
+        "blood": 1000,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:mortem_boots",
+        "count": 1
+    }
+}

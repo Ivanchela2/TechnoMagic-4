@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 0
+        },
+        {
+            "item": "occultism:spirit_attuned_gem",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 3
+        },
+        {
+            "item": "occultism:spirit_attuned_gem",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "enigmaticlegacy:astral_dust",
+    "essences": {
+        "aureal": 200,
+        "blood": 1500,
+        "souls": 1
+    },
+    "result": {
+        "item": "enigmaticlegacy:evil_essence",
+        "count": 1
+    }
+}

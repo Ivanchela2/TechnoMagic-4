@@ -1,0 +1,30 @@
+{
+    "inputs": [
+        {
+            "item": "botania:diluted_pool",
+            "slot": 0
+        },
+        {
+            "item": "botania:diluted_pool",
+            "slot": 1
+        },
+        {
+            "item": "botania:mana_pylon",
+            "slot": 4
+        },
+        {
+            "item": "botania:manasteel_block",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "botania:mana_tablet",
+    "essences": {
+        "aureal": 50,
+        "blood": 700,
+        "souls": 1
+    },
+    "result": {
+        "item": "botania:mana_pool",
+        "count": 1
+    }
+}

@@ -1,0 +1,2 @@
+StartupEvents.registry('block', e => {
+})

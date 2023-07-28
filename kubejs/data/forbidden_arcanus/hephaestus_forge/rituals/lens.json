@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 0
+        },
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 1
+        },
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 2
+        },
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 3
+        },
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 4
+        },
+        {
+            "item": "botania:manasteel_ingot",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:glass_pane",
+    "essences": {
+        "aureal": 25,
+        "blood": 500,
+        "souls": 1
+    },
+    "result": {
+        "item": "botania:lens_normal",
+        "count": 1
+    }
+}

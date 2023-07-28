@@ -1,0 +1,19 @@
+{
+	"texture": "celestial:sky/overworld/objects/clouds.png",
+	"vertex": [
+		{ "x": "-112.5", "y": "(#yPos / 50) - 10", "z": "-112.5", "uv_x": "#uvStartX", "uv_y": "#uvStartY" },
+		{ "x": " 112.5", "y": "(#yPos / 50) - 10", "z": "-112.5", "uv_x": "#uvEndX", "uv_y": "#uvStartY" },
+		{ "x": " 112.5", "y": "(#yPos / 50) - 10", "z": " 112.5", "uv_x": "#uvEndX", "uv_y": "#uvEndY" },
+		{ "x": "-112.5", "y": "(#yPos / 50) - 10", "z": " 112.5", "uv_x": "#uvStartX", "uv_y": "#uvEndY" }
+	],
+	"rotation": {
+		"degrees_x": "-90"
+	},
+	"properties": {
+		"alpha": "(#skyDarkness - 0.5)M(0)",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": false
+	}
+}

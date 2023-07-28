@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#000000",
+    "secondaryColor": "#0f0e0e",
+    "size": 1.0,
+    "attack": 40.0,
+    "flowerBlock": "avaritia:neutronium",
+    "createComb": false,
+    "withered": true,
+    "beeTexture": "productivebees:textures/entity/bee/neutronium/bee",
+    "breedingItem": "avaritia:neutronium",
+    "breedingItemCount": 4
+   
+}

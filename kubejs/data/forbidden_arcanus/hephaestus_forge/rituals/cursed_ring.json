@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "twilightforest:carminite",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 1
+        },
+        {
+            "item": "twilightforest:borer_essence",
+            "slot": 2
+        },
+        {
+            "item": "twilightforest:fiery_ingot",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter",
+            "slot": 4
+        },
+        {
+            "item": "twilightforest:fiery_blood",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "enigmaticlegacy:iron_ring",
+    "essences": {
+        "aureal": 200,
+        "blood": 2500,
+        "souls": 1
+    },
+    "result": {
+        "item": "enigmaticlegacy:cursed_ring",
+        "count": 1
+    }
+}

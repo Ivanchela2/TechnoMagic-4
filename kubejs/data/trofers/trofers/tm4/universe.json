@@ -1,0 +1,39 @@
+{
+    "name": {
+        "text": "The Univerce Trophy",
+        "color": "#c61d7e"
+    },
+    "tooltip": [
+        { "text": "§7Ты бессмертный?" }
+    ],
+    "item": {
+        "item": "enigmaticlegacy:enigmatic_item"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.5
+    },
+    "display": {
+        "scale": 1.0,
+        "offset": {
+            "y": 1
+        }
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#c61d7e"
+    },
+    "effects": {
+        "rewards": {
+            "statusEffect": {
+                "effect": "reliquary:flight",
+                "duration": 1200,
+                "amplifier": 0
+            },
+            "cooldown": 600
+        },
+        "sound":{
+            "soundEvent": "alexsmobs:bear_dust"
+        }
+    }
+}

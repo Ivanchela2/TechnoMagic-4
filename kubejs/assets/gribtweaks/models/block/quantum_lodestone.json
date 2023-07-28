@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gribtweaks:block/quantum_lodestone_top",
+    "side": "gribtweaks:block/quantum_lodestone_side"
+  }
+}

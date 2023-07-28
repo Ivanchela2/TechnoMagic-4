@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gribtweaks:block/spirit_attuned_lodestone_top",
+    "side": "gribtweaks:block/spirit_attuned_lodestone_side"
+  }
+}

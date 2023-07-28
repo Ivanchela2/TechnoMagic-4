@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:glowstone_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:redstone",
+    "essences": {
+        "aureal": 20,
+        "blood": 100,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:arcane_crystal_dust",
+        "count": 16
+    }
+}

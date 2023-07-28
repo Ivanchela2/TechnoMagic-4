@@ -1,0 +1,21 @@
+{
+    "texture": "celestial:textures/planets/mercury.png",
+	"display": {
+		"scale": "4.5",
+		"distance": "-80",
+		"pos_z": "20",
+		"pos_x": "0",
+		"pos_y": "0"
+	},
+	"rotation": {
+		"degrees_x": "200",
+		"degrees_y": "0",
+		"degrees_z": "160 + #skyAngle",
+		"base_degrees_x": "70",
+		"base_degrees_y": "-20",
+		"base_degrees_z": "0"
+	},
+    "properties": {
+		"is_solid": true
+    }
+}

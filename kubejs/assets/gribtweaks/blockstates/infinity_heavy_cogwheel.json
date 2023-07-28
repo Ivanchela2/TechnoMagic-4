@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "gribtweaks:block/infinity_heavy_cogwheel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "gribtweaks:block/infinity_heavy_cogwheel"
+    },
+    "axis=z": {
+      "model": "gribtweaks:block/infinity_heavy_cogwheel",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

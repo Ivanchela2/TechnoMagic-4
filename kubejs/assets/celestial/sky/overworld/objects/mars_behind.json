@@ -1,0 +1,14 @@
+{
+    "texture": "celestial:textures/planets/glow.png",
+	"display": {
+		"scale": "3",
+		"distance": "-25",
+		"pos_z": "10"
+	},
+	"rotation": {
+		"degrees_z": "#skyAngle + 90"
+	},
+    "properties": {
+		"is_solid": false
+    }
+}

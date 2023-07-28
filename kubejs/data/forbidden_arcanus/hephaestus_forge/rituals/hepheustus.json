@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "sorcerium:magic_brass_alloy",
+    "essences": {
+        "aureal": 50,
+        "blood": 500,
+        "souls": 1
+    },
+    "result": {
+        "item": "gribtweaks:hephaestus_ingot",
+        "count": 1
+    }
+}

@@ -1,0 +1,155 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
+
+#morevillagers:on_ancient_city_explorer_maps
+- minecraft:ancient_city (from morevillagers-forge-1.19-4.0.3.jar)
+
+#minecraft:all_structures
+- #minecraft:village (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:ruined_portal (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:shipwreck (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:mansion (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:end_city (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:fortress (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:bastion_remnant (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:desert_pyramid (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:buried_treasure (from deeperdarker-forge-1.1.6-forge.jar)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#quark:soul_bead_target
+- minecraft:fortress (from Quark-3.4-398.jar)
+- betterfortresses:fortress? (from Quark-3.4-398.jar)
+
+#aquamirae:outpost
+- aquamirae:outpost (from aquamirae-6.API15.jar)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#morevillagers:on_pillager_outpost_explorer_maps
+- minecraft:pillager_outpost (from morevillagers-forge-1.19-4.0.3.jar)
+
+#supplementaries:way_sign_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.3.10.jar)
+- hauntedharvest:abandoned_farm? (from supplementaries-1.19.2-2.3.10.jar)
+- harvestseason:abandoned_farm? (from supplementaries-1.19.2-2.3.10.jar)
+- pokecube_legends:village? (from supplementaries-1.19.2-2.3.10.jar)
+- pokecube_legends:village/ocean? (from supplementaries-1.19.2-2.3.10.jar)
+- valhelsia_structures:castle? (from supplementaries-1.19.2-2.3.10.jar)
+- valhelsia_structures:castle_ruin? (from supplementaries-1.19.2-2.3.10.jar)
+- valhelsia_structures:small_castle? (from supplementaries-1.19.2-2.3.10.jar)
+- valhelsia_structures:tower_ruin? (from supplementaries-1.19.2-2.3.10.jar)
+- stoneholm:underground_village? (from supplementaries-1.19.2-2.3.10.jar)
+- blue_skies:gatekeeper_house? (from supplementaries-1.19.2-2.3.10.jar)
+- feywild:library? (from supplementaries-1.19.2-2.3.10.jar)
+- feywild:blacksmith? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:bazaar? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:castle? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:bearclaw_inn? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:treetop_tavern? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:wizardtower? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:fishermans_lodge? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:beekeepers_house? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:desert_market/desert_market? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:desert_market/desert_market_red? (from supplementaries-1.19.2-2.3.10.jar)
+- idas:desert_market/desert_market_orange? (from supplementaries-1.19.2-2.3.10.jar)
+
+#morevillagers:on_fortress_explorer_maps
+- minecraft:fortress (from morevillagers-forge-1.19-4.0.3.jar)
+
+#cataclysm:eye_of_flame_located
+- cataclysm:burning_arena (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- minecraft:mineshaft (from morevillagers-forge-1.19-4.0.3.jar)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#morevillagers:on_swamp_hut_explorer_maps
+- minecraft:swamp_hut (from morevillagers-forge-1.19-4.0.3.jar)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#aquamirae:ship
+- aquamirae:ship (from aquamirae-6.API15.jar)
+
+#cataclysm:eye_of_mech_located
+- cataclysm:ancient_factory (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.3.10.jar)
+- #minecraft:shipwreck (from supplementaries-1.19.2-2.3.10.jar)
+- #minecraft:mineshaft (from supplementaries-1.19.2-2.3.10.jar)
+- #minecraft:ocean_ruin (from supplementaries-1.19.2-2.3.10.jar)
+- #minecraft:ruined_portal (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:swamp_hut (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:bastion_remnant (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:jungle_pyramid (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:desert_pyramid (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:pillager_outpost (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:igloo (from supplementaries-1.19.2-2.3.10.jar)
+- minecraft:end_city (from supplementaries-1.19.2-2.3.10.jar)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#cataclysm:eye_of_ruined_located
+- cataclysm:ruined_citadel (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+
+#cataclysm:eye_of_monstrous_located
+- cataclysm:soul_black_smith (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#morevillagers:on_bastion_remnant_explorer_maps
+- minecraft:bastion_remnant (from morevillagers-forge-1.19-4.0.3.jar)
+
+#morevillagers:on_end_city_explorer_maps
+- minecraft:end_city (from morevillagers-forge-1.19-4.0.3.jar)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#morevillagers:on_jungle_temple_explorer_maps
+- minecraft:jungle_pyramid (from morevillagers-forge-1.19-4.0.3.jar)
+
+#aquamirae:shelter
+- aquamirae:shelter (from aquamirae-6.API15.jar)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+
+#alexsmobs:spawns_underminers
+- #minecraft:mineshaft (from alexsmobs-1.21.1.jar)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)

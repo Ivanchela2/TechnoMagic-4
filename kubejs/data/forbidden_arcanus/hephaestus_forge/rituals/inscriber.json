@@ -1,0 +1,37 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:iron_ingot",
+            "slot": 0
+        },
+        {
+            "item": "twilightforest:carminite",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:sticky_piston",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:iron_ingot",
+            "slot": 3
+        },
+        {
+            "item": "twilightforest:carminite",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:sticky_piston",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ftbic:machine_block",
+    "essences": {
+        "aureal": 50,
+        "blood": 100
+    },
+    "result": {
+        "item": "ae2:inscriber",
+        "count": 1
+    }
+}

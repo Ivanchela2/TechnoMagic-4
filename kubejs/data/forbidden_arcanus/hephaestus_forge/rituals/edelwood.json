@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 0
+        },
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 1
+        },
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 2
+        },
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 3
+        },
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 4
+        },
+        {
+            "item": "twilightforest:twilight_oak_sapling",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "twilightforest:borer_essence",
+    "essences": {
+        "aureal": 50,
+        "blood": 700,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:growing_edelwood",
+        "count": 5
+    }
+}

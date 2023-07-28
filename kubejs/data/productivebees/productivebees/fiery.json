@@ -1,0 +1,10 @@
+{
+    "primaryColor": "#271002",
+    "secondaryColor": "#e39e1d",
+    "size": 0.8,
+    "attack": 1.5,
+    "flowerBlock": "gribtweaks:compressed_fiery_block",
+    "createComb": true,
+    "fireproof": true,
+    "particleType": "lava"
+}

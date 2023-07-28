@@ -1,0 +1,9 @@
+{
+    "primaryColor": "#25d6b8",
+    "secondaryColor": "#1d917d",
+    "size": 0.7,
+    "attack": 1.5,
+    "flowerBlock": "enigmaticlegacy:etherium_block",
+    "createComb": true,
+    "renderer": "default_crystal"
+}

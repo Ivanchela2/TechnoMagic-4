@@ -1,0 +1,199 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
+
+#forge:oxygen
+- #ad_astra:oxygen (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#forge:crude_oil
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- sliceanddice:flowing_fertilizer (from sliceanddice-forge-2.1.0-forge.jar)
+- sliceanddice:fertilizer (from sliceanddice-forge-2.1.0-forge.jar)
+- seeds:sparkling_water (from seeds-1.19.2-1.1.3.jar)
+- seeds:flowing_sparkling_water (from seeds-1.19.2-1.1.3.jar)
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- hexerei:blood_flowing (from hexerei-0.3.0.jar)
+- hexerei:blood_fluid (from hexerei-0.3.0.jar)
+- hexerei:tallow_flowing (from hexerei-0.3.0.jar)
+- hexerei:tallow_fluid (from hexerei-0.3.0.jar)
+- create_things_and_misc:slime (from create_misc_and_things_1.19.2_2.0.jar)
+- create_things_and_misc:flowing_slime (from create_misc_and_things_1.19.2_2.0.jar)
+- create_central_kitchen:flowing_sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:flowing_syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:flowing_tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_confectionery:black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230507a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230507a.jar)
+
+#forge:biodiesel
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.10-universal.jar)
+
+#ad_astra:oxygen
+- ad_astra:oxygen (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ad_astra_platform:oil
+- #c:oil? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:oil? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#sliceanddice:moisturizing
+- minecraft:water (from sliceanddice-forge-2.1.0-forge.jar)
+
+#forge:biofuel
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20230507a.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20230507a.jar)
+
+#forge:molten_steel
+- createbigcannons:flowing_molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#forge:plantoil
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230507a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230507a.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- hexerei:quicksilver_flowing (from hexerei-0.3.0.jar)
+- hexerei:quicksilver_fluid (from hexerei-0.3.0.jar)
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- #forge:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+
+#sliceanddice:fertilizer
+- sliceanddice:flowing_fertilizer (from sliceanddice-forge-2.1.0-forge.jar)
+- sliceanddice:fertilizer (from sliceanddice-forge-2.1.0-forge.jar)
+
+#create:bottomless/deny
+
+#ad_astra:fuel
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #ad_astra:efficient_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #ad_astra_platform:diesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #ad_astra_platform:biodiesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:biofuel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- modern_industrialization:diesel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- modern_industrialization:biodiesel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- techreborn:diesel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- techreborn:biofuel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- thermal:refined_fuel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- vehicle:fuelium? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+- car:bio_diesel? (from Ad-Astra-Giselle-Addon-forge-1.19.2-1.14.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#sliceanddice:burning
+- minecraft:lava (from sliceanddice-forge-2.1.0-forge.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#forge:steam
+- biggerreactors:steam (from biggerreactors-1.19.2-0.6.0-beta.6.1.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.54.261.jar)
+- cofh_core:experience (from cofh_core-1.19.2-10.2.1.40.jar)
+- reliquary:xp_juice_still (from reliquary-1.19.2-2.0.20.1166.jar)
+
+#forge:molten_bronze
+- createbigcannons:flowing_molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#forge:diesel
+
+#forge:oil
+- #ad_astra:oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:molten_cast_iron
+- createbigcannons:flowing_molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#ad_astra_platform:diesel
+- #c:diesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:diesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ad_astra_platform:fuel
+- #c:fuel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:fuel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- create_enchantment_industry:flowing_hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- create_enchantment_industry:hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.2.1.40.jar)
+- productivebees:honey (from productivebees-1.19.2-0.10.7.0.jar)
+- productivebees:flowing_honey (from productivebees-1.19.2-0.10.7.0.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#forge:creosote
+
+#ad_astra_platform:oxygen
+- #c:oxygen? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:oxygen? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ad_astra:oil
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.6.jar)
+- techreborn:oil? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- modern_industrialization:crude_oil? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:crude_oil? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ad_astra_platform:biodiesel
+- #c:biodiesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #forge:biodiesel? (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#forge:ink
+- create_enchantment_industry:flowing_ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+- create_enchantment_industry:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.2.0.jar)
+
+#forge:fuel
+- #ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.6.jar)

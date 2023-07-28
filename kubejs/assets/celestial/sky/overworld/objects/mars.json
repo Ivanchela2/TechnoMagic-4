@@ -1,0 +1,14 @@
+{
+    "texture": "celestial:textures/planets/mars.png",
+	"display": {
+		"scale": "1.2",
+		"distance": "-25",
+		"pos_z": "10"
+	},
+	"rotation": {
+		"degrees_z": "#skyAngle + 90"
+	},
+    "properties": {
+		"is_solid": true
+    }
+}

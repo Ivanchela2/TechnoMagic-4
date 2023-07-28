@@ -1,0 +1,1956 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether (from Default)
+
+#forge:is_slope
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#friendsandfoes:has_less_mooblooms
+- minecraft:meadow (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- minecraft:sunflower_plains (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#alexsmobs:skreechers_can_spawn_wardens
+- minecraft:deep_dark (from alexsmobs-1.21.1.jar)
+- regions_unexplored:corrupted_holt (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#supplementaries:has_cave_urns
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_beach (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_hill (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:desert (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#friendsandfoes:collections/snowy_forest
+- minecraft:snowy_taiga (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- minecraft:grove (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:snowy_maple_woods? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:snowy_coniferous_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:muskeg? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:rainbow_hills? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- byg:frosted_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- byg:frosted_coniferous_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- projectvibrantjourneys:snowy_boreal_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- projectvibrantjourneys:snowy_redwoods? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:snowy_fen? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:snowy_thermal_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:deep_snowy_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#botania:marimorphosis_forest_bonus
+- #minecraft:is_forest (from Botania-1.19.2-438-FORGE.jar)
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#alexsmobs:spawns_red_gusters
+- #minecraft:is_badlands (from alexsmobs-1.21.1.jar)
+
+#friendsandfoes:has_structure/citadel
+- #minecraft:is_nether (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:in_nether? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#neapolitan:has_feature/banana_plant/uncommon
+- minecraft:sparse_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#neapolitan:has_feature/adzuki_sprouts
+- #minecraft:is_forest (from neapolitan-1.19.2-4.0.2.jar)
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+
+#twilightforest:valid_yeti_cave_biomes
+- twilightforest:snowy_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#ae2:has_meteorites
+- #minecraft:is_overworld? (from appliedenergistics2-forge-12.9.4.jar)
+
+#rottencreatures:frostbitten_blacklist
+
+#savage_and_ravage:has_monster/skeleton_villager/rare
+- minecraft:snowy_plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:ice_spikes (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#deeperdarker:has_structure/ancient_temple
+- deeperdarker:otherside_deeplands (from deeperdarker-forge-1.1.6-forge.jar)
+
+#forge:is_cold
+- #forge:is_cold/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_cold/nether? (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_cold/end (from forge-1.19.2-43.2.10-universal.jar)
+
+#forge:is_sparse/overworld
+- minecraft:windswept_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#forge:is_overworld
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+
+#friendsandfoes:has_structure/illusioner_training_grounds
+- #friendsandfoes:collections/taigas (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:produces_corals_from_bonemeal
+- minecraft:warm_ocean (from Default)
+
+#forge:is_desert
+- minecraft:desert (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:desert (from blueprint-1.19.2-6.1.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:desert (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#twilightforest:valid_aurora_palace_biomes
+- twilightforest:glacier (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/stronghold
+- #minecraft:is_overworld (from Default)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands (from Default)
+
+#minecraft:has_structure/ancient_city
+- minecraft:deep_dark (from Default)
+
+#forge:is_peak
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean (from Default)
+
+#forge:is_wet/overworld
+- minecraft:swamp (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:lush_caves (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_hill
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#alexsmobs:spawns_desert_crocodiles
+- #forge:is_sandy (from alexsmobs-1.21.1.jar)
+
+#forge:is_wet
+- #forge:is_wet/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_wet/nether? (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_wet/end? (from forge-1.19.2-43.2.10-universal.jar)
+
+#forge:is_cold/end
+- minecraft:the_end (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:the_end (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:small_end_islands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_midlands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_highlands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_barrens (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#twilightforest:valid_naga_courtyard_biomes
+- twilightforest:clearing (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:firefly_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#forge:with_default_monster_spawns
+- minecraft:deep_frozen_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_cold_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:cold_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_lukewarm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:lukewarm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:warm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:stony_shore (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:swamp (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:mangrove_swamp (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_slopes (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_beach (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_gravelly_hills (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:grove (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_hills (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:meadow (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:beach (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_spruce_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:flower_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:birch_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:dark_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:savanna_plateau (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:savanna (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:desert (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:wooded_badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:jagged_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:stony_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_river (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:river (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ice_spikes (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_pine_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sunflower_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_birch_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sparse_jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:bamboo_jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:eroded_badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_savanna (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:dripstone_caves (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:lush_caves (from blueprint-1.19.2-6.1.2.jar)
+
+#forge:is_mountain
+- #forge:is_peak (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_slope (from forge-1.19.2-43.2.10-universal.jar)
+
+#minecraft:is_hot
+- minecraft:desert (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:badlands (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:eroded_badlands (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:wooded_badlands (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna_plateau (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:windswept_savanna (from EnemyExpansion1.13-1.19.2.jar)
+
+#twilightforest:valid_lich_tower_biomes
+- twilightforest:clearing (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:firefly_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#botania:marimorphosis_desert_bonus
+- #forge:is_desert (from Botania-1.19.2-438-FORGE.jar)
+- #minecraft:is_savanna (from Botania-1.19.2-438-FORGE.jar)
+
+#friendsandfoes:has_desert_mauler
+- minecraft:desert (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:desert? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #forge:is_desert? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean (from Default)
+
+#forge:is_rare
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:flower_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#forbidden_arcanus:has_structure/nipa
+- #forge:is_plains (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- #minecraft:is_forest (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- #minecraft:is_taiga (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#friendsandfoes:has_more_mooblooms
+- minecraft:flower_forest (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:flower_forests? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#rottencreatures:swampy_blacklist
+
+#minecraft:is_nether
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:crimson_forest (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:basalt_deltas (from Default)
+- regions_unexplored:mycotoxic_undergrowth (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackstone_basin (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:glistering_meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:corrupted_holt (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redstone_hell (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest (from gardens-of-the-dead-forge-2.0.1.jar)
+- gardens_of_the_dead:whistling_woods (from gardens-of-the-dead-forge-2.0.1.jar)
+
+#neapolitan:has_feature/banana_plant/sparse
+- minecraft:beach (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:stony_shore (from neapolitan-1.19.2-4.0.2.jar)
+
+#rottencreatures:glacial_hunter_whitelist
+- minecraft:ice_spikes (from rottencreatures-forge-1.19.2-1.0.1.jar)
+- #minecraft:has_structure/igloo? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#rottencreatures:mummy_blacklist
+
+#delightful:salmonberry_spawns
+- #minecraft:is_forest (from Delightful-1.19.2-3.2.4.jar)
+
+#forge:is_dry
+- #forge:is_dry/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_dry/nether (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_dry/end (from forge-1.19.2-43.2.10-universal.jar)
+
+#neapolitan:has_feature/vanilla_vine
+- #minecraft:is_savanna (from neapolitan-1.19.2-4.0.2.jar)
+
+#savage_and_ravage:has_monster/iceologer
+- #forge:is_snowy (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#neapolitan:spawns_bamboo_variant_chimpanzees
+- minecraft:bamboo_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#collectorsreap:lime_spawns
+- minecraft:flower_forest (from collectorsreap-1.19-1.2.3.jar)
+
+#forge:is_cave
+- minecraft:lush_caves (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_delta (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bioshroom_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:scorching_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prismachasm (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#alexsmobs:spawns_white_mantis_shrimp
+- minecraft:mangrove_swamp (from alexsmobs-1.21.1.jar)
+
+#minecraft:more_frequent_drowned_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/village_desert
+- minecraft:desert (from Default)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_forest
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:grove (from Default)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#ad_astra:has_structure/lunarian_village_biomes
+- ad_astra:lunar_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#supplementaries:has_way_signs
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#rottencreatures:dead_beard_blacklist
+
+#twilightforest:in_twilight_forest
+- twilightforest:clearing (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:firefly_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:enchanted_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:lake (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:stream (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:underground (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:fire_swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dark_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dark_forest_center (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:snowy_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:glacier (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:highlands (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:thornlands (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:final_plateau (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:allows_tropical_fish_spawns_at_any_height
+- minecraft:lush_caves (from Default)
+
+#twilightforest:valid_troll_cave_biomes
+- twilightforest:highlands (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#rottencreatures:undead_miner_whitelist
+- #minecraft:is_overworld? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#supplementaries:has_basalt_ash
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+
+#minecraft:polar_bears_spawn_on_alternate_blocks
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/village_plains
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#delightful:mini_melon_spawns
+- #forge:is_plains (from Delightful-1.19.2-3.2.4.jar)
+
+#aquaculture:empty
+
+#friendsandfoes:collections/snowy_mountains
+- minecraft:snowy_slopes (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:snowy_peaks? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:icy_crags? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:icy_volcano? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#hexerei:has_structure/witch_hut_biomes
+- minecraft:swamp (from hexerei-0.3.0.jar)
+
+#ad_astra:has_structure/mars_temple_biomes
+- ad_astra:martian_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+- ad_astra:martian_canyon_creek (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#forge:is_coniferous
+- minecraft:taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_armor_appropriate
+- #minecraft:is_ocean (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_river (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_beach (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_mountain (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_hill (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_taiga (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_jungle (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_forest (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:stony_shore (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:mushroom_fields (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:ice_spikes (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:windswept_savanna (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:desert (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:snowy_plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:sunflower_plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:swamp (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna_plateau (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:dripstone_caves (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:lush_caves (from EnemyExpansion1.13-1.19.2.jar)
+
+#rottencreatures:frostbitten_whitelist
+- minecraft:ice_spikes (from rottencreatures-forge-1.19.2-1.0.1.jar)
+- #minecraft:has_structure/igloo? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#rottencreatures:burned_blacklist
+
+#friendsandfoes:has_structure/illusioner_shack
+- #friendsandfoes:collections/taigas (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#forge:is_snowy
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#ad_astra:has_structure/venus_bullet_biomes
+- ad_astra:venus_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp (from Default)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#creeperoverhaul:where_creepers_spawn
+- #minecraft:is_taiga (from creeperoverhaul-2.0.9-forge.jar)
+- #forge:is_snowy (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_savanna (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_jungle (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_hill (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/desert_pyramid (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_beach (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_jungle (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/mineshaft_mesa (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/ruined_portal_swamp (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:mushroom_fields (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:stony_peaks (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:dripstone_caves (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:lush_caves (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:lukewarm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:deep_lukewarm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:warm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+
+#minecraft:is_swamp
+- minecraft:swamp (from EnemyExpansion1.13-1.19.2.jar)
+
+#forge:is_water
+- #minecraft:is_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- #minecraft:is_river (from forge-1.19.2-43.2.10-universal.jar)
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether (from Default)
+- #minecraft:is_nether (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:only_allows_snow_and_gold_rabbits
+- minecraft:desert (from Default)
+
+#minecraft:stronghold_biased_to
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:desert (from Default)
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:meadow (from Default)
+- minecraft:grove (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#forge:is_magical
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#forge:is_dry/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:nether_wastes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:soul_sand_valley (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:crimson_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:warped_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:basalt_deltas (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redstone_hell (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mycotoxic_undergrowth (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:glistering_meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest (from gardens-of-the-dead-forge-2.0.1.jar)
+- gardens_of_the_dead:whistling_woods (from gardens-of-the-dead-forge-2.0.1.jar)
+
+#minecraft:is_beach
+- minecraft:beach (from Default)
+- minecraft:snowy_beach (from Default)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert (from Default)
+- minecraft:plains (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:taiga (from Default)
+- #minecraft:is_mountain (from Default)
+- minecraft:grove (from Default)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#botania:mystical_flower_spawnlist
+- #minecraft:is_overworld (from Botania-1.19.2-438-FORGE.jar)
+
+#forge:is_sparse
+- #forge:is_sparse/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_sparse/nether? (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_sparse/end? (from forge-1.19.2-43.2.10-universal.jar)
+
+#forge:is_swamp
+- hexerei:willow_swamp (from hexerei-0.3.0.jar)
+- minecraft:swamp (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_mountain
+- minecraft:meadow (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#cataclysm:has_structure/ruined_citadel_biomes
+- minecraft:end_highlands (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:end_midlands (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:is_desert
+- minecraft:desert (from EnemyExpansion1.13-1.19.2.jar)
+
+#minecraft:is_badlands
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#forge:is_dry/end
+- minecraft:the_end (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:the_end (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:small_end_islands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_midlands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_highlands (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:end_barrens (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#twilightforest:valid_dark_tower_biomes
+- twilightforest:dark_forest_center (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley (from Default)
+- minecraft:soul_sand_valley (from deeperdarker-forge-1.1.6-forge.jar)
+- deeperdarker:otherside_deeplands (from deeperdarker-forge-1.1.6-forge.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:glistering_meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest (from gardens-of-the-dead-forge-2.0.1.jar)
+
+#forge:is_cold/overworld
+- minecraft:taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:cold_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:deep_cold_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:deep_frozen_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_river (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+
+#forge:is_dense/overworld
+- minecraft:jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:dark_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#productivebees:is_beach_or_river
+- #minecraft:is_beach (from productivebees-1.19.2-0.10.7.0.jar)
+- #minecraft:is_river (from productivebees-1.19.2-0.10.7.0.jar)
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest (from Default)
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:warped_forest (from Default)
+- regions_unexplored:mycotoxic_undergrowth (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackstone_basin (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:glistering_meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest (from gardens-of-the-dead-forge-2.0.1.jar)
+- gardens_of_the_dead:whistling_woods (from gardens-of-the-dead-forge-2.0.1.jar)
+
+#friendsandfoes:collections/snowy_plains
+- minecraft:snowy_plains (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:alpine_grove? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:cold_shrubland? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:snowy_badlands? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:snowy_shield? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:snowy_fir_clearing? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:snowy_plains? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:snowy_bog? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:snowy_tundra? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:ice_cap? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#twilightforest:valid_hollow_hill_biomes
+- twilightforest:clearing (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:firefly_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_hill (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:stony_shore (from Default)
+- #minecraft:is_mountain (from Default)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:water_on_map_outlines
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:is_river
+- minecraft:river (from Default)
+- minecraft:frozen_river (from Default)
+- regions_unexplored:cold_river (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:muddy_river (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#friendsandfoes:collections/taigas
+- #minecraft:is_taiga (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:cloud_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:forested_highlands? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:lavender_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:lavender_valley? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:moonlight_grove? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:moonlight_valley? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:rocky_shrubland? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:shrubland? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- terralith:wintry_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:jade_cliffs? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:mediterranean_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:dead_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- biomesoplenty:old_growth_dead_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- byg:autumnal_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- byg:canadian_shield? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- byg:maple_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- projectvibrantjourneys:boreal_forest? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- projectvibrantjourneys:crystal_lakes? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:birch_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:boreal_forest_red? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:boreal_forest_yellow? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:cold_island? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:forested_highlands? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:jade_highlands? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:larch_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:pine_barrens? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- wythers:thermal_taiga? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#twilightforest:valid_hydra_lair_biomes
+- twilightforest:fire_swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#alexsmobs:spawns_nether_tarantula_hawks
+- #minecraft:is_nether (from alexsmobs-1.21.1.jar)
+
+#botania:marimorphosis_mountain_bonus
+- #minecraft:is_mountain (from Botania-1.19.2-438-FORGE.jar)
+
+#cataclysm:has_structure/burning_arena_biomes
+- minecraft:nether_wastes (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#friendsandfoes:collections/snowy
+- #friendsandfoes:collections/snowy_forest (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #friendsandfoes:collections/snowy_mountains (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #friendsandfoes:collections/snowy_plains (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:snowy? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:snowy_plains? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#forge:is_hot/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:nether_wastes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:soul_sand_valley (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:crimson_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:warped_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:basalt_deltas (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redstone_hell (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mycotoxic_undergrowth (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:glistering_meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest (from gardens-of-the-dead-forge-2.0.1.jar)
+- gardens_of_the_dead:whistling_woods (from gardens-of-the-dead-forge-2.0.1.jar)
+
+#minecraft:is_hat_appropriate
+- #minecraft:is_ocean (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_river (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_beach (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_mountain (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_hill (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_taiga (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_jungle (from EnemyExpansion1.13-1.19.2.jar)
+- #minecraft:is_forest (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:stony_shore (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:mushroom_fields (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:ice_spikes (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:windswept_savanna (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:desert (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:snowy_plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:sunflower_plains (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:swamp (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:savanna_plateau (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:dripstone_caves (from EnemyExpansion1.13-1.19.2.jar)
+- minecraft:lush_caves (from EnemyExpansion1.13-1.19.2.jar)
+
+#ad_astra:has_structure/pygro_village_biomes
+- ad_astra:venus_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#collectorsreap:portobello_spawns
+- minecraft:meadow (from collectorsreap-1.19-1.2.3.jar)
+
+#ad_astra:has_structure/moon_dungeon_biomes
+- ad_astra:lunar_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#ad_astra:has_structure/pygro_tower_biomes
+- ad_astra:venus_wastelands (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#twilightforest:valid_hedge_maze_biomes
+- twilightforest:clearing (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:firefly_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#ftbic:ore_spawn_blacklist
+- #minecraft:is_end (from ftb-industrial-contraptions-1900.1.7-build.221.jar)
+- #minecraft:is_nether (from ftb-industrial-contraptions-1900.1.7-build.221.jar)
+
+#forge:is_hot/overworld
+- minecraft:desert (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:warm_ocean (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#neapolitan:spawns_rainforest_variant_chimpanzees
+- #forge:is_rainforest? (from neapolitan-1.19.2-4.0.2.jar)
+
+#twilightforest:valid_mushroom_tower_biomes
+- twilightforest:dense_mushroom_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach (from Default)
+
+#forge:spawns_corrupt_lost_soul
+- minecraft:soul_sand_valley (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#minecraft:is_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#friendsandfoes:has_buttercup_patch
+- minecraft:flower_forest (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:flower_forests? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#forge:without_default_monster_spawns
+- minecraft:mushroom_fields (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_dark (from blueprint-1.19.2-6.1.2.jar)
+
+#forge:is_hot
+- #forge:is_hot/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_hot/nether (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_hot/end? (from forge-1.19.2-43.2.10-universal.jar)
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_slopes (from Default)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#rottencreatures:swampy_whitelist
+- #minecraft:has_structure/ruined_portal_swamp? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach (from Default)
+
+#savage_and_ravage:has_monster/skeleton_villager
+- #savage_and_ravage:has_monster/skeleton_villager/common (from savage_and_ravage-1.19.2-5.0.4.jar)
+- #savage_and_ravage:has_monster/skeleton_villager/rare (from savage_and_ravage-1.19.2-5.0.4.jar)
+- #savage_and_ravage:has_monster/skeleton_villager/weird (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#productivebees:is_mountain_or_hill
+- #minecraft:is_mountain (from productivebees-1.19.2-0.10.7.0.jar)
+- #minecraft:is_hill (from productivebees-1.19.2-0.10.7.0.jar)
+
+#forge:is_grassland
+- minecraft:plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sunflower_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:meadow (from blueprint-1.19.2-6.1.2.jar)
+
+#friendsandfoes:has_structure/iceologer_cabin
+- #friendsandfoes:collections/snowy (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:allows_surface_slime_spawns
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#forge:is_plains
+- minecraft:plains (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- minecraft:plains (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- minecraft:snowy_plains (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- minecraft:sunflower_plains (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- minecraft:meadow (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#rottencreatures:mummy_whitelist
+- #minecraft:has_structure/desert_pyramid? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#minecraft:required_ocean_monument_surrounding
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#forge:is_outer_end
+- minecraft:end_highlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:end_midlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:small_end_islands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:end_barrens (from blueprint-1.19.2-6.1.2.jar)
+
+#rottencreatures:undead_miner_blacklist
+- minecraft:mushroom_fields (from rottencreatures-forge-1.19.2-1.0.1.jar)
+- minecraft:deep_dark (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean (from Default)
+
+#rottencreatures:glacial_hunter_blacklist
+
+#forge:is_sandy
+- minecraft:desert (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle (from Default)
+
+#forbidden_arcanus:has_structure/nipa_always_floating
+- #forbidden_arcanus:has_structure/nipa (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- #minecraft:is_ocean (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- #forge:is_desert (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#minecraft:plays_underwater_music
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert (from Default)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#botania:mystical_flower_blocklist
+- #forge:is_mushroom? (from Botania-1.19.2-438-FORGE.jar)
+- #c:mushroom? (from Botania-1.19.2-438-FORGE.jar)
+
+#cataclysm:has_structure/soul_black_smith_biomes
+- minecraft:crimson_forest (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:nether_wastes (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:soul_sand_valley (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:warped_forest (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#friendsandfoes:has_badlands_mauler
+- #minecraft:is_badlands (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:badlands? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#forge:is_plateau
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#delightful:cantaloupe_spawns
+- #minecraft:is_beach (from Delightful-1.19.2-3.2.4.jar)
+
+#forge:is_lush
+- minecraft:lush_caves (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#neapolitan:has_feature/mint_pond
+- #minecraft:is_hill (from neapolitan-1.19.2-4.0.2.jar)
+
+#forge:is_dry/overworld
+- minecraft:desert (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest (from Default)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#botania:marimorphosis_plains_bonus
+- #forge:is_plains (from Botania-1.19.2-438-FORGE.jar)
+- #minecraft:is_beach (from Botania-1.19.2-438-FORGE.jar)
+
+#neapolitan:has_feature/strawberry_bush
+- #forge:is_grassland (from neapolitan-1.19.2-4.0.2.jar)
+
+#forge:is_void
+- minecraft:the_void (from forge-1.19.2-43.2.10-universal.jar)
+
+#neapolitan:has_monster/plantain_spider
+- #minecraft:is_jungle (from neapolitan-1.19.2-4.0.2.jar)
+- #forge:is_rainforest? (from neapolitan-1.19.2-4.0.2.jar)
+
+#twilightforest:valid_final_castle_biomes
+- twilightforest:final_plateau (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#neapolitan:has_animal/chimpanzee
+- #neapolitan:has_feature/banana_plant/common (from neapolitan-1.19.2-4.0.2.jar)
+- #neapolitan:has_feature/banana_plant/uncommon (from neapolitan-1.19.2-4.0.2.jar)
+- #neapolitan:has_feature/banana_plant/rare (from neapolitan-1.19.2-4.0.2.jar)
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#botania:marimorphosis_taiga_bonus
+- #forge:is_coniferous (from Botania-1.19.2-438-FORGE.jar)
+- #forge:is_cold (from Botania-1.19.2-438-FORGE.jar)
+- #forge:is_snowy (from Botania-1.19.2-438-FORGE.jar)
+
+#forge:is_icy
+- minecraft:snowy_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ice_spikes (from blueprint-1.19.2-6.1.2.jar)
+
+#forge:is_twilight
+
+#botania:mystical_mushroom_spawnlist
+- #minecraft:is_overworld (from Botania-1.19.2-438-FORGE.jar)
+- #minecraft:is_nether (from Botania-1.19.2-438-FORGE.jar)
+
+#forge:is_mushroom
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bioshroom_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#botania:mystical_mushroom_blocklist
+
+#botania:marimorphosis_fungal_bonus
+- #forge:is_mushroom (from Botania-1.19.2-438-FORGE.jar)
+- #forge:is_underground (from Botania-1.19.2-438-FORGE.jar)
+
+#minecraft:is_overworld
+- minecraft:mushroom_fields (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:grove (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:taiga (from Default)
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:beach (from Default)
+- minecraft:forest (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:desert (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:deep_dark (from Default)
+- regions_unexplored:redstone_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_delta (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bioshroom_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:scorching_caves (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prismachasm (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassy_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:orchard (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bamboo_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:baobab_savanna (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lush_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flower_field (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:arid_mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cherry_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:chalk_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:tropics (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pumpkin_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:willow_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:old_growth_rainforest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:alpha_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:autumnal_maple_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:temperate_grove (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:highland_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:gravel_beach (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:silver_birch_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mountains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:eucalyptus_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:mauve_hills (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_heights (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:towering_cliffs (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:outback (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_deciduous_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_river (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:muddy_river (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna (from Default)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:without_patrol_spawns
+- minecraft:mushroom_fields (from Default)
+- #twilightforest:in_twilight_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga (from Default)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#aquamirae:ice_maze
+- minecraft:deep_frozen_ocean (from aquamirae-6.API15.jar)
+
+#minecraft:has_closer_water_fog
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- twilightforest:spooky_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:fire_swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fungal_fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:is_plains
+- regions_unexplored:prairie (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:barley_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:lupine_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:poppy_fields (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:shrubland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:grassland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_tundra (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:dry_bushland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:steppe (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:meadow (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#alexsmobs:spawns_soul_gusters
+- minecraft:soul_sand_valley (from alexsmobs-1.21.1.jar)
+
+#friendsandfoes:has_savanna_mauler
+- #minecraft:is_savanna (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #forge:is_savanna? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- #c:savanna? (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#supplementaries:has_wild_flax
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#savage_and_ravage:has_monster/skeleton_villager/common
+- minecraft:deep_frozen_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_cold_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:cold_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_lukewarm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:lukewarm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:warm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:stony_shore (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:swamp (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:mangrove_swamp (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_slopes (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_beach (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_gravelly_hills (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:grove (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_hills (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:meadow (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:beach (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_spruce_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:flower_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:birch_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:dark_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:savanna_plateau (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:savanna (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:desert (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:wooded_badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:jagged_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:stony_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_river (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:river (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_pine_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:sunflower_plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_birch_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:sparse_jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:bamboo_jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:eroded_badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_savanna (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:dripstone_caves (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:lush_caves (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#neapolitan:has_feature/banana_plant/rare
+
+#minecraft:without_wandering_trader_spawns
+- minecraft:the_void (from Default)
+- #twilightforest:in_twilight_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert (from Default)
+- regions_unexplored:joshua_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:saguaro_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#forge:is_dense
+- #forge:is_dense/overworld (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_dense/nether? (from forge-1.19.2-43.2.10-universal.jar)
+- #forge:is_dense/end? (from forge-1.19.2-43.2.10-universal.jar)
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- regions_unexplored:bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:flooded_plains (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:giant_bayou (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#savage_and_ravage:has_monster/skeleton_villager/weird
+- minecraft:old_growth_pine_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#rottencreatures:dead_beard_whitelist
+- #minecraft:has_structure/shipwreck_beached? (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#minecraft:spawns_cold_variant_frogs
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:grove (from Default)
+- minecraft:deep_dark (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_beach (from Default)
+- #minecraft:is_end (from Default)
+- twilightforest:snowy_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:glacier (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#cataclysm:has_structure/ancient_factory_biomes
+- #forge:is_underground (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#twilightforest:valid_quest_grove_biomes
+- twilightforest:enchanted_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#friendsandfoes:has_glare
+- minecraft:lush_caves (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:is_end
+- minecraft:the_end (from Default)
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:small_end_islands (from Default)
+- minecraft:end_barrens (from Default)
+
+#forge:is_underground
+- #forge:is_cave (from forge-1.19.2-43.2.10-universal.jar)
+- quark:glimmering_weald (from Quark-3.4-398.jar)
+
+#ad_astra:has_structure/meteor_biomes
+- #minecraft:is_jungle (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #minecraft:is_forest (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #minecraft:is_taiga (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:desert (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:plains (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:snowy_plains (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:sunflower_plains (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:savanna (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:savanna_plateau (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:windswept_savanna (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#minecraft:without_zombie_sieges
+- minecraft:mushroom_fields (from Default)
+- #twilightforest:in_twilight_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#twilightforest:valid_labyrinth_biomes
+- twilightforest:swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#geode:has_echo_geode
+- deeperdarker:echoing_forest (from deeperdarker-forge-1.1.6-forge.jar)
+- deeperdarker:otherside_deeplands (from deeperdarker-forge-1.1.6-forge.jar)
+- deeperdarker:overcast_columns (from deeperdarker-forge-1.1.6-forge.jar)
+
+#minecraft:is_taiga
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- regions_unexplored:fen (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:blackwood_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:golden_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:sparse_redwoods (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:pine_slopes (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:frozen_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#minecraft:spawns_warm_variant_frogs
+- minecraft:desert (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_savanna (from Default)
+- #minecraft:is_nether (from Default)
+- #minecraft:is_badlands (from Default)
+- minecraft:mangrove_swamp (from Default)
+- twilightforest:oak_savannah (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- twilightforest:fire_swamp (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#collectorsreap:pomegranate_spawns
+- minecraft:warped_forest (from collectorsreap-1.19-1.2.3.jar)
+
+#minecraft:mineshaft_blocking
+- minecraft:deep_dark (from Default)
+
+#forge:is_wasteland
+- minecraft:snowy_plains (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:icy_desert (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+- regions_unexplored:spires (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#twilightforest:valid_knight_stronghold_biomes
+- twilightforest:dark_forest (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains (from Default)
+- regions_unexplored:cold_boreal_forest (from RegionsUnexploredForge-0.4.1+1.19.2.jar)
+
+#alexsmobs:spawns_white_seals
+- #forge:is_snowy (from alexsmobs-1.21.1.jar)
+
+#friendsandfoes:has_illusioner
+- #friendsandfoes:collections/taigas (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#productivebees:warm_ocean
+- minecraft:warm_ocean (from productivebees-1.19.2-0.10.7.0.jar)
+
+#botania:marimorphosis_swamp_bonus
+- #forge:is_swamp (from Botania-1.19.2-438-FORGE.jar)
+- #minecraft:is_jungle (from Botania-1.19.2-438-FORGE.jar)
+
+#hexerei:has_structure/dark_coven_biomes
+- minecraft:swamp (from hexerei-0.3.0.jar)
+
+#rottencreatures:burned_whitelist
+- minecraft:nether_wastes (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#botania:marimorphosis_mesa_bonus
+- #minecraft:is_badlands (from Botania-1.19.2-438-FORGE.jar)
+- #minecraft:is_savanna (from Botania-1.19.2-438-FORGE.jar)
+
+#friendsandfoes:has_iceologer
+- #friendsandfoes:collections/snowy (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#ad_astra:has_structure/oil_well_biomes
+- #minecraft:is_ocean (from ad_astra-forge-1.19.2-1.12.6.jar)
+- #minecraft:is_deep_ocean (from ad_astra-forge-1.19.2-1.12.6.jar)
+- minecraft:swamp (from ad_astra-forge-1.19.2-1.12.6.jar)
+
+#neapolitan:has_feature/banana_plant/common
+- minecraft:jungle (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:bamboo_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#minecraft:reduce_water_ambient_spawns
+- #minecraft:is_river (from Default)
+
+#hexerei:has_structure/nature_coven_biomes
+- minecraft:forest (from hexerei-0.3.0.jar)
+
+#occultism:allows_shub_niggurath_transformation
+- #minecraft:is_forest (from occultism-1.19.2-1.78.0.jar)
+
+#alexsmobs:spawns_huge_catfish
+- #forge:is_swamp (from alexsmobs-1.21.1.jar)
+
+#forge:is_spooky
+- minecraft:dark_forest (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.10-universal.jar)
+- regions_unexplored:smouldering_woodland (from RegionsUnexploredForge-0.4.1+1.19.2.jar)

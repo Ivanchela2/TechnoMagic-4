@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+    "textures": {
+		"north": "avaritia:blocks/machine/absolute_collector/side",
+		"east": "avaritia:blocks/machine/absolute_collector/side",
+		"south": "avaritia:blocks/machine/absolute_collector/front",
+		"west": "avaritia:blocks/machine/absolute_collector/side",
+		"up": "avaritia:blocks/machine/absolute_collector/top",
+		"down": "avaritia:blocks/machine/absolute_collector/side",
+		"particle": "avaritia:blocks/machine/absolute_collector/top"
+  }
+}

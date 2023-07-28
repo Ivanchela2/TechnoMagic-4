@@ -1,0 +1,8 @@
+{
+  "block.create_mechanical_spawner.mechanical_spawner": "Механический Спаунер",
+  "block.create_mechanical_spawner.spawn_fluid": "Жидкость для спаунера",
+  "create.recipe.spawner": "Рецепт спаунера",
+  "fluid.create_mechanical_spawner.spawn_fluid": "Жидкость для спаунера",
+  "item.create_mechanical_spawner.spawn_fluid_bucket": "Ведро с жидкостью для сппавнера",
+  "itemGroup.create_mechanical_spawner:main": "Создать механический спаунер"
+}

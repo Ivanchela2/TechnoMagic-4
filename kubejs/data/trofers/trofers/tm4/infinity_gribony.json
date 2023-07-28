@@ -1,0 +1,39 @@
+{
+    "name": {
+        "text": "Infinity Gribony Trophy",
+        "color": "#c43030"
+    },
+    "tooltip": [
+        { "text": "§7Грибной повелитель." }
+    ],
+    "item": {
+        "item": "chemlib:infinity_gribony_ingot"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.5
+    },
+    "display": {
+        "scale": 1.0,
+        "offset": {
+            "y": 1
+        }
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#a33636"
+    },
+    "effects": {
+        "rewards": {
+            "statusEffect": {
+                "effect": "upgradednetherite_items:netherite_resistance",
+                "duration": 600,
+                "amplifier": 4
+            },
+            "cooldown": 600
+        },
+        "sound":{
+            "soundEvent": "alexsmobs:bear_dust"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+Ponder.registry(e => {
+    e
+    .create([
+        'botania:orechid_ignem',
+        'botania:floating_orechid_ignem'
+    ])
+    .scene('tm4:orechid_ignem', 'Ore farm with Orechid Ignem', 'kubejs:ignem_orechid', (scene, util) => {
+        scene.scaleSceneView(.8);
+        scene.setSceneOffsetY(-1);
+        scene.showBasePlate()
+        scene.idle(20)
+        scene.overlay.showText(60)
+			.colored(PonderPalette.RED)
+			.text("Let's build an ore farm with an orechid ignem")
+			.placeNearTarget();
+        scene.world.showSection(util.select.position(3,1,4), Facing.DOWN)
+        scene.idle(80)
+        scene.addKeyframe()
+        scene.world.showSection(util.grid.at(3,1,3), Facing.DOWN)
+        scene.idle(20)
+        scene.world.showIndependentSection(util.grid.at(3,1,2), Facing.SOUTH)
+        scene.idle(20)
+        scene.world.showIndependentSection(util.select.fromTo(3,2,6,2,1,6), Facing.DOWN)
+        scene.idle(30)
+        scene.world.showSection(util.select.fromTo(6,1,6,4,2,4), Facing.SOUTH)
+        scene.idle(20)
+        scene
+            .text(80, "Put netherrack as a filter in the export bus and ME interface", [5, 3, 5])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(100)
+        scene
+            .text(60, "And place a formation plane here", [3.7, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+        scene.idle(80)
+        scene.world.showIndependentSection(util.select.fromTo(1,1,6,0,1,5), Facing.DOWN)
+        scene.idle(30)
+        scene
+            .text(80, "Put gold nugget, ancient debris and quartz in the filter of import bus ", [0, 2, 4.7])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(100)
+        scene
+            .text(60, "It's very important to place quartz fiber there", [1, 2, 4.7])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene
+            .text(60, "Don't forget to split cables with an anchor", [0.5, 2, 5])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene.world.showIndependentSection(util.select.fromTo(0,1,4,2,1,4), Facing.DOWN)
+        scene.idle(30)
+        scene
+        .text(110, "Make the same filter in the ME interface like in the import bus: gold nugget, ancient debris and quartz", [0, 2, 4])
+        .colored(PonderPalette.WHITE)
+        .placeNearTarget()
+        .attachKeyFrame()
+        scene.idle(130)
+        scene
+            .text(100, "Put the configured ME storage cell with filter of gold nugget, ancient debris and quartz in ME chest", [1.3, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(120)
+        scene
+            .text(60, "Then place the annihilation plane", [2.8, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:netherrack', true)
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:nether_gold_ore', true)
+        scene.idle(20)
+        scene.world.destroyBlock(util.grid.at(3,1,4))
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:netherrack', true)
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:ancient_debris', true)
+        scene.idle(20)
+        scene.world.destroyBlock(util.grid.at(3,1,4))
+        scene.idle(60)
+    })
+})

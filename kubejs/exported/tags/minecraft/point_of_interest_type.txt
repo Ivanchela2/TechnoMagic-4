@@ -1,0 +1,35 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
+
+#friendsandfoes:lightning_rods
+- friendsandfoes:exposed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:weathered_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:oxidized_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:waxed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:waxed_exposed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:waxed_oxidized_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:waxed_weathered_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#minecraft:bee_home
+- minecraft:beehive (from Default)
+- minecraft:bee_nest (from Default)
+- #productivebees:advanced_beehive (from productivebees-1.19.2-0.10.7.0.jar)
+- productivebees:nether_nest (from productivebees-1.19.2-0.10.7.0.jar)
+- blueprint:beehive (from blueprint-1.19.2-6.1.2.jar)
+- friendsandfoes:acacia_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:birch_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:crimson_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:dark_oak_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:jungle_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:mangrove_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:spruce_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+- friendsandfoes:warped_beehive (from friendsandfoes-forge-mc1.19.2-1.8.1.jar)
+
+#productivebees:advanced_beehive
+- productivebees:advanced_beehive (from productivebees-1.19.2-0.10.7.0.jar)
+
+#minecraft:acquirable_job_site
+
+#minecraft:village
+- #minecraft:acquirable_job_site (from Default)
+- minecraft:home (from Default)
+- minecraft:meeting (from Default)

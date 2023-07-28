@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "ftbic:carbon_plate",
+            "slot": 0
+        },
+        {
+            "item": "ftbic:advanced_alloy",
+            "slot": 1
+        },
+        {
+            "item": "aquaculture:neptunium_ingot",
+            "slot": 2
+        },
+        {
+            "item": "aquaculture:neptunium_ingot",
+            "slot": 3
+        },
+        {
+            "item": "ftbic:advanced_alloy",
+            "slot": 4
+        },
+        {
+            "item": "ftbic:carbon_plate",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ftbic:machine_block",
+    "essences": {
+        "aureal": 50,
+        "blood": 100,
+        "souls": 1
+    },
+    "result": {
+        "item": "ftbic:advanced_machine_block",
+        "count": 1
+    }
+}

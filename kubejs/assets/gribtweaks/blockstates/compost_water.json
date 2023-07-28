@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "water=3": {
+      "model": "gribtweaks:block/compost_water"
+    }
+  }
+}

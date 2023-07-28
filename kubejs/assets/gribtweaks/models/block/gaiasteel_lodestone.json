@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gribtweaks:block/gaiasteel_lodestone_top",
+    "side": "gribtweaks:block/gaiasteel_lodestone_side"
+  }
+}

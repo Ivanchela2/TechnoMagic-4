@@ -1,0 +1,9 @@
+{
+    "primaryColor": "#a4b0a0",
+    "secondaryColor": "#b7c4b2",
+    "size": 0.8,
+    "attack": 1.5,
+    "flowerBlock": "gribtweaks:compressed_knightmetal_block",
+    "createComb": true,
+    "renderer": "default_crystal"
+}

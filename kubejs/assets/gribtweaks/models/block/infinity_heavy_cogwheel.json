@@ -1,0 +1,12 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "tm4:block/base/cogwheel",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "1_2": "tm4:infinity_heavy_cogwheel",
+        "particle": "tm4:infinity_heavy_cogwheel"
+    }
+}

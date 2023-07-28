@@ -1,0 +1,37 @@
+{
+    "inputs": [
+        {
+            "item": "ftbic:industrial_grade_metal", 
+            "slot": 0
+        },
+        {
+            "item": "ftbic:fuse",
+            "slot": 1
+        },
+        {
+            "item": "ftbic:industrial_grade_metal",
+            "slot": 2
+        },
+        {
+            "item": "ftbic:industrial_grade_metal",
+            "slot": 3
+        },
+        {
+            "item": "ftbic:fuse",
+            "slot": 4
+        },
+        {
+            "item": "ftbic:industrial_grade_metal",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "twilightforest:carminite_reactor",
+    "essences": {
+        "aureal": 50,
+        "blood": 100
+    },
+    "result": {
+        "item": "ftbic:machine_block",
+        "count": 1
+    }
+}

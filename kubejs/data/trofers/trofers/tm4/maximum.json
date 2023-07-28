@@ -1,0 +1,39 @@
+{
+    "name": {
+        "text": "Maximum Trophy",
+        "color": "#c43030"
+    },
+    "tooltip": [
+        { "text": "§7Возглавь ботаническое поколение!" }
+    ],
+    "item": {
+        "item": "botania:maximum_catalyst"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.4
+    },
+    "display": {
+        "scale": 1.0,
+        "offset": {
+            "y": 1
+        }
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#a33636"
+    },
+    "effects": {
+        "rewards": {
+            "statusEffect": {
+                "effect": "upgradednetherite_items:netherite_strength",
+                "duration": 300,
+                "amplifier": 3
+            },
+            "cooldown": 600
+        },
+        "sound":{
+            "soundEvent": "alexsmobs:bear_dust"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "singularity.avaritia.calorite": "Calorite",
+  "singularity.avaritia.terra_steel": "Terrasteel",
+  "singularity.avaritia.amethyst": "Amethyst",
+  "singularity.avaritia.experience": "Experience",
+  "singularity.avaritia.soul_steel": "Soul Steel",
+  "singularity.avaritia.rose_quartz": "Rose Quartz",
+  "singularity.avaritia.gribony": "Gribony",
+  "singularity.avaritia.depth": "Depth",
+  "singularity.avaritia.dark_matter": "Dark Matter",
+  "singularity.avaritia.etherium": "Etherium",
+  "singularity.avaritia.precision_mechanism": "Precision Mechanism",
+  "singularity.avaritia.tyrian_steel": "Tyrian Steel",
+  "singularity.avaritia.knight_metal": "Knight Metal",
+  "singularity.avaritia.fiery_blood": "Fiery Blood",
+  "singularity.avaritia.neutronium": "Neutronium",
+  "container.advanced_neutron_collector": "Advanced Neutronium Collector",
+  "container.absolute_neutron_collector": "Absolute Neutronium Collector",
+  "block.avaritia.advanced_neutron_collector": "§cAdvanced Neutronium Collector",
+  "block.avaritia.absolute_neutron_collector": "§dAbsolute Neutronium Collector"
+}

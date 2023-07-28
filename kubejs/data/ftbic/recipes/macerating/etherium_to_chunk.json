@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_ore"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 3,
+      "item": "ftbic:chunk_of_etherium"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "botania:livingrock",
+            "slot": 0
+        },
+        {
+            "item": "botania:livingrock",
+            "slot": 1
+        },
+        {
+            "item": "botania:livingrock",
+            "slot": 5
+        },
+        {
+            "item": "botania:mana_diamond",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:netherite_ingot",
+            "slot": 3
+        },
+        {
+            "item": "botania:mana_pearl",
+            "slot": 2
+        }
+    ],
+    "hephaestus_forge_item": "botania:mana_tablet",
+    "essences": {
+        "aureal": 70,
+        "blood": 1000,
+        "souls": 1
+    },
+    "result": {
+        "item": "botania:runic_altar",
+        "count": 1
+    }
+}

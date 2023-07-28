@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "solarflux:twilightforest/twilight_cell_1",
+            "slot": 0
+        },
+        {
+            "item": "solarflux:twilightforest/twilight_cell_1",
+            "slot": 1
+        },
+        {
+            "item": "solarflux:sp_5",
+            "slot": 2
+        },
+        {
+            "item": "twilightforest:fiery_block",
+            "slot": 3
+        },
+        {
+            "item": "solarflux:sp_5",
+            "slot": 4
+        },
+        {
+            "item": "solarflux:twilightforest/twilight_cell_1",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "solarflux:photovoltaic_cell_4",
+    "essences": {
+        "aureal": 100,
+        "blood": 50,
+        "souls": 1
+    },
+    "result": {
+        "item": "solarflux:sp_tf.fiery",
+        "count": 1
+    }
+}

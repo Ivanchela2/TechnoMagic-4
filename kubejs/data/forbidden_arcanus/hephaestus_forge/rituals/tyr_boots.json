@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:golden_dragon_scale",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:aquatic_dragon_scale",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:golden_dragon_scale",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:aquatic_dragon_scale",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:golden_dragon_scale",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:aquatic_dragon_scale",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "forbidden_arcanus:draco_arcanus_boots",
+    "essences": {
+        "aureal": 100,
+        "blood": 1000,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:tyr_boots",
+        "count": 1
+    }
+}

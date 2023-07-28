@@ -1,0 +1,37 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:iron_ingot",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:amethyst_shard",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:coal",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:iron_ingot",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:amethyst_shard",
+            "slot": 4
+        },
+        {
+            "item": "ftbic:coal_ball",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "gribtweaks:chunk_of_etherium",
+    "essences": {
+        "aureal": 50,
+        "blood": 100
+    },
+    "result": {
+        "item": "enigmaticlegacy:etherium_ingot",
+        "count": 3
+    }
+}

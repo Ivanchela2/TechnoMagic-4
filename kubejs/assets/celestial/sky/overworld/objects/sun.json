@@ -1,0 +1,12 @@
+{
+	"texture": "minecraft:textures/environment/sun.png",
+	"display": {
+		"scale": "30",
+		"distance": "100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 90"
+	},
+	"properties": {
+	}
+}

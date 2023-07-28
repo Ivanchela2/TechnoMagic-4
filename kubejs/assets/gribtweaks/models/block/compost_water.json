@@ -1,0 +1,11 @@
+{
+  "parent": "gribtweaks:block/template_compost",
+  "textures": {
+    "bottom": "gribtweaks:block/wooden_cauldron_bottom",
+    "content": "gribtweaks:block/water_still",
+    "inside": "gribtweaks:block/wooden_cauldron_inner",
+    "particle": "gribtweaks:block/wooden_cauldron_side",
+    "side": "gribtweaks:block/wooden_cauldron_side",
+    "top": "gribtweaks:block/wooden_cauldron_top"
+  }
+}

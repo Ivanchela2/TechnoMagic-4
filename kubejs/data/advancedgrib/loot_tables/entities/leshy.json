@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "rootsclassic:bark_knife",
+            "functions": [
+              {
+                "function": "minecraft:looting_enchant",
+                "count": 3
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 13
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "rootsclassic:bark_knife",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

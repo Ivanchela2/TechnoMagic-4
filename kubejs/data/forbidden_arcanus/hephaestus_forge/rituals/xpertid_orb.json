@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "create:experience_nugget",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 4
+        },
+        {
+            "item": "create:experience_nugget",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "forbidden_arcanus:corrupti_dust",
+    "essences": {
+        "aureal": 40,
+        "blood": 200,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:xpetrified_orb",
+        "count": 1
+    }
+}

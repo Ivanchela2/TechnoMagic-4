@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#94ff2b",
+    "secondaryColor": "#b0e0e6",
+    "size": 1.0,
+    "attack": 50.0,
+    "flowerBlock": "gribtweaks:block_infinity_catalyst",
+    "createComb": false,
+    "withered": true,
+    "beeTexture": "productivebees:textures/entity/bee/infinity/bee",
+    "breedingItem": "gribtweaks:block_infinity_catalyst",
+    "breedingItemCount": 1
+}

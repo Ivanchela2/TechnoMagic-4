@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:nether_star",
+    "essences": {
+        "aureal": 200,
+        "blood": 1500,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:dark_nether_star",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- minecraft:darkness (from neapolitan-1.19.2-4.0.2.jar)
+- neapolitan:vanilla_scent (from neapolitan-1.19.2-4.0.2.jar)
+- autumnity:foul_taste? (from neapolitan-1.19.2-4.0.2.jar)
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.3.10.jar)

@@ -1,0 +1,85 @@
+Ponder.registry(e => {
+    e
+        .create([
+            'naturesaura:animal_spawner'
+        ])
+        .scene('tm4:animal_spawner', "Animal spawner", 'animal_spawner', (scene, util) => {
+            const centerBlockPos = util.grid.at(4, 2, 4);
+            const centerTop = util.vector.topOf(centerBlockPos);
+            scene.showBasePlate()
+            scene.idle(0)
+                        scene.overlay.showText(50)
+                .colored(PonderPalette.BLUE)
+                .text("Давайте же построим алтарь возрождения!")
+                .placeNearTarget();
+            scene.idle(40)
+            scene.idle(0)
+            scene.world.showSection(util.select.fromTo(5, 1, 1, 3, 1, 1), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(1, 1, 3, 1, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(3, 1, 7, 5, 1, 7), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(7, 1, 5, 7, 1, 3), Facing.DOWN)
+            scene.world.showSection(util.grid.at(6, 1, 2), Facing.DOWN)
+            scene.world.showSection(util.grid.at(6, 1, 6), Facing.DOWN)
+            scene.world.showSection(util.grid.at(2, 1, 6), Facing.DOWN)
+            scene.world.showSection(util.grid.at(2, 1, 2), Facing.DOWN)
+            scene.idle(60)
+            scene.addKeyframe()
+            scene.idle(0)
+            scene.world.showSection(util.grid.at(5, 1, 3), Facing.DOWN)
+            scene.world.showSection(util.grid.at(5, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.grid.at(3, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.grid.at(3, 1, 3), Facing.DOWN)
+            scene.idle(60)
+            scene.addKeyframe()
+            scene.idle(0)
+            scene.world.showSection(util.select.fromTo(5, 1, 2, 3, 1, 2), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(6, 1, 3, 6, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(5, 1, 6, 3, 1, 6), Facing.DOWN)
+            scene.world.showSection(util.select.fromTo(2, 1, 3, 2, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.grid.at(4, 1, 3), Facing.DOWN)
+            scene.world.showSection(util.grid.at(5, 1, 4), Facing.DOWN)
+            scene.world.showSection(util.grid.at(4, 1, 5), Facing.DOWN)
+            scene.world.showSection(util.grid.at(3, 1, 4), Facing.DOWN)
+            scene.idle(40)
+            scene.idle(0)
+            scene.world.showSection(util.grid.at(4, 1, 4), Facing.DOWN)
+            scene.idle(40)
+            scene.addKeyframe()
+            scene.idle(0)
+            scene.overlay.showText(50)
+                .colored(PonderPalette.BLUE)
+                .text("And place the animal spawner")
+                .placeNearTarget();
+            scene.world.showSection(util.grid.at(4, 2, 4), Facing.DOWN)
+            scene.idle(60)
+            scene.addKeyframe()
+            scene.idle(0)
+            scene.overlay.showText(80)
+                .colored(PonderPalette.BLUE)
+                .text("In order to summon any animal/mob, you need to throw the items listed in REI on the spinner")
+                .placeNearTarget();
+            scene.idle(80)
+            scene.addKeyframe()
+            scene.idle(0)
+            var orange_wool = scene.world.createItemEntity(util.vector.topOf(4, 3, 4), (util.vector.of(0, 0, 0)),'minecraft:orange_wool');
+            scene.idle(40)
+            scene.idle(0)
+            var mutton = scene.world.createItemEntity(util.vector.topOf(4, 3, 4), (util.vector.of(0, 0, 0)),'minecraft:mutton');
+            scene.idle(40)
+            scene.idle(0)
+            var birth_spirit = scene.world.createItemEntity(util.vector.topOf(4, 3, 4), (util.vector.of(0, 0, 0)),'naturesaura:birth_spirit');
+            scene.idle(40)
+            scene.addKeyframe()
+            scene.overlay.showText(50)
+                .colored(PonderPalette.BLUE)
+                .text("The altar will work when the items are missing")
+                .placeNearTarget();
+            scene.idle(0)
+            scene.world.removeEntity(orange_wool)
+            scene.world.removeEntity(mutton)
+            scene.world.removeEntity(birth_spirit)
+            scene.idle(40)
+            var sheep = scene.world.createEntity("sheep", centerTop);
+
+        })
+})
