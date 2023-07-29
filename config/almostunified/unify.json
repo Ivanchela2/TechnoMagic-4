@@ -2,6 +2,8 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
+    "alloyed",
+    "ftbic",
     "create",
     "botania"
   ],
