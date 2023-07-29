@@ -114,7 +114,7 @@ ServerEvents.recipes((event) => {
                 T: 'gribtweaks:quadruple_compressed_crafting_table',
                 U: 'avaritia:crystal_matrix_ingot'
             },
-            result: '1x avaritia:extreme_crafting_table',
+            output: 'avaritia:extreme_crafting_table',
             acceptMirrored: true,
             id: `${prefix}extreme_crafting_table`
         }

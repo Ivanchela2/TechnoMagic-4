@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
         "source": "productivebees:iron",
         "result": "productivebees:witch_ingot",
         "item": {
-            "item": "gribtweaks:witch_ingot"
+            "item": 'hexerei:witch_ingot'
         }
     })
 });

@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
                 'collectorsreap:coffee_gummy', 
                 'delightful:salmonberry_gummy'
             ],
-            output: Item.of('tm4:combined_jelly', 1),
+            output: Item.of('gribtweaks:combined_jelly', 1),
             id: `${id_prefix}combined_jelly`
         }
     ];

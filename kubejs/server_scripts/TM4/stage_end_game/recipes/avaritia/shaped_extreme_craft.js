@@ -307,7 +307,7 @@ ServerEvents.recipes(event => {
                 '   A A   '
             ],
             key: {
-			    A: Item.of('productivebees:infinity_honeycomb').toJson(),
+			    A: Item.of('gribtweaks:infinity_honeycomb').toJson(),
 			    B: Item.of('megacells:mana_storage_cell_256m').toJson(),
 			    C: Item.of('megacells:fluid_storage_cell_256m').toJson(),
 			    D: Item.of('megacells:item_storage_cell_256m').toJson(),

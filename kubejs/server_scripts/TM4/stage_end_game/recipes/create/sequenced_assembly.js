@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
                 },
                 {
                     type: 'deploying',
-                    input: ['megacells:bulk_cell_component', 'tm4:infinity_heavy_cogwheel'],
+                    input: ['megacells:bulk_cell_component', 'gribtweaks:infinity_heavy_cogwheel'],
                     output: 'megacells:bulk_cell_component'
                 }
             ],
