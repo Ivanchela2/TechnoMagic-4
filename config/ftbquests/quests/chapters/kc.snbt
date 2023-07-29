@@ -348,7 +348,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["527305C0634DF83B"]
 			description: [
 				"Ты прошёл &6огромный путь&r и теперь тебя ждёт &6огромная фармилка ресурсов&r."
 				"Попытайся пройти всю &bаваритию&r, дойди до создания &dтворческих &bмощнейших&9 предметов&r и &aфинальной&r           &cБесконечной Грибной Брони&4!"
@@ -1136,8 +1135,8 @@
 				}
 			]
 			tasks: [{
-				id: "26ADB1E1AC533807"
-				item: "tm4:neutronium_catalyst"
+				id: "09965E13B4D38785"
+				item: "gribtweaks:neutronium_catalyst"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1921,7 +1920,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["527305C0634DF83B"]
 			hide: true
 			id: "6FC557C64A0AA964"
 			rewards: [
@@ -1969,8 +1967,8 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "4A65A22BE7910619"
-				item: "tm4:infinity_heavy_cogwheel"
+				id: "015548C5EF0C3F0F"
+				item: "gribtweaks:infinity_heavy_cogwheel"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2132,7 +2130,6 @@
 			y: 15.75d
 		}
 		{
-			dependencies: ["527305C0634DF83B"]
 			hide: true
 			id: "2F99603D81A2EE64"
 			rewards: [{
