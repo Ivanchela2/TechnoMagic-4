@@ -560,8 +560,8 @@
 			shape: "octagon"
 			size: 1.3d
 			tasks: [{
-				id: "1335AC459546DA5A"
-				item: "ivanchela:botany_catalyst"
+				id: "3D15EFDEE0E44216"
+				item: "botania:botany_catalyst"
 				type: "item"
 			}]
 			x: -2.9000000000000057d
@@ -1220,7 +1220,7 @@
 			id: "5485DC01C6AF3AE0"
 			rewards: [{
 				id: "11390D19D220E012"
-				item: "ivanchela:botany_catalyst"
+				item: "botania:botany_catalyst"
 				type: "item"
 			}]
 			shape: "rsquare"
