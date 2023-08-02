@@ -16,6 +16,22 @@ ServerEvents.recipes((event) => {
                 },
             ]
 
+        },
+        {
+            type: 'create:milling',
+            ingredients: [
+                {
+                    item: 'naturesaura:gold_leaf'
+                }
+            ],
+            processingTime: 100,
+            results: [
+                {
+                    count: 2,
+                    item: 'naturesaura:gold_powder'
+                },
+            ]
+
         }
     ];
     recipes.forEach(recipe => {
