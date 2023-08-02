@@ -181,4 +181,42 @@ ServerEvents.recipes((event) => {
         },
         'acceptMirrored': true
     }).id(`${prefix}launch_pad`)
+
+    event.custom({
+        'type': 'create:mechanical_crafting',
+        'pattern': [
+        'PPIIIPP',
+        'PASASAP',
+        'ISPMPSI',
+        'IAMRMAI',
+        'ISPMPSI',
+        'PASASAP',
+        'PPIIIPP'
+        ],
+        'key': {
+            'A': {
+                'item': 'gribtweaks:super_alloy'
+            },
+            'I': {
+                'item': 'gribtweaks:iridium_ore'
+            },
+            'M': {
+                'item': 'hexerei:magical_steel'
+            },
+            'P': {
+                'item': 'ad_astra:protasteel_block'
+            },
+            'R': {
+                'item': 'gribtweaks:void_rune'
+            },
+            'S': {
+                'item': 'ad_astra:steel_block'
+            }
+        },
+        'result': {
+        'item': 'ad_astra:rocket_covering',
+        'count': 1
+        },
+        'acceptMirrored': true
+    }).id(`${prefix}rocket_covering`)
 });
