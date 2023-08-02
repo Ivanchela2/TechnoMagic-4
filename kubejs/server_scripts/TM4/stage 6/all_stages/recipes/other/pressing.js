@@ -5,6 +5,11 @@ ServerEvents.recipes((event) => {
             output: 'gribtweaks:component_base',
             inputs: ['gribtweaks:component_ingot'],
             id: `${id_prefix}component_base`
+        },
+        {
+            output: 'gribtweaks:ultimate_component_base',
+            inputs: ['gribtweaks:ultimate_ingot'],
+            id: `${id_prefix}ultimate_component_base`
         }
     ];
 

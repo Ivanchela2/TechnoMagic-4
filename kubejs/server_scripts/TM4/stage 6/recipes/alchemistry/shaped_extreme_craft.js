@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
                 D: Item.of('chemlib:infinity_neutronium_ingot').toJson(),
                 G: Item.of('chemlib:gribony_catalyst').toJson(),
                 I: Item.of('avaritia:infinity_ingot').toJson(),
-                M: Item.of('gribtweaks:ultimate_ingot').toJson(),
+                M: Item.of('gribtweaks:advanced_gribony_component').toJson(),
             },
             output: 'chemlib:infinity_gribony_ingot',
             id: `${prefix}infinity_gribony_ingot`

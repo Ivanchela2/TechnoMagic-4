@@ -29,51 +29,6 @@ ServerEvents.recipes((event) => {
       id: `${prefix}time_in_a_bottle`
     },
     {
-      output: 'gribtweaks:gold_lodestone',
-      pattern: [' S ', 'SMS', ' S '],
-      key: {
-        M: 'minecraft:lodestone',
-        S: '#forge:ingots/gold'
-      },
-      id: `${prefix}gold_lodestone`
-    },
-    {
-      output: 'gribtweaks:hephaestus_lodestone',
-      pattern: [' S ', 'SMS', ' S '],
-      key: {
-        M: 'minecraft:lodestone',
-        S: 'gribtweaks:hephaestus_ingot'
-      },
-      id: `${prefix}hephaestus_lodestone`
-    },
-    {
-      output: 'gribtweaks:quantum_lodestone',
-      pattern: [' S ', 'SMS', ' S '],
-      key: {
-        M: 'minecraft:lodestone',
-        S: 'gribtweaks:quantum_ingot'
-      },
-      id: `${prefix}quantum_lodestone`
-    },
-    {
-      output: 'gribtweaks:spirit_attuned_lodestone',
-      pattern: [' S ', 'SMS', ' S '],
-      key: {
-        M: 'minecraft:lodestone',
-        S: 'gribtweaks:spirit_attuned_ingot'
-      },
-      id: `${prefix}spirit_attuned_lodestone`
-    },
-    {
-      output: 'gribtweaks:gaiasteel_lodestone',
-      pattern: [' S ', 'SMS', ' S '],
-      key: {
-        M: 'minecraft:lodestone',
-        S: 'botanicadds:gaiasteel_ingot'
-      },
-      id: `${prefix}gaiasteel_lodestone`
-    },
-    {
       output: 'gribtweaks:bottle',
       pattern: [' E ', 'G G', ' G '],
       key: {
@@ -101,6 +56,46 @@ ServerEvents.recipes((event) => {
         O: 'gribtweaks:oblivion_block'
       },
       id: `${prefix}oblivion_liquid`
+    },
+    {
+      output: 'gribtweaks:admiration_liquid',
+      pattern: ['OBO', 'BAB', 'OBO'],
+      key: {
+        A: 'gribtweaks:antimatter_l2',
+        B: 'gribtweaks:oblivion_liquid',
+        O: 'gribtweaks:admiration_block'
+      },
+      id: `${prefix}admiration_liquid`
+    },
+    {
+      output: 'gribtweaks:death_liquid',
+      pattern: ['OBO', 'BAB', 'OBO'],
+      key: {
+        A: 'gribtweaks:antimatter_l3',
+        B: 'gribtweaks:admiration_liquid',
+        O: 'gribtweaks:death_block'
+      },
+      id: `${prefix}death_liquid`
+    },
+    {
+      output: 'gribtweaks:anxiety_liquid',
+      pattern: ['OBO', 'BAB', 'OBO'],
+      key: {
+        A: 'gribtweaks:antimatter_l4',
+        B: 'gribtweaks:death_liquid',
+        O: 'gribtweaks:anxiety_block'
+      },
+      id: `${prefix}anxiety_liquid`
+    },
+    {
+      output: 'gribtweaks:infinity_liquid',
+      pattern: ['OBO', 'BAB', 'OBO'],
+      key: {
+        A: 'gribtweaks:infinity_antimatter',
+        B: 'gribtweaks:anxiety_liquid',
+        O: 'gribtweaks:true_infinity_block'
+      },
+      id: `${prefix}infinity_liquid`
     },
     {
       output: 'gribtweaks:sculk_component',
@@ -174,6 +169,102 @@ ServerEvents.recipes((event) => {
         I: 'gribtweaks:dense_diamond_plate'
       },
       id: `${prefix}diamond_component`
+    },
+    {
+      output: 'gribtweaks:death_component',
+      pattern: ['RB', 'CH'],
+      key: {
+        C: 'gribtweaks:oblivion_component',
+        B: 'twilightforest:fiery_blood',
+        H: 'scalinghealth:heart_crystal',
+        R: 'gribtweaks:magma_rune'
+      },
+      id: `${prefix}death_component`
+    },
+    {
+      output: 'gribtweaks:admiration_component',
+      pattern: ['RI', 'CN'],
+      key: {
+        C: 'gribtweaks:oblivion_component',
+        I: 'aquaculture:neptunium_ingot',
+        N: 'botania:manasteel_nugget',
+        R: 'gribtweaks:water_rune'
+      },
+      id: `${prefix}admiration_component`
+    },
+    {
+      output: 'gribtweaks:anxiety_component',
+      pattern: ['SI', 'CN'],
+      key: {
+        C: 'gribtweaks:death_component',
+        I: 'enigmaticlegacy:evil_ingot',
+        N: 'gribtweaks:ametrine_ore_crystal',
+        S: 'hexerei:witch_sheet'
+      },
+      id: `${prefix}anxiety_component`
+    },
+    {
+      output: 'gribtweaks:ultimate_component',
+      pattern: ['SI', 'CN'],
+      key: {
+        C: 'gribtweaks:anxiety_component',
+        I: 'gribtweaks:ultimate_ingot',
+        N: 'gribtweaks:ultimate_nugget',
+        S: 'botania:maximum_catalyst'
+      },
+      id: `${prefix}ultimate_component`
+    },
+    {
+      output: 'gribtweaks:advanced_anxiety_component',
+      pattern: ['ICI', 'CBC', 'ICI'],
+      key: {
+        B: 'gribtweaks:component_base',
+        C: 'gribtweaks:anxiety_component',
+        I: 'gribtweaks:ametrine_block'
+      },
+      id: `${prefix}advanced_anxiety_component`
+    },
+    {
+      output: 'gribtweaks:advanced_admiration_component',
+      pattern: ['ICI', 'CBC', 'ICI'],
+      key: {
+        B: 'gribtweaks:component_base',
+        C: 'gribtweaks:admiration_component',
+        I: 'botania:manasteel_block'
+      },
+      id: `${prefix}advanced_admiration_component`
+    },
+    {
+      output: 'gribtweaks:advanced_death_component',
+      pattern: ['ICI', 'CBC', 'ICI'],
+      key: {
+        B: 'gribtweaks:component_base',
+        C: 'gribtweaks:death_component',
+        I: 'gribtweaks:compressed_fiery_block'
+      },
+      id: `${prefix}advanced_death_component`
+    },
+    {
+      output: 'gribtweaks:advanced_diamond_component',
+      pattern: ['iCI', 'CBC', 'ICi'],
+      key: {
+        B: 'gribtweaks:component_base',
+        C: 'gribtweaks:diamond_component',
+        I: 'avaritia:diamond_lattice',
+        i: 'gribtweaks:dense_diamond_plate'
+      },
+      id: `${prefix}advanced_diamond_component`
+    },
+    {
+      output: 'gribtweaks:advanced_ultimate_component',
+      pattern: ['IiI', 'CBC', 'IiI'],
+      key: {
+        B: 'gribtweaks:component_base',
+        C: 'gribtweaks:ultimate_component',
+        I: 'avaritia:ultimate_stew',
+        i: 'gribtweaks:ultimate_block'
+      },
+      id: `${prefix}advanced_ultimate_component`
     },
     {
       output: 'gribtweaks:astral_burger',

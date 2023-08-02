@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
   const prefix = 'gribtweaks:sequencedassembly/';
-      event.recipes.createSequencedAssembly(['gribtweaks:component_ingot'], 'create:iron_sheet', [
+      event.recipes.createSequencedAssembly(['gribtweaks:component_ingot'], '#forge:plates/iron', [
         event.recipes.create.deploying('gribtweaks:incomplete_component_ingot',['gribtweaks:incomplete_component_ingot','twilightforest:ironwood_ingot']),
         event.recipes.create.deploying('gribtweaks:incomplete_component_ingot',['gribtweaks:incomplete_component_ingot','biggerreactors:graphite_ingot']),
         event.recipes.create.deploying('gribtweaks:incomplete_component_ingot',['gribtweaks:incomplete_component_ingot','minecraft:black_dye']),

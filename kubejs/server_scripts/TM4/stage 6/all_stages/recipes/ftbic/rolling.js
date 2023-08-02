@@ -101,4 +101,21 @@ ServerEvents.recipes((event) => {
         }
       ]
     }).id(`${prefix}component_base`)
+
+    event.custom({       
+      'type': 'ftbic:rolling',
+      'inputItems': [
+        {
+          'ingredient': {
+            'item': 'gribtweaks:ultimate_ingot'
+          },
+          'count': 1
+        }
+      ],
+      'outputItems': [
+        {
+          'item': 'gribtweaks:ultimate_component_base'
+        }
+      ]
+    }).id(`${prefix}ultimate_component_base`)
 });
