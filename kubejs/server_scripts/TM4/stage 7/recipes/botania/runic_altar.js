@@ -116,7 +116,7 @@ ServerEvents.recipes(e => {
             id: `${prefix}rune_spring`
         },  
         {
-            ingredients: [{item: 'botania:rune_lust'}, {item: 'botania:rune_gluttony'}, {item: 'botania:rune_greed'}, {item: 'botania:rune_sloth'}, {item:'botania:rune_wrath'}, {item:'botania:rune_envy'}, {item: 'botania:rune_pride'}, {item: 'botanicadds:rune_energy'}, {item:'botanicadds:rune_tp'}, {item: 'gribtweaks:rune_admiration'}, {item: 'gribtweaks:rune_night'}, {item: 'gribtweaks:rune_sun'}],
+            ingredients: [{item: 'botania:rune_lust'}, {item: 'botania:rune_gluttony'}, {item: 'botania:rune_greed'}, {item: 'botania:rune_sloth'}, {item:'botania:rune_wrath'}, {item:'botania:rune_envy'}, {item: 'botania:rune_pride'}, {item: 'botanicadds:rune_energy'}, {item:'botanicadds:rune_tp'}, {item:'gribtweaks:rune_sun'}, {item:'gribtweaks:rune_night'}, {item:'gribtweaks:rune_admiration'}],
             mana: 70000,
             output: {item: 'botania:botany_catalyst'},
             id: `${prefix}botany_catalyst`
