@@ -149,11 +149,7 @@
 		}
 		{
 			dependencies: ["34A3F8B6B2B7E460"]
-			description: [
-				"Занимаясь земледелием и добычей дерева вы заметили странные ягодки и растения. Может они вам ещё понадобятся."
-				""
-				"&e&oP.S. Корень выпадает ооочень редко&r&r"
-			]
+			description: ["Занимаясь земледелием и добычей дерева вы заметили странные ягодки и растения. Может они вам ещё понадобятся."]
 			id: "05EBC27472F491E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -251,8 +247,8 @@
 			id: "69374D2A54D2E8A7"
 			rewards: [{
 				count: 4
-				id: "48FFFAE8B2E9B4C6"
-				item: "ivanchela:raw_gold_fragment"
+				id: "299405BBACBE6B03"
+				item: "gribtweaks:sand_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -317,21 +313,21 @@
 				}
 				{
 					auto: "invisible"
-					command: "/place template minecraft:s2_nature_aura ()"
+					command: "/place template minecraft:s2_nature_aura -16 125 25"
 					id: "7CABB550FF159726"
 					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
+					command: "/worldborder set 60"
 					id: "55D5B322DE0F09A9"
 					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великое древо порядка пустило свои корни\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великое древо порядка пустило свои корни\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "3AFAE271C74E6E64"
 					player_command: false
 					type: "command"
@@ -491,6 +487,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2B7E545FFB41DC39"]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
@@ -537,7 +534,7 @@
 					type: "item"
 				}
 			]
-			title: "Обработка всего"
+			title: "Оброботка всего"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -619,17 +616,17 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["276C25024E7D31C6"]
-			description: ["Первая стадия этого выживания была крайне трудная... Начнем-ка вторую с призыва босса))"]
+			dependencies: ["2B7E545FFB41DC39"]
+			description: ["Хоть на вас и на пали, но вы получили очень важный ресурс с помощью которого сделали важнейший источник ресурсов. Надо поблагодарить \"Гриб\"."]
 			id: "73EAA79E19228ED9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "306B891EEC9A2725"
-				table_id: 6999145014913632248L
+				id: "77BB95D39FDC6C7D"
+				table_id: 1164824006868770433L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "5D6B648EC011BE30"
+				id: "3A33FD21A72B1028"
 				item: {
 					Count: 1b
 					id: "gribtweaks:forest_catalyst"
@@ -655,19 +652,30 @@
 				id: "1241919C518244FA"
 				ignore_dimension: false
 				position: [I;
-					0
-					0
-					0
+					-9
+					132
+					30
 				]
 				size: [I;
-					1
-					1
-					1
+					4
+					5
+					4
 				]
-				title: "Найти новый остров"
 				type: "location"
 			}]
 			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["719CBE19584F107B"]
+			description: ["Великое проклятие настигло этот лист."]
+			id: "1F10AF3011B06A5F"
+			tasks: [{
+				id: "44D95F9A1093AADF"
+				item: "gribtweaks:tained_gold_leaf"
+				type: "item"
+			}]
+			x: 12.0d
 			y: 1.5d
 		}
 	]

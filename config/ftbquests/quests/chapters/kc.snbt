@@ -348,6 +348,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["527305C0634DF83B"]
 			description: [
 				"Ты прошёл &6огромный путь&r и теперь тебя ждёт &6огромная фармилка ресурсов&r."
 				"Попытайся пройти всю &bаваритию&r, дойди до создания &dтворческих &bмощнейших&9 предметов&r и &aфинальной&r           &cБесконечной Грибной Брони&4!"
@@ -419,9 +420,8 @@
 			shape: "square"
 			size: 1.75d
 			tasks: [{
-				id: "2590AE855CB72CC8"
-				item: "avaritia:extreme_crafting_table"
-				type: "item"
+				id: "1C7C104BA4C2C905"
+				type: "checkmark"
 			}]
 			title: "&bНачало Конца!"
 			x: 0.0d
@@ -1135,7 +1135,7 @@
 				}
 			]
 			tasks: [{
-				id: "09965E13B4D38785"
+				id: "2D99A39375F93F94"
 				item: "gribtweaks:neutronium_catalyst"
 				type: "item"
 			}]
@@ -1920,6 +1920,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["527305C0634DF83B"]
 			hide: true
 			id: "6FC557C64A0AA964"
 			rewards: [
@@ -1967,8 +1968,8 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "015548C5EF0C3F0F"
-				item: "gribtweaks:infinity_heavy_cogwheel"
+				id: "4A65A22BE7910619"
+				item: "tm4:infinity_heavy_cogwheel"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2130,6 +2131,7 @@
 			y: 15.75d
 		}
 		{
+			dependencies: ["527305C0634DF83B"]
 			hide: true
 			id: "2F99603D81A2EE64"
 			rewards: [{
@@ -2148,7 +2150,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7C80AC4A5973EA66"]
+			dependencies: [
+				"7C80AC4A5973EA66"
+				"5B41E44C99BF17D2"
+			]
 			description: ["&2Только смерть могла остановить вас, но вы победили и её."]
 			id: "02F1AE36F5D2318B"
 			rewards: [
@@ -2265,6 +2270,20 @@
 			}]
 			x: -9.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4AED0D419807F065"]
+			hide_dependency_lines: true
+			id: "5B41E44C99BF17D2"
+			size: 2.0d
+			subtitle: "&3Полное могущество над слитками"
+			tasks: [{
+				id: "322D0346E9EF282B"
+				item: "gribtweaks:ultimate_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
 		}
 	]
 	title: "&k&cБесконечные страдания!"

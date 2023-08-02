@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["3A6C46994552C0A4"]
-			description: ["Позволяет просмотреть содержимое определённой ачейки"]
+			description: ["Портативная мэ-система в одном блоке, но для и для одной ячейки."]
 			id: "07F2B12E07BC474A"
 			rewards: [{
 				id: "4EF8CE8992BD89C3"
@@ -387,7 +387,7 @@
 				"5B923987601DBFE8"
 				"3D95D4CD24EDEFF7"
 			]
-			description: ["Сердце вашей мэ-системы"]
+			description: ["Сердце вашей мэ-системы."]
 			id: "01F8FC11A4BD3AA2"
 			rewards: [{
 				id: "58712B1678CD366D"
@@ -981,6 +981,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			hide_dependency_lines: true
 			id: "7942B6D2D2D2663F"
 			tasks: [{
@@ -1066,6 +1068,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			id: "269813405F3B5046"
 			rewards: [{
 				count: 4
@@ -1181,6 +1185,8 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			hide_dependency_lines: true
 			id: "4735BEF35A0ACF06"
 			rewards: [{
@@ -1210,6 +1216,8 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			hide_dependency_lines: true
 			id: "7ED7EECAB7CC1D44"
 			rewards: [{
@@ -1980,7 +1988,7 @@
 		}
 		{
 			dependencies: ["5B923987601DBFE8"]
-			description: ["Хранит все диски с ресурсами и не только ресурсами"]
+			description: ["Хранит все диски с ресурсами, ну и не только ресурсами."]
 			id: "4F3E0461DA1EB52F"
 			rewards: [{
 				id: "3F656E345369E585"
@@ -1998,7 +2006,7 @@
 		}
 		{
 			dependencies: ["1B86A502898A6439"]
-			description: ["Конвертирует энергию других модов для питания механизмов из ae2"]
+			description: ["Конвертирует энергию других модов для питания механизмов из ae2."]
 			id: "3D95D4CD24EDEFF7"
 			rewards: [{
 				id: "5E78003DEDED1CCA"
@@ -2018,7 +2026,7 @@
 				"3717A960E8DB96B7"
 				"5B923987601DBFE8"
 			]
-			description: ["Позволяет заряжать кристалы"]
+			description: ["Позволяет заряжать кристаллы."]
 			hide: true
 			id: "634E1DF433409C38"
 			rewards: [
@@ -2045,7 +2053,7 @@
 		}
 		{
 			dependencies: ["09B28E610AA919BE"]
-			description: ["Позволяет вам работать с шаблонами не подходя к механизмам"]
+			description: ["Позволяет работать с поставщиками шаблонов, которые подключенны к мэ-системе."]
 			id: "7AC44D612C7E16F7"
 			rewards: [{
 				id: "5E9455616F43BE16"
@@ -2062,7 +2070,7 @@
 		}
 		{
 			dependencies: ["71E4DC92D552032E"]
-			description: ["Позволяет с помощью пустых шаблонов создавать шаблоны крафтов на любых механизмах "]
+			description: ["Позволяет кодировать шаблоны"]
 			id: "7F622A1604488FE8"
 			rewards: [{
 				count: 4
@@ -2081,7 +2089,7 @@
 		}
 		{
 			dependencies: ["09B28E610AA919BE"]
-			description: ["Предостовляет доступ к вашим вещам в вашей системе"]
+			description: ["Позволяет вам полноценно пользоваться мэ-системой."]
 			id: "3A6C46994552C0A4"
 			rewards: [{
 				id: "792878E241EA6FFC"
@@ -2099,7 +2107,7 @@
 		}
 		{
 			dependencies: ["3A6C46994552C0A4"]
-			description: ["Тот же самый терминал но только уже с возможностью крафтить"]
+			description: ["Тот же самый терминал но только уже с возможностью создавать предметы."]
 			id: "71E4DC92D552032E"
 			rewards: [{
 				id: "074AB23CE4BA5B57"
@@ -2117,7 +2125,7 @@
 		}
 		{
 			dependencies: ["2C6DF140F2723152"]
-			description: ["Самая обыкновенная панелька не имеющаю никакого практического применения"]
+			description: ["Самая обыкновенная панелька не имеющаю никакого практического применения."]
 			id: "09B28E610AA919BE"
 			rewards: [{
 				id: "1EE53A5827ADF87F"
@@ -2136,7 +2144,7 @@
 		}
 		{
 			dependencies: ["2C6DF140F2723152"]
-			description: ["Увеличивает скорость роста кристалов в воде"]
+			description: ["Увеличивает скорость роста кристаллов в воде."]
 			id: "659FDB2C331DA48A"
 			rewards: [{
 				id: "572455259CE923E9"
@@ -2154,7 +2162,7 @@
 		}
 		{
 			dependencies: ["4801B79E2585BA2A"]
-			description: ["Позволяет посмотреть потребление вашей мэ-системы ,и что в данный момент подключено к вашей системе"]
+			description: ["Позволяет посмотреть потребление вашей мэ-системы, и что в данный момент подключено к ней."]
 			id: "5610E8C278BDA81F"
 			rewards: [{
 				id: "7CC66DF100D22935"
@@ -2172,7 +2180,7 @@
 		}
 		{
 			dependencies: ["4F3E0461DA1EB52F"]
-			description: ["Служит основой для создания всех кабелей "]
+			description: ["Служит основой для создания всех кабелей."]
 			id: "4801B79E2585BA2A"
 			rewards: [{
 				count: 8
@@ -2210,7 +2218,7 @@
 		}
 		{
 			dependencies: ["5B923987601DBFE8"]
-			description: ["Выторгуйте прессы у местного рабочего "]
+			description: ["Выторгуйте прессы у местного работяги."]
 			id: "0B0AC29FF6D90ECE"
 			rewards: [
 				{
@@ -2259,7 +2267,6 @@
 		}
 		{
 			dependencies: ["4F3E0461DA1EB52F"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "2BA7BE8EE1CEE15E"
 			rewards: [{
@@ -2278,7 +2285,6 @@
 		}
 		{
 			dependencies: ["2BA7BE8EE1CEE15E"]
-			description: [""]
 			id: "00B0A7E5BEB2E2F1"
 			rewards: [
 				{
@@ -2518,7 +2524,7 @@
 		}
 		{
 			dependencies: ["01F8FC11A4BD3AA2"]
-			description: ["Создает шарики с материей или же сингулярности"]
+			description: ["Создает шарики с материей или же сингулярности."]
 			id: "0C75402756EC049F"
 			rewards: [{
 				id: "24D7B194B07D8125"
@@ -2536,7 +2542,7 @@
 		}
 		{
 			dependencies: ["7B2C8A5449D009C2"]
-			description: ["С помощью данного набора можно создать квантовый мост между двумя точками в мире"]
+			description: ["С помощью данного набора можно создать квантовый мост между двумя точками в мире."]
 			id: "02684C9352032E20"
 			rewards: [{
 				id: "132A762BEFE4B848"
@@ -2569,7 +2575,7 @@
 		}
 		{
 			dependencies: ["0C75402756EC049F"]
-			description: ["Создайте сингуляность из 256к любых блоков или предметов"]
+			description: ["Создайте сингуляность из 256к любых блоков или предметов."]
 			id: "7B2C8A5449D009C2"
 			rewards: [{
 				id: "2C1B7185EE8AFBDA"
@@ -2586,7 +2592,7 @@
 		}
 		{
 			dependencies: ["0C75402756EC049F"]
-			description: ["У вас в руках чатичка материи пространства"]
+			description: ["У вас в руках чатичка всего этого мира."]
 			id: "5A8C1D49D49C8822"
 			rewards: [{
 				id: "2F4E3D029C5043F2"
@@ -2603,7 +2609,6 @@
 		}
 		{
 			dependencies: ["2BA7BE8EE1CEE15E"]
-			description: ["Хранит определённое количество типов вещей"]
 			id: "7A31B7FBED11B20E"
 			tasks: [{
 				id: "54B46EFCB0E8A77C"
@@ -2635,7 +2640,7 @@
 		}
 		{
 			dependencies: ["2BA7BE8EE1CEE15E"]
-			description: ["Хранит вещи в независимости от того сколько типов вещей будет в системе"]
+			description: ["Дисковой накопитель, не имеющий типов - только кол-во предметов."]
 			id: "154ECABA4E86EE70"
 			tasks: [{
 				id: "47DADC6EABCCDD93"
@@ -3179,8 +3184,8 @@
 			hide_dependency_lines: true
 			id: "170957FE404FAEDD"
 			rewards: [{
-				id: "065E8498BAD1B883"
-				item: "tm4:neutronium_catalyst"
+				id: "268EB6D25DDD93F3"
+				item: "gribtweaks:neutronium_catalyst"
 				random_bonus: 3
 				type: "item"
 			}]
@@ -3194,7 +3199,7 @@
 		}
 		{
 			dependencies: ["01F8FC11A4BD3AA2"]
-			description: ["Вещи первой необходимости для создания автокрафта"]
+			description: ["Блоки необходимые для создания примитивного автокрафта."]
 			id: "046E299810F06E9B"
 			rewards: [{
 				count: 4
@@ -3231,7 +3236,7 @@
 		}
 		{
 			dependencies: ["046E299810F06E9B"]
-			description: ["Улучшенные версии механизмов для автокрафта"]
+			description: ["Улучшенные версии блоков для автокрафта."]
 			id: "031CF3C8ED327373"
 			rewards: [
 				{
@@ -3269,7 +3274,7 @@
 		}
 		{
 			dependencies: ["046E299810F06E9B"]
-			description: ["Отвечает на сколько байт может быть заказан крафт"]
+			description: ["Позволяет мэ-системе самостоятельно создавать предметы."]
 			id: "6012DCA2C3D4679D"
 			rewards: [{
 				count: 6
@@ -3363,7 +3368,7 @@
 		}
 		{
 			dependencies: ["031CF3C8ED327373"]
-			description: ["Отвечает на сколько байт может быть заказан крафт"]
+			description: ["Позволяет мэ-системе самостоятельно создавать предметы."]
 			id: "6DC6067C758651E7"
 			rewards: [{
 				id: "249979DA0C8A5BFD"
@@ -3464,7 +3469,11 @@
 		}
 		{
 			dependencies: ["07F2B12E07BC474A"]
-			description: ["Необходим чтоб подключить беспроводной терминал к мэ-системе"]
+			description: [
+				"Позволяет регистрировать игроков в мэ-системе, чтобы только они могли ей пользвоться."
+				""
+				"Также позволяет привязать беспроводные терминалы."
+			]
 			id: "073EE087C412A477"
 			rewards: [{
 				count: 8
@@ -3483,7 +3492,7 @@
 		}
 		{
 			dependencies: ["2C6DF140F2723152"]
-			description: ["точка беспроводного доступа к мэ-системе"]
+			description: ["Точка беспроводного доступа к мэ-системе."]
 			id: "0C50A0F7DD482BF8"
 			rewards: [{
 				id: "653DB80AA377D563"
@@ -3500,7 +3509,7 @@
 		}
 		{
 			dependencies: ["0C50A0F7DD482BF8"]
-			description: ["С помощью этих усилитей можно увеличивать зону действия беспроводной системы"]
+			description: ["С помощью этих усилитей можно увеличивать зону действия беспроводной системы."]
 			id: "4CFA06AE60335872"
 			rewards: [{
 				count: 64
@@ -3627,6 +3636,57 @@
 			}]
 			x: -0.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			hide_dependency_lines: true
+			id: "1A708EC4CD86E389"
+			tasks: [{
+				id: "2BF35E9AB2EBAC53"
+				item: "gribtweaks:babbitt_alloy_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			hide_dependency_lines: true
+			id: "1B1E22EB8566C6EF"
+			tasks: [{
+				id: "4543B947F897A995"
+				item: "gribtweaks:nordic_alloy_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B923987601DBFE8"]
+			hide_dependency_lines: true
+			id: "031DB6B972412384"
+			tasks: [{
+				id: "25A3404608B6C087"
+				item: "gribtweaks:inadequate_alloy_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"031DB6B972412384"
+				"1A708EC4CD86E389"
+				"1B1E22EB8566C6EF"
+			]
+			id: "667966F8EA2E8800"
+			tasks: [{
+				id: "16ED7A2F8E1DCCC2"
+				item: "gribtweaks:super_alloy_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
 		}
 	]
 	title: "&3Хранение"

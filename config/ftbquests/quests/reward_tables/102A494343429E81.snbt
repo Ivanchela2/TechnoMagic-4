@@ -1,18 +1,20 @@
 {
 	id: "102A494343429E81"
 	loot_size: 1
-	order_index: 33
+	order_index: 32
 	rewards: [
-		{ item: "ivanchela:raw_copper_nugget" }
-		{ item: "ivanchela:raw_gold_nugget" }
-		{ item: "ivanchela:raw_iron_nugget" }
-		{ item: "ivanchela:raw_zinc_nugget" }
-		{ item: "ivanchela:raw_lapis_fragment" }
-		{ item: "ivanchela:raw_redstone_fragment" }
-		{ item: "ivanchela:raw_copper_fragment", weight: 0.3f }
-		{ item: "ivanchela:raw_zinc_fragment", weight: 0.3f }
-		{ item: "ivanchela:raw_gold_fragment", weight: 0.3f }
-		{ item: "ivanchela:raw_iron_fragment", weight: 0.3f }
+		{ item: "gribtweaks:sand_gold_nugget" }
+		{ item: "gribtweaks:sand_iron_nugget" }
+		{ item: "gribtweaks:sand_zinc_nugget" }
+		{ item: "gribtweaks:sand_copper_nugget" }
+		{ item: "gribtweaks:sand_redstone", weight: 0.33f }
+		{ item: "gribtweaks:sand_zinc", weight: 0.33f }
+		{ item: "gribtweaks:sand_lapis", weight: 0.33f }
+		{ item: "gribtweaks:sand_gold", weight: 0.33f }
+		{ item: "gribtweaks:sand_iron", weight: 0.33f }
+		{ item: "gribtweaks:sand_copper", weight: 0.33f }
+		{ item: "gribtweaks:sand_lapis_nugget" }
+		{ item: "gribtweaks:sand_redstone_nugget" }
 	]
-	title: "#2 стадия (2)"
+	title: "ресы"
 }

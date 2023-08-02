@@ -89,30 +89,35 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/place template minecraft:s5_end ()"
-					id: "08CE5F91B1612996"
-					player_command: false
-					title: "остров - end"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "65A263126DE40923"
-					player_command: false
-					title: "барьер"
-					type: "command"
-				}
-				{
 					id: "115FACCD9058DA97"
 					item: "minecraft:dripstone_block"
 					type: "item"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Око эндера открыло свои врата\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Око эндера открыло свои врата\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "74D4F8C365A6F3E3"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload add 170 -40 210 -80"
+					id: "0D95387487B2C2EA"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:s5_end 200 220 -70"
+					id: "5E03A0A0BDF45EA4"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "6728CCAF495E1265"
 					player_command: false
 					type: "command"
 				}
@@ -241,11 +246,40 @@
 			dependencies: ["1172FCA541C97A82"]
 			hide_dependency_lines: false
 			id: "1EB9F7701AE976B1"
-			rewards: [{
-				id: "43C3FED4D47F35A1"
-				item: "productivebees:obsidian_nest"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "43C3FED4D47F35A1"
+					item: "productivebees:obsidian_nest"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/worldborder set 700"
+					id: "1324DEF1C7D12435"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload add 180 -100 400 -300"
+					id: "5465A1A7B2A6F781"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:knight_phantom_island 190 80 -300"
+					id: "6BE3961DC9177283"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/forceload remove all"
+					id: "2CC5A5D19FCBCB1D"
+					player_command: false
+					type: "command"
+				}
+			]
 			subtitle: "Латы из самого дракона"
 			tasks: [
 				{
@@ -300,19 +334,49 @@
 		{
 			dependencies: ["1EB9F7701AE976B1"]
 			id: "1D368BDA7B0341AA"
-			rewards: [{
-				id: "27B6611474F8EF66"
-				item: {
-					Count: 1b
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:gold"
+			rewards: [
+				{
+					id: "27B6611474F8EF66"
+					item: {
+						Count: 1b
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:gold"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/forceload add 150 200 300 70"
+					id: "28D712ED4D555BC8"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:alpha_yeti_island 300 120 150"
+					id: "2C25D11AB40698F9"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "49B41ABAE236AB47"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Зимный приспешник пробудился\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "25EE3C197A1C79DC"
+					player_command: false
+					type: "command"
+				}
+			]
 			subtitle: "Улучшеные латы дракона"
 			tasks: [
 				{
@@ -375,10 +439,31 @@
 					type: "item"
 				}
 				{
-					command: "/say Hi, @p!"
-					id: "78DDCD70A95AE103"
+					auto: "invisible"
+					command: "/forceload add -30 200 130 400"
+					id: "07090544592BB614"
 					player_command: false
-					title: "Спавн острова альфа-йети"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:aurora_island 0 100 250"
+					id: "3773F6BF93E6434B"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "3AC07489B6DF1994"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великая королева ждет Вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "65BAB820C470CE1B"
+					player_command: false
 					type: "command"
 				}
 			]
@@ -568,10 +653,31 @@
 					type: "item"
 				}
 				{
-					command: "/say Hi, @p!"
-					id: "372F92E6B92F1216"
+					auto: "invisible"
+					command: "/forceload add -200 -200 -400 -400"
+					id: "5FFAB5795F1EF6AB"
 					player_command: false
-					title: "Спавн отрова с лабиринтом фантомов"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:ur-ghast_island -310 60 -320"
+					id: "563A3FA97FAF17C4"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "16AD93FC317EA7CC"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Заслуживает ли он этого?\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "2C2805DC8D7F26EA"
+					player_command: false
 					type: "command"
 				}
 			]
@@ -590,21 +696,12 @@
 			dependencies: ["7CD7A225C23C42EC"]
 			icon: "twilightforest:ur_ghast_trophy"
 			id: "56AA959756F87056"
-			rewards: [
-				{
-					count: 6
-					id: "27A2196644B593C6"
-					item: "twilightforest:carminite"
-					type: "item"
-				}
-				{
-					command: "/say Hi, @p!"
-					id: "31A1718D639A0951"
-					player_command: false
-					title: "спавн отсрова ур-гаста"
-					type: "command"
-				}
-			]
+			rewards: [{
+				count: 6
+				id: "27A2196644B593C6"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
 			subtitle: "Ур-гаст как принцеса, он живет на самом верху башни"
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
@@ -633,10 +730,31 @@
 					type: "item"
 				}
 				{
-					command: "/say Hi, @p!"
-					id: "19EB61F1284A8BF4"
+					auto: "invisible"
+					command: "/forceload add -200 -40 -400 140"
+					id: "1E15C3F562EF2C1B"
 					player_command: false
-					title: "спавн отсрова снежной королевы"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:pokahu_island -300 150 70 counterclockwise_90"
+					id: "48161975189AF768"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "060DA7692051D540"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Тот, кого все ждали, пришел именно в Ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "417114F2EFBD209E"
+					player_command: false
 					type: "command"
 				}
 			]
@@ -654,7 +772,6 @@
 		{
 			dependencies: [
 				"73BFC6D40E10C8CF"
-				"5ED0BD72472DC5AC"
 				"4B55C37A1B0673A3"
 				"2EF88CD40E84EF3D"
 				"7CD7A225C23C42EC"
@@ -842,7 +959,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["49FE185BA36BBE9E"]
+			dependencies: ["7614670D3B37C767"]
 			id: "6EAA525FAEB22927"
 			rewards: [{
 				id: "301906EE592E9497"
@@ -856,8 +973,8 @@
 				item: "enigmaticlegacy:etherium_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 16.0d
+			x: -13.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -948,6 +1065,7 @@
 				random_bonus: 10
 				type: "item"
 			}]
+			shape: "diamond"
 			subtitle: "Качество куда важнее количества"
 			tasks: [{
 				count: 16L
@@ -956,55 +1074,50 @@
 				type: "item"
 			}]
 			title: "Доступ в индустриальзацию"
-			x: -4.0d
-			y: 4.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Компрессор — как не странно, сжимает предметы для получения прочных материалов или для выгодной сделки создания."]
 			id: "1F097DBCAEB186E6"
-			rewards: [{
-				count: 4
-				id: "34CF04833B265AF3"
-				item: "minecraft:snowball"
-				type: "item"
-			}]
 			subtitle: "Сжимающий механизм"
 			tasks: [{
 				id: "0F971DA61B842C5C"
 				item: "ftbic:compressor"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["310A3B4D8AF915F4"]
+			dependencies: ["10ADAB4A204037E7"]
+			description: ["Ещё больше улучшений"]
 			id: "39D33BA172775DE7"
-			rewards: [{
-				count: 5
-				id: "3B43215C6573D90D"
-				item: "minecraft:honey_bottle"
-				type: "item"
-			}]
-			subtitle: "Продвинутое разведение пчёл"
-			tasks: [
+			rewards: [
 				{
-					id: "279F81C017EC17FC"
-					item: "productivebees:advanced_oak_beehive"
+					count: 5
+					id: "3B43215C6573D90D"
+					item: "minecraft:honey_bottle"
 					type: "item"
 				}
 				{
-					id: "3BA72B72FE15666D"
-					item: "productivebees:expansion_box_oak"
+					count: 10
+					id: "4B7318CEAAFF1188"
+					item: "gribtweaks:component_base"
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 0.0d
+			tasks: [{
+				id: "3BA72B72FE15666D"
+				item: "productivebees:expansion_box_oak"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["13419316027A073D"]
+			dependencies: ["50846279F5251F59"]
 			id: "26C746DE1FF5D81C"
 			rewards: [{
 				id: "24B51765E551CD01"
@@ -1026,14 +1139,12 @@
 				item: "productivebees:powered_centrifuge"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 0.0d
+			x: -11.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"35728C18436F6EC9"
-				"39D33BA172775DE7"
-			]
+			dependencies: ["50846279F5251F59"]
+			dependency_requirement: "one_completed"
 			id: "13419316027A073D"
 			rewards: [{
 				count: 16
@@ -1048,8 +1159,8 @@
 				type: "item"
 			}]
 			title: "Энергия из мёда?"
-			x: -12.0d
-			y: 0.0d
+			x: -10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1160,15 +1271,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6224DF2E7449E678"]
+			dependencies: ["1172FCA541C97A82"]
 			description: ["Следите за уровнем напряжения, механизмы имеют свойство взрываться."]
+			hide_dependency_lines: true
 			id: "6B8743E39A6E14B1"
-			rewards: [{
-				id: "2698FAA6559ED7A2"
-				item: "ftbic:machine_block"
-				random_bonus: 3
-				type: "item"
-			}]
 			subtitle: "Корпус - основа всех механизмов"
 			tasks: [{
 				id: "472AA02C9EFF8DE2"
@@ -1176,7 +1282,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6EAA525FAEB22927"]
@@ -1234,8 +1340,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 16.0d
+			x: -15.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["48A0EC4555C2F79D"]
@@ -1261,8 +1367,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 16.0d
+			x: -16.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1270,7 +1376,7 @@
 				"1606617C43A24983"
 				"4B55C37A1B0673A3"
 			]
-			description: ["Сжечь или ни сжечь, вот в чём вопрос!"]
+			description: ["Стоит или не стоит"]
 			icon: "occultism:spirit_fire"
 			id: "6B6DD0336B6376DA"
 			invisible: true
@@ -1281,6 +1387,7 @@
 			}]
 			tasks: [
 				{
+					consume_items: true
 					id: "0B9166FAFCACD3A2"
 					item: {
 						Count: 1b
@@ -1292,6 +1399,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "3536A0D79FD2125B"
 					item: {
 						Count: 1b
@@ -1303,6 +1411,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "3BC61561FDFBC706"
 					item: {
 						Count: 1b
@@ -1314,6 +1423,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "5B546792122A4A6E"
 					item: {
 						Count: 1b
@@ -1325,6 +1435,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "3672FDEA0265F1F8"
 					item: {
 						Count: 1b
@@ -1336,6 +1447,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4EC5BA222D3F84BD"
 					item: {
 						Count: 1b
@@ -1347,6 +1459,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "5242F7FAB8E329FE"
 					item: {
 						Count: 1b
@@ -1357,15 +1470,10 @@
 					}
 					type: "item"
 				}
-				{
-					id: "270C9C2761FFCF74"
-					title: "надеюсь не зря"
-					type: "checkmark"
-				}
 			]
-			title: "Сжечь их!!!"
-			x: -1.0d
-			y: 17.5d
+			title: "Сложный выбор"
+			x: -15.707142857142827d
+			y: 5.142857142857245d
 		}
 		{
 			dependencies: ["6B6DD0336B6376DA"]
@@ -1598,20 +1706,14 @@
 		{
 			dependencies: ["3A4C7DBB4547B8AF"]
 			id: "0096E6576F6568B6"
-			rewards: [{
-				count: 2
-				id: "29CA52466781FC10"
-				item: "ftbic:energy_crystal"
-				type: "item"
-			}]
 			subtitle: "Может быть очень полезным"
 			tasks: [{
 				id: "5FAAA7D2263F9685"
 				item: "ftbic:energy_crystal"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 7.5d
+			x: -15.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -1623,18 +1725,13 @@
 				item: "ftbic:macerator"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["1CDCB4AE59BFBCFA"]
+			dependencies: ["1F097DBCAEB186E6"]
+			hide_dependency_lines: true
 			id: "63B29B3070AED9E5"
-			rewards: [{
-				id: "15AF3471B7A38E20"
-				item: "minecraft:diamond"
-				random_bonus: 3
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "4CE1E4B6A6AE988A"
@@ -1647,17 +1744,13 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 7.5d
+			x: -12.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["6B8743E39A6E14B1"]
+			dependencies: ["472AA02C9EFF8DE2"]
 			id: "29D265E0A7ED884F"
-			rewards: [{
-				id: "333441F3CD7E4E4B"
-				item: "ftbic:machine_block"
-				type: "item"
-			}]
+			invisible: true
 			subtitle: "Воу, какой мощный корпус"
 			tasks: [{
 				id: "11810B38973B517F"
@@ -1665,32 +1758,23 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["29D265E0A7ED884F"]
+			dependencies: ["6B8743E39A6E14B1"]
 			id: "49FE185BA36BBE9E"
-			rewards: [{
-				count: 5
-				id: "4468A6C47B8A09DB"
-				item: "enigmaticlegacy:etherium_ore"
-				type: "item"
-			}]
 			subtitle: "Да куда ещё больше ресурсов"
 			tasks: [{
 				id: "364CB338ECB73919"
 				item: "ftbic:extruder"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 14.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"39D33BA172775DE7"
-				"1172FCA541C97A82"
-			]
-			hide_dependency_lines: true
+			dependencies: ["310A3B4D8AF915F4"]
+			hide_dependency_lines: false
 			id: "35728C18436F6EC9"
 			rewards: [{
 				id: "3F7DD72589D922A2"
@@ -1712,8 +1796,8 @@
 				item: "productivebees:centrifuge"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["56AA959756F87056"]
@@ -1737,37 +1821,28 @@
 		{
 			dependencies: ["63B29B3070AED9E5"]
 			id: "3A4C7DBB4547B8AF"
-			rewards: [{
-				id: "134346DD31FB5C3D"
-				table_id: 7651176603138033594L
-				type: "random"
-			}]
 			subtitle: "Излучает энергию"
 			tasks: [{
+				consume_items: true
 				count: 6L
-				id: "63297FB2B43C66B7"
+				id: "4F64ED60F678A4BF"
 				item: "gribtweaks:energium_dust"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 7.5d
+			x: -13.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0096E6576F6568B6"]
 			id: "7B89FC69C4353050"
-			rewards: [{
-				id: "55166DEDA7CE1D64"
-				item: "ftbic:antimatter_crystal"
-				type: "item"
-			}]
 			subtitle: "Имеет необычную консинстенцию..."
 			tasks: [{
 				id: "032CE03E3A3F89F4"
 				item: "ftbic:antimatter_crystal"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 7.5d
+			x: -16.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -2665,8 +2740,8 @@
 				item: "productivebees:gravel_nest"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["26C746DE1FF5D81C"]
@@ -2689,8 +2764,8 @@
 				type: "item"
 			}]
 			title: "Как механизированая центрифуга, но лучше"
-			x: -13.5d
-			y: -1.5d
+			x: -13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["441744D8FCB08879"]
@@ -2860,8 +2935,8 @@
 				type: "item"
 			}]
 			title: "Шоколадная пчёлка"
-			x: -9.5d
-			y: -3.0d
+			x: -15.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["441744D8FCB08879"]
@@ -3031,8 +3106,8 @@
 				type: "item"
 			}]
 			title: "Пчёлка капалка"
-			x: -8.5d
-			y: -3.0d
+			x: -14.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -3134,24 +3209,26 @@
 				}
 				{
 					auto: "invisible"
-					command: "/place template minecraft:s5_forbidden_arcanus ()"
-					id: "295CC120E4F50D21"
-					player_command: false
-					title: "остров - forbidden_arcanus"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "1CA7750338EB9F20"
-					player_command: false
-					title: "барьер"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Могущество искажает воздух вокруг вас\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Могущество искажает воздух вокруг вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "07A8C9F651458C4F"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/forceload add 50 140 80 170"
+					id: "6833E09D026FA940"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/place template minecraft:s5_forbidden_arcanus 80 200 170"
+					id: "02FC22E5F50C6127"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/forceload remove all"
+					id: "47DD520C87D13E3F"
 					player_command: false
 					type: "command"
 				}
@@ -3236,8 +3313,8 @@
 				type: "item"
 			}]
 			title: "Пчёлка каменьщик"
-			x: -9.0d
-			y: -4.5d
+			x: -15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3717A960E8DB96B7"]
@@ -3506,8 +3583,8 @@
 				type: "item"
 			}]
 			title: "Добываем камешки"
-			x: -9.0d
-			y: -6.0d
+			x: -15.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3519,7 +3596,7 @@
 				item: "ftbic:roller"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -6.0d
 			y: 8.0d
 		}
 		{
@@ -3530,30 +3607,18 @@
 				"P.S. В качестве топлива принимает горючие предметы."
 			]
 			id: "72E1B11103D48A6D"
-			rewards: [{
-				count: 4
-				id: "24A3675927988B2C"
-				item: "minecraft:coal"
-				random_bonus: 8
-				type: "item"
-			}]
 			subtitle: "Генератор - это всегда хорошо"
 			tasks: [{
 				id: "1E88B728ABF83E90"
 				item: "ftbic:basic_generator"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6CE0DC2B5ED29447"]
 			id: "4FAFAEF13F8BC981"
-			rewards: [{
-				id: "73639D6130F9622A"
-				item: "createaddition:modular_accumulator"
-				type: "item"
-			}]
 			subtitle: "Да, я хочу больше места!"
 			tasks: [{
 				id: "74B6A71964CB35F8"
@@ -3564,7 +3629,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["72DDB7F29B8A10AF"]
+			dependencies: ["4AD658DE7A3D5202"]
 			id: "2C0FCB77BCCB47A8"
 			rewards: [{
 				count: 4
@@ -3579,36 +3644,24 @@
 				item: "ftbic:mv_transformer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.5d
+			x: -8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			id: "5D96E28AABE49CDA"
-			rewards: [{
-				id: "6CC10FE92B000740"
-				item: "twilightforest:ironwood_ingot"
-				random_bonus: 3
-				type: "item"
-			}]
 			subtitle: "Наполни свою жизнь с помощь наполнителя"
 			tasks: [{
 				id: "2E7BEE3DF6A4A255"
 				item: "ftbic:canning_machine"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4FAFAEF13F8BC981"]
 			id: "2371EF16B1EB318E"
-			rewards: [{
-				id: "0024385E05B8B6F5"
-				item: "ftbic:ev_battery"
-				random_bonus: 2
-				type: "item"
-			}]
 			subtitle: "Это то, что нужно!!"
 			tasks: [{
 				id: "28BD96B0BE8CE1B9"
@@ -3616,7 +3669,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C0FCB77BCCB47A8"]
@@ -3634,8 +3687,8 @@
 				item: "ftbic:hv_transformer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.5d
+			x: -8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0A62BC295FFC79E9"]
@@ -3665,8 +3718,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3701,8 +3754,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.5d
+			x: 8.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0A62BC295FFC79E9"]
@@ -3732,8 +3785,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.5d
+			x: 8.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0A62BC295FFC79E9"]
@@ -3763,68 +3816,44 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.5d
+			x: 8.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["1CDCB4AE59BFBCFA"]
+			dependencies: ["1F097DBCAEB186E6"]
+			hide_dependency_lines: true
 			id: "5616D3C42BF45EE0"
-			rewards: [{
-				id: "6393784691DFCBD1"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:coal"
-						}
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "17F6E643F0DBDEA1"
 				item: "ftbic:coal_dust"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: -12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5616D3C42BF45EE0"]
 			id: "6FFEEC17182E065C"
-			rewards: [{
-				id: "50708D59D3D1FC7F"
-				item: "ftbic:coal_dust"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "Что-то поинтересней"
 			tasks: [{
 				id: "449DF0AE76D1434C"
 				item: "ftbic:carbon_fibers"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -13.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6FFEEC17182E065C"]
 			id: "32DCE840F4C4D6E1"
-			rewards: [{
-				id: "18C3D2E3E6902177"
-				item: "ftbic:carbon_fibers"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "Крепкий материал"
 			tasks: [{
 				id: "3A9ADBAD7C28FCC3"
 				item: "ftbic:carbon_fiber_mesh"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 6.5d
+			x: -15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["39D33BA172775DE7"]
@@ -3848,7 +3877,7 @@
 				item: "productivebees:upgrade_base"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -13.0d
 			y: 1.5d
 		}
 		{
@@ -3914,8 +3943,8 @@
 				}
 			]
 			title: "Время улучшений"
-			x: -9.0d
-			y: 3.0d
+			x: -13.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6013F8CFAC8F4CD6"]
@@ -3927,13 +3956,6 @@
 				}
 			}
 			id: "4B9A5EF6E8A2ED5D"
-			rewards: [{
-				command: "/say Hi, @p!"
-				id: "3947BA40B38FED31"
-				player_command: false
-				title: "спавн острова с финальным боссом"
-				type: "command"
-			}]
 			tasks: [{
 				id: "5EE67DE4F9CA5D36"
 				item: "minecraft:dolphin_spawn_egg"
@@ -3987,14 +4009,13 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0096E6576F6568B6"]
+			dependencies: [
+				"55A2B082A88FF2D6"
+				"6B8743E39A6E14B1"
+			]
+			hide_dependency_lines: true
 			id: "796D74CA0D9618DF"
-			rewards: [{
-				id: "6FBE1BE01B9AE8A4"
-				item: "ftbic:lv_battery"
-				random_bonus: 2
-				type: "item"
-			}]
+			invisible: true
 			subtitle: "Хранит энергию"
 			tasks: [{
 				id: "1BDF8E5BB52C0B2D"
@@ -4002,17 +4023,11 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["796D74CA0D9618DF"]
 			id: "6CE0DC2B5ED29447"
-			rewards: [{
-				id: "54EADB285813C8AE"
-				item: "ftbic:mv_battery"
-				random_bonus: 2
-				type: "item"
-			}]
 			subtitle: "Больше места под энергию"
 			tasks: [{
 				id: "1B599D3B11B1A302"
@@ -4020,7 +4035,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["11C2765619D893B4"]
@@ -4038,18 +4053,12 @@
 				item: "ftbic:ev_transformer"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.5d
+			x: -8.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["29D265E0A7ED884F"]
 			id: "569F289E8231D4C4"
-			rewards: [{
-				count: 16
-				id: "137F0E3380397347"
-				item: "forbidden_arcanus:dark_matter"
-				type: "item"
-			}]
 			subtitle: "Соберите этот комплект, чтобы начать получать ресурсы из материи"
 			tasks: [{
 				id: "076969F82B92C79F"
@@ -4057,26 +4066,8 @@
 				type: "item"
 			}]
 			title: "Получаем ресурсы из ресурсов"
-			x: -5.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["6B8743E39A6E14B1"]
-			id: "72DDB7F29B8A10AF"
-			rewards: [{
-				count: 4
-				id: "4C900A8CC3AE7D7F"
-				item: "ftbic:copper_coil"
-				type: "item"
-			}]
-			subtitle: "Преобразовываем напряжение"
-			tasks: [{
-				id: "3E94E9E799CA772D"
-				item: "ftbic:lv_transformer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 12.5d
+			x: -2.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["631AA78FFCCF410C"]
@@ -4111,7 +4102,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["13419316027A073D"]
+			dependencies: ["50846279F5251F59"]
 			description: ["Поможет вам с помощью генов вывести лучшую пчелу"]
 			id: "5367F072E25BD630"
 			rewards: [{
@@ -4124,11 +4115,11 @@
 				item: "productivebees:gene_indexer"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["13419316027A073D"]
+			dependencies: ["50846279F5251F59"]
 			description: ["Удобный механизм для скрещивания пчёл. "]
 			id: "132B935B3E28973A"
 			rewards: [
@@ -4150,11 +4141,11 @@
 				item: "productivebees:breeding_chamber"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["35728C18436F6EC9"]
+			dependencies: ["50846279F5251F59"]
 			description: ["Ускоряет рост маленьких пчёлок"]
 			id: "5CB118FC04564E4C"
 			rewards: [
@@ -4176,7 +4167,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4401,8 +4392,8 @@
 				}
 			]
 			title: "Ендер пчёлка"
-			x: -10.5d
-			y: -4.5d
+			x: -16.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["59C7D5053FB777BB"]
@@ -4448,31 +4439,24 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -6.0d
+			x: -16.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"1F097DBCAEB186E6"
 				"3A9ADBAD7C28FCC3"
+				"32DCE840F4C4D6E1"
 			]
 			id: "7C19F6A9C765E262"
 			invisible: true
-			rewards: [{
-				count: 64
-				id: "7E2C121FA676FB24"
-				item: "minecraft:coal"
-				random_bonus: 32
-				type: "item"
-			}]
 			subtitle: "Интересное продолжение в виде прочных предметов."
 			tasks: [{
 				id: "0C119529B463E6F9"
 				item: "ftbic:carbon_plate"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.5d
+			x: -16.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["60C044E0BAE70655"]
@@ -4501,8 +4485,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["43162D61A6C59044"]
@@ -4531,8 +4515,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0F2B8B22CF4D5730"]
@@ -4561,8 +4545,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.5d
+			x: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6A7F6D194AD73234"]
@@ -4591,11 +4575,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.5d
+			x: 10.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["6B8743E39A6E14B1"]
+			dependencies: ["29D265E0A7ED884F"]
 			id: "6D47A9120BCDFB6C"
 			subtitle: "&cИскусство &r— &cэто &4ВЗРЫВ!"
 			tasks: [{
@@ -4603,11 +4587,11 @@
 				item: "ftbic:nuke"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.0d
+			x: -4.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["6224DF2E7449E678"]
+			dependencies: ["7332FD7F57514AF5"]
 			id: "7E077B4483E9F928"
 			rewards: [{
 				count: 3
@@ -4623,11 +4607,11 @@
 				item: "ftbic:lv_cable"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["6224DF2E7449E678"]
+			dependencies: ["7E077B4483E9F928"]
 			id: "78BC883CC8636EEB"
 			rewards: [{
 				count: 3
@@ -4643,8 +4627,8 @@
 				item: "ftbic:mv_cable"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 0.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6224DF2E7449E678"]
@@ -4663,11 +4647,11 @@
 				item: "ftbic:hv_cable"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6224DF2E7449E678"]
+			dependencies: ["78BC883CC8636EEB"]
 			id: "6E0F0B0D128568FD"
 			rewards: [{
 				count: 3
@@ -4683,8 +4667,8 @@
 				item: "ftbic:ev_cable"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: 0.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4695,8 +4679,8 @@
 				item: "ftbic:powered_furnace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4707,8 +4691,8 @@
 				item: "ftbic:centrifuge"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 10.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4719,8 +4703,8 @@
 				item: "ftbic:quarry"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 11.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4730,8 +4714,8 @@
 				item: "ftbic:pump"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.0d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["63BE8D9BF4A9F95D"]
@@ -4760,8 +4744,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["47A3F275A2C21198"]
@@ -4790,8 +4774,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["36E3E9B27BE1BF7D"]
@@ -4820,8 +4804,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["219762AA6306D027"]
@@ -4850,20 +4834,659 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.5d
+			x: 9.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["1F097DBCAEB186E6"]
+			dependencies: ["1B86A502898A6439"]
 			description: ["Веселье начинается прямо сейчас"]
+			hide_dependency_lines: true
 			id: "3F7BF82CF8C81EE2"
 			tasks: [{
 				id: "699FC9A25C597E26"
 				item: "avaritia:extreme_crafting_table"
 				type: "item"
 			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7D2B7EB555867E3D"
+				"77EB23D3FD7C13DB"
+			]
+			id: "3AA668E8FB4ACC4D"
+			tasks: [{
+				id: "1FDBECFC25F075FB"
+				item: "gribtweaks:quantum_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3AA668E8FB4ACC4D"
+				"3BFA52FEFCB7050E"
+			]
+			id: "4E38884860FC6760"
+			tasks: [{
+				id: "36926D70AE89644A"
+				item: "gribtweaks:spectral_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4E38884860FC6760"
+				"1B9BD4368546D82C"
+			]
+			id: "581743393B4CCAE3"
+			tasks: [{
+				id: "19F7254384F51F53"
+				item: "gribtweaks:photoniy_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13B1C110A967D1A7"]
+			id: "74672D568CF4D972"
+			tasks: [{
+				id: "6B68F394D8A209BF"
+				item: "gribtweaks:mechanical_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13B1C110A967D1A7"]
+			id: "22F7F4B068BA042E"
+			tasks: [{
+				id: "0AC877C71A9F017F"
+				item: "gribtweaks:sculk_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CD7A225C23C42EC"]
+			icon: "gribtweaks:ametrine_ore"
+			id: "27CD2C168B13BCA9"
+			tasks: [{
+				id: "6587EE9FED4F1C52"
+				item: "gribtweaks:ametrine_geode"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27CD2C168B13BCA9"]
+			id: "6159EDAAEB866FF7"
+			tasks: [{
+				id: "2109EFAF5FC8F2F2"
+				item: "gribtweaks:empty_rune"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27CD2C168B13BCA9"]
+			id: "543253F809DF8CCB"
+			tasks: [{
+				id: "79457F38175E890C"
+				item: "gribtweaks:elemental_fragments_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["543253F809DF8CCB"]
+			id: "1AB577DB0DA1D1BC"
+			tasks: [{
+				id: "5B5BD957846BE5C7"
+				item: "gribtweaks:elemental_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6159EDAAEB866FF7"
+				"1AB577DB0DA1D1BC"
+				"3CE7FF2F60D14597"
+			]
+			id: "3F160189551AB2D8"
+			tasks: [
+				{
+					id: "37A0E43876BCE0B7"
+					item: "gribtweaks:water_rune"
+					type: "item"
+				}
+				{
+					id: "1259DD8F89EF077A"
+					item: "gribtweaks:void_rune"
+					type: "item"
+				}
+				{
+					id: "035F8B0F38DA0577"
+					item: "gribtweaks:fire_rune"
+					type: "item"
+				}
+				{
+					id: "359EC9DDDC0B8469"
+					item: "gribtweaks:forest_rune"
+					type: "item"
+				}
+				{
+					id: "3BEC17C84099A868"
+					item: "gribtweaks:air_rune"
+					type: "item"
+				}
+				{
+					id: "7F18F2D401D958CD"
+					item: "gribtweaks:magma_rune"
+					type: "item"
+				}
+				{
+					id: "72C4EDC540D53038"
+					item: "gribtweaks:earth_rune"
+					type: "item"
+				}
+			]
+			title: "Руны"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27CD2C168B13BCA9"]
+			id: "3CE7FF2F60D14597"
+			tasks: [{
+				id: "6C3F27E376F2CB4E"
+				item: "gribtweaks:ametrine_ore_crystal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"310A3B4D8AF915F4"
+				"472AA02C9EFF8DE2"
+				"11810B38973B517F"
+			]
+			description: ["Совершенная основа для механизмов."]
+			id: "50846279F5251F59"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "40B019A4593A08AB"
+					item: "gribtweaks:oblivion_liquid"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "482E3008E810649E"
+					item: "gribtweaks:super_alloy_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66F264224139F55F"
+				item: "gribtweaks:advanced_casing"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50846279F5251F59"]
+			description: ["Более удобная версия обычного улья"]
+			id: "10ADAB4A204037E7"
+			rewards: [
+				{
+					id: "1C41CD4F6BB0C9A1"
+					item: "gribtweaks:dense_carbon_plate"
+					type: "item"
+				}
+				{
+					id: "4CD4A7560BCE4801"
+					item: "gribtweaks:dense_sculk_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "025B54ACA6E4C696"
+					item: "gribtweaks:iridium_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F77DF323A28E63B"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50846279F5251F59"]
+			description: ["Ловит пчёл, а что ты думал она делет"]
+			id: "48D824D9C0FEE863"
+			rewards: [{
+				count: 6
+				id: "2FB5BEE88EF1B45D"
+				item: "gribtweaks:spectral_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD4A3F8484EA18A"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50846279F5251F59"]
+			description: ["Разливаем мёд по бутылочкам, но зачем?"]
+			id: "00572EC0E9814772"
+			rewards: [{
+				count: 6
+				id: "02AC86D396C3BE4C"
+				item: "gribtweaks:spectral_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B855C3DB56FFDCF"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E077B4483E9F928"]
+			hide_dependency_lines: false
+			id: "4FD4356DA6B48F2C"
+			tasks: [{
+				id: "501D09A4096EFA23"
+				item: "ftbic:electronic_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FD4356DA6B48F2C"]
+			id: "13B1C110A967D1A7"
+			tasks: [{
+				id: "2BCF4A3072C9C6FC"
+				item: "ftbic:advanced_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13B1C110A967D1A7"]
+			id: "7D2B7EB555867E3D"
+			tasks: [{
+				id: "04C84CF4B03EB06D"
+				item: "ftbic:iridium_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["569F289E8231D4C4"]
+			id: "4E69D398F3DD638C"
+			tasks: [{
+				id: "4AE4A9CF46AD2CF8"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["77297D7100AC44C1"]
+			id: "3C75F6D4CA4365C7"
+			tasks: [{
+				id: "183DA817A98B6D98"
+				item: "gribtweaks:antimatter_l1"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3C75F6D4CA4365C7"]
+			id: "6007CC344C680F3F"
+			tasks: [{
+				id: "649759FD51201D99"
+				item: "gribtweaks:antimatter_l2"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6007CC344C680F3F"]
+			id: "262C559B96A844E0"
+			tasks: [{
+				id: "06A08D983290BD7F"
+				item: "gribtweaks:antimatter_l3"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["262C559B96A844E0"]
+			id: "18D0C9551CE76555"
+			tasks: [{
+				id: "2A22F9B002A01218"
+				item: "gribtweaks:antimatter_l4"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
+			id: "3BFA52FEFCB7050E"
+			tasks: [{
+				id: "317A786DFC6E5919"
+				item: "gribtweaks:spectral_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["13B61BD8D84D3047"]
+			id: "1B9BD4368546D82C"
+			tasks: [{
+				id: "7C13116DCD97CC22"
+				item: "gribtweaks:photoniy_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
+			id: "13B61BD8D84D3047"
+			tasks: [{
+				id: "3EE3A3F18278E8C4"
+				item: "gribtweaks:photoniy"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F097DBCAEB186E6"]
+			hide_dependency_lines: true
+			id: "7614670D3B37C767"
+			tasks: [{
+				id: "39E92A25D8FCDD3F"
+				item: "gribtweaks:chunk_of_etherium"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
+			id: "77EB23D3FD7C13DB"
+			tasks: [{
+				id: "155624F60A77D874"
+				item: "gribtweaks:quantum_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
+			id: "29A64888EFA4C537"
+			tasks: [{
+				id: "3D760494CBB03D7E"
+				item: "gribtweaks:upgrade_base"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29A64888EFA4C537"]
+			id: "281F3284BB747CA2"
+			tasks: [
+				{
+					id: "16BE8584859692B4"
+					item: "ftbic:overclocker_upgrade"
+					type: "item"
+				}
+				{
+					id: "1063B25635DBE505"
+					item: "ftbic:energy_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "2101C6896C9EA11C"
+					item: "ftbic:transformer_upgrade"
+					type: "item"
+				}
+				{
+					id: "73664DBAC173E153"
+					item: "ftbic:ejector_upgrade"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2371EF16B1EB318E"]
+			id: "73C2D32B3924B177"
+			tasks: [{
+				id: "5ADD81EB140F054B"
+				item: "ftbic:iv_battery_box"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"651CF9EA2EC026DC"
+				"29D265E0A7ED884F"
+			]
+			id: "4233533D12660DD8"
+			tasks: [{
+				id: "5B6AFB5F380101BD"
+				item: "ftbiceg:advanced_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"72E1B11103D48A6D"
+				"29D265E0A7ED884F"
+			]
+			id: "7E06A1918EBAC3FA"
+			tasks: [{
+				id: "7816755CF36BD6E0"
+				item: "ftbiceg:advanced_geothermal_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"29D265E0A7ED884F"
+				"1F097DBCAEB186E6"
+			]
+			id: "56FC662122B7207E"
+			tasks: [{
+				id: "7A66F9574566FC96"
+				item: "ftbic:ultimate_compressor"
+				type: "item"
+			}]
 			x: -7.0d
-			y: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"29D265E0A7ED884F"
+				"2B8BD1401C8A74E6"
+			]
+			id: "121ECF152E22B85D"
+			tasks: [{
+				id: "4D1EF0F47FA56A30"
+				item: "ftbic:ultimate_centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"29D265E0A7ED884F"
+				"1CDCB4AE59BFBCFA"
+			]
+			id: "75E15DF51371E0A8"
+			tasks: [{
+				id: "33A8EE990C20166D"
+				item: "ftbic:ultimate_macerator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"29D265E0A7ED884F"
+				"686548AE03EC9F37"
+			]
+			id: "34BDF236AC256976"
+			tasks: [{
+				id: "63FB6EA6C303EB4C"
+				item: "ftbic:ultimate_powered_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"29D265E0A7ED884F"
+				"21292FDA52664049"
+			]
+			id: "54C09CEC6D94F3DD"
+			tasks: [{
+				id: "2D755194C8042ED2"
+				item: "ftbic:ultimate_roller"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			id: "651CF9EA2EC026DC"
+			tasks: [{
+				id: "213664762089D576"
+				item: "ftbic:geothermal_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E0F0B0D128568FD"]
+			id: "136679E2D09795D6"
+			rewards: [{
+				count: 3
+				id: "2D8F8591323589DF"
+				item: "ftbic:iv_cable"
+				random_bonus: 13
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 6L
+				id: "31CBDFEECDCEBAD4"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
+			id: "4AD658DE7A3D5202"
+			tasks: [{
+				id: "224A1ABE5D21DFCF"
+				item: "ftbic:lv_transformer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29D265E0A7ED884F"]
+			id: "34976B4919052C4B"
+			tasks: [{
+				id: "703F0E9F5ED9FEF5"
+				item: "ftbic:nuclear_reactor_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["34976B4919052C4B"]
+			id: "0060369E412BF5CF"
+			tasks: [{
+				id: "209D78F152476E80"
+				item: "ftbic:nuclear_reactor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2371EF16B1EB318E"]
+			id: "77297D7100AC44C1"
+			tasks: [{
+				id: "59AB2BB2024B9D14"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
 		}
 	]
 	title: "&5Стадия: 5"

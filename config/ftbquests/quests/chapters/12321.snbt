@@ -5,7 +5,7 @@
 	group: "472A643616306AAC"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "4C45765EF96B1F2C"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -109,29 +109,36 @@
 				}
 				{
 					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-jungle ()"
+					command: "/place template minecraft:s3_hexerei-jungle 36 120 -20"
 					id: "0CC4246AB1765C9C"
 					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-swamp ()"
+					command: "/place template minecraft:s3_hexerei-swamp 40 140 20"
 					id: "3A1BD11A2B989CC6"
 					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
+					command: "/worldborder set 80"
 					id: "4BCE85A848E0107B"
 					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "6AE9BB06F3E9D6FF"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:s4_aquaculture2 -25 100 0"
+					id: "51749190E267EA66"
 					player_command: false
 					type: "command"
 				}
@@ -176,13 +183,20 @@
 			]
 			description: ["Новый способ создания предметов. Вы придумали как создавать предметы смешивая их в нагретом котле."]
 			id: "1D2A03062704637C"
-			rewards: [{
-				count: 5
-				id: "7435744ACDEA9B5B"
-				item: "minecraft:wheat"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "7435744ACDEA9B5B"
+					item: "minecraft:wheat"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "02A4C0CA8B3295D0"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "799BE75AB9DA7094"
 				item: "hexerei:mixing_cauldron"
@@ -341,14 +355,14 @@
 				id: "33271CAB99F1A9B6"
 				ignore_dimension: false
 				position: [I;
-					0
-					0
-					0
+					43
+					149
+					26
 				]
 				size: [I;
-					1
-					1
-					1
+					4
+					5
+					4
 				]
 				type: "location"
 			}]
@@ -547,8 +561,8 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4AECCE7BD3D05A19"]
@@ -716,11 +730,26 @@
 				"&6Earth Staff&r - стреляет природной масой"
 			]
 			id: "593117BA3091815E"
-			rewards: [{
-				id: "315162566D30ED4C"
-				item: "twilightforest:naga_scale"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "315162566D30ED4C"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:lich_island 50 80 -90"
+					id: "74574AC4E3B59F93"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Один из великих явился вам\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "73E4ABCEC5381A30"
+					player_command: false
+					type: "command"
+				}
+			]
 			tasks: [
 				{
 					id: "4772986BB569CF7D"
@@ -784,7 +813,7 @@
 		}
 		{
 			dependencies: ["69F581557BA017AF"]
-			description: ["Вы обноружили летающий лабиринт. С большим змееподобным существом в центре. Также вы заметили, что змея привязана к своему двору и теряет интерес, если вы покидайте его."]
+			description: ["Вы обнаружили летающий остров с большим змееподобным существом в центре."]
 			id: "453B7DB977D14FB9"
 			rewards: [{
 				id: "5AA9A1BBFDF80D4C"
@@ -806,9 +835,10 @@
 		}
 		{
 			dependencies: ["593117BA3091815E"]
-			description: ["На вершине башни вы нашли Лича. Схватка с ним проходила в три этапа. На первом этапе Лич окружен щитами, на втором этапе призывает Миньонов, а Лич сражается в рукопашном бою."]
+			description: ["На вершине башни вы нашли Лича. Схватка с ним проходила в три этапа. На первом этапе Лич окружен щитами, на втором этапе призывает Миньонов, а на третьем Лич сражается в рукопашном бою."]
 			id: "0467EF29CA06A563"
 			shape: "pentagon"
+			size: 1.7d
 			tasks: [{
 				entity: "twilightforest:lich"
 				icon: "twilightforest:lich_trophy"
@@ -817,23 +847,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0467EF29CA06A563"]
-			id: "4A964EDA0A485E71"
-			shape: "pentagon"
-			size: 1.4d
-			tasks: [{
-				entity: "twilightforest:lich"
-				icon: "twilightforest:lich_tower_miniature_structure"
-				id: "2F66A2D11DD8B436"
-				title: "Убить: &5Сумеречный Лич.v2"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
@@ -899,10 +913,23 @@
 					type: "item"
 				}
 				{
-					command: "/say Hi, @p!"
+					command: "/worldborder set 250"
 					id: "34D48FFF77B474F1"
 					player_command: false
-					title: "Остров наги"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:naga_island 35 110 35"
+					id: "5050F9DD424C6CF1"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Сумеречный лес начинает захватывать ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "0D1DA043BE493292"
+					player_command: false
 					type: "command"
 				}
 			]
@@ -1210,19 +1237,44 @@
 				id: "4636445E028A59C8"
 				ignore_dimension: false
 				position: [I;
-					0
-					0
-					0
+					40
+					128
+					-17
 				]
 				size: [I;
-					1
-					1
-					1
+					4
+					5
+					4
 				]
 				type: "location"
 			}]
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["0467EF29CA06A563"]
+			id: "302E5C14042D4C85"
+			rewards: [{
+				count: 12
+				id: "75E1794DCC7C9A86"
+				item: "hexerei:witch_ingot"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "Убиватор 3000"
+			tasks: [{
+				id: "067EB5E2DC5D0464"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 	]
 	title: "&5Стадия: 3"

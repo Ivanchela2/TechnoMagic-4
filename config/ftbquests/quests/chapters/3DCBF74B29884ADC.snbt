@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["34A3F8B6B2B7E460"]
+			description: ["Да-да, вам точно слабо выполнить ветку этих квестов!"]
 			hide: true
 			id: "7788B83F6681264B"
 			rewards: [{
@@ -1848,78 +1849,123 @@
 			}]
 			tasks: [
 				{
-					id: "643694AC409F0213"
-					item: "collectorsreap:lime_gummy"
-					type: "item"
-				}
-				{
-					id: "2BB40571F0C7AB4B"
-					item: "collectorsreap:pomegranate_gummy"
-					type: "item"
-				}
-				{
-					id: "487AEFE7F446398A"
-					item: "collectorsreap:melon_gummy"
-					type: "item"
-				}
-				{
-					id: "39FBF6851FEB7AF8"
-					item: "collectorsreap:apple_gummy"
-					type: "item"
-				}
-				{
-					id: "4ABA65C6508A7E43"
-					item: "collectorsreap:banana_gummy"
-					type: "item"
-				}
-				{
-					id: "615027D06EEEB720"
-					item: "collectorsreap:vanilla_gummy"
-					type: "item"
-				}
-				{
-					id: "371D7BBB3B4A0572"
-					item: "collectorsreap:chocolate_gummy"
-					type: "item"
-				}
-				{
-					id: "63C2C2DD23E3A1FF"
-					item: "collectorsreap:strawberry_gummy"
-					type: "item"
-				}
-				{
-					id: "4A2315A599F0971A"
-					item: "collectorsreap:mint_gummy"
-					type: "item"
-				}
-				{
-					id: "545E2F054B1F5B57"
-					item: "collectorsreap:adzuki_gummy"
-					type: "item"
-				}
-				{
-					id: "63C63882168140BE"
-					item: "collectorsreap:green_tea_gummy"
-					type: "item"
-				}
-				{
-					id: "68E42CAB81D66DA7"
-					item: "collectorsreap:yellow_tea_gummy"
-					type: "item"
-				}
-				{
-					id: "37D0A2B94FD7E314"
+					id: "26814A05F26DB176"
 					item: "collectorsreap:black_tea_gummy"
 					type: "item"
 				}
 				{
-					id: "6A7F211AC5BD7C94"
+					id: "42CC9A99AC248E67"
+					item: "collectorsreap:yellow_tea_gummy"
+					type: "item"
+				}
+				{
+					id: "4FF98149F282D938"
+					item: "collectorsreap:green_tea_gummy"
+					type: "item"
+				}
+				{
+					id: "5DDF7002DD6CA52A"
+					item: "collectorsreap:yucca_gummy"
+					type: "item"
+				}
+				{
+					id: "1C3683F68D54A114"
+					item: "collectorsreap:passionfruit_gummy"
+					type: "item"
+				}
+				{
+					id: "6422DEE8BEE05040"
+					item: "collectorsreap:aloe_gummy"
+					type: "item"
+				}
+				{
+					id: "607C1C05E87AF105"
+					item: "collectorsreap:pumpkin_gummy"
+					type: "item"
+				}
+				{
+					id: "0A0D0F7DD19DCC95"
+					item: "collectorsreap:adzuki_gummy"
+					type: "item"
+				}
+				{
+					id: "59CB39DC36D133E2"
+					item: "collectorsreap:mint_gummy"
+					type: "item"
+				}
+				{
+					id: "5279303E2137BA66"
+					item: "collectorsreap:strawberry_gummy"
+					type: "item"
+				}
+				{
+					id: "463C9E7BFEA17AEB"
+					item: "collectorsreap:chocolate_gummy"
+					type: "item"
+				}
+				{
+					id: "252C82155489E415"
+					item: "collectorsreap:vanilla_gummy"
+					type: "item"
+				}
+				{
+					id: "727E15BF2FBCD720"
+					item: "collectorsreap:banana_gummy"
+					type: "item"
+				}
+				{
+					id: "3B63E39D6F6C3B83"
+					item: "collectorsreap:apple_gummy"
+					type: "item"
+				}
+				{
+					id: "6DD1CCAB542B0C5D"
+					item: "collectorsreap:melon_gummy"
+					type: "item"
+				}
+				{
+					id: "104EE8DFF3A0B90B"
+					item: "collectorsreap:pomegranate_gummy"
+					type: "item"
+				}
+				{
+					id: "74A589A72FA06732"
+					item: "collectorsreap:lime_gummy"
+					type: "item"
+				}
+				{
+					id: "0610FAE26E5677E3"
+					item: "delightful:salmonberry_gummy"
+					type: "item"
+				}
+				{
+					id: "698AFE523ACB10D4"
 					item: "collectorsreap:coffee_gummy"
 					type: "item"
 				}
 			]
 			title: "Желе"
 			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7788B83F6681264B"]
+			hide_dependency_lines: true
+			id: "36CE2010E3E3FBA8"
+			tasks: [
+				{
+					id: "0F8D0D29D10AA39A"
+					item: "gribtweaks:quantum_burger"
+					type: "item"
+				}
+				{
+					id: "1DA96D676B8B2A33"
+					item: "gribtweaks:astral_burger"
+					type: "item"
+				}
+			]
+			title: "Зачем нам такая еда?"
+			x: 1.0d
 			y: -4.5d
 		}
 	]

@@ -2012,24 +2012,29 @@
 				}
 				{
 					auto: "invisible"
-					command: "/place template minecraft:s6_arclight ()"
-					id: "4510A3FC9CC76DA2"
-					player_command: false
-					title: "остров - arclight"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "398124B01DDA825A"
-					player_command: false
-					title: "барьер"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ангелы спускаются в ваш мир\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ангелы спускаются в ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "0EAF96BA63AF0633"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload add -200 -50 -300 -150"
+					id: "646949D815C3705C"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:s6_arclight -250 200 -100"
+					id: "31C86151054DDC44"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "110D2B632AEC758B"
 					player_command: false
 					type: "command"
 				}
@@ -3885,8 +3890,8 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "6C73D6AD3959D6D2"
-				item: "ad_astra:protasteel_block"
+				id: "2B783B23176A3A8C"
+				item: "ad_astra:rocket_covering"
 				type: "item"
 			}]
 			x: 15.0d
@@ -4137,7 +4142,10 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["25A4EAB98B5899DD"]
+			dependencies: [
+				"25A4EAB98B5899DD"
+				"5881059B79007B10"
+			]
 			description: ["Используется для создания Ангельской брони."]
 			hide: true
 			id: "2E6F0772AFFF9783"
@@ -4357,6 +4365,26 @@
 			}]
 			x: 38.5d
 			y: -18.5d
+		}
+		{
+			dependencies: [
+				"53C334DB71DEF300"
+				"5404EFA5F2342442"
+				"5E23983FA5506676"
+				"660BD4C03F77B971"
+				"09FE183569C4CBB1"
+				"4F7F6A58036E16E6"
+			]
+			hide_dependency_lines: true
+			id: "5881059B79007B10"
+			shape: "rsquare"
+			tasks: [{
+				id: "3BBC8F6FAA9BE502"
+				item: "gribtweaks:angel_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
 		}
 	]
 	title: "&5Стадия: 6"

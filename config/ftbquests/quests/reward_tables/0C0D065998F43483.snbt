@@ -1,11 +1,12 @@
 {
+	icon: "ivanchela:sand_stone_pieces"
 	id: "0C0D065998F43483"
 	loot_size: 1
 	order_index: 5
 	rewards: [
+		{ item: "ivanchela:sand_stone_pieces", weight: 0.8f }
 		{ item: "minecraft:stick" }
-		{ item: "gribtweaks:sand_trough", weight: 0.3f }
-		{ item: "gribtweaks:sand_stone_pieces" }
+		{ item: "ivanchela:sandstein", weight: 0.3f }
 	]
-	title: "#1 стадия (1)"
+	title: "песок"
 }

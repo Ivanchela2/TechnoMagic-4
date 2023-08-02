@@ -1,9 +1,10 @@
 {
+	icon: "minecraft:andesite"
 	id: "239928F36F4A4181"
 	loot_size: 1
 	order_index: 15
 	rewards: [
-		{ icon: "gribtweaks:sand_zinc", item: "gribtweaks:sand_zinc", weight: 0.3f }
+		{ item: "ivanchela:raw_zinc_fragment", weight: 0.3f }
 		{ item: "minecraft:andesite", weight: 0.5f }
 		{ item: "minecraft:cobblestone" }
 	]

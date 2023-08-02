@@ -5,10 +5,11 @@
 	group: "472A643616306AAC"
 	icon: "aquamirae:ship_graveyard_echo"
 	id: "70F3FC407354B807"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0467EF29CA06A563"]
 			id: "4BA91AB519070D4D"
 			rewards: [
 				{
@@ -19,23 +20,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say Hi, @p!"
+					command: "/place template minecraft:s4_occultism 10 140 90"
 					id: "69F0E90F82B87B43"
 					player_command: false
-					title: "Спавн острова \"Ocultism\""
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "53D44347CD1CD079"
-					player_command: false
-					title: "барьер"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ваш взгляд меняется\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ваш взгляд меняется\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "3E848A79A123ACC9"
 					player_command: false
 					type: "command"
@@ -283,8 +275,8 @@
 				item: "occultism:lenses"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 2.9000000000000004d
+			x: -13.5d
+			y: 4.4d
 		}
 		{
 			dependencies: ["3D495E67D175A51B"]
@@ -294,8 +286,8 @@
 				item: "occultism:infused_lenses"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 4.4d
+			x: -13.5d
+			y: 5.9d
 		}
 		{
 			dependencies: ["2ED26DB7D77AFF40"]
@@ -311,8 +303,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 5.9d
+			x: -13.5d
+			y: 7.4d
 		}
 		{
 			dependencies: ["4F943CCC0D6D0E87"]
@@ -320,23 +312,21 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/say Hi, @p!"
+					command: "/place template minecraft:gribotavr_island -160 120 -160"
 					id: "08D27A4BAA4E1132"
 					player_command: false
-					title: "Спавн острова \"Гриботавр\""
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
+					command: "/worldborder set 350"
 					id: "732BCBB328FD0178"
 					player_command: false
-					title: "барьер"
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Споры грибов озаряют пустоту\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Споры грибов озаряют пустоту\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "54B44AAEC239FFF7"
 					player_command: false
 					type: "command"
@@ -401,7 +391,7 @@
 				"4BA91AB519070D4D"
 				"045C3D369D9FADD6"
 			]
-			description: ["Найдите гидру под холмом в огненых болотах"]
+			description: ["Убейте Гидру."]
 			hide: true
 			hide_dependency_lines: true
 			icon: "twilightforest:hydra_trophy"
@@ -415,35 +405,48 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say Hi, @p!"
+					command: "/forceload add 0 0 -200 200"
 					id: "06FF06EE016E2CA8"
 					player_command: false
-					title: "Спавн Острова \"Deeper & Darker\""
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
+					command: "/worldborder set 450"
 					id: "2C5BD5DDFBF47458"
 					player_command: false
-					title: "барьер"
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Пустота вокруг вас начинает темнеть\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Пустота вокруг вас начинает темнеть\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "3980F9EC5CFEC34E"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:deep_dark_regrowth -210 110 145"
+					id: "61805832E0B530A7"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "06B8F85C7DF7ED0B"
 					player_command: false
 					type: "command"
 				}
 			]
 			tasks: [{
 				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
 				id: "30DFA7BCE758DDC6"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Вместо одной головы выростут три"
+			title: "Вместо одной головы вырастут три"
 			x: -8.5d
 			y: 0.0d
 		}
@@ -467,7 +470,7 @@
 		}
 		{
 			dependencies: ["453998643157B472"]
-			description: ["Метьнись в ад и набери песочку"]
+			description: ["Отправьтесь в Ад и найдите песок душ."]
 			id: "118410C89DF00062"
 			rewards: [{
 				count: 64
@@ -668,23 +671,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say Hi, @p!"
+					command: "/place template minecraft:hydra_island -70 110 100"
 					id: "2F242AB004BBEC13"
 					player_command: false
-					title: "Спавн острова \"Гидра\""
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "473C4A089CFB55F4"
-					player_command: false
-					title: "барьер"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Глаза горят, а воздух теплеет\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Глаза горят, а воздух теплеет\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "572020E0AE2BC999"
 					player_command: false
 					type: "command"
@@ -722,14 +716,43 @@
 		}
 		{
 			dependencies: ["1EE42A294EBBD610"]
-			description: ["Чтобы попасть дальше прийдется разобраться с охраником темных земель"]
+			description: ["Чтобы попасть дальше придется разобраться с охраником темных земель"]
 			id: "0152D66E23EE30B1"
-			rewards: [{
-				count: 4
-				id: "5AE55558E1815C28"
-				item: "deeperdarker:warden_carapace"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "5AE55558E1815C28"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload add 0 0 200 -200"
+					id: "5E48D4CF27BADECA"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Хранитель не оставит вас в покое\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "323E7BB2876C1CAF"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:deeplands_biome 120 100 -190"
+					id: "5BB534BA0CF1F482"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "6833E55067D77331"
+					player_command: false
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0311549681A50D29"
@@ -744,11 +767,34 @@
 			dependencies: ["0152D66E23EE30B1"]
 			description: ["Сердце охраника я заберу с собой, как сувенирчик"]
 			id: "41C65BD1CB61D79B"
-			rewards: [{
-				id: "40CE6AE9E28ACF84"
-				item: "deeperdarker:heart_of_the_deep"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "40CE6AE9E28ACF84"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload add 0 0 -160 70"
+					id: "71F2572CB37D6FF5"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:overcast_columns_biome -200 150 50"
+					id: "534C26456C0B5784"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/forceload remove all"
+					id: "399602CCF452B269"
+					player_command: false
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "6046F1C34010E17F"
 				item: "deeperdarker:heart_of_the_deep"
@@ -759,33 +805,35 @@
 		}
 		{
 			dependencies: ["41C65BD1CB61D79B"]
-			description: ["Добро пожаловать в темнык земли"]
-			id: "68081DAD517B246E"
-			rewards: [{
-				count: 6
-				id: "44853C806EFC9BB1"
-				item: "deeperdarker:warden_carapace"
-				type: "item"
-			}]
-			tasks: [{
-				dimension: "deeperdarker:otherside"
-				id: "57D26B5D179E8881"
-				type: "dimension"
-			}]
-			title: "Deeper and Darker"
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["68081DAD517B246E"]
 			description: ["Соберите местного мха, да побольше"]
 			id: "6EB36D6CE6B28111"
-			rewards: [{
-				count: 32
-				id: "0446AE87F1F834B8"
-				item: "deep_dark_regrowth:mossy_fluorite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "0446AE87F1F834B8"
+					item: "deep_dark_regrowth:mossy_fluorite"
+					type: "item"
+				}
+				{
+					command: "/forceload add 100 100 250 250"
+					id: "0C1F645403F82256"
+					player_command: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/place template minecraft:echoing_forest_biome 170 140 170"
+					id: "5E33E3ACC1D8C2AA"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "/forceload remove all"
+					id: "03A26A2ADC2FE110"
+					player_command: false
+					type: "command"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "1BB8BE6A6F9F134F"
@@ -794,17 +842,14 @@
 			}]
 			title: "Липкий Флуорит"
 			x: -6.5d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"4BA91AB519070D4D"
 				"38FF01FE1835B023"
 			]
-			description: [
-				"Найдите лмбиринт гриботавра"
-				"Лабиринт расположен в огненых болотах"
-			]
+			description: ["Убейте Гриботавра."]
 			hide: true
 			hide_dependency_lines: true
 			id: "7CC994D9CE81BCEB"
@@ -882,24 +927,28 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say Hi, @p!"
-					id: "14704B19A648614F"
+					command: "/forceload add 0 140 -120 0"
+					id: "34015FD13B0CDE1B"
 					player_command: false
-					title: "Спавн острова \"Aquamirae\""
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set ()"
-					id: "0DA4A3DC8DDF4D8C"
+					command: "/place template minecraft:aquamirae_island -100 240 30"
+					id: "1E481DDD4AD86E57"
 					player_command: false
-					title: "барьер"
+					type: "command"
+				}
+				{
+					command: "/forceload remove all"
+					id: "326DD9D1ECEA4131"
+					player_command: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Влажность становится выше\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "150C6F0FD7B77294"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Величественный ледяной остров взмыл в небеса\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					id: "113595641C769B57"
 					player_command: false
 					type: "command"
 				}
@@ -910,7 +959,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6317A3CD85E467D0"]
@@ -945,7 +994,7 @@
 				"4BA91AB519070D4D"
 				"0AE65EB87D0B9717"
 			]
-			description: ["Найдите и заберите у рыбок из мода aquamirai плавники"]
+			description: ["Найдите и заберите у рыбок из мода aquamirae плавники"]
 			hide: true
 			hide_dependency_lines: true
 			id: "78E0DAF09902B2C5"
@@ -1755,6 +1804,17 @@
 			}]
 			x: -16.5d
 			y: -10.0d
+		}
+		{
+			dependencies: ["5C3F9AF1D9019A99"]
+			id: "3852A8A9D036400F"
+			tasks: [{
+				id: "49145D7444453CAE"
+				item: "gribtweaks:spirit_attuned_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.9d
 		}
 	]
 	title: "&5Стадия: 4"

@@ -6,18 +6,10 @@
 	icon: "create:cogwheel"
 	id: "56ABD15808A6CBA2"
 	order_index: 0
-	quest_links: [{
-		id: "34E73CBF130DEE01"
-		linked_quest: "1FB7C1290A00B6DA"
-		x: -27.5d
-		y: -3.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5D1AFEF9268A9857"
-				"1E36D9B7DC4E270E"
-			]
+			dependencies: ["5D1AFEF9268A9857"]
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "1E84ED25A996910E"
@@ -155,7 +147,8 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1FB7C1290A00B6DA"]
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			id: "0E1D1D91B842C4A8"
 			tasks: [
 				{
@@ -294,6 +287,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			id: "6E545C68D9B4F830"
 			subtitle: "В туалет с ней лучше не ходить."
 			tasks: [{
@@ -359,7 +354,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1FB7C1290A00B6DA"]
+			dependencies: ["744223264E0F1603"]
+			hide: true
 			id: "0B50483F8FF876BC"
 			tasks: [{
 				id: "17487F40BDB141BC"
@@ -1592,6 +1588,17 @@
 			title: "Незеритовый баллон"
 			x: -12.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["32697BCFC9B16CB4"]
+			id: "3B9F625C166EF02F"
+			tasks: [{
+				id: "01F41EA778F512A8"
+				item: "gribtweaks:mechanical_ingot"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.0d
 		}
 	]
 	title: "&6Let's Create"
