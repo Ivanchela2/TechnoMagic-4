@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
-	filename: "kc"
+	filename: "stage_end"
 	group: "68453F2D86137DED"
 	icon: "minecraft:red_mushroom_block"
 	id: "2D369DA1B8E43571"
