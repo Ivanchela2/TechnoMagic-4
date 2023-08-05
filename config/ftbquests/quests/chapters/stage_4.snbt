@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4_2"
+	filename: "stage_4"
 	group: "472A643616306AAC"
 	icon: "aquamirae:ship_graveyard_echo"
 	id: "70F3FC407354B807"
