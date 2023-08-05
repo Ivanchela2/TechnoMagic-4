@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "pentagon"
-	filename: "198A924D348BD16B"
+	filename: "start"
 	group: ""
 	icon: "scalinghealth:heart_crystal"
 	id: "198A924D348BD16B"
