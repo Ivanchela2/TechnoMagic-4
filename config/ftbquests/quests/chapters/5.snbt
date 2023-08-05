@@ -752,7 +752,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Тот, кого все ждали, пришел именно в Ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Тот, кого все ждали, пришел именно в Ваш мир...\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "417114F2EFBD209E"
 					player_command: false
 					type: "command"
@@ -3956,11 +3956,19 @@
 				}
 			}
 			id: "4B9A5EF6E8A2ED5D"
-			tasks: [{
-				id: "5EE67DE4F9CA5D36"
-				item: "minecraft:dolphin_spawn_egg"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EE67DE4F9CA5D36"
+					item: "minecraft:dolphin_spawn_egg"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "42F07D663C46EA39"
+					type: "kill"
+					value: 100L
+				}
+			]
 			title: "Финальный босс"
 			x: 6.5d
 			y: 4.5d
