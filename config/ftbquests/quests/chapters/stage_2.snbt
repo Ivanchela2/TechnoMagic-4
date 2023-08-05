@@ -38,12 +38,21 @@
 			dependencies: ["05EBC27472F491E3"]
 			description: ["Используя силу природы, вы научились создавать полезные ресурсы."]
 			id: "5810E01625CA0519"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69869D043BB21E8D"
-				table_id: 620023622523066540L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69869D043BB21E8D"
+					table_id: 620023622523066540L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "74C9079C2E6409CA"
+					item: "minecraft:pointed_dripstone"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7A3C4D2B5FB6A15A"
@@ -486,7 +495,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2B7E545FFB41DC39"]
+			dependencies: [
+				"2B7E545FFB41DC39"
+				"4532ABE8F245CA3E"
+			]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
@@ -676,6 +688,29 @@
 			}]
 			x: 12.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5810E01625CA0519"]
+			description: [
+				"С помощью капельника и блока грязи получите глину."
+				""
+				"Поставьте капельник под любой блок, а на этот блок разместите грязь. И... ждите."
+			]
+			id: "4532ABE8F245CA3E"
+			rewards: [{
+				count: 24
+				id: "52134486FD7626E7"
+				item: "minecraft:dirt"
+				random_bonus: 12
+				type: "item"
+			}]
+			tasks: [{
+				id: "64564D61BCDB8D35"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "&5Стадия: 2"

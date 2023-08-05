@@ -10,38 +10,22 @@
 	quests: [
 		{
 			dependencies: ["249EED31D84418E8"]
-			description: ["Использование кирки Ботаника, позволит вам преврать корни в замшелые."]
+			description: ["Скрафтите корни и сломайте их, чтобы получить замшелый корень."]
 			id: "5835379C03113E98"
 			rewards: [{
-				id: "519038E51EB260E5"
-				item: "naturesaura:infused_iron"
-				random_bonus: 1
+				count: 4
+				id: "276515886ECAD186"
+				item: "minecraft:mangrove_roots"
+				random_bonus: 4
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1C0AA9C28EBBD2A2"
-					item: {
-						Count: 1b
-						id: "naturesaura:infused_iron_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7094AD65BACE02B9"
-					item: "twilightforest:root"
-					type: "item"
-				}
-				{
-					id: "7672D57A6526DA4C"
-					item: "twilightforest:liveroot_block"
-					type: "item"
-				}
-			]
-			title: "Преображение"
+			tasks: [{
+				count: 2L
+				id: "10C4EA7B7B70892B"
+				item: "twilightforest:liveroot_block"
+				type: "item"
+			}]
+			title: "Проросший"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -343,15 +327,21 @@
 			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
 			hide_dependency_lines: true
 			id: "693776EF7D9D074E"
+			rewards: [{
+				count: 4
+				id: "42E4AA7CC6883FE8"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "33271CAB99F1A9B6"
 				ignore_dimension: false
 				position: [I;
-					43
-					149
-					26
+					40
+					128
+					-17
 				]
 				size: [I;
 					4
@@ -810,12 +800,26 @@
 			dependencies: ["69F581557BA017AF"]
 			description: ["Кусок лабиринта парящий в воздухе, Что-то ждет вас там."]
 			id: "453B7DB977D14FB9"
-			rewards: [{
-				id: "5AA9A1BBFDF80D4C"
-				item: "twilightforest:naga_scale"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5AA9A1BBFDF80D4C"
+					item: "twilightforest:naga_scale"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					command: "/place template minecraft:s3_sorcerium-crystals 16 104 -24"
+					id: "411061A67978DBAD"
+					player_command: false
+					type: "command"
+				}
+				{
+					command: "Небо кратковременно освещает синий цвет"
+					id: "489F8876199A49D9"
+					player_command: false
+					type: "command"
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "twilightforest:naga"
@@ -1231,15 +1235,21 @@
 			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
 			hide_dependency_lines: true
 			id: "1FB3837335109150"
+			rewards: [{
+				count: 4
+				id: "5B9E16B9150C9ABE"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "4636445E028A59C8"
 				ignore_dimension: false
 				position: [I;
-					40
-					128
-					-17
+					43
+					149
+					26
 				]
 				size: [I;
 					4
