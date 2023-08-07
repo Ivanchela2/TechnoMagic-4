@@ -1,0 +1,47 @@
+[16:02:06] [INFO ] Loaded script client_scripts:end_game_tooltips/rei/hide.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:end_game_tooltips/tooltips_add.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:gribtweaks/rei/hide.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/altar.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/animal_spawner.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/arhiology_generator.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/nature_altar.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/nature_ritual.js in 0.005 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/offering_table.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/potion_generator.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/rf_converter.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/ritual_of_rhe_forest.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 3/twilight_portal.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/andesite_alloy_farm.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/nature_altar.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/nature_ritual.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/reactor.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/roots_ritual.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/simple_lava_farm.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 6/ponder/tag.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/concrate_farm.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/endoflame.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/fission_r.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/flame_flower_ore.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/flint_grinder.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/flower_ore.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/forbidden_arcanushephaestus_forge.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/fusion_r.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/gaia_ritual.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/gen_pressor.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/gourmaryllis.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/ignem_orechid.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/iron_farm.js in 0.003 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/mana_tnt_farm.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/occultism.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/orechid.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/ore_processing.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/Precision_Mechanism_Crafter.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/sot_farm.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/spirit_mob_farm.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/steam_power_generator.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/tag.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/ponder/vodogortenzia.js in 0.001 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/rei/add.js in 0.0 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/rei/hide.js in 0.002 s
+[16:02:06] [INFO ] Loaded script client_scripts:stage 7/tooltips/tooltips_add.js in 0.001 s
+[16:02:06] [INFO ] Loaded 46/46 KubeJS client scripts in 0.082 s

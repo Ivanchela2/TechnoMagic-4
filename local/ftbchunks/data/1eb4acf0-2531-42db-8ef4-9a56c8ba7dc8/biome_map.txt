@@ -1,0 +1,12 @@
+#141 regions_unexplored:barley_fields
+#556 minecraft:beach
+#1FD regions_unexplored:deciduous_forest
+#010 minecraft:forest
+#6DD regions_unexplored:grassy_beach
+#79A minecraft:lukewarm_ocean
+#4D4 regions_unexplored:muddy_river
+#3DC minecraft:plains
+#25A regions_unexplored:prairie
+#5FF minecraft:river
+#67B minecraft:savanna
+#48F regions_unexplored:towering_cliffs

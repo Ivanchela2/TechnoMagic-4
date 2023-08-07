@@ -1,0 +1,4 @@
+#52B53D minecraft:air
+#2D68D6 minecraft:dead_bush
+#86FC77 minecraft:sand
+#6EC61D minecraft:tripwire

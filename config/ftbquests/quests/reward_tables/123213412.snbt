@@ -1,7 +1,7 @@
 {
 	id: "6121F54ED95F87F8"
 	loot_size: 1
-	order_index: 32
+	order_index: 33
 	rewards: [
 		{ count: 8, item: "gribtweaks:sand_copper_nugget" }
 		{ count: 8, item: "gribtweaks:sand_gold_nugget" }

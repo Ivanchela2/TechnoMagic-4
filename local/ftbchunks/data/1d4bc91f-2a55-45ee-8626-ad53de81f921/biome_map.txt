@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#61B regions_unexplored:frozen_tundra
+#4EB regions_unexplored:icy_desert
+#031 regions_unexplored:redstone_caves
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga

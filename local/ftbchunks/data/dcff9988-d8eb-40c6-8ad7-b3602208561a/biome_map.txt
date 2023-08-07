@@ -1,0 +1,15 @@
+#36D regions_unexplored:chalk_cliffs
+#1FD regions_unexplored:deciduous_forest
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#4CA minecraft:dripstone_caves
+#6DD regions_unexplored:grassy_beach
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#10D regions_unexplored:lush_delta
+#4D4 regions_unexplored:muddy_river
+#4F1 minecraft:ocean
+#301 regions_unexplored:orchard
+#031 regions_unexplored:redstone_caves
+#247 regions_unexplored:scorching_caves
+#02B regions_unexplored:shrubland

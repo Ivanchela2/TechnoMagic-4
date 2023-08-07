@@ -1,0 +1,17 @@
+#6A7 regions_unexplored:boreal_forest
+#08C regions_unexplored:cold_boreal_forest
+#427 regions_unexplored:cold_river
+#5D2 regions_unexplored:frozen_forest
+#3A0 minecraft:frozen_river
+#61B regions_unexplored:frozen_tundra
+#1F1 regions_unexplored:golden_boreal_forest
+#5C2 regions_unexplored:icy_heights
+#6FD regions_unexplored:maple_forest
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#5FF minecraft:river
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga
+#05C minecraft:windswept_gravelly_hills
+#4C3 minecraft:windswept_hills

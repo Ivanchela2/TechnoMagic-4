@@ -1,0 +1,10 @@
+#52B53D minecraft:air
+#C6AC20 minecraft:cactus
+#2D68D6 minecraft:dead_bush
+#86FC77 minecraft:sand
+#D38C21 minecraft:sand2
+#F60EEB gribtweaks:sand_layer
+#872D76 minecraft:snow
+#375A43 supplementaries:stick
+#DC3458 minecraft:stone
+#6EC61D minecraft:tripwire

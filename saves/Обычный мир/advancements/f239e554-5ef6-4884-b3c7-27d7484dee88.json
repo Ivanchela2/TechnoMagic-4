@@ -1,0 +1,282 @@
+{
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_slab_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "modonomicon:modonomicon/root": {
+    "criteria": {
+      "modonomicon_present": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "deeperdarker:main/enter_otherside": {
+    "criteria": {
+      "otherside": "2023-08-03 18:53:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/crafting_table_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/cursed_ring": {
+    "criteria": {
+      "has_items": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "echoing_expanse:echoing_expanse_root": {
+    "criteria": {
+      "echoing_expanse_root": "2023-08-03 18:52:58 +0300"
+    },
+    "done": true
+  },
+  "morevillagers:first_village": {
+    "criteria": {
+      "plains": "2023-08-03 18:48:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_pressure_plate_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_door_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:regions_unexplored": {
+    "criteria": {
+      "regions_unexplored": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "friendsandfoes:misc/yellow_dye_from_buttercup": {
+    "criteria": {
+      "has_the_recipe": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "sorcerium:lvl_achievement": {
+    "criteria": {
+      "lvl_achievement": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:regions_explored": {
+    "criteria": {
+      "regions_unexplored:deciduous_forest": "2023-08-03 18:48:53 +0300",
+      "regions_unexplored:prairie": "2023-08-03 18:47:44 +0300",
+      "regions_unexplored:cherry_hills": "2023-08-03 18:52:55 +0300",
+      "regions_unexplored:bamboo_forest": "2023-08-03 18:47:29 +0300",
+      "regions_unexplored:grassy_beach": "2023-08-03 18:48:46 +0300",
+      "regions_unexplored:pine_slopes": "2023-08-03 18:52:49 +0300",
+      "regions_unexplored:muddy_river": "2023-08-03 18:47:41 +0300"
+    },
+    "done": false
+  },
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_amulet": {
+    "criteria": {
+      "has_items": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_ocean": "2023-08-03 18:50:08 +0300",
+      "minecraft:deep_frozen_ocean": "2023-08-03 18:49:40 +0300",
+      "minecraft:deep_dark": "2023-08-03 18:52:58 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/woodcutting/spruce/barrel_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/the_acknowledgment": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_boat_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_fence_gate_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_stairs_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/chest_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "seeds:substainable": {
+    "criteria": {
+      "substainable": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/find_ice_maze": {
+    "criteria": {
+      "deep_frozen_ocean": "2023-08-03 18:49:40 +0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2023-08-03 18:47:26 +0300",
+      "inv_changed-diamond": "2023-08-03 18:47:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "deeperdarker:main/locate_ancient_city": {
+    "criteria": {
+      "ancient_city": "2023-08-03 18:52:59 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/root": {
+    "criteria": {
+      "flower": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "deeperdarker:main/explore_otherside": {
+    "criteria": {
+      "otherside_deeplands": "2023-08-03 18:53:35 +0300"
+    },
+    "done": false
+  },
+  "ad_astra:tier_4_rocket": {
+    "criteria": {
+      "tier_4_rocket": "2023-08-03 18:51:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-08-03 18:54:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_button_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/infernal_shield": {
+    "criteria": {
+      "has_parent_recipe": "2023-08-03 18:47:26 +0300"
+    },
+    "done": false
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2023-08-03 18:47:29 +0300"
+    },
+    "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "plains": "2023-08-03 18:48:56 +0300"
+    },
+    "done": false
+  },
+  "deep_dark_regrowth:the_forgotten_story": {
+    "criteria": {
+      "the_forgotten_story": "2023-08-03 18:52:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_fence_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-08-03 18:51:18 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

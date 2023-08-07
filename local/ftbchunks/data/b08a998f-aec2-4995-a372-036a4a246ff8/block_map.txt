@@ -1,0 +1,8 @@
+#52B53D minecraft:air
+#2D68D6 minecraft:dead_bush
+#4A5E4E minecraft:obsidian
+#3954D9 minecraft:piston_head
+#86FC77 minecraft:sand
+#846C49 minecraft:slime_block
+#753082 minecraft:sticky_piston
+#6EC61D minecraft:tripwire

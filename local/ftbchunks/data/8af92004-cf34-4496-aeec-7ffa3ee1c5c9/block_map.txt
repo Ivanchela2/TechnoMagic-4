@@ -1,0 +1,7 @@
+#52B53D minecraft:air
+#2D68D6 minecraft:dead_bush
+#86FC77 minecraft:sand
+#F60EEB gribtweaks:sand_layer
+#25A331 gribtweaks:statue_obj
+#DC3458 minecraft:stone
+#6EC61D minecraft:tripwire

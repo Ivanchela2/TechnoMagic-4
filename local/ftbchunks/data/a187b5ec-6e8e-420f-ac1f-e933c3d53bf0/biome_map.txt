@@ -1,0 +1,14 @@
+#141 regions_unexplored:barley_fields
+#36D regions_unexplored:chalk_cliffs
+#2DC minecraft:deep_dark
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#4D4 regions_unexplored:muddy_river
+#4F1 minecraft:ocean
+#25A regions_unexplored:prairie
+#4AB regions_unexplored:redwoods
+#247 regions_unexplored:scorching_caves
+#02B regions_unexplored:shrubland
+#3AF minecraft:sparse_jungle
+#51A minecraft:stony_shore
+#77B regions_unexplored:temperate_grove

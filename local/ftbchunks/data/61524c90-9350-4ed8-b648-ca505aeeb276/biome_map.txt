@@ -1,0 +1,17 @@
+#556 minecraft:beach
+#2DC minecraft:deep_dark
+#34D minecraft:deep_lukewarm_ocean
+#008 minecraft:desert
+#4CA minecraft:dripstone_caves
+#6DD regions_unexplored:grassy_beach
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#073 minecraft:mushroom_fields
+#147 regions_unexplored:old_growth_rainforest
+#031 regions_unexplored:redstone_caves
+#4AB regions_unexplored:redwoods
+#108 regions_unexplored:saguaro_desert
+#67B minecraft:savanna
+#247 regions_unexplored:scorching_caves
+#770 regions_unexplored:smouldering_woodland
+#2B7 minecraft:warm_ocean

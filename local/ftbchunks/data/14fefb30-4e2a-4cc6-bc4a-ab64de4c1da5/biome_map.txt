@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#010 minecraft:forest
+#6DD regions_unexplored:grassy_beach
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#502 regions_unexplored:pine_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#774 minecraft:sunflower_plains

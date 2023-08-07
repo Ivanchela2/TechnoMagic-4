@@ -1,0 +1,5 @@
+#3C6 regions_unexplored:blackwood_forest
+#4D4 regions_unexplored:muddy_river
+#502 regions_unexplored:pine_forest
+#247 regions_unexplored:scorching_caves
+#77B regions_unexplored:temperate_grove

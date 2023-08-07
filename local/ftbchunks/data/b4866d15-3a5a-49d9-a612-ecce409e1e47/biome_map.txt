@@ -1,0 +1,12 @@
+#47F minecraft:birch_forest
+#762 regions_unexplored:cherry_hills
+#2DC minecraft:deep_dark
+#010 minecraft:forest
+#3A5 regions_unexplored:lupine_plains
+#2D6 minecraft:meadow
+#4D4 regions_unexplored:muddy_river
+#1DF minecraft:old_growth_birch_forest
+#502 regions_unexplored:pine_forest
+#5FF minecraft:river
+#247 regions_unexplored:scorching_caves
+#77B regions_unexplored:temperate_grove

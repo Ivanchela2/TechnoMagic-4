@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "9c9e786264f239ed953182ffd756e59d"
+	name: "Krielo"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
