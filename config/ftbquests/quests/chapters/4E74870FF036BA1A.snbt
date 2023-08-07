@@ -15,10 +15,10 @@
 			hide_dependency_lines: true
 			id: "05B1F44D6E7D9F1C"
 			rewards: [{
-				command: "/effect give @p toughasnails:climate_clemency 50000"
+				command: "/effect give @a toughasnails:climate_clemency 999999"
 				id: "3DE8581CFE60E14C"
 				player_command: false
-				title: "Защита от температуры на 20 минут"
+				title: "Невосприимчивость к температуре"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -1035,6 +1035,13 @@
 			]
 			description: ["Эта прекрасная свежая, влажная, скользкая листва поможет тебе избавиться от жары! Но как?..."]
 			id: "73E1325913C5FFB1"
+			rewards: [{
+				command: "/effect clear @p toughasnails:climate_clemency"
+				id: "5FC670AD0AF63F47"
+				player_command: false
+				title: "Сброс невосприимчивости к температуре"
+				type: "command"
+			}]
 			tasks: [{
 				count: 24L
 				id: "3DE9D17A975D43F7"

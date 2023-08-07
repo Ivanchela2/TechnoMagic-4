@@ -25,6 +25,7 @@ fov:0.25
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
+gamma:0.5
 renderDistance:5
 simulationDistance:15
 entityDistanceScaling:5.0
@@ -36,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Solar Flux Generated Resources","Supplementaries Generated Pack","loadmyresources.hiddenpack","quark:emote_resources","resources/simplehats_hatdl.zip","file/_______ ___________","create:legacy_copper","create_central_kitchen:create_styled","file/Blockstates+V1.4.zip","eatinganimations_compat"]
-incompatibleResourcePacks:["loadmyresources.hiddenpack","quark:emote_resources","file/Blockstates+V1.4.zip"]
+resourcePacks:["vanilla","mod_resources","Solar Flux Generated Resources","Supplementaries Generated Pack","loadmyresources.hiddenpack","quark:emote_resources","resources/simplehats_hatdl.zip","create:legacy_copper","create_central_kitchen:create_styled","file/Blockstates+V1.4.zip","eatinganimations_compat","timecore_special_resources","file/Mod Translations","file/EclecticTrove-noconfig-1.19-1.2.0.zip","file/Enhanced Hud.zip","file/Better HUD v3.2.9.zip","file/FreshAnimations_v1.8.zip","file/[1.3] Enhanced Boss Bars.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/Better_Enderdragon.zip","file/Aimz - PVP Crosshair.zip"]
+incompatibleResourcePacks:["loadmyresources.hiddenpack","quark:emote_resources","file/Blockstates+V1.4.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/Aimz - PVP Crosshair.zip"]
 lastServer:z23.joinserver.xyz:25682
 lang:ru_ru
 soundDevice:""
@@ -164,11 +165,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.enderRing:key.keyboard.unknown
 key_key.spellstoneAbility:key.keyboard.unknown
 key_key.xpScroll:key.keyboard.unknown
@@ -244,7 +245,7 @@ key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
-soundCategory_master:0.35430464
+soundCategory_master:0.4523179
 soundCategory_music:0.0
 soundCategory_record:0.0
 soundCategory_weather:0.0

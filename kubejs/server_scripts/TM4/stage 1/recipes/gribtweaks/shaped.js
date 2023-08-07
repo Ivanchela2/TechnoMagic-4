@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
             B: 'minecraft:string'
         })
         
-        event.shaped('gribtweaks:hope_catalyst', [
+        event.shaped('gribtweaks:damage_hope_catalyst', [
             ' AB',
             'ACA',
             'DA '
@@ -207,5 +207,13 @@ ServerEvents.recipes(event => {
             B: 'gribtweaks:sand_iron',
             C: 'minecraft:oak_sapling',
             D: 'gribtweaks:sand_zinc'
+        })
+        
+        event.shaped('gribtweaks:sand_shears', [
+            'AA ',
+            'AA ',
+            '   '
+        ], {
+            A: 'gribtweaks:sand_layer'
         })
 });

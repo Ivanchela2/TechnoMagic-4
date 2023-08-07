@@ -1,4 +1,4 @@
-[16:16:10] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [StoragePlugin:sophisticatedstorage:default] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/DisplayRegistryImpl/!
+[18:24:25] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [StoragePlugin:sophisticatedstorage:default] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/DisplayRegistryImpl/!
 java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
 	at java.base/java.util.ArrayList.rangeCheckForAdd(ArrayList.java:756)
 	at java.base/java.util.ArrayList.add(ArrayList.java:481)
@@ -31,7 +31,7 @@ java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:16:11] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [QuarkJeiPlugin:quark:quark] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/TransferHandlerRegistryImpl/!
+[18:24:26] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [QuarkJeiPlugin:quark:quark] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/TransferHandlerRegistryImpl/!
 java.lang.UnsupportedOperationException: This operation has not been implemented yet!
 	at TRANSFORMER/rei_plugin_compatibilities@9.0.48/me.shedaniel.rei.plugincompatibilities.QLT45XsQMCN.uXks7MqwhW1.UlWpJYHlLKy(JEIPluginDetector.java:122)
 	at TRANSFORMER/rei_plugin_compatibilities@9.0.48/me.shedaniel.rei.plugincompatibilities.QLT45XsQMCN.TZ60tO2d7mo.createUnregisteredRecipeTransferHandler(JEIRecipeTransferHandlerHelper.java:105)
@@ -55,7 +55,7 @@ java.lang.UnsupportedOperationException: This operation has not been implemented
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:16:11] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [AdAstraJeiPlugin:ad_astra:jei] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/TransferHandlerRegistryImpl/!
+[18:24:26] [REI-ReloadPlugins/ERROR] [REI] JEI Plugin [AdAstraJeiPlugin:ad_astra:jei] of REI Plugin Compatibilities Adapter [rei_plugin_compatibilities, jei] plugin failed to reloadable-plugin/TransferHandlerRegistryImpl/!
 java.lang.UnsupportedOperationException: This operation has not been implemented yet!
 	at TRANSFORMER/rei_plugin_compatibilities@9.0.48/me.shedaniel.rei.plugincompatibilities.QLT45XsQMCN.uXks7MqwhW1.UlWpJYHlLKy(JEIPluginDetector.java:122)
 	at TRANSFORMER/rei_plugin_compatibilities@9.0.48/me.shedaniel.rei.plugincompatibilities.QLT45XsQMCN.TZ60tO2d7mo.createUnregisteredRecipeTransferHandler(JEIRecipeTransferHandlerHelper.java:105)
@@ -78,4 +78,4 @@ java.lang.UnsupportedOperationException: This operation has not been implemented
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:16:12] [REI-ReloadPlugins/ERROR] [REI] createFocusLink is not supported in REI yet!
+[18:24:28] [REI-ReloadPlugins/ERROR] [REI] createFocusLink is not supported in REI yet!

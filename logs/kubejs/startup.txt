@@ -1,18 +1,18 @@
-[16:02:06] [INFO ] startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
-[16:02:06] [INFO ] Loaded script startup_scripts:script.js in 0.089 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 1/block_registry.js in 0.0 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 1/item_registry.js in 0.002 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 3/block_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 3/item_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 3/liquid_registry.js in 0.0 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 3/tier_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 3/world_gen.js in 0.009 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 5/block_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 5/item_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 6/block_registry.js in 0.002 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 6/item_registry.js in 0.004 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 7/block_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage 7/item_registry.js in 0.0 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage_end_game/block_registry.js in 0.0 s
-[16:02:06] [INFO ] Loaded script startup_scripts:stage_end_game/item_registry.js in 0.001 s
-[16:02:06] [INFO ] Loaded 16/16 KubeJS startup scripts in 0.622 s
+[18:21:26] [INFO ] startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
+[18:21:26] [INFO ] Loaded script startup_scripts:script.js in 0.06 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 1/block_registry.js in 0.0 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 1/item_registry.js in 0.002 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 3/block_registry.js in 0.001 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 3/item_registry.js in 0.002 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 3/liquid_registry.js in 0.0 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 3/tier_registry.js in 0.003 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 3/world_gen.js in 0.007 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 5/block_registry.js in 0.0 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 5/item_registry.js in 0.001 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 6/block_registry.js in 0.002 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 6/item_registry.js in 0.003 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 7/block_registry.js in 0.001 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage 7/item_registry.js in 0.0 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage_end_game/block_registry.js in 0.001 s
+[18:21:26] [INFO ] Loaded script startup_scripts:stage_end_game/item_registry.js in 0.0 s
+[18:21:26] [INFO ] Loaded 16/16 KubeJS startup scripts in 0.549 s

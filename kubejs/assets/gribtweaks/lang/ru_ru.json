@@ -53,5 +53,8 @@
     "block.gribtweaks.infinity_heavy_cogwheel": "§dБесконечная Тяжелая Шестерня",
     "block.gribtweaks.block_infinity_catalyst": "§cБлок Бесконечного Катализатора",
     "block.gribtweaks.compressed_knightmetal_block": "Сжатый Блок Королевского металла",
-    "block.gribtweaks.compressed_fiery_block": "Сжатый Блок Огненного металла"
+    "block.gribtweaks.compressed_fiery_block": "Сжатый Блок Огненного металла",
+
+    "gateways.sand_raid": "Песчаный рейд",
+    "gateways.forest_raid": "Песчаный рейд"
 }
