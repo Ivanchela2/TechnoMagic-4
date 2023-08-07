@@ -1,15 +1,14 @@
 {
-	icon: "ivanchela:raw_zinc_fragment"
 	id: "0FF447C6D0D79390"
 	loot_size: 1
 	order_index: 11
 	rewards: [
 		{ item: "minecraft:cobblestone", weight: 0.4f }
 		{ item: "minecraft:stick" }
-		{ item: "ivanchela:sandstein", weight: 0.4f }
-		{ item: "ivanchela:sand_stone_pieces", weight: 0.8f }
-		{ item: "ivanchela:raw_copper_nugget", weight: 0.2f }
-		{ item: "ivanchela:raw_zinc_nugget", weight: 0.2f }
+		{ item: "gribtweaks:sand_trough", weight: 0.4f }
+		{ item: "gribtweaks:sand_copper_nugget", weight: 0.2f }
+		{ item: "gribtweaks:sand_zinc_nugget", weight: 0.2f }
+		{ item: "gribtweaks:sand_stone_pieces", weight: 0.8f }
 	]
-	title: "песок + бул + медь + цинк"
+	title: "#1 стадия (4)"
 }

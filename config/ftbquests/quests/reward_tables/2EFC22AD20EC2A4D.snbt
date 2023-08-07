@@ -1,15 +1,14 @@
 {
-	icon: "minecraft:oak_log"
 	id: "2EFC22AD20EC2A4D"
 	loot_size: 1
 	order_index: 12
 	rewards: [
 		{ item: "minecraft:cobblestone", weight: 0.4f }
-		{ item: "ivanchela:sandstein", weight: 0.4f }
-		{ item: "ivanchela:sand_stone_pieces", weight: 0.8f }
+		{ item: "gribtweaks:sand_trough", weight: 0.4f }
 		{ item: "minecraft:stick" }
 		{ item: "minecraft:oak_planks", weight: 0.4f }
 		{ item: "minecraft:oak_log", weight: 0.2f }
+		{ item: "gribtweaks:sand_stone_pieces", weight: 0.8f }
 	]
-	title: "песок + бул + дерево"
+	title: "#1 стадия (5)"
 }

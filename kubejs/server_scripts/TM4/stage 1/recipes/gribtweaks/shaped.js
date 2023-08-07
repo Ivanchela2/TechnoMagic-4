@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'minecraft:string',
             B: '#minecraft:wool',
-            C: 'create:zinc_ingot',
+            C: 'minecraft:copper_ingot',
             D: 'gribtweaks:unforgotten_soul',
             E: 'minecraft:sandstone'
         })
@@ -196,5 +196,16 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gribtweaks:sand_stone_pieces',
             B: 'minecraft:string'
+        })
+        
+        event.shaped('gribtweaks:hope_catalyst', [
+            ' AB',
+            'ACA',
+            'DA '
+        ], {
+            A: 'minecraft:sandstone',
+            B: 'gribtweaks:sand_iron',
+            C: 'minecraft:oak_sapling',
+            D: 'gribtweaks:sand_zinc'
         })
 });

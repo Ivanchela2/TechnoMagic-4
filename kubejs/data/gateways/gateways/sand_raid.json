@@ -35,7 +35,7 @@
           }
         }
       ],
-      "max_wave_time": 750,
+      "max_wave_time": 1500,
       "setup_time": 450
     },
     {
@@ -100,7 +100,7 @@
           }
         }
       ],
-      "max_wave_time": 750,
+      "max_wave_time": 2000,
       "setup_time": 150
     },
     {
@@ -171,7 +171,7 @@
           }
         }
       ],
-      "max_wave_time": 750,
+      "max_wave_time": 2000,
       "setup_time": 150
     },
     {
@@ -215,7 +215,7 @@
           }
         }
       ],
-      "max_wave_time": 2500,
+      "max_wave_time": 4500,
       "setup_time": 150
     }
 

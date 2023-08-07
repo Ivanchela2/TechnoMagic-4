@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
-	filename: "stage_1"
+	filename: "4E74870FF036BA1A"
 	group: "472A643616306AAC"
 	icon: "minecraft:sand"
 	id: "03396F232AC71702"
@@ -14,6 +14,13 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "05B1F44D6E7D9F1C"
+			rewards: [{
+				command: "/effect give @p toughasnails:climate_clemency 50000"
+				id: "3DE8581CFE60E14C"
+				player_command: false
+				title: "Защита от температуры на 20 минут"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "75FC419EE271FF9A"
@@ -133,20 +140,12 @@
 			]
 			description: ["Мягкость кисточки позволила вам извлечь из песка куски неразвалившегося твердого песчаника. Влажные, но держащие форму. С этим уже можно работать!"]
 			id: "1163A15940092C0B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0768FC35BEB73CC0"
-					table_id: 868357285040370819L
-					type: "loot"
-				}
-				{
-					command: "/effect give @p toughasnails:climate_clemency 600"
-					id: "154951745CCB9D58"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0768FC35BEB73CC0"
+				table_id: 868357285040370819L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5F9BF8DCF62B1ACB"
 				item: "gribtweaks:sand_stone_pieces"
@@ -172,7 +171,7 @@
 				type: "item"
 			}]
 			title: "Мсье Глиномес"
-			x: -12.0d
+			x: -13.5d
 			y: 0.0d
 		}
 		{
@@ -204,8 +203,8 @@
 				type: "item"
 			}]
 			title: "Ах, Боржоми!"
-			x: -10.5d
-			y: 0.0d
+			x: -12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["74DFC465A21635B9"]
@@ -245,20 +244,29 @@
 				type: "observation"
 			}]
 			title: "Росточек, привет!"
-			x: -9.0d
-			y: 0.0d
+			x: -10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66E2D3631FE26C26"]
 			description: ["Дерево выросло, наконец-то, первая древесина! Не забудьте только добыть с листвы еще саженцев, ну, ограниченность ресурсов, пустота мира, сами понимаете.."]
 			icon: "minecraft:oak_log"
 			id: "336766D7D0087F01"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "271AA7B877A13CDD"
-				table_id: 3385619146852805197L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "271AA7B877A13CDD"
+					table_id: 3385619146852805197L
+					type: "loot"
+				}
+				{
+					command: "/effect clear @a"
+					id: "3189C8AD3E9059A3"
+					player_command: false
+					title: "Очистка эффектов"
+					type: "command"
+				}
+			]
 			tasks: [{
 				icon: "botania:third_eye"
 				id: "40B05279F76571D3"
@@ -269,8 +277,8 @@
 				type: "observation"
 			}]
 			title: "Выросла большая прибольшая!"
-			x: -7.5d
-			y: 0.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04DDE145B0DD4A21"]
@@ -288,8 +296,8 @@
 				type: "item"
 			}]
 			title: "Почти что вручную!"
-			x: -4.5d
-			y: 0.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1163A15940092C0B"]
@@ -313,8 +321,8 @@
 				type: "item"
 			}]
 			title: "А он правда режет?"
-			x: -10.5d
-			y: -1.5d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["336766D7D0087F01"]
@@ -332,8 +340,8 @@
 				type: "item"
 			}]
 			title: "Дуб дубом"
-			x: -6.0d
-			y: 0.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["042FFF046126A81C"]
@@ -357,7 +365,7 @@
 				to_observe: "gribtweaks:statue_obj"
 				type: "observation"
 			}]
-			x: -9.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -383,7 +391,7 @@
 				]
 				type: "location"
 			}]
-			x: -10.0d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -397,7 +405,7 @@
 				type: "item"
 			}]
 			title: "То, что нельзя забыть"
-			x: -10.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -419,7 +427,7 @@
 				type: "item"
 			}]
 			title: "Что забыто, вновь забытым быть не может!"
-			x: -9.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -475,7 +483,7 @@
 			description: ["Новая кисточка! Теперь вы больше походите на профессионала, хотя все еще зелены. Однако, этот инструмент может быть получше предыдущего, кто знает, что можно раздобыть с его помощью.."]
 			id: "1F0C4CB91B28B0F2"
 			rewards: [{
-				auto: "disabled"
+				auto: "enabled"
 				exclude_from_claim_all: true
 				id: "10E3AA1749482942"
 				table_id: 6669082378476771433L
@@ -598,7 +606,7 @@
 				type: "item"
 			}]
 			title: "Пашешь - плачешь, жнешь - от радости скачешь!"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -617,19 +625,29 @@
 				type: "item"
 			}]
 			title: "#1 еда в мире"
-			x: 1.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["152493B81BAFEEB7"]
 			description: ["Конечно, для семян пшеницы нужна пашня!"]
 			id: "751033A3E2D2455C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E0F659AD88F1FA4"
-				table_id: 2895937377690794275L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E0F659AD88F1FA4"
+					table_id: 2895937377690794275L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/weather rain 18000"
+					id: "7B1A2A8211FE5B91"
+					player_command: false
+					title: "Включить дождь на 15 мин"
+					type: "command"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:farmland"
 				id: "6229AB5531A2A4FE"
@@ -639,7 +657,7 @@
 				type: "observation"
 			}]
 			title: "Где не сеют - там не жнут!"
-			x: -1.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -666,10 +684,11 @@
 			description: ["Копаясь в песке, вы наткнулись на очень мягкий и податливый камень. Светло-серый блеск и зеленоватый оттенок ясно дали вам понять - это цинковая руда! Нужно скорее ее переплавить."]
 			id: "7BD48A3AB6833D03"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B6A673C501C33B7"
-				table_id: 1149622724119204752L
-				type: "loot"
+				count: 2
+				id: "2C78FDBE9559BC90"
+				item: "gribtweaks:sand_zinc_nugget"
+				random_bonus: 2
+				type: "item"
 			}]
 			tasks: [{
 				id: "62BC7CC06597C5F8"
@@ -701,7 +720,7 @@
 				title: "ЖАТВАА"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -712,8 +731,8 @@
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2B7E545FFB41DC39"]
@@ -750,7 +769,7 @@
 				}
 			]
 			title: "Зачем так много та?"
-			x: -9.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -768,7 +787,7 @@
 				value: 1L
 			}]
 			title: "Песчаный век закончен..."
-			x: -8.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -864,7 +883,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -893,6 +912,12 @@
 				"Хм, не дурно."
 			]
 			id: "03859E38D3448BF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3691F5D58A2F9D9A"
+				table_id: 6999145014913632248L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A7C08E8386FD656"
 				item: {
@@ -912,6 +937,12 @@
 			dependencies: ["0D31A0DBAB90F724"]
 			description: ["Ты же не думал, что насытишься одним железом с цинком?)"]
 			id: "1C36190C9DF578F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F68552F9FE49FB0"
+				table_id: 6999145014913632248L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "69D44A1217C3A6FB"
@@ -937,6 +968,12 @@
 			dependencies: ["03859E38D3448BF3"]
 			description: ["Представляешь? Ты думал, что появился в абсолютно пустом мире, где казалось бы невозможно добыть даже обычный камень, а тут на твоём пути попадаются драгоценные камни!"]
 			id: "3C46A179AED9E586"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D4DB74874EDEC5"
+				table_id: 6999145014913632248L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5ECD75B1234FB986"
 				item: "minecraft:diamond"
@@ -971,6 +1008,42 @@
 			title: "Песок везде..."
 			x: -15.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1163A15940092C0B"]
+			description: ["Песчаник такой многофункциональный, вауууу"]
+			id: "44A7CD5837532415"
+			tasks: [{
+				id: "689A5199C56BA826"
+				item: {
+					Count: 1b
+					id: "gribtweaks:sand_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Даже ножницы??"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"44A7CD5837532415"
+				"66E2D3631FE26C26"
+			]
+			description: ["Эта прекрасная свежая, влажная, скользкая листва поможет тебе избавиться от жары! Но как?..."]
+			id: "73E1325913C5FFB1"
+			tasks: [{
+				count: 24L
+				id: "3DE9D17A975D43F7"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			title: "Жара - долой!"
+			x: -10.5d
+			y: 0.0d
 		}
 	]
 	title: "&5Стадия: 1"
