@@ -814,7 +814,7 @@
 					type: "command"
 				}
 				{
-					command: "Небо кратковременно освещает синий цвет"
+					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Небо кратковременно освещает синий цвет\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
 					id: "489F8876199A49D9"
 					player_command: false
 					type: "command"

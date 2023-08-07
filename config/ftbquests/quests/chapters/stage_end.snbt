@@ -1968,8 +1968,8 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "4A65A22BE7910619"
-				item: "tm4:infinity_heavy_cogwheel"
+				id: "343CD1706BDCACD6"
+				item: "gribtweaks:infinity_heavy_cogwheel"
 				type: "item"
 			}]
 			x: 7.5d

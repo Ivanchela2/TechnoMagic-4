@@ -329,7 +329,82 @@ ServerEvents.recipes(event => {
             },
             output: 'upgradednetherite_creative:creative_upgraded_netherite_ingot',
             id: `${prefix}creative_upgraded_netherite_ingot`
-        }
+        },
+        {
+            pattern: [ 
+                '    NNN  ',
+                '   NNaNN ',
+                '   NbcdN ',
+                '   N1eNN ',
+                ' NNNNNfNN',
+                'NNg2NhijN',
+                'NklmNNnNN',
+                'NNoNNNNN ',
+                ' NNN     '
+            ],
+            key: {
+			    N: Item.of('avaritia:neutron_nugget').toJson(),
+			    a: Item.of('forbidden_arcanus:cooked_tentacle').toJson(),
+			    b: Item.of('delightful:cooked_venison_chops').toJson(),
+			    c: Item.of('quark:cooked_crab_leg').toJson(),
+			    d: Item.of('farmersdelight:cooked_bacon').toJson(),
+			    e: Item.of('nocubes_better_frogs:cooked_frog_leg').toJson(),
+			    f: Item.of('farmersdelight:cooked_cod_slice').toJson(),
+			    g: Item.of('farmersdelight:fried_egg').toJson(),
+			    h: Item.of('alexsmobs:cooked_kangaroo_meat').toJson(),
+			    i: Item.of('alexsmobs:cooked_moose_ribs').toJson(),
+			    j: Item.of('alexsmobs:cooked_lobster_tail').toJson(),
+			    k: Item.of('farmersdelight:cooked_mutton_chops').toJson(),
+			    l: Item.of('aquamirae:cooked_spinefish').toJson(),
+			    m: Item.of('collectorsreap:baked_portobello_cap').toJson(),
+			    n: Item.of('farmersdelight:cooked_chicken_cuts').toJson(),
+			    o: Item.of('alexsmobs:cooked_catfish').toJson(),
+			    1: Item.of('gribtweaks:quantum_burger').toJson(),
+			    2: Item.of('gribtweaks:astral_burger').toJson(),
+            },
+            output: 'avaritia:cosmic_meatballs',
+            id: `${prefix}cosmic_meatballs`
+        },
+        {
+            pattern: [ 
+                ' nnnnnnn ',
+                'n       n',
+                'Nn     nN',
+                'NlnnnnnlN',
+                'NallllvbN',
+                'NcdllefgN',
+                'NhijkmopN',
+                ' NqrstuN ',
+                'n NNNNN n'
+            ],
+            key: {
+                N: Item.of('avaritia:neutronium_ingot').toJson(),
+			    n: Item.of('avaritia:neutron_nugget').toJson(),
+			    l: Item.of('gribtweaks:admiration_liquid').toJson(),
+                a: Item.of('create:honeyed_apple').toJson(),
+                b: Item.of('minecraft:glistering_melon_slice').toJson(),
+                c: Item.of('farmersdelight:apple_pie').toJson(),
+                d: Item.of('gribtweaks:combined_jelly').toJson(),
+                e: Item.of('create:sweet_roll').toJson(),
+                f: Item.of('fastfooddelight:cheeseburger').toJson(),
+                g: Item.of('miners_delight:pumpkin_soup_cup').toJson(),
+                h: Item.of('farmersdelight:glow_berry_custard').toJson(),
+                i: Item.of('farmersdelight:dumplings').toJson(),
+                j: Item.of('miners_delight:improvised_barbecue_stick').toJson(),
+                k: Item.of('farmersdelight:barbecue_stick').toJson(),
+                m: Item.of('nethersdelight:nether_skewer').toJson(),
+                o: Item.of('farmersdelight:shepherds_pie_block').toJson(),
+                p: Item.of('farmersdelight:grilled_salmon').toJson(),
+                q: Item.of('farmersdelight:rice_roll_medley_block').toJson(),
+                r: Item.of('endersdelight:crawling_sandwich').toJson(),
+                s: Item.of('endersdelight:pearl_pasta').toJson(),
+                t: Item.of('endersdelight:ender_paella').toJson(),
+                u: Item.of('miners_delight:pasta_with_veggieballs').toJson(),
+                v: Item.of('minecraft:enchanted_golden_apple').toJson()
+            },
+            output: 'avaritia:ultimate_stew', // две штуки?
+            id: `${prefix}ultimate_stew`
+        },
     ];
 
     recipes.forEach((recipe) => {

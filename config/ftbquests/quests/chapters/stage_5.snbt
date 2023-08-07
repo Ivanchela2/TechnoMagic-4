@@ -72,7 +72,7 @@
 	quests: [
 		{
 			dependencies: ["2AB9D41EA6F6EFF3"]
-			description: ["После постройки данной структуры вам откроется доступ к крафтам множества вещей"]
+			description: ["После постройки структуры, вам откроется доступ к крафтам множества вещей."]
 			hide_dependency_lines: true
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "1172FCA541C97A82"
@@ -123,7 +123,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Создайте кузницу гефеста"
+			subtitle: "Создайте кузницу гефеста."
 			tasks: [
 				{
 					count: 48L
@@ -280,7 +280,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Латы из самого дракона"
+			subtitle: "Латы из самого дракона."
 			tasks: [
 				{
 					id: "2BA569BA82B7B906"
@@ -377,7 +377,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Улучшеные латы дракона"
+			subtitle: "Улучшеные латы дракона."
 			tasks: [
 				{
 					id: "00FF56DE3FCD02C2"
@@ -681,14 +681,14 @@
 					type: "command"
 				}
 			]
-			subtitle: "Найдите лабиринт рыцаря в Сумеречном лесу"
+			subtitle: "Найдите его в лабиринте."
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
 				criterion: ""
 				id: "352EEB128D56A03F"
 				type: "advancement"
 			}]
-			title: "победить фантомов"
+			title: "Победить Фантомов."
 			x: 4.0d
 			y: 0.0d
 		}
@@ -702,14 +702,14 @@
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			subtitle: "Ур-гаст как принцеса, он живет на самом верху башни"
+			subtitle: "Ур-гаст как принцесса, он живет на самом верху башни."
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
 				id: "2EF88CD40E84EF3D"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Победить ур гаста "
+			title: "Победить Ур-гаста "
 			x: 6.5d
 			y: 0.0d
 		}
@@ -967,7 +967,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "Эфир. Происхождение этой руды никто не знает, но охотники за сокровищами поговаривают, что искать его нужно в городах энда"
+			subtitle: "Эфир. Происхождение этой руды неизвестно, но охотники за сокровищами поговаривают, что искать его нужно в городах энда."
 			tasks: [{
 				id: "7B28EF9423429B5A"
 				item: "enigmaticlegacy:etherium_ingot"
@@ -1044,7 +1044,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Начинаем пятую стадию вместе с пчелками"
+			subtitle: "Начинаем пятую стадию вместе с пчелками."
 			tasks: [{
 				id: "3717A960E8DB96B7"
 				title: "&l5 Этап"
@@ -1066,7 +1066,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Качество куда важнее количества"
+			subtitle: "Качество куда важнее количества."
 			tasks: [{
 				count: 16L
 				id: "68206BE46A78571E"
@@ -1079,9 +1079,9 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
-			description: ["Компрессор — как не странно, сжимает предметы для получения прочных материалов или для выгодной сделки создания."]
+			description: ["Компрессор, как не странно, сжимает предметы для получения прочных материалов."]
 			id: "1F097DBCAEB186E6"
-			subtitle: "Сжимающий механизм"
+			subtitle: "Сжимающий механизм."
 			tasks: [{
 				id: "0F971DA61B842C5C"
 				item: "ftbic:compressor"
@@ -1092,7 +1092,7 @@
 		}
 		{
 			dependencies: ["10ADAB4A204037E7"]
-			description: ["Ещё больше улучшений"]
+			description: ["Ещё больше улучшений!"]
 			id: "39D33BA172775DE7"
 			rewards: [
 				{
@@ -1133,7 +1133,7 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			subtitle: "Как центрифуга, но на энергии"
+			subtitle: "Как обычная центрифуга, но на энергии."
 			tasks: [{
 				id: "52411B4E7D776C01"
 				item: "productivebees:powered_centrifuge"
@@ -1152,7 +1152,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			subtitle: "Получаем энергию из мёда"
+			subtitle: "Получаем энергию из мёда."
 			tasks: [{
 				id: "56AC0E91ADEE70E9"
 				item: "productivebees:honey_generator"
@@ -1293,7 +1293,7 @@
 				item: "enigmaticlegacy:etherium_ore"
 				type: "item"
 			}]
-			subtitle: "Инструменты тоже хороши"
+			subtitle: "Инструменты тоже хороши."
 			tasks: [
 				{
 					id: "53D4B6AA4D65E676"
@@ -1355,7 +1355,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Довольно таки хороший молот, но копать нечего..."
+			subtitle: "Довольно хороший молот, но копать нечего..."
 			tasks: [{
 				id: "7EE7460CEF85F54A"
 				item: {
@@ -1376,7 +1376,7 @@
 				"1606617C43A24983"
 				"4B55C37A1B0673A3"
 			]
-			description: ["Стоит или не стоит"]
+			description: ["Стоит или не стоит?"]
 			icon: "occultism:spirit_fire"
 			id: "6B6DD0336B6376DA"
 			invisible: true
@@ -1706,7 +1706,7 @@
 		{
 			dependencies: ["3A4C7DBB4547B8AF"]
 			id: "0096E6576F6568B6"
-			subtitle: "Может быть очень полезным"
+			subtitle: "Может быть очень полезным."
 			tasks: [{
 				id: "5FAAA7D2263F9685"
 				item: "ftbic:energy_crystal"
@@ -1719,7 +1719,7 @@
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Дробитель — машина, позволяющая дробить различные предметы."]
 			id: "1CDCB4AE59BFBCFA"
-			subtitle: "Удваиваем руды"
+			subtitle: "Удваиваем руды."
 			tasks: [{
 				id: "2B6AF9B1C4EF5141"
 				item: "ftbic:macerator"
@@ -1751,7 +1751,7 @@
 			dependencies: ["472AA02C9EFF8DE2"]
 			id: "29D265E0A7ED884F"
 			invisible: true
-			subtitle: "Воу, какой мощный корпус"
+			subtitle: "Воу, какой мощный корпус."
 			tasks: [{
 				id: "11810B38973B517F"
 				item: "ftbic:advanced_machine_block"
@@ -1790,7 +1790,7 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			subtitle: "Перерабатываем соты в ресурсы"
+			subtitle: "Перерабатываем соты в ресурсы."
 			tasks: [{
 				id: "4DC1B67BF00ADE11"
 				item: "productivebees:centrifuge"
@@ -1821,7 +1821,7 @@
 		{
 			dependencies: ["63B29B3070AED9E5"]
 			id: "3A4C7DBB4547B8AF"
-			subtitle: "Излучает энергию"
+			subtitle: "Излучает энергию."
 			tasks: [{
 				consume_items: true
 				count: 6L
@@ -2734,7 +2734,7 @@
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
-			subtitle: "Это гнездо тебе пригодится"
+			subtitle: "Это гнездо тебе пригодится."
 			tasks: [{
 				id: "16A869DE6F75C75C"
 				item: "productivebees:gravel_nest"
@@ -2757,13 +2757,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Ещё более лучшая центрифуга"
+			subtitle: "Ещё более лучшая центрифуга."
 			tasks: [{
 				id: "73ECC4A077FC84BC"
 				item: "productivebees:heated_centrifuge"
 				type: "item"
 			}]
-			title: "Как механизированая центрифуга, но лучше"
+			title: "Как механизированая центрифуга, но лучше."
 			x: -13.0d
 			y: -0.5d
 		}
@@ -2855,7 +2855,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Я шоколадный пчёлка, я шоколадный пчёлка"
+			subtitle: "Я шоколадный пчёлка, я шоколадный пчёлка..."
 			tasks: [{
 				id: "67B5F7FD8CF2051B"
 				item: {
@@ -3026,7 +3026,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Я копаюсь в камешках и произвожу ресурсы"
+			subtitle: "Я копаюсь в камешках и произвожу ресурсы."
 			tasks: [{
 				id: "49B663DD6CE8107C"
 				item: {
@@ -3233,7 +3233,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Я каменщик, работаю 3 дня"
+			subtitle: "Я каменщик, работаю 3 дня..."
 			tasks: [{
 				id: "3ED8FAE6C2E1A809"
 				item: {
@@ -3325,7 +3325,7 @@
 				item: "skinnedlanterns:bee_lantern_block"
 				type: "item"
 			}]
-			subtitle: "Начинаем с азов разведения пчёл"
+			subtitle: "Азы разведения пчёл."
 			tasks: [{
 				id: "1E8F2BA0B4539B44"
 				item: "minecraft:beehive"
@@ -3555,7 +3555,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Бериги их"
+			subtitle: "Бериги их."
 			tasks: [{
 				count: 4L
 				id: "4CAEB6C378F7C037"
@@ -3575,7 +3575,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Добудьте тёмный камень с помощью пчёл"
+			subtitle: "Добудьте тёмный камень с помощью пчёл."
 			tasks: [{
 				count: 64L
 				id: "09E5683D05D7F1BF"
@@ -3590,7 +3590,7 @@
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Металлоформовочная машина — обработчик, используемый для получения пластин."]
 			id: "21292FDA52664049"
-			subtitle: "Хорошая замена ручным инструментам"
+			subtitle: "Хорошая замена ручным инструментам."
 			tasks: [{
 				id: "2E72D22778D56A69"
 				item: "ftbic:roller"
@@ -3607,7 +3607,7 @@
 				"P.S. В качестве топлива принимает горючие предметы."
 			]
 			id: "72E1B11103D48A6D"
-			subtitle: "Генератор - это всегда хорошо"
+			subtitle: "Генератор - это всегда хорошо."
 			tasks: [{
 				id: "1E88B728ABF83E90"
 				item: "ftbic:basic_generator"
@@ -3638,7 +3638,7 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			subtitle: "Преобразовываем напряжение"
+			subtitle: "Преобразование напряжения."
 			tasks: [{
 				id: "0CE8226EFE9F5CC3"
 				item: "ftbic:mv_transformer"
@@ -3681,7 +3681,7 @@
 				random_bonus: 13
 				type: "item"
 			}]
-			subtitle: "Преобразовываем напряжение"
+			subtitle: "Преобразование напряжения."
 			tasks: [{
 				id: "49B337A0FE03860C"
 				item: "ftbic:hv_transformer"
@@ -3834,7 +3834,7 @@
 		{
 			dependencies: ["5616D3C42BF45EE0"]
 			id: "6FFEEC17182E065C"
-			subtitle: "Что-то поинтересней"
+			subtitle: "Что-то поинтересней."
 			tasks: [{
 				id: "449DF0AE76D1434C"
 				item: "ftbic:carbon_fibers"
@@ -3846,7 +3846,7 @@
 		{
 			dependencies: ["6FFEEC17182E065C"]
 			id: "32DCE840F4C4D6E1"
-			subtitle: "Крепкий материал"
+			subtitle: "Крепкий материал."
 			tasks: [{
 				id: "3A9ADBAD7C28FCC3"
 				item: "ftbic:carbon_fiber_mesh"
@@ -3871,7 +3871,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Это основание нужно тебе для улучшений"
+			subtitle: "Основание для улучшений."
 			tasks: [{
 				id: "7624BDD603BB266E"
 				item: "productivebees:upgrade_base"
@@ -3889,7 +3889,7 @@
 				random_bonus: 5
 				type: "item"
 			}]
-			subtitle: "Эти улучшения могут помочь в работе с пчёлками"
+			subtitle: "Улучшения могут помочь в работе с пчёлками."
 			tasks: [
 				{
 					id: "007EF8E686668DF6"
@@ -3984,7 +3984,7 @@
 				item: "solarflux:sp_tf.fiery"
 				type: "item"
 			}]
-			subtitle: "Энергия в будущее"
+			subtitle: "Энергия в будущее."
 			tasks: [{
 				id: "552E6A20B66BDC14"
 				item: "solarflux:sp_tf.fiery"
@@ -4006,7 +4006,7 @@
 				item: "solarflux:sp_tf.carminite"
 				type: "item"
 			}]
-			subtitle: "Ещё больше энергии"
+			subtitle: "Ещё больше энергии."
 			tasks: [{
 				id: "5855851601331898"
 				item: "solarflux:sp_tf.carminite"
@@ -4024,7 +4024,7 @@
 			hide_dependency_lines: true
 			id: "796D74CA0D9618DF"
 			invisible: true
-			subtitle: "Хранит энергию"
+			subtitle: "Хранит энергию."
 			tasks: [{
 				id: "1BDF8E5BB52C0B2D"
 				item: "ftbic:lv_battery_box"
@@ -4036,7 +4036,7 @@
 		{
 			dependencies: ["796D74CA0D9618DF"]
 			id: "6CE0DC2B5ED29447"
-			subtitle: "Больше места под энергию"
+			subtitle: "Больше места под энергию."
 			tasks: [{
 				id: "1B599D3B11B1A302"
 				item: "ftbic:mv_battery_box"
@@ -4055,7 +4055,7 @@
 				item: "ftbic:hv_transformer"
 				type: "item"
 			}]
-			subtitle: "Преобразовываем напряжение"
+			subtitle: "Преобразование напряжения."
 			tasks: [{
 				id: "2FC7B005FB12E0E5"
 				item: "ftbic:ev_transformer"
@@ -4067,7 +4067,7 @@
 		{
 			dependencies: ["29D265E0A7ED884F"]
 			id: "569F289E8231D4C4"
-			subtitle: "Соберите этот комплект, чтобы начать получать ресурсы из материи"
+			subtitle: "Ресурсы из материи?"
 			tasks: [{
 				id: "076969F82B92C79F"
 				item: "ftbic:antimatter_constructor"
@@ -4111,7 +4111,7 @@
 		}
 		{
 			dependencies: ["50846279F5251F59"]
-			description: ["Поможет вам с помощью генов вывести лучшую пчелу"]
+			description: ["Позволит модифицировать гены пчелы."]
 			id: "5367F072E25BD630"
 			rewards: [{
 				id: "5F2E339ACA1EA54C"
@@ -4154,7 +4154,7 @@
 		}
 		{
 			dependencies: ["50846279F5251F59"]
-			description: ["Ускоряет рост маленьких пчёлок"]
+			description: ["Ускоряет рост пчёлок."]
 			id: "5CB118FC04564E4C"
 			rewards: [
 				{
@@ -4179,7 +4179,7 @@
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
-			description: ["Позволяет инструменту добывать в зоне 3 на 3"]
+			description: ["Позволяет инструменту добывать 3 на 3."]
 			id: "150FC0AD77226306"
 			rewards: [{
 				id: "610E05505FC03F29"
@@ -4197,7 +4197,7 @@
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
-			description: ["При наложении данного предмета на ботинки, урон от падения будет полностью поглощаться"]
+			description: ["При наложении данного предмета на ботинки, урон от падения будет полностью поглощаться."]
 			id: "6BEA255C83D5AE95"
 			rewards: [{
 				id: "1E6BFA4DAF57A3C6"
@@ -4215,7 +4215,7 @@
 		}
 		{
 			dependencies: ["2F028D1BD646A3B8"]
-			description: ["Создайте эндер пчелу кликнув медовым угощением по эндер гнезду"]
+			description: ["Создайте эндер пчелу, кликнув медовым угощением по эндер гнезду"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -4457,7 +4457,7 @@
 			]
 			id: "7C19F6A9C765E262"
 			invisible: true
-			subtitle: "Интересное продолжение в виде прочных предметов."
+			subtitle: "Интересное продолжение в виде прочных предметов.."
 			tasks: [{
 				id: "0C119529B463E6F9"
 				item: "ftbic:carbon_plate"
@@ -4847,7 +4847,7 @@
 		}
 		{
 			dependencies: ["1B86A502898A6439"]
-			description: ["Веселье начинается прямо сейчас"]
+			description: ["Веселье начинается прямо сейчас."]
 			hide_dependency_lines: true
 			id: "3F7BF82CF8C81EE2"
 			tasks: [{
@@ -5059,7 +5059,7 @@
 		}
 		{
 			dependencies: ["50846279F5251F59"]
-			description: ["Более удобная версия обычного улья"]
+			description: ["Продвинутая версия обычного улья."]
 			id: "10ADAB4A204037E7"
 			rewards: [
 				{
@@ -5089,7 +5089,7 @@
 		}
 		{
 			dependencies: ["50846279F5251F59"]
-			description: ["Ловит пчёл, а что ты думал она делет"]
+			description: ["Ловит пчёл, да. А ты что думал?"]
 			id: "48D824D9C0FEE863"
 			rewards: [{
 				count: 6
@@ -5308,6 +5308,7 @@
 					type: "item"
 				}
 			]
+			title: "Улучшения"
 			x: 4.0d
 			y: 5.5d
 		}
@@ -5328,9 +5329,10 @@
 				"29D265E0A7ED884F"
 			]
 			id: "4233533D12660DD8"
+			subtitle: "Улучшенная версия геотермального генератора."
 			tasks: [{
-				id: "5B6AFB5F380101BD"
-				item: "ftbiceg:advanced_generator"
+				id: "17184D3C44527D87"
+				item: "ftbiceg:advanced_geothermal_generator"
 				type: "item"
 			}]
 			x: -2.0d
@@ -5342,9 +5344,10 @@
 				"29D265E0A7ED884F"
 			]
 			id: "7E06A1918EBAC3FA"
+			subtitle: "Улучшенная версия генератора."
 			tasks: [{
-				id: "7816755CF36BD6E0"
-				item: "ftbiceg:advanced_geothermal_generator"
+				id: "2C1A52DE2F717E20"
+				item: "ftbiceg:advanced_generator"
 				type: "item"
 			}]
 			x: -1.0d
@@ -5356,6 +5359,7 @@
 				"1F097DBCAEB186E6"
 			]
 			id: "56FC662122B7207E"
+			subtitle: "Улучшенная версия компрессора."
 			tasks: [{
 				id: "7A66F9574566FC96"
 				item: "ftbic:ultimate_compressor"
@@ -5370,6 +5374,7 @@
 				"2B8BD1401C8A74E6"
 			]
 			id: "121ECF152E22B85D"
+			subtitle: "Улучшенная версия центрифуги."
 			tasks: [{
 				id: "4D1EF0F47FA56A30"
 				item: "ftbic:ultimate_centrifuge"
@@ -5384,6 +5389,7 @@
 				"1CDCB4AE59BFBCFA"
 			]
 			id: "75E15DF51371E0A8"
+			subtitle: "Улучшенная версия дробителя."
 			tasks: [{
 				id: "33A8EE990C20166D"
 				item: "ftbic:ultimate_macerator"
@@ -5398,6 +5404,7 @@
 				"686548AE03EC9F37"
 			]
 			id: "34BDF236AC256976"
+			subtitle: "Улучшенная версия электропечи."
 			tasks: [{
 				id: "63FB6EA6C303EB4C"
 				item: "ftbic:ultimate_powered_furnace"
@@ -5412,6 +5419,7 @@
 				"21292FDA52664049"
 			]
 			id: "54C09CEC6D94F3DD"
+			subtitle: "Улучшенная версия роллера."
 			tasks: [{
 				id: "2D755194C8042ED2"
 				item: "ftbic:ultimate_roller"
@@ -5455,6 +5463,7 @@
 			dependencies: ["6B8743E39A6E14B1"]
 			hide_dependency_lines: true
 			id: "4AD658DE7A3D5202"
+			subtitle: "Преобразование напряжения."
 			tasks: [{
 				id: "224A1ABE5D21DFCF"
 				item: "ftbic:lv_transformer"
@@ -5487,6 +5496,7 @@
 		}
 		{
 			dependencies: ["2371EF16B1EB318E"]
+			description: ["Тут должна быть молекулярка"]
 			id: "77297D7100AC44C1"
 			tasks: [{
 				id: "59AB2BB2024B9D14"

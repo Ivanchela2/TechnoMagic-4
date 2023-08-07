@@ -7,10 +7,11 @@ e.create('twilightforest:osmium_ore')
     .tagBlock('minecraft:needs_iron_tool')
     .tag('forge:ores')
     .requiresTool(true)
-    .item(itemBuilder => {
-        itemBuilder
-            .tooltip('Генерируеться на любом острове Twilight Forest на высоте от -32 до 0')
-    })
+    // .item(itemBuilder => {
+    //     itemBuilder
+    //         .tooltip('Генерируется на островах Twilight Forest')
+    // }) 
+    // TODO: FIX????
 e.create('twilightforest:block_osmium')
     .material('metal')
     .hardness(2)
@@ -30,7 +31,7 @@ e.create('hexerei:witch_ore')
     .requiresTool(true)
     .item(itemBuilder => {
         itemBuilder
-            .tooltip('§5Генерируеться на любом острове Twilight Forest на высоте от -16 до 4')
+            .tooltip('§5Генерируется на островах Twilight Forest')
     })
 e.create('hexerei:witch_ingot_block')
     .material('metal')

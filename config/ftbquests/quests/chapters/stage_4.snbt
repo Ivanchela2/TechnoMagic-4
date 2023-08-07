@@ -66,7 +66,7 @@
 		}
 		{
 			dependencies: ["4BA91AB519070D4D"]
-			description: ["Основная книга в данном моде, в которой рассказываются все механики и варианты крафтов и призывов."]
+			description: ["Гайд-бук по моду."]
 			id: "0A137981A849B023"
 			ignore_reward_blocking: true
 			rewards: [{
@@ -76,8 +76,14 @@
 			}]
 			subtitle: "Еще один Квестбук?"
 			tasks: [{
-				id: "058735498893F2C2"
-				item: "occultism:dictionary_of_spirits_icon"
+				id: "2CD022CFB64DDB83"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
 				type: "item"
 			}]
 			title: "Познание основ."
@@ -131,7 +137,7 @@
 				"0A137981A849B023"
 				"66E47D358CC607F9"
 			]
-			description: ["3 разных варианта мелков, которыми вы будете рисовать мелки на земле)"]
+			description: ["Используется для проведения разных ритуалов. (см. Размышления)"]
 			id: "4F943CCC0D6D0E87"
 			subtitle: "Поиграем в Классики?"
 			tasks: [
@@ -174,7 +180,7 @@
 		}
 		{
 			dependencies: ["43ED3EAD23EA76A1"]
-			description: ["Одно из необходимых составляющих для любых ритуаловю"]
+			description: ["Важный ингредиент для ритуал и других крафтов."]
 			icon: "occultism:spirit_attuned_gem"
 			id: "5C3F9AF1D9019A99"
 			rewards: [{
@@ -184,20 +190,12 @@
 				type: "item"
 			}]
 			subtitle: "ГЕМы..."
-			tasks: [
-				{
-					count: 16L
-					id: "178421DE2E4ABF63"
-					item: "occultism:spirit_attuned_gem"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "46473676D32FAEC0"
-					item: "occultism:spirit_attuned_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "178421DE2E4ABF63"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
 			title: "Гем Духов"
 			x: -11.5d
 			y: 2.9000000000000004d
@@ -219,31 +217,24 @@
 				xp_levels: 5
 			}]
 			subtitle: "Кирка из гемов духа... ГЕМЫ..."
-			tasks: [
-				{
-					id: "134CFD3CAF630B97"
-					item: "occultism:spirit_attuned_pickaxe_head"
-					type: "item"
-				}
-				{
-					id: "63F8E8ACF539FF31"
-					item: {
-						Count: 1b
-						id: "occultism:infused_pickaxe"
-						tag: {
-							Damage: 0
-							spiritName: "Reivirmorn"
-						}
+			tasks: [{
+				id: "63F8E8ACF539FF31"
+				item: {
+					Count: 1b
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Reivirmorn"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -11.5d
 			y: 4.4d
 		}
 		{
 			dependencies: ["43ED3EAD23EA76A1"]
-			description: ["С помощью данного ножа можно получить сало убивая любых (нет, подробности в описании) животных."]
+			description: ["Нужен для получения жира с мобов."]
 			id: "69632106C550C4AC"
 			rewards: [{
 				count: 4
@@ -251,7 +242,7 @@
 				item: "occultism:tallow"
 				type: "item"
 			}]
-			subtitle: "Да начнется Резня"
+			subtitle: "Да начнется Резня!"
 			tasks: [{
 				id: "0129A910160836B0"
 				item: {
@@ -452,7 +443,7 @@
 		}
 		{
 			dependencies: ["7CC994D9CE81BCEB"]
-			description: ["Съешьте данный суп чтоб двигатся дальше по моду"]
+			description: ["Максимальное унижение поверженного врага."]
 			id: "453998643157B472"
 			rewards: [{
 				id: "17A08ECF83A7FDEB"
@@ -492,7 +483,7 @@
 				"118410C89DF00062"
 				"1609E737334014E8"
 			]
-			description: ["Кинь вещи в проклятый огонь, чтоб получит их другую версию"]
+			description: ["Используйте огонь душ для получения."]
 			id: "39F67C9CE4BCAAC4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -500,18 +491,11 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
-			tasks: [
-				{
-					id: "20505F5F74857126"
-					item: "spirit:soul_powder"
-					type: "item"
-				}
-				{
-					id: "6B1D528F48DE25FC"
-					item: "spirit:soul_crystal_shard"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B1D528F48DE25FC"
+				item: "spirit:soul_crystal_shard"
+				type: "item"
+			}]
 			title: "Пыль души"
 			x: -13.5d
 			y: -4.0d
@@ -644,7 +628,11 @@
 		}
 		{
 			dependencies: ["118410C89DF00062"]
-			description: ["Убивая любых существ, при этом владея кристаллом души, вы поглащаете душу того, кого вы убили. Однако кристал вмещает только 1 вид души. Запомните это."]
+			description: [
+				"Убивая любых существ, при этом владея кристаллом души, вы поглащаете душу того, кого вы убили."
+				""
+				"Кристалл вмещает только 1 вид души."
+			]
 			hide_dependency_lines: true
 			id: "2ADD3B41B236056F"
 			tasks: [{
@@ -684,7 +672,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Простой спаунер из мода Spirit."
+			subtitle: "Простой спавнер из мода Spirit."
 			tasks: [{
 				id: "70F51D928747FC08"
 				item: "spirit:soul_cage"
@@ -716,7 +704,7 @@
 		}
 		{
 			dependencies: ["1EE42A294EBBD610"]
-			description: ["Чтобы попасть дальше придется разобраться с охраником темных земель"]
+			description: ["Чтобы продвинуться дальше, придется разобраться с охранником тёмных земель."]
 			id: "0152D66E23EE30B1"
 			rewards: [
 				{
@@ -765,7 +753,7 @@
 		}
 		{
 			dependencies: ["0152D66E23EE30B1"]
-			description: ["Сердце охраника я заберу с собой, как сувенирчик"]
+			description: ["Сердце вардена я заберу с собой, как сувенирчик)"]
 			id: "41C65BD1CB61D79B"
 			rewards: [
 				{
@@ -805,7 +793,7 @@
 		}
 		{
 			dependencies: ["41C65BD1CB61D79B"]
-			description: ["Соберите местного мха, да побольше"]
+			description: ["Соберите местного мха, да побольше."]
 			id: "6EB36D6CE6B28111"
 			rewards: [
 				{
@@ -916,7 +904,7 @@
 		}
 		{
 			dependencies: ["6EB36D6CE6B28111"]
-			description: ["Найдите скалк сенсор"]
+			description: ["Найдите скалк сенсор. Пригодится."]
 			id: "0AE65EB87D0B9717"
 			rewards: [
 				{
@@ -964,8 +952,9 @@
 		{
 			dependencies: ["6317A3CD85E467D0"]
 			description: [
-				"Увеличивает ваш урон в холодных биомах на 33%"
-				"Пригодится при прохождение Twilight Forest и не только"
+				"Увеличивает ваш урон в холодных биомах на 33%."
+				""
+				"Пригодится при прохождение Twilight Forest, и не только."
 			]
 			id: "68363A2C555492E0"
 			rewards: [
@@ -994,7 +983,7 @@
 				"4BA91AB519070D4D"
 				"0AE65EB87D0B9717"
 			]
-			description: ["Найдите и заберите у рыбок из мода aquamirae плавники"]
+			description: ["Можно получить с рыб."]
 			hide: true
 			hide_dependency_lines: true
 			id: "78E0DAF09902B2C5"
@@ -1022,7 +1011,7 @@
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Клыки удильщика опасны как бритва у неопытного пацана"]
+			description: ["Клыки удильщика опасны, как бритва у неопытного пацана)"]
 			id: "27831E216B2BCA91"
 			rewards: [{
 				count: 2
@@ -1041,7 +1030,7 @@
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Сет ужасный как сама рыба из которой он сделан"]
+			description: ["Сет ужасный, как сама рыба, из которой он сделан."]
 			id: "729C2B27E4ADA290"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1100,7 +1089,7 @@
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Бедная рыбка, только косточки остались"]
+			description: ["Бедная рыбка, только косточки остались)"]
 			id: "2993FC18F2AFAEA3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1118,7 +1107,6 @@
 		}
 		{
 			dependencies: ["2993FC18F2AFAEA3"]
-			description: ["Пустим рыбку пожалуй на меч"]
 			id: "2D94614105876688"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1142,7 +1130,7 @@
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
-			description: ["Клинок пропитаный ядом удильщика, заставит жертву страдать от яда который растекается по его жидам"]
+			description: ["Клинок, пропитаный ядом удильщика. Заставит жертву страдать от яда, который растекается по его жилам."]
 			hide_dependency_lines: true
 			id: "148615A93ED56286"
 			rewards: [{
@@ -1167,7 +1155,7 @@
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
-			description: ["Начинает кружит вокруг вас и спать, действует на первого врага"]
+			description: ["Кружится вокруг вас и атакует врагов."]
 			hide_dependency_lines: true
 			id: "28A030419943BB0F"
 			rewards: [{
@@ -1192,7 +1180,7 @@
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
-			description: ["Он настолько ужасен, что только самые стойкие могут его поднять, не говоря уже про использование"]
+			description: ["Он настолько ужасен, что только самые стойкие могут его поднять, не говоря уже про использование."]
 			hide_dependency_lines: true
 			id: "6CDC2B5A95CF2836"
 			rewards: [{
@@ -1217,7 +1205,6 @@
 		}
 		{
 			dependencies: ["729C2B27E4ADA290"]
-			description: ["Хороший меч получился из плавника"]
 			id: "70A5E56DC9773652"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1241,7 +1228,7 @@
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Улучшеный аметист с помощью души"]
+			description: ["Продвинутая версия аметиста."]
 			hide_dependency_lines: true
 			id: "0B818E0C582EF14C"
 			rewards: [{
@@ -1260,7 +1247,7 @@
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
-			description: ["Кто проживает на дне океана. Капитан Корнелии"]
+			description: ["Кто проживает на дне океана? - Капитан Корнелии."]
 			id: "791A2E4717A4D1BA"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
@@ -1274,10 +1261,7 @@
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: [
-				"Душа голадца"
-				"Но падает почти со всего живого"
-			]
+			description: ["Душа голадца."]
 			hide_dependency_lines: true
 			id: "3A981070722F4A8D"
 			rewards: [{
@@ -1297,7 +1281,11 @@
 		}
 		{
 			dependencies: ["0B818E0C582EF14C"]
-			description: ["Броня из самой впадины у черта на рогах"]
+			description: [
+				"Броня из самой впадины у черта на рогах)"
+				""
+				"&oP.S. &8Кто это писал, лол&r&r"
+			]
 			hide_dependency_lines: true
 			id: "2A25512F702D25AC"
 			rewards: [{
@@ -1460,7 +1448,7 @@
 		}
 		{
 			dependencies: ["791A2E4717A4D1BA"]
-			description: ["Ключ от сокровощь, что хранит капитан"]
+			description: ["Ключ от сокровищ Капитана."]
 			id: "6317A3CD85E467D0"
 			rewards: [
 				{
@@ -1485,7 +1473,7 @@
 		}
 		{
 			dependencies: ["791A2E4717A4D1BA"]
-			description: ["Скафандр первой мировой, а может и первой, а второй"]
+			description: ["Скафандр первой мировой, а может и не первой, а второй."]
 			hide_dependency_lines: false
 			id: "3A7662307F166D76"
 			rewards: [{
@@ -1544,7 +1532,11 @@
 		}
 		{
 			dependencies: ["3A7662307F166D76"]
-			description: ["Позволяет с местых барыг получать изумруды"]
+			description: [
+				"Позволяет с местых барыг получать изумруды."
+				""
+				"&oP.S. &80_0&r&r"
+			]
 			id: "23795C1FC591FE13"
 			rewards: [{
 				id: "3A4BF722909C394C"
@@ -1567,7 +1559,7 @@
 		}
 		{
 			dependencies: ["791A2E4717A4D1BA"]
-			description: ["Пика капита, любого кто против тебя можно посадить на пику"]
+			description: ["Пика Капитана. Любого, кто против тебя, можно посадить на пику."]
 			id: "4206CAF1FF7A3CF7"
 			rewards: [{
 				id: "012F7D44F931BA02"
@@ -1596,7 +1588,7 @@
 			dependencies: ["045C3D369D9FADD6"]
 			icon: "vitalize:soul_revitalizer"
 			id: "6B326CFCA6F2616F"
-			subtitle: "Улучшенный спаунер из аддона для мода Spirit, с возможностью улучшения."
+			subtitle: "Улучшенный спавнер из аддона для мода Spirit, с возможностью улучшения."
 			tasks: [
 				{
 					id: "6D48947A743F1544"
@@ -1622,7 +1614,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "4498AEFC852086DA"
 				item: "vitalize:pylon_efficiency"
@@ -1640,7 +1632,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "13EF67D53C6FE8DF"
 				item: "vitalize:pylon_beheading"
@@ -1658,7 +1650,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "2EA2B9B5C8719D5C"
 				item: "vitalize:pylon_looting"
@@ -1676,7 +1668,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "6F4F8DA39B140D76"
 				item: "vitalize:pylon_speed"
@@ -1694,7 +1686,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "1C4C51ADAA7C14F8"
 				item: "vitalize:pylon_experience"
@@ -1712,7 +1704,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "0C8767BD61BAAA3E"
 				item: "vitalize:pylon_flame"
@@ -1730,7 +1722,7 @@
 				table_id: 5598608174600762215L
 				type: "random"
 			}]
-			subtitle: "Один из семи вариантов улучшенных пилонов"
+			subtitle: "Один из семи вариантов улучшенных пилонов."
 			tasks: [{
 				id: "1D4585D8FB6DDFFD"
 				item: "vitalize:pylon_recursive"
@@ -1766,7 +1758,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
-			subtitle: "Компонент создания пьедестала души"
+			subtitle: "Компонент создания пьедестала души."
 			tasks: [{
 				id: "44C741060EDE4A0B"
 				item: "spirit:crystal_pedestal"
@@ -1796,7 +1788,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Теперь можно и в некроманты записываться"
+			subtitle: "Теперь можно и в некроманты записываться."
 			tasks: [{
 				id: "29DA8C7D70DF65FB"
 				item: "spirit:soul_pedestal"
