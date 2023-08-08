@@ -26,4 +26,7 @@ LootJS.modifiers(event => {
     .randomChanceWithEnchantment('minecraft:silk_touch', [0, 1])
     .removeLoot(Ingredient.all)
     .addLoot('gribtweaks:elemental_fragments_block')
+
+    event.addBlockLootModifier('gribtweaks:blaze_cell')
+    .removeLoot('gribtweaks:blaze_cell')
 })

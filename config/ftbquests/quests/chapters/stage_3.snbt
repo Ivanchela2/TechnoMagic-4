@@ -573,7 +573,7 @@
 				}
 			]
 			title: "Ботания-мини"
-			x: 3.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -1016,7 +1016,7 @@
 				}
 			]
 			title: "Сет живого древа"
-			x: 3.6d
+			x: 2.0d
 			y: 0.8d
 		}
 		{
@@ -1285,6 +1285,23 @@
 			}]
 			x: 3.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4AECCE7BD3D05A19"]
+			description: ["Данная клетка позволит получить ифритов, если они вам необходимы. (см. Описание блока)"]
+			id: "602C0635E5F97D6B"
+			rewards: [{
+				id: "4013BAAA047CF668"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79A1B38B18FDDBB4"
+				item: "gribtweaks:blaze_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 	title: "&5Стадия: 3"

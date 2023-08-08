@@ -203,8 +203,9 @@ StartupEvents.registry('block', event => {
     .tagBlock('forge:storage_blocks')
     .requiresTool(true)
 
-    event.create('gribtweaks:compost')
+    event.create('gribtweaks:blaze_cell')
     .material('metal')
-    .hardness(5)
-    .displayName('test') 
+    .hardness(1)
+    .displayName('Клетка с Ифритом') 
+    .tooltip('§7При разрушении появляются ифриты. (от 0 до 8 существ)')
 })

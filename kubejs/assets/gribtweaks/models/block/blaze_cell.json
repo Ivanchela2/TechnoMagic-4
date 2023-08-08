@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "gribtweaks:block/blaze_cell_base",
+        "side": "gribtweaks:block/blaze_cell_side"
+    }
+}
