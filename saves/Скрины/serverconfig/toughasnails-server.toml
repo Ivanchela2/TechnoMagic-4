@@ -1,9 +1,0 @@
-
-[toggles]
-	#Enable or disable thirst.
-	enable_thirst = true
-	#Enable or disable hand drinking.
-	enable_hand_drinking = false
-	#Enable or disable temperature.
-	enable_temperature = true
-
