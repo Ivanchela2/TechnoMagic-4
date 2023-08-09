@@ -207,5 +207,8 @@ StartupEvents.registry('block', event => {
     .material('metal')
     .hardness(1)
     .displayName('Клетка с Ифритом') 
-    .tooltip('§7При разрушении появляются ифриты. (от 0 до 8 существ)')
+    .item(itemBuilder => {
+        itemBuilder
+            .tooltip('§7При разрушении появляются ифриты. (от 0 до 8 существ)')
+    })
 })
