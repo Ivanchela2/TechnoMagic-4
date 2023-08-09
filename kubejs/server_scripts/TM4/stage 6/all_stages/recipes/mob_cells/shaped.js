@@ -3,12 +3,11 @@ ServerEvents.recipes((event) => {
     const recipes = [
       {
         output: 'gribtweaks:blaze_cell',
-        pattern: ['IBI', 'SUN', 'IBI'],
+        pattern: ['IBI', 'MUM', 'IBI'],
         key: {
           B: 'minecraft:blaze_powder',
           I: 'twilightforest:ironwood_block',
-          N: '#chipped:netherrack',
-          S: '#minecraft:soul_fire_base_blocks',
+          M: 'minecraft:fire_charge',
           U: 'gribtweaks:unforgotten_soul'
         },
         id: `${prefix}blaze_cell`
