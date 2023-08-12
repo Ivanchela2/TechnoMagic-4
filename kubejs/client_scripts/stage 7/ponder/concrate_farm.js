@@ -1,7 +1,7 @@
 Ponder.registry(e => {
     e
         .create([
-            '#forge:concrete'
+            /minecraft:\w+concrete/
         ])
         .scene('tm4:concrete_farm', "Concrate Farm!", 'quark_concrete_farm', (scene, util) => {
             scene.scaleSceneView(.8);
