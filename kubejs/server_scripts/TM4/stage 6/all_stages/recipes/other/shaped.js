@@ -385,6 +385,18 @@ ServerEvents.recipes((event) => {
       },
       id: `${prefix}ametrine_bricks`
     },
+    {
+      output: 'gribtweaks:burner',
+      pattern: ['IDI', 'RSR', 'IZI'],
+      key: {
+        D: 'minecraft:diamond',
+        I: 'minecraft:iron_ingot',
+        R: 'minecraft:red_dye',
+        S: 'gribtweaks:unforgotten_soul',
+        Z: '#forge:ingots/zinc'
+      },
+      id: `${prefix}burner`
+    },
   ];
   
   recipes.forEach((recipe) => {

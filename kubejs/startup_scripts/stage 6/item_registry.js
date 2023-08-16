@@ -96,6 +96,7 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:polished_quartz').displayName('Полированный кварц');  
     // other
     event.create('gribtweaks:nature_core').displayName('§aЯдро Природы');  
+    event.create('gribtweaks:burner').displayName('Горелка').tooltip('§7Используйте на камне, чтобы получить лаву.');  
     event.create('gribtweaks:time_core').displayName('§eЯдро Времени').glow(true);  
     event.create('gribtweaks:oblivion_powder').displayName('Пыль Забвения'); 
     event.create('gribtweaks:compressed_phantom_membrane').displayName('Сжатая мембрана фантома'); 

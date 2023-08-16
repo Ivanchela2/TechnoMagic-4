@@ -220,7 +220,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/worldborder set 40"
+					command: "/worldborder set 50"
 					id: "604C7083548AFA33"
 					player_command: false
 					type: "command"
@@ -1050,6 +1050,25 @@
 			}]
 			title: "Жара - долой!"
 			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C46A179AED9E586"]
+			description: ["Позволит нагреть камень до жидкого состояния, да."]
+			id: "083C570A7DB83A14"
+			rewards: [{
+				count: 2
+				id: "48104FD818C85CBF"
+				item: "minecraft:pointed_dripstone"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D8633E654E67146"
+				item: "gribtweaks:burner"
+				type: "item"
+			}]
+			x: 1.5d
 			y: 0.0d
 		}
 	]
