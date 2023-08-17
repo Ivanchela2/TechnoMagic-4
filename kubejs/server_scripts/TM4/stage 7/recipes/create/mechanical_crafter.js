@@ -1,7 +1,8 @@
 
 ServerEvents.recipes(e => {
   const prefix = 'tm4:create/mechanical_crafting/';
-    e.recipes.create.mechanical_crafting('2x ad_astra:reinforced_covering', [
+  let {mechanical_crafting} = e.recipes.create
+    mechanical_crafting('2x ad_astra:reinforced_covering', [
         'ABABABA',
         'BCEIECB',
         'ADHFHDA',
@@ -21,7 +22,7 @@ ServerEvents.recipes(e => {
         I: 'create:brass_casing'
       }).id(`${prefix}reinforced_covering`)
 
-      e.recipes.create.mechanical_crafting('2x ad_astra:advanced_covering', [
+      mechanical_crafting('2x ad_astra:advanced_covering', [
         'ABABABA',
         'BEEDEEB',
         'AEHIHEA',
@@ -41,7 +42,7 @@ ServerEvents.recipes(e => {
         I: 'botania:gaia_ingot'
       }).id(`${prefix}advanced_covering`)
 
-      e.recipes.create.mechanical_crafting('ad_astra:reinforced_rocket_nose_cone', [
+      mechanical_crafting('ad_astra:reinforced_rocket_nose_cone', [
         '   A   ',
         '  ACA  ',
         '  ADA  ',
@@ -58,7 +59,7 @@ ServerEvents.recipes(e => {
         F: 'ad_astra:rocket_nose_cone',
         G: 'botania:rune_summer'
       }).id(`${prefix}advanced_rocket_nose_cone`)
-      e.recipes.create.mechanical_crafting('botania:specific_rune_base', [
+      mechanical_crafting('botania:specific_rune_base', [
         '  ATI  ',
         ' AABII ',
         'AACDCII',
@@ -78,7 +79,7 @@ ServerEvents.recipes(e => {
         T: 'botania:basic_runic_stone',
         I: 'botania:manasteel_ingot'
       }).id(`${prefix}specific_rune_base`)
-      e.recipes.create.mechanical_crafting(Item.of('easy_villagers:villager', '{villager:{VillagerData:{level:2,profession:"butcher"}}}'), [
+      mechanical_crafting(Item.of('easy_villagers:villager', '{villager:{VillagerData:{level:2,profession:"butcher"}}}'), [
         'ABA',
         'CDC',
         'ABA',
@@ -89,7 +90,7 @@ ServerEvents.recipes(e => {
         D: 'easy_villagers:villager'
       }).id(`${prefix}villager_butcher`)
 
-      e.recipes.create.mechanical_crafting('botanicalmachinery:mechanical_mana_pool', [
+      mechanical_crafting('botanicalmachinery:mechanical_mana_pool', [
         'ABBCBBA',
         'BKKMKKB',
         'BKEIEKB',
@@ -113,7 +114,7 @@ ServerEvents.recipes(e => {
         M: 'botania:elves_endowment',
         N: 'botania:fabulous_pool'
       }).id(`${prefix}mechanical_mana_pool`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:industrial_agglomeration_factory', [
+      mechanical_crafting('botanicalmachinery:industrial_agglomeration_factory', [
         'ABBCBBA',
         'BKKMKKB',
         'BKEIEKB',
@@ -136,7 +137,7 @@ ServerEvents.recipes(e => {
         L: 'botania:terrasteel_potency',
         M: 'botania:elves_endowment'
       }).id(`${prefix}industrial_agglomeration_factory`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:alfheim_market', [
+      mechanical_crafting('botanicalmachinery:alfheim_market', [
         'ABBCBBA',
         'BJONOJB',
         'BOEIEOB',
@@ -161,7 +162,7 @@ ServerEvents.recipes(e => {
         O: 'botania:livingwood',
         P: 'botania:natura_pylon'
       }).id(`${prefix}alfheim_market`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:mechanical_apothecary', [
+      mechanical_crafting('botanicalmachinery:mechanical_apothecary', [
         'ABBCBBA',
         'BKKMKKB',
         'BKEIEKB',
@@ -184,7 +185,7 @@ ServerEvents.recipes(e => {
         L: 'botania:terrasteel_potency',
         M: 'botania:elves_endowment'
       }).id(`${prefix}mechanical_apothecary`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:mechanical_brewery', [
+      mechanical_crafting('botanicalmachinery:mechanical_brewery', [
         'ABBCBBA',
         'BNKMKNB',
         'BKEIEKB',
@@ -208,7 +209,7 @@ ServerEvents.recipes(e => {
         M: 'botania:elves_endowment',
         N: 'botania:brewery'
       }).id(`${prefix}mechanical_brewery`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:mechanical_daisy', [
+      mechanical_crafting('botanicalmachinery:mechanical_daisy', [
         'BBBBB',
         'B   B',
         'B   B',
@@ -221,7 +222,7 @@ ServerEvents.recipes(e => {
         D: 'botania:floating_pure_daisy',
         E: 'botania:botany_catalyst'
       }).id(`${prefix}mechanical_daisy`)
-      e.recipes.create.mechanical_crafting('botanicalmachinery:mechanical_runic_altar', [
+      mechanical_crafting('botanicalmachinery:mechanical_runic_altar', [
         'ABBCBBA',
         'BNKMKNB',
         'BKHIHKB',
