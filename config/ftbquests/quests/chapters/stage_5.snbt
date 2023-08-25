@@ -2857,8 +2857,7 @@
 			}]
 			subtitle: "Я шоколадный пчёлка, я шоколадный пчёлка..."
 			tasks: [{
-				id: "67B5F7FD8CF2051B"
-				item: {
+				icon: {
 					Count: 1b
 					id: "productivebees:bee_cage"
 					tag: {
@@ -2869,28 +2868,11 @@
 							Id: "savage_and_ravage:invisible_due_to_mask"
 						}]
 						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								961233633
-								-1513275113
-								-1300992210
-								604736436
-							]
-							opened: 0b
-						}
 						ForcedAge: 0
 						ForgeCaps: {
 							"scalinghealth:difficulty_affected": {
 								Blight: 0b
-								Difficulty: 37.649548f
+								Difficulty: 6.0782f
 							}
 							"twilightforest:cap_feather_fan_fall": {
 								featherFanFalling: 0b
@@ -2907,32 +2889,45 @@
 								giantPickMining: 0L
 							}
 						}
-						ForgeData: { }
+						ForgeData: {
+							"naturesaura:time_alive": 40
+						}
 						HasConverted: 0b
 						HasNectar: 0b
 						HasStung: 0b
-						Health: 14.05929f
+						Health: 8.139663f
 						Invulnerable: 0b
-						MaxHealth: 14.05929f
+						MaxHealth: 8.139663f
 						PersistenceRequired: 0b
 						ad_astra_giselle_addon: {
 							"ad_astra_giselle_addon:proof": { }
 						}
 						bee_behavior: 0
 						bee_endurance: 0
-						bee_productivity: 1
+						bee_productivity: 0
 						bee_temper: 1
 						bee_type: "hive"
 						bee_weather_tolerance: 0
 						breathCollectionCooldown: 600
 						entity: "productivebees:configurable_bee"
+						"forge:spawn_type": "SPAWN_EGG"
 						isProductiveBee: 1b
 						mod: "ProductiveBees"
-						name: "Choco Bee"
+						name: "Шоколадная пчела"
 						type: "productivebees:chocolate"
 					}
 				}
+				id: "67B5F7FD8CF2051B"
+				item: {
+					Count: 1b
+					id: "productivebees:bee_cage"
+					tag: {
+						type: "productivebees:chocolate"
+					}
+				}
+				title: "Пчелиная клетка (Шоколадная Пчела)"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Шоколадная пчёлка"
 			x: -15.5d
@@ -3033,77 +3028,12 @@
 					Count: 1b
 					id: "productivebees:bee_cage"
 					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								316446236
-								-2009840455
-								-1835018527
-								-1689561336
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 39.57681f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 14.420651f
-						Invulnerable: 0b
-						MaxHealth: 14.420651f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 0
-						bee_productivity: 2
-						bee_temper: 1
-						bee_type: "solitary"
-						bee_weather_tolerance: 0
 						entity: "productivebees:digger_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Digger Bee"
 					}
 				}
+				title: "Пчелиная клетка (Пчела-копалка)"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Пчёлка капалка"
 			x: -14.5d
@@ -3240,77 +3170,12 @@
 					Count: 1b
 					id: "productivebees:bee_cage"
 					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								-227504643
-								-154055491
-								-1359224526
-								-6147262
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 39.03215f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 17.318527f
-						Invulnerable: 0b
-						MaxHealth: 17.318527f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 1
-						bee_productivity: 1
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
 						entity: "productivebees:quarry_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Quarry Bee"
 					}
 				}
+				title: "Пчелиная клетка (Карьерная Пчела)"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Пчёлка каменьщик"
 			x: -15.0d
@@ -4304,8 +4169,7 @@
 			}]
 			tasks: [
 				{
-					id: "20941E4C2F053B0F"
-					item: {
+					icon: {
 						Count: 1b
 						id: "productivebees:bee_cage"
 						tag: {
@@ -4316,28 +4180,11 @@
 								Id: "savage_and_ravage:invisible_due_to_mask"
 							}]
 							CanUpdate: 1b
-							ChestCavity: {
-								FurnaceProgress: 0
-								HeartTimer: 0
-								Inventory: [ ]
-								KidneyTimer: 0
-								LiverTimer: 0
-								LungRemainder: 0.0f
-								MetabolismRemainder: 0.0f
-								PhotosynthesisProgress: 0
-								compatibility_id: [I;
-									-1303598007
-									2127250019
-									-2141694754
-									1521414698
-								]
-								opened: 0b
-							}
 							ForcedAge: 0
 							ForgeCaps: {
 								"scalinghealth:difficulty_affected": {
 									Blight: 0b
-									Difficulty: 109.10208f
+									Difficulty: 5.9548225f
 								}
 								"twilightforest:cap_feather_fan_fall": {
 									featherFanFalling: 0b
@@ -4354,32 +4201,43 @@
 									giantPickMining: 0L
 								}
 							}
-							ForgeData: { }
+							ForgeData: {
+								"naturesaura:time_alive": 40
+							}
 							HasConverted: 0b
 							HasNectar: 0b
 							HasStung: 0b
-							Health: 30.45664f
+							Health: 11.116529f
 							Invulnerable: 0b
-							MaxHealth: 30.45664f
+							MaxHealth: 16.11653f
 							PersistenceRequired: 0b
 							ad_astra_giselle_addon: {
 								"ad_astra_giselle_addon:proof": { }
 							}
 							bee_behavior: 0
-							bee_endurance: 1
+							bee_endurance: 2
 							bee_productivity: 1
 							bee_temper: 1
 							bee_type: "hive"
 							bee_weather_tolerance: 0
-							breathCollectionCooldown: 600
-							entity: "productivebees:configurable_bee"
+							entity: "productivebees:quarry_bee"
+							"forge:spawn_type": "SPAWN_EGG"
 							isProductiveBee: 1b
 							mod: "ProductiveBees"
-							name: "Ender Bee"
+							name: "Карьерная пчела"
+						}
+					}
+					id: "20941E4C2F053B0F"
+					item: {
+						Count: 1b
+						id: "productivebees:bee_cage"
+						tag: {
 							type: "productivebees:ender"
 						}
 					}
+					title: "Пчелиная Клетка (Эндер-Пчела)"
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "5169CB29AAF6C2B4"
