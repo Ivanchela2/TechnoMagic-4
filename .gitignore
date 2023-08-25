@@ -14,5 +14,13 @@ backups
 usercache.json
 usernamecache.json
 options.txt
+servers.dat
+servers.dat_old
+rhino.local.properties
+.qmenu_opened.marker
+fancymenu_instance_data
+fancymenu_data
+enigmatic_persistence.dat
+lightspeed-cache
 # !!! СНАЧАЛО ЗАКИНУТЬ ГИТ ИГНОР, GIT PULL, ПОТОМ УДАЛЯТЬ ФАЙЛЫ С РЕПО!!!
 # иначе эти файлы у вас удалятся, и придётся генерить заново 
