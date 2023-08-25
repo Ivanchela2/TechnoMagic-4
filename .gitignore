@@ -1,0 +1,18 @@
+# можете удалить эти папки, которые тут написаны
+# можете использовать это как шаблон для будущих сборок
+shaderpacks
+screenshots
+local
+.curseclient
+minecraftinstance.json
+# defaultconfigs - по желанию
+# что бы ezz без всяких хуень выгружать файлы на гитхаб после тестов/серий
+saves
+logs
+crash-reports
+backups
+usercache.json
+usernamecache.json
+options.txt
+# !!! СНАЧАЛО ЗАКИНУТЬ ГИТ ИГНОР, GIT PULL, ПОТОМ УДАЛЯТЬ ФАЙЛЫ С РЕПО!!!
+# иначе эти файлы у вас удалятся, и придётся генерить заново 
