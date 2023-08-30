@@ -19,26 +19,6 @@ ServerEvents.recipes(e => {
         F: 'ad_astra:rocket_nose_cone',
         G: 'botania:rune_summer'
       }).id(`${prefix}advanced_rocket_nose_cone`)
-      mechanical_crafting('botania:specific_rune_base', [
-        '  ATI  ',
-        ' AABII ',
-        'AACDCII',
-        'AEFGHEI',
-        'AACDCII',
-        ' AABII ',
-        '  ATI  ',
-      ], {
-        A: 'botania:elementium_ingot',
-        B: 'reliquary:frozen_core',
-        C: 'botania:gaia_ingot',
-        D: 'forbidden_arcanus:deorum_ingot',
-        E: 'botania:gaia_pylon',
-        F: 'botania:purple_piece_of_specific_rune',
-        G: 'arclight:arclight_core',
-        H: 'botania:blue_piece_of_specific_rune',
-        T: 'botania:basic_runic_stone',
-        I: 'botania:manasteel_ingot'
-      }).id(`${prefix}specific_rune_base`)
       mechanical_crafting(Item.of('easy_villagers:villager', '{villager:{VillagerData:{level:2,profession:"butcher"}}}'), [
         'ABA',
         'CDC',
