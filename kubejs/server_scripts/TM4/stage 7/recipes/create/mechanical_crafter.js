@@ -2,46 +2,6 @@
 ServerEvents.recipes(e => {
   const prefix = 'tm4:create/mechanical_crafting/';
   let {mechanical_crafting} = e.recipes.create
-    mechanical_crafting('2x ad_astra:reinforced_covering', [
-        'ABABABA',
-        'BCEIECB',
-        'ADHFHDA',
-        'BIFGFIB',
-        'ADHFHDA',
-        'BCEIECB',
-        'ABABABA',
-      ], {
-        A: 'ad_astra:desh_plate',
-        B: 'chemlib:lutetium_ingot',
-        C: 'ftbic:antimatter_crystal',
-        D: 'ad_astra:protasteel_block',
-        E: 'ftbic:advanced_alloy',
-        F: 'botania:terrasteel_ingot',
-        G: 'ftbic:advanced_machine_block',
-        H: 'botania:dragonstone',
-        I: 'create:brass_casing'
-      }).id(`${prefix}reinforced_covering`)
-
-      mechanical_crafting('2x ad_astra:advanced_covering', [
-        'ABABABA',
-        'BEEDEEB',
-        'AEHIHEA',
-        'BCFGFCB',
-        'AEHIHEA',
-        'BEEDEEB',
-        'ABABABA',
-      ], {
-        A: 'ad_astra:ostrum_plate',
-        B: 'chemlib:palladium_ingot',
-        C: 'botanicadds:dreaming_pool',
-        D: 'botania:elven_spreader',
-        E: 'forbidden_arcanus:stellarite_piece',
-        F: 'ad_astra:reinforced_covering',
-        G: 'botania:gaia_catalyst',
-        H: 'botania:life_essence',
-        I: 'botania:gaia_ingot'
-      }).id(`${prefix}advanced_covering`)
-
       mechanical_crafting('ad_astra:reinforced_rocket_nose_cone', [
         '   A   ',
         '  ACA  ',

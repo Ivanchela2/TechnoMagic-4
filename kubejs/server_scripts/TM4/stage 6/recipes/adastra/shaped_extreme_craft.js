@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                 F: Item.of('gribtweaks:super_alloy').toJson(),
                 M: Item.of('arclight:moonlight_core').toJson(),
                 R: Item.of('naturesaura:rf_converter').toJson(),
-                S: Item.of('ad_astra:steel_block').toJson(),
+                S: Ingredient.of('#forge:storage_blocks/steel').toJson(),
                 T: Item.of('gribtweaks:quadruple_compressed_crafting_table').toJson(),
                 V: Item.of('gribtweaks:ultimate_upgraded_netherite_eye').toJson()
             },

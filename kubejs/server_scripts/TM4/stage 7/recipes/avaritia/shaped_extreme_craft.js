@@ -42,11 +42,11 @@ ServerEvents.recipes(e => {
                 D: Ingredient.of('ad_astra:protasteel_block'),
                 E: Ingredient.of('ftbic:advanced_alloy'),
                 F: Ingredient.of('botania:terrasteel_ingot'),
-                G: Ingredient.of('gribtweaks:advanced_casing'),
+                G: Ingredient.of('ad_astra:rocket_covering'),
                 H: Ingredient.of('botania:dragonstone'),
                 I: Ingredient.of('create:brass_casing')
             },
-            output: '2x ad_astra:reinforced_covering',
+            output: 'ad_astra:reinforced_covering',
             id: 'reinforced_covering'
         },
         {

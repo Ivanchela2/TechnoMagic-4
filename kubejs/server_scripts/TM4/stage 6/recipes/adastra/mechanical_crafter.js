@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
                 'item': 'minecraft:netherite_block'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
                 'item': 'gribtweaks:dense_spectral_plate'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
                 'item': 'biggerreactors:reinforced_ludicrite_block'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             },
             'T': {
                 'item': 'create_sa:large_fueling_tank'
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
                 'item': 'biggerreactors:reinforced_ludicrite_block'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
@@ -140,7 +140,7 @@ ServerEvents.recipes((event) => {
                 'item': 'create_enchantment_industry:experience_rotor'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
@@ -172,7 +172,7 @@ ServerEvents.recipes((event) => {
                 'item': 'create_things_and_misc:powdered_obsidian_block'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
@@ -210,7 +210,7 @@ ServerEvents.recipes((event) => {
                 'item': 'gribtweaks:void_rune'
             },
             'S': {
-                'item': 'ad_astra:steel_block'
+                'tag': 'forge:storage_blocks/steel'
             }
         },
         'result': {
