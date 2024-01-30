@@ -19,4 +19,5 @@ ServerEvents.tags('item', e => {
         'minecraft:cooked_chicken',
         'minecraft:cooked_rabbit'
     ])
+    e.add('itemfilters:match_nbt', 'productivebees:bee_cage')
 })

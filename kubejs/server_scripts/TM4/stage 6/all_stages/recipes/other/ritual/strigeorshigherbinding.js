@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
                 {item: 'occultism:spirit_attuned_gem'}
             ],
             result: {item: 'gribtweaks:spirit_attuned_ingot'},
-            id: `${prefix}spirit_attuned_ingot'`
+            id: `${prefix}spirit_attuned_ingot`
         }
     ]
     

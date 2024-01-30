@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
       A: 'sorcerium:refined_mana_crystal', 
       B: 'naturesaura:natural_ender_pearl',
     },
-    id: `${prefix}mana_pearl`
+    id: `${prefix}mana_pearl_alt`
   }
   ];
 

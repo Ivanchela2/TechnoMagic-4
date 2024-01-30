@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             ],
 			output: {item: 'sorcerium:tissue_bandage'},
             dryingTimeInTicks: 1000,
-			id: `${prefix}sorcerium:tissue_bandage`
+			id: `${prefix}sorcerium_tissue_bandage`
 		},
         { 
 			type: "hexerei:drying_rack",

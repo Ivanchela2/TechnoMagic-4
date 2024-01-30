@@ -23,7 +23,6 @@ ServerEvents.recipes((event) => {
                 R: 'arclight:sculk_ingot'
             },
             output: 'dimstorage:dim_core',
-            acceptMirrored: false,
             id: `${prefix}dim_core`
         },
         {
@@ -46,7 +45,6 @@ ServerEvents.recipes((event) => {
                 T: 'arclight:cryorium_core'
             },
             output: '3x dimstorage:dim_wall',
-            acceptMirrored: false,
             id: `${prefix}dim_wall`
         },
         {
@@ -66,7 +64,6 @@ ServerEvents.recipes((event) => {
                 R: 'chemlib:francium_ingot'
             },
             output: '3x dimstorage:solid_dim_core',
-            acceptMirrored: false,
             id: `${prefix}solid_dim_core`
         },
         {
@@ -87,7 +84,6 @@ ServerEvents.recipes((event) => {
                 R: 'chemlib:dysprosium_ingot'
             },
             output: 'dimstorage:dimensional_chest',
-            acceptMirrored: false,
             id: `${prefix}dimensional_chest`
         },
         {
@@ -108,14 +104,13 @@ ServerEvents.recipes((event) => {
                 R: 'chemlib:rhodium_ingot'
             },
             output: 'dimstorage:dimensional_tank',
-            acceptMirrored: false,
             id: `${prefix}dimensional_tank`
         }
 
     ];
 
     recipes.forEach((recipe) => {
-        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key, recipe.acceptMirrored).id(recipe.id);
+        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
 });
 

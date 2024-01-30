@@ -1,7 +1,7 @@
 StartupEvents.registry('block', event => {
     // Gribony
     event.create('chemlib:gribony_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(50)
     .displayName('§4§lБлок Грибония') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -18,7 +18,7 @@ StartupEvents.registry('block', event => {
     })
 
     event.create('chemlib:unstable_gribony_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('§e§lБлок Нестабильного Грибония') 
     .tagBlock('minecraft:mineable/pickaxe')
@@ -32,7 +32,7 @@ StartupEvents.registry('block', event => {
     })
 
     event.create('chemlib:pre_gribony_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(25)
     .displayName('§5§lБлок Пре-Грибония') 
     .tagBlock('minecraft:mineable/pickaxe')
@@ -48,7 +48,7 @@ StartupEvents.registry('block', event => {
 
     // stage 5
     event.create('gribtweaks:advanced_casing')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Совершенный супер-корпус') 
     .tagBlock('minecraft:mineable/pickaxe')
@@ -56,7 +56,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
     // stage 6
     event.create('ad_astra:protasteel_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(5)
     .displayName('Прота-Стальной блок') 
     .tagBlock('minecraft:mineable/pickaxe')
@@ -65,7 +65,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('ad_astra:rocket_covering')
-    .material('metal')
+    .soundType('metal')
     .hardness(5)
     .displayName('Обшивка ракеты') 
     .tagBlock('minecraft:mineable/pickaxe')
@@ -73,7 +73,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('biggerreactors:reinforced_ludicrite_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Усиленный Лудикритовый блок') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -83,19 +83,19 @@ StartupEvents.registry('block', event => {
 
     // other 
     event.create('gribtweaks:triple_compressed_crafting_table')
-    .material('wood')
+    .soundType('wood')
     .hardness(5)
     .displayName('Трижды сжатый верстак') 
     .tagBlock('minecraft:mineable/axe') 
     
     event.create('gribtweaks:quadruple_compressed_crafting_table')
-    .material('wood')
+    .soundType('wood')
     .hardness(5)
     .displayName('Четырежды сжатый верстак') 
     .tagBlock('minecraft:mineable/axe') 
 
     event.create('gribtweaks:oblivion_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('§aБлок Забвения') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -104,7 +104,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:void_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Пустотный блок') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -113,7 +113,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:anxiety_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Блок Тревоги') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -122,7 +122,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:death_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Блок Смерти') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -131,7 +131,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:admiration_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(10)
     .displayName('Блок Восхищения') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -140,7 +140,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:ametrine_ore')
-    .material('stone')
+    .soundType('stone')
     .hardness(3)
     .displayName('Аметриновая руда') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -149,7 +149,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:ametrine_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(5)
     .displayName('§dАметриновый блок') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -157,7 +157,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:ametrine_bricks')
-    .material('metal')
+    .soundType('metal')
     .hardness(5)
     .displayName('§dАметриновые кирпичи') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -166,7 +166,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:polished_ametrine_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(5)
     .displayName('§dПолированный аметриновый блок') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -174,13 +174,13 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:elemental_fragments_block')
-    .material('rock')
+    .soundType('stone')
     .hardness(0.5)
     .displayName('§bБлок элементальных фрагментов') 
 
     // end game
     event.create('gribtweaks:ultimate_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(50)
     .displayName('§bМаксимальный блок') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -195,7 +195,7 @@ StartupEvents.registry('block', event => {
     })
 
     event.create('gribtweaks:true_infinity_block')
-    .material('metal')
+    .soundType('metal')
     .hardness(25)
     .displayName('§cИстинный блок Бесконечности') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -204,7 +204,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
     event.create('gribtweaks:blaze_cell')
-    .material('metal')
+    .soundType('metal')
     .hardness(1)
     .displayName('Клетка с Ифритом') 
     .item(itemBuilder => {

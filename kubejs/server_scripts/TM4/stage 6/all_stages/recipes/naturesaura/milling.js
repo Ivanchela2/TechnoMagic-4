@@ -31,7 +31,6 @@ ServerEvents.recipes((event) => {
                     item: 'naturesaura:gold_powder'
                 },
             ]
-
         }
     ];
     recipes.forEach(recipe => {
@@ -40,6 +39,6 @@ ServerEvents.recipes((event) => {
             ingredients: recipe.ingredients,
             processingTime: recipe.processingTime,
             results: recipe.results
-        }).id(recipe.id)
+        })
     })
 });

@@ -1,6 +1,6 @@
 StartupEvents.registry('block', event => {
     event.create('gribtweaks:comb_infinity')
-    .material('metal')
+    .soundType('metal')
     .hardness(0.6)
     .displayName('Блок Бесконечных сот') 
     .tagBlock('forge:storage_blocks') 

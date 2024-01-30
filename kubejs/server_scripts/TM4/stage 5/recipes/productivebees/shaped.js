@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
             key: {
                 A: 'gribtweaks:infinity_honeycomb'
             },
-            id: `${prefix}'comb_infinity'`
+            id: `${prefix}comb_infinity`
         },
 		{
             output: 'gribtweaks:comb_neutronium',

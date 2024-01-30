@@ -19,7 +19,6 @@ ServerEvents.recipes((event) => {
                 E: 'createaddition:alternator'
             },
             output: 'createaddition:creative_energy',
-            acceptMirrored: false,
             id: `${prefix}creative_energy`
         },
         {
@@ -38,7 +37,6 @@ ServerEvents.recipes((event) => {
                 E: 'createaddition:electric_motor'
             },
             output: 'create:creative_motor',
-            acceptMirrored: false,
             id: `${prefix}creative_motor`
         },
         {
@@ -58,7 +56,6 @@ ServerEvents.recipes((event) => {
                 E: 'create:fluid_tank'
             },
             output: 'create:creative_fluid_tank',
-            acceptMirrored: false,
             id: `${prefix}creative_fluid_tank`
         },
         {
@@ -86,7 +83,6 @@ ServerEvents.recipes((event) => {
                 R: 'create:railway_casing',
             },
             output: 'create:handheld_worldshaper',
-            acceptMirrored: false,
             id: `${prefix}handheld_worldshaper`
         },
         {
@@ -121,6 +117,6 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key, recipe.acceptMirrored).id(recipe.id);
+        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
 });

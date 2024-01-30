@@ -4,7 +4,7 @@ Ponder.registry((event) => {
         .scene(
             "Precision_Mechanism_Crafter",
             "The initial way to automate!",
-            "kubejs:Precision_Mechanism_Crafter",
+            "kubejs:precision_mechanism_crafter",
             (scene, util) => {
                 scene.world.setBlock([2, 2, 1], 'create:water_wheel', false )
                 scene.idle(5);

@@ -13,7 +13,6 @@ ServerEvents.recipes((event) => {
                 C: 'create:honeyed_apple'
             },
             output: 'enigmaticlegacy:astral_fruit',
-            acceptMirrored: false,
             id: `${prefix}astral_fruit`
         },
         {
@@ -33,7 +32,6 @@ ServerEvents.recipes((event) => {
                 A: 'twilightforest:knightmetal_ring'
             },
             output: 'twilightforest:cube_talisman',
-            acceptMirrored: false,
             id: `${prefix}cube_talisman`
         },
         {
@@ -54,7 +52,6 @@ ServerEvents.recipes((event) => {
                 F: 'ftbic:advanced_machine_block'
             },
             output: 'ftbic:hv_battery_box',
-            acceptMirrored: false,
             id: `${prefix}hv_battery_box`
         },
         {
@@ -74,7 +71,6 @@ ServerEvents.recipes((event) => {
                 F: 'ftbic:advanced_machine_block'
             },
             output: 'ftbic:ev_battery_box',
-            acceptMirrored: false,
             id: `${prefix}ev_battery_box`
         },
         {
@@ -93,7 +89,6 @@ ServerEvents.recipes((event) => {
                 E: ['ftbic:tin_ingot', 'chemlib:tin_ingot']
             },
             output: 'ftbic:canning_machine',
-            'acceptMirrored': false,
             id: `${prefix}canning_machine`
         },
         {
@@ -111,7 +106,6 @@ ServerEvents.recipes((event) => {
                 5: 'create:millstone'
             },
             output: 'ftbic:compressor',
-            acceptMirrored: false,
             id: `${prefix}compressor`
         },
         {
@@ -130,7 +124,6 @@ ServerEvents.recipes((event) => {
                 G: 'ftbic:mv_transformer'
             },
             output: 'ftbic:hv_transformer',
-            acceptMirrored: false,
             id: `${prefix}hv_transformer`
         },
         {
@@ -149,7 +142,6 @@ ServerEvents.recipes((event) => {
                 E: 'ftbic:hv_transformer'
             },
             output: '2x ftbic:ev_transformer',
-            acceptMirrored: false,
             id: `${prefix}ev_transformer`
         },
         {
@@ -164,7 +156,6 @@ ServerEvents.recipes((event) => {
                 C: 'create:zinc_block'
             },
             output: 'create_sa:heat_engine',
-            acceptMirrored: false,
             id: `${prefix}heat_engine`
         },
         {
@@ -180,7 +171,6 @@ ServerEvents.recipes((event) => {
                 D: 'minecraft:copper_block'
             },
             output: 'create_sa:hydraulic_engine',
-            acceptMirrored: false,
             id: `${prefix}hydraulic_engine`
         },
         {
@@ -195,7 +185,6 @@ ServerEvents.recipes((event) => {
                 C: 'create:andesite_casing'
             },
             output: 'create:mechanical_plough',
-            acceptMirrored: false,
             id: `${prefix}mechanical_plough`
         },
         {
@@ -210,7 +199,6 @@ ServerEvents.recipes((event) => {
                 C: 'create:brass_block'
             },
             output: 'create_sa:steam_engine',
-            acceptMirrored: false,
             id: `${prefix}steam_engine`
         },
         {
@@ -229,7 +217,6 @@ ServerEvents.recipes((event) => {
                 F: 'create:mechanical_press'
             },
             output: 'ftbic:roller',
-            acceptMirrored: false,
             id: `${prefix}roller`
         },
         {
@@ -247,7 +234,6 @@ ServerEvents.recipes((event) => {
                 F: 'create:crushing_wheel'
             },
             output: 'ftbic:macerator',
-            acceptMirrored: false,
             id: `${prefix}macerator`
         },
         {
@@ -265,7 +251,6 @@ ServerEvents.recipes((event) => {
                 F: 'createaddition:rolling_mill'
             },
             output: 'ftbic:extruder',
-            acceptMirrored: false,
             id: `${prefix}extruder`
         },
         {
@@ -285,7 +270,6 @@ ServerEvents.recipes((event) => {
                 G: 'create:deployer'
             },
             output: 'ftbic:centrifuge',
-            acceptMirrored: false,
             id: `${prefix}centrifuge`
         },
         {
@@ -303,12 +287,11 @@ ServerEvents.recipes((event) => {
                 F: 'seeds:trash'
             },
             output: 'ftbic:reprocessor',
-            acceptMirrored: false,
             id: `${prefix}reprocessor`
         }
     ];
 
     recipes.forEach((recipe) => {
-        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key, recipe.acceptMirrored).id(recipe.id);
+        event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
 });

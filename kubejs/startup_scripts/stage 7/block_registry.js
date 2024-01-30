@@ -1,6 +1,6 @@
 StartupEvents.registry('block', e => {
     e.create('ad_astra:reinforced_covering')
-    .material('iron')
+    .soundType('stone')
     .hardness(0.8)
     .displayName('§6Reinforced Covering') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -8,7 +8,7 @@ StartupEvents.registry('block', e => {
     .requiresTool(true)
 
     e.create('ad_astra:advanced_covering')
-    .material('iron')
+    .soundType('stone')
     .hardness(0.8)
     .displayName('§5Advanced Covering') 
     .tagBlock('minecraft:mineable/pickaxe') 
@@ -16,7 +16,7 @@ StartupEvents.registry('block', e => {
     .requiresTool(true)
 
     e.create('ad_astra:ultra_covering')
-    .material('iron')
+    .soundType('stone')
     .hardness(0.8)
     .displayName('§cUltra Covering') 
     .tagBlock('minecraft:mineable/pickaxe') 

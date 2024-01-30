@@ -299,7 +299,7 @@ MoreJSEvents.villagerTrades(e => {
             profession: "morevillagers:miner",
             level: 4,
             input: ['emerald', '2x raw_iron'],
-            output: '4x create:crushed_iron_ore'
+            output: '4x create:crushed_raw_iron'
         },
         {
             profession: "morevillagers:miner",
@@ -384,6 +384,6 @@ MoreJSEvents.villagerTrades(e => {
     ]
 
     complextrades.forEach(trade => {
-        e.addTrade(trade.profession, trade.level, trade.input, trade.output)
+        e.addTrade(trade.profession, trade.level, [trade.input], trade.output)
     })
 })
