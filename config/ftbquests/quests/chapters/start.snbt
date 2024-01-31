@@ -3,7 +3,7 @@
 	default_quest_shape: "pentagon"
 	filename: "start"
 	group: ""
-	icon: "scalinghealth:heart_crystal"
+	icon: "minecraft:red_tulip"
 	id: "198A924D348BD16B"
 	images: [{
 		click: ""
@@ -29,29 +29,6 @@
 			]
 			icon: "avaritia:endest_pearl"
 			id: "744223264E0F1603"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/gamerule sendCommandFeedback false"
-					id: "2DB7B77D3BAD3637"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder center 8.50 8.50"
-					id: "297DECE11D856E4E"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 16"
-					id: "278A9B94BD057D62"
-					player_command: false
-					type: "command"
-				}
-			]
 			shape: "rsquare"
 			size: 5.0d
 			tasks: [{
@@ -137,7 +114,7 @@
 				"\"Важен только результат.\""
 				"&6&l©BaGGeR&r&r"
 			]
-			icon: "amethyst_upgrade:magic_gem"
+			icon: "minecraft:diamond"
 			id: "3D6832BBCD606E13"
 			size: 4.0d
 			tasks: [{
@@ -148,26 +125,6 @@
 			title: "О команде"
 			x: 6.0d
 			y: 6.0d
-		}
-		{
-			dependencies: [
-				"13FBA44202FDD502"
-				"3D6832BBCD606E13"
-			]
-			description: [
-				"Рекомендуется не размещать важные блоки далеко от нулевых координат (Вы поймете, почему не стоит этого делать, и когда это ограничение выйдет из силы)."
-				""
-				"Использование команд не отображается в чате. Сделано это для улучшение игрового геймплея. Если вы хотите вернуть отчет воспользуйтесь командой - \"&2/gamerule sendCommandFeedback true&r\""
-			]
-			id: "3E78921CBEE65673"
-			size: 3.0d
-			tasks: [{
-				id: "1783017357846574"
-				type: "checkmark"
-			}]
-			title: "Важно!"
-			x: 0.0d
-			y: 9.0d
 		}
 	]
 	subtitle: ["В мою таверну."]

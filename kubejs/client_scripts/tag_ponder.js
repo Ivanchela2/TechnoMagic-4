@@ -32,7 +32,7 @@ Ponder.tags(event => {
     /*e.createTag("tm4:tech", 'ftbic:electronic_circuit', "TM4: Technologies", "World of Technologies", [
         
     ]);*/
-    e.createTag("tm4:magic", 'botania:mana_pylon', "TM4: Magic", "World of Magic", [
+    event.createTag("tm4:magic", 'botania:mana_pylon', "TM4: Magic", "World of Magic", [
         'botania:orechid',
         'botania:orechid_ignem'
     ]);

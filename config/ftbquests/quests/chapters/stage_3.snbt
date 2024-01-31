@@ -91,41 +91,6 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-jungle 36 120 -20"
-					id: "0CC4246AB1765C9C"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-swamp 40 140 20"
-					id: "3A1BD11A2B989CC6"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 80"
-					id: "4BCE85A848E0107B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "6AE9BB06F3E9D6FF"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s4_aquaculture2 -25 100 0"
-					id: "51749190E267EA66"
-					player_command: false
-					type: "command"
-				}
 			]
 			shape: "octagon"
 			size: 1.4d
@@ -715,26 +680,11 @@
 				"&6Earth Staff&r - стреляет природной масой."
 			]
 			id: "593117BA3091815E"
-			rewards: [
-				{
-					id: "315162566D30ED4C"
-					item: "twilightforest:naga_scale"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:lich_island 50 80 -90"
-					id: "74574AC4E3B59F93"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Один из великих явился вам\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "73E4ABCEC5381A30"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "315162566D30ED4C"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4772986BB569CF7D"
@@ -800,26 +750,12 @@
 			dependencies: ["69F581557BA017AF"]
 			description: ["Кусок лабиринта парящий в воздухе, Что-то ждет вас там."]
 			id: "453B7DB977D14FB9"
-			rewards: [
-				{
-					id: "5AA9A1BBFDF80D4C"
-					item: "twilightforest:naga_scale"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					command: "/place template minecraft:s3_sorcerium-crystals 16 104 -24"
-					id: "411061A67978DBAD"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Небо кратковременно освещает синий цвет\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "489F8876199A49D9"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "5AA9A1BBFDF80D4C"
+				item: "twilightforest:naga_scale"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				entity: "twilightforest:naga"
@@ -904,34 +840,12 @@
 			]
 			description: ["Специальная карта очень бы помогла вам в Сумеречном лесу.. поэтому, воспользуйтесь обычной. (По приколу)"]
 			id: "69F581557BA017AF"
-			rewards: [
-				{
-					id: "02C99B36EF5D61B3"
-					item: "minecraft:paper"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					command: "/worldborder set 250"
-					id: "34D48FFF77B474F1"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:naga_island 35 110 35"
-					id: "5050F9DD424C6CF1"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Сумеречный лес начинает захватывать ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "0D1DA043BE493292"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "02C99B36EF5D61B3"
+				item: "minecraft:paper"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EFDF1A7FFF6AC51"
 				item: "minecraft:map"

@@ -81,34 +81,6 @@
 					item: "botania:lexicon"
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Странный цветочный запах начинает завораживать\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "42DCCDDE55FDED97"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 0 -250 -100 -350"
-					id: "3AF163D6B7428C65"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s7_botania -50 150 -300"
-					id: "0ABFD28062F48194"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "509DEF56D206B1AB"
-					player_command: false
-					type: "command"
-				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -1159,7 +1131,6 @@
 					auto: "invisible"
 					command: "/summon firework_rocket ~ ~3 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;14188952],FadeColors:[I;12801229]}]}}}}"
 					id: "6A12DFF8A1168BCC"
-					player_command: false
 					title: "Фейерверк"
 					type: "command"
 				}

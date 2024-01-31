@@ -2003,42 +2003,12 @@
 			]
 			description: ["Сильное ядро, используемое в крафтах."]
 			id: "25A4EAB98B5899DD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "38D57084C327C642"
-					table_id: 6910744682423747065L
-					type: "random"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ангелы спускаются в ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "0EAF96BA63AF0633"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add -200 -50 -300 -150"
-					id: "646949D815C3705C"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s6_arclight -250 200 -100"
-					id: "31C86151054DDC44"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "110D2B632AEC758B"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38D57084C327C642"
+				table_id: 6910744682423747065L
+				type: "random"
+			}]
 			size: 1.5d
 			subtitle: "&6Сердце Ангела (почти)"
 			tasks: [{
@@ -3139,12 +3109,6 @@
 		{
 			dependencies: ["233193BCDDD1FD7B"]
 			id: "660BD4C03F77B971"
-			rewards: [{
-				command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-				id: "2968CF9623C43701"
-				player_command: false
-				type: "command"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6EC58423B9347982"

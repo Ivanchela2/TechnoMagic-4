@@ -253,12 +253,6 @@
 			dependencies: ["6187009683A16AB1"]
 			description: ["Благодаря технологиям вы обнаружили волокно способное распространятся по листве, окрашивая её."]
 			id: "69374D2A54D2E8A7"
-			rewards: [{
-				count: 4
-				id: "299405BBACBE6B03"
-				item: "gribtweaks:sand_gold"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7C91AF6944C112B8"
 				item: "naturesaura:gold_fiber"
@@ -312,35 +306,12 @@
 			dependencies: ["4AA98008F9458B33"]
 			description: ["Используется для ритуалов. (см. Размышления)"]
 			id: "05BA6237D762B372"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5F9BA829C8C16943"
-					table_id: 4669929033245206696L
-					type: "loot"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s2_nature_aura -16 125 25"
-					id: "7CABB550FF159726"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 60"
-					id: "55D5B322DE0F09A9"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великое древо порядка пустило свои корни\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "3AFAE271C74E6E64"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9BA829C8C16943"
+				table_id: 4669929033245206696L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "654E54D618704841"
 				item: "naturesaura:wood_stand"
@@ -495,10 +466,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2B7E545FFB41DC39"
-				"4532ABE8F245CA3E"
-			]
+			dependencies: ["4532ABE8F245CA3E"]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
@@ -627,24 +595,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2B7E545FFB41DC39"]
 			description: ["Хоть на вас и напали, но вы получили очень важный предмет с помощью которого сделали важнейший источник ресурсов. Надо поблагодарить \"Гриб\"."]
 			id: "73EAA79E19228ED9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77BB95D39FDC6C7D"
-				table_id: 1164824006868770433L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "3A33FD21A72B1028"
-				item: {
-					Count: 1b
-					id: "gribtweaks:forest_catalyst"
-					tag: { }
-				}
-				type: "item"
-			}]
 			x: -4.5d
 			y: 1.5d
 		}

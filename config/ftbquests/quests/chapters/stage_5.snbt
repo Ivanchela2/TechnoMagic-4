@@ -93,34 +93,6 @@
 					item: "minecraft:dripstone_block"
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Око эндера открыло свои врата\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "74D4F8C365A6F3E3"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 170 -40 210 -80"
-					id: "0D95387487B2C2EA"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s5_end 200 220 -70"
-					id: "5E03A0A0BDF45EA4"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "6728CCAF495E1265"
-					player_command: false
-					type: "command"
-				}
 			]
 			shape: "octagon"
 			subtitle: "Создайте кузницу гефеста."
@@ -246,40 +218,11 @@
 			dependencies: ["1172FCA541C97A82"]
 			hide_dependency_lines: false
 			id: "1EB9F7701AE976B1"
-			rewards: [
-				{
-					id: "43C3FED4D47F35A1"
-					item: "productivebees:obsidian_nest"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 700"
-					id: "1324DEF1C7D12435"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 180 -100 400 -300"
-					id: "5465A1A7B2A6F781"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:knight_phantom_island 190 80 -300"
-					id: "6BE3961DC9177283"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "2CC5A5D19FCBCB1D"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "43C3FED4D47F35A1"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
 			subtitle: "Латы из самого дракона."
 			tasks: [
 				{
@@ -334,49 +277,19 @@
 		{
 			dependencies: ["1EB9F7701AE976B1"]
 			id: "1D368BDA7B0341AA"
-			rewards: [
-				{
-					id: "27B6611474F8EF66"
-					item: {
-						Count: 1b
-						id: "productivebees:spawn_egg_configurable_bee"
-						tag: {
-							EntityTag: {
-								type: "productivebees:gold"
-							}
+			rewards: [{
+				id: "27B6611474F8EF66"
+				item: {
+					Count: 1b
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
 						}
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add 150 200 300 70"
-					id: "28D712ED4D555BC8"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:alpha_yeti_island 300 120 150"
-					id: "2C25D11AB40698F9"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "49B41ABAE236AB47"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Зимный приспешник пробудился\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "25EE3C197A1C79DC"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Улучшеные латы дракона."
 			tasks: [
 				{
@@ -432,41 +345,11 @@
 			dependencies: ["1D368BDA7B0341AA"]
 			icon: "twilightforest:alpha_yeti_trophy"
 			id: "56581509C44E4189"
-			rewards: [
-				{
-					id: "629A19D52ABF9FF6"
-					item: "twilightforest:charm_of_keeping_3"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add -30 200 130 400"
-					id: "07090544592BB614"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:aurora_island 0 100 250"
-					id: "3773F6BF93E6434B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "3AC07489B6DF1994"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великая королева ждет Вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "65BAB820C470CE1B"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "629A19D52ABF9FF6"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
 			subtitle: "Отправьтесь в холодный биом Сумеречного леса, чтобы сразить это создание, охраняющее королеву"
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
@@ -640,47 +523,17 @@
 			dependencies: ["1EB9F7701AE976B1"]
 			icon: "twilightforest:knight_phantom_trophy"
 			id: "7CD7A225C23C42EC"
-			rewards: [
-				{
-					id: "1043F8F8ED2F77F4"
-					item: {
-						Count: 1b
-						id: "twilightforest:knightmetal_shield"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "1043F8F8ED2F77F4"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add -200 -200 -400 -400"
-					id: "5FFAB5795F1EF6AB"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:ur-ghast_island -310 60 -320"
-					id: "563A3FA97FAF17C4"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "16AD93FC317EA7CC"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Заслуживает ли он этого?\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "2C2805DC8D7F26EA"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Найдите его в лабиринте."
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
@@ -717,47 +570,17 @@
 			dependencies: ["56581509C44E4189"]
 			icon: "twilightforest:snow_queen_trophy"
 			id: "6013F8CFAC8F4CD6"
-			rewards: [
-				{
-					id: "01323D4BCDD24C41"
-					item: {
-						Count: 1b
-						id: "twilightforest:glass_sword"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "01323D4BCDD24C41"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add -200 -40 -400 140"
-					id: "1E15C3F562EF2C1B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:pokahu_island -300 150 70 counterclockwise_90"
-					id: "48161975189AF768"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "060DA7692051D540"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Тот, кого все ждали, пришел именно в Ваш мир...\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "417114F2EFBD209E"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Типичная история с королевой в башне, только здесь ёё не надо спасать"
 			tasks: [{
 				entity: "twilightforest:snow_queen"
@@ -3136,31 +2959,6 @@
 					id: "68178F844278907F"
 					item: "minecraft:end_stone"
 					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Могущество искажает воздух вокруг вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "07A8C9F651458C4F"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload add 50 140 80 170"
-					id: "6833E09D026FA940"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/place template minecraft:s5_forbidden_arcanus 80 200 170"
-					id: "02FC22E5F50C6127"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "47DD520C87D13E3F"
-					player_command: false
-					type: "command"
 				}
 			]
 			subtitle: "Я каменщик, работаю 3 дня..."
