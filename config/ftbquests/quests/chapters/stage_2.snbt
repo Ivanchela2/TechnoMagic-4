@@ -90,10 +90,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"5810E01625CA0519"
-				"785BFED9C892DA25"
-			]
+			dependencies: ["5810E01625CA0519"]
 			description: ["Добавив пару постаментов вы смогли усилить связь с природой и перейти на более сложные ритуалы."]
 			id: "0C5E8A624A5E28F3"
 			rewards: [{
@@ -206,7 +203,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["73EAA79E19228ED9"]
+			dependencies: ["7AB3B86EACDCFD4C"]
 			description: ["И очередное покушение на вас, но вы победили и обнаружили у себя нож лесника, он предназначен для обработки коры. "]
 			id: "34A3F8B6B2B7E460"
 			rewards: [{
@@ -466,7 +463,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4532ABE8F245CA3E"]
+			dependencies: [
+				"2B7E545FFB41DC39"
+				"4532ABE8F245CA3E"
+			]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
@@ -537,10 +537,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"785BFED9C892DA25"
-				"0C5E8A624A5E28F3"
-			]
+			dependencies: ["0C5E8A624A5E28F3"]
 			description: ["Найдя удобное место для оброботки, вы смогли обьединить андезит и цинк. Успех!"]
 			id: "0749D26B0CAA8918"
 			rewards: [{
@@ -595,8 +592,24 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2B7E545FFB41DC39"]
 			description: ["Хоть на вас и напали, но вы получили очень важный предмет с помощью которого сделали важнейший источник ресурсов. Надо поблагодарить \"Гриб\"."]
 			id: "73EAA79E19228ED9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77BB95D39FDC6C7D"
+				table_id: 1164824006868770433L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A33FD21A72B1028"
+				item: {
+					Count: 1b
+					id: "gribtweaks:forest_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
 			x: -4.5d
 			y: 1.5d
 		}
@@ -642,27 +655,39 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5810E01625CA0519"]
-			description: [
-				"С помощью капельника и блока грязи получите глину."
-				""
-				"Поставьте капельник под любой блок, а на этот блок разместите грязь. И... ждите."
-			]
-			id: "4532ABE8F245CA3E"
+			dependencies: ["6C701395031DE8EA"]
+			id: "7AB3B86EACDCFD4C"
 			rewards: [{
-				count: 24
-				id: "52134486FD7626E7"
-				item: "minecraft:dirt"
-				random_bonus: 12
+				id: "0D6DF5757C72863D"
+				item: "minecraft:diamond"
 				type: "item"
 			}]
 			tasks: [{
-				id: "64564D61BCDB8D35"
-				item: "minecraft:clay_ball"
+				id: "6FF07F2F3784E813"
+				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B1B6F0B1BF3A5D2"]
+			description: ["Кости Байкока обладают удивительной прочностью, достаточной для создания кирки, способной добывать алмазную руду."]
+			hide: true
+			id: "6C701395031DE8EA"
+			tasks: [{
+				id: "38CFA92321D299FB"
+				item: {
+					Count: 1b
+					id: "gribtweaks:baykok_bone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 	]
 	title: "&5Стадия: 2"
