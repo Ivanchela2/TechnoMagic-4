@@ -343,7 +343,7 @@
 				"4BA91AB519070D4D"
 				"045C3D369D9FADD6"
 			]
-			description: ["Убейте Гидру."]
+			description: ["Найдите и убейте Гидру."]
 			hide: true
 			hide_dependency_lines: true
 			icon: "twilightforest:hydra_trophy"
@@ -672,7 +672,7 @@
 				"4BA91AB519070D4D"
 				"38FF01FE1835B023"
 			]
-			description: ["Убейте Гриботавра."]
+			description: ["Найдите и убейте Гриботавра."]
 			hide: true
 			hide_dependency_lines: true
 			id: "7CC994D9CE81BCEB"

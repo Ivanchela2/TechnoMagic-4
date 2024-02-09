@@ -2,7 +2,7 @@
 	icon: "naturesaura:infused_iron"
 	id: "6A3B814BC7FCB8DC"
 	loot_size: 1
-	order_index: 18
+	order_index: 11
 	rewards: [
 		{ item: "naturesaura:gold_leaf" }
 		{

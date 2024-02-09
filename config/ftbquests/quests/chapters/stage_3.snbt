@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["249EED31D84418E8"]
-			description: ["Скрафтите корни и сломайте их, чтобы получить замшелый корень."]
+			description: ["Скрафтите или найдите корни и сломайте их, чтобы получить замшелый корень."]
 			id: "5835379C03113E98"
 			rewards: [{
 				count: 4
@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
-			description: ["У вас появилась догадка, что портал в Сумеречный лес открыть не удастся. Ощущения, что этот мир проникает в ваш."]
+			description: ["Откройте портал в Сумеречный лес."]
 			hide: true
 			id: "249EED31D84418E8"
 			rewards: [
@@ -100,7 +100,7 @@
 			}]
 			title: "Да здравствует, Сумеречный лес!"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5835379C03113E98"]
@@ -127,7 +127,7 @@
 				"4AECCE7BD3D05A19"
 				"629084BAE7A02AC0"
 			]
-			description: ["Новый способ создания предметов. Вы придумали как создавать предметы смешивая их в котле."]
+			description: ["Новый способ создания предметов."]
 			id: "1D2A03062704637C"
 			rewards: [
 				{
@@ -154,7 +154,7 @@
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
-			description: ["Улучшенная версия обычного сундука: хранит в себе больше больше предметов, а также позволяет вашим фамильярам взаимодействовать с ним."]
+			description: ["Улучшенная версия обычного сундука: хранит в себе больше предметов, а также позволяет вашим фамильярам взаимодействовать с ним."]
 			id: "020AD019F5C7DAE3"
 			rewards: [{
 				id: "543EF32A386A9FE9"
@@ -194,7 +194,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1FB3837335109150"]
+			dependencies: ["249EED31D84418E8"]
 			description: ["Алтарь поможет вам обратиться к высшим силам, чтобы получить подсказки."]
 			id: "629084BAE7A02AC0"
 			tasks: [
@@ -219,7 +219,7 @@
 				}
 			]
 			title: "Тёмные силы"
-			x: 3.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -239,10 +239,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"6F833510FBC27BD8"
-				"693776EF7D9D074E"
-			]
+			dependencies: ["6F833510FBC27BD8"]
 			description: ["Вы улучшили свою предыдущую метлу и управление стало в разы лучше."]
 			id: "18EE46D2B53AD9FD"
 			rewards: [{
@@ -288,37 +285,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
-			hide_dependency_lines: true
-			id: "693776EF7D9D074E"
-			rewards: [{
-				count: 4
-				id: "42E4AA7CC6883FE8"
-				item: "minecraft:jungle_sapling"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "33271CAB99F1A9B6"
-				ignore_dimension: false
-				position: [I;
-					40
-					128
-					-17
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 7.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["18EE46D2B53AD9FD"]
 			description: ["Ваши первые аксессуары на метлу."]
 			id: "1D7C2D2E80C6C3FB"
@@ -351,7 +317,7 @@
 				}
 			]
 			title: "Побрекушечки"
-			x: 9.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -373,7 +339,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -391,7 +357,7 @@
 				item: "hexerei:medium_satchel"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -417,7 +383,7 @@
 				}
 			]
 			title: "Расширение территории"
-			x: 12.0d
+			x: 10.5d
 			y: 3.0d
 		}
 		{
@@ -489,8 +455,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1FB3837335109150"]
-			description: ["Снизу острова растут странные кристаллы. Возможно, вы найдете им применение."]
+			dependencies: ["249EED31D84418E8"]
 			id: "0765A7B398C51443"
 			optional: true
 			tasks: [{
@@ -511,8 +476,8 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4AECCE7BD3D05A19"]
@@ -569,6 +534,7 @@
 			dependencies: ["44B196BE6006F132"]
 			description: ["После полного обучения контроля ворон, вы перешли к чем-то большему - к другим питомцам."]
 			id: "1C0D5A514D31D027"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "193434E1AE22AFC5"
@@ -607,7 +573,7 @@
 		}
 		{
 			dependencies: ["2C23F9E57EB4FA5C"]
-			description: ["Полное одеяние ведьмы может очень хорошо вас защитить."]
+			description: ["Полный сет имеет хорошую защиту и дает специальные эффекты. (См. SHIFT на предмете)"]
 			id: "5CFED47049D444D6"
 			tasks: [
 				{
@@ -727,7 +693,7 @@
 		}
 		{
 			dependencies: ["249EED31D84418E8"]
-			description: ["Найдите светлячков и добудьте с них светопыль."]
+			description: ["Найдите или купите у пиглинов светлячков и добудьте с них светопыль."]
 			id: "515E01928C172264"
 			subtitle: "Живность"
 			tasks: [
@@ -744,11 +710,11 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["69F581557BA017AF"]
-			description: ["Кусок лабиринта парящий в воздухе, Что-то ждет вас там."]
+			description: ["Найдите и убейте Нагу."]
 			id: "453B7DB977D14FB9"
 			rewards: [{
 				id: "5AA9A1BBFDF80D4C"
@@ -766,11 +732,11 @@
 				value: 1L
 			}]
 			x: 4.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["593117BA3091815E"]
-			description: ["Новый остров с башней в центре. Может стоит подняться на самый ее верх? Какие загадки она в себе таит?"]
+			dependencies: ["453B7DB977D14FB9"]
+			description: ["Найдите и убейте Лича."]
 			id: "0467EF29CA06A563"
 			shape: "pentagon"
 			size: 1.7d
@@ -782,8 +748,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C23F9E57EB4FA5C"]
@@ -838,7 +804,7 @@
 				"2C23F9E57EB4FA5C"
 				"1D2A03062704637C"
 			]
-			description: ["Специальная карта очень бы помогла вам в Сумеречном лесу.. поэтому, воспользуйтесь обычной. (По приколу)"]
+			description: ["Специальная карта, которая сильно поможет вам в Сумеречном лесу."]
 			id: "69F581557BA017AF"
 			rewards: [{
 				id: "02C99B36EF5D61B3"
@@ -930,8 +896,8 @@
 				}
 			]
 			title: "Сет живого древа"
-			x: 2.0d
-			y: 0.8d
+			x: 1.5d
+			y: 1.3d
 		}
 		{
 			dependencies: ["249EED31D84418E8"]
@@ -1145,37 +1111,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
-			hide_dependency_lines: true
-			id: "1FB3837335109150"
-			rewards: [{
-				count: 4
-				id: "5B9E16B9150C9ABE"
-				item: "minecraft:mangrove_propagule"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4636445E028A59C8"
-				ignore_dimension: false
-				position: [I;
-					43
-					149
-					26
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["0467EF29CA06A563"]
 			id: "302E5C14042D4C85"
 			rewards: [{
@@ -1197,7 +1132,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{

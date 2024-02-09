@@ -1055,24 +1055,11 @@
 		{
 			dependencies: ["3338AFDD69DFCAB3"]
 			id: "7CC9A922F697BB64"
-			rewards: [
-				{
-					id: "18FB966F47A374B1"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:mini_wither_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4506D8874F2C43E6"
-					item: "simplehats:hatbag_summer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4506D8874F2C43E6"
+				item: "simplehats:hatbag_summer"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -1954,22 +1941,11 @@
 		{
 			dependencies: ["6FC557C64A0AA964"]
 			id: "0BFC72F31342609D"
-			rewards: [{
-				id: "19E1F1CA8BA1EDB6"
-				item: {
-					Count: 1b
-					id: "enemyexpansion:brutish_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
 				id: "343CD1706BDCACD6"
-				item: "gribtweaks:infinity_heavy_cogwheel"
+				item: "create:cogwheel"
 				type: "item"
 			}]
 			x: 7.5d

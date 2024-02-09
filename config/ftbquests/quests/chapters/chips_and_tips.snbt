@@ -120,71 +120,6 @@
 		}
 		{
 			dependencies: ["686DB5E9235DA971"]
-			description: ["Используйте сердца для уменьшения или увеличения уровня сложности."]
-			hide_dependency_lines: true
-			id: "5136D429D1E1FF40"
-			rewards: [{
-				id: "19A9E1162BF3649A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "03D6857F4C54C317"
-					item: "scalinghealth:enchanted_heart"
-					type: "item"
-				}
-				{
-					id: "135B0DE9489C805E"
-					item: "scalinghealth:cursed_heart"
-					type: "item"
-				}
-				{
-					id: "04BBCCD8787E8641"
-					item: "scalinghealth:chance_heart"
-					type: "item"
-				}
-			]
-			title: "Контроль уровня сложности"
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["686DB5E9235DA971"]
-			description: [
-				"Увеличь своё здоровье с помощью этих фишек:"
-				""
-				"&61.&r Сердца из мода Scaling Heart."
-				"&62.&r Фрукты жизни из мода Deeper and Darker."
-				"&63.&r С каждым 5м съеденым новым видом еды."
-			]
-			hide_dependency_lines: true
-			id: "6B7C1C9BAF186867"
-			rewards: [{
-				id: "169B6D27D283C92A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "2739794CCA3CEB14"
-					item: "scalinghealth:heart_crystal"
-					type: "item"
-				}
-				{
-					id: "1493D1F3E21B2D5C"
-					item: "deep_dark_regrowth:life_fruit"
-					type: "item"
-				}
-			]
-			title: "Увеличение жизней"
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["686DB5E9235DA971"]
 			description: ["Используйте &6универсальные трубы&r, чтобы не вести множество труб к одному механизму."]
 			hide_dependency_lines: true
 			id: "1C70C695D72D5F5F"
@@ -378,8 +313,8 @@
 				type: "item"
 			}]
 			title: "Лут с Данжей"
-			x: -4.0d
-			y: 0.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["744223264E0F1603"]

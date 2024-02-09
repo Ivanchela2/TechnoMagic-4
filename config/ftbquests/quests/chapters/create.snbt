@@ -24,25 +24,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4C9FF4A3314D3B15"]
-			id: "76CFD98C0BD546F8"
-			rewards: [{
-				count: 2
-				id: "7192A8AB72B24F18"
-				item: "extendedgears:large_oak_cogwheel"
-				type: "item"
-			}]
-			subtitle: "Опять задумался? Большая шестерня)"
-			tasks: [{
-				id: "0EB36E26E88344E1"
-				item: "extendedgears:large_oak_cogwheel"
-				type: "item"
-			}]
-			title: "Большая шестерня"
-			x: -19.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["0749D26B0CAA8918"]
 			id: "0BF2452DF5C085CA"
 			rewards: [{
@@ -52,25 +33,13 @@
 				type: "item"
 			}]
 			subtitle: "Да здравствует Create."
-			tasks: [
-				{
-					id: "5177F1C5CDF745E5"
-					item: "create:shaft"
-					type: "item"
-				}
-				{
-					id: "38722F793D8C47E4"
-					item: "extendedgears:shaftless_oak_cogwheel"
-					type: "item"
-				}
-				{
-					id: "2E20E594C55DC918"
-					item: "extendedgears:large_shaftless_oak_cogwheel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5177F1C5CDF745E5"
+				item: "create:shaft"
+				type: "item"
+			}]
 			x: -19.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0749D26B0CAA8918"]
@@ -181,32 +150,10 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4C9FF4A3314D3B15"]
-			id: "766104849B1CA52A"
-			rewards: [{
-				count: 2
-				id: "7391EC371D9711DE"
-				item: "extendedgears:oak_cogwheel"
-				type: "item"
-			}]
-			subtitle: "Маленькая шестерня... Много думать не надо)"
-			tasks: [{
-				id: "0A903A3E728F0AA6"
-				item: "extendedgears:oak_cogwheel"
-				type: "item"
-			}]
-			title: "Малая шестерня"
-			x: -20.0d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"766104849B1CA52A"
-				"76CFD98C0BD546F8"
-			]
+			dependencies: ["4C9FF4A3314D3B15"]
 			id: "4FDF35361031D25E"
 			rewards: [{
 				id: "6BBD2E1E780565E1"
@@ -1563,31 +1510,6 @@
 			title: "Руна починки"
 			x: -22.0d
 			y: 9.0d
-		}
-		{
-			dependencies: ["5C1D6E0C109B5809"]
-			id: "3E7D63D9EC10D7EF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "52F6EBCB45476DA9"
-				table_id: 8574709875988243886L
-				type: "choice"
-			}]
-			subtitle: "Незеритовый баллон."
-			tasks: [{
-				id: "615003D5B576EDBC"
-				item: {
-					Count: 1b
-					id: "creategoggles:netherite_backtank"
-					tag: {
-						Air: 900
-					}
-				}
-				type: "item"
-			}]
-			title: "Незеритовый баллон"
-			x: -12.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["32697BCFC9B16CB4"]

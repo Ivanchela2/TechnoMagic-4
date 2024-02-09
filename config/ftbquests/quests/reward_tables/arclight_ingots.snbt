@@ -1,7 +1,7 @@
 {
 	id: "5FE7E5AC894981F9"
 	loot_size: 1
-	order_index: 6
+	order_index: 4
 	rewards: [
 		{ item: "arclight:jade_ingot", random_bonus: 3 }
 		{ item: "arclight:arclight_ingot", random_bonus: 3 }

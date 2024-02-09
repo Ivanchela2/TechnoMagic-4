@@ -10,7 +10,7 @@
 		string_id: "spirit_weapoin"
 	}
 	loot_size: 1
-	order_index: 25
+	order_index: 17
 	rewards: [
 		{
 			item: {

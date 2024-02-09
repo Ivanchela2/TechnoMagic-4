@@ -5,68 +5,18 @@
 	group: "472A643616306AAC"
 	icon: "forbidden_arcanus:soul"
 	id: "226D8B2BE3549D63"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.5d
-			hover: [ ]
-			image: "create:block/brass_casing"
-			rotation: 0.0d
-			width: 2.5d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 90.0d
-			width: 1.0d
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 180.0d
-			width: 1.0d
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: -90.0d
-			width: 1.0d
-			x: -5.5d
-			y: 0.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.5d
+		hover: [ ]
+		image: "create:block/brass_casing"
+		rotation: 0.0d
+		width: 2.5d
+		x: -4.0d
+		y: 0.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -858,6 +808,7 @@
 		}
 		{
 			dependencies: ["4206CAF1FF7A3CF7"]
+			description: ["Удачи)..."]
 			id: "1B86A502898A6439"
 			rewards: [{
 				count: 6
@@ -873,7 +824,7 @@
 				title: "&l5 Этап"
 				type: "checkmark"
 			}]
-			title: "&6&l&nСтадия 5"
+			title: "ТЕХНО-магия"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -1100,7 +1051,7 @@
 			id: "6B8743E39A6E14B1"
 			subtitle: "Корпус - основа всех механизмов"
 			tasks: [{
-				id: "472AA02C9EFF8DE2"
+				id: "6075DE405E4C94C2"
 				item: "ftbic:machine_block"
 				type: "item"
 			}]
@@ -1571,7 +1522,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["472AA02C9EFF8DE2"]
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: false
 			id: "29D265E0A7ED884F"
 			invisible: true
 			subtitle: "Воу, какой мощный корпус."
@@ -1588,12 +1540,12 @@
 			id: "49FE185BA36BBE9E"
 			subtitle: "Да куда ещё больше ресурсов"
 			tasks: [{
-				id: "364CB338ECB73919"
+				id: "1FEFA430DD4E92AB"
 				item: "ftbic:extruder"
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["310A3B4D8AF915F4"]
@@ -3311,18 +3263,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6B8743E39A6E14B1"]
-			id: "5D96E28AABE49CDA"
-			subtitle: "Наполни свою жизнь с помощь наполнителя"
-			tasks: [{
-				id: "2E7BEE3DF6A4A255"
-				item: "ftbic:canning_machine"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["4FAFAEF13F8BC981"]
 			id: "2371EF16B1EB318E"
 			subtitle: "Это то, что нужно!!"
@@ -3487,7 +3427,7 @@
 			hide_dependency_lines: true
 			id: "5616D3C42BF45EE0"
 			tasks: [{
-				id: "17F6E643F0DBDEA1"
+				id: "0853FEDDA73FB602"
 				item: "ftbic:coal_dust"
 				type: "item"
 			}]
@@ -3499,7 +3439,7 @@
 			id: "6FFEEC17182E065C"
 			subtitle: "Что-то поинтересней."
 			tasks: [{
-				id: "449DF0AE76D1434C"
+				id: "3ABAB190B32753BF"
 				item: "ftbic:carbon_fibers"
 				type: "item"
 			}]
@@ -3511,7 +3451,7 @@
 			id: "32DCE840F4C4D6E1"
 			subtitle: "Крепкий материал."
 			tasks: [{
-				id: "3A9ADBAD7C28FCC3"
+				id: "693F8E41DD18AA98"
 				item: "ftbic:carbon_fiber_mesh"
 				type: "item"
 			}]
@@ -3726,19 +3666,6 @@
 			}]
 			x: -8.5d
 			y: 12.0d
-		}
-		{
-			dependencies: ["29D265E0A7ED884F"]
-			id: "569F289E8231D4C4"
-			subtitle: "Ресурсы из материи?"
-			tasks: [{
-				id: "076969F82B92C79F"
-				item: "ftbic:antimatter_constructor"
-				type: "item"
-			}]
-			title: "Получаем ресурсы из ресурсов"
-			x: -2.5d
-			y: 15.0d
 		}
 		{
 			dependencies: ["631AA78FFCCF410C"]
@@ -4107,15 +4034,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3A9ADBAD7C28FCC3"
-				"32DCE840F4C4D6E1"
-			]
+			dependencies: ["32DCE840F4C4D6E1"]
 			id: "7C19F6A9C765E262"
 			invisible: true
 			subtitle: "Интересное продолжение в виде прочных предметов.."
 			tasks: [{
-				id: "0C119529B463E6F9"
+				id: "60F7B048F8272D3B"
 				item: "ftbic:carbon_plate"
 				type: "item"
 			}]
@@ -4251,8 +4175,8 @@
 				item: "ftbic:nuke"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 15.0d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7332FD7F57514AF5"]
@@ -4360,18 +4284,6 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
-			description: ["Позвлдяет выкапывать большое пространство разом"]
-			id: "4D57A2699E1B8C96"
-			tasks: [{
-				id: "21F7BC0AC7A8BEE0"
-				item: "ftbic:quarry"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6B8743E39A6E14B1"]
 			id: "39720DB40191DF9E"
 			tasks: [{
 				id: "45E9009F30F3E4CB"
@@ -4379,7 +4291,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["63BE8D9BF4A9F95D"]
@@ -4685,7 +4597,6 @@
 		{
 			dependencies: [
 				"310A3B4D8AF915F4"
-				"472AA02C9EFF8DE2"
 				"11810B38973B517F"
 			]
 			description: ["Совершенная основа для механизмов."]
@@ -4814,17 +4725,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["569F289E8231D4C4"]
-			id: "4E69D398F3DD638C"
-			tasks: [{
-				id: "4AE4A9CF46AD2CF8"
-				item: "ftbic:antimatter"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 16.0d
-		}
-		{
 			dependencies: ["77297D7100AC44C1"]
 			id: "3C75F6D4CA4365C7"
 			tasks: [{
@@ -4832,8 +4732,8 @@
 				item: "gribtweaks:antimatter_l1"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 11.0d
+			x: -13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["3C75F6D4CA4365C7"]
@@ -4843,8 +4743,8 @@
 				item: "gribtweaks:antimatter_l2"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 11.5d
+			x: -14.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6007CC344C680F3F"]
@@ -4855,7 +4755,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["262C559B96A844E0"]
@@ -4865,8 +4765,8 @@
 				item: "gribtweaks:antimatter_l4"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 13.0d
+			x: -15.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4932,7 +4832,7 @@
 			hide_dependency_lines: true
 			id: "29A64888EFA4C537"
 			tasks: [{
-				id: "3D760494CBB03D7E"
+				id: "0369D52F3A645ACB"
 				item: "gribtweaks:upgrade_base"
 				type: "item"
 			}]
@@ -5136,8 +5036,8 @@
 				item: "ftbic:nuclear_reactor_chamber"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 15.0d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["34976B4919052C4B"]
@@ -5147,11 +5047,11 @@
 				item: "ftbic:nuclear_reactor"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 16.0d
+			x: -6.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["2371EF16B1EB318E"]
+			dependencies: ["7A9A5C36D0332D8A"]
 			description: ["Тут должна быть молекулярка"]
 			id: "77297D7100AC44C1"
 			tasks: [{
@@ -5159,7 +5059,41 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["77297D7100AC44C1"]
+			id: "020531525173EAE1"
+			tasks: [{
+				id: "02533011CCF8D9C8"
+				item: "gribtweaks:advanced_antimatter"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D265E0A7ED884F"]
+			hide_dependency_lines: true
+			id: "35978A8DB25CAEB1"
+			tasks: [{
+				id: "6D91096D811411C2"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["35978A8DB25CAEB1"]
+			id: "7A9A5C36D0332D8A"
+			tasks: [{
+				id: "232087F6A81489D1"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			x: -11.5d
 			y: 12.0d
 		}
 	]

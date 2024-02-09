@@ -1,7 +1,7 @@
 {
 	id: "1594D9578E3E3422"
 	loot_size: 1
-	order_index: 7
+	order_index: 5
 	rewards: [
 		{ item: "botania:terrasteel_ingot", weight: 0.1f }
 		{ item: "botania:manasteel_ingot" }

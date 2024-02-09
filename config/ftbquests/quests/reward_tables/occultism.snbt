@@ -1,7 +1,7 @@
 {
 	id: "74EFFE086632CB03"
 	loot_size: 1
-	order_index: 30
+	order_index: 21
 	rewards: [
 		{ count: 4, item: "occultism:spirit_attuned_gem", random_bonus: 4 }
 		{ count: 5, item: "occultism:raw_silver", random_bonus: 5, weight: 0.3f }

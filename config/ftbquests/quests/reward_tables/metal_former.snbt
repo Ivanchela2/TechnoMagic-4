@@ -2,7 +2,7 @@
 	icon: "aquaculture:treasure_chest"
 	id: "4376DFA01E160CCB"
 	loot_size: 1
-	order_index: 14
+	order_index: 7
 	rewards: [
 		{ item: "indreb:steel_plate" }
 		{ item: "indreb:bronze_plate" }

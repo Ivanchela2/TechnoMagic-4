@@ -2,7 +2,7 @@
 	icon: "ad_astra:moon_desh_ore"
 	id: "600FC76AEE43C940"
 	loot_size: 1
-	order_index: 4
+	order_index: 3
 	rewards: [ ]
 	title: "Космическая руда"
 }

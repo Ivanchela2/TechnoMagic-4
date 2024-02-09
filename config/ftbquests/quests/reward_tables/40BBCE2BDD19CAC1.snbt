@@ -2,7 +2,7 @@
 	icon: "botania:pink_mystical_flower"
 	id: "40BBCE2BDD19CAC1"
 	loot_size: 1
-	order_index: 2
+	order_index: 1
 	rewards: [
 		{ item: "botania:white_mystical_flower" }
 		{ item: "botania:orange_mystical_flower" }
