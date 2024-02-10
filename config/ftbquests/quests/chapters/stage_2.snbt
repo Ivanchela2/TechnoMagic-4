@@ -463,12 +463,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2B7E545FFB41DC39"
-				"4532ABE8F245CA3E"
-			]
+			dependencies: ["6C701395031DE8EA"]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
+			hide_dependency_lines: true
 			id: "785BFED9C892DA25"
 			rewards: [{
 				count: 16
@@ -513,8 +511,8 @@
 					type: "item"
 				}
 			]
-			title: "Оброботка всего"
-			x: 1.5d
+			title: "Обработка всего"
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -592,13 +590,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2B7E545FFB41DC39"]
 			description: ["Хоть на вас и напали, но вы получили очень важный предмет с помощью которого сделали важнейший источник ресурсов. Надо поблагодарить \"Гриб\"."]
 			id: "73EAA79E19228ED9"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "77BB95D39FDC6C7D"
-				table_id: 1164824006868770433L
 				type: "loot"
 			}]
 			tasks: [{
@@ -610,8 +607,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05BA6237D762B372"]

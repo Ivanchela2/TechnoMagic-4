@@ -1,4 +1,4 @@
 ServerEvents.recipes(e =>{
-    e.smelting('hexerei:witch_ingot', 'hexerei:witch_ore')
-    e.smelting('hexerei:witch_ingot', 'hexerei:raw_witch_ingot')
+    e.smelting('gribtweaks:witch_ingot', 'gribtweaks:witch_ore')
+    e.smelting('gribtweaks:witch_ingot', 'gribtweaks:raw_witch_ingot')
 })

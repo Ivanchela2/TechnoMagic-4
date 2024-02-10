@@ -1070,6 +1070,7 @@
 		{
 			dependencies: ["744223264E0F1603"]
 			hide: true
+			hide_dependency_lines: true
 			id: "269813405F3B5046"
 			rewards: [{
 				count: 4

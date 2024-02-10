@@ -1,4 +1,4 @@
 ServerEvents.recipes(e =>{
-    e.smelting('twilightforest:ingot_osmium', 'twilightforest:osmium_ore')
-    e.smelting('twilightforest:ingot_osmium', 'twilightforest:raw_osmium')
+    e.smelting('gribtweaks:ingot_osmium', 'gribtweaks:osmium_ore')
+    e.smelting('gribtweaks:ingot_osmium', 'gribtweaks:raw_osmium')
 })

@@ -1,13 +1,13 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:createaddition/rolling/';
+    const prefix = 'gribtweaks:createaddition/rolling/';
     const recipes = [
         {
             type: "createaddition:rolling",
             input: {
-                item: 'hexerei:witch_sheet'
+                item: 'gribtweaks:witch_sheet'
             },
             result: {
-                item: 'hexerei:witch_rod',
+                item: 'gribtweaks:witch_rod',
                 count: 1
             },
             id: `${prefix}witch_rod`
@@ -18,7 +18,7 @@ ServerEvents.recipes(e => {
                 item: 'twilightforest:giant_log'
             },
             result: {
-                item: 'hexerei:wooden_rod',
+                item: 'gribtweaks:wooden_rod',
                 count: 1
             },
             id: `${prefix}wooden_rod`

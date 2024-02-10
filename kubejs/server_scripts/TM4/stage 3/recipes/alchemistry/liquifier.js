@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const prefix = 'tm4:alchemistry/liquifier/';
+  const prefix = 'gribtweaks:alchemistry/liquifier/';
 
   const recipes = [
     {
@@ -8,12 +8,12 @@ ServerEvents.recipes((event) => {
       input: {
         count: 1,
         ingredient: {
-          item: 'twilightforest:focus_element'
+          item: 'gribtweaks:focus_element'
         }
       },
       result: {
         amount: '1000',
-        fluid: 'tm4:life_liquid_essence'
+        fluid: 'hexerei:life_liquid_essence'
       },
       id: `${prefix}life_liquid_essence`
     }

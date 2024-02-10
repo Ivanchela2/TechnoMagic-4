@@ -1,9 +1,9 @@
 WorldgenEvents.add((event) => {
   event.addOre((ore) => {
-    ore.id = 'twilightforest:osmium_ore';
-    ore.biomes = /^twilightforest:.*/; // <--Вписать сюда биом острова в таком формате "minecraft:biome" (убрав при этом все звездочки, точки и слешы)
-    ore.addTarget('minecraft:stone', 'twilightforest:osmium_ore');
-    ore.addTarget('minecraft:deepslate', 'twilightforest:osmium_ore');
+    ore.id = 'gribtweaks:osmium_ore';
+    ore.biomes = /^minecraft:.*/; // <--Вписать сюда биом острова в таком формате "minecraft:biome" (убрав при этом все звездочки, точки и слешы)
+    ore.addTarget('#minecraft:stone_ore_replaceables', 'gribtweaks:osmium_ore');
+    ore.addTarget('minecraft:deepslate', 'gribtweaks:osmium_ore');
     ore.size(12);
     ore.count(12);
     ore.squared();
@@ -11,10 +11,10 @@ WorldgenEvents.add((event) => {
   });
 
   event.addOre((ore) => {
-    ore.id = 'hexerei:witch_ore';
-    ore.biomes = /^twilightforest:.*/; // <--Вписать сюда биом острова в таком формате "minecraft:biome" (убрав при этом все звездочки, точки и слешы)
-    ore.addTarget('minecraft:stone', 'hexerei:witch_ore');
-    ore.addTarget('minecraft:deepslate', 'hexerei:witch_ore');
+    ore.id = 'gribtweaks:witch_ore';
+    ore.biomes = /^minecraft:.*/; // <--Вписать сюда биом острова в таком формате "minecraft:biome" (убрав при этом все звездочки, точки и слешы)
+    ore.addTarget('#minecraft:stone_ore_replaceables', 'gribtweaks:witch_ore');
+    ore.addTarget('minecraft:deepslate', 'gribtweaks:witch_ore');
     ore.size(4);
     ore.count(4);
     ore.squared();

@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const prefix = 'tm4:smithing/shaped/';
+  const prefix = 'gribtweaks:smithing/shaped/';
   const recipes = [
     { // Warden Knife
       type: 'minecraft:smithing',

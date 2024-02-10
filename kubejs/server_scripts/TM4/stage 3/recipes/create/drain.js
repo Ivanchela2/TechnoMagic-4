@@ -1,10 +1,10 @@
 ServerEvents.recipes((event) => {
-	const prefix = 'tm4:create/emptying/';
+	const prefix = 'gribtweaks:create/emptying/';
 	const recipes = [
 		{ 
 			type: "create:emptying",
 			ingredients: [
-                    {item: 'twilightforest:focus_element'}
+                    {item: 'gribtweaks:focus_element'}
             ],
             results: [
                 {

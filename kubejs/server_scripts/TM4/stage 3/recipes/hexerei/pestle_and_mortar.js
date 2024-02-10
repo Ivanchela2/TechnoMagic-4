@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-	const prefix = 'tm4:hexerei/pestle_and_mortar/';
+	const prefix = 'gribtweaks:hexerei/pestle_and_mortar/';
 	const recipes = [
 		{ 
             type: "hexerei:pestle_and_mortar",
@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
               {item: 'hexerei:dried_yellow_dock_leaves'},
             ],
             output: {
-                item: 'sorcerium:piece_of_cloth',
+                item: 'gribtweaks:piece_of_cloth',
                 count: 2
             },
             grindingTime: 300,

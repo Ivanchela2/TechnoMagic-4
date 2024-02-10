@@ -5,6 +5,6 @@ ItemEvents.toolTierRegistry (e => {
       tier.attackDamageBonus = 28.0
       tier.level = 5
       tier.enchantmentValue = 14
-      tier.repairIngredient = 'hexerei:witch_ingot'
+      tier.repairIngredient = 'gribtweaks:witch_ingot'
     })
 })

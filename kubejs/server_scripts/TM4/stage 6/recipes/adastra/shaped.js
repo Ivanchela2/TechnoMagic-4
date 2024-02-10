@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             pattern: ['SSS', 'FLF', 'SSS'],
             key: {
               F: 'create_sa:large_fueling_tank',
-              L: 'ftbic:large_coolant_cell',
+              L: 'ic2:heat_storage_six',
               S: '#forge:storage_blocks/steel',
             },
             id: `${prefix}fuel_refinery`
@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
             output: 'ad_astra_giselle_addon:fuel_loader',
             pattern: ['SSS', 'FPF', 'SSS'],
             key: {
-              F: 'ftbic:ejector_upgrade',
+              F: 'ic2:upgrade_import',
               P: 'create:smart_fluid_pipe',
               S: '#forge:storage_blocks/steel',
             },

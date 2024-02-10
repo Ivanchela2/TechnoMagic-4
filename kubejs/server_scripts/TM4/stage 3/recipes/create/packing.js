@@ -1,19 +1,19 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:create/compacting/';
+    const prefix = 'gribtweaks:create/compacting/';
     const recipes = [
         {
             type: "create:compacting",
             ingredients: [
               {
-                item: 'hexerei:witch_ingot_block'
+                item: 'gribtweaks:witch_ingot_block'
               },
               {
-                item: 'hexerei:witch_ingot_block'
+                item: 'gribtweaks:witch_ingot_block'
               }
             ],
             results: [
               {
-                item: 'hexerei:witch_sheet'
+                item: 'gribtweaks:witch_sheet'
               }
             ],
             id: `${prefix}witch_sheet`

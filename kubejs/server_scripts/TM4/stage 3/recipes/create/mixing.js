@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const prefix = 'tm4:create/mixing/';
+  const prefix = 'gribtweaks:create/mixing/';
   const recipes = [
     {
       type: "create:mixing",
@@ -18,11 +18,11 @@ ServerEvents.recipes((event) => {
       type: "create:mixing",
       heatRequirement: "superheated",
       ingredients: [
-        { item: 'hexerei:witch_ingot' },
-        { item: 'hexerei:dry_ingot_combining' },
+        { item: 'gribtweaks:witch_ingot' },
+        { item: 'gribtweaks:dry_ingot_combining' },
       ],
       results: [
-        { item: 'hexerei:magical_steel' }
+        { item: 'gribtweaks:magical_steel' }
       ],
       id: `${prefix}magical_steel`
     }

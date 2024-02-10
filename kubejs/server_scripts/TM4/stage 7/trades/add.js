@@ -1,12 +1,5 @@
 MoreJSEvents.villagerTrades(e => {
     const complextrades = [
-        // oceanographer
-        {
-            profession: "morevillagers:oceanographer",
-            level: 3,
-            input: ['2x emerald', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')],
-            output: 'toughasnails:purified_water_bottle'
-        },
         {
             profession: "morevillagers:oceanographer",
             level: 4,
@@ -239,7 +232,7 @@ MoreJSEvents.villagerTrades(e => {
             level: 3,
             input: '3x emerald',
             output: 'twilightforest:steeleaf_ingot'
-        },
+        },   
         {
             profession: "morevillagers:florist",
             level: 3,
@@ -252,67 +245,67 @@ MoreJSEvents.villagerTrades(e => {
             input: ['4x minecraft:lily_of_the_valley', 'enigmaticlegacy:astral_dust'],
             output: 'botania:white_mystical_flower'
         },
-        // miner
-        {
-            profession: "morevillagers:miner",
-            level: 2,
-            input: '2x emerald',
-            output: '3x minecraft:raw_iron'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 2,
-            input: '15x minecraft:raw_iron',
-            output: '2x emerald'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 2,
-            input: '20x deepslate',
-            output: 'emerald'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 3,
-            input: '8x emerald',
-            output: 'create:mechanical_drill'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 3,
-            input: '2x emerald',
-            output: 'diamond'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 3,
-            input: '6x emerald',
-            output: 'iron_pickaxe'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 3,
-            input: '14x raw_gold',
-            output: 'emerald'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 4,
-            input: ['emerald', '2x raw_iron'],
-            output: '4x create:crushed_raw_iron'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 5,
-            input: ['8x minecraft:honeycomb_block', 'ftbic:nuclear_reactor_chamber'],
-            output: 'productivebees:spawn_egg_quarry_bee'
-        },
-        {
-            profession: "morevillagers:miner",
-            level: 4,
-            input: ['20x emerald', 'enigmaticlegacy:earth_heart'],
-            output: 'enigmaticlegacy:mining_charm'
-        },
+        // // miner
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 2,
+        //     input: '2x emerald',
+        //     output: '3x minecraft:raw_iron'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 2,
+        //     input: '15x minecraft:raw_iron',
+        //     output: '2x emerald'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 2,
+        //     input: '20x deepslate',
+        //     output: 'emerald'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 3,
+        //     input: '8x emerald',
+        //     output: 'create:mechanical_drill'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 3,
+        //     input: '2x emerald',
+        //     output: 'diamond'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 3,
+        //     input: '6x emerald',
+        //     output: 'iron_pickaxe'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 3,
+        //     input: '14x raw_gold',
+        //     output: 'emerald'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 4,
+        //     input: ['emerald', '2x raw_iron'],
+        //     output: '4x create:crushed_raw_iron'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 5,
+        //     input: ['8x minecraft:honeycomb_block', 'ftbic:nuclear_reactor_chamber'],
+        //     output: 'productivebees:spawn_egg_quarry_bee'
+        // },
+        // {
+        //     profession: "morevillagers:miner",
+        //     level: 4,
+        //     input: ['20x emerald', 'enigmaticlegacy:earth_heart'],
+        //     output: 'enigmaticlegacy:mining_charm'
+        // },
         // cleric
         {
             profession: "cleric",

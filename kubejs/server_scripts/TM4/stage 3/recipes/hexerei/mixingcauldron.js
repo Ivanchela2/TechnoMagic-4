@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
-	const prefix = 'tm4:hexerei/mixingcauldron/';
-	const prefixt = 'tm4:twilightforest/mixingcauldron/';
-	const prefixs = 'tm4:sorcerium/mixingcauldron/';
+	const prefix = 'gribtweaks:hexerei/mixingcauldron/';
+	const prefixt = 'gribtweaks:twilightforest/mixingcauldron/';
+	const prefixs = 'gribtweaks:sorcerium/mixingcauldron/';
 
 	const recipes = [
 		{ // Ивовая метла
@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
 				{item: 'hexerei:willow_log'},
 				{item: 'sorcerium:mana_crystal_block'},
 				{item: 'hexerei:mandrake_root'},
-			],
+			],	
 			output: {item: 'hexerei:willow_broom'},
 			liquidOutput: {fluid: 'hexerei:blood_fluid'},
 			fluidLevelsConsumed: 1000,
@@ -29,9 +29,9 @@ ServerEvents.recipes((event) => {
 				{item: 'hexerei:willow_broom'},
 				{item: 'hexerei:mandrake_root'},
 				{item: 'hexerei:mahogany_log'},
-				{item: 'twilightforest:focus_element'},
-				{item: 'hexerei:dry_ingot_combining'},
-				{item: 'twilightforest:focus_element'},
+				{item: 'gribtweaks:focus_element'},
+				{item: 'gribtweaks:dry_ingot_combining'},
+				{item: 'gribtweaks:focus_element'},
 				{item: 'hexerei:mahogany_log'},
 				{item: 'hexerei:mandrake_root'},
 			],
@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
 				{item: 'hexerei:dried_mugwort_leaves'},
 			],
 			liquidOutput: {fluid: 'hexerei:life_liquid_essence'},
-			output: {item: 'twilightforest:focus_element'},
+			output: {item: 'gribtweaks:focus_element'},
 			fluidLevelsConsumed: 1000,
 			id: `${prefixt}focus_element`
 		},
@@ -163,27 +163,9 @@ ServerEvents.recipes((event) => {
 				{item: 'create:zinc_ingot'},
 			],
 			liquidOutput: {fluid: 'minecraft:water'},
-			output: {item: 'hexerei:wet_ingot_combining'},
+			output: {item: 'gribtweaks:wet_ingot_combining'},
 			fluidLevelsConsumed: 2000,
 			id: `${prefix}wet_ingot_combining`
-		},
-		{ // Мокрый кусок ткани
-			type: 'hexerei:mixingcauldron',
-			liquid: {fluid: 'minecraft:water'},
-			ingredients: [
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-				{item: 'sorcerium:piece_of_cloth'},
-			],
-			liquidOutput: {fluid: 'minecraft:water'},
-			output: {item: 'sorcerium:wet_tissue_bandage'},
-			fluidLevelsConsumed: 1000,
-			id: `${prefixs}wet_tissue_bandage`
 		},
 		{ // Earth Crystal
 			type: 'hexerei:mixingcauldron',
@@ -217,24 +199,25 @@ ServerEvents.recipes((event) => {
 				{item: 'twilightforest:raven_feather'},
 			],
 			liquidOutput: {fluid: 'minecraft:water'},
-			output: {item: 'hexerei:wet_raven_cloth'},
+			output: {item: 'gribtweaks:wet_raven_cloth'},
 			fluidLevelsConsumed: 1000,
 			id: `${prefixs}wet_raven_cloth`
-		},		{ // Смесь комбинаций слитков
+		},		
+		{ // Смесь комбинаций слитков
 			type: 'hexerei:mixingcauldron',
 			liquid: {fluid: 'minecraft:lava'},
 			ingredients: [
 				{item: 'naturesaura:infused_iron'},
-				{item: 'hexerei:dry_ingot_combining'},
+				{item: 'gribtweaks:dry_ingot_combining'},
 				{item: 'minecraft:netherite_scrap'},
-				{item: 'hexerei:dry_ingot_combining'},
+				{item: 'gribtweaks:dry_ingot_combining'},
 				{item: 'naturesaura:infused_iron'},
-				{item: 'hexerei:dry_ingot_combining'},
+				{item: 'gribtweaks:dry_ingot_combining'},
 				{item: 'minecraft:netherite_scrap'},
-				{item: 'hexerei:dry_ingot_combining'},
+				{item: 'gribtweaks:dry_ingot_combining'},
 			],
 			liquidOutput: {fluid: 'minecraft:water'},
-			output: {item: 'hexerei:mix_of_ingot_combinations'},
+			output: {item: 'gribtweaks:mix_of_ingot_combinations'},
 			fluidLevelsConsumed: 2000,
 			id: `${prefixs}mix_of_ingot_combinations`
 		}

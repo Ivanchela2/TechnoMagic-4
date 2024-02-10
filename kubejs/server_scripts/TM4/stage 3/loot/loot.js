@@ -1,29 +1,29 @@
 LootJS.modifiers((event) => {
-    const osmiumWhenFortune = LootEntry.of('twilightforest:raw_osmium')
+    const osmiumWhenFortune = LootEntry.of('gribtweaks:raw_osmium')
       .applyOreBonus('minecraft:fortune')
       .when((c) => c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune')));
   
-    const osmiumWhenSilkTouch = LootEntry.of('twilightforest:osmium_ore')
+    const osmiumWhenSilkTouch = LootEntry.of('gribtweaks:osmium_ore')
       .when((c) => c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch')));
   
-    const osmiumDefaultDrop = 'twilightforest:raw_osmium';
+    const osmiumDefaultDrop = 'gribtweaks:raw_osmium';
   
     event
-      .addBlockLootModifier('twilightforest:osmium_ore')
+      .addBlockLootModifier('gribtweaks:osmium_ore')
       .removeLoot(Ingredient.all)
       .addAlternativesLoot(osmiumWhenFortune, osmiumWhenSilkTouch, osmiumDefaultDrop);
   
-    const witchWhenFortune = LootEntry.of('hexerei:raw_witch_ingot')
+    const witchWhenFortune = LootEntry.of('gribtweaks:raw_witch_ingot')
       .applyOreBonus('minecraft:fortune')
       .when((c) => c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune')));
   
-    const witchWhenSilkTouch = LootEntry.of('hexerei:witch_ore')
+    const witchWhenSilkTouch = LootEntry.of('gribtweaks:witch_ore')
       .when((c) => c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch')));
   
-    const witchDefaultDrop = 'hexerei:raw_witch_ingot';
+    const witchDefaultDrop = 'gribtweaks:raw_witch_ingot';
   
     event
-      .addBlockLootModifier('hexerei:witch_ore')
+      .addBlockLootModifier('gribtweaks:witch_ore')
       .removeLoot(Ingredient.all)
       .addAlternativesLoot(witchWhenFortune, witchWhenSilkTouch, witchDefaultDrop);
   });

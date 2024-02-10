@@ -3559,6 +3559,7 @@
 				}
 			}
 			id: "4B9A5EF6E8A2ED5D"
+			invisible: true
 			tasks: [
 				{
 					id: "5EE67DE4F9CA5D36"
@@ -4732,7 +4733,7 @@
 				item: "gribtweaks:antimatter_l1"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 13.5d
 		}
 		{
@@ -4743,8 +4744,8 @@
 				item: "gribtweaks:antimatter_l2"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 13.5d
+			x: -15.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6007CC344C680F3F"]
@@ -4754,7 +4755,7 @@
 				item: "gribtweaks:antimatter_l3"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: 13.5d
 		}
 		{
@@ -4765,8 +4766,8 @@
 				item: "gribtweaks:antimatter_l4"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 12.0d
+			x: -16.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -5059,7 +5060,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: 12.0d
 		}
 		{
@@ -5070,7 +5071,7 @@
 				item: "gribtweaks:advanced_antimatter"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: 11.0d
 		}
 		{
@@ -5082,7 +5083,7 @@
 				item: "ftbic:antimatter_constructor"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: 10.5d
 		}
 		{
@@ -5093,7 +5094,7 @@
 				item: "ftbic:antimatter"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: 12.0d
 		}
 	]

@@ -1,32 +1,23 @@
 ServerEvents.recipes((event) => {
-	const prefix = 'tm4:hexerei/drying_rack/';
+	const prefix = 'gribtweaks:hexerei/drying_rack/';
 	const recipes = [
 		{ 
 			type: "hexerei:drying_rack",
 			ingredients: [
-                    {item: 'hexerei:wet_ingot_combining'}
+                    {item: 'gribtweaks:wet_ingot_combining'}
             ],
-			output: {item: 'hexerei:dry_ingot_combining'},
+			output: {item: 'gribtweaks:dry_ingot_combining'},
             dryingTimeInTicks: 4000,
 			id: `${prefix}dry_ingot_combining`
 		},
         { 
 			type: "hexerei:drying_rack",
 			ingredients: [
-                    {item: 'sorcerium:wet_tissue_bandage'}
+                    {item: 'gribtweaks:wet_raven_cloth'}
             ],
-			output: {item: 'sorcerium:tissue_bandage'},
-            dryingTimeInTicks: 1000,
-			id: `${prefix}sorcerium_tissue_bandage`
-		},
-        { 
-			type: "hexerei:drying_rack",
-			ingredients: [
-                    {item: 'hexerei:wet_raven_cloth'}
-            ],
-			output: {item: 'hexerei:reven_cloth'},
+			output: {item: 'gribtweaks:raven_cloth'},
             dryingTimeInTicks: 2000,
-			id: `${prefix}reven_cloth`
+			id: `${prefix}raven_cloth`
 		}
     ]
     recipes.forEach(recipe => {

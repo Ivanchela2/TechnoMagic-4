@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const prefix = 'tm4:hexerei/shaped/';
+  const prefix = 'gribtweaks:hexerei/shaped/';
   const recipes = [
     { // Kettle
       output: 'farmersrespite:kettle', 

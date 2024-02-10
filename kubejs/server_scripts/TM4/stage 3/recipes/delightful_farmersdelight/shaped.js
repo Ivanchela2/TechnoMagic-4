@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const prefix = 'tm4:hexerei/shaped/';
+  const prefix = 'gribtweaks:delightful/shaped/';
   const recipes = [
     {
       output: 'delightful:leaf_knife', 

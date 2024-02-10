@@ -15,11 +15,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["744223264E0F1603"]
 			description: [
 				"Добудьте кремень, добывая гравий."
 				""
 				"Кликните ПКМ кремнем по камню, чтобы получить кремневый осколок."
 			]
+			hide: true
 			icon: "notreepunching:flint_shard"
 			id: "3E651EC02E370DDD"
 			rewards: [{
@@ -44,7 +46,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["744223264E0F1603"]
 			description: ["Добудьте палки, ломая листву."]
+			hide: true
 			id: "2CEA16F9A35BE53F"
 			rewards: [{
 				id: "6029654097117979"

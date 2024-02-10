@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-	const prefix = 'tm4:farmersdelight/cooking/';
+	const prefix = 'gribtweaks:farmersdelight/cooking/';
 	const recipes = [
         {
                 type: "farmersdelight:cooking",

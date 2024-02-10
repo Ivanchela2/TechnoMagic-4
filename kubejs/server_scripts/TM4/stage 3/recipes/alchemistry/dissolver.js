@@ -1,10 +1,10 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:alchemistry/dissolver/'
+    const prefix = 'gribtweaks:alchemistry/dissolver/'
     const recipes = [
         {
             type:"alchemistry:dissolver",
             group: "alchemistry:dissolver",
-            input: {count: 1, ingredient: {item: 'twilightforest:nugget_osmium'}},
+            input: {count: 1, ingredient: {item: 'gribtweaks:nugget_osmium'}},
             output: {groups: [{
                 probability: 100.0,
                 results: [{count: 1, item: 'chemlib:osmium'}]

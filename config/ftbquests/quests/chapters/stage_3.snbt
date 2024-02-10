@@ -1116,16 +1116,16 @@
 			rewards: [{
 				count: 12
 				id: "75E1794DCC7C9A86"
-				item: "hexerei:witch_ingot"
+				item: "gribtweaks:witch_ingot"
 				random_bonus: 5
 				type: "item"
 			}]
 			subtitle: "Убиватор 3000"
 			tasks: [{
-				id: "067EB5E2DC5D0464"
+				id: "4FC6982B6DC3A390"
 				item: {
 					Count: 1b
-					id: "hexerei:witch_hammer"
+					id: "gribtweaks:witch_hammer"
 					tag: {
 						Damage: 0
 					}
