@@ -310,18 +310,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "botania:block/creative_pool_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.5d
-			y: 3.75d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.25d
 			hover: [ ]
 			image: "create:block/creative_casing"
@@ -405,17 +393,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4B5E208EC2FB4301"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:trollface_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.75d
@@ -463,18 +440,11 @@
 				"Проще говоря, сжимает их огромное количество. Сингулярности, ресурсы не из дешёвых, особенно когда тебе требуется их огромное количество."
 			]
 			id: "3338AFDD69DFCAB3"
-			rewards: [
-				{
-					id: "59183EDD98EB0619"
-					item: "enemyexpansion:healing_goo_soup"
-					type: "item"
-				}
-				{
-					id: "191C79C5CDF82B8C"
-					item: "enigmaticlegacy:mega_sponge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "191C79C5CDF82B8C"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -1132,25 +1102,11 @@
 		{
 			dependencies: ["3EEBC16C4F823614"]
 			id: "0B498A491510A296"
-			rewards: [
-				{
-					count: 8
-					id: "6AEC954215F0E645"
-					item: {
-						Count: 1b
-						id: "botania:dice"
-						tag: {
-							soulbindUUID: "f5dad74c-638e-4cfc-8777-03105131e4dd"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5369AE6CDFAA1D92"
-					item: "simplehats:hatbag_festive"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5369AE6CDFAA1D92"
+				item: "simplehats:hatbag_festive"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1910,24 +1866,11 @@
 			dependencies: ["527305C0634DF83B"]
 			hide: true
 			id: "6FC557C64A0AA964"
-			rewards: [
-				{
-					id: "533FDA58A7FDAAC9"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:gladling_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "531BEFF3578708C0"
-					item: "simplehats:headphonesblue"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "531BEFF3578708C0"
+				item: "simplehats:headphonesblue"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.75d
 			tasks: [{
@@ -1940,19 +1883,6 @@
 		}
 		{
 			dependencies: ["6FC557C64A0AA964"]
-			id: "0BFC72F31342609D"
-			shape: "diamond"
-			size: 1.25d
-			tasks: [{
-				id: "343CD1706BDCACD6"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 3.75d
-		}
-		{
-			dependencies: ["0BFC72F31342609D"]
 			id: "1186E3702E989A75"
 			rewards: [{
 				id: "743EFC244D90B9B1"
@@ -1970,7 +1900,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["0BFC72F31342609D"]
+			dependencies: ["6FC557C64A0AA964"]
 			id: "1697AFDED715245A"
 			rewards: [
 				{
@@ -1996,7 +1926,7 @@
 			y: 5.75d
 		}
 		{
-			dependencies: ["0BFC72F31342609D"]
+			dependencies: ["6FC557C64A0AA964"]
 			id: "5758857F7AC33D87"
 			rewards: [{
 				id: "04B8A64D50022FEA"

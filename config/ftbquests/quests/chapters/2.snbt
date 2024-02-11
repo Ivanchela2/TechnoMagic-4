@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "1D0E618C92EE8561"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "66DE7C1CAD9AA810"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["744223264E0F1603"]
+			id: "550E08A6CA4D4993"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4C2BCBFEB68AE812"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["550E08A6CA4D4993"]
+			hide_dependency_lines: true
+			id: "023801A63FD0AF2F"
+			rewards: [{
+				count: 4
+				id: "141F9249F309CF04"
+				item: "minecraft:emerald_ore"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B48C4120ECAE830"
+					item: {
+						Count: 1b
+						id: "gribarmormod:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46C3013C3F0CD0E3"
+					item: {
+						Count: 1b
+						id: "gribarmormod:wooden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EA5FFBB0DDC30F9"
+					item: {
+						Count: 1b
+						id: "gribarmormod:wooden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AAF450DC1CAC18E"
+					item: {
+						Count: 1b
+						id: "gribarmormod:wooden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["023801A63FD0AF2F"]
+			description: ["Полный сет накладывате на игрока регенерацию 1 уровня, но нагрудник медленно теряет прочность."]
+			id: "0A5AF8C19D49E2EC"
+			tasks: [{
+				id: "1A3BB49990088358"
+				item: {
+					Count: 1b
+					id: "gribarmormod:weakness_wooden_nature_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A5AF8C19D49E2EC"]
+			description: ["Полный сет накладывает на игрока регенерацию 2 уровня, нагрудник медленно восстанавливает свою прочность."]
+			id: "47A89EE10A6D0D48"
+			tasks: [{
+				id: "05AC82B72767BB43"
+				item: {
+					Count: 1b
+					id: "gribarmormod:wooden_nature_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["550E08A6CA4D4993"]
+			hide_dependency_lines: true
+			id: "070DE247D5CBB6C5"
+			tasks: [
+				{
+					id: "4E28484D55BE47BF"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3917A8986CEDEA83"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D2DF9CCA051A41"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EFE717A43FAAC13"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["070DE247D5CBB6C5"]
+			description: ["Полный сет накладывает на игрока регенерацию 4 уровня, позволяет землянной броне восстанавливать свою прочность, а также удобряет растения вокруг игрока."]
+			id: "6C1ECC279121BCD4"
+			tasks: [{
+				id: "70DCFB19AEA134C5"
+				item: {
+					Count: 1b
+					id: "gribarmormod:nature_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["550E08A6CA4D4993"]
+			description: ["Полный сет восстанавливает сытость игроку за счет прочности брони."]
+			hide_dependency_lines: true
+			id: "122AB6847275C7D6"
+			tasks: [
+				{
+					id: "0D1469D34599738D"
+					item: {
+						Count: 1b
+						id: "gribarmormod:eatable_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B6CAFD99C17F11"
+					item: {
+						Count: 1b
+						id: "gribarmormod:eatable_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AB93B8ECD800A96"
+					item: {
+						Count: 1b
+						id: "gribarmormod:eatable_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F632C498C48DA89"
+					item: {
+						Count: 1b
+						id: "gribarmormod:eatable_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["550E08A6CA4D4993"]
+			description: ["Полный сет дает броне эффект зачарования \"Шипы\"."]
+			hide_dependency_lines: true
+			id: "2962E2E1CC67F8F9"
+			tasks: [
+				{
+					id: "4488EDF1EEF96790"
+					item: {
+						Count: 1b
+						id: "gribarmormod:cactus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4058F75F0A834E43"
+					item: {
+						Count: 1b
+						id: "gribarmormod:cactus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38238AC30722DDD4"
+					item: {
+						Count: 1b
+						id: "gribarmormod:cactus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D7FCB734CD325A9"
+					item: {
+						Count: 1b
+						id: "gribarmormod:cactus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["550E08A6CA4D4993"]
+			description: ["Полный сет накладывает медлительность на игрока, но дает хорошую защиту."]
+			hide_dependency_lines: true
+			id: "0885F45ED53DEAC9"
+			tasks: [
+				{
+					id: "6FC157FB7BF91D7D"
+					item: {
+						Count: 1b
+						id: "gribarmormod:stone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "457925FDA132C512"
+					item: {
+						Count: 1b
+						id: "gribarmormod:stone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50C0B978BACD5E2E"
+					item: {
+						Count: 1b
+						id: "gribarmormod:stone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "796CDBA7FE9F5A37"
+					item: {
+						Count: 1b
+						id: "gribarmormod:stone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0885F45ED53DEAC9"]
+			description: ["Полный сет убирает эффект медлительности за счет снижения защиты нагрудника."]
+			id: "673D7500F869C0E9"
+			tasks: [{
+				id: "60518501A6F6ECB5"
+				item: {
+					Count: 1b
+					id: "gribarmormod:weakness_stone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["673D7500F869C0E9"]
+			description: ["Полный сет накладывает сопротивление 1 уровня на игрока."]
+			id: "490B9B09AF6F47C5"
+			tasks: [{
+				id: "22D965E2C8212672"
+				item: {
+					Count: 1b
+					id: "gribarmormod:ancient_stone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+	]
+	title: "&1Броня и мелочи"
+}

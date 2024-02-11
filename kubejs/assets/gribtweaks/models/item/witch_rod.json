@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "hexerei:item/witch_rod_texture"
+		"1": "gribtweaks:item/witch_rod_texture"
 	},
 	"elements": [
 		{
