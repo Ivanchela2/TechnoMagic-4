@@ -92,11 +92,12 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "gear"
 			size: 1.4d
 			tasks: [{
-				id: "000B75E1C5CDFB0A"
-				type: "checkmark"
+				dimension: "twilightforest:twilight_forest"
+				id: "2314C3569A6ECA48"
+				type: "dimension"
 			}]
 			title: "Да здравствует, Сумеречный лес!"
 			x: 0.0d
@@ -323,6 +324,7 @@
 		{
 			dependencies: ["1D7C2D2E80C6C3FB"]
 			id: "277CBB3316FB7B56"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "312BDD79B5D9B520"
@@ -618,6 +620,7 @@
 			dependencies: ["5CFED47049D444D6"]
 			description: ["Улучшенная грибами версия обычной шляпы ведьмы. Да! Оно вам нужно."]
 			id: "4A6CFFB0BD31BCB4"
+			optional: true
 			tasks: [{
 				id: "2688D42EA70F6E6B"
 				item: {
@@ -824,6 +827,7 @@
 		{
 			dependencies: ["4AECCE7BD3D05A19"]
 			id: "6C9E15C5C19BED06"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "057F8CC3C2294698"
@@ -1139,6 +1143,7 @@
 			dependencies: ["4AECCE7BD3D05A19"]
 			description: ["Данная клетка позволит получить ифритов, если они вам необходимы. (см. Описание блока)"]
 			id: "602C0635E5F97D6B"
+			optional: true
 			rewards: [{
 				id: "4013BAAA047CF668"
 				item: "minecraft:wither_skeleton_skull"

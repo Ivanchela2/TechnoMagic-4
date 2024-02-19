@@ -365,7 +365,7 @@
 				item: "botania:mana_diamond"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Подробнее в лексиконе."
 			tasks: [{
@@ -548,7 +548,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			subtitle: "Подробнее в лексиконе"
 			tasks: [
 				{
@@ -880,7 +880,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				entity: "botania:doppleganger"

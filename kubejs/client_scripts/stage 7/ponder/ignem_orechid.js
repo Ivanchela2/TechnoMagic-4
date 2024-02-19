@@ -4,7 +4,7 @@ Ponder.registry(e => {
         'botania:orechid_ignem',
         'botania:floating_orechid_ignem'
     ])
-    .scene('tm4:orechid_ignem', 'Ore farm with Orechid Ignem', 'kubejs:ignem_orechid', (scene, util) => {
+    .scene('gribtweaks:orechid_ignem', 'Ore farm with Orechid Ignem', 'kubejs:ignem_orechid', (scene, util) => {
         scene.scaleSceneView(.8);
         scene.setSceneOffsetY(-1);
         scene.showBasePlate()

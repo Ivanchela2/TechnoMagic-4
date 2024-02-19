@@ -4,7 +4,7 @@ Ponder.registry(e => {
             'create:steam_power_generator',
             'create:steam_engine'
         ])
-        .scene('tm4:steam_power_generation', "Steam Power Generation", "kubejs:steam_power_generator", (scene, util) => {
+        .scene('gribtweaks:steam_power_generation', "Steam Power Generation", "kubejs:steam_power_generator", (scene, util) => {
     scene.world.modifyBlock([8, 9, 5], (curState) => curState.with("facing", "down"), false);
     scene.world.modifyBlock([4, 5, 6], (curState) => curState.with("facing", "up"), false);
     scene.world.modifyBlock([8, 6, 5], (curState) => curState.with("facing", "down"), false);

@@ -7,7 +7,7 @@ Ponder.registry(e => {
             'botania:life_essence_block',
             'minecraft:beacon'
         ])
-        .scene('tm4:gaia_ritual', 'Gaia Ritual', 'kubejs:gaia_summon', (scene, util) => {
+        .scene('gribtweaks:gaia_ritual', 'Gaia Ritual', 'kubejs:gaia_summon', (scene, util) => {
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);
     scene.world.showSection(util.select.layer(0), Facing.UP)

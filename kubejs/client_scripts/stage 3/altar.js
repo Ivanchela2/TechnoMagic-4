@@ -5,7 +5,7 @@ Ponder.registry(e => {
             'rootsclassic:brazier',
             'rootsclassic:attuned_standing_stone'
         ])
-        .scene('tm4:altar', "Altar", 'altar', (scene, util) => {
+        .scene('gribtweaks:altar', "Altar", 'altar', (scene, util) => {
             scene.scaleSceneView(.8);
             scene.setSceneOffsetY(1);
             scene.showBasePlate()

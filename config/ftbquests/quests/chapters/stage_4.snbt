@@ -17,7 +17,7 @@
 				item: "occultism:datura"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "gear"
 			size: 1.6d
 			tasks: [{
 				id: "5BE6D8EE63C69654"

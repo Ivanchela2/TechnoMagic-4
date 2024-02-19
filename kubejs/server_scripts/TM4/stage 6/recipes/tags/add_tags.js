@@ -13,6 +13,19 @@ ServerEvents.tags('item', event => {
         'gribtweaks:polished_ametrine_block',
         'gribtweaks:ametrine_bricks'
     ])
+
+    event.get('forge:stripped_logs')
+    .add([
+        'totemic:stripped_cedar_log',
+        'quark:stripped_ancient_log',
+        'neapolitan:carved_banana_stalk'
+    ])
+
+    event.get('forge:stripped_wood')
+    .add([
+        'totemic:stripped_cedar_wood',
+        'quark:stripped_ancient_wood'
+    ])
 })
 
 ServerEvents.tags('block', event => {

@@ -3,7 +3,7 @@ Ponder.registry(event => {
         .create([
             'naturesaura:wood_stand'
         ])
-        .scene('tm4:nature_aura_ritual', 'Natures Aura - Ритуал.', 'kubejs:nature_ritual', (scene, util) => {
+        .scene('gribtweaks:nature_aura_ritual', 'Natures Aura - Ритуал.', 'kubejs:nature_ritual', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)

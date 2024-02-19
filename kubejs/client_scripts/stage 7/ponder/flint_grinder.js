@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             'minecraft:flint'
         ])
-        .scene('tm4:flint_grinder', "Flint Grinder", 'flint_grinder', (scene, util) => {
+        .scene('gribtweaks:flint_grinder', "Flint Grinder", 'flint_grinder', (scene, util) => {
             //scene.showStructure()
             scene.addKeyframe()
             scene.idle(0)

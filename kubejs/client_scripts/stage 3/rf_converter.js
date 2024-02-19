@@ -4,7 +4,7 @@ Ponder.registry(e => {
         .create([
             'naturesaura:rf_converter'
         ])
-        .scene('tm4:rf_converter', "Aura generator on potions", 'energy_convertor_natures_aura', (scene, util) => {
+        .scene('gribtweaks:rf_converter', "Aura generator on potions", 'energy_convertor_natures_aura', (scene, util) => {
             scene.showBasePlate()
             scene.setSceneOffsetY(-2);
             scene.rotateCameraY(30);

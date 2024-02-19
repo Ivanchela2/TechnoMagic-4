@@ -5,7 +5,7 @@ Ponder.registry(e => {
             'create:encased_fan',
             'minecraft:iron_ore'
         ])
-        .scene("tm4:ore_processing", "Ore Processing", "kubejs:ore_processing", (scene, util) => {
+        .scene("gribtweaks:ore_processing", "Ore Processing", "kubejs:ore_processing", (scene, util) => {
     var beltpos = util.grid.at(10, 1, 5)
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);

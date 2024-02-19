@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             /minecraft:\w+concrete/
         ])
-        .scene('tm4:concrete_farm', "Concrate Farm!", 'quark_concrete_farm', (scene, util) => {
+        .scene('gribtweaks:concrete_farm', "Concrate Farm!", 'quark_concrete_farm', (scene, util) => {
             scene.scaleSceneView(.8);
             scene.addKeyframe()
             scene.idle(0)

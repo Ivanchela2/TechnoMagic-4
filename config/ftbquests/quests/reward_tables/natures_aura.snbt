@@ -2,7 +2,7 @@
 	icon: "naturesaura:gold_leaf"
 	id: "40CEEBB6A0DD28A8"
 	loot_size: 1
-	order_index: 10
+	order_index: 4
 	rewards: [
 		{ item: "naturesaura:gold_leaf" }
 		{ count: 16, item: "naturesaura:gold_powder", weight: 0.6f }

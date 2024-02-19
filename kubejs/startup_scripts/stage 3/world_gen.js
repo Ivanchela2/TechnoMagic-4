@@ -20,4 +20,15 @@ WorldgenEvents.add((event) => {
     ore.squared();
     ore.uniformHeight(-16, 4);
   });
+  
+    event.addOre((ore) => {
+      ore.id = 'gribtweaks:ametrine_ore';
+      ore.biomes = /^minecraft:.*/; // <--Вписать сюда биом острова в таком формате "minecraft:biome" (убрав при этом все звездочки, точки и слешы)
+      ore.addTarget('#minecraft:stone_ore_replaceables', 'gribtweaks:ametrine_ore');
+      ore.addTarget('minecraft:deepslate', 'gribtweaks:ametrine_ore');
+      ore.size(6);
+      ore.count(6);
+      ore.squared();
+      ore.uniformHeight(-16, 40);
+  });
 });

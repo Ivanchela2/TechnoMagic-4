@@ -2213,7 +2213,7 @@
 			}]
 			title: "Турбина"
 			x: 9.5d
-			y: 1.71d
+			y: 2.21d
 		}
 		{
 			dependencies: ["3534283B09AF261F"]
@@ -2233,7 +2233,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2262,7 +2262,7 @@
 				}
 			]
 			x: 11.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2296,7 +2296,7 @@
 				}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -2321,7 +2321,7 @@
 			}]
 			title: "Теплообменник"
 			x: -1.0d
-			y: 1.7113095238095113d
+			y: 2.2113095238095113d
 		}
 		{
 			dependencies: ["349C095C296C8A9C"]
@@ -2348,7 +2348,7 @@
 				type: "item"
 			}]
 			x: -1.0238095238095042d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2376,7 +2376,7 @@
 				}
 			]
 			x: 1.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2398,7 +2398,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [

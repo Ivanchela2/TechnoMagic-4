@@ -1,8 +1,0 @@
-{
-	icon: "hexerei:mahogany_planks"
-	id: "578F75F784E008DE"
-	loot_size: 1
-	order_index: 20
-	rewards: [{ item: "hexerei:mahogany_planks", random_bonus: 3 }]
-	title: "красное дерево"
-}

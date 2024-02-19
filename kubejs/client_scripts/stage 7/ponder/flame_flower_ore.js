@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             'botania:orechid_ignem'
         ])
-        .scene("tm4:ore_flame_flower", "Inffinity Hell ores", "kubejs:flame_ore_flower", (scene, util) => {
+        .scene("gribtweaks:ore_flame_flower", "Inffinity Hell ores", "kubejs:flame_ore_flower", (scene, util) => {
             //scene.showStructure()
             scene.addKeyframe()
             scene.world.showSection(util.select.fromTo(0, 0, 6, 6, 0, 0), Facing.DOWN)

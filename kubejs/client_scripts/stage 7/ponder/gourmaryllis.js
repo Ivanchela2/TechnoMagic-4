@@ -4,7 +4,7 @@ Ponder.registry(e => {
         'botania:gourmaryllis',
         'botania:floating_gourmaryllis'
         ])
-        .scene('tm4:gourmaryllis', "Mana Farm on Gourmaryllises", 'kubejs:gourmaryllis', (scene, util) => {
+        .scene('gribtweaks:gourmaryllis', "Mana Farm on Gourmaryllises", 'kubejs:gourmaryllis', (scene, util) => {
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);
     scene.world.showSection(util.select.layer(0), Facing.UP)

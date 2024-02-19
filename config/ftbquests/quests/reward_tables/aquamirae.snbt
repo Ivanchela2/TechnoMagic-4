@@ -1,7 +1,7 @@
 {
 	id: "2124866F4F96DF24"
 	loot_size: 1
-	order_index: 15
+	order_index: 6
 	rewards: [
 		{ count: 2, item: "aquamirae:anglers_fang", random_bonus: 2 }
 		{ count: 4, item: "aquamirae:fin", random_bonus: 3 }

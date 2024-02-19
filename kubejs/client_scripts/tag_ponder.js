@@ -1,10 +1,10 @@
 Ponder.tags(event => {
-    event.createTag('tm4:reactors', 'biggerreactors:reactor_terminal', 'TM4: Реакторы', 'Все о реакторах!', [
+    event.createTag('gribtweaks:reactors', 'biggerreactors:reactor_terminal', 'TM4: Реакторы', 'Все о реакторах!', [
         'biggerreactors:reactor_casing',
         'alchemistry:fusion_chamber_controller',
         'alchemistry:fission_chamber_controller'
     ]);
-    event.createTag('tm4:farms', 'minecraft:diamond', 'TM4: Фермы/Заводы', 'Нужны ресурсы?', [
+    event.createTag('gribtweaks:farms', 'minecraft:diamond', 'TM4: Фермы/Заводы', 'Нужны ресурсы?', [
         'create:andesite_alloy',
         'minecraft:lava_bucket',
         'botania:endoflame',
@@ -20,7 +20,7 @@ Ponder.tags(event => {
         'minecraft:white_concrete',
         'minecraft:flint'
     ]);
-    event.createTag('tm4:rituals', 'minecraft:oak_sapling', 'TM4: Ритуалы', 'Все для ритуалов!', [
+    event.createTag('gribtweaks:rituals', 'minecraft:oak_sapling', 'TM4: Ритуалы', 'Все для ритуалов!', [
         'rootsclassic:altar',
         'naturesaura:nature_altar',
         'naturesaura:gold_powder',
@@ -29,10 +29,10 @@ Ponder.tags(event => {
         'botania:gaia_pylon',
         'vitalize:soul_revitalizer'
     ]);
-    /*e.createTag("tm4:tech", 'ftbic:electronic_circuit', "TM4: Technologies", "World of Technologies", [
+    /*e.createTag("gribtweaks:tech", 'ftbic:electronic_circuit', "TM4: Technologies", "World of Technologies", [
         
     ]);*/
-    event.createTag("tm4:magic", 'botania:mana_pylon', "TM4: Magic", "World of Magic", [
+    event.createTag("gribtweaks:magic", 'botania:mana_pylon', "TM4: Магия", "Мир магии!", [
         'botania:orechid',
         'botania:orechid_ignem'
     ]);

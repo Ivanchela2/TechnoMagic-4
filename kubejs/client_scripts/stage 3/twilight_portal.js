@@ -4,7 +4,7 @@ Ponder.registry(e => {
             'twilightforest:twilight_portal_miniature_structure',
             'naturesaura:infused_iron'
         ])
-        .scene('tm4:twilight_portal', "Twilight Portal", 'twilight_portal', (scene, util) => {
+        .scene('gribtweaks:twilight_portal', "Twilight Portal", 'twilight_portal', (scene, util) => {
             scene.setSceneOffsetY(-2);
             scene.showBasePlate()
             scene.idle(0)

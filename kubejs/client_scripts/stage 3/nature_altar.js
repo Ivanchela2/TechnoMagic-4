@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'naturesaura:nature_altar',
             'naturesaura:gold_brick'
         ])
-        .scene('tm4:nature_aura_altar', 'Natures Aura - Природный Алтарь.', 'kubejs:nature_altar', (scene, util) => {
+        .scene('gribtweaks:nature_aura_altar', 'Natures Aura - Природный Алтарь.', 'kubejs:nature_altar', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)

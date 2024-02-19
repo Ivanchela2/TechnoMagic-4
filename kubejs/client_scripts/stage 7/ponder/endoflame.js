@@ -4,7 +4,7 @@ Ponder.registry(e => {
             'botania:endoflame',
             'botania:floating_endoflame'
         ])
-        .scene('tm4:endoflame', "Mana Farm on Endoflames", 'kubejs:endoflame', (scene, util) => {
+        .scene('gribtweaks:endoflame', "Mana Farm on Endoflames", 'kubejs:endoflame', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(-1);
     scene.world.showSection(util.select.layer(0), Facing.UP)

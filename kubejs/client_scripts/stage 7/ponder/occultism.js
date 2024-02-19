@@ -9,7 +9,7 @@ Ponder.registry(e => {
             'occultism:chalk_purple',
             'occultism:chalk_red'
         ])
-        .scene("tm4:occultism", "Occultism", "kubejs:occultism", (scene, util) => {
+        .scene("gribtweaks:occultism", "Occultism", "kubejs:occultism", (scene, util) => {
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);
     scene.showBasePlate()

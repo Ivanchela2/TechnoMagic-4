@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'biggerreactors:reactor_casing',
             'biggerreactors:reactor_terminal'
         ])
-        .scene('tm4:reactor', 'Начальный реактор', 'kubejs:efficient_reactor', (scene, util) => {
+        .scene('gribtweaks:reactor', 'Начальный реактор', 'kubejs:efficient_reactor', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.rotateCameraY(-180);
     scene.setSceneOffsetY(0);

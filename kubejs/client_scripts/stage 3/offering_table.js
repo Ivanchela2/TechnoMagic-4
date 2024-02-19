@@ -4,7 +4,7 @@ Ponder.registry(e => {
         .create([
             'naturesaura:offering_table'
         ])
-        .scene('tm4:offering_table', "Offering table", 'offering_table', (scene, util) => {
+        .scene('gribtweaks:offering_table', "Offering table", 'offering_table', (scene, util) => {
             scene.showBasePlate()
             scene.idle(0)
             scene.overlay.showText(60)

@@ -5,7 +5,7 @@ Ponder.registry(e => {
             'spirit:soul_crystal',
             /vitalize:pylon/
         ])
-        .scene('tm4:spirit_mob_farm', 'Spirit Mob Farm', 'kubejs:spirit_mob_farm', (scene, util) => {
+        .scene('gribtweaks:spirit_mob_farm', 'Spirit Mob Farm', 'kubejs:spirit_mob_farm', (scene, util) => {
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);
     scene.showBasePlate()

@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'minecraft:pointed_dripstone',
             'minecraft:lava_bucket'
         ])
-        .scene('tm4:lava', 'Простая ферма лавы.', 'kubejs:simple_lava_farm', (scene, util) => {
+        .scene('gribtweaks:lava', 'Простая ферма лавы.', 'kubejs:simple_lava_farm', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)
