@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["249EED31D84418E8"]
-			description: ["Скрафтите корни и сломайте их, чтобы получить замшелый корень."]
+			description: ["Скрафтите или найдите корни и сломайте их, чтобы получить замшелый корень."]
 			id: "5835379C03113E98"
 			rewards: [{
 				count: 4
@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
-			description: ["У вас появилась догадка, что портал в Сумеречный лес открыть не удастся. Ощущения, что этот мир проникает в ваш."]
+			description: ["Откройте портал в Сумеречный лес."]
 			hide: true
 			id: "249EED31D84418E8"
 			rewards: [
@@ -91,51 +91,17 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-jungle 36 120 -20"
-					id: "0CC4246AB1765C9C"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s3_hexerei-swamp 40 140 20"
-					id: "3A1BD11A2B989CC6"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 80"
-					id: "4BCE85A848E0107B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Лёгкий запах природы окружает вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "6AE9BB06F3E9D6FF"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s4_aquaculture2 -25 100 0"
-					id: "51749190E267EA66"
-					player_command: false
-					type: "command"
-				}
 			]
-			shape: "octagon"
+			shape: "gear"
 			size: 1.4d
 			tasks: [{
-				id: "000B75E1C5CDFB0A"
-				type: "checkmark"
+				dimension: "twilightforest:twilight_forest"
+				id: "2314C3569A6ECA48"
+				type: "dimension"
 			}]
 			title: "Да здравствует, Сумеречный лес!"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5835379C03113E98"]
@@ -162,7 +128,7 @@
 				"4AECCE7BD3D05A19"
 				"629084BAE7A02AC0"
 			]
-			description: ["Новый способ создания предметов. Вы придумали как создавать предметы смешивая их в котле."]
+			description: ["Новый способ создания предметов."]
 			id: "1D2A03062704637C"
 			rewards: [
 				{
@@ -189,7 +155,7 @@
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
-			description: ["Улучшенная версия обычного сундука: хранит в себе больше больше предметов, а также позволяет вашим фамильярам взаимодействовать с ним."]
+			description: ["Улучшенная версия обычного сундука: хранит в себе больше предметов, а также позволяет вашим фамильярам взаимодействовать с ним."]
 			id: "020AD019F5C7DAE3"
 			rewards: [{
 				id: "543EF32A386A9FE9"
@@ -229,7 +195,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1FB3837335109150"]
+			dependencies: ["249EED31D84418E8"]
 			description: ["Алтарь поможет вам обратиться к высшим силам, чтобы получить подсказки."]
 			id: "629084BAE7A02AC0"
 			tasks: [
@@ -254,7 +220,7 @@
 				}
 			]
 			title: "Тёмные силы"
-			x: 3.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -274,10 +240,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"6F833510FBC27BD8"
-				"693776EF7D9D074E"
-			]
+			dependencies: ["6F833510FBC27BD8"]
 			description: ["Вы улучшили свою предыдущую метлу и управление стало в разы лучше."]
 			id: "18EE46D2B53AD9FD"
 			rewards: [{
@@ -323,37 +286,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
-			hide_dependency_lines: true
-			id: "693776EF7D9D074E"
-			rewards: [{
-				count: 4
-				id: "42E4AA7CC6883FE8"
-				item: "minecraft:jungle_sapling"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "33271CAB99F1A9B6"
-				ignore_dimension: false
-				position: [I;
-					40
-					128
-					-17
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 7.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["18EE46D2B53AD9FD"]
 			description: ["Ваши первые аксессуары на метлу."]
 			id: "1D7C2D2E80C6C3FB"
@@ -386,12 +318,13 @@
 				}
 			]
 			title: "Побрекушечки"
-			x: 9.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1D7C2D2E80C6C3FB"]
 			id: "277CBB3316FB7B56"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "312BDD79B5D9B520"
@@ -408,7 +341,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -426,7 +359,7 @@
 				item: "hexerei:medium_satchel"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -452,7 +385,7 @@
 				}
 			]
 			title: "Расширение территории"
-			x: 12.0d
+			x: 10.5d
 			y: 3.0d
 		}
 		{
@@ -524,8 +457,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1FB3837335109150"]
-			description: ["Снизу острова растут странные кристаллы. Возможно, вы найдете им применение."]
+			dependencies: ["249EED31D84418E8"]
 			id: "0765A7B398C51443"
 			optional: true
 			tasks: [{
@@ -546,8 +478,8 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4AECCE7BD3D05A19"]
@@ -604,6 +536,7 @@
 			dependencies: ["44B196BE6006F132"]
 			description: ["После полного обучения контроля ворон, вы перешли к чем-то большему - к другим питомцам."]
 			id: "1C0D5A514D31D027"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "193434E1AE22AFC5"
@@ -642,7 +575,7 @@
 		}
 		{
 			dependencies: ["2C23F9E57EB4FA5C"]
-			description: ["Полное одеяние ведьмы может очень хорошо вас защитить."]
+			description: ["Полный сет имеет хорошую защиту и дает специальные эффекты. (См. SHIFT на предмете)"]
 			id: "5CFED47049D444D6"
 			tasks: [
 				{
@@ -687,6 +620,7 @@
 			dependencies: ["5CFED47049D444D6"]
 			description: ["Улучшенная грибами версия обычной шляпы ведьмы. Да! Оно вам нужно."]
 			id: "4A6CFFB0BD31BCB4"
+			optional: true
 			tasks: [{
 				id: "2688D42EA70F6E6B"
 				item: {
@@ -715,26 +649,11 @@
 				"&6Earth Staff&r - стреляет природной масой."
 			]
 			id: "593117BA3091815E"
-			rewards: [
-				{
-					id: "315162566D30ED4C"
-					item: "twilightforest:naga_scale"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:lich_island 50 80 -90"
-					id: "74574AC4E3B59F93"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Один из великих явился вам\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "73E4ABCEC5381A30"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "315162566D30ED4C"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4772986BB569CF7D"
@@ -777,7 +696,7 @@
 		}
 		{
 			dependencies: ["249EED31D84418E8"]
-			description: ["Найдите светлячков и добудьте с них светопыль."]
+			description: ["Найдите или купите у пиглинов светлячков и добудьте с них светопыль."]
 			id: "515E01928C172264"
 			subtitle: "Живность"
 			tasks: [
@@ -794,32 +713,18 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["69F581557BA017AF"]
-			description: ["Кусок лабиринта парящий в воздухе, Что-то ждет вас там."]
+			description: ["Найдите и убейте Нагу."]
 			id: "453B7DB977D14FB9"
-			rewards: [
-				{
-					id: "5AA9A1BBFDF80D4C"
-					item: "twilightforest:naga_scale"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					command: "/place template minecraft:s3_sorcerium-crystals 16 104 -24"
-					id: "411061A67978DBAD"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Небо кратковременно освещает синий цвет\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "489F8876199A49D9"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "5AA9A1BBFDF80D4C"
+				item: "twilightforest:naga_scale"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				entity: "twilightforest:naga"
@@ -830,11 +735,11 @@
 				value: 1L
 			}]
 			x: 4.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["593117BA3091815E"]
-			description: ["Новый остров с башней в центре. Может стоит подняться на самый ее верх? Какие загадки она в себе таит?"]
+			dependencies: ["453B7DB977D14FB9"]
+			description: ["Найдите и убейте Лича."]
 			id: "0467EF29CA06A563"
 			shape: "pentagon"
 			size: 1.7d
@@ -846,8 +751,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C23F9E57EB4FA5C"]
@@ -902,39 +807,17 @@
 				"2C23F9E57EB4FA5C"
 				"1D2A03062704637C"
 			]
-			description: ["Специальная карта очень бы помогла вам в Сумеречном лесу.. поэтому, воспользуйтесь обычной. (По приколу)"]
+			description: ["Специальная карта, которая сильно поможет вам в Сумеречном лесу."]
 			id: "69F581557BA017AF"
-			rewards: [
-				{
-					id: "02C99B36EF5D61B3"
-					item: "minecraft:paper"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					command: "/worldborder set 250"
-					id: "34D48FFF77B474F1"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:naga_island 35 110 35"
-					id: "5050F9DD424C6CF1"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Сумеречный лес начинает захватывать ваш мир\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "0D1DA043BE493292"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "02C99B36EF5D61B3"
+				item: "minecraft:paper"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
-				id: "6EFDF1A7FFF6AC51"
-				item: "minecraft:map"
+				id: "24C6043CA4C84F92"
+				item: "twilightforest:magic_map"
 				type: "item"
 			}]
 			title: "Компас 3.0"
@@ -944,6 +827,7 @@
 		{
 			dependencies: ["4AECCE7BD3D05A19"]
 			id: "6C9E15C5C19BED06"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "057F8CC3C2294698"
@@ -1016,8 +900,8 @@
 				}
 			]
 			title: "Сет живого древа"
-			x: 2.0d
-			y: 0.8d
+			x: 1.5d
+			y: 1.3d
 		}
 		{
 			dependencies: ["249EED31D84418E8"]
@@ -1231,65 +1115,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
-			hide_dependency_lines: true
-			id: "1FB3837335109150"
-			rewards: [{
-				count: 4
-				id: "5B9E16B9150C9ABE"
-				item: "minecraft:mangrove_propagule"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4636445E028A59C8"
-				ignore_dimension: false
-				position: [I;
-					43
-					149
-					26
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0467EF29CA06A563"]
-			id: "302E5C14042D4C85"
-			rewards: [{
-				count: 12
-				id: "75E1794DCC7C9A86"
-				item: "hexerei:witch_ingot"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "Убиватор 3000"
-			tasks: [{
-				id: "067EB5E2DC5D0464"
-				item: {
-					Count: 1b
-					id: "hexerei:witch_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["4AECCE7BD3D05A19"]
 			description: ["Данная клетка позволит получить ифритов, если они вам необходимы. (см. Описание блока)"]
 			id: "602C0635E5F97D6B"
+			optional: true
 			rewards: [{
 				id: "4013BAAA047CF668"
 				item: "minecraft:wither_skeleton_skull"

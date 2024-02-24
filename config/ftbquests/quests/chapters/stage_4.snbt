@@ -11,29 +11,13 @@
 		{
 			dependencies: ["0467EF29CA06A563"]
 			id: "4BA91AB519070D4D"
-			rewards: [
-				{
-					count: 4
-					id: "22F764A5106506DF"
-					item: "occultism:datura"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s4_occultism 10 140 90"
-					id: "69F0E90F82B87B43"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Ваш взгляд меняется\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "3E848A79A123ACC9"
-					player_command: false
-					type: "command"
-				}
-			]
-			shape: "square"
+			rewards: [{
+				count: 4
+				id: "22F764A5106506DF"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			shape: "gear"
 			size: 1.6d
 			tasks: [{
 				id: "5BE6D8EE63C69654"
@@ -300,29 +284,6 @@
 		{
 			dependencies: ["4F943CCC0D6D0E87"]
 			id: "38FF01FE1835B023"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/place template minecraft:gribotavr_island -160 120 -160"
-					id: "08D27A4BAA4E1132"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 350"
-					id: "732BCBB328FD0178"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Споры грибов озаряют пустоту\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "54B44AAEC239FFF7"
-					player_command: false
-					type: "command"
-				}
-			]
 			subtitle: "Первая книга,которую вы используете в призывах и ритуалах."
 			tasks: [{
 				id: "2F66EB0C9B233DE1"
@@ -382,54 +343,17 @@
 				"4BA91AB519070D4D"
 				"045C3D369D9FADD6"
 			]
-			description: ["Убейте Гидру."]
+			description: ["Найдите и убейте Гидру."]
 			hide: true
 			hide_dependency_lines: true
 			icon: "twilightforest:hydra_trophy"
 			id: "1EE42A294EBBD610"
-			rewards: [
-				{
-					count: 6
-					id: "13BC161DF9117250"
-					item: "twilightforest:fiery_blood"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 0 0 -200 200"
-					id: "06FF06EE016E2CA8"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 450"
-					id: "2C5BD5DDFBF47458"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Пустота вокруг вас начинает темнеть\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "3980F9EC5CFEC34E"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:deep_dark_regrowth -210 110 145"
-					id: "61805832E0B530A7"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "06B8F85C7DF7ED0B"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				count: 6
+				id: "13BC161DF9117250"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "twilightforest:hydra"
 				icon: "twilightforest:hydra_trophy"
@@ -650,28 +574,12 @@
 				"2ADD3B41B236056F"
 			]
 			id: "045C3D369D9FADD6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6BFABA91B023429F"
-					table_id: 4853888491522249095L
-					type: "random"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:hydra_island -70 110 100"
-					id: "2F242AB004BBEC13"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Глаза горят, а воздух теплеет\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "572020E0AE2BC999"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BFABA91B023429F"
+				table_id: 4853888491522249095L
+				type: "random"
+			}]
 			subtitle: "Простой спавнер из мода Spirit."
 			tasks: [{
 				id: "70F51D928747FC08"
@@ -706,41 +614,12 @@
 			dependencies: ["1EE42A294EBBD610"]
 			description: ["Чтобы продвинуться дальше, придется разобраться с охранником тёмных земель."]
 			id: "0152D66E23EE30B1"
-			rewards: [
-				{
-					count: 4
-					id: "5AE55558E1815C28"
-					item: "deeperdarker:warden_carapace"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 0 0 200 -200"
-					id: "5E48D4CF27BADECA"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Хранитель не оставит вас в покое\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "323E7BB2876C1CAF"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:deeplands_biome 120 100 -190"
-					id: "5BB534BA0CF1F482"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "6833E55067D77331"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "5AE55558E1815C28"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0311549681A50D29"
@@ -755,34 +634,11 @@
 			dependencies: ["0152D66E23EE30B1"]
 			description: ["Сердце вардена я заберу с собой, как сувенирчик)"]
 			id: "41C65BD1CB61D79B"
-			rewards: [
-				{
-					id: "40CE6AE9E28ACF84"
-					item: "deeperdarker:heart_of_the_deep"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 0 0 -160 70"
-					id: "71F2572CB37D6FF5"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:overcast_columns_biome -200 150 50"
-					id: "534C26456C0B5784"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "399602CCF452B269"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "40CE6AE9E28ACF84"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6046F1C34010E17F"
 				item: "deeperdarker:heart_of_the_deep"
@@ -795,33 +651,12 @@
 			dependencies: ["41C65BD1CB61D79B"]
 			description: ["Соберите местного мха, да побольше."]
 			id: "6EB36D6CE6B28111"
-			rewards: [
-				{
-					count: 32
-					id: "0446AE87F1F834B8"
-					item: "deep_dark_regrowth:mossy_fluorite"
-					type: "item"
-				}
-				{
-					command: "/forceload add 100 100 250 250"
-					id: "0C1F645403F82256"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:echoing_forest_biome 170 140 170"
-					id: "5E33E3ACC1D8C2AA"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "03A26A2ADC2FE110"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "0446AE87F1F834B8"
+				item: "deep_dark_regrowth:mossy_fluorite"
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "1BB8BE6A6F9F134F"
@@ -837,7 +672,7 @@
 				"4BA91AB519070D4D"
 				"38FF01FE1835B023"
 			]
-			description: ["Убейте Гриботавра."]
+			description: ["Найдите и убейте Гриботавра."]
 			hide: true
 			hide_dependency_lines: true
 			id: "7CC994D9CE81BCEB"
@@ -906,41 +741,12 @@
 			dependencies: ["6EB36D6CE6B28111"]
 			description: ["Найдите скалк сенсор. Пригодится."]
 			id: "0AE65EB87D0B9717"
-			rewards: [
-				{
-					count: 64
-					id: "73A4597B42F87B6A"
-					item: "minecraft:sculk"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 0 140 -120 0"
-					id: "34015FD13B0CDE1B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:aquamirae_island -100 240 30"
-					id: "1E481DDD4AD86E57"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "326DD9D1ECEA4131"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Величественный ледяной остров взмыл в небеса\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "113595641C769B57"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "73A4597B42F87B6A"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14193466A3FCA78D"
 				item: "minecraft:sculk_sensor"
@@ -1395,19 +1201,12 @@
 			dependencies: ["4E188111AFD45944"]
 			description: ["Сама бездна вам шепчет"]
 			id: "44B322DA6056AF8F"
-			rewards: [
-				{
-					id: "211337CF3261327D"
-					item: "enigmaticlegacy:ocean_stone"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7220FEEC847BE6CA"
-					table_id: 2388181515047984932L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7220FEEC847BE6CA"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
 			tasks: [{
 				id: "48CD478DA606740A"
 				item: {

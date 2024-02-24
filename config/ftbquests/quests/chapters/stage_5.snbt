@@ -5,68 +5,18 @@
 	group: "472A643616306AAC"
 	icon: "forbidden_arcanus:soul"
 	id: "226D8B2BE3549D63"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.5d
-			hover: [ ]
-			image: "create:block/brass_casing"
-			rotation: 0.0d
-			width: 2.5d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 90.0d
-			width: 1.0d
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: 180.0d
-			width: 1.0d
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "create:block/saw_reversed"
-			rotation: -90.0d
-			width: 1.0d
-			x: -5.5d
-			y: 0.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.5d
+		hover: [ ]
+		image: "create:block/brass_casing"
+		rotation: 0.0d
+		width: 2.5d
+		x: -4.0d
+		y: 0.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -92,34 +42,6 @@
 					id: "115FACCD9058DA97"
 					item: "minecraft:dripstone_block"
 					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Око эндера открыло свои врата\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "74D4F8C365A6F3E3"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 170 -40 210 -80"
-					id: "0D95387487B2C2EA"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:s5_end 200 220 -70"
-					id: "5E03A0A0BDF45EA4"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "6728CCAF495E1265"
-					player_command: false
-					type: "command"
 				}
 			]
 			shape: "octagon"
@@ -246,40 +168,11 @@
 			dependencies: ["1172FCA541C97A82"]
 			hide_dependency_lines: false
 			id: "1EB9F7701AE976B1"
-			rewards: [
-				{
-					id: "43C3FED4D47F35A1"
-					item: "productivebees:obsidian_nest"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/worldborder set 700"
-					id: "1324DEF1C7D12435"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add 180 -100 400 -300"
-					id: "5465A1A7B2A6F781"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:knight_phantom_island 190 80 -300"
-					id: "6BE3961DC9177283"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "2CC5A5D19FCBCB1D"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "43C3FED4D47F35A1"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
 			subtitle: "Латы из самого дракона."
 			tasks: [
 				{
@@ -334,49 +227,19 @@
 		{
 			dependencies: ["1EB9F7701AE976B1"]
 			id: "1D368BDA7B0341AA"
-			rewards: [
-				{
-					id: "27B6611474F8EF66"
-					item: {
-						Count: 1b
-						id: "productivebees:spawn_egg_configurable_bee"
-						tag: {
-							EntityTag: {
-								type: "productivebees:gold"
-							}
+			rewards: [{
+				id: "27B6611474F8EF66"
+				item: {
+					Count: 1b
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
 						}
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add 150 200 300 70"
-					id: "28D712ED4D555BC8"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:alpha_yeti_island 300 120 150"
-					id: "2C25D11AB40698F9"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "49B41ABAE236AB47"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Зимный приспешник пробудился\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "25EE3C197A1C79DC"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Улучшеные латы дракона."
 			tasks: [
 				{
@@ -432,41 +295,11 @@
 			dependencies: ["1D368BDA7B0341AA"]
 			icon: "twilightforest:alpha_yeti_trophy"
 			id: "56581509C44E4189"
-			rewards: [
-				{
-					id: "629A19D52ABF9FF6"
-					item: "twilightforest:charm_of_keeping_3"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload add -30 200 130 400"
-					id: "07090544592BB614"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:aurora_island 0 100 250"
-					id: "3773F6BF93E6434B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "3AC07489B6DF1994"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Великая королева ждет Вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "65BAB820C470CE1B"
-					player_command: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "629A19D52ABF9FF6"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
 			subtitle: "Отправьтесь в холодный биом Сумеречного леса, чтобы сразить это создание, охраняющее королеву"
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
@@ -640,47 +473,17 @@
 			dependencies: ["1EB9F7701AE976B1"]
 			icon: "twilightforest:knight_phantom_trophy"
 			id: "7CD7A225C23C42EC"
-			rewards: [
-				{
-					id: "1043F8F8ED2F77F4"
-					item: {
-						Count: 1b
-						id: "twilightforest:knightmetal_shield"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "1043F8F8ED2F77F4"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add -200 -200 -400 -400"
-					id: "5FFAB5795F1EF6AB"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:ur-ghast_island -310 60 -320"
-					id: "563A3FA97FAF17C4"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "16AD93FC317EA7CC"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Заслуживает ли он этого?\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "2C2805DC8D7F26EA"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Найдите его в лабиринте."
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
@@ -717,47 +520,17 @@
 			dependencies: ["56581509C44E4189"]
 			icon: "twilightforest:snow_queen_trophy"
 			id: "6013F8CFAC8F4CD6"
-			rewards: [
-				{
-					id: "01323D4BCDD24C41"
-					item: {
-						Count: 1b
-						id: "twilightforest:glass_sword"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "01323D4BCDD24C41"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/forceload add -200 -40 -400 140"
-					id: "1E15C3F562EF2C1B"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/place template minecraft:pokahu_island -300 150 70 counterclockwise_90"
-					id: "48161975189AF768"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/forceload remove all"
-					id: "060DA7692051D540"
-					player_command: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Тот, кого все ждали, пришел именно в Ваш мир...\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "417114F2EFBD209E"
-					player_command: false
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Типичная история с королевой в башне, только здесь ёё не надо спасать"
 			tasks: [{
 				entity: "twilightforest:snow_queen"
@@ -1035,6 +808,7 @@
 		}
 		{
 			dependencies: ["4206CAF1FF7A3CF7"]
+			description: ["Удачи)..."]
 			id: "1B86A502898A6439"
 			rewards: [{
 				count: 6
@@ -1050,7 +824,7 @@
 				title: "&l5 Этап"
 				type: "checkmark"
 			}]
-			title: "&6&l&nСтадия 5"
+			title: "ТЕХНО-магия"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -1277,7 +1051,7 @@
 			id: "6B8743E39A6E14B1"
 			subtitle: "Корпус - основа всех механизмов"
 			tasks: [{
-				id: "472AA02C9EFF8DE2"
+				id: "6075DE405E4C94C2"
 				item: "ftbic:machine_block"
 				type: "item"
 			}]
@@ -1748,7 +1522,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["472AA02C9EFF8DE2"]
+			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: false
 			id: "29D265E0A7ED884F"
 			invisible: true
 			subtitle: "Воу, какой мощный корпус."
@@ -1765,12 +1540,12 @@
 			id: "49FE185BA36BBE9E"
 			subtitle: "Да куда ещё больше ресурсов"
 			tasks: [{
-				id: "364CB338ECB73919"
+				id: "1FEFA430DD4E92AB"
 				item: "ftbic:extruder"
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["310A3B4D8AF915F4"]
@@ -3137,31 +2912,6 @@
 					item: "minecraft:end_stone"
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"green\"},{\"text\":\"Могущество искажает воздух вокруг вас\",\"bold\":true,\"color\":\"red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"green\"}]"
-					id: "07A8C9F651458C4F"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload add 50 140 80 170"
-					id: "6833E09D026FA940"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/place template minecraft:s5_forbidden_arcanus 80 200 170"
-					id: "02FC22E5F50C6127"
-					player_command: false
-					type: "command"
-				}
-				{
-					command: "/forceload remove all"
-					id: "47DD520C87D13E3F"
-					player_command: false
-					type: "command"
-				}
 			]
 			subtitle: "Я каменщик, работаю 3 дня..."
 			tasks: [{
@@ -3182,7 +2932,8 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3717A960E8DB96B7"]
+			dependencies: ["1B86A502898A6439"]
+			hide_dependency_lines: true
 			id: "310A3B4D8AF915F4"
 			invisible: true
 			rewards: [{
@@ -3513,18 +3264,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6B8743E39A6E14B1"]
-			id: "5D96E28AABE49CDA"
-			subtitle: "Наполни свою жизнь с помощь наполнителя"
-			tasks: [{
-				id: "2E7BEE3DF6A4A255"
-				item: "ftbic:canning_machine"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["4FAFAEF13F8BC981"]
 			id: "2371EF16B1EB318E"
 			subtitle: "Это то, что нужно!!"
@@ -3689,7 +3428,7 @@
 			hide_dependency_lines: true
 			id: "5616D3C42BF45EE0"
 			tasks: [{
-				id: "17F6E643F0DBDEA1"
+				id: "0853FEDDA73FB602"
 				item: "ftbic:coal_dust"
 				type: "item"
 			}]
@@ -3701,7 +3440,7 @@
 			id: "6FFEEC17182E065C"
 			subtitle: "Что-то поинтересней."
 			tasks: [{
-				id: "449DF0AE76D1434C"
+				id: "3ABAB190B32753BF"
 				item: "ftbic:carbon_fibers"
 				type: "item"
 			}]
@@ -3713,7 +3452,7 @@
 			id: "32DCE840F4C4D6E1"
 			subtitle: "Крепкий материал."
 			tasks: [{
-				id: "3A9ADBAD7C28FCC3"
+				id: "693F8E41DD18AA98"
 				item: "ftbic:carbon_fiber_mesh"
 				type: "item"
 			}]
@@ -3821,6 +3560,7 @@
 				}
 			}
 			id: "4B9A5EF6E8A2ED5D"
+			invisible: true
 			tasks: [
 				{
 					id: "5EE67DE4F9CA5D36"
@@ -3928,19 +3668,6 @@
 			}]
 			x: -8.5d
 			y: 12.0d
-		}
-		{
-			dependencies: ["29D265E0A7ED884F"]
-			id: "569F289E8231D4C4"
-			subtitle: "Ресурсы из материи?"
-			tasks: [{
-				id: "076969F82B92C79F"
-				item: "ftbic:antimatter_constructor"
-				type: "item"
-			}]
-			title: "Получаем ресурсы из ресурсов"
-			x: -2.5d
-			y: 15.0d
 		}
 		{
 			dependencies: ["631AA78FFCCF410C"]
@@ -4309,15 +4036,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3A9ADBAD7C28FCC3"
-				"32DCE840F4C4D6E1"
-			]
+			dependencies: ["32DCE840F4C4D6E1"]
 			id: "7C19F6A9C765E262"
 			invisible: true
 			subtitle: "Интересное продолжение в виде прочных предметов.."
 			tasks: [{
-				id: "0C119529B463E6F9"
+				id: "60F7B048F8272D3B"
 				item: "ftbic:carbon_plate"
 				type: "item"
 			}]
@@ -4453,8 +4177,8 @@
 				item: "ftbic:nuke"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 15.0d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7332FD7F57514AF5"]
@@ -4562,18 +4286,6 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
-			description: ["Позвлдяет выкапывать большое пространство разом"]
-			id: "4D57A2699E1B8C96"
-			tasks: [{
-				id: "21F7BC0AC7A8BEE0"
-				item: "ftbic:quarry"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6B8743E39A6E14B1"]
 			id: "39720DB40191DF9E"
 			tasks: [{
 				id: "45E9009F30F3E4CB"
@@ -4581,7 +4293,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["63BE8D9BF4A9F95D"]
@@ -4887,7 +4599,6 @@
 		{
 			dependencies: [
 				"310A3B4D8AF915F4"
-				"472AA02C9EFF8DE2"
 				"11810B38973B517F"
 			]
 			description: ["Совершенная основа для механизмов."]
@@ -5016,17 +4727,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["569F289E8231D4C4"]
-			id: "4E69D398F3DD638C"
-			tasks: [{
-				id: "4AE4A9CF46AD2CF8"
-				item: "ftbic:antimatter"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 16.0d
-		}
-		{
 			dependencies: ["77297D7100AC44C1"]
 			id: "3C75F6D4CA4365C7"
 			tasks: [{
@@ -5034,8 +4734,8 @@
 				item: "gribtweaks:antimatter_l1"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 11.0d
+			x: -14.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["3C75F6D4CA4365C7"]
@@ -5045,8 +4745,8 @@
 				item: "gribtweaks:antimatter_l2"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 11.5d
+			x: -15.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6007CC344C680F3F"]
@@ -5056,8 +4756,8 @@
 				item: "gribtweaks:antimatter_l3"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 12.5d
+			x: -16.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["262C559B96A844E0"]
@@ -5067,8 +4767,8 @@
 				item: "gribtweaks:antimatter_l4"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 13.0d
+			x: -16.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -5134,7 +4834,7 @@
 			hide_dependency_lines: true
 			id: "29A64888EFA4C537"
 			tasks: [{
-				id: "3D760494CBB03D7E"
+				id: "0369D52F3A645ACB"
 				item: "gribtweaks:upgrade_base"
 				type: "item"
 			}]
@@ -5338,8 +5038,8 @@
 				item: "ftbic:nuclear_reactor_chamber"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 15.0d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["34976B4919052C4B"]
@@ -5349,16 +5049,50 @@
 				item: "ftbic:nuclear_reactor"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 16.0d
+			x: -6.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["2371EF16B1EB318E"]
+			dependencies: ["7A9A5C36D0332D8A"]
 			description: ["Тут должна быть молекулярка"]
 			id: "77297D7100AC44C1"
 			tasks: [{
 				id: "59AB2BB2024B9D14"
 				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["77297D7100AC44C1"]
+			id: "020531525173EAE1"
+			tasks: [{
+				id: "02533011CCF8D9C8"
+				item: "gribtweaks:advanced_antimatter"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D265E0A7ED884F"]
+			hide_dependency_lines: true
+			id: "35978A8DB25CAEB1"
+			tasks: [{
+				id: "6D91096D811411C2"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["35978A8DB25CAEB1"]
+			id: "7A9A5C36D0332D8A"
+			tasks: [{
+				id: "232087F6A81489D1"
+				item: "ftbic:antimatter"
 				type: "item"
 			}]
 			x: -12.0d
