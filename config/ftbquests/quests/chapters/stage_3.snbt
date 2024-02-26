@@ -816,8 +816,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6EFDF1A7FFF6AC51"
-				item: "minecraft:map"
+				id: "24C6043CA4C84F92"
+				item: "twilightforest:magic_map"
 				type: "item"
 			}]
 			title: "Компас 3.0"
@@ -1115,28 +1115,59 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["249EED31D84418E8"]
+			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
+			hide_dependency_lines: true
+			id: "1FB3837335109150"
+			rewards: [{
+				count: 4
+				id: "5B9E16B9150C9ABE"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4636445E028A59C8"
+				ignore_dimension: false
+				position: [I;
+					43
+					149
+					26
+				]
+				size: [I;
+					4
+					5
+					4
+				]
+				type: "location"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
 			dependencies: ["0467EF29CA06A563"]
 			id: "302E5C14042D4C85"
 			rewards: [{
 				count: 12
 				id: "75E1794DCC7C9A86"
-				item: "gribtweaks:witch_ingot"
+				item: "hexerei:witch_ingot"
 				random_bonus: 5
 				type: "item"
 			}]
 			subtitle: "Убиватор 3000"
 			tasks: [{
-				id: "4FC6982B6DC3A390"
+				id: "067EB5E2DC5D0464"
 				item: {
 					Count: 1b
-					id: "gribtweaks:witch_hammer"
+					id: "hexerei:witch_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 6.0d
 		}
 		{

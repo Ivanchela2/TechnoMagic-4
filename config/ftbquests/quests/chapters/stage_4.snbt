@@ -1201,19 +1201,12 @@
 			dependencies: ["4E188111AFD45944"]
 			description: ["Сама бездна вам шепчет"]
 			id: "44B322DA6056AF8F"
-			rewards: [
-				{
-					id: "211337CF3261327D"
-					item: "enigmaticlegacy:ocean_stone"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7220FEEC847BE6CA"
-					table_id: 2388181515047984932L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7220FEEC847BE6CA"
+				table_id: 2388181515047984932L
+				type: "random"
+			}]
 			tasks: [{
 				id: "48CD478DA606740A"
 				item: {

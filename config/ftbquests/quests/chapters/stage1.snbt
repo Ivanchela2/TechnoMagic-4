@@ -462,7 +462,7 @@
 				item: "totemic:tipi"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 6.5d
 		}
 		{
@@ -596,6 +596,17 @@
 				type: "item"
 			}]
 			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E66179B19904D5E"]
+			id: "203470031D4BE97E"
+			tasks: [{
+				id: "18D81C97A7838BCA"
+				item: "totemic:rattle"
+				type: "item"
+			}]
+			x: 10.5d
 			y: 6.5d
 		}
 	]

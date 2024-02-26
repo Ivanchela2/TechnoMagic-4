@@ -2932,7 +2932,8 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3717A960E8DB96B7"]
+			dependencies: ["1B86A502898A6439"]
+			hide_dependency_lines: true
 			id: "310A3B4D8AF915F4"
 			invisible: true
 			rewards: [{
