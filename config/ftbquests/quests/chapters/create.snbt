@@ -447,7 +447,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -22.5d
 			y: 0.5d
 		}
 		{
@@ -895,51 +895,6 @@
 				type: "item"
 			}]
 			x: -22.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["67482E513F189F57"]
-			id: "0FD5E71F6F48B462"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F6C5A21FC395DD6"
-				table_id: 8574709875988243886L
-				type: "choice"
-			}]
-			subtitle: "Ну можно теперь и секретные лаборатории организовывать"
-			tasks: [{
-				id: "4C507E9B65910005"
-				item: "create_things_and_misc:card_press"
-				type: "item"
-			}]
-			title: "Програматор карт доступа"
-			x: -20.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0FD5E71F6F48B462"]
-			id: "75C3A0A6CE80AC3F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "104E33FD5A9195C8"
-				table_id: 8574709875988243886L
-				type: "choice"
-			}]
-			subtitle: "Только Леону их не показывай..."
-			tasks: [
-				{
-					id: "4BF3EC5BA1409847"
-					item: "create_things_and_misc:card_reader"
-					type: "item"
-				}
-				{
-					id: "24A143AFF40D4C2D"
-					item: "create_things_and_misc:empty_card"
-					type: "item"
-				}
-			]
-			title: "Карты доступа"
-			x: -18.5d
 			y: 4.0d
 		}
 		{
@@ -1472,44 +1427,6 @@
 			title: "Опытные инструмены"
 			x: -22.0d
 			y: 8.0d
-		}
-		{
-			dependencies: ["356ADE2ABF0E62EC"]
-			id: "0193DB7759CCFC4A"
-			subtitle: "Сожмите розовый кварц и получите кварцевый лист."
-			tasks: [{
-				id: "35B2D2E6E16C5FDF"
-				item: "create_things_and_misc:rose_quartz_sheet"
-				type: "item"
-			}]
-			title: "Розовый кварцевый лист"
-			x: -23.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6E25191E1912EFC9"]
-			id: "5A0FE018FB3DD9BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1702C95BE621FCB0"
-				table_id: 8574709875988243886L
-				type: "choice"
-			}]
-			subtitle: "Руна для получения модификации починка на основе опыта."
-			tasks: [{
-				id: "04464B5D246743D9"
-				item: {
-					Count: 1b
-					id: "create_things_and_misc:mending_rune"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Руна починки"
-			x: -22.0d
-			y: 9.0d
 		}
 		{
 			dependencies: ["32697BCFC9B16CB4"]

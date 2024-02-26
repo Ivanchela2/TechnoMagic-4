@@ -426,7 +426,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F858C938425F40C"
-				table_id: 2565126488773509505L
 				type: "loot"
 			}]
 			tasks: [{
@@ -516,32 +515,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["05EBC27472F491E3"]
-			description: ["С помощью шаблонов вы можете создавать инструменты из различных материалов."]
-			id: "09F5CC2E70293B32"
-			rewards: [{
-				count: 4
-				id: "0127EF8DE236FB4A"
-				item: "silentgear:template_board"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D6988086D549CE5"
-				item: "silentgear:template_board"
-				type: "item"
-			}]
-			title: "Шаблончики"
-			x: -1.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["0C5E8A624A5E28F3"]
 			description: ["Найдя удобное место для оброботки, вы смогли обьединить андезит и цинк. Успех!"]
 			id: "0749D26B0CAA8918"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4CF8DBDB606575F9"
-				table_id: 2565126488773509505L
 				type: "loot"
 			}]
 			tasks: [{
@@ -560,7 +539,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1FAAF6346195D1CC"
-				table_id: 2565126488773509505L
 				type: "loot"
 			}]
 			tasks: [
@@ -588,27 +566,6 @@
 			title: "Технологично"
 			x: 4.5d
 			y: 1.5d
-		}
-		{
-			description: ["Хоть на вас и напали, но вы получили очень важный предмет с помощью которого сделали важнейший источник ресурсов. Надо поблагодарить \"Гриб\"."]
-			id: "73EAA79E19228ED9"
-			invisible: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77BB95D39FDC6C7D"
-				type: "loot"
-			}]
-			tasks: [{
-				id: "3A33FD21A72B1028"
-				item: {
-					Count: 1b
-					id: "gribtweaks:forest_catalyst"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["05BA6237D762B372"]
@@ -653,6 +610,7 @@
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
+			hide: true
 			id: "7AB3B86EACDCFD4C"
 			rewards: [{
 				id: "0D6DF5757C72863D"

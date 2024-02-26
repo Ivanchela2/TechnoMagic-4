@@ -220,7 +220,7 @@
 				}
 			]
 			title: "Тёмные силы"
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -320,29 +320,6 @@
 			title: "Побрекушечки"
 			x: 7.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["1D7C2D2E80C6C3FB"]
-			id: "277CBB3316FB7B56"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "312BDD79B5D9B520"
-				item: {
-					Count: 1b
-					id: "hexerei:broom_keychain"
-					tag: {
-						Items: [{
-							Count: 1b
-							Slot: 0b
-							id: "twilightforest:minoshroom_trophy"
-						}]
-					}
-				}
-				type: "item"
-			}]
-			x: 8.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["1D7C2D2E80C6C3FB"]
@@ -482,7 +459,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["4AECCE7BD3D05A19"]
+			dependencies: ["1D2A03062704637C"]
 			description: ["Больше разнообразия."]
 			id: "763458E2FE1B8A95"
 			rewards: [{
@@ -505,7 +482,7 @@
 				}
 			]
 			title: "Ботания-мини"
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -1023,170 +1000,29 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0765A7B398C51443"]
-			description: ["Вы заметили, что мир потихоньку загрязняется. Для его очистки, вам понадобится Пылесос. Работает только на высоте 100 и выше."]
-			id: "63E1761FC2BA2580"
-			optional: true
-			tasks: [
-				{
-					id: "6B9EDAF195AE9464"
-					item: {
-						Count: 1b
-						id: "seeds:carbon_dioxide_tank"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "7294E0CBAFF33172"
-					item: {
-						Count: 1b
-						id: "seeds:vacuum_cleaner"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "*Звуки пылесоса*"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7F62FB6AC3C882B4"]
-			description: ["Лёд. Позволит лодке перемещаться с большой скоростью."]
-			id: "648914A1913F7118"
-			optional: true
-			tasks: [
-				{
-					id: "2F9E2866E834E028"
-					item: "hexerei:mahogany_chest_boat"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "7E8B2F0F568735BD"
-					item: "seeds:dry_ice"
-					type: "item"
-				}
-			]
-			title: "Я скорость!"
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["63E1761FC2BA2580"]
-			description: ["Снег. Сухой."]
-			id: "7F62FB6AC3C882B4"
-			optional: true
-			tasks: [{
-				count: 64L
-				id: "6E955288CE8D81E9"
-				item: "seeds:dry_snow"
-				type: "item"
-			}]
-			title: "Сухой снег"
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7F62FB6AC3C882B4"]
-			description: ["Насадка для вентилятора."]
-			id: "416D1590054A068E"
-			optional: true
-			tasks: [{
-				id: "6ED85F6CFF58D8D3"
-				item: "create:nozzle"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7F62FB6AC3C882B4"]
-			id: "3355EA72E279DF1C"
-			optional: true
-			tasks: [{
-				id: "190168DFDC5597BC"
-				item: "seeds:sparkling_water_bucket"
-				type: "item"
-			}]
-			title: "Бесконечное кипение"
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["На горизонте маячит новый остров, нужно его обязательно посетить."]
-			hide_dependency_lines: true
-			id: "1FB3837335109150"
-			rewards: [{
-				count: 4
-				id: "5B9E16B9150C9ABE"
-				item: "minecraft:mangrove_propagule"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4636445E028A59C8"
-				ignore_dimension: false
-				position: [I;
-					43
-					149
-					26
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["0467EF29CA06A563"]
 			id: "302E5C14042D4C85"
 			rewards: [{
-				count: 12
-				id: "75E1794DCC7C9A86"
-				item: "hexerei:witch_ingot"
-				random_bonus: 5
+				count: 10
+				id: "20C04C2F68D946B0"
+				item: "gribtweaks:witch_ingot"
+				random_bonus: 10
 				type: "item"
 			}]
 			subtitle: "Убиватор 3000"
 			tasks: [{
-				id: "067EB5E2DC5D0464"
+				id: "421DC826EBB0996D"
 				item: {
 					Count: 1b
-					id: "hexerei:witch_hammer"
+					id: "gribtweaks:witch_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["4AECCE7BD3D05A19"]
-			description: ["Данная клетка позволит получить ифритов, если они вам необходимы. (см. Описание блока)"]
-			id: "602C0635E5F97D6B"
-			optional: true
-			rewards: [{
-				id: "4013BAAA047CF668"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
-			}]
-			tasks: [{
-				id: "79A1B38B18FDDBB4"
-				item: "gribtweaks:blaze_cell"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
+			x: 0.5d
+			y: 7.0d
 		}
 	]
 	title: "&5Стадия: 3"

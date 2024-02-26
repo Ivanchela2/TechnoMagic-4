@@ -16,6 +16,7 @@
 	quests: [
 		{
 			dependencies: ["744223264E0F1603"]
+			hide: true
 			id: "550E08A6CA4D4993"
 			shape: "gear"
 			size: 1.5d

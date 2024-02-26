@@ -23,7 +23,7 @@
 		{
 			dependencies: ["2AB9D41EA6F6EFF3"]
 			description: ["После постройки структуры, вам откроется доступ к крафтам множества вещей."]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "1172FCA541C97A82"
 			rewards: [
@@ -96,7 +96,7 @@
 				}
 			]
 			title: "Кузница Гефеста"
-			x: -1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -809,6 +809,7 @@
 		{
 			dependencies: ["4206CAF1FF7A3CF7"]
 			description: ["Удачи)..."]
+			hide: true
 			id: "1B86A502898A6439"
 			rewards: [{
 				count: 6
@@ -1573,25 +1574,6 @@
 			}]
 			x: -7.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["56AA959756F87056"]
-			id: "5B923987601DBFE8"
-			rewards: [{
-				count: 6
-				id: "2B7426BB396C242E"
-				item: "ae2:fluix_glass_cable"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "Начни свой путь к бесконечному хранилищу"
-			tasks: [{
-				id: "3312FEBF6110D224"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["63B29B3070AED9E5"]
@@ -2933,9 +2915,9 @@
 		}
 		{
 			dependencies: ["1B86A502898A6439"]
+			hide: true
 			hide_dependency_lines: true
 			id: "310A3B4D8AF915F4"
-			invisible: true
 			rewards: [{
 				id: "0898BA37E7306ACC"
 				item: "skinnedlanterns:bee_lantern_block"
@@ -3182,7 +3164,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2F028D1BD646A3B8"]
+			dependencies: ["1B86A502898A6439"]
+			hide_dependency_lines: true
 			id: "2AB9D41EA6F6EFF3"
 			rewards: [{
 				count: 16
@@ -3191,7 +3174,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Добудьте тёмный камень с помощью пчёл."
+			subtitle: "Добудьте тёмный камень."
 			tasks: [{
 				count: 64L
 				id: "09E5683D05D7F1BF"
@@ -3199,8 +3182,8 @@
 				type: "item"
 			}]
 			title: "Добываем камешки"
-			x: -15.0d
-			y: -4.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3596,7 +3579,7 @@
 				type: "item"
 			}]
 			title: "Панелька огонь"
-			x: -1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -3618,7 +3601,7 @@
 				type: "item"
 			}]
 			title: "Красная красивая панелька"
-			x: -1.0d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -3784,7 +3767,7 @@
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -3802,7 +3785,7 @@
 				item: "forbidden_arcanus:ferrognetic_mixture"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -4416,7 +4399,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["1B86A502898A6439"]
+			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Веселье начинается прямо сейчас."]
 			hide_dependency_lines: true
 			id: "3F7BF82CF8C81EE2"

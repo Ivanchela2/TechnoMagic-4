@@ -6,53 +6,10 @@
 	icon: "ae2:controller"
 	id: "5517DB1EE4D8FF1A"
 	order_index: 1
-	quest_links: [
-		{
-			id: "51EE4CDEEA79CEFF"
-			linked_quest: "51FE3C9431CEAFA6"
-			shape: "hexagon"
-			x: -8.0d
-			y: -4.5d
-		}
-		{
-			id: "02AFC8E7C2E3664D"
-			linked_quest: "5B923987601DBFE8"
-			x: -0.5d
-			y: 5.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4735BEF35A0ACF06"]
-			id: "3CD0CFB73FD947D9"
-			rewards: [{
-				id: "7BA9AB2475145A1A"
-				item: {
-					Count: 1b
-					id: "sophisticatedstorage:iron_barrel"
-					tag: {
-						woodType: "spruce"
-					}
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "475BC9FC6742C49A"
-				item: {
-					Count: 1b
-					id: "sophisticatedstorage:iron_barrel"
-					tag: {
-						woodType: "spruce"
-					}
-				}
-				type: "item"
-			}]
-			x: -30.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3CD0CFB73FD947D9"]
+			dependencies: ["2F880F5DB87876D1"]
 			id: "6D3141B419D6E4CE"
 			rewards: [{
 				id: "2DC812FD50D5D37A"
@@ -224,36 +181,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7ED7EECAB7CC1D44"]
-			id: "3927C57C3293792B"
-			rewards: [{
-				id: "6D8167D543126EBE"
-				item: {
-					Count: 1b
-					id: "sophisticatedstorage:iron_chest"
-					tag: {
-						woodType: "oak"
-					}
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "4CC5D02BFC1931E1"
-				item: {
-					Count: 1b
-					id: "sophisticatedstorage:iron_chest"
-					tag: {
-						woodType: "oak"
-					}
-				}
-				type: "item"
-			}]
-			x: -29.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3927C57C3293792B"]
+			dependencies: ["12876748BFC0F875"]
 			id: "27388A7FCAE6B09F"
 			rewards: [{
 				id: "1D8053679A59C86E"
@@ -383,10 +311,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"5B923987601DBFE8"
-				"3D95D4CD24EDEFF7"
-			]
+			dependencies: ["3D95D4CD24EDEFF7"]
 			description: ["Сердце вашей мэ-системы."]
 			id: "01F8FC11A4BD3AA2"
 			rewards: [{
@@ -589,7 +514,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["51FE3C9431CEAFA6"]
+			dependencies: ["411F11097647D0B0"]
 			description: ["Установите контроллер на землю и расставьте 6 стабилизаторов направленные на кристалическую матрицу."]
 			id: "41758D3112569FA1"
 			rewards: [{
@@ -764,7 +689,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["51FE3C9431CEAFA6"]
+			dependencies: ["411F11097647D0B0"]
 			id: "507B0D8C243D5ED8"
 			rewards: [{
 				id: "15C0791F0CA1A0A4"
@@ -981,7 +906,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
+			dependencies: [
+				"744223264E0F1603"
+				"7ED7EECAB7CC1D44"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "7942B6D2D2D2663F"
@@ -995,6 +923,7 @@
 		}
 		{
 			dependencies: ["7942B6D2D2D2663F"]
+			hide: true
 			hide_dependency_lines: true
 			id: "1183E063536D52A8"
 			tasks: [{
@@ -1741,6 +1670,7 @@
 		}
 		{
 			dependencies: ["269813405F3B5046"]
+			hide: true
 			hide_dependency_lines: true
 			id: "25AD335A29A79765"
 			tasks: [{
@@ -1752,8 +1682,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["27C1866EB0EC0909"]
+			dependencies: ["7ED7EECAB7CC1D44"]
 			description: ["Подключает все сундуки которые стоят вместе в одно хранилище"]
+			hide: true
 			hide_dependency_lines: true
 			id: "3EAA22517515E4A5"
 			rewards: [{
@@ -1988,7 +1919,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			description: ["Хранит все диски с ресурсами, ну и не только ресурсами."]
 			id: "4F3E0461DA1EB52F"
 			rewards: [{
@@ -2023,10 +1954,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"3717A960E8DB96B7"
-				"5B923987601DBFE8"
-			]
+			dependencies: ["3717A960E8DB96B7"]
 			description: ["Позволяет заряжать кристаллы."]
 			hide: true
 			id: "634E1DF433409C38"
@@ -2218,7 +2146,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			description: ["Выторгуйте прессы у местного работяги."]
 			id: "0B0AC29FF6D90ECE"
 			rewards: [
@@ -3528,7 +3456,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3312FEBF6110D224"]
 			id: "2895092C7D29444B"
 			invisible: true
 			tasks: [{
@@ -3551,7 +3478,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3312FEBF6110D224"]
 			id: "4768D6F9B1BB23DF"
 			invisible: true
 			tasks: [{
@@ -3596,7 +3522,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3312FEBF6110D224"]
 			id: "7303B62255CD5068"
 			invisible: true
 			tasks: [{
@@ -3608,7 +3533,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			id: "758F0766427D6087"
 			rewards: [
 				{
@@ -3639,7 +3564,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			hide_dependency_lines: true
 			id: "1A708EC4CD86E389"
 			tasks: [{
@@ -3651,7 +3576,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			hide_dependency_lines: true
 			id: "1B1E22EB8566C6EF"
 			tasks: [{
@@ -3663,7 +3588,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["5B923987601DBFE8"]
+			dependencies: ["67923D5AF7DD6F52"]
 			hide_dependency_lines: true
 			id: "031DB6B972412384"
 			tasks: [{
@@ -3688,6 +3613,104 @@
 			}]
 			x: -0.5d
 			y: 9.5d
+		}
+		{
+			dependencies: ["7ED7EECAB7CC1D44"]
+			id: "12876748BFC0F875"
+			rewards: [{
+				id: "0F8BBA1D614DBD48"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "20B286777C7DD0C2"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4735BEF35A0ACF06"]
+			id: "2F880F5DB87876D1"
+			rewards: [{
+				id: "1B2A0AF25505BC36"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CD8D1DB37D723AD"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4F943CCC0D6D0E87"
+				"38FF01FE1835B023"
+			]
+			id: "411F11097647D0B0"
+			subtitle: "Еще одна система хранения?"
+			tasks: [{
+				id: "7E636EE0350044F0"
+				item: {
+					Count: 1b
+					id: "occultism:dimensional_matrix"
+					tag: {
+						spiritName: "Reifirtron"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["56AA959756F87056"]
+			id: "67923D5AF7DD6F52"
+			rewards: [{
+				count: 6
+				id: "38CDB46EA3E0C1B0"
+				item: "ae2:fluix_glass_cable"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Начни свой путь к бесконечному хранилищу"
+			tasks: [{
+				id: "08DE123D47F923D1"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 	title: "&3Хранение"

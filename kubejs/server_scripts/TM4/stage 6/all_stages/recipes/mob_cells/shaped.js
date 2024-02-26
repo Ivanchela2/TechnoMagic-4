@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
           B: 'minecraft:blaze_powder',
           I: 'twilightforest:ironwood_block',
           M: 'minecraft:fire_charge',
-          U: 'gribtweaks:unforgotten_soul'
+          U: 'twilightforest:firefly'
         },
         id: `${prefix}blaze_cell`
       }

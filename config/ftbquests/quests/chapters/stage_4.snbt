@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["0467EF29CA06A563"]
+			hide: true
 			id: "4BA91AB519070D4D"
 			rewards: [{
 				count: 4
@@ -292,27 +293,6 @@
 			}]
 			x: -5.5d
 			y: 4.4d
-		}
-		{
-			dependencies: [
-				"4F943CCC0D6D0E87"
-				"38FF01FE1835B023"
-			]
-			id: "51FE3C9431CEAFA6"
-			subtitle: "Еще одна система хранения?"
-			tasks: [{
-				id: "1A49EE2F54B443CF"
-				item: {
-					Count: 1b
-					id: "occultism:dimensional_matrix"
-					tag: {
-						spiritName: "Reifirtron"
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["4F943CCC0D6D0E87"]
@@ -739,7 +719,7 @@
 		}
 		{
 			dependencies: ["6EB36D6CE6B28111"]
-			description: ["Найдите скалк сенсор. Пригодится."]
+			description: ["Найдите скалк сенсор. Пригодится (нет)."]
 			id: "0AE65EB87D0B9717"
 			rewards: [{
 				count: 64
@@ -793,20 +773,13 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "78E0DAF09902B2C5"
-			rewards: [
-				{
-					count: 4
-					id: "1B4B59212E14A0A1"
-					item: "aquamirae:fin"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "18DE705FE43019C1"
-					item: "enigmaticlegacy:ocean_stone"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "1B4B59212E14A0A1"
+				item: "aquamirae:fin"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "72C9191C3B96BEB4"
 				item: "aquamirae:fin"
