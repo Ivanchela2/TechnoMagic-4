@@ -112,7 +112,6 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 2.0d
 			tasks: [{
 				id: "31920DE4B0D76CE0"
 				item: {
@@ -124,7 +123,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -135,7 +134,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -157,7 +156,6 @@
 				}
 				type: "item"
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "3C2E9F1ED2A2DDB0"
 				item: {
@@ -169,7 +167,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -186,7 +184,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -197,7 +195,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -213,7 +211,7 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -224,7 +222,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -239,13 +237,12 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			size: 2.0d
 			tasks: [{
 				id: "68E624CAAA6F047D"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -262,7 +259,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -290,7 +287,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -302,7 +299,7 @@
 				item: "notreepunching:ceramic_small_vessel"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -319,7 +316,7 @@
 				item: "notreepunching:ceramic_large_vessel"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -337,7 +334,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 4.5d
 		}
 		{
@@ -345,13 +342,12 @@
 			dependency_requirement: "one_completed"
 			description: ["Флейта используется для ритуалов из Totemic."]
 			id: "2EFAB1FFEE0413F4"
-			size: 2.0d
 			tasks: [{
 				id: "004B51630DA9C295"
 				item: "totemic:flute"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -369,7 +365,6 @@
 				}
 				type: "item"
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "3856FB3CE56EBB52"
 				item: {
@@ -382,7 +377,7 @@
 				type: "item"
 			}]
 			title: "Нож для вырезания тотемов"
-			x: 10.0d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
@@ -403,7 +398,6 @@
 				type: "xp"
 				xp: 10
 			}]
-			size: 2.0d
 			tasks: [
 				{
 					id: "57AF1D2318540262"
@@ -417,7 +411,7 @@
 				}
 			]
 			title: "Бизоны"
-			x: 10.0d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -433,7 +427,7 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -450,7 +444,7 @@
 				item: "totemic:drum"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -462,7 +456,7 @@
 				item: "totemic:tipi"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 6.5d
 		}
 		{
@@ -484,7 +478,7 @@
 				type: "observation"
 			}]
 			title: "Попугай"
-			x: 12.0d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
@@ -505,21 +499,20 @@
 				item: "totemic:eagle_bone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0A2E19584BBEDCF3"]
 			description: ["Благодаря свистку из орлиной кости вы можете призвать босса Байкока."]
 			id: "433AA6BC59B57D44"
-			size: 1.5d
 			tasks: [{
 				id: "26070C0E17930E1A"
 				item: "totemic:eagle_bone_whistle"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
@@ -536,7 +529,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -568,7 +561,6 @@
 					xp_levels: 10
 				}
 			]
-			size: 3.0d
 			tasks: [{
 				entity: "totemic:baykok"
 				icon: {
@@ -583,8 +575,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 15.5d
-			y: 1.5d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2EFAB1FFEE0413F4"]
@@ -595,7 +587,7 @@
 				item: "totemic:wind_chime"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 6.5d
 		}
 		{
@@ -606,7 +598,7 @@
 				item: "totemic:rattle"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 8.5d
 			y: 6.5d
 		}
 	]
