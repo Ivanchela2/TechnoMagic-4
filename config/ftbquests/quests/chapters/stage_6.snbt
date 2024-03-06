@@ -3,6 +3,7 @@
 	default_quest_shape: "square"
 	filename: "stage_6"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: "chemlib:hydrogen"
 	id: "5B29CA8B0650BD13"
 	images: [

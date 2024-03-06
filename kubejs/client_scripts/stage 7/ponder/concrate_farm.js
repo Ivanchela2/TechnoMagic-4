@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             /minecraft:\w+concrete/
         ])
-        .scene('gribtweaks:concrete_farm', "Concrate Farm!", 'quark_concrete_farm', (scene, util) => {
+        .scene('gribtweaks:concrete_farm', "Ферма бетона!", 'quark_concrete_farm', (scene, util) => {
             scene.scaleSceneView(.8);
             scene.addKeyframe()
             scene.idle(0)
@@ -12,14 +12,14 @@ Ponder.registry(e => {
             scene.world.showSection(util.select.fromTo(10,1,10,4,1,6), Facing.DOWN)
             scene.overlay.showText(60)
                 .colored(PonderPalette.RED)
-                .text("The best concrete farm!")
+                .text("Лучшая ферма бетона!")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
             scene.idle(0)
             scene.world.showSection(util.select.fromTo(5,1,1,4,1,1), Facing.DOWN)
             scene
-                .text(40, "Place 2 chests", [4, 1,1])
+                .text(40, "Разместите 2 сундука", [4, 1,1])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(40)
@@ -31,7 +31,7 @@ Ponder.registry(e => {
             scene.world.showSection(util.select.fromTo(4,1,2,4,1,4), Facing.DOWN)
             scene.idle(0)
             scene
-                .text(40, "Place hoppers", [5,1,4])
+                .text(40, "Разместите воронки", [5,1,4])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(40)
@@ -47,7 +47,7 @@ Ponder.registry(e => {
             scene.idle(20)
             scene.idle(0)
             scene
-                .text(30, "Set the maximum delay on the redstone repeater", [8,2,5])
+                .text(30, "Поставьте максимальную задержку на повторителе", [8,2,5])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(30)
@@ -64,7 +64,7 @@ Ponder.registry(e => {
             scene.addKeyframe()
             scene.idle(0)
             scene
-                .text(20, "Place the iron rod", [5,2,4])
+                .text(20, "Здесь железный стержень", [5,2,4])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(20)
@@ -99,7 +99,7 @@ Ponder.registry(e => {
             scene.idle(20)
             scene.idle(0)
             scene
-                .text(40, "Set the maximum delay on all redstone transmitters", [5,3,10])
+                .text(40, "Поставьте максимальную задержку на повторителях", [5,3,10])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(40)
@@ -121,14 +121,14 @@ Ponder.registry(e => {
             scene.idle(20)
             scene.idle(0)
             scene
-                .text(40, "Insert dry concrete into the chest", [4,5,9])
+                .text(40, "Поместите сухой бетон в сундук", [4,5,9])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(40)
             scene.addKeyframe()
             scene.idle(0)
             scene
-                .text(40, "And throw any block into the funnel to start the mechanism!", [6,1,5])
+                .text(40, "Теперь бросьте любой блок в воронку, чтобы запустить механизм!", [6,1,5])
                 .colored(PonderPalette.WHITE)
                 .placeNearTarget()
             scene.idle(40)

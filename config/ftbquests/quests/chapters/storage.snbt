@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "storage"
 	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:controller"
 	id: "5517DB1EE4D8FF1A"
 	order_index: 1
@@ -3456,6 +3457,8 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["4F3E0461DA1EB52F"]
+			hide_dependency_lines: true
 			id: "2895092C7D29444B"
 			invisible: true
 			tasks: [{
@@ -3478,6 +3481,8 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4F3E0461DA1EB52F"]
+			hide_dependency_lines: true
 			id: "4768D6F9B1BB23DF"
 			invisible: true
 			tasks: [{
@@ -3522,6 +3527,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4F3E0461DA1EB52F"]
+			hide_dependency_lines: true
 			id: "7303B62255CD5068"
 			invisible: true
 			tasks: [{
@@ -3694,7 +3701,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["56AA959756F87056"]
+			dependencies: ["1172FCA541C97A82"]
 			id: "67923D5AF7DD6F52"
 			rewards: [{
 				count: 6

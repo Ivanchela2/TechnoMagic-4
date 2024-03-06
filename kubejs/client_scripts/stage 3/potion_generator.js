@@ -11,7 +11,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.GREEN)
-                .text("A lingering potion will generate aura with any positive potions")
+                .text("Затяжной поглотитель генерирует ауру с помощью любых положительных зелий")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()

@@ -1,8 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "rsquare"
+	default_quest_shape: "circle"
 	filename: "stage1"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "minecraft:wooden_pickaxe"
@@ -29,7 +30,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "gear"
+			size: 1.2d
 			tasks: [
 				{
 					id: "798CE192F9356BCE"
@@ -42,8 +44,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 2.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["744223264E0F1603"]
@@ -55,14 +57,15 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "77797DFAC3DFCCAA"
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -70,7 +73,6 @@
 				"3E651EC02E370DDD"
 			]
 			description: ["При ломании травы при помощи ножа выпадает растительное волокно, используемое для создания нитей."]
-			hide: true
 			id: "7B908CABA361E481"
 			tasks: [{
 				id: "453BCDE7FE04CDED"
@@ -101,7 +103,7 @@
 				item: "notreepunching:plant_fiber"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -124,18 +126,21 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["417DCE7F7196C6FF"]
+			hide: true
 			id: "72CEB74B0928C7C3"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "6FCBD45174ACBACF"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -168,11 +173,12 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
+			hide: true
 			id: "28541DF5F861F45D"
 			rewards: [{
 				count: 4
@@ -185,22 +191,24 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["28541DF5F861F45D"]
+			hide: true
 			id: "73995DDB352A2786"
 			tasks: [{
 				id: "36B490F0F4AA5B6D"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["73995DDB352A2786"]
+			hide: true
 			id: "77A2452ACD969D50"
 			rewards: [{
 				id: "0A3E33CAB0ECD6B0"
@@ -212,18 +220,19 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
+			hide: true
 			id: "3EE32FBF22B7DBFA"
 			tasks: [{
 				id: "499CE15F77317FDA"
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -238,16 +247,19 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "68E624CAAA6F047D"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
+			hide: true
 			id: "1EB6928031F52962"
 			tasks: [{
 				id: "03D69CE446E71997"
@@ -260,8 +272,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
@@ -288,24 +300,26 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7F65431A411A36D5"]
 			description: ["Маленькая ваза является маленьким переносным хранилищем наподобии рюкзака."]
+			hide: true
 			id: "21F9907FD66925B1"
 			tasks: [{
 				id: "31DAB590A91BE4BD"
 				item: "notreepunching:ceramic_small_vessel"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7F65431A411A36D5"]
 			description: ["Большая ваза служит примитивным хранилищем предметов."]
+			hide: true
 			id: "33F946785D2BF16C"
 			rewards: [{
 				id: "3E2D72C2BB0BF920"
@@ -317,12 +331,13 @@
 				item: "notreepunching:ceramic_large_vessel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7F65431A411A36D5"]
 			description: ["Используйте глиняный инструмент для формирования ножниц."]
+			hide: true
 			id: "0AB23B1BF5126C37"
 			tasks: [{
 				id: "46A172D1BF9521BD"
@@ -335,8 +350,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0AB23B1BF5126C37"]
@@ -348,12 +363,13 @@
 				item: "totemic:flute"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
 			description: ["Используйте нож для вырезания тотемов для создания тотемов, придающих эффекты."]
+			hide: true
 			id: "4483B26DA29EB896"
 			rewards: [{
 				id: "6FEF117E0481DA3A"
@@ -378,8 +394,8 @@
 				type: "item"
 			}]
 			title: "Нож для вырезания тотемов"
-			x: 8.0d
-			y: 2.5d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -393,6 +409,7 @@
 				""
 				"Дождитесь взросления бизонов и убейте их, получив шкуру и зуб бизонов. "
 			]
+			hide: true
 			id: "5E66179B19904D5E"
 			rewards: [{
 				id: "030AF563296197F8"
@@ -412,8 +429,8 @@
 				}
 			]
 			title: "Бизоны"
-			x: 8.0d
-			y: 4.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
@@ -428,12 +445,13 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["57EF6D6B886AA24C"]
 			description: ["Барабан используется для ритуалов из Totemic."]
+			hide: true
 			id: "4C4FAFD2EDC48D20"
 			rewards: [{
 				id: "1D6DC326BC92045E"
@@ -445,20 +463,21 @@
 				item: "totemic:drum"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
 			description: ["Типи имеет схожий функционал с кроватью."]
+			hide: true
 			id: "77B5B020F036C0E6"
 			tasks: [{
 				id: "448138D6EC2661D8"
 				item: "totemic:tipi"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: 13.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
@@ -479,8 +498,8 @@
 				type: "observation"
 			}]
 			title: "Попугай"
-			x: 10.0d
-			y: 4.5d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C7112651DC277D4"]
@@ -500,8 +519,8 @@
 				item: "totemic:eagle_bone"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.5d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A2E19584BBEDCF3"]
@@ -512,12 +531,13 @@
 				item: "totemic:eagle_bone_whistle"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
 			description: ["Звенящее платье создаёт дополнительную музыку для ритуалов из Totemic."]
+			hide: true
 			id: "4EB5E7BF233723F6"
 			tasks: [{
 				id: "6B670480B05F6B78"
@@ -530,8 +550,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["433AA6BC59B57D44"]
@@ -542,6 +562,7 @@
 				""
 				"Убейте Байкока, тем самым завершив первую стадию."
 			]
+			hide: true
 			id: "3B1B6F0B1BF3A5D2"
 			rewards: [
 				{
@@ -562,6 +583,8 @@
 					xp_levels: 10
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				entity: "totemic:baykok"
 				icon: {
@@ -576,31 +599,33 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 18.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2EFAB1FFEE0413F4"]
 			description: ["Музыкальная подвеска создаёт дополнительную музыку для ритуалов из Totemic."]
+			hide: true
 			id: "4C726E51016719B2"
 			tasks: [{
 				id: "6EE0F47F9CAA01A5"
 				item: "totemic:wind_chime"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.5d
+			x: 11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
+			hide: true
 			id: "203470031D4BE97E"
 			tasks: [{
 				id: "18D81C97A7838BCA"
 				item: "totemic:rattle"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: 13.5d
+			y: 3.5d
 		}
 	]
 	title: "&5Стадия: 1"

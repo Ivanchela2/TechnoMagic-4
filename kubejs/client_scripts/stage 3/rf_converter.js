@@ -11,7 +11,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.INPUT)
-                .text("The smith's energy aura will generate RF energy with the aura")
+                .text("Кузница энергетической Ауры будет генерировать RF при помощи ауры")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
@@ -38,7 +38,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.RED)
-                .text("Now generate an aura in any way you like")
+                .text("Теперь создайте ауру (любым способом)")
                 .placeNearTarget();
             scene.idle(60)  
         })

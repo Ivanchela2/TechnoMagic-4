@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chips_and_tips"
 	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:red_mushroom"
 	id: "3E06612061BD3044"
 	order_index: 3
@@ -11,6 +12,7 @@
 		{
 			dependencies: ["686DB5E9235DA971"]
 			description: ["Использовать портативные версии рабочих мест куда удобнее - получайте доступ к ним прямо из инвентаря."]
+			hide: true
 			hide_dependency_lines: true
 			id: "2E5A62466B0FAF8B"
 			rewards: [{
@@ -59,6 +61,7 @@
 				""
 				"&l&4Обязательно нужно носить в инвентаре, в рюкзаках время не копится&r&r"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "5F0677D94F675271"
 			rewards: [{
@@ -87,6 +90,7 @@
 				""
 				"Храните все свои амулеты в одном месте с помощью &cпояса для амулетов&r."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "3D862DF7BEEE6B39"
 			rewards: [{
@@ -121,6 +125,7 @@
 		{
 			dependencies: ["686DB5E9235DA971"]
 			description: ["Используйте &6универсальные трубы&r, чтобы не вести множество труб к одному механизму."]
+			hide: true
 			hide_dependency_lines: true
 			id: "1C70C695D72D5F5F"
 			rewards: [{
@@ -146,6 +151,7 @@
 				""
 				"Можно взять с собой котика на пляж, или жителя в свою берлогу ;)"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "161E42D28B60C551"
 			rewards: [{
@@ -165,6 +171,7 @@
 		{
 			dependencies: ["686DB5E9235DA971"]
 			description: ["Используйте &6медный горшок&r или &6кухонный котёл&r, для более удобного приготовдения еды."]
+			hide: true
 			hide_dependency_lines: true
 			id: "5B86BB9AAB6CE139"
 			rewards: [{
@@ -196,6 +203,7 @@
 				""
 				"&6Блок огненого металла&r - аналог ванильной магмы."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "455E4C4E955426F9"
 			rewards: [{
@@ -233,6 +241,7 @@
 				""
 				"&6Улучшение \"Магнит\"&r - улучшение для рюкзака. Собирает предметы вокруг."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "027736C7BAEAF5F3"
 			rewards: [{
@@ -275,6 +284,7 @@
 		{
 			dependencies: ["686DB5E9235DA971"]
 			description: ["Не знаю, как вы собираетесь применить эту механику, но эта штука позволит творить великие дела... Ужасные... Но великие!"]
+			hide: true
 			hide_dependency_lines: true
 			id: "03B36CA2727F5510"
 			rewards: [{
@@ -299,6 +309,7 @@
 				""
 				"Запитайте его маной, и этот товарищ сгенерирует хоть всю мать природу."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "7A579E2412EFD7F8"
 			rewards: [{

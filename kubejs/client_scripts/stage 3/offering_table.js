@@ -9,7 +9,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("In order to start the ritual, you need to build this structure")
+                .text("Для того чтобы начать ритуал, вам нужно построить следующую конструкцию...")
                 .placeNearTarget();
             scene.idle(60)
             scene.idle(0)
@@ -27,7 +27,7 @@ Ponder.registry(e => {
             scene.addKeyframe()
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("And place the table itself ")
+                .text("И разместите стол в центре")
                 .placeNearTarget();
             scene.world.showSection(util.grid.at(5, 1, 5), Facing.DOWN)
             scene.idle(60)
@@ -35,7 +35,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("Place the first item shown in REI on the table")
+                .text("Разместите первый предмет (см. JEI) на стол")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
@@ -49,7 +49,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("Now put the spirit of the call on the table")
+                .text("Сюда же дух призыва")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
@@ -59,7 +59,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("And the ritual process will start after the particles appear")
+                .text("И ритуал начнется!")
                 .placeNearTarget();
             scene.idle(60)
             scene.world.removeEntity(calling_spirit);

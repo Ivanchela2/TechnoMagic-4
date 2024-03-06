@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "stage_5"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:soul"
 	id: "226D8B2BE3549D63"
 	images: [{
@@ -96,575 +97,11 @@
 				}
 			]
 			title: "Кузница Гефеста"
-			x: 0.0d
+			x: 0.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1172FCA541C97A82"
-				"1D368BDA7B0341AA"
-			]
-			description: ["Что это может значить?"]
-			hide_dependency_lines: true
-			id: "0A62BC295FFC79E9"
-			invisible: true
-			rewards: [{
-				id: "1505640CE5A0D742"
-				item: "minecraft:totem_of_undying"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6102C25F271F770A"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5E54AFF356F4542D"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0E5B2C4DA4E8BE18"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A6D226254AA1BC7"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Костюм смерти"
-			x: 1.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: false
-			id: "1EB9F7701AE976B1"
-			rewards: [{
-				id: "43C3FED4D47F35A1"
-				item: "productivebees:obsidian_nest"
-				type: "item"
-			}]
-			subtitle: "Латы из самого дракона."
-			tasks: [
-				{
-					id: "2BA569BA82B7B906"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:draco_arcanus_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "56000F0A428F607B"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:draco_arcanus_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "37615AF9D3FD91BE"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:draco_arcanus_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "43D2039AD2C5A9DE"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:draco_arcanus_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Мистические латы"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1EB9F7701AE976B1"]
-			id: "1D368BDA7B0341AA"
-			rewards: [{
-				id: "27B6611474F8EF66"
-				item: {
-					Count: 1b
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:gold"
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Улучшеные латы дракона."
-			tasks: [
-				{
-					id: "00FF56DE3FCD02C2"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:tyr_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14E17D91FCF27209"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:tyr_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3661AA3BEDE003D6"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:tyr_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "152446ECE2CDEDB9"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:tyr_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Латы Тира"
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D368BDA7B0341AA"]
-			icon: "twilightforest:alpha_yeti_trophy"
-			id: "56581509C44E4189"
-			rewards: [{
-				id: "629A19D52ABF9FF6"
-				item: "twilightforest:charm_of_keeping_3"
-				type: "item"
-			}]
-			subtitle: "Отправьтесь в холодный биом Сумеречного леса, чтобы сразить это создание, охраняющее королеву"
-			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				id: "73BFC6D40E10C8CF"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Альфа больше, не альфа"
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["56581509C44E4189"]
-			id: "3D8E06A638DE4A42"
-			rewards: [{
-				id: "5ED5357E8CA03F98"
-				item: "twilightforest:moon_dial"
-				type: "item"
-			}]
-			subtitle: "Меховая шубка. Пригодится в холодных биомах"
-			tasks: [
-				{
-					count: 24L
-					id: "3CC1F9416E8120F9"
-					item: "twilightforest:arctic_fur"
-					type: "item"
-				}
-				{
-					id: "5EF2C7898013B319"
-					item: {
-						Count: 1b
-						id: "twilightforest:arctic_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6E7B318432D7A3EC"
-					item: {
-						Count: 1b
-						id: "twilightforest:arctic_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "24345BAE4A1D7F0B"
-					item: {
-						Count: 1b
-						id: "twilightforest:arctic_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "37AE89BA401D8463"
-					item: {
-						Count: 1b
-						id: "twilightforest:arctic_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Шубка"
-			x: 6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["56581509C44E4189"]
-			id: "549A8A48AE505BB4"
-			rewards: [{
-				id: "7863E5DDE703A492"
-				item: {
-					Count: 1b
-					id: "twilightforest:ice_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Шубка из альфы, это лучше чем шубка из обычных йети"
-			tasks: [
-				{
-					count: 24L
-					id: "2B407851F88D7B4B"
-					item: "twilightforest:alpha_yeti_fur"
-					type: "item"
-				}
-				{
-					id: "0D994B9AD7ECF0C5"
-					item: {
-						Count: 1b
-						id: "twilightforest:yeti_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1D6FE5FD4F2B2F81"
-					item: {
-						Count: 1b
-						id: "twilightforest:yeti_chestplate"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BA3810E3CA84525"
-					item: {
-						Count: 1b
-						id: "twilightforest:yeti_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "513B7E92111FB83B"
-					item: {
-						Count: 1b
-						id: "twilightforest:yeti_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:protection"
-									lvl: 2s
-								}
-								{
-									id: "minecraft:feather_falling"
-									lvl: 4s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Шубка из альфы"
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1EB9F7701AE976B1"]
-			icon: "twilightforest:knight_phantom_trophy"
-			id: "7CD7A225C23C42EC"
-			rewards: [{
-				id: "1043F8F8ED2F77F4"
-				item: {
-					Count: 1b
-					id: "twilightforest:knightmetal_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Найдите его в лабиринте."
-			tasks: [{
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-				id: "352EEB128D56A03F"
-				type: "advancement"
-			}]
-			title: "Победить Фантомов."
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7CD7A225C23C42EC"]
-			icon: "twilightforest:ur_ghast_trophy"
-			id: "56AA959756F87056"
-			rewards: [{
-				count: 6
-				id: "27A2196644B593C6"
-				item: "twilightforest:carminite"
-				type: "item"
-			}]
-			subtitle: "Ур-гаст как принцесса, он живет на самом верху башни."
-			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				id: "2EF88CD40E84EF3D"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Победить Ур-гаста "
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["56581509C44E4189"]
-			icon: "twilightforest:snow_queen_trophy"
-			id: "6013F8CFAC8F4CD6"
-			rewards: [{
-				id: "01323D4BCDD24C41"
-				item: {
-					Count: 1b
-					id: "twilightforest:glass_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Типичная история с королевой в башне, только здесь ёё не надо спасать"
-			tasks: [{
-				entity: "twilightforest:snow_queen"
-				id: "4B55C37A1B0673A3"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Королева снежная"
-			x: 6.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"73BFC6D40E10C8CF"
-				"4B55C37A1B0673A3"
-				"2EF88CD40E84EF3D"
-				"7CD7A225C23C42EC"
-			]
-			hide: false
-			hide_dependency_lines: true
-			id: "6C5482E57DEF8FAC"
-			invisible: true
-			rewards: [
-				{
-					count: 64
-					id: "35A41769B989C22C"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "15CED734B67650A6"
-					item: "minecraft:orange_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "02501BBD63CA8190"
-					item: "minecraft:magenta_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1181078D66F833AF"
-					item: "minecraft:light_blue_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "4B9D636718A60CCE"
-					item: "minecraft:yellow_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "5045370846638481"
-					item: "minecraft:lime_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "24D7D64917F5576E"
-					item: "minecraft:pink_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "62FB507F356DCFFC"
-					item: "minecraft:gray_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "0CF11FDC506AA23A"
-					item: "minecraft:light_gray_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "671C83E46248A878"
-					item: "minecraft:cyan_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "2797FEEC967370A4"
-					item: "minecraft:purple_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1FF01F3CDB075883"
-					item: "minecraft:blue_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "4FD5AE23071D65F1"
-					item: "minecraft:brown_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "0FAC88CED308AFC5"
-					item: "minecraft:green_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "38FCD8D81C43173E"
-					item: "minecraft:red_wool"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "7F945E01539942C0"
-					item: "minecraft:black_wool"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "Собери все цвета шерсти для Барана"
-			tasks: [{
-				id: "2A87D55333E8864D"
-				item: "twilightforest:quest_ram_trophy"
-				type: "item"
-			}]
-			title: "Баран хочет шерсть"
-			x: -4.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["56AA959756F87056"]
 			hide_dependency_lines: false
 			id: "2162F48918D56A9C"
 			rewards: [
@@ -728,7 +165,7 @@
 				}
 			]
 			title: "Книги лучший друг человека"
-			x: 13.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -763,7 +200,7 @@
 				item: "enigmaticlegacy:heaven_scroll"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -785,7 +222,7 @@
 				type: "item"
 			}]
 			title: "Креативный полёт?!"
-			x: 9.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -803,11 +240,15 @@
 				item: "enigmaticlegacy:astral_fruit"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["4206CAF1FF7A3CF7"]
+			dependencies: [
+				"41BF45C87E6F6410"
+				"045C3D369D9FADD6"
+				"6317A3CD85E467D0"
+			]
 			description: ["Удачи)..."]
 			hide: true
 			id: "1B86A502898A6439"
@@ -952,7 +393,7 @@
 				item: "enigmaticlegacy:astral_dust"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -983,7 +424,7 @@
 				item: "enigmaticlegacy:evil_essence"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 8.5d
 			y: -5.0d
 		}
 		{
@@ -1002,7 +443,7 @@
 				item: "enigmaticlegacy:evil_ingot"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 10.5d
 			y: -5.0d
 		}
 		{
@@ -1042,7 +483,7 @@
 				type: "item"
 			}]
 			title: "бесконечные ресурсы"
-			x: 11.5d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -1149,7 +590,6 @@
 			dependencies: [
 				"48A0EC4555C2F79D"
 				"1606617C43A24983"
-				"4B55C37A1B0673A3"
 			]
 			description: ["Стоит или не стоит?"]
 			icon: "occultism:spirit_fire"
@@ -1297,7 +737,7 @@
 				type: "checkmark"
 			}]
 			title: "Вот она достойная награда"
-			x: -2.0d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -1475,7 +915,7 @@
 				type: "item"
 			}]
 			title: "Железная пчёлка"
-			x: -6.0d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
@@ -1620,7 +1060,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -1643,7 +1083,7 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 10.0d
 			y: 1.0d
 		}
 		{
@@ -1672,7 +1112,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 5.5d
 			y: -3.5d
 		}
 		{
@@ -1689,7 +1129,7 @@
 				item: "enigmaticlegacy:escape_scroll"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -1712,7 +1152,7 @@
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
@@ -1742,7 +1182,7 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -1760,7 +1200,7 @@
 				item: "enigmaticlegacy:unholy_grail"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -1783,7 +1223,7 @@
 				item: "enigmaticlegacy:blazing_core"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -1805,7 +1245,7 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -1822,7 +1262,7 @@
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -1834,7 +1274,7 @@
 				item: "enigmaticlegacy:cursed_ring"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -1854,7 +1294,7 @@
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -1872,7 +1312,7 @@
 				item: "enigmaticlegacy:cursed_scroll"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -1890,7 +1330,7 @@
 				item: "enigmaticlegacy:berserk_charm"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 14.5d
 			y: -3.5d
 		}
 		{
@@ -1910,7 +1350,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -1928,7 +1368,7 @@
 				item: "enigmaticlegacy:forbidden_fruit"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -1949,7 +1389,7 @@
 				item: "enigmaticlegacy:twisted_heart"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
@@ -1962,7 +1402,7 @@
 				type: "item"
 			}]
 			title: "Зачем нам проклятие"
-			x: 14.0d
+			x: 8.5d
 			y: 5.5d
 		}
 		{
@@ -1982,7 +1422,7 @@
 				item: "enigmaticlegacy:enchanter_pearl"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 8.0d
 			y: -6.5d
 		}
 		{
@@ -2000,7 +1440,7 @@
 				item: "enigmaticlegacy:infinimeal"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.5d
 			y: -3.5d
 		}
 		{
@@ -2024,7 +1464,7 @@
 				item: "enigmaticlegacy:abyssal_heart"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.5d
 			y: -6.5d
 		}
 		{
@@ -2055,7 +1495,7 @@
 				item: "enigmaticlegacy:the_cube"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 7.0d
 			y: -6.5d
 		}
 		{
@@ -2072,7 +1512,7 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -2093,7 +1533,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 14.0d
 			y: -8.0d
 		}
 		{
@@ -2115,7 +1555,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 14.0d
 			y: -6.5d
 		}
 		{
@@ -2148,7 +1588,7 @@
 				type: "item"
 			}]
 			title: "как элитры только лучше"
-			x: 16.5d
+			x: 11.0d
 			y: -3.5d
 		}
 		{
@@ -2178,7 +1618,7 @@
 				type: "item"
 			}]
 			title: "Дремлющее око"
-			x: 9.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -2197,7 +1637,7 @@
 				item: "enigmaticlegacy:recall_potion"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -2215,7 +1655,7 @@
 				item: "enigmaticlegacy:mending_mixture"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -2233,7 +1673,7 @@
 				item: "enigmaticlegacy:redemption_potion"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -2250,7 +1690,7 @@
 				item: "enigmaticlegacy:twisted_potion"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 14.0d
 			y: 1.5d
 		}
 		{
@@ -2274,7 +1714,7 @@
 				item: "enigmaticlegacy:the_twist"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 9.0d
 			y: -6.5d
 		}
 		{
@@ -2299,7 +1739,7 @@
 				item: "enigmaticlegacy:the_infinitum"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 10.5d
 			y: -6.5d
 		}
 		{
@@ -2316,7 +1756,7 @@
 				item: "enigmaticlegacy:iron_ring"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -2334,7 +1774,7 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -2352,7 +1792,7 @@
 				item: "enigmaticlegacy:darkest_scroll"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -2377,7 +1817,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -2404,7 +1844,7 @@
 				type: "item"
 			}]
 			title: "Зелья полезные"
-			x: 20.0d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -2454,7 +1894,7 @@
 				type: "item"
 			}]
 			title: "бошкосшибательное оружие"
-			x: 18.0d
+			x: 12.5d
 			y: -5.0d
 		}
 		{
@@ -2479,7 +1919,7 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 11.5d
 			y: -2.0d
 		}
 		{
@@ -3278,8 +2718,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0A62BC295FFC79E9"]
-			hide_dependency_lines: true
+			dependencies: ["7439FE304A184259"]
 			id: "63BE8D9BF4A9F95D"
 			rewards: [{
 				id: "5BBA0B04885122A4"
@@ -3305,18 +2744,12 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"0A62BC295FFC79E9"
-				"6CA5FE01B5BD0C2B"
-				"7DCBFEDFEDDBB117"
-			]
-			hide_dependency_lines: true
+			dependencies: ["62D5EB2F4D59A4D3"]
 			id: "47A3F275A2C21198"
-			invisible: true
 			rewards: [{
 				id: "270BE1277293A24E"
 				item: {
@@ -3341,12 +2774,11 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 12.5d
 		}
 		{
-			dependencies: ["0A62BC295FFC79E9"]
-			hide_dependency_lines: true
+			dependencies: ["4DA01161D393BBAC"]
 			id: "219762AA6306D027"
 			rewards: [{
 				id: "462CB9F3F4054506"
@@ -3372,12 +2804,11 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["0A62BC295FFC79E9"]
-			hide_dependency_lines: true
+			dependencies: ["5E3EA498752A83D3"]
 			id: "36E3E9B27BE1BF7D"
 			rewards: [{
 				id: "32E47C85542F980D"
@@ -3403,7 +2834,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 14.5d
 		}
 		{
@@ -3534,38 +2965,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6013F8CFAC8F4CD6"]
-			icon: {
-				Count: 1b
-				id: "cataclysm:ignitium_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "4B9A5EF6E8A2ED5D"
-			invisible: true
-			tasks: [
-				{
-					id: "5EE67DE4F9CA5D36"
-					item: "minecraft:dolphin_spawn_egg"
-					type: "item"
-				}
-				{
-					entity: "minecraft:zombie"
-					id: "42F07D663C46EA39"
-					type: "kill"
-					value: 100L
-				}
-			]
-			title: "Финальный босс"
-			x: 6.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"1172FCA541C97A82"
-				"1EE42A294EBBD610"
-			]
+			dependencies: ["1172FCA541C97A82"]
 			id: "4BDCF017B842BED5"
 			rewards: [{
 				id: "1B5B6A0887410B3C"
@@ -3579,14 +2979,11 @@
 				type: "item"
 			}]
 			title: "Панелька огонь"
-			x: 0.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4BDCF017B842BED5"
-				"2EF88CD40E84EF3D"
-			]
+			dependencies: ["4BDCF017B842BED5"]
 			id: "4FB99E2B2B11B4D9"
 			invisible: true
 			rewards: [{
@@ -3601,7 +2998,7 @@
 				type: "item"
 			}]
 			title: "Красная красивая панелька"
-			x: 0.0d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -3681,7 +3078,7 @@
 				item: "enigmaticlegacy:enigmatic_item"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.5d
 			y: -8.0d
 		}
 		{
@@ -3767,8 +3164,8 @@
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -3785,8 +3182,8 @@
 				item: "forbidden_arcanus:ferrognetic_mixture"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2F028D1BD646A3B8"]
@@ -4058,7 +3455,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 11.5d
 		}
 		{
@@ -4088,7 +3485,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 12.5d
 		}
 		{
@@ -4118,7 +3515,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 13.5d
 		}
 		{
@@ -4148,7 +3545,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 14.5d
 		}
 		{
@@ -4305,7 +3702,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 11.5d
 		}
 		{
@@ -4335,7 +3732,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 12.5d
 		}
 		{
@@ -4365,7 +3762,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 14.5d
 		}
 		{
@@ -4395,7 +3792,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 13.5d
 		}
 		{
@@ -4476,7 +3873,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["7CD7A225C23C42EC"]
+			dependencies: ["1B86A502898A6439"]
+			hide_dependency_lines: true
 			icon: "gribtweaks:ametrine_ore"
 			id: "27CD2C168B13BCA9"
 			tasks: [{
@@ -4484,8 +3882,8 @@
 				item: "gribtweaks:ametrine_geode"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
@@ -4495,8 +3893,8 @@
 				item: "gribtweaks:empty_rune"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
@@ -4506,8 +3904,8 @@
 				item: "gribtweaks:elemental_fragments_block"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["543253F809DF8CCB"]
@@ -4517,7 +3915,7 @@
 				item: "gribtweaks:elemental_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.0d
 			y: -3.0d
 		}
 		{
@@ -4565,7 +3963,7 @@
 				}
 			]
 			title: "Руны"
-			x: 4.0d
+			x: -10.0d
 			y: -5.0d
 		}
 		{
@@ -4576,8 +3974,8 @@
 				item: "gribtweaks:ametrine_ore_crystal"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -5080,6 +4478,78 @@
 			}]
 			x: -12.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			hide_dependency_lines: true
+			id: "7439FE304A184259"
+			tasks: [{
+				id: "740FFD3CAA75891E"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mortem_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			hide_dependency_lines: true
+			id: "62D5EB2F4D59A4D3"
+			tasks: [{
+				id: "2C91CC9D5476E491"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mortem_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			hide_dependency_lines: true
+			id: "4DA01161D393BBAC"
+			tasks: [{
+				id: "385F285CEA8E041E"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mortem_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			hide_dependency_lines: true
+			id: "5E3EA498752A83D3"
+			tasks: [{
+				id: "1B45306EB413DB05"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mortem_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
 		}
 	]
 	title: "&5Стадия: 5"

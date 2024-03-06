@@ -4,14 +4,14 @@ Ponder.registry(e => {
             'botania:endoflame',
             'botania:floating_endoflame'
         ])
-        .scene('gribtweaks:endoflame', "Mana Farm on Endoflames", 'kubejs:endoflame', (scene, util) => {
+        .scene('gribtweaks:endoflame', "Эндопламя: Ферма маны", 'kubejs:endoflame', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(-1);
     scene.world.showSection(util.select.layer(0), Facing.UP)
     scene.idle(20)
     scene.overlay.showText(60)
 			.colored(PonderPalette.OUTPUT)
-			.text("Let's build a Mana Farm on Endoflames")
+			.text("Давайте построим ферму маны на цветках Эндопламени!")
 			.placeNearTarget();
     scene.idle(80)
     scene.addKeyframe()
@@ -52,13 +52,13 @@ Ponder.registry(e => {
     scene.world.showSection(util.select.position(6,6,5), Facing.DOWN)
     scene.idle(20)
     scene
-        .text(60, "Droppers must be directed downwards", [2, 5, 5])
+        .text(60, "Выбрасыватели должны смотреть вниз", [2, 5, 5])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(80)
     scene.overlay.showText(120)
-        .text("Now place a storage where you will put coal blocks and pipes that will load items in the droppers")
+        .text("Теперь разместите хранилище для топлива и проведите от него трубы к выбрасывателям")
         .colored(PonderPalette.OUTPUT)
         .attachKeyFrame()
     scene.idle(140)
@@ -69,7 +69,7 @@ Ponder.registry(e => {
     scene.world.showIndependentSection(util.select.fromTo(5,1,5,5,6,5), Facing.NORTH)
     scene.idle(20)
     scene
-        .text(60, "Make this pipe as an output", [4, 2, 4])
+        .text(60, "Поменяйте режим трубы на \"Выход\"", [4, 2, 4])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
         .attachKeyFrame()
@@ -81,12 +81,12 @@ Ponder.registry(e => {
         .whileSneaking()
     scene.idle(60)
     scene
-        .text(100, "You can also make evenly mod in pipe to load fuel in all droppers", [4, 2, 4])
+        .text(100, "Можно использовать любой другой мод, чтобы загружать выбрасыватели топливом", [4, 2, 4])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
     scene.idle(120)
     scene
-        .text(60, "Put coal blocks in the chest", [4, 2, 3])
+        .text(60, "Поместите топливо в сундук", [4, 2, 3])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
         .attachKeyFrame()
@@ -97,7 +97,7 @@ Ponder.registry(e => {
         .withItem('coal_block')
     scene.idle(60)
     scene
-        .text(80, "Now place redstone links on all of these droppers", [1.7, 5, 4])
+        .text(80, "Далее разместите редстоуновые передатчики на выбрасыватели", [1.7, 5, 4])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
         .attachKeyFrame()
@@ -105,20 +105,20 @@ Ponder.registry(e => {
     scene.world.showIndependentSection(util.select.fromTo(2,2,4,6,6,4), Facing.SOUTH)
     scene.idle(20)
     scene
-        .text(120, "Choose filter in the link (we will use a coal block) and right click on them to make them work", [2, 5, 4])
+        .text(120, "Поменяйте фильтр на передатчиках (разместите там топливо). Нажмите на них, чтобы они заработали", [2, 5, 4])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
     scene.idle(140)
     scene.overlay.showText(60)
 			.colored(PonderPalette.OUTPUT)
-			.text("Now place a hourglass with 40 red sand in it")
+			.text("Теперь разместите песочные часы с 40 красного песка")
 			.placeNearTarget()
             .attachKeyFrame()
     scene.idle(80)
     scene.world.showSection(util.select.position(4,1,1), Facing.DOWN)
     scene.idle(20)
     scene
-        .text(80, "And place a redstone link with filter on it to make droppers work", [4, 2, 1])
+        .text(80, "И разместите на них редстоуновые передатчики с фильтром, чтобы выбрасыватели работали", [4, 2, 1])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
         .attachKeyFrame()
@@ -132,7 +132,7 @@ Ponder.registry(e => {
     scene.world.showIndependentSection(util.select.position(4,1,8), Facing.DOWN)
     scene.idle(20)
     scene
-        .text(80, "Connect mana spreaders with flowers and with mana pool", [4, 5, 6])
+        .text(80, "Присоедините распространители маны к цветкам, а затем напрвьте их на бассейн маны", [4, 5, 6])
         .colored(PonderPalette.OUTPUT)
         .placeNearTarget()
 

@@ -9,13 +9,13 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 18.0d
+		height: 9.0d
 		hover: [ ]
 		image: "ftbquests:textures/technomagic_islands_logo.png"
 		rotation: 0.0d
-		width: 32.0d
+		width: 16.0d
 		x: 0.0d
-		y: -7.5d
+		y: -4.5d
 	}]
 	order_index: 0
 	progression_mode: "flexible"
@@ -29,8 +29,8 @@
 			]
 			icon: "avaritia:endest_pearl"
 			id: "744223264E0F1603"
-			shape: "rsquare"
-			size: 5.0d
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
 				id: "2C71ACBB231D2B40"
 				title: "Рады приветствовать тебя!"
@@ -41,7 +41,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
 			description: [
 				"Сборка создавалась почти 3 месяца (фактически больше) &o(учитывая, что в команде 15 человек)&r.  И в итоге у нас получилось объединить в одном месте и куча магии, и огромные заводы нового поколения, и разные автоматические фермы и системы хранения."
 				""
@@ -49,19 +48,20 @@
 				""
 				"В общем, надеюсь тебе понравится, &aудачи&r!"
 			]
+			hide: false
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "13FBA44202FDD502"
-			size: 4.0d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "002F7C1A020F3143"
 				title: "О сборке"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
 			description: [
 				"&7&oты сделал это? - а я не вижу! (цитата из команды)&r&r"
 				""
@@ -114,15 +114,16 @@
 			]
 			icon: "minecraft:diamond"
 			id: "3D6832BBCD606E13"
-			size: 4.0d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "4BAC092B47FFD4D8"
 				title: "О команде"
 				type: "checkmark"
 			}]
 			title: "О команде"
-			x: 6.0d
-			y: 6.0d
+			x: 3.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["В мою таверну."]

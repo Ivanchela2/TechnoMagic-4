@@ -1,134 +1,24 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "rsquare"
+	default_quest_shape: "circle"
 	filename: "stage_3"
 	group: "472A643616306AAC"
-	icon: "twilightforest:twilight_portal_miniature_structure"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "4C45765EF96B1F2C"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["Скрафтите или найдите корни и сломайте их, чтобы получить замшелый корень."]
-			id: "5835379C03113E98"
-			rewards: [{
-				count: 4
-				id: "276515886ECAD186"
-				item: "minecraft:mangrove_roots"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "10C4EA7B7B70892B"
-				item: "twilightforest:liveroot_block"
-				type: "item"
-			}]
-			title: "Проросший"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["719CBE19584F107B"]
-			description: ["Откройте портал в Сумеречный лес."]
-			hide: true
-			id: "249EED31D84418E8"
-			rewards: [
-				{
-					id: "773579908B4D4DF0"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									2111550943
-									-1212330312
-									-2062262521
-									567742714
-								]
-								Name: "Sklam1x"
-								Properties: {
-									textures: [
-										{
-											Signature: "W/6jMMDeSxZ+ArX3+YoEZ3B9s4WQhYho5ie4kz6LHonli4qvodagvodhN8v7cn4hD63NJ81XgxQDQqSowWqIs4xKVt6WSc1LgDDAUdHXHZEVkrjiFeZ3ynOabYiW15zqtz72tO3lN1wpJmkTnPjg67Z40hW7wf/g6NAr/tTC+EDz/PS34kBHC/5jOylNVjDDchhVArJqzHc3ZxyAYi2DiSUyIp5yjqwo0g4jb80bqqpIEkICbSNy5p4GxfByaUVE9czkGXKZWWHreZ4Msa+t4PWqASta2DHapKs+H3APIrOMZDyRLiSHMFZdqj1Y6c4uco8ABESzEKiEmivm39bvtpkEmhofgdztSczsdlyaBmbX9hH1IBAStsUxS8aAe6Yb3GHm724FDXGSHCLmICZUcYXYV5rzKOyu3Un3fMKiJdtAGpC2YZzTG+tv3mAsaQirG16xX+2ZykB+EJbhl/LMhpfTpI9FjXTU75RIOtXScarKgKFCzmtVFxnaQ0muwzNlfEJBkmSg0kY7+9eo/sJ5x7shu5+AuEXqAcnfIWk2azT8T2mAubAlQkY0fxu3WD8TTBRf3VopUjP8xb98cH6Vuxbzt+8DJIyP3yNPvtZM4E6vbj1mNXxLAWucyw96W5tGGi59Oqbo47uujQ/b1XmDv44cdTv+yHnaV0xBLhxeL3s="
-											Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MzYyODczMjIxNywKICAicHJvZmlsZUlkIiA6ICI3ZGRiYjVkZmI3YmQ0ZWI4ODUxNDVmMDcyMWQ3MTBmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2xhbTF4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkOGRlNTI3M2FiOTQ4OGNhMjlhNzFiZmU5NmJhNDg5MGUwMzUzMWI2MTBiYzgwZTUwMTZkZjU1Y2ZmNWFkNTEiCiAgICB9CiAgfQp9"
-										}
-										{
-											Signature: "W/6jMMDeSxZ+ArX3+YoEZ3B9s4WQhYho5ie4kz6LHonli4qvodagvodhN8v7cn4hD63NJ81XgxQDQqSowWqIs4xKVt6WSc1LgDDAUdHXHZEVkrjiFeZ3ynOabYiW15zqtz72tO3lN1wpJmkTnPjg67Z40hW7wf/g6NAr/tTC+EDz/PS34kBHC/5jOylNVjDDchhVArJqzHc3ZxyAYi2DiSUyIp5yjqwo0g4jb80bqqpIEkICbSNy5p4GxfByaUVE9czkGXKZWWHreZ4Msa+t4PWqASta2DHapKs+H3APIrOMZDyRLiSHMFZdqj1Y6c4uco8ABESzEKiEmivm39bvtpkEmhofgdztSczsdlyaBmbX9hH1IBAStsUxS8aAe6Yb3GHm724FDXGSHCLmICZUcYXYV5rzKOyu3Un3fMKiJdtAGpC2YZzTG+tv3mAsaQirG16xX+2ZykB+EJbhl/LMhpfTpI9FjXTU75RIOtXScarKgKFCzmtVFxnaQ0muwzNlfEJBkmSg0kY7+9eo/sJ5x7shu5+AuEXqAcnfIWk2azT8T2mAubAlQkY0fxu3WD8TTBRf3VopUjP8xb98cH6Vuxbzt+8DJIyP3yNPvtZM4E6vbj1mNXxLAWucyw96W5tGGi59Oqbo47uujQ/b1XmDv44cdTv+yHnaV0xBLhxeL3s="
-											Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MzYyODczMjIxNywKICAicHJvZmlsZUlkIiA6ICI3ZGRiYjVkZmI3YmQ0ZWI4ODUxNDVmMDcyMWQ3MTBmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2xhbTF4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkOGRlNTI3M2FiOTQ4OGNhMjlhNzFiZmU5NmJhNDg5MGUwMzUzMWI2MTBiYzgwZTUwMTZkZjU1Y2ZmNWFkNTEiCiAgICB9CiAgfQp9"
-										}
-									]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "681A1D7F6C39E6C0"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									-346653149
-									-1929820014
-									-1444940713
-									1783363135
-								]
-								Name: "BaGGeR_"
-								Properties: {
-									textures: [{
-										Signature: "O7p7cEOQ/sTr3Y94OfzhjPd3qBqCUJ9Xq5Zq3tNwrN2/FTG+uOhAczm4GZXJXW14ZStcwuelG4S5HXLw80sh79PZ3Sxe0HHcLeiXDDlHcEvwegW5FEpYLTrtkUC0VVxCD8g38i7CGcwVDwf6OBEsKvPXDIOoTvEfOxdxIDjEX3GAr4H4Icgut6jEtux042rKWx4jmIgGnXz3W9/XU9u1SNBiq4vPqmElw2rYFt17Sh1YznkfnbEyEVmXiGNKH5Cy3CdhPxJpU/gkUyAM+SUiNJWsKnTrsZLSVt/WxUM1leE+CHuCYH6Db3BYTXypnAxXRNJMFXzhiip8UU4KVdzyxZYLlzv3ZhHUujlCVjfj9hA98miNgM5Kqiht7NBfThJGwZx1IjUOVGVY5CqY+abKR4IZxwHC7/Nwt8AdimuHCY3xR6EhlLpvSSkFQZflFQjKQSu0MKDRVF7mZL1Pjyb+9Q7+nTQhGwji/vUnRKr+G8FAUmTMIeoZyw7hn4IYC2YK4OimPgEFSqdd3M5cLPvfcTHrDefo+sDkxCJf++eoVWtA8580f+7189vk7k6YqeSJ6UNAdmsZovxQrxjexvwzrHOkgqBvuUmNmZW+SPf5+dUlN/UvaidXEwvOHycPvJmJUYSiacbJgtBHOjVHBbJ6tT3k7GMLL1d1Goy6cQD60TU="
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4Mzc4OTk2Mzg0NCwKICAicHJvZmlsZUlkIiA6ICJlYjU2N2UyMzhjZjk0ODkyYTlkZmY0NTc2YTRiZjYzZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCYUdHZVJfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY0NmQzNDc5MWY0YWRjZmRlNzY3YmE3MTAyMWVlZmE1OTBjN2RjZmJhNGFhM2I3YjIwZWMxYWM2M2M2MjJiY2QiCiAgICB9CiAgfQp9"
-									}]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.4d
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "2314C3569A6ECA48"
-				type: "dimension"
-			}]
-			title: "Да здравствует, Сумеречный лес!"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5835379C03113E98"]
-			description: ["Лучше, чем обычное железо."]
-			icon: "twilightforest:ironwood_ingot"
-			id: "4AECCE7BD3D05A19"
-			rewards: [{
-				id: "3A1FCB8C6BBD8DED"
-				item: "twilightforest:ironwood_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "68A43E34E56C5879"
-				item: "twilightforest:raw_ironwood"
-				type: "item"
-			}]
-			title: "Комбо"
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4AECCE7BD3D05A19"
-				"629084BAE7A02AC0"
-			]
+			dependencies: ["5C3F9AF1D9019A99"]
 			description: ["Новый способ создания предметов."]
+			hide: true
 			id: "1D2A03062704637C"
 			rewards: [
 				{
@@ -144,13 +34,15 @@
 					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.2d
 			tasks: [{
 				id: "799BE75AB9DA7094"
 				item: "hexerei:mixing_cauldron"
 				type: "item"
 			}]
 			title: "Котелок"
-			x: 4.5d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -173,8 +65,8 @@
 				type: "item"
 			}]
 			title: "Сундучок"
-			x: 4.5d
-			y: -1.5d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
@@ -191,44 +83,13 @@
 				type: "item"
 			}]
 			title: "Кровавая магия"
-			x: 6.0d
-			y: 0.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["Алтарь поможет вам обратиться к высшим силам, чтобы получить подсказки."]
-			id: "629084BAE7A02AC0"
-			tasks: [
-				{
-					id: "172359694D236726"
-					item: "hexerei:book_of_shadows_altar"
-					type: "item"
-				}
-				{
-					id: "323840FD8A167F85"
-					item: {
-						Count: 1b
-						id: "hexerei:book_of_shadows"
-						tag: {
-							bookmarks: { }
-							chapter: 0
-							opened: 0b
-							page: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Тёмные силы"
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"0F97D80974B31802"
-				"453B7DB977D14FB9"
-			]
+			dependencies: ["0F97D80974B31802"]
 			description: ["С помощью метлы вы смогли взлететь! Это ваша первая метла, так что управление оставляет желать лучшего."]
+			hide: true
 			id: "6F833510FBC27BD8"
 			tasks: [{
 				id: "0375870710A4ABDA"
@@ -236,8 +97,8 @@
 				type: "item"
 			}]
 			title: "Вверх!"
-			x: 6.0d
-			y: 4.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6F833510FBC27BD8"]
@@ -259,12 +120,13 @@
 				type: "item"
 			}]
 			title: "Полетаем?"
-			x: 7.5d
-			y: 4.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18EE46D2B53AD9FD"]
 			description: ["Данная метла ещё быстрее."]
+			hide: true
 			id: "11239E0D28C57A1C"
 			rewards: [{
 				id: "45C41A116E7D14A5"
@@ -282,12 +144,13 @@
 				type: "item"
 			}]
 			title: "Я скорость!"
-			x: 9.0d
-			y: 4.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18EE46D2B53AD9FD"]
 			description: ["Ваши первые аксессуары на метлу."]
+			hide: true
 			id: "1D7C2D2E80C6C3FB"
 			rewards: [{
 				id: "4D7EA10DA171A09B"
@@ -318,8 +181,8 @@
 				}
 			]
 			title: "Побрекушечки"
-			x: 7.5d
-			y: 3.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D7C2D2E80C6C3FB"]
@@ -336,8 +199,8 @@
 				item: "hexerei:medium_satchel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7C423F1C85CB4D61"]
@@ -362,26 +225,11 @@
 				}
 			]
 			title: "Расширение территории"
-			x: 10.5d
-			y: 3.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["18EE46D2B53AD9FD"]
-			description: ["Чтобы использовать, нужно высушить."]
-			id: "29FA3E5E187A5B19"
-			tasks: [{
-				id: "17A2FC994CD9C43B"
-				item: "hexerei:wet_herb_enhanced_broom_brush"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"29FA3E5E187A5B19"
-				"008D6F5767D2A4A2"
-			]
+			dependencies: ["0ABB08FA3D63FEAD"]
 			description: ["После сушки вы получили готовый веник. Наденьте его на метлу."]
 			id: "426DCFB3F028EB08"
 			tasks: [{
@@ -395,8 +243,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["11239E0D28C57A1C"]
@@ -430,37 +278,12 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["249EED31D84418E8"]
-			id: "0765A7B398C51443"
-			optional: true
-			tasks: [{
-				count: 4L
-				id: "0AA07701F4A074DF"
-				item: "hexerei:selenite_shard"
-				type: "item"
-			}]
-			title: "Селенит"
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0467EF29CA06A563"]
-			id: "177B53149BC34836"
-			tasks: [{
-				id: "7C826F5CB33B13BD"
-				item: "naturesaura:conversion_catalyst"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
-			description: ["Больше разнообразия."]
+			description: ["Нужен для измельчения предметов."]
 			id: "763458E2FE1B8A95"
 			rewards: [{
 				id: "414854AF7017B50E"
@@ -468,27 +291,21 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2BA24F369BFA1A49"
-					item: "hexerei:pestle_and_mortar"
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "74805FFC1D523E3F"
-					item: "hexerei:seed_mixture"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BA24F369BFA1A49"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
 			title: "Ботания-мини"
-			x: 3.0d
-			y: 1.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["5CFED47049D444D6"]
+			dependencies: ["22E35B1B54FADBD2"]
 			description: ["Позволит управлять воронами."]
 			id: "44B196BE6006F132"
+			shape: "diamond"
+			size: 0.75d
 			tasks: [{
 				id: "329B32C791BD28A7"
 				item: {
@@ -506,15 +323,17 @@
 				type: "item"
 			}]
 			title: "Манипулятор"
-			x: 1.5d
-			y: 4.5d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["44B196BE6006F132"]
 			description: ["После полного обучения контроля ворон, вы перешли к чем-то большему - к другим питомцам."]
+			hide: true
 			id: "1C0D5A514D31D027"
 			optional: true
 			shape: "diamond"
+			size: 0.75d
 			tasks: [{
 				id: "193434E1AE22AFC5"
 				item: {
@@ -526,32 +345,11 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["763458E2FE1B8A95"]
-			description: ["Перо вырваное из личной вороны."]
-			id: "2C23F9E57EB4FA5C"
-			rewards: [{
-				id: "0EB65323CD7BF0C5"
-				item: "twilightforest:raven_feather"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Бедная ворона"
-			tasks: [{
-				count: 3L
-				id: "1EF2A3F8A74A6EFA"
-				item: "twilightforest:raven_feather"
-				type: "item"
-			}]
-			title: "Пёрышки"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2C23F9E57EB4FA5C"]
+			dependencies: ["1D2A03062704637C"]
 			description: ["Полный сет имеет хорошую защиту и дает специальные эффекты. (См. SHIFT на предмете)"]
 			id: "5CFED47049D444D6"
 			tasks: [
@@ -590,12 +388,13 @@
 				}
 			]
 			title: "Я Ведмочка"
-			x: 1.5d
-			y: 3.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5CFED47049D444D6"]
 			description: ["Улучшенная грибами версия обычной шляпы ведьмы. Да! Оно вам нужно."]
+			hide: true
 			id: "4A6CFFB0BD31BCB4"
 			optional: true
 			tasks: [{
@@ -609,14 +408,11 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"453B7DB977D14FB9"
-				"008D6F5767D2A4A2"
-			]
+			dependencies: ["763458E2FE1B8A95"]
 			description: [
 				"Вы заметили что некоторые противники не уязвимы к холодному оружию. Думается, Магические Посохи помогут вам."
 				""
@@ -625,6 +421,7 @@
 				""
 				"&6Earth Staff&r - стреляет природной масой."
 			]
+			hide: true
 			id: "593117BA3091815E"
 			rewards: [{
 				id: "315162566D30ED4C"
@@ -656,8 +453,8 @@
 				}
 			]
 			title: "Магические палоски"
-			x: 4.5d
-			y: 7.5d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["593117BA3091815E"]
@@ -668,222 +465,31 @@
 				item: "sorcerium:magic_sphere"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.0d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["249EED31D84418E8"]
-			description: ["Найдите или купите у пиглинов светлячков и добудьте с них светопыль."]
-			id: "515E01928C172264"
-			subtitle: "Живность"
-			tasks: [
-				{
-					id: "3366775FE6F6BF96"
-					item: "twilightforest:firefly"
-					type: "item"
+			dependencies: ["296EA10B4BB5C2B3"]
+			id: "3BA8B501954C8FCE"
+			optional: true
+			tasks: [{
+				id: "3C84555066BBA579"
+				item: {
+					Count: 1b
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					count: 2L
-					id: "110C7B664997B894"
-					item: "minecraft:glowstone_dust"
-					type: "item"
-				}
-			]
-			x: 0.0d
+				type: "item"
+			}]
+			x: -1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["69F581557BA017AF"]
-			description: ["Найдите и убейте Нагу."]
-			id: "453B7DB977D14FB9"
-			rewards: [{
-				id: "5AA9A1BBFDF80D4C"
-				item: "twilightforest:naga_scale"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				entity: "twilightforest:naga"
-				icon: "twilightforest:naga_trophy"
-				id: "42DDCA21B6ABB2D5"
-				title: "Убить: &5Нага"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["453B7DB977D14FB9"]
-			description: ["Найдите и убейте Лича."]
-			id: "0467EF29CA06A563"
-			shape: "pentagon"
-			size: 1.7d
-			tasks: [{
-				entity: "twilightforest:lich"
-				icon: "twilightforest:lich_trophy"
-				id: "4889856D70862309"
-				title: "Убить: &5Сумеречный Лич"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2C23F9E57EB4FA5C"]
-			id: "3BA8B501954C8FCE"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "3C84555066BBA579"
-					item: {
-						Count: 1b
-						id: "hexerei:warhammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "362E601BB6898DA7"
-					item: {
-						Count: 1b
-						id: "minecraft:name_tag"
-						tag: {
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"Thor\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "07215253BB5CE21C"
-					item: {
-						Count: 1b
-						id: "hexerei:mahogany_broom"
-						tag: {
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"Thunderbolt VII\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"2C23F9E57EB4FA5C"
-				"1D2A03062704637C"
-			]
-			description: ["Специальная карта, которая сильно поможет вам в Сумеречном лесу."]
-			id: "69F581557BA017AF"
-			rewards: [{
-				id: "02C99B36EF5D61B3"
-				item: "minecraft:paper"
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				id: "24C6043CA4C84F92"
-				item: "twilightforest:magic_map"
-				type: "item"
-			}]
-			title: "Компас 3.0"
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4AECCE7BD3D05A19"]
-			id: "6C9E15C5C19BED06"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "057F8CC3C2294698"
-				item: "twilightforest:ironwood_ingot"
-				random_bonus: 4
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 0.8d
-			tasks: [
-				{
-					id: "0E11EA629F3005D6"
-					item: {
-						Count: 1b
-						id: "twilightforest:ironwood_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:aqua_affinity"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2A7B901780BE92F7"
-					item: {
-						Count: 1b
-						id: "twilightforest:ironwood_chestplate"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64EDDBE3CE14B187"
-					item: {
-						Count: 1b
-						id: "twilightforest:ironwood_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "249BE2115F62DB0F"
-					item: {
-						Count: 1b
-						id: "twilightforest:ironwood_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Сет живого древа"
-			x: 1.5d
-			y: 1.3d
-		}
-		{
-			dependencies: ["249EED31D84418E8"]
+			dependencies: ["6CEF8EBFD54F6D96"]
 			description: ["Вы сделали сушку для предметов и блоков, также используется для украшения."]
-			hide_dependency_lines: true
+			hide: true
 			id: "008D6F5767D2A4A2"
 			rewards: [{
 				id: "74153002B37D26A8"
@@ -897,11 +503,13 @@
 				type: "item"
 			}]
 			title: "Сушить, Сушить, Сушить!"
-			x: 6.0d
-			y: 7.5d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["008D6F5767D2A4A2"]
+			description: ["Все растения можно найти в биоме Болото."]
+			hide: true
 			id: "22E35B1B54FADBD2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -911,24 +519,44 @@
 			}]
 			tasks: [
 				{
-					id: "2E9BCDD2671163E4"
-					item: "hexerei:dried_sage"
+					id: "08F3B3A6E90D8AAD"
+					item: "hexerei:mandrake_flowers"
 					type: "item"
 				}
 				{
-					id: "10A6DE9628B28E61"
-					item: "hexerei:dried_belladonna_flowers"
+					id: "6C973A24511B6EC7"
+					item: "hexerei:mandrake_root"
 					type: "item"
 				}
 				{
-					id: "3B45D5EB3B32483A"
-					item: "hexerei:dried_mugwort_flowers"
+					id: "3F55020492D5B68E"
+					item: "hexerei:mugwort_flowers"
+					type: "item"
+				}
+				{
+					id: "33461F435AF4C192"
+					item: "hexerei:mugwort_leaves"
+					type: "item"
+				}
+				{
+					id: "4C0497B8DA34966E"
+					item: "hexerei:yellow_dock_flowers"
+					type: "item"
+				}
+				{
+					id: "3974F8A336DB8B9A"
+					item: "hexerei:yellow_dock_leaves"
+					type: "item"
+				}
+				{
+					id: "5A316C26AAE62A04"
+					item: "hexerei:belladonna_flowers"
 					type: "item"
 				}
 			]
 			title: "Коллекция трав!"
-			x: 6.5d
-			y: 9.0d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22E35B1B54FADBD2"]
@@ -940,26 +568,47 @@
 				type: "random"
 			}]
 			shape: "diamond"
+			size: 0.75d
 			tasks: [
 				{
-					id: "39D33B83948429D7"
-					item: "hexerei:dried_mugwort_leaves"
+					id: "5C2244BE18197E9E"
+					item: "hexerei:dried_yellow_dock_leaves"
 					type: "item"
 				}
 				{
-					id: "0D8E9CFEC5BB1E98"
+					id: "17687A0CE6024BEB"
 					item: "hexerei:dried_yellow_dock_flowers"
 					type: "item"
 				}
 				{
-					id: "09140D6DAECE629B"
-					item: "hexerei:dried_yellow_dock_leaves"
+					id: "03A1091FE2AD1C84"
+					item: "hexerei:dried_mugwort_leaves"
+					type: "item"
+				}
+				{
+					id: "56BF4E610558E352"
+					item: "hexerei:dried_mugwort_flowers"
+					type: "item"
+				}
+				{
+					id: "1E1BCE9BE19A88CF"
+					item: "hexerei:dried_mandrake_flowers"
+					type: "item"
+				}
+				{
+					id: "37BAA688635B1575"
+					item: "hexerei:dried_belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "380056C256020545"
+					item: "hexerei:dried_sage"
 					type: "item"
 				}
 			]
 			title: "Полезно для здоровья"
-			x: 7.5d
-			y: 9.0d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["008D6F5767D2A4A2"]
@@ -984,8 +633,8 @@
 				}
 			]
 			title: "Ты мой защитник <3"
-			x: 5.5d
-			y: 9.0d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22E35B1B54FADBD2"]
@@ -996,22 +645,72 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["0467EF29CA06A563"]
-			id: "302E5C14042D4C85"
+			dependencies: ["763458E2FE1B8A95"]
+			description: ["Используется для приручения ворон."]
+			id: "5D50E581B55BC5C8"
 			rewards: [{
-				count: 10
-				id: "20C04C2F68D946B0"
-				item: "gribtweaks:witch_ingot"
-				random_bonus: 10
+				id: "1D1A3CAB65D1BDB2"
+				item: "hexerei:crow_spawn_egg"
 				type: "item"
 			}]
-			subtitle: "Убиватор 3000"
 			tasks: [{
-				id: "421DC826EBB0996D"
+				count: 7L
+				id: "54A5CE9D54F08D0A"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D2A03062704637C"]
+			hide_dependency_lines: true
+			id: "493B47BF900C8BD9"
+			tasks: [{
+				id: "2B1382FAD08C2A67"
+				item: "gribtweaks:witch_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D2A03062704637C"]
+			id: "296EA10B4BB5C2B3"
+			tasks: [{
+				id: "4E83A99663B7EE36"
+				item: "gribtweaks:dry_ingot_combining"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"493B47BF900C8BD9"
+				"296EA10B4BB5C2B3"
+			]
+			id: "4030F51C7D65F7C7"
+			tasks: [{
+				id: "2771D98FBBEC498F"
+				item: "gribtweaks:magical_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3BA8B501954C8FCE"
+				"4030F51C7D65F7C7"
+			]
+			id: "174BFDFA64A45B8F"
+			tasks: [{
+				id: "493F9DBD21F9B95C"
 				item: {
 					Count: 1b
 					id: "gribtweaks:witch_hammer"
@@ -1022,7 +721,335 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719CBE19584F107B"]
+			description: ["Семена можно получить ломая траву."]
+			hide: true
+			id: "4BA91AB519070D4D"
+			rewards: [
+				{
+					count: 4
+					id: "22F764A5106506DF"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					id: "0090B0E2AAB6BC44"
+					item: {
+						Count: 1b
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "5BE6D8EE63C69654"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "Приветствую тебя, Призыватель."
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			description: [
+				"Используйте жезл, чтобы быстро найти какой-либо блок. Чтобы привязать - Шифт + ПКМ по блоку. Чтобы искать - зажать ПКМ. Чем темнее посох, тем ближе привязанный блок."
+				""
+				"Привяжитесь к андезиту, чтобы найти камень из иного мира. К листве - листья из иного мира."
+			]
+			id: "00C75AAE6948A0D2"
+			tasks: [{
+				id: "2F190198DBFD816F"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			description: [
+				"Чтобы увидеть камень или листья из иного мира, нужно получить эффект Третье глаз. Структура обычно находится под землей."
+				""
+				"Другой вариант - воспользоваться призрачным огнём."
+			]
+			hide: true
+			id: "43ED3EAD23EA76A1"
+			rewards: [{
+				id: "076DED8F14D15E3E"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			subtitle: "Это не просто камень... "
+			tasks: [{
+				count: 4L
+				id: "6BB40CF2D61259CB"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			title: "Потусторонний камень"
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43ED3EAD23EA76A1"]
+			description: ["Важный ингредиент для ритуалов и других крафтов."]
+			icon: "occultism:spirit_attuned_gem"
+			id: "5C3F9AF1D9019A99"
+			shape: "gear"
+			subtitle: "ГЕМы..."
+			tasks: [{
+				count: 8L
+				id: "178421DE2E4ABF63"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			title: "Гем Духов"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43ED3EAD23EA76A1"]
+			description: ["Убейте мирного моба данным ножом, чтобы получить с него Жир."]
+			id: "69632106C550C4AC"
+			subtitle: "Да начнется Резня!"
+			tasks: [{
+				id: "0129A910160836B0"
+				item: {
+					Count: 1b
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C3F9AF1D9019A99"]
+			hide: true
+			id: "3D495E67D175A51B"
+			shape: "diamond"
+			size: 0.75d
+			subtitle: "Ну а как же ты сделаешь очки без линз?"
+			tasks: [{
+				id: "390155085EE411D0"
+				item: "occultism:lenses"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D495E67D175A51B"]
+			id: "2ED26DB7D77AFF40"
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "54A11C6492FDCCD9"
+				item: "occultism:infused_lenses"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED26DB7D77AFF40"]
+			id: "42B95EADCDBE5589"
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "39353D10D7A933F9"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69632106C550C4AC"]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "66E47D358CC607F9"
+			subtitle: "Да здравствует первый разнорабочий)"
+			tasks: [
+				{
+					id: "146BCAFE518B4FE1"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14D4955AADE3062B"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3C6A4929CFE0FEA6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "467689D635E9CBB1"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "Первый призыв: Дробитель Фолиот"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66E47D358CC607F9"]
+			description: ["Используется для проведения разных ритуалов. (см. Размышления)"]
+			hide: true
+			id: "4F943CCC0D6D0E87"
+			subtitle: "Поиграем в Классики?"
+			tasks: [
+				{
+					id: "13BD6F3DCC760960"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BEB1B47C0463BBF"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D73B86C0C628B36"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "313C9E88626C0419"
+			subtitle: "Третья книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "2F0B234A514A088D"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "6E1EDED68350DB4E"
+			subtitle: "Вторая книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "02CE121CD5A866C9"
+				item: "occultism:book_of_binding_afrit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "38FF01FE1835B023"
+			subtitle: "Первая книга,которую вы используете в призывах и ритуалах."
+			tasks: [{
+				id: "2F66EB0C9B233DE1"
+				item: "occultism:book_of_binding_djinni"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			description: [
+				"Бросьте плод на земле, а затем сожгите его с помощью огнива, чтобы получить призрачный огонь."
+				""
+				"Огонь избавляет от долгих поисков - бросьте андезит в него, чтобы получить камень из иного мира. (см. Рецепты)"
+			]
+			icon: "occultism:spirit_fire"
+			id: "22B9EE253C381FA6"
+			tasks: [{
+				id: "05651E672E5A0F93"
+				type: "checkmark"
+			}]
+			title: "Призрачный огонь"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22E35B1B54FADBD2"]
+			id: "0ABB08FA3D63FEAD"
+			tasks: [{
+				id: "03380629652F9738"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BA91AB519070D4D"]
+			id: "6CEF8EBFD54F6D96"
+			tasks: [{
+				id: "41C7FD4C2726DF6C"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
 		}
 	]
 	title: "&5Стадия: 3"

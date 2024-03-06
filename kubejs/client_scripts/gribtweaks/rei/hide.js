@@ -1,2 +1,0 @@
-REIEvents.hide('item', e => {
-})

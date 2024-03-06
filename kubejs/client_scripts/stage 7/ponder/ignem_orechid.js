@@ -4,14 +4,14 @@ Ponder.registry(e => {
         'botania:orechid_ignem',
         'botania:floating_orechid_ignem'
     ])
-    .scene('gribtweaks:orechid_ignem', 'Ore farm with Orechid Ignem', 'kubejs:ignem_orechid', (scene, util) => {
+    .scene('gribtweaks:orechid_ignem', 'Ферма руды: Огненный рудноцвет', 'kubejs:ignem_orechid', (scene, util) => {
         scene.scaleSceneView(.8);
         scene.setSceneOffsetY(-1);
         scene.showBasePlate()
         scene.idle(20)
         scene.overlay.showText(60)
 			.colored(PonderPalette.RED)
-			.text("Let's build an ore farm with an orechid ignem")
+			.text("Давайте построим ферму на огненный рудноцветах!")
 			.placeNearTarget();
         scene.world.showSection(util.select.position(3,1,4), Facing.DOWN)
         scene.idle(80)
@@ -25,32 +25,32 @@ Ponder.registry(e => {
         scene.world.showSection(util.select.fromTo(6,1,6,4,2,4), Facing.SOUTH)
         scene.idle(20)
         scene
-            .text(80, "Put netherrack as a filter in the export bus and ME interface", [5, 3, 5])
+            .text(80, "Поместите незерак в фильтр шины экспорта и в МЭ-интерфейс", [5, 3, 5])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()
         scene.idle(100)
         scene
-            .text(60, "And place a formation plane here", [3.7, 2, 4])
+            .text(60, "И.. плоскость формирования здесь", [3.7, 2, 4])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
         scene.idle(80)
         scene.world.showIndependentSection(util.select.fromTo(1,1,6,0,1,5), Facing.DOWN)
         scene.idle(30)
         scene
-            .text(80, "Put gold nugget, ancient debris and quartz in the filter of import bus ", [0, 2, 4.7])
+            .text(80, "Поместите кусочек золота, древние обломки и кварц в фильтр шины импорта", [0, 2, 4.7])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()
         scene.idle(100)
         scene
-            .text(60, "It's very important to place quartz fiber there", [1, 2, 4.7])
+            .text(60, "ВАЖНО: разместите кварцевое волонко здесь", [1, 2, 4.7])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()
         scene.idle(80)
         scene
-            .text(60, "Don't forget to split cables with an anchor", [0.5, 2, 5])
+            .text(60, "Не забудьте разъединить кабели здесь", [0.5, 2, 5])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()
@@ -58,19 +58,19 @@ Ponder.registry(e => {
         scene.world.showIndependentSection(util.select.fromTo(0,1,4,2,1,4), Facing.DOWN)
         scene.idle(30)
         scene
-        .text(110, "Make the same filter in the ME interface like in the import bus: gold nugget, ancient debris and quartz", [0, 2, 4])
+        .text(110, "В МЭ-интерфейс поместите предметы из шины импорта: кусочек золота, древние обломки и кварц", [0, 2, 4])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
         scene.idle(130)
         scene
-            .text(100, "Put the configured ME storage cell with filter of gold nugget, ancient debris and quartz in ME chest", [1.3, 2, 4])
+            .text(100, "Поместите настроенную ячейку хранения: кусочек золота, древние обломки и кварц в МЭ-сундук", [1.3, 2, 4])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()
         scene.idle(120)
         scene
-            .text(60, "Then place the annihilation plane", [2.8, 2, 4])
+            .text(60, "Теперь разместите плоскость уничтожения", [2.8, 2, 4])
             .colored(PonderPalette.WHITE)
             .placeNearTarget()
             .attachKeyFrame()

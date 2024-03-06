@@ -3,369 +3,16 @@
 	default_quest_shape: ""
 	filename: "stage_4"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: "aquamirae:ship_graveyard_echo"
 	id: "70F3FC407354B807"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0467EF29CA06A563"]
-			hide: true
-			id: "4BA91AB519070D4D"
-			rewards: [{
-				count: 4
-				id: "22F764A5106506DF"
-				item: "occultism:datura"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.6d
-			tasks: [{
-				id: "5BE6D8EE63C69654"
-				item: "occultism:datura_seeds"
-				type: "item"
-			}]
-			title: "Приветствую тебя, Призыватель."
-			x: -10.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4BA91AB519070D4D"]
-			description: ["Для добычи этого камня в жизни, надо сьесть демонический фрукт (получив эффект \"Третье око\" и добыть измененный андезит."]
-			id: "43ED3EAD23EA76A1"
-			rewards: [{
-				id: "076DED8F14D15E3E"
-				item: "occultism:otherworld_sapling"
-				type: "item"
-			}]
-			subtitle: "Это не просто камень... "
-			tasks: [{
-				count: 4L
-				id: "6BB40CF2D61259CB"
-				item: "occultism:otherstone"
-				type: "item"
-			}]
-			title: "Потусторонний камень"
-			x: -10.0d
-			y: 2.9000000000000004d
-		}
-		{
-			dependencies: ["4BA91AB519070D4D"]
-			description: ["Гайд-бук по моду."]
-			id: "0A137981A849B023"
-			ignore_reward_blocking: true
-			rewards: [{
-				id: "639D0C78FC2D7032"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Еще один Квестбук?"
-			tasks: [{
-				id: "2CD022CFB64DDB83"
-				item: {
-					Count: 1b
-					id: "occultism:dictionary_of_spirits"
-					tag: {
-						"modonomicon:book_id": "occultism:dictionary_of_spirits"
-					}
-				}
-				type: "item"
-			}]
-			title: "Познание основ."
-			x: -8.5d
-			y: 2.9000000000000004d
-		}
-		{
-			dependencies: [
-				"0A137981A849B023"
-				"69632106C550C4AC"
-			]
-			dependency_requirement: "one_completed"
-			id: "66E47D358CC607F9"
-			subtitle: "Да здравствует первый разнорабочий)"
-			tasks: [
-				{
-					id: "146BCAFE518B4FE1"
-					item: {
-						Count: 1b
-						id: "occultism:chalk_white"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14D4955AADE3062B"
-					item: "occultism:golden_sacrificial_bowl"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "3C6A4929CFE0FEA6"
-					item: "occultism:sacrificial_bowl"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "6F4C5840805005DB"
-					item: "minecraft:white_candle"
-					type: "item"
-				}
-			]
-			title: "Первый призыв: Дробитель Фолиот"
-			x: -8.5d
-			y: 4.4d
-		}
-		{
-			dependencies: [
-				"0A137981A849B023"
-				"66E47D358CC607F9"
-			]
-			description: ["Используется для проведения разных ритуалов. (см. Размышления)"]
-			id: "4F943CCC0D6D0E87"
-			subtitle: "Поиграем в Классики?"
-			tasks: [
-				{
-					id: "13BD6F3DCC760960"
-					item: {
-						Count: 1b
-						id: "occultism:chalk_gold"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6BEB1B47C0463BBF"
-					item: {
-						Count: 1b
-						id: "occultism:chalk_purple"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1D73B86C0C628B36"
-					item: {
-						Count: 1b
-						id: "occultism:chalk_red"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: 4.4d
-		}
-		{
-			dependencies: ["43ED3EAD23EA76A1"]
-			description: ["Важный ингредиент для ритуал и других крафтов."]
-			icon: "occultism:spirit_attuned_gem"
-			id: "5C3F9AF1D9019A99"
-			rewards: [{
-				count: 16
-				id: "0D07EBF365035C1A"
-				item: "occultism:spirit_attuned_gem"
-				type: "item"
-			}]
-			subtitle: "ГЕМы..."
-			tasks: [{
-				count: 16L
-				id: "178421DE2E4ABF63"
-				item: "occultism:spirit_attuned_gem"
-				type: "item"
-			}]
-			title: "Гем Духов"
-			x: -11.5d
-			y: 2.9000000000000004d
-		}
-		{
-			dependencies: ["5C3F9AF1D9019A99"]
-			icon: {
-				Count: 1b
-				id: "occultism:infused_pickaxe"
-				tag: {
-					Damage: 0
-					spiritName: "Krtimzur"
-				}
-			}
-			id: "66B95C4528A914B5"
-			rewards: [{
-				id: "4FE90D2919628C99"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Кирка из гемов духа... ГЕМЫ..."
-			tasks: [{
-				id: "63F8E8ACF539FF31"
-				item: {
-					Count: 1b
-					id: "occultism:infused_pickaxe"
-					tag: {
-						Damage: 0
-						spiritName: "Reivirmorn"
-					}
-				}
-				type: "item"
-			}]
-			x: -11.5d
-			y: 4.4d
-		}
-		{
-			dependencies: ["43ED3EAD23EA76A1"]
-			description: ["Нужен для получения жира с мобов."]
-			id: "69632106C550C4AC"
-			rewards: [{
-				count: 4
-				id: "316C3DC1E47B96DA"
-				item: "occultism:tallow"
-				type: "item"
-			}]
-			subtitle: "Да начнется Резня!"
-			tasks: [{
-				id: "0129A910160836B0"
-				item: {
-					Count: 1b
-					id: "occultism:butcher_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: 4.4d
-		}
-		{
-			dependencies: ["5C3F9AF1D9019A99"]
-			id: "3D495E67D175A51B"
-			subtitle: "Ну а как же ты сделаешь очки без линз?"
-			tasks: [{
-				id: "390155085EE411D0"
-				item: "occultism:lenses"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 4.4d
-		}
-		{
-			dependencies: ["3D495E67D175A51B"]
-			id: "2ED26DB7D77AFF40"
-			tasks: [{
-				id: "54A11C6492FDCCD9"
-				item: "occultism:infused_lenses"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 5.9d
-		}
-		{
-			dependencies: ["2ED26DB7D77AFF40"]
-			id: "42B95EADCDBE5589"
-			tasks: [{
-				id: "39353D10D7A933F9"
-				item: {
-					Count: 1b
-					id: "occultism:otherworld_goggles"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -13.5d
-			y: 7.4d
-		}
-		{
-			dependencies: ["4F943CCC0D6D0E87"]
-			id: "38FF01FE1835B023"
-			subtitle: "Первая книга,которую вы используете в призывах и ритуалах."
-			tasks: [{
-				id: "2F66EB0C9B233DE1"
-				item: "occultism:book_of_binding_djinni"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 4.4d
-		}
-		{
-			dependencies: ["4F943CCC0D6D0E87"]
-			id: "6E1EDED68350DB4E"
-			subtitle: "Вторая книга,которую вы используете в призывах и ритуалах."
-			tasks: [{
-				id: "02CE121CD5A866C9"
-				item: "occultism:book_of_binding_afrit"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4F943CCC0D6D0E87"]
-			id: "313C9E88626C0419"
-			subtitle: "Третья книга,которую вы используете в призывах и ритуалах."
-			tasks: [{
-				id: "2F0B234A514A088D"
-				item: "occultism:book_of_binding_marid"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4BA91AB519070D4D"
-				"045C3D369D9FADD6"
-			]
-			description: ["Найдите и убейте Гидру."]
-			hide: true
-			hide_dependency_lines: true
-			icon: "twilightforest:hydra_trophy"
-			id: "1EE42A294EBBD610"
-			rewards: [{
-				count: 6
-				id: "13BC161DF9117250"
-				item: "twilightforest:fiery_blood"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:hydra"
-				icon: "twilightforest:hydra_trophy"
-				id: "30DFA7BCE758DDC6"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Вместо одной головы вырастут три"
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7CC994D9CE81BCEB"]
-			description: ["Максимальное унижение поверженного врага."]
-			id: "453998643157B472"
-			rewards: [{
-				id: "17A08ECF83A7FDEB"
-				item: "twilightforest:maze_map_focus"
-				type: "item"
-			}]
-			tasks: [{
-				id: "736A88F2F2A7E756"
-				item: "twilightforest:meef_stroganoff"
-				type: "item"
-			}]
-			title: "Бедный гриботавр"
-			x: -12.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["453998643157B472"]
+			dependencies: ["3ED7F94EE99EAF66"]
 			description: ["Отправьтесь в Ад и найдите песок душ."]
+			hide: true
 			id: "118410C89DF00062"
 			rewards: [{
 				count: 64
@@ -379,8 +26,8 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -2.0d
+			x: -24.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -401,8 +48,8 @@
 				type: "item"
 			}]
 			title: "Пыль души"
-			x: -13.5d
-			y: -4.0d
+			x: -22.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -422,8 +69,8 @@
 				type: "item"
 			}]
 			title: "Сырой Кристалл Души"
-			x: -13.5d
-			y: -6.0d
+			x: -20.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -443,11 +90,12 @@
 				type: "item"
 			}]
 			title: "Кристалл Души"
-			x: -13.5d
-			y: -8.0d
+			x: -18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["118410C89DF00062"]
+			hide: true
 			hide_dependency_lines: true
 			id: "3A4D60AFDC52EC7C"
 			rewards: [{
@@ -463,12 +111,12 @@
 				type: "item"
 			}]
 			title: "Подготовка: Часть 3"
-			x: -15.0d
-			y: -6.5d
+			x: -20.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["118410C89DF00062"]
-			hide_dependency_lines: true
+			hide: true
 			id: "5AA7F3F85375FD25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -483,13 +131,11 @@
 				type: "item"
 			}]
 			title: "Подготовка: Часть 2"
-			x: -15.0d
-			y: -4.5d
+			x: -22.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["118410C89DF00062"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: ["3ED7F94EE99EAF66"]
 			id: "1609E737334014E8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -527,8 +173,8 @@
 				}
 			]
 			title: "Подготовка: Часть 1"
-			x: -15.0d
-			y: -2.5d
+			x: -24.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["118410C89DF00062"]
@@ -537,6 +183,7 @@
 				""
 				"Кристалл вмещает только 1 вид души."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "2ADD3B41B236056F"
 			tasks: [{
@@ -544,8 +191,8 @@
 				title: "Первое убийство"
 				type: "checkmark"
 			}]
-			x: -12.0d
-			y: -8.5d
+			x: -18.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -567,12 +214,11 @@
 				type: "item"
 			}]
 			title: "Клетка Душ"
-			x: -13.5d
-			y: -10.0d
+			x: -16.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["118410C89DF00062"]
-			hide_dependency_lines: true
+			dependencies: ["7ACCA38035DBC9BF"]
 			id: "0068B039920F45E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -587,19 +233,14 @@
 				type: "item"
 			}]
 			title: "Подготовка: Часть 4"
-			x: -15.0d
-			y: -8.5d
+			x: -18.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["1EE42A294EBBD610"]
-			description: ["Чтобы продвинуться дальше, придется разобраться с охранником тёмных земель."]
+			dependencies: ["4AF2A3CCED0DF671"]
+			description: ["Видимо, быть тихим - не получилось. Разберитесь с Хранителем и получите его сердце."]
+			hide: true
 			id: "0152D66E23EE30B1"
-			rewards: [{
-				count: 4
-				id: "5AE55558E1815C28"
-				item: "deeperdarker:warden_carapace"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0311549681A50D29"
@@ -607,133 +248,20 @@
 				value: 1L
 			}]
 			title: "Хранитель"
-			x: -7.5d
-			y: -1.0d
+			x: -16.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0152D66E23EE30B1"]
-			description: ["Сердце вардена я заберу с собой, как сувенирчик)"]
+			description: ["Сердце позволяет активировать портал в центре структуры. Зайдите в него."]
 			id: "41C65BD1CB61D79B"
-			rewards: [{
-				id: "40CE6AE9E28ACF84"
-				item: "deeperdarker:heart_of_the_deep"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6046F1C34010E17F"
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["41C65BD1CB61D79B"]
-			description: ["Соберите местного мха, да побольше."]
-			id: "6EB36D6CE6B28111"
-			rewards: [{
-				count: 32
-				id: "0446AE87F1F834B8"
-				item: "deep_dark_regrowth:mossy_fluorite"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "1BB8BE6A6F9F134F"
-				item: "deep_dark_regrowth:mossy_fluorite"
-				type: "item"
-			}]
-			title: "Липкий Флуорит"
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"4BA91AB519070D4D"
-				"38FF01FE1835B023"
-			]
-			description: ["Найдите и убейте Гриботавра."]
-			hide: true
-			hide_dependency_lines: true
-			id: "7CC994D9CE81BCEB"
-			rewards: [
-				{
-					count: 5
-					id: "432AF5F49B50A276"
-					item: "minecraft:brown_mushroom"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1483C1EA65CDFF1A"
-					item: "minecraft:red_mushroom"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "5C7EB0712013AC0F"
-					item: "minecraft:crimson_fungus"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "14B65C40E9CBAE66"
-					item: "minecraft:warped_fungus"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "4360D044164FAC2B"
-					item: "twilightforest:mushgloom"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "3DD30216E2AD5EEE"
-					item: "quark:glow_shroom"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "28339B8CA3AEC41E"
-					item: "farmersdelight:red_mushroom_colony"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "07B411304726E5ED"
-					item: "farmersdelight:brown_mushroom_colony"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "twilightforest:minoshroom"
-				icon: "twilightforest:minoshroom_trophy"
-				id: "70F0244A6AC67BEB"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Гриботавр"
-			x: -11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6EB36D6CE6B28111"]
-			description: ["Найдите скалк сенсор. Пригодится (нет)."]
-			id: "0AE65EB87D0B9717"
-			rewards: [{
-				count: 64
-				id: "73A4597B42F87B6A"
-				item: "minecraft:sculk"
-				type: "item"
-			}]
-			tasks: [{
-				id: "14193466A3FCA78D"
-				item: "minecraft:sculk_sensor"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.0d
+			x: -14.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6317A3CD85E467D0"]
@@ -761,17 +289,13 @@
 				item: "aquamirae:rune_of_the_storm"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -8.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4BA91AB519070D4D"
-				"0AE65EB87D0B9717"
-			]
-			description: ["Можно получить с рыб."]
+			dependencies: ["141BF7BC0C730C31"]
+			description: ["Можно получить с Удильщик и Пасть."]
 			hide: true
-			hide_dependency_lines: true
 			id: "78E0DAF09902B2C5"
 			rewards: [{
 				count: 4
@@ -785,12 +309,12 @@
 				item: "aquamirae:fin"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Клыки удильщика опасны, как бритва у неопытного пацана)"]
+			description: ["Клыки удильщика опасны, как бритва у неопытного пацана)."]
 			id: "27831E216B2BCA91"
 			rewards: [{
 				count: 2
@@ -804,8 +328,8 @@
 				item: "aquamirae:anglers_fang"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.0d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
@@ -863,12 +387,12 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -2.0d
+			x: -9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Бедная рыбка, только косточки остались)"]
+			description: ["Бедная рыбка, только косточки остались). Можно получить после употребления рыбы Хребеточник."]
 			id: "2993FC18F2AFAEA3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -881,8 +405,8 @@
 				item: "aquamirae:sharp_bones"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2993FC18F2AFAEA3"]
@@ -904,13 +428,12 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
 			description: ["Клинок, пропитаный ядом удильщика. Заставит жертву страдать от яда, который растекается по его жилам."]
-			hide_dependency_lines: true
 			id: "148615A93ED56286"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -929,13 +452,12 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -4.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
 			description: ["Кружится вокруг вас и атакует врагов."]
-			hide_dependency_lines: true
 			id: "28A030419943BB0F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -954,13 +476,12 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -5.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["27831E216B2BCA91"]
 			description: ["Он настолько ужасен, что только самые стойкие могут его поднять, не говоря уже про использование."]
-			hide_dependency_lines: true
 			id: "6CDC2B5A95CF2836"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -979,11 +500,11 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["729C2B27E4ADA290"]
+			dependencies: ["78E0DAF09902B2C5"]
 			id: "70A5E56DC9773652"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1003,12 +524,11 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -3.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["78E0DAF09902B2C5"]
+			dependencies: ["3A981070722F4A8D"]
 			description: ["Продвинутая версия аметиста."]
-			hide_dependency_lines: true
 			id: "0B818E0C582EF14C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1021,27 +541,12 @@
 				item: "aquamirae:abyssal_amethyst"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["27831E216B2BCA91"]
-			description: ["Кто проживает на дне океана? - Капитан Корнелии."]
-			id: "791A2E4717A4D1BA"
-			tasks: [{
-				entity: "aquamirae:captain_cornelia"
-				id: "00E4A42E5BF1A68E"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Капитан Корнелии"
-			x: -10.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["78E0DAF09902B2C5"]
-			description: ["Душа голадца."]
-			hide_dependency_lines: true
+			dependencies: ["0296BBEA536DE112"]
+			description: ["Душа голадца. Можно получить с Угорь."]
 			id: "3A981070722F4A8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1055,8 +560,8 @@
 				type: "item"
 			}]
 			title: "Душа голандца"
-			x: -9.0d
-			y: -1.0d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0B818E0C582EF14C"]
@@ -1065,7 +570,6 @@
 				""
 				"&oP.S. &8Кто это писал, лол&r&r"
 			]
-			hide_dependency_lines: true
 			id: "2A25512F702D25AC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1119,11 +623,11 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
-			y: -2.5d
+			x: -4.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["2A25512F702D25AC"]
+			dependencies: ["0B818E0C582EF14C"]
 			description: ["С этой тиарой вам не откажут даже при входе к амазонкам"]
 			id: "1DE309EC4FB79869"
 			rewards: [{
@@ -1143,11 +647,11 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.5d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2A25512F702D25AC"]
+			dependencies: ["0B818E0C582EF14C"]
 			description: ["Рассекает не только всё живое, но и по слухам может раздвигать воду как моисей"]
 			id: "4E188111AFD45944"
 			rewards: [{
@@ -1167,11 +671,11 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["4E188111AFD45944"]
+			dependencies: ["0B818E0C582EF14C"]
 			description: ["Сама бездна вам шепчет"]
 			id: "44B322DA6056AF8F"
 			rewards: [{
@@ -1191,11 +695,11 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -4.5d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["1DE309EC4FB79869"]
+			dependencies: ["0B818E0C582EF14C"]
 			description: ["Начинает кружит вокруг вас и спать, действует на первого врага"]
 			id: "6B6696E6D3231142"
 			rewards: [{
@@ -1215,12 +719,12 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.5d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["791A2E4717A4D1BA"]
-			description: ["Ключ от сокровищ Капитана."]
+			dependencies: ["4986FFC1C7A5B1E0"]
+			description: ["Ключ от сокровищ Капитана, которые можно найти в Бункере."]
 			id: "6317A3CD85E467D0"
 			rewards: [
 				{
@@ -1240,11 +744,11 @@
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -6.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["791A2E4717A4D1BA"]
+			dependencies: ["4986FFC1C7A5B1E0"]
 			description: ["Скафандр первой мировой, а может и не первой, а второй."]
 			hide_dependency_lines: false
 			id: "3A7662307F166D76"
@@ -1299,11 +803,11 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -6.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3A7662307F166D76"]
+			dependencies: ["57BCA5342F4DC2DF"]
 			description: [
 				"Позволяет с местых барыг получать изумруды."
 				""
@@ -1326,11 +830,11 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["791A2E4717A4D1BA"]
+			dependencies: ["4986FFC1C7A5B1E0"]
 			description: ["Пика Капитана. Любого, кто против тебя, можно посадить на пику."]
 			id: "4206CAF1FF7A3CF7"
 			rewards: [{
@@ -1353,11 +857,12 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.0d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["045C3D369D9FADD6"]
+			hide: true
 			icon: "vitalize:soul_revitalizer"
 			id: "6B326CFCA6F2616F"
 			subtitle: "Улучшенный спавнер из аддона для мода Spirit, с возможностью улучшения."
@@ -1374,8 +879,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: -12.0d
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1392,8 +897,8 @@
 				item: "vitalize:pylon_efficiency"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -10.5d
+			x: -15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1410,8 +915,8 @@
 				item: "vitalize:pylon_beheading"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -12.0d
+			x: -14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1428,8 +933,8 @@
 				item: "vitalize:pylon_looting"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -13.5d
+			x: -15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1446,8 +951,8 @@
 				item: "vitalize:pylon_speed"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -14.0d
+			x: -14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1464,8 +969,8 @@
 				item: "vitalize:pylon_experience"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -13.5d
+			x: -12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1482,8 +987,8 @@
 				item: "vitalize:pylon_flame"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -12.0d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B326CFCA6F2616F"]
@@ -1500,11 +1005,12 @@
 				item: "vitalize:pylon_recursive"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -10.5d
+			x: -12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AA7F3F85375FD25"]
+			hide_dependency_lines: true
 			id: "092E505A81E39B74"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1518,8 +1024,8 @@
 				item: "spirit:pedestal"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.0d
+			x: -23.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["092E505A81E39B74"]
@@ -1536,8 +1042,8 @@
 				item: "spirit:crystal_pedestal"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -8.0d
+			x: -21.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["035AD0AC91240EF9"]
@@ -1566,19 +1072,533 @@
 				item: "spirit:soul_pedestal"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -10.0d
+			x: -19.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["5C3F9AF1D9019A99"]
-			id: "3852A8A9D036400F"
+			dependencies: ["7ACCA38035DBC9BF"]
+			description: [
+				"Под землей отыщите Древний город."
+				""
+				"Здесь можно найти хорошее кол-во лута, главное, нужно быть тише..."
+			]
+			icon: "minecraft:sculk"
+			id: "4AF2A3CCED0DF671"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
-				id: "49145D7444453CAE"
-				item: "gribtweaks:spirit_attuned_ingot"
+				icon: "minecraft:sculk"
+				id: "5695AC86A81DA179"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Древний Город"
+			x: -18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41C65BD1CB61D79B"]
+			id: "6ADEE70572D80725"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "2BBB4A28402337CB"
+				type: "dimension"
+			}]
+			title: "Тихое место"
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6ADEE70572D80725"]
+			id: "2772EEDF07C08810"
+			tasks: [{
+				count: 4L
+				id: "2F7CDC8B4F9C524F"
+				item: "deeperdarker:sculk_bone"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 2.9d
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6ADEE70572D80725"]
+			id: "364054C734A4EF77"
+			tasks: [{
+				count: 4L
+				id: "378DF34D1BCA0EB7"
+				item: "deeperdarker:soul_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0152D66E23EE30B1"]
+			id: "75B3A6074727C560"
+			tasks: [{
+				id: "1CF165DF3EDF7830"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75B3A6074727C560"]
+			description: ["Используется в крафтах. Также позволяет улучшить незеритовые предметы."]
+			id: "6AFCB6E9C3CD66FE"
+			tasks: [{
+				id: "29D2E70090A2CB59"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6441D13ED875FC08"]
+			description: ["Очень полезный предмет. Привязывается к почти любому ванильному блоку, который имеет интерфейс и позволяет использовать его на расстоянии."]
+			id: "30ED27316131EC3E"
+			tasks: [{
+				id: "284295807294D4E2"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AF2A3CCED0DF671"]
+			id: "27D1FD7C54F4E87C"
+			tasks: [{
+				count: 4L
+				id: "321FA2195FCA3212"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["27D1FD7C54F4E87C"]
+			description: ["Используется в крафтах."]
+			id: "4E807DF250DE6517"
+			tasks: [{
+				id: "42C55FAD1E4C36B5"
+				item: "gribtweaks:sculk_membrane"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6441D13ED875FC08"]
+			description: ["Чтобы призвать сталкера просто ломайте древние вазы, и, с маленьким шансом, он заспавнится."]
+			id: "41BF45C87E6F6410"
+			rewards: [{
+				count: 3
+				id: "038A1391CAC27067"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "6570B7A95F2071F6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Сталкер"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6ADEE70572D80725"]
+			description: ["Найдите и исследуйте Древний Храм."]
+			id: "6441D13ED875FC08"
+			subtitle: "Да. У меня все тихое... (ничего умнее не придумал)"
+			tasks: [{
+				icon: "deeperdarker:sculk_stone_bricks"
+				id: "1EF6484BD9D75835"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "Храм Тишины"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6AFCB6E9C3CD66FE"]
+			description: ["Полный сет брони Хранителя даёт неплохую защиту. Шлем позволяет избегать дебаффа Тьма. Поножи позволяют быстрее бегать."]
+			id: "37BBCC463D5FD84E"
+			tasks: [
+				{
+					id: "67AD12D8B6851376"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "039E2A4660B32587"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B8035EA9F529CFC"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F2F20DA56AA3880"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Хранителя"
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"008D6F5767D2A4A2"
+				"4030F51C7D65F7C7"
+			]
+			description: ["Для дальнейшего развития, нужно отправиться в Ад."]
+			id: "3ED7F94EE99EAF66"
+			rewards: [{
+				count: 4
+				id: "50F219E99F749DA2"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				count: 10L
+				id: "706F2412A6E57BB3"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Пора в Ад!"
+			x: -26.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3ED7F94EE99EAF66"]
+			id: "11D2A3E29F320A24"
+			tasks: [{
+				count: 8L
+				id: "671D579B9E3D8812"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11D2A3E29F320A24"]
+			id: "5578A92C34074516"
+			tasks: [{
+				count: 4L
+				id: "08BBEF5B91585FFA"
+				item: "spirit:soul_powder_block"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5578A92C34074516"]
+			id: "7ACCA38035DBC9BF"
+			tasks: [{
+				id: "47DD388912A22CE9"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5578A92C34074516"]
+			description: ["Убивает мобов в небольшом радиусе, для этого ему нужны Катализаторы Души."]
+			id: "38A4D4F49CE942AE"
+			tasks: [{
+				id: "7AE0A3A8E7B45B27"
+				item: "reaper:reaper_generator"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Увеличивает кол-во энергии, которое будет получено с моба, за каждое его сердце."]
+			id: "79FC08A3753DC440"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "5BEE6DCD5DB43423"
+				item: "reaper:rune_reficiat"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Позволяет за один удар убить любого моба."]
+			id: "044EDD1B127B2D72"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "19A53341663BFCBE"
+				item: "reaper:rune_obitus"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Позволяет получать энергию с каждого сердца моба."]
+			id: "018A032C38D3B589"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "425D2353BDAA4268"
+				item: "reaper:rune_humano"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Немного увеличивает радиус."]
+			id: "338E26B20F65E774"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "3DD2175FAAD85C1D"
+				item: "reaper:rune_dilato"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Увеличивает скорость работы."]
+			id: "4470724288339D17"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "585724D9E653E1B6"
+				item: "reaper:rune_velocitas"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["38A4D4F49CE942AE"]
+			description: ["Включает возможность получать лут, который падает только при убийстве игроком, но при этом пропадает выработка энергии."]
+			id: "33D0A6A0E966F76E"
+			subtitle: "Улучшение генератора"
+			tasks: [{
+				id: "14F0E061B0ADE20D"
+				item: "reaper:rune_spiritus"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5578A92C34074516"]
+			description: ["Использует души в кристалле души (пкм им по маяку, кристалл должен быть хотя бы 1 уровня) для придания эффектов находящимся поблизости мобам. Эффект зависит от моба в кристалле. Для его работы требуется RF энергия и структура 3x3, как у маяка, только без цетрального блока. Можно использовать либо стальные блоки души, либо руны (достаточно одной каждого типа)."]
+			id: "25707F2CEBF2B98A"
+			tasks: [{
+				id: "22F9F8096B292659"
+				item: "reaper:soul_beacon"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Зависит от накладываемого эффекта; положительный - добавит игрока в белый список, отрицательный - предотвратит воздействие на него."]
+			id: "417F838C99E69C0F"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "7AF33961EA894167"
+				item: "reaper:rune_block_possessio"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Позволяет поражать враждебных мобов."]
+			id: "7331028FD583827B"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "008391FF9E902793"
+				item: "reaper:rune_block_hostilis"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Немного увеличивает радиус."]
+			id: "0346DD2A9151A621"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "10FD03B1E5A22C8F"
+				item: "reaper:rune_block_dilato"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Позволяет поражать нейтральных и пассивных мобов."]
+			id: "627C3AE9EF0244A6"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "3F6A837F303DCED3"
+				item: "reaper:rune_block_beastia"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Позволяет сработать дважды за раз."]
+			id: "2D42301A7AA422F1"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "2E066265EEEF3AF3"
+				item: "reaper:rune_block_duplici"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25707F2CEBF2B98A"]
+			description: ["Снижает затраты энергии."]
+			id: "47781F3514371688"
+			subtitle: "Улучшение маяка"
+			tasks: [{
+				id: "3F36C534BE88EC62"
+				item: "reaper:rune_block_efficacia"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6AFCB6E9C3CD66FE"]
+			description: ["Для начала нужно найти глубокий замёрзший океан. Теперь ночью это опасное место."]
+			id: "141BF7BC0C730C31"
+			rewards: [
+				{
+					id: "049A62D33370E7AF"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1892C560F7D6D4C1"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "minecraft:packed_ice"
+				id: "6AD89DCAFC6D7404"
+				type: "biome"
+			}]
+			title: "Джакузи"
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["141BF7BC0C730C31"]
+			description: ["Под льдом скрывается Бункер. Следует найти его. Внутри есть минибосс."]
+			id: "0296BBEA536DE112"
+			tasks: [{
+				icon: "minecraft:lantern"
+				id: "58E1D95775BC65F9"
+				structure: "aquamirae:shelter"
+				type: "structure"
+			}]
+			title: "Канализация"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["141BF7BC0C730C31"]
+			description: ["Отыщите пиратский корабль. Тут точно что-то скрывают."]
+			id: "57BCA5342F4DC2DF"
+			tasks: [{
+				icon: "aquamirae:pirate_pouch"
+				id: "074EA406AEDF8B7F"
+				structure: "aquamirae:ship"
+				type: "structure"
+			}]
+			title: "Гнилые доски"
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57BCA5342F4DC2DF"]
+			description: ["Предмет призыва босса. Можно найти на корабле."]
+			id: "4986FFC1C7A5B1E0"
+			tasks: [{
+				id: "79A3D86FFD8A83D1"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
 		}
 	]
 	title: "&5Стадия: 4"

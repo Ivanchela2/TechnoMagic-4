@@ -1,8 +1,8 @@
 Ponder.tags(event => {
     event.createTag('gribtweaks:reactors', 'biggerreactors:reactor_terminal', 'TM4: Реакторы', 'Все о реакторах!', [
-        'biggerreactors:reactor_casing',
-        'alchemistry:fusion_chamber_controller',
-        'alchemistry:fission_chamber_controller'
+        'biggerreactors:reactor_casing'
+        // 'alchemistry:fusion_chamber_controller',
+        // 'alchemistry:fission_chamber_controller'
     ]);
     event.createTag('gribtweaks:farms', 'minecraft:diamond', 'TM4: Фермы/Заводы', 'Нужны ресурсы?', [
         'create:andesite_alloy',
@@ -17,12 +17,14 @@ Ponder.tags(event => {
         'minecraft:iron_ore',
         'minecraft:iron_ingot',
         'create:precision_mechanism',
-        'minecraft:white_concrete',
-        'minecraft:flint'
+        'minecraft:white_concrete'
     ]);
     event.createTag('gribtweaks:rituals', 'minecraft:oak_sapling', 'TM4: Ритуалы', 'Все для ритуалов!', [
-        'rootsclassic:altar',
         'naturesaura:nature_altar',
+        'naturesaura:animal_spawner',
+        'naturesaura:offering_table',
+        'naturesaura:rf_converter',
+        'naturesaura:potion_generator',
         'naturesaura:gold_powder',
         'occultism:golden_sacrificial_bowl',
         'forbidden_arcanus:hephaestus_forge',

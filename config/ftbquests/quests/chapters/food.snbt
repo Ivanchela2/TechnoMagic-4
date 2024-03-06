@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "food"
 	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:stove"
 	id: "3DCBF74B29884ADC"
 	order_index: 2
@@ -400,8 +401,8 @@
 				item: "collectorsreap:pomegranate_slice"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0993408AD28E2624"]
@@ -1313,11 +1314,6 @@
 					type: "item"
 				}
 				{
-					id: "4101EC46721D7F10"
-					item: "gnumus:gnumus_cheese"
-					type: "item"
-				}
-				{
 					id: "4D6FFBB8076A761B"
 					item: "ad_astra:cheese"
 					type: "item"
@@ -1742,11 +1738,6 @@
 				{
 					id: "13266AB1A9E4FA8F"
 					item: "forbidden_arcanus:cooked_tentacle"
-					type: "item"
-				}
-				{
-					id: "2D8DF262276736B1"
-					item: "nocubes_better_frogs:cooked_frog_leg"
 					type: "item"
 				}
 				{

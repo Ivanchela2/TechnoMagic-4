@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             'botania:orechid_ignem'
         ])
-        .scene("gribtweaks:ore_flame_flower", "Inffinity Hell ores", "kubejs:flame_ore_flower", (scene, util) => {
+        .scene("gribtweaks:ore_flame_flower", "Адская руда!", "kubejs:flame_ore_flower", (scene, util) => {
             //scene.showStructure()
             scene.addKeyframe()
             scene.world.showSection(util.select.fromTo(0, 0, 6, 6, 0, 0), Facing.DOWN)
@@ -13,7 +13,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(20)
 			    .colored(PonderPalette.BLUE)
-			    .text("How the ignem orechid works")
+			    .text("Как работает огненный рудноцвет")
                 .placeNearTarget();
             scene.idle(20)
             scene.addKeyframe()
@@ -24,7 +24,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(20)
                 .colored(PonderPalette.RED)
-                .text("Connect ignem orechid to mana pool")
+                .text("Свяжите огненный рудноцвет с бассейном маны")
                 .placeNearTarget();
             scene.idle(20)
             scene.idle(0)
@@ -45,13 +45,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(20)
                 .colored(PonderPalette.BLUE)
-                .text("Place a netherrack around the ignem orechid")
-                .placeNearTarget();
-            scene.idle(20)
-            scene.idle(0)
-            scene.overlay.showText(40)
-                .colored(PonderPalette.RED)
-                .text("Ignem orechid will GENERATE ORE ONLY IN THE LOWER WORLD")
+                .text("Разместите незерак вокруг огненного рудноцвета")
                 .placeNearTarget();
             scene.idle(40)
             scene.idle(0)
@@ -73,7 +67,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(40)
                 .colored(PonderPalette.RED)
-                .text("Ignem orechid will generate all ores from the lower world and other mods")
+                .text("Огненный рудноцвет генерирует руду адского мира, как ванильную, так и из модов")
                 .placeNearTarget();
             scene.idle(40)
     })

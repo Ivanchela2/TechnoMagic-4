@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2"
 	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "minecraft:iron_chestplate"
@@ -29,6 +30,7 @@
 		}
 		{
 			dependencies: ["550E08A6CA4D4993"]
+			hide: true
 			hide_dependency_lines: true
 			id: "023801A63FD0AF2F"
 			rewards: [{
@@ -90,6 +92,7 @@
 		{
 			dependencies: ["023801A63FD0AF2F"]
 			description: ["Полный сет накладывате на игрока регенерацию 1 уровня, но нагрудник медленно теряет прочность."]
+			hide: true
 			id: "0A5AF8C19D49E2EC"
 			tasks: [{
 				id: "1A3BB49990088358"
@@ -108,6 +111,7 @@
 		{
 			dependencies: ["0A5AF8C19D49E2EC"]
 			description: ["Полный сет накладывает на игрока регенерацию 2 уровня, нагрудник медленно восстанавливает свою прочность."]
+			hide: true
 			id: "47A89EE10A6D0D48"
 			tasks: [{
 				id: "05AC82B72767BB43"
@@ -125,6 +129,7 @@
 		}
 		{
 			dependencies: ["550E08A6CA4D4993"]
+			hide: true
 			hide_dependency_lines: true
 			id: "070DE247D5CBB6C5"
 			tasks: [
@@ -179,6 +184,7 @@
 		{
 			dependencies: ["070DE247D5CBB6C5"]
 			description: ["Полный сет накладывает на игрока регенерацию 4 уровня, позволяет землянной броне восстанавливать свою прочность, а также удобряет растения вокруг игрока."]
+			hide: true
 			id: "6C1ECC279121BCD4"
 			tasks: [{
 				id: "70DCFB19AEA134C5"
@@ -197,6 +203,7 @@
 		{
 			dependencies: ["550E08A6CA4D4993"]
 			description: ["Полный сет восстанавливает сытость игроку за счет прочности брони."]
+			hide: true
 			hide_dependency_lines: true
 			id: "122AB6847275C7D6"
 			tasks: [
@@ -251,6 +258,7 @@
 		{
 			dependencies: ["550E08A6CA4D4993"]
 			description: ["Полный сет дает броне эффект зачарования \"Шипы\"."]
+			hide: true
 			hide_dependency_lines: true
 			id: "2962E2E1CC67F8F9"
 			tasks: [
@@ -305,6 +313,7 @@
 		{
 			dependencies: ["550E08A6CA4D4993"]
 			description: ["Полный сет накладывает медлительность на игрока, но дает хорошую защиту."]
+			hide: true
 			hide_dependency_lines: true
 			id: "0885F45ED53DEAC9"
 			tasks: [
@@ -359,6 +368,7 @@
 		{
 			dependencies: ["0885F45ED53DEAC9"]
 			description: ["Полный сет убирает эффект медлительности за счет снижения защиты нагрудника."]
+			hide: true
 			id: "673D7500F869C0E9"
 			tasks: [{
 				id: "60518501A6F6ECB5"
@@ -377,6 +387,7 @@
 		{
 			dependencies: ["673D7500F869C0E9"]
 			description: ["Полный сет накладывает сопротивление 1 уровня на игрока."]
+			hide: true
 			id: "490B9B09AF6F47C5"
 			tasks: [{
 				id: "22D965E2C8212672"

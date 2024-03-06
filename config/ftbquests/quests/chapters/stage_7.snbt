@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "stage_7"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: "botania:brewery"
 	id: "44C00C8D4D0B88B6"
 	order_index: 6

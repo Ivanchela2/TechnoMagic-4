@@ -48,7 +48,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(50)
                 .colored(PonderPalette.BLUE)
-                .text("And place the animal spawner")
+                .text("И разместите алтарь возрождения")
                 .placeNearTarget();
             scene.world.showSection(util.grid.at(4, 2, 4), Facing.DOWN)
             scene.idle(60)
@@ -56,7 +56,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(80)
                 .colored(PonderPalette.BLUE)
-                .text("In order to summon any animal/mob, you need to throw the items listed in REI on the spinner")
+                .text("Чтобы призвать любого моба, Вам нужно бросить предметы, перечисленные в JEI, в центр")
                 .placeNearTarget();
             scene.idle(80)
             scene.addKeyframe()
@@ -72,7 +72,7 @@ Ponder.registry(e => {
             scene.addKeyframe()
             scene.overlay.showText(50)
                 .colored(PonderPalette.BLUE)
-                .text("The altar will work when the items are missing")
+                .text("Если предметы пропали - все сделано верно!")
                 .placeNearTarget();
             scene.idle(0)
             scene.world.removeEntity(orange_wool)

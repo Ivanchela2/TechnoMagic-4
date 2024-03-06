@@ -3,6 +3,7 @@
 	default_quest_shape: "circle"
 	filename: "stage_end"
 	group: "68453F2D86137DED"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:red_mushroom_block"
 	id: "2D369DA1B8E43571"
 	images: [

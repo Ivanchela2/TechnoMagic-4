@@ -4,14 +4,14 @@ Ponder.registry(e => {
         'botania:gourmaryllis',
         'botania:floating_gourmaryllis'
         ])
-        .scene('gribtweaks:gourmaryllis', "Mana Farm on Gourmaryllises", 'kubejs:gourmaryllis', (scene, util) => {
+        .scene('gribtweaks:gourmaryllis', "Гурмарилис: Ферма маны", 'kubejs:gourmaryllis', (scene, util) => {
     scene.scaleSceneView(.7);
     scene.setSceneOffsetY(-1);
     scene.world.showSection(util.select.layer(0), Facing.UP)
     scene.idle(20)
     scene.overlay.showText(60)
 			.colored(PonderPalette.OUTPUT)
-			.text("Let's build a Mana Farm on Gourmaryllises")
+			.text("Давайте построим ферму маны на Гурмарилисах!")
 			.placeNearTarget();
     scene.idle(80)
     scene.addKeyframe()
@@ -35,13 +35,13 @@ Ponder.registry(e => {
     scene.world.showIndependentSection(util.select.fromTo(8,4,4,8,4,8), Facing.DOWN)
     scene.idle(20)
     scene
-        .text(60, "Put Food in Barrels in the first line", [6, 4.4, 6])
+        .text(60, "Поместите еду в первый ряд бочек", [6, 4.4, 6])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(80)
     scene
-        .text(60, "And Different food in Barrels in the second line", [8, 4.4, 6])
+        .text(60, "И другую еду во второй ряд", [8, 4.4, 6])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -61,13 +61,13 @@ Ponder.registry(e => {
     scene.world.showIndependentSection(util.select.fromTo(9,3,1,0,3,0),Facing.SOUTH)
     scene.idle(20)
     scene
-        .text(50, "Place 14 sands in first Hourglass", [5, 4, 0])
+        .text(50, "Поместите 14 песка в первые песочные часы", [5, 4, 0])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(70)
     scene
-        .text(80, "After this count 7 seconds and place 14 sands in second Hourglass", [9, 4, 0])
+        .text(80, "Засеките 7 секунд на первых, после поместите 14 песка во вторые часы", [9, 4, 0])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -76,7 +76,7 @@ Ponder.registry(e => {
     scene.idle(20)
     scene.addKeyframe()
     scene
-    .text(60, "And don't forget to connect mana spreaders with flowers!", [5, 2, 6])
+    .text(60, "И не забудьте привязать цветки!", [5, 2, 6])
     .colored(PonderPalette.WHITE)
     .placeNearTarget()
     scene.idle(90)

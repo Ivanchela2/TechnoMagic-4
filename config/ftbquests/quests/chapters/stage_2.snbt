@@ -1,8 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "rsquare"
+	default_quest_shape: "circle"
 	filename: "stage_2"
 	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
 	icon: "naturesaura:golden_leaves"
 	id: "6B26F7BB3624A6BD"
 	order_index: 1
@@ -32,7 +33,7 @@
 			]
 			title: "Примитивный \"измельчитель\""
 			x: -1.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["05EBC27472F491E3"]
@@ -67,8 +68,8 @@
 				}
 			]
 			title: "Ритуальчики"
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["262A0C340C7F9AEA"]
@@ -86,12 +87,13 @@
 				type: "item"
 			}]
 			title: "Костёр?"
-			x: -1.5d
-			y: -3.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5810E01625CA0519"]
 			description: ["Добавив пару постаментов вы смогли усилить связь с природой и перейти на более сложные ритуалы."]
+			hide: true
 			id: "0C5E8A624A5E28F3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -106,11 +108,12 @@
 				type: "item"
 			}]
 			title: "Расширенные возможности"
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E7022D88A1A53B1"]
+			hide: true
 			id: "414654774DF019D6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -131,12 +134,13 @@
 				}
 			]
 			title: "Таблетка Шпинат"
-			x: -3.0d
-			y: 0.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6E7022D88A1A53B1"]
 			description: ["Вы получили пыль окутанный странной магической аурой. Осталось только понять как её использовать."]
+			hide: true
 			id: "262A0C340C7F9AEA"
 			rewards: [{
 				id: "68E1A20DF5F84BB1"
@@ -149,12 +153,13 @@
 				type: "item"
 			}]
 			title: "Я пыль"
-			x: -1.5d
-			y: -1.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34A3F8B6B2B7E460"]
 			description: ["Занимаясь земледелием и добычей дерева, вы заметили странные ягодки и растения. Может, они вам ещё понадобятся."]
+			hide: true
 			id: "05EBC27472F491E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -199,17 +204,23 @@
 				}
 			]
 			title: "Дары леса"
-			x: -1.5d
-			y: 1.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7AB3B86EACDCFD4C"]
-			description: ["И очередное покушение на вас, но вы победили и обнаружили у себя нож лесника, он предназначен для обработки коры. "]
+			description: ["Нож, позволяющий срезать кору с деревьев."]
+			hide: true
 			id: "34A3F8B6B2B7E460"
 			rewards: [{
-				count: 12
-				id: "4B7B6F4E93D2E8CB"
-				item: "seeds:sharp_leaf"
+				id: "2949B284E7B62418"
+				item: {
+					Count: 1b
+					id: "rootsclassic:runic_tablet"
+					tag: {
+						currentGroup: 2
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -224,31 +235,33 @@
 				type: "item"
 			}]
 			title: "Нож лесника"
-			x: -3.0d
-			y: 1.5d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5810E01625CA0519"]
 			description: ["Вы календарь перевернёте..."]
+			hide: true
 			id: "5B3942F16CA07FE4"
 			rewards: [{
 				id: "228A53375A630BE0"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [{
 				id: "239155ED7F06C531"
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
 			title: "Ураа Лето"
-			x: 0.0d
-			y: 3.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6187009683A16AB1"]
 			description: ["Благодаря технологиям вы обнаружили волокно способное распространятся по листве, окрашивая её."]
+			hide: true
 			id: "69374D2A54D2E8A7"
 			tasks: [{
 				id: "7C91AF6944C112B8"
@@ -256,8 +269,8 @@
 				type: "item"
 			}]
 			title: "О блёстки"
-			x: 4.5d
-			y: 0.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["69374D2A54D2E8A7"]
@@ -274,8 +287,8 @@
 				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -283,6 +296,7 @@
 				"6187009683A16AB1"
 			]
 			description: ["При обработке листьев жёрновом они превратились в труху. Осталось только найти им применение."]
+			hide: true
 			id: "4AA98008F9458B33"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -296,8 +310,8 @@
 				type: "item"
 			}]
 			title: "Я пыль"
-			x: 6.0d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4AA98008F9458B33"]
@@ -314,11 +328,11 @@
 				item: "naturesaura:wood_stand"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6ACD07726F668627"]
+			dependencies: ["05BA6237D762B372"]
 			description: ["Похоже это древо очень старое и существовало ещё до всего этого. Когда было.. м.. что же.. было."]
 			icon: "naturesaura:ancient_sapling"
 			id: "44EB8A969B26A222"
@@ -330,35 +344,12 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				icon: "botania:third_eye"
-				id: "49079CD35B98A9BA"
-				observe_type: 0
-				timer: 50L
-				title: "Наблюдение: Древнее дерево"
-				to_observe: "naturesaura:ancient_log"
-				type: "observation"
-			}]
-			x: 10.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["44EB8A969B26A222"]
-			description: ["Ваш третий глаз открылся и теперь вы чувствуйте природную ауру в воздухе."]
-			id: "603D5F21AD3C9DC0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C3470FC0EB53BD9"
-				table_id: 4669929033245206696L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0A481FFD859792CA"
-				item: "naturesaura:eye"
+				id: "3E3FEB991BA6B06F"
+				item: "naturesaura:ancient_log"
 				type: "item"
 			}]
-			title: "Теперь я знаю больше"
 			x: 10.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -378,12 +369,13 @@
 				type: "item"
 			}]
 			title: "Безудержное веселье "
-			x: 10.5d
-			y: 3.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["39F78B26B9F39C4D"]
 			description: ["Кроме высасывания силы из деревьев вы смогли наполнить предметы природной аурой."]
+			hide: true
 			id: "719CBE19584F107B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -397,8 +389,8 @@
 				type: "item"
 			}]
 			title: "Ритуальчики *опять*"
-			x: 12.0d
-			y: 3.0d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
@@ -416,18 +408,14 @@
 				type: "item"
 			}]
 			title: "Инфузия"
-			x: 13.5d
-			y: 3.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6187009683A16AB1"]
 			description: ["С помощью пресcа вам удалось запаковать солнечный свет. КАК!?"]
+			hide: true
 			id: "7275A9136C0543FE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F858C938425F40C"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "704ECAB3EB386B7D"
 				item: {
@@ -439,8 +427,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["39F78B26B9F39C4D"]
@@ -459,7 +447,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
@@ -473,6 +461,7 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "1460412D8DB76229"
@@ -511,8 +500,8 @@
 				}
 			]
 			title: "Обработка всего"
-			x: 0.0d
-			y: 0.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C5E8A624A5E28F3"]
@@ -529,8 +518,8 @@
 				type: "item"
 			}]
 			title: "Ну это андезитовый сплав"
-			x: 3.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0749D26B0CAA8918"]
@@ -541,6 +530,8 @@
 				id: "1FAAF6346195D1CC"
 				type: "loot"
 			}]
+			shape: "gear"
+			size: 1.2d
 			tasks: [
 				{
 					id: "54B57E1CA750EE10"
@@ -565,36 +556,7 @@
 			]
 			title: "Технологично"
 			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["05BA6237D762B372"]
-			description: ["На горизонте маячит новый объект, нужно его обязательно посетить."]
-			id: "6ACD07726F668627"
-			rewards: [{
-				id: "55C0A6B98F4088DF"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "1241919C518244FA"
-				ignore_dimension: false
-				position: [I;
-					-9
-					132
-					30
-				]
-				size: [I;
-					4
-					5
-					4
-				]
-				type: "location"
-			}]
-			x: 9.0d
-			y: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
@@ -605,8 +567,8 @@
 				item: "gribtweaks:tained_gold_leaf"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
@@ -622,14 +584,16 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B1B6F0B1BF3A5D2"]
 			description: ["Кости Байкока обладают удивительной прочностью, достаточной для создания кирки, способной добывать алмазную руду."]
 			hide: true
 			id: "6C701395031DE8EA"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "38CFA92321D299FB"
 				item: {
@@ -641,8 +605,31 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["414654774DF019D6"]
+			id: "51BB3EE51AFDB752"
+			tasks: [{
+				id: "086A20DEA45FE051"
+				item: "rootsclassic:mutating_powder"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "12481649FFB3C9E4"
+			invisible: true
+			size: 5.0d
+			tasks: [{
+				id: "4B25342D1B6D5ACE"
+				title: "ДОРАБОТАТЬ NATURES AURA"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
 		}
 	]
 	title: "&5Стадия: 2"

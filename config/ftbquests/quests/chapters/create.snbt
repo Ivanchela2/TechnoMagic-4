@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
 	icon: "create:cogwheel"
 	id: "56ABD15808A6CBA2"
 	order_index: 0
