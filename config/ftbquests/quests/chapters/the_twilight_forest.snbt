@@ -1,0 +1,758 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "1D0E618C92EE8561"
+	hide_quest_until_deps_visible: true
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0019633DF16EE798"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["744223264E0F1603"]
+			id: "321D4840447A04F2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "01F6609B3272DF02"
+				type: "dimension"
+			}]
+			title: "Твайлайт!"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["321D4840447A04F2"]
+			hide: true
+			id: "5B2C0F80D1F31DF2"
+			tasks: [{
+				id: "3887D522297A92F0"
+				title: "\"Лесное\" путешествие!"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["321D4840447A04F2"]
+			description: ["Хороший источник света."]
+			hide_dependency_lines: true
+			id: "6559E41A61FCDB00"
+			rewards: [{
+				count: 16
+				id: "65AE0CCEBE123A59"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B68A591D154CFB"
+				item: "twilightforest:firefly"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["321D4840447A04F2"]
+			description: [
+				"Скрафтите или найдите корни и сломайте их, чтобы получить замшелый корень."
+				""
+				"Пригодится в крафтах."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0AB43141480F23A9"
+			rewards: [{
+				count: 4
+				id: "58BF650C98237DDA"
+				item: "minecraft:mangrove_roots"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3218D2068CC9F758"
+				item: "twilightforest:liveroot_block"
+				type: "item"
+			}]
+			title: "Проросший"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["321D4840447A04F2"]
+			description: [
+				"Немного лучше, чем обычное железо."
+				""
+				"Пригодится в крафтах."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "twilightforest:ironwood_ingot"
+			id: "074762F1EA1D1684"
+			rewards: [{
+				id: "11F2D11A32C85336"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "147CFC60FF48EF0B"
+				item: "twilightforest:raw_ironwood"
+				type: "item"
+			}]
+			title: "Комбо"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["321D4840447A04F2"]
+			description: [
+				"Найдите и убейте ворона, чтобы получить его перья."
+				""
+				"Пригодится в крафтах."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "twilightforest:raven_feather"
+			id: "0321F369538A38AE"
+			rewards: [{
+				id: "5AFCB00C9923C1F5"
+				item: "twilightforest:raven_feather"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Бедная ворона"
+			tasks: [{
+				entity: "twilightforest:raven"
+				id: "5E65326819B89D13"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Пёрышки"
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0321F369538A38AE"]
+			description: ["Ядро магической карты."]
+			hide: true
+			id: "3841D2CBA8F8DA70"
+			tasks: [{
+				id: "68751FB5D6F7B660"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3841D2CBA8F8DA70"]
+			description: ["Данная карта повзоляет легко ориентироваться и находить боссов в Сумеречном Лесу."]
+			id: "32C381BB5AECA014"
+			rewards: [
+				{
+					id: "636CE03A810B5A24"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6229A0B5A5C4CBD0"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FC6E5FCA7500C82"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32C381BB5AECA014"]
+			description: ["Первый босс в Лесу - Нага. Для победы будет достаточно железного снаряжения."]
+			id: "5750D48B2089CC75"
+			rewards: [
+				{
+					id: "13626011359ED78F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36BB01E01323206E"
+					item: "minecraft:gold_block"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "569289C58428F732"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Удав"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5750D48B2089CC75"]
+			description: ["Пригодится в крафтах."]
+			id: "4C273A78D0103475"
+			rewards: [{
+				count: 8
+				id: "07FFF8611A30D9BC"
+				item: "naturesaura:infused_iron"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F671860A17CEE6"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5750D48B2089CC75"]
+			description: ["Следуящая цель - Лич. Не сильно сложный начальный босс, главная проблема - щиты. Чтобы уничтожить их, нужно отбивать его снаряды - они бьют его. Далее убивается обычно."]
+			hide: true
+			id: "12E9E1E0CB224E79"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "1FE4267967597AC1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Торчок"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12E9E1E0CB224E79"]
+			id: "3164243809D0C4C7"
+			tasks: [{
+				id: "07C766E42212CA86"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12E9E1E0CB224E79"]
+			id: "5944F9362FE6569C"
+			tasks: [{
+				id: "76CFEB540D7267D5"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["12E9E1E0CB224E79"]
+			id: "47A2C51101C35C57"
+			tasks: [{
+				id: "061D63BC63CB3933"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12E9E1E0CB224E79"]
+			id: "2766DCE0286B368A"
+			tasks: [{
+				id: "255E78395C052AE9"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12E9E1E0CB224E79"]
+			description: ["Дальше - найдите лабиринт (на карте отмечет цветом), пройдите его и убейте Гриботавра. Босс легкий и проблем справиться с ним не будет."]
+			hide: true
+			id: "326DCE45C97EDE69"
+			rewards: [
+				{
+					count: 5
+					id: "5A7A77A11C702F1D"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2A163A4C86179D4E"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42D4B64FC48B90B1"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4765382866AD3E7C"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3F3DA0006DEC019A"
+					item: "twilightforest:mushgloom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "290BF6D38C068D07"
+					item: "quark:glow_shroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "204D5A95D619A53B"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0A413F4C47A8C7B4"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "3FD682D07495C5A0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Мясо"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["326DCE45C97EDE69"]
+			description: ["Обязательно съешьте данный суп, это позволит пройти дальше."]
+			id: "2B173B48E1557768"
+			tasks: [{
+				id: "06F4ED751A40931C"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"326DCE45C97EDE69"
+				"2B173B48E1557768"
+			]
+			description: ["Следующий - Гидра! Опасный босс, но убиваемый, главное следите за своим здоровьем."]
+			hide: true
+			icon: "twilightforest:hydra_trophy"
+			id: "7A8A8A7BC104BE62"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "74312A8646F71366"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Аллигатор"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A8A8A7BC104BE62"]
+			id: "5A655B427F182C8D"
+			tasks: [{
+				id: "68D1CAE006FD2C4A"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A8A8A7BC104BE62"]
+			id: "090BBE8E5769854B"
+			tasks: [{
+				id: "132921683102BBCF"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A8A8A7BC104BE62"]
+			description: ["Следует отправиться в Тёмный Лес и попасть в крепость. На пьедестал можно поставить любой полученный трофей, чтобы открыть вход. Далее нужно найти и убить Фантомов."]
+			hide: true
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "10B42E54088E76AE"
+			rewards: [{
+				id: "54A5E9F5420AEEFB"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "07CB4EAC8490D284"
+				type: "advancement"
+			}]
+			title: "Клешня"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["10B42E54088E76AE"]
+			description: ["В центре Тёмного Леса находится большая башня. На её вершине следующий босс. Сначала следует зарядить ловушку, убивая маленьких гастов, далее встать на плиту и притянуть Ур-Гаста."]
+			hide: true
+			id: "6AA5410B18036CF1"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "280F11AC4DE32D4A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Нытик"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AA5410B18036CF1"]
+			id: "00DB97C9A03EBE93"
+			tasks: [{
+				id: "3376C7A680DA5ED0"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AA5410B18036CF1"]
+			id: "3F770B7BB23F0E77"
+			tasks: [{
+				id: "4199D0287BD51A76"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AA5410B18036CF1"]
+			description: ["Очень легкий противник, но без его убийства не обойтись."]
+			hide: true
+			id: "5B88777F5BCC6401"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "656B31DE428B50F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Терпила"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B88777F5BCC6401"]
+			id: "7FEA26BD8CB36D4B"
+			tasks: [{
+				id: "2E3155E1297EC0F7"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B88777F5BCC6401"]
+			description: ["Почти конец! Королева находится в башне, в центре зимнего биома. Не особо сложный босс, главное то, что снизу её ударить будет проблемно."]
+			hide: true
+			id: "293224F2DD3DFDAE"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "4C8DE506D78879AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Домохозяйка"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["293224F2DD3DFDAE"]
+			id: "073EE79D47396910"
+			tasks: [{
+				id: "6AD630301ED54760"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["293224F2DD3DFDAE"]
+			id: "59940ABFD053C7F1"
+			tasks: [{
+				id: "00AED1852E26D54A"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["293224F2DD3DFDAE"]
+			description: ["Бобы следует найти в Тролльих пещерах. (В малом обсидиановом кубе)"]
+			id: "4FDC9D5FBC9DF033"
+			tasks: [{
+				id: "25C354D29B4CBBE9"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A501AB7322F7292"]
+			description: ["Гигантская кирка способка разрушить большой куб обсидиана. Внутри него хранятся сокровища."]
+			id: "69BBC645446F5153"
+			tasks: [{
+				id: "1B67E28E4A146427"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FDC9D5FBC9DF033"]
+			description: ["Используйте бобы на поверхности, прямо над пещерами находятся \"Заоблачные коттеджи\", там обитают Гиганты."]
+			hide: true
+			id: "3A501AB7322F7292"
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				icon: {
+					Count: 1b
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5F38C7BC5D35A70A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			hide: false
+			hide_dependency_lines: true
+			id: "05FE65916E186713"
+			invisible: true
+			rewards: [
+				{
+					count: 64
+					id: "25252B3F9757ED98"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4CFE730DF73D6E91"
+					item: "minecraft:orange_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E90ECE0FEAB7DE9"
+					item: "minecraft:magenta_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "328450079E3BE115"
+					item: "minecraft:light_blue_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7E764B1901A34339"
+					item: "minecraft:yellow_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3E348C86E7EA8F14"
+					item: "minecraft:lime_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "34DA4AE0A4BB3201"
+					item: "minecraft:pink_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "57DC5602402D2296"
+					item: "minecraft:gray_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1ADD81D223E93CD2"
+					item: "minecraft:light_gray_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "761503D06B74A846"
+					item: "minecraft:cyan_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A844039ECC6EEF1"
+					item: "minecraft:purple_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "464F8CBA7ECC1AE9"
+					item: "minecraft:blue_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "18FF1DDAC94D8BED"
+					item: "minecraft:brown_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3309FE62D4AAA2DC"
+					item: "minecraft:green_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "554B4F77041203A6"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C848E1C773FD1C9"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Собери все цвета шерсти для Барана"
+			tasks: [{
+				id: "761D4B54B75A8976"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			title: "Баран"
+			x: -8.0d
+			y: 0.5d
+		}
+	]
+	title: "&4The Twilight Forest"
+}
