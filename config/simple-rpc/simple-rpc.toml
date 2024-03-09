@@ -1,0 +1,257 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1215687742302846986
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Как же прекрасен загрузочный экран..."
+	#The second line of text under the app name
+	state = "Загрузка Игры"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% думает, какой же мир завоевать....."
+	#The second line of text under the app name
+	state = "Чиллит в меню"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% смотрит список серверов..."
+	#The second line of text under the app name
+	state = "Поиск друзей"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but a boomer shooter"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% заходит в игру..."
+	#The second line of text under the app name
+	state = "Присоединение к Игре"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Сейчас в %world%"
+	#The second line of text under the app name
+	state = "Играет в одиночке..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Сейчас на %servername% вместе с %players% игроками"
+	#The second line of text under the app name
+	state = "Играет на сервере"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "Играет в Майнкрафт"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["tm4discord"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "https://www.youtube.com/@Ivanchela"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord 
+	buttons = []
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+
+	[[custom.variables]]
+		name = ""
+		value = ""
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "Исследует Землю"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "Crawling in Hell"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "Within the Corrupted Zone"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "atum:atum"
+		description = "Gaining strength in the Ancient Terrain"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "stacked_dimensions_warden:deeper_dark"
+		description = "Mining in the Forbidden Caverns"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "dimdungeons:dungeon_dimension"
+		description = "Raiding the Secret Pockets"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "lostcities:lostcity"
+		description = "Adventuring in the Lost World"
+		state = ""
+		largeImageKey = ["tm4discord"]
+		largeImageText = ""
+		smallImageKey = []
+		smallImageText = ""
+		buttons = []
+
+
