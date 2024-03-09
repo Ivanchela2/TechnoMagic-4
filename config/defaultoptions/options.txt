@@ -172,15 +172,6 @@ key_key.occultism.familiar.beholder_familiar:key.keyboard.unknown
 key_key.occultism.familiar.fairy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.beaver_familiar:key.keyboard.unknown
-key_key.deep_dark_regrowth.special_ability:key.keyboard.r
-key_key.deep_dark_regrowth.laser_mask:key.keyboard.g
-key_key.deep_dark_regrowth.konami_code_1:key.keyboard.up
-key_key.deep_dark_regrowth.konami_code_2:key.keyboard.down
-key_key.deep_dark_regrowth.konami_code_3:key.keyboard.left
-key_key.deep_dark_regrowth.konami_code_4:key.keyboard.right
-key_key.deep_dark_regrowth.konami_code_5:key.keyboard.b
-key_key.deep_dark_regrowth.konami_code_6:key.keyboard.a
-key_key.deep_dark_regrowth.konami_code_7:key.keyboard.enter
 key_key.amethyst_upgrade.op_spell_select:key.keyboard.g
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.hexerei.broomDescend:key.keyboard.left.shift
