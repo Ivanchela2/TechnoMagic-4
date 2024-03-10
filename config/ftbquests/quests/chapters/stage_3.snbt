@@ -17,7 +17,11 @@
 	quests: [
 		{
 			dependencies: ["5C3F9AF1D9019A99"]
-			description: ["Новый способ создания предметов."]
+			description: [
+				"Новый способ создания предметов."
+				""
+				"&e1/2&r &l&4Открывает следующую стадию!&r&r"
+			]
 			hide: true
 			id: "1D2A03062704637C"
 			rewards: [
@@ -36,12 +40,13 @@
 			]
 			shape: "circle"
 			size: 1.2d
+			subtitle: "Котелок вари"
 			tasks: [{
 				id: "799BE75AB9DA7094"
 				item: "hexerei:mixing_cauldron"
 				type: "item"
 			}]
-			title: "Котелок"
+			title: "Ведьминский котел"
 			x: -5.5d
 			y: 0.0d
 		}
@@ -55,6 +60,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			subtitle: "Не ведьмака, а ведьмы"
 			tasks: [{
 				id: "51D03543AEC9CD80"
 				item: {
@@ -64,7 +70,7 @@
 				}
 				type: "item"
 			}]
-			title: "Сундучок"
+			title: "Ведьмачий сундучок"
 			x: -7.5d
 			y: -2.0d
 		}
@@ -96,7 +102,7 @@
 				item: "sorcerium:sorcerers_broom_item"
 				type: "item"
 			}]
-			title: "Вверх!"
+			title: "Только вверх!"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -119,7 +125,7 @@
 				}
 				type: "item"
 			}]
-			title: "Полетаем?"
+			title: "Веник-90"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -143,7 +149,7 @@
 				}
 				type: "item"
 			}]
-			title: "Я скорость!"
+			title: "Я сама скорость!"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -180,7 +186,7 @@
 					type: "item"
 				}
 			]
-			title: "Побрекушечки"
+			title: "Украшаем метёлку"
 			x: 2.5d
 			y: 4.0d
 		}
@@ -199,6 +205,7 @@
 				item: "hexerei:medium_satchel"
 				type: "item"
 			}]
+			title: "Рюкзачок"
 			x: 4.5d
 			y: 4.0d
 		}
@@ -224,13 +231,13 @@
 					type: "item"
 				}
 			]
-			title: "Расширение территории"
+			title: "Улучшенные рюкзачки"
 			x: 6.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0ABB08FA3D63FEAD"]
-			description: ["После сушки вы получили готовый веник. Наденьте его на метлу."]
+			description: ["После сушки вы получили улучшенный веник. Наденьте его на метлу."]
 			id: "426DCFB3F028EB08"
 			tasks: [{
 				id: "10BDDD79C380777D"
@@ -243,6 +250,7 @@
 				}
 				type: "item"
 			}]
+			title: "Апгрейд метёлки"
 			x: -1.5d
 			y: 6.0d
 		}
@@ -278,6 +286,7 @@
 					type: "item"
 				}
 			]
+			title: "Стихийная устойчивость"
 			x: 4.5d
 			y: 2.0d
 		}
@@ -296,7 +305,7 @@
 				item: "hexerei:pestle_and_mortar"
 				type: "item"
 			}]
-			title: "Ботания-мини"
+			title: "Ботания на минималках"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -345,6 +354,7 @@
 				}
 				type: "item"
 			}]
+			title: "Необыкновенная флейта"
 			x: -3.5d
 			y: 5.0d
 		}
@@ -387,7 +397,7 @@
 					type: "item"
 				}
 			]
-			title: "Я Ведмочка"
+			title: "Я Ведьмочка"
 			x: -5.5d
 			y: -2.0d
 		}
@@ -408,6 +418,7 @@
 				}
 				type: "item"
 			}]
+			title: "Шляпа грибной ведьмочки"
 			x: -5.5d
 			y: -4.0d
 		}
@@ -452,7 +463,7 @@
 					type: "item"
 				}
 			]
-			title: "Магические палоски"
+			title: "Палочки выручалочки"
 			x: -3.5d
 			y: -4.0d
 		}
@@ -460,16 +471,19 @@
 			dependencies: ["593117BA3091815E"]
 			description: ["Данный блок при использывании усилит силу вашей магии на 10 минут."]
 			id: "16F754EDBDD35A35"
+			subtitle: "Очисти свою ауру"
 			tasks: [{
 				id: "3F4D8C60E61BF2A7"
 				item: "sorcerium:magic_sphere"
 				type: "item"
 			}]
+			title: "Волшебная сфера"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["296EA10B4BB5C2B3"]
+			description: ["Создайте вархаммер с помощью мехенических сборщиков."]
 			id: "3BA8B501954C8FCE"
 			optional: true
 			tasks: [{
@@ -483,12 +497,17 @@
 				}
 				type: "item"
 			}]
+			title: "Тяжёлый молот"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6CEF8EBFD54F6D96"]
-			description: ["Вы сделали сушку для предметов и блоков, также используется для украшения."]
+			description: [
+				"Вы сделали сушку для предметов и блоков, также используется для украшения."
+				""
+				"&e1/2&r &l&4Открывает следующую стадию!&r&r"
+			]
 			hide: true
 			id: "008D6F5767D2A4A2"
 			rewards: [{
@@ -497,12 +516,13 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			subtitle: "Высушит все"
 			tasks: [{
 				id: "4D699799E0EE483E"
 				item: "hexerei:herb_drying_rack"
 				type: "item"
 			}]
-			title: "Сушить, Сушить, Сушить!"
+			title: "Сушилка"
 			x: -7.5d
 			y: 6.0d
 		}
@@ -560,6 +580,7 @@
 		}
 		{
 			dependencies: ["22E35B1B54FADBD2"]
+			description: ["Просто высушите растения из предыдущего квеста."]
 			id: "6436A4999323A56B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -569,6 +590,7 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
+			subtitle: "но это не точно"
 			tasks: [
 				{
 					id: "5C2244BE18197E9E"
@@ -632,7 +654,7 @@
 					type: "item"
 				}
 			]
-			title: "Ты мой защитник <3"
+			title: "Звучит не очень законно"
 			x: -5.5d
 			y: 8.0d
 		}
@@ -645,6 +667,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
+			title: "Примитивный конвейер"
 			x: -3.5d
 			y: 7.5d
 		}
@@ -663,11 +686,13 @@
 				item: "hexerei:seed_mixture"
 				type: "item"
 			}]
+			title: "Вороний корм"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
+			description: ["Добывается в шахте."]
 			hide_dependency_lines: true
 			id: "493B47BF900C8BD9"
 			tasks: [{
@@ -680,6 +705,7 @@
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
+			description: ["После сушки вы получили комбинированный слиток."]
 			id: "296EA10B4BB5C2B3"
 			tasks: [{
 				id: "4E83A99663B7EE36"
@@ -694,6 +720,7 @@
 				"493B47BF900C8BD9"
 				"296EA10B4BB5C2B3"
 			]
+			description: ["Для получения магической стали, смешайте ведьминский и комбинированный слиток."]
 			id: "4030F51C7D65F7C7"
 			tasks: [{
 				id: "2771D98FBBEC498F"
@@ -708,6 +735,7 @@
 				"3BA8B501954C8FCE"
 				"4030F51C7D65F7C7"
 			]
+			description: ["Мощнее этого оружия нет ничего на свете, разве что..."]
 			id: "174BFDFA64A45B8F"
 			tasks: [{
 				id: "493F9DBD21F9B95C"
@@ -720,6 +748,7 @@
 				}
 				type: "item"
 			}]
+			title: "Убиватор 3к"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -775,13 +804,14 @@
 				}
 				type: "item"
 			}]
+			title: "Сверхъестественный компас"
 			x: -11.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4BA91AB519070D4D"]
 			description: [
-				"Чтобы увидеть камень или листья из иного мира, нужно получить эффект Третье глаз. Структура обычно находится под землей."
+				"Чтобы увидеть камень или листья из иного мира, нужно получить эффект Третий глаз. Структура обычно находится под землей."
 				""
 				"Другой вариант - воспользоваться призрачным огнём."
 			]
@@ -816,7 +846,7 @@
 				item: "occultism:spirit_attuned_gem"
 				type: "item"
 			}]
-			title: "Гем Духов"
+			title: "Гем духов"
 			x: -7.5d
 			y: 2.0d
 		}
@@ -836,11 +866,13 @@
 				}
 				type: "item"
 			}]
+			title: "Тесачок"
 			x: -7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5C3F9AF1D9019A99"]
+			description: ["Создайте стеклянные линзы."]
 			hide: true
 			id: "3D495E67D175A51B"
 			shape: "diamond"
@@ -851,24 +883,29 @@
 				item: "occultism:lenses"
 				type: "item"
 			}]
+			title: "Линзы"
 			x: -7.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3D495E67D175A51B"]
+			description: ["Для наполнения стеклянных линз духами необходимо пентакль, спектральное принуждение Изивы."]
 			id: "2ED26DB7D77AFF40"
 			shape: "diamond"
 			size: 0.75d
+			subtitle: "Последний шаг к потусторонним очкам"
 			tasks: [{
 				id: "54A11C6492FDCCD9"
 				item: "occultism:infused_lenses"
 				type: "item"
 			}]
+			title: "Наполненные линзы"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2ED26DB7D77AFF40"]
+			description: ["Очки из иного мира дают постоянный эффект Третий глаз."]
 			id: "42B95EADCDBE5589"
 			shape: "diamond"
 			size: 0.75d
@@ -883,6 +920,7 @@
 				}
 				type: "item"
 			}]
+			title: "Потусторонние очки"
 			x: -7.5d
 			y: -1.0d
 		}
@@ -967,6 +1005,7 @@
 					type: "item"
 				}
 			]
+			title: "Разноцветные мелки"
 			x: -3.5d
 			y: 4.0d
 		}
@@ -1025,6 +1064,7 @@
 		}
 		{
 			dependencies: ["22E35B1B54FADBD2"]
+			description: ["После сушки вы получили обычный веник, но его можно улучшить."]
 			id: "0ABB08FA3D63FEAD"
 			tasks: [{
 				id: "03380629652F9738"
@@ -1037,17 +1077,24 @@
 				}
 				type: "item"
 			}]
+			title: "Основание метлы"
 			x: -3.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4BA91AB519070D4D"]
+			description: [
+				"Чтобы увидеть деревья из иного мира, нужно получить эффект Третий глаз."
+				""
+				"Другой вариант - воспользоваться призрачным огнём."
+			]
 			id: "6CEF8EBFD54F6D96"
 			tasks: [{
 				id: "41C7FD4C2726DF6C"
 				item: "occultism:otherworld_log"
 				type: "item"
 			}]
+			title: "Потусторонняя древесина"
 			x: -9.5d
 			y: 6.0d
 		}

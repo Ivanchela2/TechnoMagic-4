@@ -86,7 +86,7 @@
 				item: "rootsclassic:imbuer"
 				type: "item"
 			}]
-			title: "Костёр?"
+			title: "Наполнитель пыли"
 			x: 2.5d
 			y: -4.0d
 		}
@@ -107,12 +107,13 @@
 				item: "rootsclassic:mundane_standing_stone"
 				type: "item"
 			}]
-			title: "Расширенные возможности"
+			title: "Расширенние возможностей"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E7022D88A1A53B1"]
+			description: ["Съев это восстановиться небольшой запас здоровья."]
 			hide: true
 			id: "414654774DF019D6"
 			rewards: [{
@@ -152,7 +153,7 @@
 				item: "rootsclassic:spell_powder"
 				type: "item"
 			}]
-			title: "Я пыль"
+			title: "Волшебный порошок"
 			x: 0.5d
 			y: -4.0d
 		}
@@ -254,7 +255,7 @@
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
-			title: "Ураа Лето"
+			title: "Звёздное лето"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -268,9 +269,9 @@
 				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
-			title: "О блёстки"
+			title: "Золотая лихорадка"
 			x: 6.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["69374D2A54D2E8A7"]
@@ -287,30 +288,41 @@
 				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
+			title: "Золотой лист"
 			x: 8.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"17444546CBEA74AD"
-				"6187009683A16AB1"
-			]
+			dependencies: ["17444546CBEA74AD"]
 			description: ["При обработке листьев жёрновом они превратились в труху. Осталось только найти им применение."]
 			hide: true
 			id: "4AA98008F9458B33"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DA8F801408C4277"
-				table_id: 4669929033245206696L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DA8F801408C4277"
+					table_id: 4669929033245206696L
+					type: "loot"
+				}
+				{
+					id: "61E4CCDE677FA5CE"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7589EB787B852269"
 				item: "naturesaura:gold_powder"
 				type: "item"
 			}]
-			title: "Я пыль"
-			x: 6.5d
+			title: "Золотая пыль"
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -328,12 +340,17 @@
 				item: "naturesaura:wood_stand"
 				type: "item"
 			}]
-			x: 8.5d
+			title: "Классическая подставка"
+			x: 12.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["05BA6237D762B372"]
-			description: ["Похоже это древо очень старое и существовало ещё до всего этого. Когда было.. м.. что же.. было."]
+			description: [
+				"Похоже это древо очень старое и существовало ещё до всего этого. Когда было.. м.. что же.. было."
+				""
+				"Пассивно генерирует Ауру."
+			]
 			icon: "naturesaura:ancient_sapling"
 			id: "44EB8A969B26A222"
 			rewards: [{
@@ -348,14 +365,16 @@
 				item: "naturesaura:ancient_log"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			title: "Глубокие рассуждения"
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"44EB8A969B26A222"
 				"7275A9136C0543FE"
+				"17444546CBEA74AD"
 			]
+			description: ["Создайте знак радости."]
 			id: "39F78B26B9F39C4D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -369,12 +388,16 @@
 				type: "item"
 			}]
 			title: "Безудержное веселье "
-			x: 8.5d
-			y: -4.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39F78B26B9F39C4D"]
-			description: ["Кроме высасывания силы из деревьев вы смогли наполнить предметы природной аурой."]
+			description: [
+				"Кроме высасывания силы из деревьев вы смогли наполнить предметы природной аурой."
+				""
+				"&l&4Открывает следующую стадию!&r&r"
+			]
 			hide: true
 			id: "719CBE19584F107B"
 			rewards: [{
@@ -383,14 +406,15 @@
 				table_id: 7654854154124048604L
 				type: "loot"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "61B2B644EEC497BA"
 				item: "naturesaura:nature_altar"
 				type: "item"
 			}]
-			title: "Ритуальчики *опять*"
-			x: 10.5d
-			y: -4.0d
+			title: "Природное наполнение"
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
@@ -408,11 +432,11 @@
 				type: "item"
 			}]
 			title: "Инфузия"
-			x: 12.5d
-			y: -4.0d
+			x: 14.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6187009683A16AB1"]
+			dependencies: ["139C7F3B1CBD9CDF"]
 			description: ["С помощью пресcа вам удалось запаковать солнечный свет. КАК!?"]
 			hide: true
 			id: "7275A9136C0543FE"
@@ -427,11 +451,13 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.0d
+			title: "Личный лучик света"
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39F78B26B9F39C4D"]
+			description: ["Можно установить на печь - блок ускоряет её работу и позволяет работать ей без топлива. Использует Ауру."]
 			hide: true
 			id: "4775AE2DDF10E45D"
 			rewards: [{
@@ -446,8 +472,9 @@
 				item: "naturesaura:furnace_heater"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.0d
+			title: "Бесплатное топливо"
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
@@ -499,7 +526,7 @@
 					type: "item"
 				}
 			]
-			title: "Обработка всего"
+			title: "Не chisel, но лучше"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -517,7 +544,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			title: "Ну это андезитовый сплав"
+			title: "Основа основ"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -554,24 +581,27 @@
 					type: "item"
 				}
 			]
-			title: "Технологично"
+			title: "Стимпанк. Начало"
 			x: 4.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
 			description: ["Великое проклятие настигло этот лист."]
 			id: "1F10AF3011B06A5F"
+			shape: "diamond"
 			tasks: [{
 				id: "44D95F9A1093AADF"
 				item: "gribtweaks:tained_gold_leaf"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			title: "Увядший"
+			x: 13.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
+			description: ["Отправляйтесь в шахту и добудьте алмазы новой киркой."]
 			hide: true
 			id: "7AB3B86EACDCFD4C"
 			rewards: [{
@@ -579,11 +609,13 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			subtitle: "Моя прелесть"
 			tasks: [{
 				id: "6FF07F2F3784E813"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "Первый алмаз"
 			x: -7.5d
 			y: 0.0d
 		}
@@ -605,6 +637,7 @@
 				}
 				type: "item"
 			}]
+			title: "Кирка из павшего"
 			x: -9.5d
 			y: 0.0d
 		}
@@ -616,20 +649,307 @@
 				item: "rootsclassic:mutating_powder"
 				type: "item"
 			}]
+			title: "Мутирует, но что?"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
-			id: "12481649FFB3C9E4"
-			invisible: true
-			size: 5.0d
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["В активированном режиме позволяет за раз полностью срубать дерево."]
+			id: "656A3DF610E6F2EA"
 			tasks: [{
-				id: "4B25342D1B6D5ACE"
-				title: "ДОРАБОТАТЬ NATURES AURA"
-				type: "checkmark"
+				id: "742F28145C2B49E0"
+				item: {
+					Count: 1b
+					id: "naturesaura:sky_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Небесный ручной топор"
+			x: 18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03F66036C8134D82"]
+			description: ["В активированном режиме позволяет за раз полностью срубать дерево."]
+			id: "373D77DCC4017A89"
+			tasks: [{
+				id: "12C82E6A0D65C077"
+				item: {
+					Count: 1b
+					id: "naturesaura:depth_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Душе-странствуйщий ручной топор"
+			x: 18.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6AC6E0BBE565BFC2"]
+			id: "7C80BEA676A0078A"
+			tasks: [{
+				id: "378AD8F247BC6E8C"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7DC86FEBB7F17821"
+				"7C80BEA676A0078A"
+			]
+			id: "03F66036C8134D82"
+			tasks: [{
+				id: "07EB90F3D505EAC1"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			title: "Слиток глубин"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03F66036C8134D82"]
+			description: ["В активированном режиме позволяет за раз полностью выкапывать рудную жилу."]
+			id: "01BE4810A6D480A8"
+			tasks: [{
+				id: "10EE499ADD0755F3"
+				item: {
+					Count: 1b
+					id: "naturesaura:depth_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Душе-странствующая кирка"
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["Позволяет создавать ауру из зелий с положительным эффектом. (см. Размышления)"]
+			id: "309340F82DE406B2"
+			tasks: [{
+				id: "603FC49EA1F7ED20"
+				item: "naturesaura:potion_generator"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["Позволяет создавать мобов. (см. Размышления)"]
+			id: "0C6AF36D3DCD6432"
+			tasks: [{
+				id: "2784D8DDF9CFB999"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7524E89870BE34C6"
+				"7275A9136C0543FE"
+			]
+			description: ["Используется для создания предметов. (см. Размышления)"]
+			id: "49FA63E436B4A94D"
+			tasks: [{
+				id: "60E95AA7A3B8421A"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["Можно надеть в слот \"Кольца\". При смерти используется и не даёт игроку умереть."]
+			id: "1AC156060F83A1B3"
+			tasks: [{
+				id: "272F1EFEAA42DD33"
+				item: "naturesaura:death_ring"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05BA6237D762B372"]
+			description: ["Показывает наличие ауры вокруг игрока."]
+			id: "36E05F7604222CE4"
+			tasks: [{
+				id: "33128C1260D84F31"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["Употребляет ауру вокруг себя, взамен генерирует RF энергию. (см. Размышления)"]
+			id: "7D4D83017AC95241"
+			tasks: [{
+				id: "6EF51193406CE920"
+				item: "naturesaura:rf_converter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49FA63E436B4A94D"]
+			description: ["При использовании подсвечивает хранилища в большом радиусе."]
+			id: "111AB55A84315A2C"
+			tasks: [{
+				id: "189068C9E0DFA0F4"
+				item: "naturesaura:loot_finder"
+				type: "item"
 			}]
 			x: 12.5d
-			y: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C80BEA676A0078A"]
+			description: ["Стреляет светом, который навсегда остается на блоках."]
+			id: "034D220749B2C0E1"
+			tasks: [{
+				id: "654F8966CDEF7F14"
+				item: "naturesaura:light_staff"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36E05F7604222CE4"]
+			description: ["Держит мирных мобов и не даёт им уйти от блока. Использует Ауру."]
+			id: "72BDD063D26392C7"
+			tasks: [{
+				id: "1634A1240CE221F8"
+				item: "naturesaura:animal_container"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DC86FEBB7F17821"]
+			description: ["Зажмите SHIFT во время прыжка, чтобы нанести урон по области."]
+			id: "768B824D63376E0E"
+			tasks: [{
+				id: "3C9D8649C1C1262D"
+				item: "naturesaura:shockwave_creator"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6AC6E0BBE565BFC2"]
+			description: ["Удваивает выход плавильной печи. Разместите блок над печью, затем поместите в него руду (при помощи воронки и др.) Использует Ауру и работает с небольшим шансом."]
+			id: "449EA0E565FA3657"
+			tasks: [{
+				id: "355C4DB02B40C9CE"
+				item: "naturesaura:blast_furnace_booster"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AC6E0BBE565BFC2"]
+			description: ["Разместите блок на любую воронку, чтобы увеличить радиус её всасывания на 7 блоков во все стороны. За работу использует Ауру."]
+			id: "4C72B70D5101A5F4"
+			tasks: [{
+				id: "5240404A28EAF7D7"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49FA63E436B4A94D"]
+			description: ["По сигналу редстоуна соберёт большое кол-во ауры с выросших цветков Хоруса. Чем выше цветок, тем больше ауры."]
+			id: "75CDFA76951A0E01"
+			tasks: [{
+				id: "5BBE7F4866B913C5"
+				item: "naturesaura:chorus_generator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6187009683A16AB1"]
+			id: "139C7F3B1CBD9CDF"
+			tasks: [{
+				id: "27F133C1AC18DA43"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["139C7F3B1CBD9CDF"]
+			id: "7524E89870BE34C6"
+			tasks: [{
+				id: "5EED10AB34E454CA"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["139C7F3B1CBD9CDF"]
+			id: "38E578EAF2E3F91A"
+			tasks: [{
+				id: "62148C56FC84FFB0"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["719CBE19584F107B"]
+			id: "7DC86FEBB7F17821"
+			tasks: [{
+				id: "1D25355398F01960"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
 		}
 	]
 	title: "&5Стадия: 2"

@@ -230,6 +230,7 @@
 				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
+			title: "Чешуя наги"
 			x: -8.0d
 			y: -3.0d
 		}

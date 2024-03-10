@@ -26,6 +26,7 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
+			title: "Песок душ"
 			x: -24.0d
 			y: 5.0d
 		}
@@ -47,7 +48,7 @@
 				item: "spirit:soul_crystal_shard"
 				type: "item"
 			}]
-			title: "Пыль души"
+			title: "Осколок души"
 			x: -22.0d
 			y: 3.0d
 		}
@@ -68,7 +69,7 @@
 				item: "spirit:crude_soul_crystal"
 				type: "item"
 			}]
-			title: "Сырой Кристалл Души"
+			title: "Сырой кристалл души"
 			x: -20.0d
 			y: 3.0d
 		}
@@ -89,7 +90,7 @@
 				item: "spirit:soul_crystal"
 				type: "item"
 			}]
-			title: "Кристалл Души"
+			title: "Кристалл души"
 			x: -18.0d
 			y: 3.0d
 		}
@@ -191,6 +192,7 @@
 				title: "Первое убийство"
 				type: "checkmark"
 			}]
+			title: "Им удобно?"
 			x: -18.0d
 			y: 1.0d
 		}
@@ -200,6 +202,7 @@
 				"02A0D443A9B73CE4"
 				"2ADD3B41B236056F"
 			]
+			description: ["&e1/3&r &l&4Открывает следующую стадию!&r&r"]
 			id: "045C3D369D9FADD6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -213,7 +216,7 @@
 				item: "spirit:soul_cage"
 				type: "item"
 			}]
-			title: "Клетка Душ"
+			title: "Твоя душа, моя душа"
 			x: -16.0d
 			y: 3.0d
 		}
@@ -247,7 +250,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Хранитель"
+			title: "Замес с Хранителем"
 			x: -16.0d
 			y: 7.0d
 		}
@@ -260,6 +263,7 @@
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"
 			}]
+			title: "Сердце глубин"
 			x: -14.0d
 			y: 9.0d
 		}
@@ -289,6 +293,7 @@
 				item: "aquamirae:rune_of_the_storm"
 				type: "item"
 			}]
+			title: "Руна Шторма"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -309,6 +314,7 @@
 				item: "aquamirae:fin"
 				type: "item"
 			}]
+			title: "Плавник"
 			x: -8.0d
 			y: 3.0d
 		}
@@ -328,6 +334,7 @@
 				item: "aquamirae:anglers_fang"
 				type: "item"
 			}]
+			title: "Ядовитая заточка"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -387,6 +394,7 @@
 					type: "item"
 				}
 			]
+			title: "Ужасная броня"
 			x: -9.5d
 			y: 1.5d
 		}
@@ -405,11 +413,13 @@
 				item: "aquamirae:sharp_bones"
 				type: "item"
 			}]
+			title: "Объедки"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2993FC18F2AFAEA3"]
+			description: ["Мертвее этой сабли вы ничего не находили."]
 			id: "2D94614105876688"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -428,6 +438,7 @@
 				}
 				type: "item"
 			}]
+			title: "Меч мертвее php"
 			x: -4.0d
 			y: 3.0d
 		}
@@ -452,6 +463,7 @@
 				}
 				type: "item"
 			}]
+			title: "Запрещенно женевской конвенцией"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -476,6 +488,7 @@
 				}
 				type: "item"
 			}]
+			title: "Чакрам"
 			x: -4.0d
 			y: 1.0d
 		}
@@ -500,11 +513,13 @@
 				}
 				type: "item"
 			}]
+			title: "Очень ужасный меч"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["78E0DAF09902B2C5"]
+			description: ["Отрежет плавник и не только."]
 			id: "70A5E56DC9773652"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -523,6 +538,7 @@
 				}
 				type: "item"
 			}]
+			title: "Плавникорез"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -541,6 +557,7 @@
 				item: "aquamirae:abyssal_amethyst"
 				type: "item"
 			}]
+			title: "Аметист бездны"
 			x: -4.0d
 			y: 7.0d
 		}
@@ -623,6 +640,7 @@
 					type: "item"
 				}
 			]
+			title: "Броня из марианской впадины"
 			x: -4.0d
 			y: 9.0d
 		}
@@ -647,6 +665,7 @@
 				}
 				type: "item"
 			}]
+			title: "Тиара настоящей принцессы"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -671,6 +690,7 @@
 				}
 				type: "item"
 			}]
+			title: "Рассекатель врагов"
 			x: -2.5d
 			y: 8.5d
 		}
@@ -695,6 +715,7 @@
 				}
 				type: "item"
 			}]
+			title: "Шепот бездны"
 			x: -5.5d
 			y: 8.5d
 		}
@@ -719,12 +740,17 @@
 				}
 				type: "item"
 			}]
+			title: "Крутой спиннер"
 			x: -2.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4986FFC1C7A5B1E0"]
-			description: ["Ключ от сокровищ Капитана, которые можно найти в Бункере."]
+			description: [
+				"Ключ от сокровищ Капитана, которые можно найти в Бункере."
+				""
+				"&e1/3&r &l&4Открывает следующую стадию!&r&r"
+			]
 			id: "6317A3CD85E467D0"
 			rewards: [
 				{
@@ -744,6 +770,7 @@
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
+			title: "Ключ из морозилки"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -803,6 +830,7 @@
 					type: "item"
 				}
 			]
+			title: "Первый водолазный костюм"
 			x: -5.0d
 			y: 4.0d
 		}
@@ -819,6 +847,7 @@
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
+			subtitle: "Мне нужна твоя одежда, ботинки и мотоцикл"
 			tasks: [{
 				id: "65A364B93AED08C9"
 				item: {
@@ -830,6 +859,7 @@
 				}
 				type: "item"
 			}]
+			title: "Жадный кинжал"
 			x: -7.0d
 			y: 4.0d
 		}
@@ -857,6 +887,7 @@
 				}
 				type: "item"
 			}]
+			title: "Пика Корнелии"
 			x: -5.0d
 			y: 6.0d
 		}
@@ -879,6 +910,7 @@
 					type: "item"
 				}
 			]
+			title: "Восстановитель душ"
 			x: -14.0d
 			y: 3.0d
 		}
@@ -897,6 +929,7 @@
 				item: "vitalize:pylon_efficiency"
 				type: "item"
 			}]
+			title: "Эффективный пилон"
 			x: -15.5d
 			y: 4.5d
 		}
@@ -915,6 +948,7 @@
 				item: "vitalize:pylon_beheading"
 				type: "item"
 			}]
+			title: "Обезглавливающий пилон"
 			x: -14.0d
 			y: 5.0d
 		}
@@ -933,6 +967,7 @@
 				item: "vitalize:pylon_looting"
 				type: "item"
 			}]
+			title: "Пилон мародера"
 			x: -15.5d
 			y: 1.5d
 		}
@@ -951,6 +986,7 @@
 				item: "vitalize:pylon_speed"
 				type: "item"
 			}]
+			title: "Скоростной пилон"
 			x: -14.0d
 			y: 1.0d
 		}
@@ -969,6 +1005,7 @@
 				item: "vitalize:pylon_experience"
 				type: "item"
 			}]
+			title: "Пилон опыта"
 			x: -12.5d
 			y: 1.5d
 		}
@@ -987,6 +1024,7 @@
 				item: "vitalize:pylon_flame"
 				type: "item"
 			}]
+			title: "Огненный пилон"
 			x: -12.0d
 			y: 3.0d
 		}
@@ -1005,6 +1043,7 @@
 				item: "vitalize:pylon_recursive"
 				type: "item"
 			}]
+			title: "Пилон рекурсмии"
 			x: -12.5d
 			y: 4.5d
 		}
@@ -1092,12 +1131,13 @@
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
-			title: "Древний Город"
+			title: "Древний город"
 			x: -18.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["41C65BD1CB61D79B"]
+			description: ["Отправьтесь в мир Хранителя."]
 			id: "6ADEE70572D80725"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
@@ -1105,7 +1145,7 @@
 				id: "2BBB4A28402337CB"
 				type: "dimension"
 			}]
-			title: "Тихое место"
+			title: "Тихое местечко"
 			x: -12.0d
 			y: 9.0d
 		}
@@ -1118,6 +1158,7 @@
 				item: "deeperdarker:sculk_bone"
 				type: "item"
 			}]
+			title: "Местные жители"
 			x: -11.0d
 			y: 8.0d
 		}
@@ -1130,17 +1171,20 @@
 				item: "deeperdarker:soul_dust"
 				type: "item"
 			}]
+			title: "Местны жители 2"
 			x: -10.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["0152D66E23EE30B1"]
+			description: ["Выпадает с хранителя."]
 			id: "75B3A6074727C560"
 			tasks: [{
 				id: "1CF165DF3EDF7830"
 				item: "deeperdarker:warden_carapace"
 				type: "item"
 			}]
+			title: "Панцирь Хранителя"
 			x: -14.0d
 			y: 7.0d
 		}
@@ -1153,6 +1197,7 @@
 				item: "deeperdarker:reinforced_echo_shard"
 				type: "item"
 			}]
+			title: "Осколко эха в броне?"
 			x: -12.0d
 			y: 7.0d
 		}
@@ -1165,11 +1210,13 @@
 				item: "deeperdarker:sculk_transmitter"
 				type: "item"
 			}]
+			title: "Скалковая рация"
 			x: -8.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["4AF2A3CCED0DF671"]
+			description: ["Почему осколок эха всегда в хорошем настроении?"]
 			id: "27D1FD7C54F4E87C"
 			tasks: [{
 				count: 4L
@@ -1177,6 +1224,7 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
+			title: "Осколок эха"
 			x: -16.0d
 			y: 9.0d
 		}
@@ -1189,12 +1237,17 @@
 				item: "gribtweaks:sculk_membrane"
 				type: "item"
 			}]
+			title: "Скалк-мембраный проводник"
 			x: -14.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6441D13ED875FC08"]
-			description: ["Чтобы призвать сталкера просто ломайте древние вазы, и, с маленьким шансом, он заспавнится."]
+			description: [
+				"Чтобы призвать сталкера просто ломайте древние вазы, и, с маленьким шансом, он заспавнится."
+				""
+				"&e1/3&r &l&4Открывает следующую стадию!&r&r"
+			]
 			id: "41BF45C87E6F6410"
 			rewards: [{
 				count: 3
@@ -1224,7 +1277,7 @@
 				structure: "deeperdarker:ancient_temple"
 				type: "structure"
 			}]
-			title: "Храм Тишины"
+			title: "Храм Безмолвия"
 			x: -10.0d
 			y: 11.0d
 		}
@@ -1303,12 +1356,13 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			title: "Пора в Ад!"
+			title: "Приключение на 5 минут "
 			x: -26.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3ED7F94EE99EAF66"]
+			description: ["Отправьтесь в Ад и найдите светокамень."]
 			id: "11D2A3E29F320A24"
 			tasks: [{
 				count: 8L
@@ -1316,11 +1370,13 @@
 				item: "minecraft:glowstone"
 				type: "item"
 			}]
+			title: "Светокамень"
 			x: -24.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["11D2A3E29F320A24"]
+			description: ["Пыль души создается путем броска светокаменной пыли в огонь душ."]
 			id: "5578A92C34074516"
 			tasks: [{
 				count: 4L
@@ -1328,6 +1384,7 @@
 				item: "spirit:soul_powder_block"
 				type: "item"
 			}]
+			title: "Блок порошка душ"
 			x: -22.0d
 			y: 7.0d
 		}
@@ -1351,6 +1408,7 @@
 				item: "reaper:reaper_generator"
 				type: "item"
 			}]
+			title: "Автоматический жнец"
 			x: -20.0d
 			y: 9.0d
 		}
@@ -1364,6 +1422,7 @@
 				item: "reaper:rune_reficiat"
 				type: "item"
 			}]
+			title: "Рефициатная руна"
 			x: -21.5d
 			y: 10.0d
 		}
@@ -1377,6 +1436,7 @@
 				item: "reaper:rune_obitus"
 				type: "item"
 			}]
+			title: "Руна Обитуса"
 			x: -19.0d
 			y: 11.0d
 		}
@@ -1390,6 +1450,7 @@
 				item: "reaper:rune_humano"
 				type: "item"
 			}]
+			title: "Человеческая руна"
 			x: -18.5d
 			y: 9.0d
 		}
@@ -1403,6 +1464,7 @@
 				item: "reaper:rune_dilato"
 				type: "item"
 			}]
+			title: "Руна Дилато"
 			x: -21.5d
 			y: 9.0d
 		}
@@ -1416,6 +1478,7 @@
 				item: "reaper:rune_velocitas"
 				type: "item"
 			}]
+			title: "Руна Велоцитас"
 			x: -21.0d
 			y: 11.0d
 		}
@@ -1429,6 +1492,7 @@
 				item: "reaper:rune_spiritus"
 				type: "item"
 			}]
+			title: "Руна Духа"
 			x: -18.5d
 			y: 10.0d
 		}
@@ -1441,6 +1505,7 @@
 				item: "reaper:soul_beacon"
 				type: "item"
 			}]
+			title: "Маяк душ"
 			x: -24.0d
 			y: 9.0d
 		}
@@ -1454,6 +1519,7 @@
 				item: "reaper:rune_block_possessio"
 				type: "item"
 			}]
+			title: "Блок рун владений"
 			x: -23.0d
 			y: 11.0d
 		}
@@ -1467,6 +1533,7 @@
 				item: "reaper:rune_block_hostilis"
 				type: "item"
 			}]
+			title: "Блок рун Хостилис"
 			x: -25.5d
 			y: 9.0d
 		}
@@ -1480,6 +1547,7 @@
 				item: "reaper:rune_block_dilato"
 				type: "item"
 			}]
+			title: "Блок рун Дилато"
 			x: -22.5d
 			y: 9.0d
 		}
@@ -1493,6 +1561,7 @@
 				item: "reaper:rune_block_beastia"
 				type: "item"
 			}]
+			title: "Блок рун зверя"
 			x: -22.5d
 			y: 10.0d
 		}
@@ -1506,6 +1575,7 @@
 				item: "reaper:rune_block_duplici"
 				type: "item"
 			}]
+			title: "Дубликат блока рун"
 			x: -25.0d
 			y: 11.0d
 		}
@@ -1519,6 +1589,7 @@
 				item: "reaper:rune_block_efficacia"
 				type: "item"
 			}]
+			title: "Блок рун эффективности"
 			x: -25.5d
 			y: 10.0d
 		}
@@ -1597,6 +1668,7 @@
 				item: "aquamirae:shell_horn"
 				type: "item"
 			}]
+			title: "Завалите капитана Корнелию"
 			x: -6.0d
 			y: 5.0d
 		}

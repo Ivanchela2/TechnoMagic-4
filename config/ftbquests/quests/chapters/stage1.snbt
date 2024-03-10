@@ -44,6 +44,7 @@
 					type: "item"
 				}
 			]
+			title: "Кремень"
 			x: -4.5d
 			y: 3.5d
 		}
@@ -64,6 +65,7 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
+			title: "Просто палка"
 			x: -4.5d
 			y: -0.5d
 		}
@@ -74,6 +76,7 @@
 			]
 			description: ["При ломании травы при помощи ножа выпадает растительное волокно, используемое для создания нитей."]
 			id: "7B908CABA361E481"
+			subtitle: "Пригодится в нарезке свинины"
 			tasks: [{
 				id: "453BCDE7FE04CDED"
 				item: {
@@ -85,6 +88,7 @@
 				}
 				type: "item"
 			}]
+			title: "Кремниевый нож"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -103,6 +107,7 @@
 				item: "notreepunching:plant_fiber"
 				type: "item"
 			}]
+			title: "Растительное волокно"
 			x: -0.5d
 			y: 1.5d
 		}
@@ -115,6 +120,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			subtitle: "Уже не обезьяна"
 			tasks: [{
 				id: "31920DE4B0D76CE0"
 				item: {
@@ -126,11 +132,13 @@
 				}
 				type: "item"
 			}]
+			title: "Кремниевый топор"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["417DCE7F7196C6FF"]
+			description: ["Создайте верстак. "]
 			hide: true
 			id: "72CEB74B0928C7C3"
 			shape: "gear"
@@ -140,6 +148,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
+			title: "Верстак"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -173,11 +182,13 @@
 				}
 				type: "item"
 			}]
+			title: "Первая кирка"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Отправляйтесь в шахту и добудьте уголь."]
 			hide: true
 			id: "28541DF5F861F45D"
 			rewards: [{
@@ -191,11 +202,13 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
+			title: "Старый добрый уголь"
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["28541DF5F861F45D"]
+			description: ["Создайте костер."]
 			hide: true
 			id: "73995DDB352A2786"
 			tasks: [{
@@ -203,11 +216,13 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
+			title: "Первый огонь"
 			x: 9.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["73995DDB352A2786"]
+			description: ["Чтобы создать камень необходимо переплавить булыжник в костре."]
 			hide: true
 			id: "77A2452ACD969D50"
 			rewards: [{
@@ -215,16 +230,19 @@
 				type: "xp"
 				xp: 5
 			}]
+			subtitle: "Камень я не дам"
 			tasks: [{
 				id: "35A4E22DE29390E4"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
+			title: "Печь"
 			x: 9.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Отправляйтесь в шахту и добудьте железо."]
 			hide: true
 			id: "3EE32FBF22B7DBFA"
 			tasks: [{
@@ -232,6 +250,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
+			title: "Нужно больше железа"
 			x: 7.5d
 			y: 1.5d
 		}
@@ -240,6 +259,7 @@
 				"77A2452ACD969D50"
 				"3EE32FBF22B7DBFA"
 			]
+			description: ["Выплавьте слиток железа в печи."]
 			id: "211AE1FCA3393F0E"
 			rewards: [{
 				count: 4
@@ -254,11 +274,13 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			title: "Слиток железа"
 			x: 9.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Создайте железную кирку из полученых ранее слитков."]
 			hide: true
 			id: "1EB6928031F52962"
 			tasks: [{
@@ -272,6 +294,7 @@
 				}
 				type: "item"
 			}]
+			title: "Обновка"
 			x: 10.5d
 			y: 2.5d
 		}
@@ -300,6 +323,7 @@
 				}
 				type: "item"
 			}]
+			title: "Гончарный инструмент"
 			x: 5.5d
 			y: 3.5d
 		}
@@ -308,11 +332,13 @@
 			description: ["Маленькая ваза является маленьким переносным хранилищем наподобии рюкзака."]
 			hide: true
 			id: "21F9907FD66925B1"
+			subtitle: "Для начала пойдет"
 			tasks: [{
 				id: "31DAB590A91BE4BD"
 				item: "notreepunching:ceramic_small_vessel"
 				type: "item"
 			}]
+			title: "Первый \"рюкзак\""
 			x: 5.5d
 			y: 5.5d
 		}
@@ -331,6 +357,7 @@
 				item: "notreepunching:ceramic_large_vessel"
 				type: "item"
 			}]
+			title: "Примитивный сундук"
 			x: 7.5d
 			y: 5.5d
 		}
@@ -350,6 +377,7 @@
 				}
 				type: "item"
 			}]
+			title: "Делают чик-чик"
 			x: 7.5d
 			y: 3.5d
 		}
@@ -363,6 +391,7 @@
 				item: "totemic:flute"
 				type: "item"
 			}]
+			title: "Искусство флейты"
 			x: 9.5d
 			y: 3.5d
 		}
@@ -428,12 +457,13 @@
 					type: "item"
 				}
 			]
-			title: "Бизоны"
+			title: "Перевоплощение коровы"
 			x: 11.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
+			description: ["Убейте корову или лошадь для получения первой кожи."]
 			id: "57EF6D6B886AA24C"
 			rewards: [{
 				id: "0421912CD6365C80"
@@ -445,6 +475,7 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
+			title: "Первые убийства"
 			x: 5.5d
 			y: -0.5d
 		}
@@ -463,6 +494,7 @@
 				item: "totemic:drum"
 				type: "item"
 			}]
+			title: "Барабан шамана"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -471,11 +503,13 @@
 			description: ["Типи имеет схожий функционал с кроватью."]
 			hide: true
 			id: "77B5B020F036C0E6"
+			subtitle: "Почувствуй себя индейцем"
 			tasks: [{
 				id: "448138D6EC2661D8"
 				item: "totemic:tipi"
 				type: "item"
 			}]
+			title: "Типи"
 			x: 13.5d
 			y: 5.5d
 		}
@@ -519,6 +553,7 @@
 				item: "totemic:eagle_bone"
 				type: "item"
 			}]
+			title: "Птичку жалко"
 			x: 15.5d
 			y: 1.5d
 		}
@@ -531,6 +566,7 @@
 				item: "totemic:eagle_bone_whistle"
 				type: "item"
 			}]
+			title: "Финальный инструмент тотемиста"
 			x: 15.5d
 			y: 3.5d
 		}
@@ -550,6 +586,7 @@
 				}
 				type: "item"
 			}]
+			title: "Платье любого тотемиста"
 			x: 11.5d
 			y: -0.5d
 		}
@@ -560,7 +597,7 @@
 				""
 				"Начнется отчет, по окончании которого появится Байкок."
 				""
-				"Убейте Байкока, тем самым завершив первую стадию."
+				"&l&4Открывает следующую стадию!&r&r"
 			]
 			hide: true
 			id: "3B1B6F0B1BF3A5D2"
@@ -599,6 +636,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Убить... Мёртвого?"
 			x: 18.0d
 			y: 3.5d
 		}
@@ -612,11 +650,13 @@
 				item: "totemic:wind_chime"
 				type: "item"
 			}]
+			title: "Мелодия приключений"
 			x: 11.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
+			description: ["Трещотка используется для ритуалов из Totemic."]
 			hide: true
 			id: "203470031D4BE97E"
 			tasks: [{
@@ -624,6 +664,7 @@
 				item: "totemic:rattle"
 				type: "item"
 			}]
+			title: "Трещотка"
 			x: 13.5d
 			y: 3.5d
 		}
