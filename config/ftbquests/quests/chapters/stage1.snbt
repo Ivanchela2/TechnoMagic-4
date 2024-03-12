@@ -113,7 +113,7 @@
 		}
 		{
 			dependencies: ["6BD0436432D75B84"]
-			description: ["Создайте кремневый топор и добудьте дерево."]
+			description: ["Создайте кремниевый топор и добудьте дерево."]
 			id: "417DCE7F7196C6FF"
 			rewards: [{
 				id: "3B8E39DA98FA2EC2"
@@ -295,8 +295,8 @@
 				type: "item"
 			}]
 			title: "Обновка"
-			x: 10.5d
-			y: 2.5d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
@@ -393,7 +393,7 @@
 			}]
 			title: "Искусство флейты"
 			x: 9.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
@@ -424,7 +424,7 @@
 			}]
 			title: "Нож для вырезания тотемов"
 			x: 11.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -459,7 +459,7 @@
 			]
 			title: "Перевоплощение коровы"
 			x: 11.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
@@ -511,7 +511,7 @@
 			}]
 			title: "Типи"
 			x: 13.5d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
@@ -533,7 +533,7 @@
 			}]
 			title: "Попугай"
 			x: 13.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4C7112651DC277D4"]
@@ -555,7 +555,7 @@
 			}]
 			title: "Птичку жалко"
 			x: 15.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A2E19584BBEDCF3"]
@@ -567,7 +567,7 @@
 				type: "item"
 			}]
 			title: "Финальный инструмент тотемиста"
-			x: 15.5d
+			x: 17.5d
 			y: 3.5d
 		}
 		{
@@ -637,7 +637,7 @@
 				value: 1L
 			}]
 			title: "Убить... Мёртвого?"
-			x: 18.0d
+			x: 20.0d
 			y: 3.5d
 		}
 		{
@@ -652,7 +652,7 @@
 			}]
 			title: "Мелодия приключений"
 			x: 11.5d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5E66179B19904D5E"]
@@ -666,7 +666,25 @@
 			}]
 			title: "Трещотка"
 			x: 13.5d
-			y: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Добывает деревья чуть быстрее своего аналога (топора). Главное, позволяет перерабывать бревно в 4 доски или 8 палок. "]
+			id: "5CDE6AB623038123"
+			tasks: [{
+				id: "4BF4B31FCAC1C572"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
 		}
 	]
 	title: "&5Стадия: 1"

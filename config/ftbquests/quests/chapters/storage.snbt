@@ -1938,7 +1938,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1B86A502898A6439"]
 			description: ["Конвертирует энергию других модов для питания механизмов из ae2."]
 			id: "3D95D4CD24EDEFF7"
 			rewards: [{
@@ -1955,7 +1954,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3717A960E8DB96B7"]
 			description: ["Позволяет заряжать кристаллы."]
 			hide: true
 			id: "634E1DF433409C38"

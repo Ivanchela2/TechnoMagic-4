@@ -6,18 +6,6 @@
 	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:soul"
 	id: "226D8B2BE3549D63"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 2.5d
-		hover: [ ]
-		image: "create:block/brass_casing"
-		rotation: 0.0d
-		width: 2.5d
-		x: -4.0d
-		y: 0.0d
-	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -97,7 +85,7 @@
 				}
 			]
 			title: "Кузница Гефеста"
-			x: 0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -165,8 +153,8 @@
 				}
 			]
 			title: "Книги лучший друг человека"
-			x: 7.5d
-			y: 0.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7614670D3B37C767"]
@@ -184,7 +172,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -200,8 +188,8 @@
 				item: "enigmaticlegacy:heaven_scroll"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -222,8 +210,8 @@
 				type: "item"
 			}]
 			title: "Креативный полёт?!"
-			x: 3.5d
-			y: 2.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7CBB97BCD63C10F4"]
@@ -240,35 +228,8 @@
 				item: "enigmaticlegacy:astral_fruit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"41BF45C87E6F6410"
-				"045C3D369D9FADD6"
-				"6317A3CD85E467D0"
-			]
-			description: ["Удачи)..."]
-			hide: true
-			id: "1B86A502898A6439"
-			rewards: [{
-				count: 6
-				id: "6FC6DAD312B0F822"
-				item: "minecraft:honeycomb"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.25d
-			subtitle: "Начинаем пятую стадию вместе с пчелками."
-			tasks: [{
-				id: "3717A960E8DB96B7"
-				title: "&l5 Этап"
-				type: "checkmark"
-			}]
-			title: "ТЕХНО-магия"
-			x: -4.0d
-			y: 0.0d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -291,7 +252,7 @@
 			}]
 			title: "Доступ в индустриальзацию"
 			x: 0.5d
-			y: 7.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -303,8 +264,8 @@
 				item: "ftbic:compressor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["10ADAB4A204037E7"]
@@ -393,8 +354,8 @@
 				item: "enigmaticlegacy:astral_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7CBB97BCD63C10F4"]
@@ -424,8 +385,8 @@
 				item: "enigmaticlegacy:evil_essence"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: 6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6284F1BF1912DA29"]
@@ -443,8 +404,8 @@
 				item: "enigmaticlegacy:evil_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["34B75786FF0A5090"]
@@ -483,13 +444,12 @@
 				type: "item"
 			}]
 			title: "бесконечные ресурсы"
-			x: 6.0d
-			y: -6.5d
+			x: 4.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
-			description: ["Следите за уровнем напряжения, механизмы имеют свойство взрываться."]
-			hide_dependency_lines: true
+			description: ["&4&lМЕХАНИЗМЫ НЕ МОГУТ СГОРЕТЬ - ЭТО ОТКЛЮЧЕНО!&r&r"]
 			id: "6B8743E39A6E14B1"
 			subtitle: "Корпус - основа всех механизмов"
 			tasks: [{
@@ -497,8 +457,8 @@
 				item: "ftbic:machine_block"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6EAA525FAEB22927"]
@@ -557,7 +517,7 @@
 				}
 			]
 			x: -15.0d
-			y: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["48A0EC4555C2F79D"]
@@ -584,7 +544,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -688,7 +648,7 @@
 			]
 			title: "Сложный выбор"
 			x: -15.707142857142827d
-			y: 5.142857142857245d
+			y: 11.642857142857245d
 		}
 		{
 			dependencies: ["6B6DD0336B6376DA"]
@@ -928,7 +888,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 9.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -940,8 +900,8 @@
 				item: "ftbic:macerator"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F097DBCAEB186E6"]
@@ -960,21 +920,7 @@
 				}
 			]
 			x: -12.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["6B8743E39A6E14B1"]
-			hide_dependency_lines: false
-			id: "29D265E0A7ED884F"
-			invisible: true
-			subtitle: "Воу, какой мощный корпус."
-			tasks: [{
-				id: "11810B38973B517F"
-				item: "ftbic:advanced_machine_block"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 13.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -985,8 +931,8 @@
 				item: "ftbic:extruder"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["310A3B4D8AF915F4"]
@@ -1027,7 +973,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 9.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["0096E6576F6568B6"]
@@ -1039,7 +985,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 9.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -1060,8 +1006,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1FFE7F36620CA712"]
@@ -1083,8 +1029,8 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6268F7F3CB9829A8"]
@@ -1112,8 +1058,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -1129,8 +1075,8 @@
 				item: "enigmaticlegacy:escape_scroll"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["20E2A7035B574A87"]
@@ -1152,8 +1098,8 @@
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1182,8 +1128,8 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1200,8 +1146,8 @@
 				item: "enigmaticlegacy:unholy_grail"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1223,7 +1169,7 @@
 				item: "enigmaticlegacy:blazing_core"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -1245,8 +1191,8 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1FFE7F36620CA712"]
@@ -1262,8 +1208,8 @@
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1FFE7F36620CA712"]
@@ -1274,8 +1220,8 @@
 				item: "enigmaticlegacy:cursed_ring"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1294,7 +1240,7 @@
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -1312,8 +1258,8 @@
 				item: "enigmaticlegacy:cursed_scroll"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.5d
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2CA73EE798353102"]
@@ -1330,8 +1276,8 @@
 				item: "enigmaticlegacy:berserk_charm"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.5d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1350,8 +1296,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1368,8 +1314,8 @@
 				item: "enigmaticlegacy:forbidden_fruit"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2512470497225762"]
@@ -1389,7 +1335,7 @@
 				item: "enigmaticlegacy:twisted_heart"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -1402,8 +1348,8 @@
 				type: "item"
 			}]
 			title: "Зачем нам проклятие"
-			x: 8.5d
-			y: 5.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6284F1BF1912DA29"]
@@ -1422,8 +1368,8 @@
 				item: "enigmaticlegacy:enchanter_pearl"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.5d
+			x: 8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2512470497225762"]
@@ -1440,8 +1386,8 @@
 				item: "enigmaticlegacy:infinimeal"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0E4DD2C00C6CA4E0"]
@@ -1465,7 +1411,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["34B75786FF0A5090"]
@@ -1495,8 +1441,8 @@
 				item: "enigmaticlegacy:the_cube"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.5d
+			x: 6.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1512,8 +1458,8 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3AFBFFDAB2E7DD5A"]
@@ -1533,8 +1479,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: -8.0d
+			x: 16.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["631AA78FFCCF410C"]
@@ -1555,8 +1501,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.5d
+			x: 14.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1588,8 +1534,8 @@
 				type: "item"
 			}]
 			title: "как элитры только лучше"
-			x: 11.0d
-			y: -3.5d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1618,12 +1564,13 @@
 				type: "item"
 			}]
 			title: "Дремлющее око"
-			x: 3.5d
-			y: -2.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["7328875AA546830D"]
+			dependencies: ["1172FCA541C97A82"]
 			description: ["Отправит вас к точке возрождения "]
+			hide_dependency_lines: true
 			id: "665FF363D90057B3"
 			rewards: [{
 				id: "5BAADC9D8E780004"
@@ -1637,12 +1584,13 @@
 				item: "enigmaticlegacy:recall_potion"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7328875AA546830D"]
+			dependencies: ["1172FCA541C97A82"]
 			description: ["Восстановит прочность брони, инструментов и оружия. Объединив зелье с предметом в сетки крафтов"]
+			hide_dependency_lines: true
 			id: "3A4574DE3C9CAD16"
 			rewards: [{
 				count: 4
@@ -1655,8 +1603,8 @@
 				item: "enigmaticlegacy:mending_mixture"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.5d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5C9D908F375FAC17"]
@@ -1673,12 +1621,13 @@
 				item: "enigmaticlegacy:redemption_potion"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -3.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["7328875AA546830D"]
+			dependencies: ["1172FCA541C97A82"]
 			description: ["Отправит к месту вашей последней смерти"]
+			hide_dependency_lines: true
 			id: "46E2FB1EF9B5D4DD"
 			rewards: [{
 				id: "34EB0D3C8BCD1265"
@@ -1690,8 +1639,8 @@
 				item: "enigmaticlegacy:twisted_potion"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6284F1BF1912DA29"]
@@ -1714,8 +1663,8 @@
 				item: "enigmaticlegacy:the_twist"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.5d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1740,7 +1689,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1756,12 +1705,13 @@
 				item: "enigmaticlegacy:iron_ring"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
 			id: "1CBAB8EC4D98771C"
+			invisible: true
 			rewards: [{
 				count: 2
 				id: "50737B127FA8DB4E"
@@ -1774,8 +1724,8 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CBAB8EC4D98771C"]
@@ -1792,8 +1742,8 @@
 				item: "enigmaticlegacy:darkest_scroll"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1817,35 +1767,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Зелья всегда были хорошей помощью в любых ситуациях"]
-			id: "7328875AA546830D"
-			rewards: [
-				{
-					count: 6
-					id: "5076B0B2FEA46F5E"
-					item: "minecraft:nether_wart"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "604BD538194B4842"
-					item: "minecraft:soul_sand"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0853E4E44172C806"
-				item: "minecraft:brewing_stand"
-				type: "item"
-			}]
-			title: "Зелья полезные"
-			x: 14.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["4C44B8254DAA58F3"]
@@ -1894,8 +1817,8 @@
 				type: "item"
 			}]
 			title: "бошкосшибательное оружие"
-			x: 12.5d
-			y: -5.0d
+			x: 10.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2162F48918D56A9C"]
@@ -1919,26 +1842,8 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["39D33BA172775DE7"]
-			id: "441744D8FCB08879"
-			rewards: [{
-				count: 16
-				id: "342EFF0910E32A1C"
-				item: "productivebees:honey_treat"
-				type: "item"
-			}]
-			subtitle: "Это гнездо тебе пригодится."
-			tasks: [{
-				id: "16A869DE6F75C75C"
-				item: "productivebees:gravel_nest"
-				type: "item"
-			}]
-			x: -15.0d
-			y: 0.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["26C746DE1FF5D81C"]
@@ -1965,7 +1870,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["441744D8FCB08879"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2131,7 +2035,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["441744D8FCB08879"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2220,17 +2123,82 @@
 			}]
 			subtitle: "Я копаюсь в камешках и произвожу ресурсы."
 			tasks: [{
-				id: "49B663DD6CE8107C"
+				id: "480ECCDC5BEC3713"
 				item: {
 					Count: 1b
 					id: "productivebees:bee_cage"
 					tag: {
-						entity: "productivebees:digger_bee"
+						Age: 0
+						AngerTime: 0
+						BlueprintTrackedData: [{
+							Boolean: 0b
+							Id: "savage_and_ravage:invisible_due_to_mask"
+						}]
+						CanUpdate: 1b
+						ChestCavity: {
+							FurnaceProgress: 0
+							HeartTimer: 0
+							Inventory: [ ]
+							KidneyTimer: 0
+							LiverTimer: 0
+							LungRemainder: 0.0f
+							MetabolismRemainder: 0.0f
+							PhotosynthesisProgress: 0
+							compatibility_id: [I;
+								-227504643
+								-154055491
+								-1359224526
+								-6147262
+							]
+							opened: 0b
+						}
+						ForcedAge: 0
+						ForgeCaps: {
+							"scalinghealth:difficulty_affected": {
+								Blight: 0b
+								Difficulty: 39.03215f
+							}
+							"twilightforest:cap_feather_fan_fall": {
+								featherFanFalling: 0b
+							}
+							"twilightforest:cap_shield": {
+								permshields: 0
+								tempshields: 0
+							}
+							"twilightforest:cap_thrown": {
+								throwCooldown: 0
+								yetiThrown: 0b
+							}
+							"twilightforest:giant_pick_mine": {
+								giantPickMining: 0L
+							}
+						}
+						ForgeData: {
+							"naturesaura:time_alive": 40
+						}
+						HasConverted: 0b
+						HasNectar: 0b
+						HasStung: 0b
+						Health: 17.318527f
+						Invulnerable: 0b
+						MaxHealth: 17.318527f
+						PersistenceRequired: 0b
+						ad_astra_giselle_addon: {
+							"ad_astra_giselle_addon:proof": { }
+						}
+						bee_behavior: 0
+						bee_endurance: 1
+						bee_productivity: 1
+						bee_temper: 1
+						bee_type: "hive"
+						bee_weather_tolerance: 0
+						entity: "productivebees:quarry_bee"
+						isProductiveBee: 1b
+						mod: "ProductiveBees"
+						name: "Quarry Bee"
 					}
 				}
-				title: "Пчелиная клетка (Пчела-копалка)"
 				type: "item"
-				weak_nbt_match: true
 			}]
 			title: "Пчёлка капалка"
 			x: -14.5d
@@ -2354,15 +2322,9 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1B86A502898A6439"]
 			hide: true
 			hide_dependency_lines: true
 			id: "310A3B4D8AF915F4"
-			rewards: [{
-				id: "0898BA37E7306ACC"
-				item: "skinnedlanterns:bee_lantern_block"
-				type: "item"
-			}]
 			subtitle: "Азы разведения пчёл."
 			tasks: [{
 				id: "1E8F2BA0B4539B44"
@@ -2604,16 +2566,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1B86A502898A6439"]
 			hide_dependency_lines: true
 			id: "2AB9D41EA6F6EFF3"
-			rewards: [{
-				count: 16
-				id: "4F3CEF38AF59CA08"
-				item: "forbidden_arcanus:darkstone"
-				random_bonus: 16
-				type: "item"
-			}]
 			subtitle: "Добудьте тёмный камень."
 			tasks: [{
 				count: 64L
@@ -2635,8 +2589,8 @@
 				item: "ftbic:roller"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -2652,8 +2606,8 @@
 				item: "ftbic:basic_generator"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CE0DC2B5ED29447"]
@@ -2665,7 +2619,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4AD658DE7A3D5202"]
@@ -2684,7 +2638,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 9.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4FAFAEF13F8BC981"]
@@ -2696,7 +2650,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 12.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["2C0FCB77BCCB47A8"]
@@ -2715,7 +2669,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["7439FE304A184259"]
@@ -2745,7 +2699,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 11.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["62D5EB2F4D59A4D3"]
@@ -2775,7 +2729,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["4DA01161D393BBAC"]
@@ -2805,7 +2759,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["5E3EA498752A83D3"]
@@ -2835,7 +2789,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 14.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["1F097DBCAEB186E6"]
@@ -2847,7 +2801,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5616D3C42BF45EE0"]
@@ -2859,7 +2813,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["6FFEEC17182E065C"]
@@ -2871,7 +2825,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["39D33BA172775DE7"]
@@ -2965,43 +2919,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1172FCA541C97A82"]
-			id: "4BDCF017B842BED5"
-			rewards: [{
-				id: "1B5B6A0887410B3C"
-				item: "solarflux:sp_tf.fiery"
-				type: "item"
-			}]
-			subtitle: "Энергия в будущее."
-			tasks: [{
-				id: "552E6A20B66BDC14"
-				item: "solarflux:sp_tf.fiery"
-				type: "item"
-			}]
-			title: "Панелька огонь"
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4BDCF017B842BED5"]
-			id: "4FB99E2B2B11B4D9"
-			invisible: true
-			rewards: [{
-				id: "1D7C821E490C9E89"
-				item: "solarflux:sp_tf.carminite"
-				type: "item"
-			}]
-			subtitle: "Ещё больше энергии."
-			tasks: [{
-				id: "5855851601331898"
-				item: "solarflux:sp_tf.carminite"
-				type: "item"
-			}]
-			title: "Красная красивая панелька"
-			x: 0.5d
-			y: -3.0d
-		}
-		{
 			dependencies: [
 				"55A2B082A88FF2D6"
 				"6B8743E39A6E14B1"
@@ -3016,7 +2933,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 7.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["796D74CA0D9618DF"]
@@ -3028,7 +2945,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 9.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["11C2765619D893B4"]
@@ -3047,7 +2964,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 12.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["631AA78FFCCF410C"]
@@ -3078,8 +2995,8 @@
 				item: "enigmaticlegacy:enigmatic_item"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -8.0d
+			x: 14.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["50846279F5251F59"]
@@ -3164,8 +3081,8 @@
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -3182,8 +3099,8 @@
 				item: "forbidden_arcanus:ferrognetic_mixture"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F028D1BD646A3B8"]
@@ -3426,7 +3343,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["60C044E0BAE70655"]
@@ -3456,7 +3373,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 11.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["43162D61A6C59044"]
@@ -3486,7 +3403,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["0F2B8B22CF4D5730"]
@@ -3516,7 +3433,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["6A7F6D194AD73234"]
@@ -3546,10 +3463,9 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 14.5d
+			y: 21.0d
 		}
 		{
-			dependencies: ["29D265E0A7ED884F"]
 			id: "6D47A9120BCDFB6C"
 			subtitle: "&cИскусство &r— &cэто &4ВЗРЫВ!"
 			tasks: [{
@@ -3558,7 +3474,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 13.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["7332FD7F57514AF5"]
@@ -3578,7 +3494,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["7E077B4483E9F928"]
@@ -3598,7 +3514,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 11.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["6224DF2E7449E678"]
@@ -3618,7 +3534,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["78BC883CC8636EEB"]
@@ -3638,7 +3554,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3649,8 +3565,8 @@
 				item: "ftbic:powered_furnace"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3661,8 +3577,8 @@
 				item: "ftbic:centrifuge"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3672,8 +3588,8 @@
 				item: "ftbic:pump"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["63BE8D9BF4A9F95D"]
@@ -3703,7 +3619,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 11.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["47A3F275A2C21198"]
@@ -3733,7 +3649,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["36E3E9B27BE1BF7D"]
@@ -3763,7 +3679,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 14.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["219762AA6306D027"]
@@ -3793,7 +3709,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -3806,7 +3722,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 5.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -3820,7 +3736,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -3834,7 +3750,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -3848,7 +3764,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
@@ -3859,7 +3775,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 11.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
@@ -3870,10 +3786,9 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 9.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["1B86A502898A6439"]
 			hide_dependency_lines: true
 			icon: "gribtweaks:ametrine_ore"
 			id: "27CD2C168B13BCA9"
@@ -3978,10 +3893,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"310A3B4D8AF915F4"
-				"11810B38973B517F"
-			]
+			dependencies: ["310A3B4D8AF915F4"]
 			description: ["Совершенная основа для механизмов."]
 			id: "50846279F5251F59"
 			invisible: true
@@ -4083,7 +3995,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4FD4356DA6B48F2C"]
@@ -4094,7 +4006,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
@@ -4105,7 +4017,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["77297D7100AC44C1"]
@@ -4116,7 +4028,7 @@
 				type: "item"
 			}]
 			x: -14.5d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3C75F6D4CA4365C7"]
@@ -4127,7 +4039,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 12.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["6007CC344C680F3F"]
@@ -4138,7 +4050,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["262C559B96A844E0"]
@@ -4149,7 +4061,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4161,7 +4073,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["13B61BD8D84D3047"]
@@ -4172,7 +4084,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4184,7 +4096,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["1F097DBCAEB186E6"]
@@ -4196,7 +4108,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4208,7 +4120,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4220,7 +4132,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["29A64888EFA4C537"]
@@ -4249,7 +4161,7 @@
 			]
 			title: "Улучшения"
 			x: 4.0d
-			y: 5.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2371EF16B1EB318E"]
@@ -4260,13 +4172,10 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
-			dependencies: [
-				"651CF9EA2EC026DC"
-				"29D265E0A7ED884F"
-			]
+			dependencies: ["651CF9EA2EC026DC"]
 			id: "4233533D12660DD8"
 			subtitle: "Улучшенная версия геотермального генератора."
 			tasks: [{
@@ -4274,14 +4183,11 @@
 				item: "ftbiceg:advanced_geothermal_generator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"72E1B11103D48A6D"
-				"29D265E0A7ED884F"
-			]
+			dependencies: ["72E1B11103D48A6D"]
 			id: "7E06A1918EBAC3FA"
 			subtitle: "Улучшенная версия генератора."
 			tasks: [{
@@ -4289,14 +4195,11 @@
 				item: "ftbiceg:advanced_generator"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"29D265E0A7ED884F"
-				"1F097DBCAEB186E6"
-			]
+			dependencies: ["1F097DBCAEB186E6"]
 			id: "56FC662122B7207E"
 			subtitle: "Улучшенная версия компрессора."
 			tasks: [{
@@ -4304,14 +4207,11 @@
 				item: "ftbic:ultimate_compressor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 10.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"29D265E0A7ED884F"
-				"2B8BD1401C8A74E6"
-			]
+			dependencies: ["2B8BD1401C8A74E6"]
 			id: "121ECF152E22B85D"
 			subtitle: "Улучшенная версия центрифуги."
 			tasks: [{
@@ -4319,14 +4219,11 @@
 				item: "ftbic:ultimate_centrifuge"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"29D265E0A7ED884F"
-				"1CDCB4AE59BFBCFA"
-			]
+			dependencies: ["1CDCB4AE59BFBCFA"]
 			id: "75E15DF51371E0A8"
 			subtitle: "Улучшенная версия дробителя."
 			tasks: [{
@@ -4334,14 +4231,11 @@
 				item: "ftbic:ultimate_macerator"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"29D265E0A7ED884F"
-				"686548AE03EC9F37"
-			]
+			dependencies: ["686548AE03EC9F37"]
 			id: "34BDF236AC256976"
 			subtitle: "Улучшенная версия электропечи."
 			tasks: [{
@@ -4349,14 +4243,11 @@
 				item: "ftbic:ultimate_powered_furnace"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"29D265E0A7ED884F"
-				"21292FDA52664049"
-			]
+			dependencies: ["21292FDA52664049"]
 			id: "54C09CEC6D94F3DD"
 			subtitle: "Улучшенная версия роллера."
 			tasks: [{
@@ -4364,8 +4255,8 @@
 				item: "ftbic:ultimate_roller"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4375,11 +4266,12 @@
 				item: "ftbic:geothermal_generator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6E0F0B0D128568FD"]
+			description: ["&l&4ИСПОЛЬЗУЙТЕ ДАННЫЙ КАБЕЛЬ, ЧТОБЫ ПИТАТЬ МЕХАНИЗМЫ, КОТОРЫЕ ТРЕБУЮТ БОЛЬШОЕ КОЛ-ВО ЭНЕРГИИ.&r&r"]
 			id: "136679E2D09795D6"
 			rewards: [{
 				count: 3
@@ -4396,7 +4288,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4409,18 +4301,17 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 7.5d
+			y: 14.0d
 		}
 		{
-			dependencies: ["29D265E0A7ED884F"]
 			id: "34976B4919052C4B"
 			tasks: [{
 				id: "703F0E9F5ED9FEF5"
 				item: "ftbic:nuclear_reactor_chamber"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 13.0d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["34976B4919052C4B"]
@@ -4430,8 +4321,8 @@
 				item: "ftbic:nuclear_reactor"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 13.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7A9A5C36D0332D8A"]
@@ -4443,7 +4334,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 12.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["77297D7100AC44C1"]
@@ -4454,10 +4345,9 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 11.0d
+			y: 17.5d
 		}
 		{
-			dependencies: ["29D265E0A7ED884F"]
 			hide_dependency_lines: true
 			id: "35978A8DB25CAEB1"
 			tasks: [{
@@ -4466,7 +4356,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["35978A8DB25CAEB1"]
@@ -4477,7 +4367,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 12.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4495,7 +4385,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 11.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4513,7 +4403,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4531,7 +4421,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4549,7 +4439,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 14.5d
+			y: 21.0d
 		}
 	]
 	title: "&5Стадия: 5"

@@ -323,7 +323,7 @@
 			}]
 			title: "Золотая пыль"
 			x: 10.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4AA98008F9458B33"]
@@ -342,7 +342,7 @@
 			}]
 			title: "Классическая подставка"
 			x: 12.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["05BA6237D762B372"]
@@ -367,7 +367,7 @@
 			}]
 			title: "Глубокие рассуждения"
 			x: 14.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -596,8 +596,8 @@
 				type: "item"
 			}]
 			title: "Увядший"
-			x: 13.5d
-			y: -1.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C701395031DE8EA"]
@@ -797,7 +797,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7C80BEA676A0078A"]
@@ -845,7 +845,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7DC86FEBB7F17821"]
@@ -950,6 +950,26 @@
 			}]
 			x: 14.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["719CBE19584F107B"]
+			description: ["Катализаторы дают возможность создавать новые предметы на природном алтаре. (см. Рецепты)"]
+			id: "2E8395226A370ABA"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5588CBB1E61E01B4"
+					item: "naturesaura:crushing_catalyst"
+					type: "item"
+				}
+				{
+					id: "1EDF5FB33BCB1D95"
+					item: "naturesaura:conversion_catalyst"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -1.0d
 		}
 	]
 	title: "&5Стадия: 2"

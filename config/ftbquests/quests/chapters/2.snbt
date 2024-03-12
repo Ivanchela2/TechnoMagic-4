@@ -17,6 +17,7 @@
 	quests: [
 		{
 			dependencies: ["744223264E0F1603"]
+			description: ["Используйте эту вкладку для получения информации о предметах, которые могут пригодиться для более полного погружения в возможности сборки."]
 			hide: true
 			id: "550E08A6CA4D4993"
 			shape: "gear"
@@ -30,6 +31,7 @@
 		}
 		{
 			dependencies: ["550E08A6CA4D4993"]
+			description: ["Дешёвая броня, которая стоит своего крафта, а если считаете себя арбористом, то тем более сделайте."]
 			hide: true
 			hide_dependency_lines: true
 			id: "023801A63FD0AF2F"
@@ -129,6 +131,7 @@
 		}
 		{
 			dependencies: ["550E08A6CA4D4993"]
+			description: ["Дешёвая броня для настоящих парфманьяков."]
 			hide: true
 			hide_dependency_lines: true
 			id: "070DE247D5CBB6C5"
