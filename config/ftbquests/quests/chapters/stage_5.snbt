@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["2AB9D41EA6F6EFF3"]
-			description: ["После постройки структуры, вам откроется доступ к крафтам множества вещей."]
+			description: ["После постройки структуры, откроется доступ к крафтам множества вещей."]
 			hide_dependency_lines: false
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "1172FCA541C97A82"
@@ -33,7 +33,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			subtitle: "Создайте кузницу гефеста."
 			tasks: [
 				{
@@ -67,93 +67,13 @@
 					type: "item"
 				}
 				{
-					count: 4L
-					id: "7436BEEC0B9BFE22"
-					item: "forbidden_arcanus:arcane_crystal_block"
-					type: "item"
-				}
-				{
 					id: "01C5CB9C346DC904"
 					item: "minecraft:smithing_table"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "1D8B3D99FB1D642D"
-					item: "forbidden_arcanus:mundabitur_dust"
 					type: "item"
 				}
 			]
 			title: "Кузница Гефеста"
 			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: false
-			id: "2162F48918D56A9C"
-			rewards: [
-				{
-					id: "4FA133B22096B893"
-					item: {
-						Count: 1b
-						id: "enigmaticlegacy:tattered_tome"
-						tag: { }
-					}
-					random_bonus: 15
-					type: "item"
-				}
-				{
-					id: "504F4D67D82CDB24"
-					item: {
-						Count: 1b
-						id: "enigmaticlegacy:withered_tome"
-						tag: { }
-					}
-					random_bonus: 15
-					type: "item"
-				}
-				{
-					id: "3BB5A66166D81A18"
-					item: {
-						Count: 1b
-						id: "enigmaticlegacy:corrupted_tome"
-						tag: { }
-					}
-					random_bonus: 15
-					type: "item"
-				}
-			]
-			subtitle: "Книги помогут понять лор этого мода"
-			tasks: [
-				{
-					id: "055DEE43F3AF31BB"
-					item: "enigmaticlegacy:the_acknowledgment"
-					type: "item"
-				}
-				{
-					id: "53A51B916638351B"
-					item: "enigmaticlegacy:animal_guidebook"
-					type: "item"
-				}
-				{
-					id: "32DBC6A7EB30A540"
-					item: "enigmaticlegacy:hunter_guidebook"
-					type: "item"
-				}
-				{
-					id: "59B3716A787F9522"
-					item: "enigmaticlegacy:enchantment_transposer"
-					type: "item"
-				}
-				{
-					id: "57B8E2187BE4DD03"
-					item: "enigmaticlegacy:curse_transposer"
-					type: "item"
-				}
-			]
-			title: "Книги лучший друг человека"
-			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -171,69 +91,11 @@
 				item: "enigmaticlegacy:etherium_ingot"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["1CBAB8EC4D98771C"]
-			id: "64E73B969D9D64AE"
-			rewards: [{
-				id: "6A0EA3A5710046E0"
-				item: "minecraft:skeleton_skull"
-				type: "item"
-			}]
-			subtitle: "Позволит вам летать в зоне действия маяка, но в замен потребляет опыт"
-			tasks: [{
-				id: "3203E3F382305EF7"
-				item: "enigmaticlegacy:heaven_scroll"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"64E73B969D9D64AE"
-				"7B28EF9423429B5A"
-			]
-			id: "6CA5FE01B5BD0C2B"
-			invisible: true
-			rewards: [{
-				id: "4B9F2CDEA1E76ECC"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
-			}]
-			subtitle: "Позволяет летать в зоне маяка, но уже без траты опыта. Также позволяет летать везде, но уже требует опыт"
-			tasks: [{
-				id: "3A32ED8AAA3A4F23"
-				item: "enigmaticlegacy:fabulous_scroll"
-				type: "item"
-			}]
-			title: "Креативный полёт?!"
-			x: 14.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7CBB97BCD63C10F4"]
-			description: ["Яблоко которое боги едят на завтрак"]
-			id: "34B75786FF0A5090"
-			rewards: [{
-				count: 6
-				id: "7CFC7C10B1D62FA2"
-				item: "enigmaticlegacy:astral_dust"
-				type: "item"
-			}]
-			tasks: [{
-				id: "455704F8476918AF"
-				item: "enigmaticlegacy:astral_fruit"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: true
 			id: "6224DF2E7449E678"
 			rewards: [{
 				count: 8
@@ -251,12 +113,13 @@
 				type: "item"
 			}]
 			title: "Доступ в индустриальзацию"
-			x: 0.5d
-			y: 14.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Компрессор, как не странно, сжимает предметы для получения прочных материалов."]
+			hide_dependency_lines: true
 			id: "1F097DBCAEB186E6"
 			subtitle: "Сжимающий механизм."
 			tasks: [{
@@ -264,188 +127,8 @@
 				item: "ftbic:compressor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["10ADAB4A204037E7"]
-			description: ["Ещё больше улучшений!"]
-			id: "39D33BA172775DE7"
-			rewards: [
-				{
-					count: 5
-					id: "3B43215C6573D90D"
-					item: "minecraft:honey_bottle"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "4B7318CEAAFF1188"
-					item: "gribtweaks:component_base"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3BA72B72FE15666D"
-				item: "productivebees:expansion_box_oak"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			id: "26C746DE1FF5D81C"
-			rewards: [{
-				id: "24B51765E551CD01"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:steel"
-						}
-					}
-				}
-				random_bonus: 7
-				type: "item"
-			}]
-			subtitle: "Как обычная центрифуга, но на энергии."
-			tasks: [{
-				id: "52411B4E7D776C01"
-				item: "productivebees:powered_centrifuge"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			dependency_requirement: "one_completed"
-			id: "13419316027A073D"
-			rewards: [{
-				count: 16
-				id: "6D619911602F16E8"
-				item: "pipez:energy_pipe"
-				type: "item"
-			}]
-			subtitle: "Получаем энергию из мёда."
-			tasks: [{
-				id: "56AC0E91ADEE70E9"
-				item: "productivebees:honey_generator"
-				type: "item"
-			}]
-			title: "Энергия из мёда?"
-			x: -10.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Концетрирования звездная пыль"]
-			id: "7CBB97BCD63C10F4"
-			rewards: [{
-				count: 2
-				id: "7A508BEB914CC2E7"
-				item: "enigmaticlegacy:astral_dust"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1EE50B14607CBEA8"
-				item: "enigmaticlegacy:astral_dust"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["7CBB97BCD63C10F4"]
-			description: ["Душа которую подвергли воздейстивю тёмной магии"]
-			id: "6284F1BF1912DA29"
-			rewards: [
-				{
-					id: "567BACAEC80CCD59"
-					item: "enigmaticlegacy:evil_essence"
-					random_bonus: 5
-					type: "item"
-				}
-				{
-					id: "3EC546BE37BE1BA1"
-					item: {
-						Count: 1b
-						id: "savage_and_ravage:mask_of_dishonesty"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5FA52C37F8FEBA47"
-				item: "enigmaticlegacy:evil_essence"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["6284F1BF1912DA29"]
-			description: ["Слиток сделаный из нечестивой сущности"]
-			id: "4C44B8254DAA58F3"
-			rewards: [{
-				id: "7F173C303787C881"
-				item: "enigmaticlegacy:evil_ingot"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "Слиток зла"
-			tasks: [{
-				id: "69D472D7C0CABA6F"
-				item: "enigmaticlegacy:evil_ingot"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["34B75786FF0A5090"]
-			description: ["Дарует вам бесконечный лут из \"ванильных\" данжей, не требуя ничего взамен"]
-			id: "67605DBA2DD3208C"
-			rewards: [
-				{
-					id: "74827E7655641447"
-					item: "silentgear:blaze_gold_ingot"
-					type: "item"
-				}
-				{
-					id: "5D386A08BCBA1C09"
-					item: "silentgear:netherwood_sapling"
-					type: "item"
-				}
-				{
-					id: "67AB7BEB6FAE269D"
-					item: "silentgear:crimson_iron_ingot"
-					type: "item"
-				}
-				{
-					id: "10321CFB0501DF76"
-					item: "sophisticatedbackpacks:iron_backpack"
-					type: "item"
-				}
-				{
-					id: "73930CD8D18E564A"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6FD38C882FA21390"
-				item: "enigmaticlegacy:loot_generator"
-				type: "item"
-			}]
-			title: "бесконечные ресурсы"
-			x: 4.5d
-			y: -9.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -457,8 +140,8 @@
 				item: "ftbic:machine_block"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6EAA525FAEB22927"]
@@ -516,8 +199,8 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
-			y: 13.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["48A0EC4555C2F79D"]
@@ -543,8 +226,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: 13.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -647,8 +330,8 @@
 				}
 			]
 			title: "Сложный выбор"
-			x: -15.707142857142827d
-			y: 11.642857142857245d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6B6DD0336B6376DA"]
@@ -697,186 +380,8 @@
 				type: "checkmark"
 			}]
 			title: "Вот она достойная награда"
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2F028D1BD646A3B8"]
-			description: ["Для механизмов из Industrial Contraptions нужно много железа, эта пчела поможет тебе."]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:advancements/iron_bee"
-				}
-			}
-			id: "433D5936618D3105"
-			rewards: [{
-				id: "4FF98500F61EA71E"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								877747408
-								371934238
-								-1955647748
-								-925204925
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 94.710976f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 27.758308f
-						Invulnerable: 0b
-						MaxHealth: 27.758308f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 1
-						bee_productivity: 0
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						breathCollectionCooldown: 600
-						entity: "productivebees:configurable_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Iron Bee"
-						type: "productivebees:iron"
-					}
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "660013E8B32BB948"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								877747408
-								371934238
-								-1955647748
-								-925204925
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 94.710976f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 27.758308f
-						Invulnerable: 0b
-						MaxHealth: 27.758308f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 1
-						bee_productivity: 0
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						breathCollectionCooldown: 600
-						entity: "productivebees:configurable_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Iron Bee"
-						type: "productivebees:iron"
-					}
-				}
-				type: "item"
-			}]
-			title: "Железная пчёлка"
-			x: -5.0d
-			y: -5.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3A4C7DBB4547B8AF"]
@@ -887,12 +392,13 @@
 				item: "ftbic:energy_crystal"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 16.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Дробитель — машина, позволяющая дробить различные предметы."]
+			hide_dependency_lines: true
 			id: "1CDCB4AE59BFBCFA"
 			subtitle: "Удваиваем руды."
 			tasks: [{
@@ -900,12 +406,11 @@
 				item: "ftbic:macerator"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1F097DBCAEB186E6"]
-			hide_dependency_lines: true
+			dependencies: ["1CDCB4AE59BFBCFA"]
 			id: "63B29B3070AED9E5"
 			tasks: [
 				{
@@ -919,11 +424,12 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: 16.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
 			id: "49FE185BA36BBE9E"
 			subtitle: "Да куда ещё больше ресурсов"
 			tasks: [{
@@ -931,35 +437,8 @@
 				item: "ftbic:extruder"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["310A3B4D8AF915F4"]
-			hide_dependency_lines: false
-			id: "35728C18436F6EC9"
-			rewards: [{
-				id: "3F7DD72589D922A2"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:cobalt"
-						}
-					}
-				}
-				random_bonus: 7
-				type: "item"
-			}]
-			subtitle: "Перерабатываем соты в ресурсы."
-			tasks: [{
-				id: "4DC1B67BF00ADE11"
-				item: "productivebees:centrifuge"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["63B29B3070AED9E5"]
@@ -972,11 +451,14 @@
 				item: "gribtweaks:energium_dust"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 16.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["0096E6576F6568B6"]
+			dependencies: [
+				"0096E6576F6568B6"
+				"7A9A5C36D0332D8A"
+			]
 			id: "7B89FC69C4353050"
 			subtitle: "Имеет необычную консинстенцию..."
 			tasks: [{
@@ -984,1590 +466,14 @@
 				item: "ftbic:antimatter_crystal"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1CBAB8EC4D98771C"]
-			id: "5C2AE7A2432A7DFA"
-			rewards: [{
-				count: 4
-				id: "370CB66442673581"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			subtitle: "Хранит ваш опыт в любом количестве"
-			tasks: [{
-				id: "710C5DE0FDE2FEB2"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:xp_scroll"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 12.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1FFE7F36620CA712"]
-			id: "20E2A7035B574A87"
-			rewards: [{
-				id: "632AE95E8E0342A5"
-				item: {
-					Count: 1b
-					id: "twilightforest:ore_magnet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Притягивает предметы в радиусе 8 блоков"
-			tasks: [{
-				id: "71E42D1D1EC790FA"
-				item: "enigmaticlegacy:magnet_ring"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6268F7F3CB9829A8"]
-			description: [
-				"Поможет вам перенести любое живое существо из любого измерения в определённую точку"
-				"P.S Это око одноразовое"
-			]
-			id: "37FC597363C79E95"
-			rewards: [{
-				id: "7719B47A51D28EA4"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:extradimensional_eye"
-					tag: { }
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				id: "56816F568DE434B3"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:extradimensional_eye"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["1CBAB8EC4D98771C"]
-			id: "23DD39336FA49A7F"
-			rewards: [{
-				id: "4B10640216F1A60B"
-				item: "enigmaticlegacy:twisted_potion"
-				type: "item"
-			}]
-			subtitle: "После смерти все ваши вещи будут телепортированы к вашей точке спавна"
-			tasks: [{
-				id: "63C6628DCD5A5ACC"
-				item: "enigmaticlegacy:escape_scroll"
-				type: "item"
-			}]
 			x: 13.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["20E2A7035B574A87"]
-			id: "64A9C37B61F5EE6E"
-			rewards: [{
-				id: "1B58FE9C342A6646"
-				item: {
-					Count: 1b
-					id: "createaddition:diamond_grit_sandpaper"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Притягивает все предметы в радиусе 16 блоков"
-			tasks: [{
-				id: "5C6FF9FDC2B5BD3E"
-				item: "enigmaticlegacy:super_magnet_ring"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Поможет вам лишь в том случае, если у вас нет брони"]
-			id: "6268F7F3CB9829A8"
-			rewards: [{
-				id: "05245BEAD3D77C97"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							"forbidden_arcanus:tick_counter": {
-								value: 0
-							}
-						}
-					}
-					id: "forbidden_arcanus:obsidian_skull_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0A823BE3E2FE4C3C"
-				item: "enigmaticlegacy:golem_heart"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Увеличит ваши характеристики, но может и навлечеть на вас отрицательные эффекты"]
-			id: "3CC25E28D518CD4B"
-			optional: true
-			rewards: [{
-				id: "411763BDFE4272B1"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "786621D9E57E9CBF"
-				item: "enigmaticlegacy:unholy_grail"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Дарует вам сопротивление к огню, но делает вас уязвимым водным существам"]
-			id: "60006D99044F5F29"
-			rewards: [{
-				id: "5C56714252F8D65B"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "goblintraders:extended_fire_resistance"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "515EE4C682FC11CD"
-				item: "enigmaticlegacy:blazing_core"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Убирает урон от падания"]
-			id: "51E34475CBD20E3E"
-			rewards: [{
-				id: "4E88B6AA5CC66101"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E6677433171DAA1"
-				item: "enigmaticlegacy:angel_blessing"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["1FFE7F36620CA712"]
-			description: ["Добавляет способность на букву \"ш\" - открываеть эндер сундук в инвентаре"]
-			id: "2F0C3D05A004EEA1"
-			rewards: [{
-				id: "45CB91D864896042"
-				item: "minecraft:ender_chest"
-				type: "item"
-			}]
-			tasks: [{
-				id: "55B52B53805B8242"
-				item: "enigmaticlegacy:ender_ring"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1FFE7F36620CA712"]
-			description: ["Это кольцо позволит получить как проклятия, так и хорошие бонусы"]
-			id: "26D700F743E8387A"
-			tasks: [{
-				id: "4B02EC747049EC6A"
-				item: "enigmaticlegacy:cursed_ring"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"2CA73EE798353102"
-				"665FF363D90057B3"
-			]
-			description: ["Действует так же как и зелье, только многоразовое"]
-			id: "6FA2FE092E66C8E9"
-			rewards: [{
-				id: "7A79CE6BE253742C"
-				item: "minecraft:respawn_anchor"
-				type: "item"
-			}]
-			tasks: [{
-				id: "21D4E6F8B4EE33AA"
-				item: "enigmaticlegacy:twisted_mirror"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3A20819733C2C973"]
-			id: "66D5CF074FD83F35"
-			rewards: [{
-				count: 5
-				id: "1B7BB4AFA91E466C"
-				item: "scalinghealth:cursed_heart"
-				type: "item"
-			}]
-			subtitle: "Свиток, дающий вам бонус регенирации, урона и скорости копания. Но за это вы должны заплатить: надеть на себя кольцо \"Семи проклятий\""
-			tasks: [{
-				id: "0F323764F3989C11"
-				item: "enigmaticlegacy:cursed_scroll"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["2CA73EE798353102"]
-			description: ["Увеличивает ваши характеристики в зависимости от того, сколько вы потеряли жизней"]
-			id: "26A70FEC057D4369"
-			rewards: [{
-				count: 3
-				id: "61CCF80A67AE6D4A"
-				item: "enigmaticlegacy:etherium_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7522601C83C129FD"
-				item: "enigmaticlegacy:berserk_charm"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Сердце, благодаря которому, стражи будут нейтральны к вам"]
-			icon: "enigmaticlegacy:guardian_heart"
-			id: "4945290C4978484D"
-			rewards: [{
-				id: "0E7F925F7C43C600"
-				item: "enigmaticlegacy:guardian_heart"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				id: "17E4859B456D427D"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Дарует вам эффект вечной сытости, но взамен любая форма регенерации уменьшается на 80%"]
-			id: "5C9D908F375FAC17"
-			rewards: [{
-				id: "6E4805CA8A793C7B"
-				item: "minecraft:golden_apple"
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				id: "74CFA4F411381A0B"
-				item: "enigmaticlegacy:forbidden_fruit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2512470497225762"]
-			description: ["Искаженное сердце, подвергшееся воздействию тёмной магии"]
-			id: "2CA73EE798353102"
-			rewards: [{
-				id: "59E925DA2135A2BE"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3833183DD7E2FE0F"
-				item: "enigmaticlegacy:twisted_heart"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["26D700F743E8387A"]
-			description: ["Снять проклятие быстро и качественно, возможно!!"]
-			id: "78ACBA5009596ED6"
-			tasks: [{
-				id: "1972EC906774B319"
-				item: "enigmaticlegacy:cursed_stone"
-				type: "item"
-			}]
-			title: "Зачем нам проклятие"
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6284F1BF1912DA29"]
-			description: [
-				"Позволяет вам получать более мощный зачарования, но так же увеличивает шанас на проклятия"
-				"Убирает использование лазурита"
-			]
-			id: "0BD897E035C5F021"
-			rewards: [{
-				id: "7BAAF8F7BAF9F6E8"
-				item: "enigmaticlegacy:enchanter_pearl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FBF69143AF728F4"
-				item: "enigmaticlegacy:enchanter_pearl"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["2512470497225762"]
-			description: ["Дествует как бесконечная костная пыль, но не на все растения"]
-			id: "2590A2F1EABAA10A"
-			rewards: [{
-				count: 16
-				id: "4CC66F59B8B126B9"
-				item: "minecraft:bone_meal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3A145585C83A17D5"
-				item: "enigmaticlegacy:infinimeal"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["0E4DD2C00C6CA4E0"]
-			description: ["Сердце падающее с дракона края"]
-			id: "631AA78FFCCF410C"
-			invisible: true
-			rewards: [{
-				id: "1354051E7B0D71F0"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:ender_slayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2EC8A574557BFF7D"
-				item: "enigmaticlegacy:abyssal_heart"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["34B75786FF0A5090"]
-			description: ["Сильно повышает ваши характеристики, так же дарует вам возможность телепортироваться в одно из трёх измерений"]
-			id: "705CFD8C97CA5E42"
-			rewards: [
-				{
-					id: "03BF12F5F9F48588"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:magma_cube"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2D33C28E4B849F35"
-					item: "easy_villagers:incubator"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6D27A0D1F0C13710"
-				item: "enigmaticlegacy:the_cube"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"2EC8A574557BFF7D"
-				"1FFE7F36620CA712"
-			]
-			description: ["Убирает вокруг вас спавн железного голема, эндермена, пиглина и зомбифицированного пиглина"]
-			id: "0AC834D221186A62"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "7F2E5E7DB6C7365D"
-				item: "enigmaticlegacy:desolation_ring"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3AFBFFDAB2E7DD5A"]
-			description: ["При ношении этого амулета у будут увеличены множество характеристик"]
-			id: "50710636380BD431"
-			rewards: [{
-				id: "280CECE892179AB6"
-				item: "enigmaticlegacy:etherium_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5622F909E23C36D6"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:ascension_amulet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 16.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["631AA78FFCCF410C"]
-			dependency_requirement: "one_completed"
-			description: ["Позволяет сохранить инвентарь после смерти с вами, так же добавляет вам вампиризм"]
-			id: "3AFBFFDAB2E7DD5A"
-			rewards: [{
-				id: "59ECDB6A349017A4"
-				item: "enigmaticlegacy:etherium_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "052DA121D3AF9B1A"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:eldritch_amulet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 14.5d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"0E038DD878C7F033"
-				"51E34475CBD20E3E"
-			]
-			description: ["Это улучшенная версия элитр которая не требует фейерверки"]
-			id: "27763FD1A49B4CEC"
-			rewards: [{
-				id: "43E425A5B8F5A953"
-				item: {
-					Count: 1b
-					id: "alexsmobs:tarantula_hawk_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7DCBFEDFEDDBB117"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:enigmatic_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "как элитры только лучше"
-			x: 3.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: [
-				"Пробудив это древнее око ты будешь испытывать дискомфорт, зная что за тобой кто-то наблюдает. Даже смерть не поможет тебе его снять."
-				"Ты не сможешь пользоваться вещами которым нужно \"кольцо семи проклятий\". Поэтому подумай прежде чем пробудить его!"
-				"Не рекомендуется к использованию!!"
-			]
-			id: "6353D93EF6F050F4"
-			optional: true
-			rewards: [{
-				id: "0D94B8A587C330A4"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "479A2EC843A95B2D"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:enigmatic_eye"
-					tag: {
-						ActivationAnimation: -1
-						IsDormant: 0b
-					}
-				}
-				type: "item"
-			}]
-			title: "Дремлющее око"
-			x: 1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			description: ["Отправит вас к точке возрождения "]
-			hide_dependency_lines: true
-			id: "665FF363D90057B3"
-			rewards: [{
-				id: "5BAADC9D8E780004"
-				item: "enigmaticlegacy:recall_potion"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "Это что террария?"
-			tasks: [{
-				id: "73D90B35D96A5784"
-				item: "enigmaticlegacy:recall_potion"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			description: ["Восстановит прочность брони, инструментов и оружия. Объединив зелье с предметом в сетки крафтов"]
-			hide_dependency_lines: true
-			id: "3A4574DE3C9CAD16"
-			rewards: [{
-				count: 4
-				id: "785D18D8430EAECA"
-				item: "enigmaticlegacy:mending_mixture"
-				type: "item"
-			}]
-			tasks: [{
-				id: "626AC012C75E8895"
-				item: "enigmaticlegacy:mending_mixture"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5C9D908F375FAC17"]
-			description: ["Снимает с вас эффект вечной сытости"]
-			id: "08A4C9E1462A25E3"
-			rewards: [{
-				count: 16
-				id: "0363969BDC1BD7FD"
-				item: "create:honeyed_apple"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A54304E49554C8B"
-				item: "enigmaticlegacy:redemption_potion"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			description: ["Отправит к месту вашей последней смерти"]
-			hide_dependency_lines: true
-			id: "46E2FB1EF9B5D4DD"
-			rewards: [{
-				id: "34EB0D3C8BCD1265"
-				item: "enigmaticlegacy:twisted_potion"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2F6BFC4FA6EBFDB8"
-				item: "enigmaticlegacy:twisted_potion"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6284F1BF1912DA29"]
-			description: [
-				"Книга с помощью которой вы будете наносить боссу урон +300% от вашего изначального урона"
-				"Требует нахождения в мире с кольцом семи проклятий 99,5% всего времи"
-			]
-			id: "386E493E7E4C04D0"
-			rewards: [{
-				id: "4DC37FEBBEF60F86"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:mining_charm"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0E4DD2C00C6CA4E0"
-				item: "enigmaticlegacy:the_twist"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"386E493E7E4C04D0"
-				"631AA78FFCCF410C"
-			]
-			description: [
-				"Ваш базовый урон снижен до 200%, но вам добавляет эффект вампиризм"
-				"Каждая ваша атака наносит боссу сильные дебаффы"
-				"Держа её в руках у вас есть шанс анулировать смертельный урон"
-			]
-			id: "02FD242874CE82AB"
-			invisible: true
-			rewards: [{
-				id: "0993BA182F5F9504"
-				item: "enigmaticlegacy:the_twist"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7435953BCF900C2D"
-				item: "enigmaticlegacy:the_infinitum"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			id: "1FFE7F36620CA712"
-			rewards: [{
-				id: "0EFD633EC8C00BB5"
-				item: "enigmaticlegacy:iron_ring"
-				type: "item"
-			}]
-			subtitle: "Самое обычное декоративное кольцо"
-			tasks: [{
-				id: "5061FFF530E4AA03"
-				item: "enigmaticlegacy:iron_ring"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			id: "1CBAB8EC4D98771C"
-			invisible: true
-			rewards: [{
-				count: 2
-				id: "50737B127FA8DB4E"
-				item: "enigmaticlegacy:thicc_scroll"
-				type: "item"
-			}]
-			subtitle: "Поможет вам в создание ваших первых свитков"
-			tasks: [{
-				id: "486667834964B580"
-				item: "enigmaticlegacy:thicc_scroll"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1CBAB8EC4D98771C"]
-			id: "3A20819733C2C973"
-			rewards: [{
-				count: 5
-				id: "20D454E6BF14B3DC"
-				item: "forbidden_arcanus:dark_matter"
-				type: "item"
-			}]
-			subtitle: "Позволит вам создавать свитки с тёмной магией"
-			tasks: [{
-				id: "12FD72C0623C99B3"
-				item: "enigmaticlegacy:darkest_scroll"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: ["Сердце земли. Чистое как слеза"]
-			id: "2512470497225762"
-			rewards: [{
-				id: "244EBA6F66CFB5B5"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "491369078408D890"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4C44B8254DAA58F3"]
-			description: [
-				"Позволяет вам получать головы мобов"
-				"Каждый уровень добыи увеличивает шанс выпадения головы "
-			]
-			id: "1DB94753F73C3792"
-			rewards: [
-				{
-					id: "1B775180400F62F2"
-					item: "minecraft:zombie_head"
-					type: "item"
-				}
-				{
-					id: "681852B2D73F776B"
-					item: "minecraft:creeper_head"
-					type: "item"
-				}
-				{
-					id: "76E61D5456FE9C77"
-					item: "supplementaries:enderman_head"
-					type: "item"
-				}
-				{
-					id: "201BAC898C0E0A93"
-					item: "minecraft:skeleton_skull"
-					type: "item"
-				}
-				{
-					id: "3143A368AD0A2B07"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
-			subtitle: "Получаем головы мобов"
-			tasks: [{
-				id: "592A75C048BD6FE9"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:forbidden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "бошкосшибательное оружие"
-			x: 10.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["2162F48918D56A9C"]
-			description: [
-				"После использования данного амулета следущая атака будет наносить 150% урона."
-				"Находясь в воде, вы неуязвимы к любому виду урона"
-			]
-			id: "0E038DD878C7F033"
-			rewards: [{
-				id: "0CD219668C157E13"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "3CB566AA0FB876A3"
-				item: "enigmaticlegacy:eye_of_nebula"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["26C746DE1FF5D81C"]
-			id: "78D1C02F15BAD3CC"
-			rewards: [{
-				id: "2E490A82CAE17629"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_nest_diamond_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Ещё более лучшая центрифуга."
-			tasks: [{
-				id: "73ECC4A077FC84BC"
-				item: "productivebees:heated_centrifuge"
-				type: "item"
-			}]
-			title: "Как механизированая центрифуга, но лучше."
-			x: -13.0d
-			y: -0.5d
-		}
-		{
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:advancements/iron_bee"
-				}
-			}
-			id: "3A8E93FAA154011C"
-			rewards: [{
-				id: "57B132AEBC291DD1"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								961233633
-								-1513275113
-								-1300992210
-								604736436
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 37.649548f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: { }
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 14.05929f
-						Invulnerable: 0b
-						MaxHealth: 14.05929f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 0
-						bee_productivity: 1
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						breathCollectionCooldown: 600
-						entity: "productivebees:configurable_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Choco Bee"
-						type: "productivebees:chocolate"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Я шоколадный пчёлка, я шоколадный пчёлка..."
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 6.0782f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 8.139663f
-						Invulnerable: 0b
-						MaxHealth: 8.139663f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 0
-						bee_productivity: 0
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						breathCollectionCooldown: 600
-						entity: "productivebees:configurable_bee"
-						"forge:spawn_type": "SPAWN_EGG"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Шоколадная пчела"
-						type: "productivebees:chocolate"
-					}
-				}
-				id: "67B5F7FD8CF2051B"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						type: "productivebees:chocolate"
-					}
-				}
-				title: "Пчелиная клетка (Шоколадная Пчела)"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Шоколадная пчёлка"
-			x: -15.5d
-			y: -1.0d
-		}
-		{
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:advancements/iron_bee"
-				}
-			}
-			id: "201E2EDC403F902F"
-			rewards: [{
-				id: "3001AF59C5D88270"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								316446236
-								-2009840455
-								-1835018527
-								-1689561336
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 39.57681f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 14.420651f
-						Invulnerable: 0b
-						MaxHealth: 14.420651f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 0
-						bee_productivity: 2
-						bee_temper: 1
-						bee_type: "solitary"
-						bee_weather_tolerance: 0
-						entity: "productivebees:digger_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Digger Bee"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Я копаюсь в камешках и произвожу ресурсы."
-			tasks: [{
-				id: "480ECCDC5BEC3713"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								-227504643
-								-154055491
-								-1359224526
-								-6147262
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 39.03215f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: {
-							"naturesaura:time_alive": 40
-						}
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 17.318527f
-						Invulnerable: 0b
-						MaxHealth: 17.318527f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 1
-						bee_productivity: 1
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						entity: "productivebees:quarry_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Quarry Bee"
-					}
-				}
-				type: "item"
-			}]
-			title: "Пчёлка капалка"
-			x: -14.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"3A8E93FAA154011C"
-				"201E2EDC403F902F"
-			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:advancements/iron_bee"
-				}
-			}
-			id: "2F028D1BD646A3B8"
-			rewards: [
-				{
-					id: "0C63CCC76458D85D"
-					item: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							Age: 0
-							AngerTime: 0
-							BlueprintTrackedData: [{
-								Boolean: 0b
-								Id: "savage_and_ravage:invisible_due_to_mask"
-							}]
-							CanUpdate: 1b
-							ChestCavity: {
-								FurnaceProgress: 0
-								HeartTimer: 0
-								Inventory: [ ]
-								KidneyTimer: 0
-								LiverTimer: 0
-								LungRemainder: 0.0f
-								MetabolismRemainder: 0.0f
-								PhotosynthesisProgress: 0
-								compatibility_id: [I;
-									-227504643
-									-154055491
-									-1359224526
-									-6147262
-								]
-								opened: 0b
-							}
-							ForcedAge: 0
-							ForgeCaps: {
-								"scalinghealth:difficulty_affected": {
-									Blight: 0b
-									Difficulty: 39.03215f
-								}
-								"twilightforest:cap_feather_fan_fall": {
-									featherFanFalling: 0b
-								}
-								"twilightforest:cap_shield": {
-									permshields: 0
-									tempshields: 0
-								}
-								"twilightforest:cap_thrown": {
-									throwCooldown: 0
-									yetiThrown: 0b
-								}
-								"twilightforest:giant_pick_mine": {
-									giantPickMining: 0L
-								}
-							}
-							ForgeData: {
-								"naturesaura:time_alive": 40
-							}
-							HasConverted: 0b
-							HasNectar: 0b
-							HasStung: 0b
-							Health: 17.318527f
-							Invulnerable: 0b
-							MaxHealth: 17.318527f
-							PersistenceRequired: 0b
-							ad_astra_giselle_addon: {
-								"ad_astra_giselle_addon:proof": { }
-							}
-							bee_behavior: 0
-							bee_endurance: 1
-							bee_productivity: 1
-							bee_temper: 1
-							bee_type: "hive"
-							bee_weather_tolerance: 0
-							entity: "productivebees:quarry_bee"
-							isProductiveBee: 1b
-							mod: "ProductiveBees"
-							name: "Quarry Bee"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "68178F844278907F"
-					item: "minecraft:end_stone"
-					type: "item"
-				}
-			]
-			subtitle: "Я каменщик, работаю 3 дня..."
-			tasks: [{
-				id: "3ED8FAE6C2E1A809"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						entity: "productivebees:quarry_bee"
-					}
-				}
-				title: "Пчелиная клетка (Карьерная Пчела)"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Пчёлка каменьщик"
-			x: -15.0d
-			y: -2.5d
-		}
-		{
-			hide: true
-			hide_dependency_lines: true
-			id: "310A3B4D8AF915F4"
-			subtitle: "Азы разведения пчёл."
-			tasks: [{
-				id: "1E8F2BA0B4539B44"
-				item: "minecraft:beehive"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["310A3B4D8AF915F4"]
-			id: "056B8BDBE58B77B5"
-			rewards: [
-				{
-					count: 12
-					id: "632DD7EE9A16B32C"
-					item: "productivebees:bee_cage"
-					type: "item"
-				}
-				{
-					id: "6A2719700ECB9401"
-					item: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							Age: 0
-							AngerTime: 0
-							BlueprintTrackedData: [{
-								Boolean: 0b
-								Id: "savage_and_ravage:invisible_due_to_mask"
-							}]
-							CanUpdate: 1b
-							ChestCavity: {
-								FurnaceProgress: 0
-								HeartTimer: 0
-								Inventory: [ ]
-								KidneyTimer: 0
-								LiverTimer: 0
-								LungRemainder: 0.0f
-								MetabolismRemainder: 0.0f
-								PhotosynthesisProgress: 0
-								compatibility_id: [I;
-									171132251
-									559892656
-									-1078921789
-									-1239624564
-								]
-								opened: 0b
-							}
-							ForcedAge: 0
-							ForgeCaps: {
-								"scalinghealth:difficulty_affected": {
-									Blight: 0b
-									Difficulty: 176.08759f
-								}
-								"twilightforest:cap_feather_fan_fall": {
-									featherFanFalling: 0b
-								}
-								"twilightforest:cap_shield": {
-									permshields: 0
-									tempshields: 0
-								}
-								"twilightforest:cap_thrown": {
-									throwCooldown: 0
-									yetiThrown: 0b
-								}
-								"twilightforest:giant_pick_mine": {
-									giantPickMining: 0L
-								}
-							}
-							ForgeData: {
-								"naturesaura:time_alive": 80
-							}
-							HasNectar: 0b
-							HasStung: 0b
-							Health: 43.016422f
-							Invulnerable: 0b
-							PersistenceRequired: 0b
-							ad_astra_giselle_addon: {
-								"ad_astra_giselle_addon:proof": { }
-							}
-							entity: "minecraft:bee"
-							isProductiveBee: 0b
-							mod: "Minecraft"
-							name: "Bee"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3E896A1879DDEDA5"
-					item: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							Age: 0
-							AngerTime: 0
-							BlueprintTrackedData: [{
-								Boolean: 0b
-								Id: "savage_and_ravage:invisible_due_to_mask"
-							}]
-							CanUpdate: 1b
-							ChestCavity: {
-								FurnaceProgress: 0
-								HeartTimer: 0
-								Inventory: [ ]
-								KidneyTimer: 0
-								LiverTimer: 0
-								LungRemainder: 0.0f
-								MetabolismRemainder: 0.0f
-								PhotosynthesisProgress: 0
-								compatibility_id: [I;
-									1845439551
-									2121154912
-									-1270708895
-									409053223
-								]
-								opened: 0b
-							}
-							ForcedAge: 0
-							ForgeCaps: {
-								"scalinghealth:difficulty_affected": {
-									Blight: 0b
-									Difficulty: 177.7246f
-								}
-								"twilightforest:cap_feather_fan_fall": {
-									featherFanFalling: 0b
-								}
-								"twilightforest:cap_shield": {
-									permshields: 0
-									tempshields: 0
-								}
-								"twilightforest:cap_thrown": {
-									throwCooldown: 0
-									yetiThrown: 0b
-								}
-								"twilightforest:giant_pick_mine": {
-									giantPickMining: 0L
-								}
-							}
-							ForgeData: {
-								"naturesaura:time_alive": 80
-							}
-							HasNectar: 0b
-							HasStung: 0b
-							Health: 43.32336f
-							Invulnerable: 0b
-							PersistenceRequired: 0b
-							ad_astra_giselle_addon: {
-								"ad_astra_giselle_addon:proof": { }
-							}
-							entity: "minecraft:bee"
-							isProductiveBee: 0b
-							mod: "Minecraft"
-							name: "Bee"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "09BD3A33CD897F20"
-					item: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							Age: 0
-							AngerTime: 0
-							BlueprintTrackedData: [{
-								Boolean: 0b
-								Id: "savage_and_ravage:invisible_due_to_mask"
-							}]
-							CanUpdate: 1b
-							ChestCavity: {
-								FurnaceProgress: 0
-								HeartTimer: 0
-								Inventory: [ ]
-								KidneyTimer: 0
-								LiverTimer: 0
-								LungRemainder: 0.0f
-								MetabolismRemainder: 0.0f
-								PhotosynthesisProgress: 0
-								compatibility_id: [I;
-									422405341
-									-1645196019
-									-1844696937
-									119790995
-								]
-								opened: 0b
-							}
-							ForcedAge: 0
-							ForgeCaps: {
-								"scalinghealth:difficulty_affected": {
-									Blight: 0b
-									Difficulty: 173.15758f
-								}
-								"twilightforest:cap_feather_fan_fall": {
-									featherFanFalling: 0b
-								}
-								"twilightforest:cap_shield": {
-									permshields: 0
-									tempshields: 0
-								}
-								"twilightforest:cap_thrown": {
-									throwCooldown: 0
-									yetiThrown: 0b
-								}
-								"twilightforest:giant_pick_mine": {
-									giantPickMining: 0L
-								}
-							}
-							ForgeData: {
-								"naturesaura:time_alive": 40
-							}
-							HasNectar: 0b
-							HasStung: 0b
-							Health: 42.467045f
-							Invulnerable: 0b
-							PersistenceRequired: 0b
-							ad_astra_giselle_addon: {
-								"ad_astra_giselle_addon:proof": { }
-							}
-							entity: "minecraft:bee"
-							isProductiveBee: 0b
-							mod: "Minecraft"
-							name: "Bee"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Бериги их."
-			tasks: [{
-				count: 4L
-				id: "4CAEB6C378F7C037"
-				item: "productivebees:bee_cage"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
 			id: "2AB9D41EA6F6EFF3"
+			shape: "gear"
+			size: 1.2d
 			subtitle: "Добудьте тёмный камень."
 			tasks: [{
 				count: 64L
@@ -2577,11 +483,12 @@
 			}]
 			title: "Добываем камешки"
 			x: -1.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Металлоформовочная машина — обработчик, используемый для получения пластин."]
+			hide_dependency_lines: true
 			id: "21292FDA52664049"
 			subtitle: "Хорошая замена ручным инструментам."
 			tasks: [{
@@ -2589,7 +496,7 @@
 				item: "ftbic:roller"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -2599,6 +506,7 @@
 				""
 				"P.S. В качестве топлива принимает горючие предметы."
 			]
+			hide_dependency_lines: true
 			id: "72E1B11103D48A6D"
 			subtitle: "Генератор - это всегда хорошо."
 			tasks: [{
@@ -2606,7 +514,7 @@
 				item: "ftbic:basic_generator"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -2618,8 +526,8 @@
 				item: "ftbic:hv_battery_box"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 17.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4AD658DE7A3D5202"]
@@ -2637,8 +545,8 @@
 				item: "ftbic:mv_transformer"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 15.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4FAFAEF13F8BC981"]
@@ -2649,8 +557,8 @@
 				item: "ftbic:ev_battery_box"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 18.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2C0FCB77BCCB47A8"]
@@ -2668,8 +576,8 @@
 				item: "ftbic:hv_transformer"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 17.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7439FE304A184259"]
@@ -2698,8 +606,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 18.0d
+			x: 17.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["62D5EB2F4D59A4D3"]
@@ -2728,8 +636,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 19.0d
+			x: 17.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4DA01161D393BBAC"]
@@ -2758,8 +666,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 20.0d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5E3EA498752A83D3"]
@@ -2788,20 +696,20 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 21.0d
+			x: 17.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1F097DBCAEB186E6"]
-			hide_dependency_lines: true
+			dependencies: ["1CDCB4AE59BFBCFA"]
+			hide_dependency_lines: false
 			id: "5616D3C42BF45EE0"
 			tasks: [{
 				id: "0853FEDDA73FB602"
 				item: "ftbic:coal_dust"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 14.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5616D3C42BF45EE0"]
@@ -2812,8 +720,8 @@
 				item: "ftbic:carbon_fibers"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 14.5d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6FFEEC17182E065C"]
@@ -2824,99 +732,8 @@
 				item: "ftbic:carbon_fiber_mesh"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["39D33BA172775DE7"]
-			id: "02CF4B67945F4C0C"
-			rewards: [
-				{
-					id: "546891B38B023D3B"
-					item: "create:honeyed_apple"
-					type: "item"
-				}
-				{
-					id: "7A6CED63F1B2A098"
-					item: "productivebees:upgrade_base"
-					random_bonus: 5
-					type: "item"
-				}
-			]
-			subtitle: "Основание для улучшений."
-			tasks: [{
-				id: "7624BDD603BB266E"
-				item: "productivebees:upgrade_base"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["02CF4B67945F4C0C"]
-			id: "023DE674E62E27DA"
-			rewards: [{
-				id: "752B58AAFED6A1CD"
-				item: "createaddition:honey_cake"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "Улучшения могут помочь в работе с пчёлками."
-			tasks: [
-				{
-					id: "007EF8E686668DF6"
-					item: "productivebees:upgrade_breeding"
-					type: "item"
-				}
-				{
-					id: "250414C8930A1B1A"
-					item: "productivebees:upgrade_time"
-					type: "item"
-				}
-				{
-					id: "3FC7F8108C14EAFE"
-					item: "productivebees:upgrade_productivity"
-					type: "item"
-				}
-				{
-					id: "23E55AE6C5330F88"
-					item: "productivebees:upgrade_anti_teleport"
-					type: "item"
-				}
-				{
-					id: "02E732CC1E09F6A3"
-					item: "productivebees:upgrade_range"
-					type: "item"
-				}
-				{
-					id: "763F183BB86AEF4D"
-					item: "productivebees:upgrade_filter"
-					type: "item"
-				}
-				{
-					id: "6141A4CFC4AEAD92"
-					item: "productivebees:upgrade_bee_sampler"
-					type: "item"
-				}
-				{
-					id: "0469B9B6992FA1A9"
-					item: "productivebees:upgrade_simulator"
-					type: "item"
-				}
-				{
-					id: "1E035F9CF718DB2F"
-					item: "productivebees:upgrade_comb_block"
-					type: "item"
-				}
-				{
-					id: "0792943560089956"
-					item: "productivebees:upgrade_not_babee"
-					type: "item"
-				}
-			]
-			title: "Время улучшений"
-			x: -13.0d
-			y: 2.5d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2932,8 +749,8 @@
 				item: "ftbic:lv_battery_box"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 14.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["796D74CA0D9618DF"]
@@ -2944,8 +761,8 @@
 				item: "ftbic:mv_battery_box"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 15.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["11C2765619D893B4"]
@@ -2963,108 +780,8 @@
 				item: "ftbic:ev_transformer"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["631AA78FFCCF410C"]
-			description: ["Заполучив этот артефакт ты становишся неуязвивым ко всем эффектам, так же ты получаешь бессмертие"]
-			id: "7877DF808EA16659"
-			rewards: [
-				{
-					id: "4292CDDB18C7B4EF"
-					item: "minecraft:netherite_block"
-					type: "item"
-				}
-				{
-					id: "6233670DFDC4DF99"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "trofers:tm4/universe"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "781143D866DC9CA9"
-				item: "enigmaticlegacy:enigmatic_item"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Позволит модифицировать гены пчелы."]
-			id: "5367F072E25BD630"
-			rewards: [{
-				id: "5F2E339ACA1EA54C"
-				item: "productivebees:upgrade_bee_sampler"
-				type: "item"
-			}]
-			tasks: [{
-				id: "03EBE96901F78060"
-				item: "productivebees:gene_indexer"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Удобный механизм для скрещивания пчёл. "]
-			id: "132B935B3E28973A"
-			rewards: [
-				{
-					count: 16
-					id: "44B8ED5D6828B955"
-					item: "productivebees:jar_oak"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1FF8811ADADF5C8E"
-					item: "silentgear:crimson_iron_block"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "438DBCD2F3B50F3E"
-				item: "productivebees:breeding_chamber"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Ускоряет рост пчёлок."]
-			id: "5CB118FC04564E4C"
-			rewards: [
-				{
-					id: "6CC0936633B2F9F6"
-					item: "productivebees:feeder"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "54EDC1298A50047D"
-					item: "silentgear:azure_silver_block"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "43DAD5221186C2C2"
-				item: "productivebees:incubator"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -1.5d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -3076,13 +793,14 @@
 				random_bonus: 5
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "793A8AE0CBEC24AA"
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -3094,243 +812,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "611C485C67AF7E5E"
 				item: "forbidden_arcanus:ferrognetic_mixture"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2F028D1BD646A3B8"]
-			description: ["Создайте эндер пчелу, кликнув медовым угощением по эндер гнезду"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:advancements/iron_bee"
-				}
-			}
-			id: "59C7D5053FB777BB"
-			rewards: [{
-				id: "4A4E33FC24CF05EB"
-				item: {
-					Count: 1b
-					id: "productivebees:bee_cage"
-					tag: {
-						Age: 0
-						AngerTime: 0
-						BlueprintTrackedData: [{
-							Boolean: 0b
-							Id: "savage_and_ravage:invisible_due_to_mask"
-						}]
-						CanUpdate: 1b
-						ChestCavity: {
-							FurnaceProgress: 0
-							HeartTimer: 0
-							Inventory: [ ]
-							KidneyTimer: 0
-							LiverTimer: 0
-							LungRemainder: 0.0f
-							MetabolismRemainder: 0.0f
-							PhotosynthesisProgress: 0
-							compatibility_id: [I;
-								-1303598007
-								2127250019
-								-2141694754
-								1521414698
-							]
-							opened: 0b
-						}
-						ForcedAge: 0
-						ForgeCaps: {
-							"scalinghealth:difficulty_affected": {
-								Blight: 0b
-								Difficulty: 109.10208f
-							}
-							"twilightforest:cap_feather_fan_fall": {
-								featherFanFalling: 0b
-							}
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"twilightforest:cap_thrown": {
-								throwCooldown: 0
-								yetiThrown: 0b
-							}
-							"twilightforest:giant_pick_mine": {
-								giantPickMining: 0L
-							}
-						}
-						ForgeData: { }
-						HasConverted: 0b
-						HasNectar: 0b
-						HasStung: 0b
-						Health: 30.45664f
-						Invulnerable: 0b
-						MaxHealth: 30.45664f
-						PersistenceRequired: 0b
-						ad_astra_giselle_addon: {
-							"ad_astra_giselle_addon:proof": { }
-						}
-						bee_behavior: 0
-						bee_endurance: 1
-						bee_productivity: 1
-						bee_temper: 1
-						bee_type: "hive"
-						bee_weather_tolerance: 0
-						breathCollectionCooldown: 600
-						entity: "productivebees:configurable_bee"
-						isProductiveBee: 1b
-						mod: "ProductiveBees"
-						name: "Ender Bee"
-						type: "productivebees:ender"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					icon: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							Age: 0
-							AngerTime: 0
-							BlueprintTrackedData: [{
-								Boolean: 0b
-								Id: "savage_and_ravage:invisible_due_to_mask"
-							}]
-							CanUpdate: 1b
-							ForcedAge: 0
-							ForgeCaps: {
-								"scalinghealth:difficulty_affected": {
-									Blight: 0b
-									Difficulty: 5.9548225f
-								}
-								"twilightforest:cap_feather_fan_fall": {
-									featherFanFalling: 0b
-								}
-								"twilightforest:cap_shield": {
-									permshields: 0
-									tempshields: 0
-								}
-								"twilightforest:cap_thrown": {
-									throwCooldown: 0
-									yetiThrown: 0b
-								}
-								"twilightforest:giant_pick_mine": {
-									giantPickMining: 0L
-								}
-							}
-							ForgeData: {
-								"naturesaura:time_alive": 40
-							}
-							HasConverted: 0b
-							HasNectar: 0b
-							HasStung: 0b
-							Health: 11.116529f
-							Invulnerable: 0b
-							MaxHealth: 16.11653f
-							PersistenceRequired: 0b
-							ad_astra_giselle_addon: {
-								"ad_astra_giselle_addon:proof": { }
-							}
-							bee_behavior: 0
-							bee_endurance: 2
-							bee_productivity: 1
-							bee_temper: 1
-							bee_type: "hive"
-							bee_weather_tolerance: 0
-							entity: "productivebees:quarry_bee"
-							"forge:spawn_type": "SPAWN_EGG"
-							isProductiveBee: 1b
-							mod: "ProductiveBees"
-							name: "Карьерная пчела"
-						}
-					}
-					id: "20941E4C2F053B0F"
-					item: {
-						Count: 1b
-						id: "productivebees:bee_cage"
-						tag: {
-							type: "productivebees:ender"
-						}
-					}
-					title: "Пчелиная Клетка (Эндер-Пчела)"
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "5169CB29AAF6C2B4"
-					item: "productivebees:end_stone_nest"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "5C0B56BDF23EEBBE"
-					item: "minecraft:purpur_block"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4362F9C2B91D17AB"
-					item: "minecraft:chorus_fruit"
-					type: "item"
-				}
-			]
-			title: "Ендер пчёлка"
-			x: -16.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["59C7D5053FB777BB"]
-			description: ["Создате пурпурный алтарь и выторгуйте у жителя голову эндер дракона"]
-			icon: "morevillagers:purpur_altar"
-			id: "19116B371D193C5F"
-			rewards: [
-				{
-					count: 64
-					id: "0A354EE194924C95"
-					item: "minecraft:end_stone"
-					type: "item"
-				}
-				{
-					count: 6
-					id: "557F27BC8F645259"
-					item: "forbidden_arcanus:dragon_scale"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "408FE40BBABBA3CD"
-					item: "ae2:quartz_block"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "39A3AE9701B38423"
-					item: "morevillagers:purpur_altar"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "508234881193004E"
-					item: "minecraft:dragon_head"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "63BC117E113C7398"
-					item: "forbidden_arcanus:dragon_scale"
-					type: "item"
-				}
-			]
-			x: -16.5d
-			y: -4.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["32DCE840F4C4D6E1"]
@@ -3342,8 +831,8 @@
 				item: "ftbic:carbon_plate"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 14.5d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["60C044E0BAE70655"]
@@ -3372,8 +861,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 18.0d
+			x: 21.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43162D61A6C59044"]
@@ -3402,8 +891,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 19.0d
+			x: 21.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0F2B8B22CF4D5730"]
@@ -3432,8 +921,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 20.0d
+			x: 21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6A7F6D194AD73234"]
@@ -3462,10 +951,12 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 21.0d
+			x: 21.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["0C07ED4E937D391B"]
+			hide_dependency_lines: true
 			id: "6D47A9120BCDFB6C"
 			subtitle: "&cИскусство &r— &cэто &4ВЗРЫВ!"
 			tasks: [{
@@ -3473,11 +964,11 @@
 				item: "ftbic:nuke"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 19.5d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7332FD7F57514AF5"]
+			dependencies: ["6224DF2E7449E678"]
 			id: "7E077B4483E9F928"
 			rewards: [{
 				count: 3
@@ -3493,8 +984,8 @@
 				item: "ftbic:lv_cable"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 16.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7E077B4483E9F928"]
@@ -3513,11 +1004,11 @@
 				item: "ftbic:mv_cable"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 17.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6224DF2E7449E678"]
+			dependencies: ["78BC883CC8636EEB"]
 			id: "7332FD7F57514AF5"
 			rewards: [{
 				count: 3
@@ -3533,11 +1024,11 @@
 				item: "ftbic:hv_cable"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 15.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["78BC883CC8636EEB"]
+			dependencies: ["7332FD7F57514AF5"]
 			id: "6E0F0B0D128568FD"
 			rewards: [{
 				count: 3
@@ -3553,43 +1044,46 @@
 				item: "ftbic:ev_cable"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 19.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Работает как печь, но только на энергии."]
+			hide_dependency_lines: true
 			id: "686548AE03EC9F37"
 			tasks: [{
 				id: "4E5B1F09BA9241F3"
 				item: "ftbic:powered_furnace"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
 			description: ["Разделяет предметы на их состовляющие."]
+			hide_dependency_lines: true
 			id: "2B8BD1401C8A74E6"
 			tasks: [{
 				id: "1B618A071961381D"
 				item: "ftbic:centrifuge"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
 			id: "39720DB40191DF9E"
 			tasks: [{
 				id: "45E9009F30F3E4CB"
 				item: "ftbic:pump"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["63BE8D9BF4A9F95D"]
@@ -3618,8 +1112,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 18.0d
+			x: 19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["47A3F275A2C21198"]
@@ -3648,8 +1142,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 19.0d
+			x: 19.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["36E3E9B27BE1BF7D"]
@@ -3678,8 +1172,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 21.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["219762AA6306D027"]
@@ -3708,21 +1202,23 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 20.0d
+			x: 19.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6B8743E39A6E14B1"]
+			dependencies: ["1172FCA541C97A82"]
 			description: ["Веселье начинается прямо сейчас."]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "3F7BF82CF8C81EE2"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "699FC9A25C597E26"
 				item: "avaritia:extreme_crafting_table"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 12.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -3735,8 +1231,8 @@
 				item: "gribtweaks:quantum_circuit"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.5d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -3749,8 +1245,8 @@
 				item: "gribtweaks:spectral_circuit"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 16.5d
+			x: 15.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -3763,8 +1259,8 @@
 				item: "gribtweaks:photoniy_circuit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 16.5d
+			x: 17.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
@@ -3774,22 +1270,23 @@
 				item: "gribtweaks:mechanical_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 17.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
 			id: "22F7F4B068BA042E"
+			shape: "diamond"
 			tasks: [{
 				id: "0AC877C71A9F017F"
 				item: "gribtweaks:sculk_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 15.5d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
-			hide_dependency_lines: true
+			dependencies: ["2AB9D41EA6F6EFF3"]
 			icon: "gribtweaks:ametrine_ore"
 			id: "27CD2C168B13BCA9"
 			tasks: [{
@@ -3797,8 +1294,8 @@
 				item: "gribtweaks:ametrine_geode"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
@@ -3808,8 +1305,8 @@
 				item: "gribtweaks:empty_rune"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.0d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
@@ -3819,8 +1316,8 @@
 				item: "gribtweaks:elemental_fragments_block"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.0d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["543253F809DF8CCB"]
@@ -3830,8 +1327,8 @@
 				item: "gribtweaks:elemental_ingot"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -3.0d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -3878,8 +1375,8 @@
 				}
 			]
 			title: "Руны"
-			x: -10.0d
-			y: -5.0d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
@@ -3889,101 +1386,8 @@
 				item: "gribtweaks:ametrine_ore_crystal"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["310A3B4D8AF915F4"]
-			description: ["Совершенная основа для механизмов."]
-			id: "50846279F5251F59"
-			invisible: true
-			rewards: [
-				{
-					count: 2
-					id: "40B019A4593A08AB"
-					item: "gribtweaks:oblivion_liquid"
-					type: "item"
-				}
-				{
-					count: 6
-					id: "482E3008E810649E"
-					item: "gribtweaks:super_alloy_processor"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "66F264224139F55F"
-				item: "gribtweaks:advanced_casing"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Продвинутая версия обычного улья."]
-			id: "10ADAB4A204037E7"
-			rewards: [
-				{
-					id: "1C41CD4F6BB0C9A1"
-					item: "gribtweaks:dense_carbon_plate"
-					type: "item"
-				}
-				{
-					id: "4CD4A7560BCE4801"
-					item: "gribtweaks:dense_sculk_plate"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "025B54ACA6E4C696"
-					item: "gribtweaks:iridium_ore"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6F77DF323A28E63B"
-				item: "productivebees:advanced_oak_beehive"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Ловит пчёл, да. А ты что думал?"]
-			id: "48D824D9C0FEE863"
-			rewards: [{
-				count: 6
-				id: "2FB5BEE88EF1B45D"
-				item: "gribtweaks:spectral_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AD4A3F8484EA18A"
-				item: "productivebees:catcher"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["50846279F5251F59"]
-			description: ["Разливаем мёд по бутылочкам, но зачем?"]
-			id: "00572EC0E9814772"
-			rewards: [{
-				count: 6
-				id: "02AC86D396C3BE4C"
-				item: "gribtweaks:spectral_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B855C3DB56FFDCF"
-				item: "productivebees:bottler"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7E077B4483E9F928"]
@@ -3994,8 +1398,8 @@
 				item: "ftbic:electronic_circuit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.5d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4FD4356DA6B48F2C"]
@@ -4005,8 +1409,8 @@
 				item: "ftbic:advanced_circuit"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 16.5d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["13B1C110A967D1A7"]
@@ -4016,8 +1420,8 @@
 				item: "ftbic:iridium_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["77297D7100AC44C1"]
@@ -4027,8 +1431,8 @@
 				item: "gribtweaks:antimatter_l1"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 20.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C75F6D4CA4365C7"]
@@ -4038,8 +1442,8 @@
 				item: "gribtweaks:antimatter_l2"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 18.5d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6007CC344C680F3F"]
@@ -4049,8 +1453,8 @@
 				item: "gribtweaks:antimatter_l3"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 20.0d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["262C559B96A844E0"]
@@ -4060,8 +1464,8 @@
 				item: "gribtweaks:antimatter_l4"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 17.0d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4072,8 +1476,8 @@
 				item: "gribtweaks:spectral_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["13B61BD8D84D3047"]
@@ -4083,8 +1487,8 @@
 				item: "gribtweaks:photoniy_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 15.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4095,11 +1499,11 @@
 				item: "gribtweaks:photoniy"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 13.5d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["1F097DBCAEB186E6"]
+			dependencies: ["1CDCB4AE59BFBCFA"]
 			hide_dependency_lines: true
 			id: "7614670D3B37C767"
 			tasks: [{
@@ -4107,8 +1511,8 @@
 				item: "gribtweaks:chunk_of_etherium"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 13.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4119,8 +1523,8 @@
 				item: "gribtweaks:quantum_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4131,8 +1535,8 @@
 				item: "gribtweaks:upgrade_base"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["29A64888EFA4C537"]
@@ -4160,8 +1564,8 @@
 				}
 			]
 			title: "Улучшения"
-			x: 4.0d
-			y: 12.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2371EF16B1EB318E"]
@@ -4171,8 +1575,8 @@
 				item: "ftbic:iv_battery_box"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 20.0d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["651CF9EA2EC026DC"]
@@ -4195,8 +1599,8 @@
 				item: "ftbiceg:advanced_generator"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F097DBCAEB186E6"]
@@ -4207,8 +1611,8 @@
 				item: "ftbic:ultimate_compressor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2B8BD1401C8A74E6"]
@@ -4219,8 +1623,8 @@
 				item: "ftbic:ultimate_centrifuge"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1CDCB4AE59BFBCFA"]
@@ -4231,7 +1635,7 @@
 				item: "ftbic:ultimate_macerator"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -4243,8 +1647,8 @@
 				item: "ftbic:ultimate_powered_furnace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["21292FDA52664049"]
@@ -4255,18 +1659,19 @@
 				item: "ftbic:ultimate_roller"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			hide_dependency_lines: true
 			id: "651CF9EA2EC026DC"
 			tasks: [{
 				id: "213664762089D576"
 				item: "ftbic:geothermal_generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -4287,8 +1692,8 @@
 				item: "ftbic:iv_cable"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 20.0d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
@@ -4300,18 +1705,20 @@
 				item: "ftbic:lv_transformer"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 14.0d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["0C07ED4E937D391B"]
+			hide_dependency_lines: true
 			id: "34976B4919052C4B"
 			tasks: [{
 				id: "703F0E9F5ED9FEF5"
 				item: "ftbic:nuclear_reactor_chamber"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.5d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["34976B4919052C4B"]
@@ -4321,8 +1728,8 @@
 				item: "ftbic:nuclear_reactor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.5d
+			x: 17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7A9A5C36D0332D8A"]
@@ -4333,8 +1740,8 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 18.5d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["77297D7100AC44C1"]
@@ -4344,19 +1751,19 @@
 				item: "gribtweaks:advanced_antimatter"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 17.5d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
-			hide_dependency_lines: true
+			dependencies: ["0C07ED4E937D391B"]
 			id: "35978A8DB25CAEB1"
 			tasks: [{
 				id: "6D91096D811411C2"
 				item: "ftbic:antimatter_constructor"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 17.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35978A8DB25CAEB1"]
@@ -4366,8 +1773,8 @@
 				item: "ftbic:antimatter"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 18.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4384,8 +1791,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 18.0d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4402,8 +1809,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.0d
+			x: 15.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4420,8 +1827,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 20.0d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -4438,8 +1845,320 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 21.0d
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B8743E39A6E14B1"
+				"1CDCB4AE59BFBCFA"
+			]
+			id: "0C07ED4E937D391B"
+			tasks: [{
+				id: "2F094DB8DCD58A1C"
+				item: "ftbic:advanced_machine_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1172FCA541C97A82"]
+			id: "514E931A23995A86"
+			tasks: [{
+				id: "0334E778CCC3F842"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["514E931A23995A86"]
+			id: "0B23FC093A1BFCAE"
+			tasks: [{
+				id: "074E66EBE952EBB9"
+				item: "gribtweaks:hephaestus_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F7BF82CF8C81EE2"]
+			id: "50D5D6FEAEF2ED4B"
+			tasks: [{
+				id: "5FC7E9FC63783313"
+				item: "gribtweaks:component_base"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50D5D6FEAEF2ED4B"]
+			id: "3757B37584645585"
+			tasks: [{
+				id: "49095FDE0E6A767D"
+				item: "gribtweaks:sculk_component"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3757B37584645585"]
+			id: "65935C8CDE6A150C"
+			tasks: [{
+				id: "60778E38A0D56689"
+				item: "gribtweaks:sculk_advanced_component"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3757B37584645585"]
+			id: "541883A130705DA6"
+			tasks: [{
+				id: "28781B7C9BCA14C1"
+				item: "gribtweaks:oblivion_component"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3757B37584645585"]
+			id: "079F82FC8A4DE42B"
+			tasks: [{
+				id: "3F3610B77D6A514B"
+				item: "gribtweaks:diamond_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3757B37584645585"]
+			id: "3D57DE66B01D53AC"
+			tasks: [{
+				id: "150F11423189040F"
+				item: "gribtweaks:antimatter_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["65935C8CDE6A150C"]
+			id: "52006E555FBF3A27"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "0BFE7BBD530BC627"
+				item: "gribtweaks:advanced_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["541883A130705DA6"]
+			id: "7E11D74CA9004B29"
+			tasks: [{
+				id: "7474F05CAE0269DC"
+				item: "gribtweaks:death_component"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["541883A130705DA6"]
+			id: "5465C1DAAC8A0308"
+			tasks: [{
+				id: "35540D007A302D5A"
+				item: "gribtweaks:advanced_oblivion_component"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["541883A130705DA6"]
+			id: "6980A5EADA1A2135"
+			tasks: [{
+				id: "2CD4F123B3A1E515"
+				item: "gribtweaks:admiration_component"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5465C1DAAC8A0308"]
+			id: "0EFBA96667CFD8B6"
+			tasks: [{
+				id: "0BA5C9E4317B0D92"
+				item: "gribtweaks:oblivion_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6980A5EADA1A2135"]
+			id: "6AF5AFE1EB392660"
+			tasks: [{
+				id: "33AFF31BDB57225C"
+				item: "gribtweaks:advanced_admiration_component"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7E11D74CA9004B29"]
+			id: "082F8427EFDACABB"
+			tasks: [{
+				id: "42720710DE0E6B7A"
+				item: "gribtweaks:anxiety_component"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["082F8427EFDACABB"]
+			id: "017B1C18B5A2A086"
+			tasks: [{
+				id: "003F08D3ECD58CBC"
+				item: "gribtweaks:advanced_anxiety_component"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7E11D74CA9004B29"]
+			id: "79A33B9C1CB2F489"
+			tasks: [{
+				id: "0AF41FCBFD7E28B3"
+				item: "gribtweaks:advanced_death_component"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3D57DE66B01D53AC"]
+			id: "31C0CB061537B999"
+			tasks: [{
+				id: "188731BD0C42AC8C"
+				item: "gribtweaks:advanced_antimatter_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["79A33B9C1CB2F489"]
+			id: "4ADDC0808FD283C2"
+			tasks: [{
+				id: "46F195607C10A1F8"
+				item: "gribtweaks:death_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6AF5AFE1EB392660"]
+			id: "21040627E49B4E5E"
+			tasks: [{
+				id: "64D7AB1458233A23"
+				item: "gribtweaks:admiration_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["31C0CB061537B999"]
+			id: "61AF07D29B095317"
+			tasks: [{
+				id: "6648E87E938C1E37"
+				item: "gribtweaks:void_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["017B1C18B5A2A086"]
+			id: "750AEBD40DCD9C16"
+			tasks: [{
+				id: "3F88D23832051C16"
+				item: "gribtweaks:anxiety_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1BFCEB3384BDA1ED"]
+			id: "3CF5EBB4A957523F"
+			tasks: [{
+				id: "157901E88261ECB4"
+				item: "gribtweaks:oblivion_liquid"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -18.0d
+		}
+		{
+			id: "1BFCEB3384BDA1ED"
+			tasks: [{
+				id: "10990DA6F0325E3D"
+				item: "gribtweaks:void_liquid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3CF5EBB4A957523F"]
+			id: "07240471AFE9491F"
+			tasks: [{
+				id: "214FF6ED2F428AFB"
+				item: "gribtweaks:admiration_liquid"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["07240471AFE9491F"]
+			id: "566D4F0029AE0377"
+			tasks: [{
+				id: "6AC77C308D762F33"
+				item: "gribtweaks:death_liquid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["566D4F0029AE0377"]
+			id: "326A9F75AC04B8E6"
+			tasks: [{
+				id: "17BE93F4A016A8D3"
+				item: "gribtweaks:anxiety_liquid"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -18.0d
 		}
 	]
 	title: "&5Стадия: 5"

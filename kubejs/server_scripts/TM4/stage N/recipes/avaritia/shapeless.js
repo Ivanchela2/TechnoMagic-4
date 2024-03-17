@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'tm4:avaritia/shapeless/';
+    const prefix = 'gribtweaks:avaritia/shapeless/';
     const recipes = [
         {
             output: 'gribtweaks:block_infinity_catalyst',

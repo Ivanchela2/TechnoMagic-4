@@ -468,17 +468,6 @@
 					type: "loot"
 				}
 				{
-					id: "01D3753CF754612D"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:headbiter_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "4FCBDD4FE5047205"
 					item: "simplehats:rabbitonhead"
 					type: "item"

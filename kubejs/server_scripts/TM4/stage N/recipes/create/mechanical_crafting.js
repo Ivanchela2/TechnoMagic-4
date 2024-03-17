@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const prefix = 'tm4:mechanical_crafting/shaped/';
+    const prefix = 'gribtweaks:create/mechanical_crafting/';
     const recipes = [
         {
             pattern: [ 
@@ -84,35 +84,6 @@ ServerEvents.recipes((event) => {
             },
             output: 'create:handheld_worldshaper',
             id: `${prefix}handheld_worldshaper`
-        },
-        {
-            pattern: [
-                'CCAAPAACC',
-                'CDDKKKDDC',
-                'ADNUTUNDA',
-                'AKUSUSUKA',
-                'PKTMBMTKP',
-                'AKUSUSUKA',
-                'ADNUTUNDA',
-                'CDDKKKDDC',
-                'CCAAPAACC'
-            ],
-            key: {
-                A: 'gribtweaks:polished_arcane_crystal',
-                B: 'gribtweaks:diamond_component',
-                C: 'gribtweaks:polished_certus_quartz_crystal',
-                D: 'gribtweaks:diamond_plate',
-                K: 'gribtweaks:dense_carbon_plate',
-                N: 'minecraft:nether_star',
-                M: 'gribtweaks:mechanical_eye',
-                P: 'gribtweaks:compressed_phantom_membrane',
-                S: 'gribtweaks:spirit_attuned_ingot',
-                T: 'gribtweaks:quadruple_compressed_crafting_table',
-                U: 'avaritia:crystal_matrix_ingot'
-            },
-            output: 'avaritia:extreme_crafting_table',
-            acceptMirrored: true,
-            id: `${prefix}extreme_crafting_table`
         }
     ];
 

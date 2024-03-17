@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'tm4:avaritia/shaped_extreme_craft/';
+    const prefix = 'gribtweaks:avaritia/shaped_extreme_craft/';
     const recipes = [
         {
             pattern: [ 
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
                 A: { type: 'forge:nbt', item: 'avaritia:singularity', count: 1, nbt: '{Id:\"avaritia:neutronium\"}' },
 			    B: Item.of('reaper:soul_catalyst').toJson(),
 			    C: Item.of('avaritia:neutronium_ingot').toJson(),
-			    D: Item.of('silentgear:starmetal_dust').toJson()
+			    D: Item.of('gribtweaks:cosmic_scrap').toJson()
             },
             output: 'gribtweaks:neutronium_catalyst',
             id: `${prefix}neutronium_catalyst`

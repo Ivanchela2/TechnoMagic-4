@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'tm4:avaritia/shaped/';
+    const prefix = 'gribtweaks:avaritia/shaped/';
     const recipes = [
         {
             output: '2x avaritia:diamond_lattice',

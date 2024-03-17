@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'tm4:avaritia/shapeless_extreme_craft/';
+    const prefix = 'gribtweaks:avaritia/shapeless_extreme_craft/';
     const recipes = [
         // {
         //     inputs: [
