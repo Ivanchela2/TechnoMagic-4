@@ -1482,12 +1482,7 @@
 			y: -21.45d
 		}
 		{
-			dependencies: [
-				"3C4FAAC29B6437CA"
-				"295B34A99DDA14E6"
-				"6C7967AFBD51BDAC"
-				"269E4EB0991081B1"
-			]
+			dependencies: ["52006E555FBF3A27"]
 			dependency_requirement: "one_completed"
 			id: "0DF0EAE626C09688"
 			rewards: [

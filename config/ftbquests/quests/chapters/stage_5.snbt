@@ -481,7 +481,7 @@
 				item: "forbidden_arcanus:darkstone"
 				type: "item"
 			}]
-			title: "Добываем камешки"
+			title: "Тёмный камень"
 			x: -1.0d
 			y: -4.0d
 		}
@@ -1528,6 +1528,7 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			description: ["ЗНАЮ ЧТО НЕТ ПОТОМ БУДЕТ В ОТДЕЛЬНОМ МОДЕ"]
 			hide_dependency_lines: true
 			id: "29A64888EFA4C537"
 			tasks: [{
@@ -1952,9 +1953,10 @@
 		}
 		{
 			dependencies: ["65935C8CDE6A150C"]
+			description: ["&l&4Открывает следующую стадию!&r&r"]
 			id: "52006E555FBF3A27"
 			shape: "gear"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "0BFE7BBD530BC627"
 				item: "gribtweaks:advanced_casing"

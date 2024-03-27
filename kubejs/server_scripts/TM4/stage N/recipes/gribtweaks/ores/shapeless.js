@@ -1,6 +1,17 @@
 ServerEvents.recipes(event => {
     const prefix = 'gribtweaks:shapeless/';
     const recipes = [
+        {
+            output: '3x gribtweaks:buffalo_hide_fiber',
+            inputs: [
+               'totemic:buffalo_hide',
+               '#notreepunching:knives'
+            ],
+            id: `${prefix}buffalo_hide_fiber_from_hide`
+        },
+
+
+
         // OSMIUM ORE ------------------------------------------------------------------
         {
             output: 'gribtweaks:ingot_osmium',

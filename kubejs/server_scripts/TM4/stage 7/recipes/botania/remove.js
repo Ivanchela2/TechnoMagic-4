@@ -1,10 +1,7 @@
 ServerEvents.recipes(e => { 
 
     const output = [
-        'shears',
-        'rootsclassic:bark_knife',
         'ceramicshears:clay_shears_part',
-        'furnace',
         'botania:fertilizer',
         /botania:apothecary/,
         'botania:mana_pool',

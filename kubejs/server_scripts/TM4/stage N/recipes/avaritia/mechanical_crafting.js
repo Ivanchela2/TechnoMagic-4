@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
         {
             pattern: [
                 'CCAAPAACC',
-                'CDDKKKDDC',
+                'CDDKEKDDC',
                 'ADNUTUNDA',
                 'AKUSUSUKA',
-                'PKTMBMTKP',
+                'PETMBMTEP',
                 'AKUSUSUKA',
                 'ADNUTUNDA',
-                'CDDKKKDDC',
+                'CDDKEKDDC',
                 'CCAAPAACC'
             ],
             key: {
@@ -18,6 +18,7 @@ ServerEvents.recipes((event) => {
                 B: 'gribtweaks:diamond_component',
                 C: 'gribtweaks:polished_certus_quartz_crystal',
                 D: 'gribtweaks:diamond_plate',
+                E: 'gribtweaks:elemental_ingot',
                 K: 'gribtweaks:dense_carbon_plate',
                 N: 'forbidden_arcanus:dark_nether_star_block',
                 M: 'gribtweaks:mechanical_eye',

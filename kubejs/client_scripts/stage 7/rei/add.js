@@ -1,4 +1,4 @@
-REIEvents.add('item', e => {
+JEIEvents.addItems(e => {
     const adds = [
         {
             i: Item.of('minecraft:player_head', '{SkullOwner:"Ivanchela"}')

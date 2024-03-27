@@ -1,9 +1,9 @@
 ServerEvents.recipes((event) => {
-    const prefix = 'tm4:create/mixing/';
+    const prefix = 'gribtweaks:create/mixing/';
     const recipes = [
 		{
             inputs: [
-                'gribtweaks:upgrade_base',
+                'ftbic:upgrade_template',
                 'productivebees:honey_treat',
                 { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:diamond\"}}" },
                 { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:emerald\"}}" },

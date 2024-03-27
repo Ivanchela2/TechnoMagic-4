@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'tm4:ftbic/shaped/';
+    const prefix = 'gribtweaks:ftbic/shaped/';
     const recipes = [
         {
             output: 'twilightforest:borer_essence',
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
                 A: Item.of('ftbic:small_coolant_cell', '{Damage:0}'),
                 B: 'ftbic:lv_cable',
                 C: 'ftbic:electronic_circuit',
-                D: 'gribtweaks:upgrade_base'
+                D: 'ftbic:upgrade_template'
             },
             id: `${prefix}overclocker_upgrade`
         },
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
             key: {
                 A: '#minecraft:planks',
                 B: { type: 'forge:nbt', item: "ftbic:lv_battery", count: 1 , nbt: "{Energy:4000.0d}" },
-                C: 'gribtweaks:upgrade_base'
+                C: 'ftbic:upgrade_template'
             },
             id: `${prefix}energy_storage_upgrade`
         },
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
             key: {
                 A: '#forge:ingots/tin',
                 B: 'minecraft:piston',
-                C: 'gribtweaks:upgrade_base'
+                C: 'ftbic:upgrade_template'
             },
             id: `${prefix}ejector_upgrade`
         },
@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
                 A: '#forge:glass',
                 B: 'ftbic:electronic_circuit',
                 C: 'ftbic:mv_cable',
-                D: 'gribtweaks:upgrade_base'
+                D: 'ftbic:upgrade_template'
             },
             id: `${prefix}transformer_upgrade`
         }

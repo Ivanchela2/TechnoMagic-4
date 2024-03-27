@@ -186,7 +186,6 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:hephaestus_ingot').displayName('Слиток Гефеста');  
     event.create('gribtweaks:astral_ingot').displayName('§dАстральный слиток');  
     event.create('gribtweaks:chunk_of_etherium').displayName('Кусочек Эфира');  
-    event.create('gribtweaks:upgrade_base').displayName('Шаблон улучшения');  
     event.create('gribtweaks:tin_lead_bronze_alloy').displayName('Баббит'); 
     event.create('gribtweaks:endrium_uranium_iridium_alloy').displayName('Неадекватный сплав'); 
     event.create('gribtweaks:copper_aluminium_gold_alloy').displayName('Северное золото'); 

@@ -207,7 +207,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["28541DF5F861F45D"]
+			dependencies: [
+				"28541DF5F861F45D"
+				"24DBBA23D05F1699"
+			]
 			description: ["Создайте костер."]
 			hide: true
 			id: "73995DDB352A2786"
@@ -218,7 +221,7 @@
 			}]
 			title: "Первый огонь"
 			x: 9.5d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["73995DDB352A2786"]
@@ -238,7 +241,7 @@
 			}]
 			title: "Печь"
 			x: 9.5d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
@@ -252,7 +255,7 @@
 			}]
 			title: "Нужно больше железа"
 			x: 7.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -276,7 +279,7 @@
 			}]
 			title: "Слиток железа"
 			x: 9.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
@@ -295,8 +298,8 @@
 				type: "item"
 			}]
 			title: "Обновка"
-			x: 9.5d
-			y: 3.5d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
@@ -358,7 +361,7 @@
 				type: "item"
 			}]
 			title: "Примитивный сундук"
-			x: 7.5d
+			x: 3.5d
 			y: 5.5d
 		}
 		{
@@ -379,7 +382,7 @@
 			}]
 			title: "Делают чик-чик"
 			x: 7.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0AB23B1BF5126C37"]
@@ -575,6 +578,7 @@
 			description: ["Звенящее платье создаёт дополнительную музыку для ритуалов из Totemic."]
 			hide: true
 			id: "4EB5E7BF233723F6"
+			shape: "diamond"
 			tasks: [{
 				id: "6B670480B05F6B78"
 				item: {
@@ -587,8 +591,8 @@
 				type: "item"
 			}]
 			title: "Платье любого тотемиста"
-			x: 11.5d
-			y: -0.5d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["433AA6BC59B57D44"]
@@ -684,6 +688,19 @@
 				type: "item"
 			}]
 			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Зола получается путём сжигания легковоспламеняющихся блоков. Чтобы поджечь блок, можно использовать зажигалку."]
+			hide: true
+			id: "24DBBA23D05F1699"
+			tasks: [{
+				id: "719186B246A851BD"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: 7.5d
 			y: 1.5d
 		}
 	]
