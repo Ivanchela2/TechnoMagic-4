@@ -1012,7 +1012,7 @@
 		{
 			dependencies: ["4F943CCC0D6D0E87"]
 			id: "313C9E88626C0419"
-			subtitle: "Третья книга,которую вы используете в призывах и ритуалах."
+			subtitle: "Третья книга, которая используется в призывах и ритуалах."
 			tasks: [{
 				id: "2F0B234A514A088D"
 				item: "occultism:book_of_binding_marid"
@@ -1036,14 +1036,14 @@
 		{
 			dependencies: ["4F943CCC0D6D0E87"]
 			id: "38FF01FE1835B023"
-			subtitle: "Первая книга,которую вы используете в призывах и ритуалах."
+			subtitle: "Первая книга, которая используется в призывах и ритуалах."
 			tasks: [{
 				id: "2F66EB0C9B233DE1"
 				item: "occultism:book_of_binding_djinni"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4BA91AB519070D4D"]
@@ -1097,6 +1097,18 @@
 			title: "Потусторонняя древесина"
 			x: -9.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4F943CCC0D6D0E87"]
+			id: "2E6BFB9BF644C598"
+			subtitle: "Четвертая книга, которая используется в призывах и ритуалах."
+			tasks: [{
+				id: "6F4367492CC927E9"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "&5Стадия: 3"

@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             output: 'ad_astra:hammer',
             pattern: ['BCD', ' AC', 'A B'],
             key: {
-              A: 'gribtweaks:baykok_bone',
+              A: 'gribtweaks:iron_stick',
               B: 'ftbic:aluminum_ingot',
               C: '#createbigcannons:block_steel',
               D: 'minecraft:string'

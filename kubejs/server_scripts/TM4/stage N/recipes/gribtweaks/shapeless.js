@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
     ]
 
     recipes.forEach((recipe) => {
-        event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
+        event.shapeless(recipe.output, recipe.inputs)
+        .damageIngredient('#notreepunching:knives')
+        .id(recipe.id);
     });
 })

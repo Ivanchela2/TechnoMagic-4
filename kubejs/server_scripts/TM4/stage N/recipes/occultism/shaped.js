@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
           output: 'occultism:butcher_knife',
           pattern: [' CD', 'BA ', 'A  '],
           key: {
-            A: 'minecraft:stick',
+            A: 'gribtweaks:iron_stick',
             B: 'ftbic:aluminum_ingot',
             C: '#createbigcannons:block_steel',
             D: 'minecraft:string'

@@ -18,7 +18,25 @@ ServerEvents.recipes((event) => {
               A: 'gribtweaks:buffalo_hide_fiber'
             },
             id: `${prefix}buffalo_hide_rope`
-          },      
+          },   
+          {
+            output: 'gribtweaks:stone_stick',
+            pattern: [' BA', 'BAB', 'AB '],
+            key: {
+              A: 'minecraft:stick',
+              B: 'minecraft:cobblestone'
+            },
+            id: `${prefix}stone_stick`
+          },
+          {
+            output: 'gribtweaks:iron_stick',
+            pattern: [' BA', 'BAB', 'AB '],
+            key: {
+              A: 'gribtweaks:stone_stick',
+              B: 'minecraft:iron_ingot'
+            },
+            id: `${prefix}iron_stick`
+          },  
     ];
     
     recipes.forEach((recipe) => {

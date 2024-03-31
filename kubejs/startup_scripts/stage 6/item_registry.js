@@ -173,6 +173,9 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:advanced_anxiety_component').displayName('Продвинутый компонент Тревоги'); 
     event.create('gribtweaks:death_component').displayName('Компонент Смерти'); 
     event.create('gribtweaks:advanced_death_component').displayName('Продвинутый компонент Смерти'); 
+    // stage 1
+    event.create('gribtweaks:stone_stick').displayName('Каменная палка');  
+    event.create('gribtweaks:iron_stick').displayName('Железная палка');  
     // stage 2
     event.create('gribtweaks:tained_gold_leaf').displayName('Испорченный золотой лист');  
     event.create('gribtweaks:tained_gold_powder').displayName('Испорченный золотой порошок');  

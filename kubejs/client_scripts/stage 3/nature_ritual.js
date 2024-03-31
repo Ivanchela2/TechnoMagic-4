@@ -1,6 +1,7 @@
 Ponder.registry(event => {
     event
         .create([
+            'naturesaura:gold_powder',
             'naturesaura:wood_stand'
         ])
         .scene('gribtweaks:nature_aura_ritual', 'Natures Aura - Ритуал.', 'kubejs:nature_ritual', (scene, util) => {

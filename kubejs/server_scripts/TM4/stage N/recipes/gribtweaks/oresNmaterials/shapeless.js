@@ -1,15 +1,48 @@
 ServerEvents.recipes(event => {
     const prefix = 'gribtweaks:shapeless/';
     const recipes = [
+        // ASH BLOCKS ------------------------------------------------------------------   
+        // gt + supplementaries mod
         {
-            output: '3x gribtweaks:buffalo_hide_fiber',
+            output: 'gribtweaks:ash_block',
             inputs: [
-               'totemic:buffalo_hide',
-               '#notreepunching:knives'
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash',
+                'supplementaries:ash'
             ],
-            id: `${prefix}buffalo_hide_fiber_from_hide`
+            id: `${prefix}ash_block_from_dusts`
         },
-
+        {
+            output: 'gribtweaks:compressed_ash_block',
+            inputs: [
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block',
+                'gribtweaks:ash_block'
+            ],
+            id: `${prefix}compressed_ash_block`
+        },
+        {
+            output: '9x supplementaries:ash',
+            inputs: [ 'gribtweaks:ash_block' ],
+            id: `${prefix}ash_of_block`
+        },
+        {
+            output: '9x gribtweaks:ash_block',
+            inputs: [ 'gribtweaks:compressed_ash_block' ],
+            id: `${prefix}ash_block_of_compressed`
+        },
 
 
         // OSMIUM ORE ------------------------------------------------------------------

@@ -470,6 +470,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"045C3D369D9FADD6"
+				"41BF45C87E6F6410"
+				"6317A3CD85E467D0"
+			]
 			hide_dependency_lines: true
 			id: "2AB9D41EA6F6EFF3"
 			shape: "gear"

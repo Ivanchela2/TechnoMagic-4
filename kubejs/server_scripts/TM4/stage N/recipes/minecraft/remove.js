@@ -9,5 +9,6 @@ ServerEvents.recipes((event) => {
         { output: 'crafting_on_a_stick:crafting_table' },
         { output: 'quark:blackstone_furnace' },
         { output: 'quark:deepslate_furnace' },
+        { output: 'nethersdelight:blackstone_furnace' },
     ]);
 });

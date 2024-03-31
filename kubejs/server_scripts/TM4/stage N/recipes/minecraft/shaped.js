@@ -13,10 +13,10 @@ ServerEvents.recipes((event) => {
         }, 
         {
           output: 'minecraft:campfire',
-          pattern: ['AEB','EDB','CCC'],
+          pattern: [' A ','EDE','CBC'],
           key: {
               A: 'notreepunching:fire_starter',
-              B: 'supplementaries:ash_brick',
+              B: 'gribtweaks:compressed_ash_block',
               C: '#minecraft:logs',
               D: 'minecraft:coal_block',
               E: '#forge:rods/wooden',

@@ -46,6 +46,20 @@ StartupEvents.registry('block', event => {
             .tooltip('§7Переходные Металлы')
     })
 
+    // stage 1
+    event.create('gribtweaks:ash_block')
+    .soundType('sand')
+    .hardness(0.5)
+    .displayName('Блок золы') 
+    .tagBlock('minecraft:mineable/shovel')
+    .requiresTool(false)
+
+    event.create('gribtweaks:compressed_ash_block')
+    .soundType('sand')
+    .hardness(2)
+    .displayName('Сжатый блок золы') 
+    .tagBlock('minecraft:mineable/shovel')
+    .requiresTool(false)
     // stage 5
     event.create('gribtweaks:advanced_casing')
     .soundType('metal')
