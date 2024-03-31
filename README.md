@@ -1,2 +1,4 @@
 # TechnoMagic-4
-Gribteam project
+Cannot be used for commercial purposes without author's consent.
+
+© Gribteam project
