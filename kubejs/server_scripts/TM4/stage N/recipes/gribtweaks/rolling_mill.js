@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'gribtweaks:createaddition/rolling/';
+    const prefix = 'gribtweaks:rolling/';
     const recipes = [
         {
             type: "createaddition:rolling",

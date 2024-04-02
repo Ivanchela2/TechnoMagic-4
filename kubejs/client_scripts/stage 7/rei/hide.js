@@ -4,4 +4,7 @@ const apothecaries = /botania:apothecary_(forest|plains|mountain|fungal|swamp|de
 JEIEvents.hideItems(e => {
     e.hide(apothecaries)
     e.hide(alfsteeltools)
+
+    e.hide("hexerei:animal_fat")
+    e.hide("hexerei:book_of_shadows")
 })

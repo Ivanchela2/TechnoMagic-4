@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
         A: 'minecraft:iron_ingot', 
         B: '#minecraft:logs',
         C: 'minecraft:crafting_table',
-        D: '#forge:planks',
+        D: '#minecraft:planks',
         T: '#forge:tools/axes'
       },
       id: `${prefix}carpenters_table`
