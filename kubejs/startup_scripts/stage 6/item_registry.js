@@ -8,12 +8,12 @@ StartupEvents.registry('item', event => {
     event.create('chemlib:pre_gribony_ingot').displayName('§5§lСлиток Пре-Грибония').tooltip('§bPGb (10841)').tooltip('§7Переходные Металлы').group('chemlib.metals');
     event.create('chemlib:unstable_gribony_ingot').displayName('§e§lСлиток Нестабильного Грибония').tooltip('§7Безопасное вещество').group('chemlib.metals');
     
-    event.create('chemlib:gribony_dust').displayName('§4§lГрибониевая Пыль').tooltip('§bGb (21682)').tooltip('§7Переходные Металлы').group('chemlib.metals');
-    event.create('chemlib:pre_gribony_dust').displayName('§5§lПре-Грибониевая Пыль').tooltip('§bPGb (10841)').tooltip('§7Переходные Металлы').group('chemlib.metals');
-    event.create('chemlib:unstable_gribony_dust').displayName('§e§lНестабильная Грибониевая Пыль').tooltip('§7Безопасное вещество').group('chemlib.metals');
+    event.create('chemlib:gribony_dust').displayName('§4§lГрибониевая пыль').tooltip('§bGb (21682)').tooltip('§7Переходные Металлы').group('chemlib.metals');
+    event.create('chemlib:pre_gribony_dust').displayName('§5§lПре-Грибониевая пыль').tooltip('§bPGb (10841)').tooltip('§7Переходные Металлы').group('chemlib.metals');
+    event.create('chemlib:unstable_gribony_dust').displayName('§e§lНестабильная Грибониевая пыль').tooltip('§7Безопасное вещество').group('chemlib.metals');
     
     // elements
-    event.create('chemlib:industrial_unstable_gribony').displayName('§8§lПромышленный Нестабильный Грибоний').tooltip('§7Опасное вещество').group('chemlib.elements');
+    event.create('chemlib:industrial_unstable_gribony').displayName('§8§lПромышленный нестабильный Грибоний').tooltip('§7Опасное вещество').group('chemlib.elements');
 
     event.create('chemlib:strange_mixture').displayName('§lСтранная смесь').tooltip('§7Пахнет слабостью').glow(true);
     event.create('chemlib:stabilizing_element').displayName('§3Стабилизирующий элемент').tooltip('§7Очень сильный стабилизатор').group('chemlib.elements').glow(true);
@@ -26,64 +26,64 @@ StartupEvents.registry('item', event => {
     event.create('chemlib:neutronium_element').displayName('§bНейтрониевый элемент').group('chemlib.elements');
     event.create('chemlib:infinity_element').displayName('§cБесконечный элемент').group('chemlib.elements');
     
-    event.create('chemlib:all_reactive_non-metals_element').displayName('§oМульти Реактивный Неметалл')
+    event.create('chemlib:all_reactive_non-metals_element').displayName('§oМульти реактивный неметалл')
         .tooltip('§bМульти Хим. номер: (M87)')
         .tooltip('§7Все реактивные неметаллы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_alkali_metals_element').displayName('§oМульти Щелочной Металл')
+    event.create('chemlib:all_alkali_metals_element').displayName('§oМульти щелочной металл')
         .tooltip('§bМульти Хим. номер: (M212)')
         .tooltip('§7Все щелочные металлы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_alkaline_earth_metals_element').displayName('§oМульти Щелочно-Земельный Металл')
+    event.create('chemlib:all_alkaline_earth_metals_element').displayName('§oМульти щелочно-земельный металл')
         .tooltip('§bМульти Хим. номер: (M218)')
         .tooltip('§7Все щелочно-земельные металлы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_transition_metals_element').displayName('§oМульти Переходной Металл')
+    event.create('chemlib:all_transition_metals_element').displayName('§oМульти переходной металл')
         .tooltip('§bМульти Хим. номер: (M1094)')
         .tooltip('§7Все переходные металлы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_post-transition_metals_element').displayName('§oМульти Постпереходной Металл')
+    event.create('chemlib:all_post-transition_metals_element').displayName('§oМульти постпереходной металл')
         .tooltip('§bМульти Хим. номер: (M473)')
         .tooltip('§7Все постпереходные металлы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_unknown_properties_element').displayName('§oМульти Элемент с Неизвестными Свойствами')
+    event.create('chemlib:all_unknown_properties_element').displayName('§oМульти элемент с неизвестными свойствами')
         .tooltip('§bМульти Хим. номер: (M1135)')
         .tooltip('§7Все элементы с неиз. свойствами в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_metalloids_element').displayName('§oМульти Металоид')
+    event.create('chemlib:all_metalloids_element').displayName('§oМульти металоид')
         .tooltip('§bМульти Хим. номер: (M187)')
         .tooltip('§7Все металоиды в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_halogens_element').displayName('§oМульти Галоген')
+    event.create('chemlib:all_halogens_element').displayName('§oМульти галоген')
         .tooltip('§bМульти Хим. номер: (M199)')
         .tooltip('§7Все галогены в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_noble_gases_element').displayName('§oМульти Благородный Газ')
+    event.create('chemlib:all_noble_gases_element').displayName('§oМульти благородный газ')
         .tooltip('§bМульти Хим. номер: (M206)')
         .tooltip('§7Все благородные газы в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_lanthanides_element').displayName('§oМульти Лантанид')
+    event.create('chemlib:all_lanthanides_element').displayName('§oМульти лантанид')
         .tooltip('§bМульти Хим. номер: (M960)')
         .tooltip('§7Все лантаниды в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_actinides_element').displayName('§oМульти Актинид')
+    event.create('chemlib:all_actinides_element').displayName('§oМульти актинид')
         .tooltip('§bМульти Хим. номер: (M1440)')
         .tooltip('§7Все актиниды в одном!')
         .group('chemlib.elements');
-    event.create('chemlib:all_radioactive_element').displayName('§oМульти Радиоактивный Элемент')
+    event.create('chemlib:all_radioactive_element').displayName('§oМульти радиоактивный элемент')
         .tooltip('§bМульти Хим. номер: (M3639)')
         .tooltip('§7Все радиоактивные элементы в одном!')
         .group('chemlib.elements');
 
     // other - chemlib (for stage 6)
-    event.create('chemlib:gribony_catalyst').displayName('§4Грибониевый Катализатор');  
+    event.create('chemlib:gribony_catalyst').displayName('§4Грибониевый катализатор');  
     event.create('chemlib:infinity_gribony_ingot').displayName('§4§lБесконечный Грибониевый слиток');  
     event.create('chemlib:time_ingot').displayName('§e§lСлиток Времени');  
-    event.create('chemlib:infinity_neutronium_ingot').displayName('§b§lБесконечный Нейтрониевый слиток');  
+    event.create('chemlib:infinity_neutronium_ingot').displayName('§b§lБесконечный нейтрониевый слиток');  
 
     // biggerreactors + ad_astra
-    event.create('biggerreactors:reinforced_ludicrite_ingot').displayName('Усиленный Лудикритовый слиток');   
-    event.create('ad_astra:protasteel_ingot').displayName('Прота-Стальной слиток');
+    event.create('biggerreactors:reinforced_ludicrite_ingot').displayName('Усиленный лудикритовый слиток');   
+    event.create('ad_astra:protasteel_ingot').displayName('Прота-стальной слиток');
 
     // items used throughout the gameplay (stage: 1, 2 ... 7, end game)
     // create
@@ -190,18 +190,18 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:astral_ingot').displayName('§dАстральный слиток');  
     event.create('gribtweaks:chunk_of_etherium').displayName('Кусочек Эфира');  
     event.create('gribtweaks:tin_lead_bronze_alloy').displayName('Баббит'); 
-    event.create('gribtweaks:endrium_uranium_iridium_alloy').displayName('Неадекватный сплав'); 
+    event.create('gribtweaks:endrium_uranium_iridium_alloy').displayName('Нео-сплав'); 
     event.create('gribtweaks:copper_aluminium_gold_alloy').displayName('Северное золото'); 
     event.create('gribtweaks:super_alloy').displayName('Супер-сплав'); 
     event.create('gribtweaks:advanced_processor_press').displayName('Улучшенный пресс для высекателя'); 
     event.create('gribtweaks:printed_babbitt_alloy_processor').displayName('Печатная баббитовая схема'); 
     event.create('gribtweaks:printed_super_alloy_processor').displayName('Печатная супер-схема'); 
     event.create('gribtweaks:printed_nordic_alloy_processor').displayName('Печатная схема из северного золота'); 
-    event.create('gribtweaks:printed_inadequate_alloy_processor').displayName('Печатная неадекватная схема'); 
+    event.create('gribtweaks:printed_inadequate_alloy_processor').displayName('Печатная нео-схема'); 
     event.create('gribtweaks:babbitt_alloy_processor').displayName('Баббитовый процессор'); 
     event.create('gribtweaks:super_alloy_processor').displayName('Супер-процессор'); 
     event.create('gribtweaks:nordic_alloy_processor').displayName('Процессор из северного золота'); 
-    event.create('gribtweaks:inadequate_alloy_processor').displayName('Неадекватный процессор'); 
+    event.create('gribtweaks:inadequate_alloy_processor').displayName('Нео-процессор'); 
     event.create('gribtweaks:photoniy').displayName('§1● §9Фотон §1●'); 
     event.create('gribtweaks:photoniy_ingot').displayName('§1● §9Фотонный слиток §1●'); 
     event.create('gribtweaks:spectral_circuit').displayName('Спектральная электросхема'); 
@@ -248,19 +248,24 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:rune_night').displayName('Руна ночи');  
     event.create('gribtweaks:rune_sun').displayName('Руна Солнца');  
     // end game
-    event.create('gribtweaks:infinity_catalyst_pile').displayName('§dПылинка Катализатора Бесконечности');  
+    event.create('gribtweaks:infinity_catalyst_pile').displayName('§dПылинка катализатора Бесконечности');  
     event.create('gribtweaks:ultimate_ingot').displayName('§bМаксимальный слиток');  
     event.create('gribtweaks:ultimate_nugget').displayName('§bМаксимальный кусочек'); 
-    event.create('gribtweaks:infinity_antimatter').displayName('§cБесконечная Антиматерия'); 
+    event.create('gribtweaks:infinity_antimatter').displayName('§cБесконечная антиматерия'); 
     event.create('gribtweaks:infinity_liquid').displayName('§cБесконечная жидкость'); 
     event.create('gribtweaks:infinity_component').displayName('§cБесконечный компонент'); 
     event.create('gribtweaks:advanced_infinity_component').displayName('§cПродвинутый Бесконечный компонент'); 
     event.create('gribtweaks:ultimate_component').displayName('§bМаксимальный компонент'); 
-    event.create('gribtweaks:advanced_ultimate_component').displayName('§bПродвинутый Максимальный компонент'); 
+    event.create('gribtweaks:advanced_ultimate_component').displayName('§bПродвинутый максимальный компонент'); 
     event.create('gribtweaks:ultimate_component_base').displayName('§bМаксимальная основа для компонента'); 
     event.create('gribtweaks:gribony_component').displayName('§4§lГрибониевый компонент'); 
     event.create('gribtweaks:advanced_gribony_component').displayName('§4§lПродвинутый Грибониевый компонент'); 
     
+    event.create('gribtweaks:combined_jelly').displayName('§bКомбинированное желе');
+    event.create('gribtweaks:neutronium_catalyst').displayName('§0◂ §cНейтронный катализатор §0▸');
+    event.create('gribtweaks:upgraded_photovoltaic_cell').displayName('§bМодифицированный фотоэлектрический элемент');
+    event.create('gribtweaks:energium_dust').displayName('Энергетическая пыль');
+
     // food
     event.create('gribtweaks:quantum_burger').displayName('Квантовый бургер').food(food => {
 		food

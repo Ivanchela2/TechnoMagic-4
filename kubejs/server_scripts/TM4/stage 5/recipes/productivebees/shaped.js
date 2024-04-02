@@ -12,24 +12,6 @@ ServerEvents.recipes(event => {
             id: `${prefix}beehive`
         },
 		{
-            output: 'gribtweaks:compressed_fiery_block',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'twilightforest:fiery_ingot',
-                B: 'twilightforest:fiery_block'
-            },
-            id: `${prefix}compressed_fiery_block`
-        },
-		{
-            output: 'gribtweaks:compressed_knightmetal_block',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'twilightforest:knightmetal_ingot',
-                B: 'twilightforest:knightmetal_block'
-            },
-            id: `${prefix}compressed_knightmetal_block`
-        },
-		{
             output: 'gribtweaks:comb_infinity',
             pattern: ['AAA', 'AAA', 'AAA'],
             key: {

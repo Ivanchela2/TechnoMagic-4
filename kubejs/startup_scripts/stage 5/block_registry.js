@@ -9,7 +9,7 @@ StartupEvents.registry('block', event => {
   
     event.create('gribtweaks:comb_neutronium')
     .hardness(0.6)
-    .displayName('Блок Нейтроных сот') 
+    .displayName('Блок нейтроных сот') 
     .tagBlock('forge:storage_blocks') 
     .tagBlock('forge:storage_blocks/honeycombs')
     .requiresTool(false)

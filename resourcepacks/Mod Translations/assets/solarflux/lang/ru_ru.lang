@@ -1,4 +1,3 @@
-﻿
 itemGroup.solarflux=Solar Flux [Reborn]
 
 block.solarflux.sp_1=Солнечная панель I
@@ -42,7 +41,7 @@ info.solarflux.hold.for.info=Удерживайте %s для просмотра
 info.solarflux.shift=Shift
 info.solarflux.maximum=Максимум
 info.solarflux.contentretained=Контент сохранен
-info.solarflux.resetcontent=Put into crafting to reset contents
+info.solarflux.resetcontent=Поместите в крафт, чтобы сбросить контент
 info.solarflux.decreasingReturnsToScale=Decreasing returns to scale
 info.solarflux.constantReturnsToScale=Constant returns to scale
 info.solarflux.increasingReturnsToScale=Increasing returns to scale
@@ -53,8 +52,8 @@ info.solarflux.traversal_upgrade=Распределяет энергию под�
 info.solarflux.transfer_rate_upgrade=Увеличивают скорость передачи на %.2f%%.
 info.solarflux.capacity_upgrade=Увеличивают внутреннюю ёмкость на %.2f%%.
 info.solarflux.furnace_upgrade=Накапливает энергию для нагрева ванильных печей.
-info.solarflux.dispersive_upgrade=Disperses energy to nearby players in the %d block range.
-info.solarflux.block_charging_upgrade=Wirelessly transmits energy to a specified block in the %d range.
+info.solarflux.dispersive_upgrade=Распределяет энергию ближайшим игрокам в радиусе %d блоков.
+info.solarflux.block_charging_upgrade=Передает энергию к конкретному блоку в радиусе %d блоков.
 info.solarflux.craftitem=Ингредиент в рецептах.
 
 ## AVARITIA COMPATIBILITY ##
@@ -67,16 +66,16 @@ block.solarflux.sp_de.draconic=Солнечная панель Дракона
 block.solarflux.sp_de.chaotic=Солнечная панель Хаоса
 
 ## TWILIGHT FOREST ##
-block.solarflux.sp_tf.carminite=Carminite Solar Panel
-block.solarflux.sp_tf.fiery=Fiery Solar Panel
+block.solarflux.sp_tf.carminite=Карминитовая солнечная панель
+block.solarflux.sp_tf.fiery=Огненная солнечная панель
 
-item.solarflux.twilightforest.twilight_cell_1=Twilight Cell I
-item.solarflux.twilightforest.twilight_cell_2=Twilight Cell II
-item.solarflux.twilightforest.twilight_upgrade=Twi-Light Upgrade
+item.solarflux.twilightforest.twilight_cell_1=Сумеречная ячейка I
+item.solarflux.twilightforest.twilight_cell_2=Сумеречная ячейка II
+item.solarflux.twilightforest.twilight_upgrade=Улучшение: Сумеречный
 
-info.solarflux.twilightforest.twilight_upgrade=Slightly increases light gathered by Solar Panel in The Twilight Forest.
+info.solarflux.twilightforest.twilight_upgrade=Немного увеличивает количество света, получаемого солнечной панелью в Сумеречном лесу.
 
 ## APPLIED ENERGISTICS ##
-item.solarflux.ae2.energy_upgrade=AEU Energy Upgrade
+item.solarflux.ae2.energy_upgrade=Улучшение: AEU Энергия
 
-info.solarflux.ae2.energy_upgrade=Allows connecting Solar Panel directly into ME Grid.
+info.solarflux.ae2.energy_upgrade=Позволяет подлючать солнечную панель к ME системе.

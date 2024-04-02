@@ -7,7 +7,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Mechanical Solar Panel")
-			.put("ru_ru", "Механическая Солнечная панель")
+			.put("ru_ru", "Механическая солнечная панель")
 			.build();
 
 	panel().name("technical")
@@ -18,7 +18,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Technical Solar Panel")
-			.put("ru_ru", "Техническая Солнечная панель")
+			.put("ru_ru", "Техническая солнечная панель")
 			.build();
 
 	panel().name("alchemical")
@@ -29,7 +29,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Alchemical Solar Panel")
-			.put("ru_ru", "Алхимическая Солнечная панель")
+			.put("ru_ru", "Алхимическая солнечная панель")
 			.build();
 
 	panel().name("nature")
@@ -40,7 +40,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Nature Solar Panel")
-			.put("ru_ru", "Природная Солнечная панель")
+			.put("ru_ru", "Природная солнечная панель")
 			.build();
 
 	panel().name("bee")
@@ -51,7 +51,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Bee Solar Panel")
-			.put("ru_ru", "Пчелинная Солнечная панель")
+			.put("ru_ru", "Пчелинная солнечная панель")
 			.build();
 
 	panel().name("witchery")
@@ -62,7 +62,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Witchery Solar Panel")
-			.put("ru_ru", "Колдовская Солнечная панель")
+			.put("ru_ru", "Колдовская солнечная панель")
 			.build();
 
 	panel().name("occult")
@@ -73,7 +73,7 @@ function init() {
 	.buildAndRegister()
 		.langBuilder()
 			.put("en_us", "Occult Solar Panel")
-			.put("ru_ru", "Оккультная Солнечная панель")
+			.put("ru_ru", "Оккультная солнечная панель")
 			.build();
 
 	panel().name("gaia")
@@ -87,14 +87,14 @@ function init() {
 			.put("ru_ru", "Солнечная панель Гайи")
 			.build();
 
-	panel().name("mushroom_infinity")
+	panel().name("gribony_infinity")
 		.height(8 / 16.0)
 		.generation(33554432 * 8)
 		.capacity(262144000000 * 4)
 		.transfer(65536000 * 8)
 	.buildAndRegister()
 		.langBuilder()
-			.put("en_us", "§cMushroom Infinity Solar Panel")
-			.put("ru_ru", "§cГрибная Бесконечная Солнечная панель")
+			.put("en_us", "§cGribony Infinity Solar Panel")
+			.put("ru_ru", "§cБесконечная Грибониевая солнечная панель")
 			.build();
 }
