@@ -13,6 +13,7 @@ ServerEvents.recipes((event) => {
         { output: 'sorcerium:netherite_healing_wand' },
         { output: 'sorcerium:molten_crystal' },
         { output: 'sorcerium:diamond_healing_wand' },
-        { output: 'sorcerium:magic_sphere' }
+        { output: 'sorcerium:magic_sphere' },
+        { output: 'sorcerium:mana_pearl' }
     ]);
 });

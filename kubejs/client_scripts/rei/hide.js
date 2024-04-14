@@ -7,4 +7,8 @@ JEIEvents.hideItems(e => {
 
     e.hide("hexerei:animal_fat")
     e.hide("hexerei:book_of_shadows")
+
+    e.hide("farmersdelight:rope")
+
+    e.hide("pigsteel:pigsteel_block")
 })

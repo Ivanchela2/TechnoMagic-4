@@ -72,9 +72,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 2L
-				id: "3218D2068CC9F758"
-				item: "twilightforest:liveroot_block"
+				count: 4L
+				id: "3154BAAC1420D882"
+				item: "twilightforest:liveroot"
 				type: "item"
 			}]
 			title: "Проросший"
@@ -321,7 +321,7 @@
 		}
 		{
 			dependencies: ["12E9E1E0CB224E79"]
-			description: ["Дальше - найдите лабиринт (на карте отмечет цветом), пройдите его и убейте Гриботавра. Босс легкий и проблем справиться с ним не будет."]
+			description: ["Дальше - найдите лабиринт (на карте отмечен тёмно-зеленым цветом), пройдите его и убейте Гриботавра. Босс легкий и проблем справиться с ним не будет."]
 			hide: true
 			id: "326DCE45C97EDE69"
 			rewards: [
@@ -640,10 +640,9 @@
 			y: 0.0d
 		}
 		{
-			hide: false
+			dependencies: ["32C381BB5AECA014"]
 			hide_dependency_lines: true
 			id: "05FE65916E186713"
-			invisible: true
 			rewards: [
 				{
 					count: 64
@@ -744,15 +743,14 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Собери все цвета шерсти для Барана"
 			tasks: [{
 				id: "761D4B54B75A8976"
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			title: "Баран"
-			x: -8.0d
-			y: 0.5d
+			title: "Борзый"
+			x: -5.0d
+			y: -1.5d
 		}
 	]
 	title: "&4The Twilight Forest"

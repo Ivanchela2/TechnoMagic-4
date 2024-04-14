@@ -328,8 +328,8 @@
 				type: "item"
 			}]
 			title: "Манипулятор"
-			x: -4.5d
-			y: 5.0d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44B196BE6006F132"]
@@ -351,8 +351,8 @@
 				type: "item"
 			}]
 			title: "Необыкновенная флейта"
-			x: -3.5d
-			y: 5.0d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1D2A03062704637C"]
@@ -665,7 +665,7 @@
 			}]
 			title: "Примитивный конвейер"
 			x: -3.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["763458E2FE1B8A95"]
@@ -965,7 +965,12 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["66E47D358CC607F9"]
+			dependencies: [
+				"313C9E88626C0419"
+				"6E1EDED68350DB4E"
+				"38FF01FE1835B023"
+				"2E6BFB9BF644C598"
+			]
 			description: ["Используется для проведения разных ритуалов. (см. Размышления)"]
 			hide: true
 			id: "4F943CCC0D6D0E87"
@@ -1006,11 +1011,11 @@
 				}
 			]
 			title: "Разноцветные мелки"
-			x: -3.5d
+			x: -1.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["4F943CCC0D6D0E87"]
+			dependencies: ["66E47D358CC607F9"]
 			id: "313C9E88626C0419"
 			subtitle: "Третья книга, которая используется в призывах и ритуалах."
 			tasks: [{
@@ -1018,11 +1023,11 @@
 				item: "occultism:book_of_binding_marid"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["4F943CCC0D6D0E87"]
+			dependencies: ["66E47D358CC607F9"]
 			id: "6E1EDED68350DB4E"
 			subtitle: "Вторая книга,которую вы используете в призывах и ритуалах."
 			tasks: [{
@@ -1030,11 +1035,11 @@
 				item: "occultism:book_of_binding_afrit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["4F943CCC0D6D0E87"]
+			dependencies: ["66E47D358CC607F9"]
 			id: "38FF01FE1835B023"
 			subtitle: "Первая книга, которая используется в призывах и ритуалах."
 			tasks: [{
@@ -1042,7 +1047,7 @@
 				item: "occultism:book_of_binding_djinni"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -1099,7 +1104,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4F943CCC0D6D0E87"]
+			dependencies: ["66E47D358CC607F9"]
 			id: "2E6BFB9BF644C598"
 			subtitle: "Четвертая книга, которая используется в призывах и ритуалах."
 			tasks: [{
@@ -1107,8 +1112,25 @@
 				item: "occultism:book_of_binding_foliot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["426DCFB3F028EB08"]
+			id: "1911A831AA9E5A96"
+			tasks: [{
+				id: "4C5C3F454F715D4B"
+				item: {
+					Count: 1b
+					id: "hexerei:moon_dust_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 	title: "&5Стадия: 3"

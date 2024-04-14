@@ -1,6 +1,8 @@
 ServerEvents.tags('item', event => {
     event.add('forge:tallow', 'delightful:animal_fat')
-    
+    event.add('forge:feathers', 'totemic:eagle_feather')
+    event.add('forge:storage_blocks/titanium', 'echoing_expanse:titanium_block')
+
     event.get('gribtweaks:bee_machine_flower')
     .add([
         'ftbic:macerator',
@@ -8,7 +10,6 @@ ServerEvents.tags('item', event => {
         'ftbic:extruder',
         'ftbic:compressor'
     ])
-    event.add('forge:storage_blocks/titanium', 'echoing_expanse:titanium_block')
 
     event.get('gribtweaks:ametrine_blocks')
     .add([

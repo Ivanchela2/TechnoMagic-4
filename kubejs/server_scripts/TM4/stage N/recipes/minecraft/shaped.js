@@ -52,6 +52,55 @@ ServerEvents.recipes((event) => {
           },
           id: `${prefix}cauldron`
         },
+        {
+          output: 'minecraft:wooden_sword',
+          pattern: ['A','A','B'],
+          key: {
+              A: '#minecraft:planks',
+              B: 'gribtweaks:iron_stick'
+          },
+          id: `${prefix}wooden_sword`
+        },
+        {
+          output: 'minecraft:wooden_hoe',
+          pattern: [' AA',' C ',' B '],
+          key: {
+              A: '#minecraft:planks',
+              B: 'gribtweaks:iron_stick',
+              C: 'create:andesite_alloy'
+          },
+          id: `${prefix}wooden_hoe`
+        },
+        {
+          output: 'minecraft:wooden_axe',
+          pattern: [' AA',' CA',' B '],
+          key: {
+              A: '#minecraft:planks',
+              B: 'gribtweaks:iron_stick',
+              C: 'create:andesite_alloy'
+          },
+          id: `${prefix}wooden_axe`
+        },
+        {
+          output: 'minecraft:wooden_pickaxe',
+          pattern: ['AAA',' C ',' B '],
+          key: {
+              A: '#minecraft:planks',
+              B: 'gribtweaks:iron_stick',
+              C: 'create:andesite_alloy'
+          },
+          id: `${prefix}wooden_pickaxe`
+        },
+        {
+          output: 'minecraft:wooden_shovel',
+          pattern: ['A','C','B'],
+          key: {
+              A: '#minecraft:planks',
+              B: 'gribtweaks:iron_stick',
+              C: 'create:andesite_alloy'
+          },
+          id: `${prefix}wooden_shovel`
+        },
   ];
   
   recipes.forEach((recipe) => {

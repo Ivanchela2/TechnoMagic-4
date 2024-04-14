@@ -12,8 +12,18 @@ ServerEvents.recipes(event => {
         { id: 'extendedgears:crafting/crafting/from_small/common/large_shaftless_warped_cogwheel' },
         { id: 'extendedgears:crafting/crafting/from_small/common/large_shaftless_crimson_cogwheel' },
         { id: 'extendedgears:crafting/crafting/from_small/common/large_shaftless_mangrove_cogwheel' },
+        { id: 'extendedgears:crafting/cogwheel' },
+        { id: 'extendedgears:crafting/large_cogwheel' },
 
         { output: 'create:andesite_alloy' },
         { output: 'create:shaft' },
+        { output: 'create:water_wheel' },
+        { output: 'create:nozzle' },
+        { output: 'create:goggles' },
+        { output: 'create:empty_blaze_burner' },
+        { output: 'create:basin' },
+        { output: 'create:chute' },
+        { output: 'create:belt_connector' },
+        { output: 'createbigcannons:cast_iron_ingot' }
     ])
 })

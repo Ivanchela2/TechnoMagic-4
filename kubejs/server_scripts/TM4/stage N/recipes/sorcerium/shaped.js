@@ -215,8 +215,8 @@ ServerEvents.recipes((event) => {
               B: 'minecraft:blaze_rod',
               C: 'sorcerium:mana_crystal'
             },
-            id: `${prefix}mana_pearl`
-          }
+            id: `${prefix}molten_crystal`
+          },
     ];
     
     recipes.forEach((recipe) => {

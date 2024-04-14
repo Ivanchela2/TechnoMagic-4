@@ -180,7 +180,7 @@ ServerEvents.recipes((event) => {
       },
       id: `${prefix}skillet`
     },
-    { // Кухонный котёл
+    {
       output: 'farmersdelight:cooking_pot', 
       pattern: [
         'AGA', 
@@ -191,7 +191,7 @@ ServerEvents.recipes((event) => {
         A: 'minecraft:brick',
         B: 'createbigcannons:cast_iron_ingot',
         V: 'minecraft:water_bucket',
-        G: 'minecraft:wooden_shovel'
+        G: 'notreepunching:flint_shovel'
       },
       id: `${prefix}cooking_pot`
     },

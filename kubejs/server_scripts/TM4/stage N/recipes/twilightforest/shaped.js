@@ -19,6 +19,16 @@ ServerEvents.recipes((event) => {
           },
           id: `${prefix}compressed_knightmetal_block`
       },
+      {
+        output: 'twilightforest:ice_sword',
+        pattern: ['C', 'B', 'A'],
+        key: {
+            A: '#forge:rods/wooden',
+            B: 'minecraft:packed_ice',
+            C: 'minecraft:ice'
+        },
+        id: `${prefix}ice_sword`
+    },
   ];
   
   recipes.forEach((recipe) => {
