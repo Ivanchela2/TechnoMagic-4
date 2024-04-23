@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'create:brass_sheet',
                 1: 'ftbic:graphene',
-                B: 'create:iron_sheet',
+                B: 'ftbic:iron_sheet',
                 C: 'ftbic:machine_block',
                 D: 'ftbic:energy_crystal',
                 E: 'createaddition:modular_accumulator',
@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
             ],
             key: { 
                 1: '#balm:stones',
-                2: 'create:iron_sheet',
+                2: 'ftbic:iron_plate',
                 3: 'ftbic:electronic_circuit',
                 4: 'ftbic:machine_block',
                 5: 'create:millstone'

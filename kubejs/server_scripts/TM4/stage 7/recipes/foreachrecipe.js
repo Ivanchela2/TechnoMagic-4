@@ -3,4 +3,6 @@ ServerEvents.recipes(e => {
         e.shaped(Item.of(r.originalRecipeResult, 2), ['a','b',' '],{a: '#notreepunching:weak_saws', b: r.originalRecipeIngredients}).id(r.getOrCreateId()).damageIngredient('#notreepunching:weak_saws')
         e.shaped(Item.of(r.originalRecipeResult, 4), ['a','b',' '],{a: '#notreepunching:saws', b: r.originalRecipeIngredients}).damageIngredient('#notreepunching:saws')
     })
+
+    e.replaceInput({}, 'create:iron_sheet', 'ftbic:iron_plate');
 })
