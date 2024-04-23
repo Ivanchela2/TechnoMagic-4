@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
             pattern: ['ABA', 'CDC', 'ABA'],
             key: {
                 A: 'gribtweaks:mechanical_ingot',
-                B: '#extendedgears:small_cogwheel',
+                B: 'create:cogwheel',
                 C: 'ftbic:advanced_circuit',
                 D: 'create:precision_mechanism'
             },
