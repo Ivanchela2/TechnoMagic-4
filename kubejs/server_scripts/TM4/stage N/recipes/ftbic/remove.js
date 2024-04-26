@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
 		{ output: 'ftbic:overclocker_upgrade' },
 		{ output: 'ftbic:energy_storage_upgrade' },
 		{ output: 'ftbic:transformer_upgrade' },
-		{ output: 'ftbic:ejector_upgrade' }
+		{ output: 'ftbic:ejector_upgrade' },
+		{ output: 'ftbic:industrial_grade_metal' },
     ])
 })

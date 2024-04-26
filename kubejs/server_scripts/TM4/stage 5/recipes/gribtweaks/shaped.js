@@ -47,12 +47,12 @@ ServerEvents.recipes(event => {
             id: `${prefix}astral_block`
         },
         {
-            output: 'gribtweaks:upgrade_base',
+            output: 'ftbic:upgrade_template',
             pattern: ['AAA', 'AAA', 'AAA'],
             key: {
                 A: 'ftbic:industrial_grade_metal'
             },
-            id: `${prefix}upgrade_base`
+            id: `${prefix}upgrade_template`
         },
         {
             output: 'gribtweaks:spectral_circuit',

@@ -1,0 +1,70 @@
+# Grib Tweaks mod
+
+{
+	Energy: {
+		# Cv Transfer Rate (how much energy is transferred per tick)
+		# Default: 1.7976931348623157E308
+		# Range: 0.0 ~ Infinity
+		"Cv Transfer Rate": 1.7976931348623157E308d
+		
+		# Removes the limit from the IV transfer rate
+		# Default: true
+		"Kill IV transfer rate limit?": true
+		
+		# Sv Transfer Rate (how much energy is transferred per tick)
+		# Default: 163840.0
+		# Range: 0.0 ~ Infinity
+		"Sv Transfer Rate": 163840.0d
+	}
+	Machines: {
+		# Panel
+		# Default: 3.5
+		# Range: 1.0 ~ 1000.0
+		"EV Panel capacity bonus": 3.5d
+		
+		# Panel
+		# Default: 2.5
+		# Range: 1.0 ~ 1000.0
+		"HV Panel capacity bonus": 2.5d
+		
+		# Panel
+		# Default: 5.0
+		# Range: 1.0 ~ 1000.0
+		"IV Panel capacity bonus": 5.0d
+		
+		# Panel
+		# Default: 1.2
+		# Range: 1.0 ~ 1000.0
+		"LV Panel capacity bonus": 1.2d
+		
+		# Molecular transformer
+		# Default: 0.92
+		# Range: 0.01 ~ 1.0
+		"Molecular Transformer energy discount": 0.92d
+		
+		# Molecular transformer
+		# Default: 1
+		# Range: 1 ~ 63
+		"Molecular Transformer output bonus": 1
+		
+		# Panel
+		# Default: 1.7
+		# Range: 1.0 ~ 1000.0
+		"MV Panel capacity bonus": 1.7d
+		
+		# Ore Generator
+		# Default: 1
+		# Range: 1 ~ 63
+		"Ore Generator output bonus": 1
+		
+		# Ore Generator
+		# Default: 64
+		# Range: 1 ~ 64
+		"Ore Generator output stack": 64
+		
+		# Battery box
+		# Default: 69.0
+		# Range: 0.0 ~ 1337.0
+		"Upgrade battery box capacity": 69.0d
+	}
+}

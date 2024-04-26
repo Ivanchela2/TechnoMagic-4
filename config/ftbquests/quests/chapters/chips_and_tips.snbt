@@ -170,7 +170,7 @@
 		}
 		{
 			dependencies: ["686DB5E9235DA971"]
-			description: ["Используйте &6медный горшок&r или &6кухонный котёл&r, для более удобного приготовдения еды."]
+			description: ["Используйте &6кухонный котёл&r, для более удобного приготовдения еды."]
 			hide: true
 			hide_dependency_lines: true
 			id: "5B86BB9AAB6CE139"
@@ -180,18 +180,11 @@
 				xp_levels: 5
 			}]
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "0AA6872466F923CF"
-					item: "miners_delight:copper_pot"
-					type: "item"
-				}
-				{
-					id: "14AA5EC3A58EC81C"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "14AA5EC3A58EC81C"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
 			title: "Готовка"
 			x: -2.5d
 			y: 0.0d

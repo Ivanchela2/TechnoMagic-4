@@ -577,7 +577,6 @@
 			y: -6.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["2162F48918D56A9C"]
 			description: ["Сердце, благодаря которому, стражи будут нейтральны к вам"]
 			icon: "enigmaticlegacy:guardian_heart"

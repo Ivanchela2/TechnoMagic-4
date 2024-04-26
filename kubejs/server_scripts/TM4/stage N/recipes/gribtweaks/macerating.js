@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const prefix = 'tm4:/productivebees/macerating/';
+    const prefix = 'gribtweaks:macerating/';
     event.custom({
         "type": "ftbic:macerating",
         "inputItems": [
