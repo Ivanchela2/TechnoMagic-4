@@ -701,6 +701,60 @@
 			x: 11.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["72CEB74B0928C7C3"]
+			id: "05EED6B5A54A6D57"
+			subtitle: "Первая броня!"
+			tasks: [
+				{
+					id: "165979B426CCEDBC"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25319273F7C2E505"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D63B03E25062A7"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03761619C035347D"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Земляной сет"
+			x: 3.5d
+			y: 3.5d
+		}
 	]
 	title: "&5Стадия: 1"
 }

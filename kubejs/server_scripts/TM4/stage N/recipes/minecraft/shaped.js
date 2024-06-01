@@ -101,6 +101,62 @@ ServerEvents.recipes((event) => {
           },
           id: `${prefix}wooden_shovel`
         },
+
+
+
+
+        {
+          output: 'minecraft:iron_sword',
+          pattern: ['D','D','A'],
+          key: {
+              A: 'gribtweaks:iron_stick',
+              D: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}iron_sword`
+        },
+        {
+          output: 'minecraft:iron_hoe',
+          pattern: [' CD',' B ',' A '],
+          key: {
+              A: 'gribtweaks:iron_stick',
+              B: '#forge:rods/wooden',
+              C: 'minecraft:flint',
+              D: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}iron_hoe`
+        },
+        {
+          output: 'minecraft:iron_axe',
+          pattern: [' CD',' BD',' A '],
+          key: {
+              A: 'gribtweaks:iron_stick',
+              B: '#forge:rods/wooden',
+              C: 'minecraft:flint',
+              D: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}iron_axe`
+        },
+        {
+          output: 'minecraft:iron_pickaxe',
+          pattern: ['DCD',' B ',' A '],
+          key: {
+              A: 'gribtweaks:iron_stick',
+              B: '#forge:rods/wooden',
+              C: 'minecraft:flint',
+              D: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}iron_pickaxe`
+        },
+        {
+          output: 'minecraft:iron_shovel',
+          pattern: ['D','B','A'],
+          key: {
+              A: 'gribtweaks:iron_stick',
+              B: '#forge:rods/wooden',
+              D: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}iron_shovel`
+        },
   ];
   
   recipes.forEach((recipe) => {
