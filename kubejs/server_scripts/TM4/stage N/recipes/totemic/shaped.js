@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
               'CAC'
               ],
             key: {
-              A: '#forge:plates/iron', 
+              A: 'iron_ingot', 
               B: '#createbigcannons:block_steel',
               C: 'minecraft:iron_nugget'
             },

@@ -19,21 +19,6 @@ ServerEvents.recipes(event => {
             id: `${prefix}ash_block_from_dusts`
         },
         {
-            output: 'gribtweaks:compressed_ash_block',
-            inputs: [
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block',
-                'gribtweaks:ash_block'
-            ],
-            id: `${prefix}compressed_ash_block`
-        },
-        {
             output: '9x supplementaries:ash',
             inputs: [ 'gribtweaks:ash_block' ],
             id: `${prefix}ash_of_block`
