@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1709911948780
+  last_edited_time = 1717698115294
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:771f3703-e32c-464a-9d86-4b85ba12d3ea-1709911948780] = [groups:][instances:]
+  [loading_requirement_container_meta:0111dc62-18b4-4634-a56a-2b0cd53b71b8-1717698095783] = [groups:][instances:]
 }
 
 menu_background {
@@ -32,7 +32,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]resources/grib_menu/resources_menu/loading_logo.png
+  source = [source:local]/config/fancymenu/assets/grib_menu/resources_menu/loading_logo.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -71,10 +71,10 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 0
-  y = 0
-  width = 0
-  height = 0
+  x = 155
+  y = 124
+  width = 330
+  height = 82
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -103,10 +103,10 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 0
-  y = 0
-  width = 0
-  height = 0
+  x = 155
+  y = 270
+  width = 330
+  height = 10
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
