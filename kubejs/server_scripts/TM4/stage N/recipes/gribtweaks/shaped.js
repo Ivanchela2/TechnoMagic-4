@@ -36,7 +36,15 @@ ServerEvents.recipes((event) => {
               B: 'minecraft:iron_ingot'
             },
             id: `${prefix}iron_stick`
-          },  
+          },
+          {
+            output: 'gribtweaks:compressed_ash_block',
+            pattern: ['aa','aa','  '],
+            key: {
+                a: 'gribtweaks:ash_block'
+            },
+            id: `${prefix}compressed_ash_block`
+        },  
     ];
     
     recipes.forEach((recipe) => {

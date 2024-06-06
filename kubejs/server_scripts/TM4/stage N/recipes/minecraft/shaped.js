@@ -24,19 +24,11 @@ ServerEvents.recipes((event) => {
           id: `${prefix}campfire`
         },
         {
-          output: 'minecraft:shears',
-          pattern: [' A','A '],
-          key: {
-              A: '#forge:plates/iron'
-          },
-          id: `${prefix}shears`
-        },
-        {
           output: 'minecraft:furnace',
           pattern: ['BBB','BCB','AAA'],
           key: {
               A: 'minecraft:stone',
-              B: 'quark:sturdy_stone',
+              B: 'cobblestone',
               C: 'minecraft:campfire'
           },
           id: `${prefix}furnace`

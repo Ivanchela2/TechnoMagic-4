@@ -2,7 +2,6 @@ ServerEvents.recipes((event) => {
     event.remove([
         { output: 'minecraft:crafting_table' },
         { output: 'minecraft:furnace' },
-        { output: 'minecraft:shears' },
         { output: 'minecraft:campfire' },
         { output: 'minecraft:cauldron' },
 
