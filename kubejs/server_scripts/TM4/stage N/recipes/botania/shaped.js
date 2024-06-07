@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/shaped/';
+    const prefix = 'gribtweaks:botania/shaped/';
     e.shaped('botania:mana_pylon', ['DBD','ACA','DBD'], {A: 'forbidden_arcanus:deorum_ingot', B: 'botania:manasteel_block', C: 'botania:mana_diamond', D: 'gribtweaks:polished_mana_quartz'}).id(`${prefix}mana_pylon`)
     e.shaped('botania:apothecary_default', ['ABA','CDC','DDD'], {A: 'occultism:otherstone_slab', B: '#botania:petals', C: 'ad_astra:desh_ingot', D: 'occultism:otherstone'}).id(`${prefix}petal_apothecary_default`)
     e.shaped('botania:natura_pylon', [' A ','ABA',' C '], {A: 'botania:terrasteel_ingot', B: 'botania:mana_pylon', C: 'create:refined_radiance'}).id(`${prefix}natura_pylon`)

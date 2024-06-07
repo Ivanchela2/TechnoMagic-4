@@ -677,7 +677,7 @@
 				item: "minecraft:rabbit_stew"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -1264,22 +1264,6 @@
 			}]
 			x: 3.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["19575493105E743A"]
-			id: "67FAC48EFF76197F"
-			rewards: [{
-				id: "63BD442EC680B827"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "49691F57AB61C189"
-				item: "miners_delight:rabbit_stew_cup"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
 		}
 		{
 			dependencies: ["71ECBCDEA7C7DDEF"]

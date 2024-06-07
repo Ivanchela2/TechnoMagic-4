@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
                 B: Item.of('twilightforest:fiery_blood').toJson(),
                 C: Item.of('gribtweaks:compressed_fiery_block').toJson(),
                 E: Item.of('gribtweaks:ultimate_upgraded_netherite_eye').toJson(),
-                H: Item.of('scalinghealth:heart_crystal').toJson()
+                H: Item.of('gribtweaks:fire_fragment').toJson()
             },
             output: 'gribtweaks:death_block',
             id: `${prefix}death_block`
@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
                 B: Item.of('gribtweaks:ametrine_block').toJson(),
                 H: Item.of('enigmaticlegacy:abyssal_heart').toJson(),
                 O: Item.of('gribtweaks:ametrine_ore_crystal').toJson(),
-                W: Item.of('hexerei:witch_sheet').toJson()
+                W: Item.of('gribtweaks:witch_sheet').toJson()
             },
             output: 'gribtweaks:anxiety_block',
             id: `${prefix}anxiety_block`

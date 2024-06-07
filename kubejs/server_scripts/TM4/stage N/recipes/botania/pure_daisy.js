@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/pure_daisy/';
+    const prefix = 'gribtweaks:botania/pure_daisy/';
     const recipes = [
         {
             input: {type: 'block', block: 'ad_astra:moon_stone'},

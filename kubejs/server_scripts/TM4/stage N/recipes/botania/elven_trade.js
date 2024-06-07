@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/elven_trade/';
+    const prefix = 'gribtweaks:botania/elven_trade/';
     const recipes = [
         {
             ingredients: [{item: 'ad_astra:ostrum_ingot'}, {item: 'ad_astra:ostrum_ingot'}],

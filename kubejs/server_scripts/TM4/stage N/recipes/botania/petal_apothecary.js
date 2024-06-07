@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/petal_apothecary/';
+    const prefix = 'gribtweaks:botania/petal_apothecary/';
     const recipes = [
         {
             ingredients: [{tag: "botania:petals/white",},{tag: "botania:petals/white",},

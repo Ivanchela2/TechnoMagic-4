@@ -779,41 +779,6 @@
 		{
 			dependencies: ["713F520B1F154531"]
 			id: "46A9AD54EB5E1C8F"
-			rewards: [
-				{
-					id: "4526C938D5EB6A6F"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:spiderlatch_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D45DC46060396BB"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:phantasm_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "180F3CDF8DD78151"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:phantasm_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -1142,28 +1107,6 @@
 					id: "447C732E74F5C401"
 					table_id: 4461381952137208282L
 					type: "loot"
-				}
-				{
-					id: "75CF30C664C09E48"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:banemask_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6EFF4A5F7B0D3DB5"
-					item: {
-						Count: 1b
-						id: "enemyexpansion:flutterfliers_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
 				}
 				{
 					id: "7855EF8C4C35A623"

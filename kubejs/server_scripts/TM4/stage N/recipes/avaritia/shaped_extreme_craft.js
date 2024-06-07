@@ -3,28 +3,6 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             pattern: [ 
-                '  A B A  ', 
-                ' B     B ', 
-                'A  CCC  A', 
-                '  D   D  ', 
-                'B D E D B', 
-                '  D   D  ', 
-                'A  CCC  A', 
-                ' B     B ', 
-                '  A B A  ' 
-            ],
-            key: {
-                A: Item.of('avaritia:neutron_nugget').toJson(),
-			    B: Item.of('avaritia:neutronium_ingot').toJson(),
-			    C: Item.of('extendedgears:steel_cogwheel').toJson(),
-			    D: Item.of('extendedgears:large_steel_cogwheel').toJson(),
-			    E: Item.of('forbidden_arcanus:dark_nether_star').toJson()
-            },
-            output: 'avaritia:neutronium_gear',
-            id: `${prefix}neutronium_gear`
-        },
-        {
-            pattern: [ 
                 '   AAA   ', 
                 ' AABBBAA ', 
                 ' ABBBBBA ', 
@@ -80,8 +58,8 @@ ServerEvents.recipes(event => {
             key: {
                 A: Item.of('avaritia:neutron_nugget').toJson(),
 			    B: Item.of('avaritia:neutronium_ingot').toJson(),
-			    C: Item.of('extendedgears:steel_cogwheel').toJson(),
-			    D: Item.of('extendedgears:large_steel_cogwheel').toJson(),
+			    C: Item.of('create:cogwheel').toJson(),
+			    D: Item.of('create:large_cogwheel').toJson(),
 			    E: Item.of('forbidden_arcanus:dark_nether_star').toJson()
             },
             output: 'avaritia:neutronium_gear',
@@ -100,9 +78,9 @@ ServerEvents.recipes(event => {
                 'AAADADAAA' 
             ],
             key: {
-                A: Item.of('ad_astra:steel_block').toJson(),
+                A: Item.of('botania:corporea_block').toJson(),
 			    B: Item.of('minecraft:waxed_cut_copper').toJson(),
-			    C: Item.of('amethyst_upgrade:amethyst_gemstone_block').toJson(),
+			    C: Item.of('minecraft:amethyst_block').toJson(),
 			    D: Item.of('avaritia:crystal_matrix_ingot').toJson(),
 			    E: Item.of('avaritia:neutronium_gear' ).toJson()
             },
@@ -124,7 +102,7 @@ ServerEvents.recipes(event => {
             key: {
                 A: Item.of('ad_astra:steel_block').toJson(),
 			    B: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    C: Item.of('amethyst_upgrade:amethyst_gemstone_block').toJson(),
+			    C: Item.of('minecraft:amethyst_block').toJson(),
 			    D: Item.of('ftbic:compressor').toJson(),
 			    E: Item.of('create:mechanical_press').toJson(),
 			    F: Item.of('ad_astra:calorite_plate').toJson(),
@@ -147,7 +125,7 @@ ServerEvents.recipes(event => {
                 'AAADADAAA' 
             ],
             key: {
-                A: Item.of('silentgear:tyrian_steel_block').toJson(),
+                A: Item.of('twilightforest:carminite_block').toJson(),
 			    B: Item.of('arclight:bloodstone_block' ).toJson(),
 			    C: Item.of('ad_astra:calorite_block').toJson(),
 			    D: Item.of('avaritia:crystal_matrix_ingot').toJson(),
@@ -169,7 +147,7 @@ ServerEvents.recipes(event => {
                 ' AAAAAAA ' 
             ],
             key: {
-                A: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:coal\"}}" },
+                A: Item.of('ftbic:graphene' ).toJson(),
 			    B: Item.of('minecraft:coal_block' ).toJson(),
 			    C: Item.of('ftbic:carbon_plate').toJson(),
 			    D: Item.of('createbigcannons:cast_iron_block').toJson()
@@ -179,15 +157,15 @@ ServerEvents.recipes(event => {
         },
         {
             pattern: [ 
-                '  U   I  ', 
+                '1 U 1 I 1', 
                 ' O  7  P ', 
                 'Q A S D Y', 
                 '   FGH   ', 
-                ' JKLZXCV ', 
+                '11KLZXC11', 
                 '   BNM   ', 
-                'W 1 2 3 T', 
+                'W J 2 3 T', 
                 ' 4  6  5 ', 
-                '  E   R  ' 
+                '1 E 1 R 1' 
             ],
             key: {
                 Q: Item.of('naturesaura:token_joy').toJson(),
@@ -206,7 +184,7 @@ ServerEvents.recipes(event => {
 			    X: Item.of('avaritia:record_fragment').toJson(),
 			    B: Item.of('botanicadds:gaiasteel_block').toJson(),
 			    N: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    M: Item.of('amethyst_upgrade:amethyst_gemstone_block').toJson(),
+			    M: Item.of('minecraft:amethyst_block').toJson(),
 			    O: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:amethyst\"}"},
 			    P: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:bronze\"}"},
 			    A: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:calorite\"}"},
@@ -215,8 +193,7 @@ ServerEvents.recipes(event => {
 			    J: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:etherium\"}"},
 			    K: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:experience\"}"},
 			    C: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:fiery_blood\"}"},
-			    V: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:tyrian_steel\"}"},
-			    1: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:gribony\"}"},
+			    1: Item.of('gribtweaks:antimatter_l4').toJson(),
 			    2: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:knight_metal\"}"},
 			    3: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:precision_mechanism\"}"},
 			    4: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:soul_steel\"}"},
@@ -231,39 +208,15 @@ ServerEvents.recipes(event => {
             pattern: [ 
                 '         ', 
                 '         ', 
-                'QWERTYUIO', 
-                'PM1M3M3MV', 
-                'A1M123M3B', 
-                'DM1M1M3MN', 
-                'FGHJKLZXS', 
+                '333333333', 
+                '3M1M1M1M3', 
+                '31M121M13', 
+                '3M1M1M1M3', 
+                '333333333', 
                 '         ', 
                 '         ' 
             ],
             key: {
-                Q: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:titanium\"}}" },
-			    W: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:iridium\"}}" },
-			    E: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:netherite\"}}" },
-			    T: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:obsidian\"}}" },
-			    Y: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:fluix\"}}" },
-			    U: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:amethyst\"}}" },
-			    I: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:withered\"}}" },
-			    R: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:ender\"}}" },
-			    F: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:draconic\"}}" },
-			    G: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:crystalline\"}}" },
-			    H: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:brass\"}}" },
-			    L: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:bronze\"}}" },
-			    Z: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:tea\"}}" },
-			    X: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:magmatic\"}}" },
-			    B: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:glowing\"}}" },
-			    N: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:cobalt\"}}" }, 
-			    O: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:iesnium\"}}" },
-			    P: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:prismarine\"}}" },
-			    A: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:experience\"}}" },
-			    S: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:red_shroom\"}}" },
-			    D: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:calorite\"}}" },
-			    J: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:chocolate\"}}" },
-			    K: { type: "forge:nbt", item: "productivebees:configurable_honeycomb", count: 1, nbt: "{EntityTag:{type:\"productivebees:terrasteel\"}}" },
-			    V: Item.of('productivebees:honeycomb_ghostly').toJson(),
                 M: Item.of('avaritia:infinity_catalyst').toJson(),
 			    1: Item.of('avaritia:crystal_matrix_ingot').toJson(),
 			    2: Item.of('botania:maximum_catalyst').toJson(),
@@ -286,7 +239,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
 			    A: Item.of('avaritia:advanced_neutron_collector').toJson(),
-			    C: Item.of('silentcompat:capsid_alloy_block').toJson(),
+			    C: Item.of('botania:dragonstone_block').toJson(),
 			    L: Item.of('biggerreactors:ludicrite_block').toJson(),
 			    M: Item.of('avaritia:crystal_matrix_ingot').toJson(),
 			    R: Item.of('forbidden_arcanus:dark_rune_block').toJson(),
@@ -348,7 +301,7 @@ ServerEvents.recipes(event => {
 			    b: Item.of('delightful:cooked_venison_chops').toJson(),
 			    c: Item.of('quark:cooked_crab_leg').toJson(),
 			    d: Item.of('farmersdelight:cooked_bacon').toJson(),
-			    e: Item.of('nocubes_better_frogs:cooked_frog_leg').toJson(),
+			    e: Item.of('twilightforest:hydra_chop').toJson(),
 			    f: Item.of('farmersdelight:cooked_cod_slice').toJson(),
 			    g: Item.of('farmersdelight:fried_egg').toJson(),
 			    h: Item.of('alexsmobs:cooked_kangaroo_meat').toJson(),
@@ -387,10 +340,10 @@ ServerEvents.recipes(event => {
                 d: Item.of('gribtweaks:combined_jelly').toJson(),
                 e: Item.of('create:sweet_roll').toJson(),
                 f: Item.of('fastfooddelight:cheeseburger').toJson(),
-                g: Item.of('miners_delight:pumpkin_soup_cup').toJson(),
+                g: Item.of('minecraft:pumpkin_pie').toJson(),
                 h: Item.of('farmersdelight:glow_berry_custard').toJson(),
                 i: Item.of('farmersdelight:dumplings').toJson(),
-                j: Item.of('miners_delight:improvised_barbecue_stick').toJson(),
+                j: Item.of('supplementaries:pancake').toJson(),
                 k: Item.of('farmersdelight:barbecue_stick').toJson(),
                 m: Item.of('nethersdelight:nether_skewer').toJson(),
                 o: Item.of('farmersdelight:shepherds_pie_block').toJson(),
@@ -399,7 +352,7 @@ ServerEvents.recipes(event => {
                 r: Item.of('endersdelight:crawling_sandwich').toJson(),
                 s: Item.of('endersdelight:pearl_pasta').toJson(),
                 t: Item.of('endersdelight:ender_paella').toJson(),
-                u: Item.of('miners_delight:pasta_with_veggieballs').toJson(),
+                u: Item.of('minecraft:rabbit_stew').toJson(),
                 v: Item.of('minecraft:enchanted_golden_apple').toJson()
             },
             output: 'avaritia:ultimate_stew', // две штуки?

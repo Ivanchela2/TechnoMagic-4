@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
             id: `${prefix}witchery`
         },
         {
-            output: 'solarflux:sp_custom_mushroom_infinity',
+            output: 'solarflux:sp_custom_gribony_infinity',
             pattern: ['CCC', 'SIS', 'SGS'],
             key: {
                 C: 'gribtweaks:upgraded_photovoltaic_cell',

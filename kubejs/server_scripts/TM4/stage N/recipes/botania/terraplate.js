@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/terra_plate/';
+    const prefix = 'gribtweaks:botania/terra_plate/';
     const recipes = [
         {
             ingredients: [{item: 'botania:white_petal_block'},{item: 'botania:orange_petal_block'},{item: 'botania:magenta_petal_block'},{item: 'botania:light_blue_petal_block'},{item: 'botania:yellow_petal_block'},{item: 'botania:lime_petal_block'},{item: 'botania:pink_petal_block'},{item: 'botania:gray_petal_block'},{item: 'botania:light_gray_petal_block'},{item: 'botania:cyan_petal_block'},{item: 'botania:purple_petal_block'},{item: 'botania:blue_petal_block'},{item: 'botania:brown_petal_block'},{item: 'botania:green_petal_block'},{item: 'botania:red_petal_block'},{item: 'botania:black_petal_block'}, {item: 'botania:botany_catalyst'}],

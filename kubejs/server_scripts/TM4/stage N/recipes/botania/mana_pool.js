@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/mana_infusion/';
+    const prefix = 'gribtweaks:botania/mana_infusion/';
     const recipes = [
         {
             input: {item: 'ad_astra:desh_ingot'},

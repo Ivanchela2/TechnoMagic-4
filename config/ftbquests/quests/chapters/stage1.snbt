@@ -668,8 +668,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.5d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
@@ -754,6 +754,36 @@
 			title: "Земляной сет"
 			x: 3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			id: "7F0EF22AFEEAC209"
+			tasks: [{
+				id: "7CCBBCBCD35E6770"
+				item: "chickens:catcher"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F0EF22AFEEAC209"]
+			id: "606741D4648EDCBA"
+			tasks: [{
+				id: "79FC8FB1FE17CC86"
+				item: {
+					Count: 1b
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:flint_chicken"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
 		}
 	]
 	title: "&5Стадия: 1"

@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botanicadds/gaia_plate/';
+    const prefix = 'gribtweaks:botanicadds/gaia_plate/';
     const recipes = [
         {
             ingredients: [{item: 'ad_astra:advanced_rocket_nose_cone'}, {item: 'botania:maximum_catalyst'}, {item: 'botanicadds:gaiasteel_ingot'}, {item: 'ad_astra:calorite_block'}],

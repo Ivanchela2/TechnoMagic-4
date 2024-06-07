@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    const prefix = 'tm4:botania/runic_altar/';
+    const prefix = 'gribtweaks:botania/runic_altar/';
     const recipes = [
         {
             ingredients: [{tag: "botania:mana_dusts"}, {tag: "botania:manasteel_ingots"}, {item: 'occultism:iesnium_ingot'}, {item: 'aquaculture:diamond_fishing_rod'}, {item: 'gribtweaks:water_rune'}, {item: 'forbidden_arcanus:arcane_bone_meal'}, {item: 'forbidden_arcanus:edelwood_water_bucket'}],
@@ -104,7 +104,7 @@ ServerEvents.recipes(e => {
             id: `${prefix}rune_autumn`
         },
         {
-            ingredients: [{item: 'naturesaura:sky_ingot'}, {item: 'minecraft:melon_slice'}, {tag: 'minecraft:sand'}, {tag: 'minecraft:sand'}, {item:'botania:rune_air'}, {item:'botania:rune_earth'}, {item: 'toughasnails:leaf_chestplate'}],
+            ingredients: [{item: 'naturesaura:sky_ingot'}, {item: 'minecraft:melon_slice'}, {tag: 'minecraft:sand'}, {tag: 'minecraft:sand'}, {item:'botania:rune_air'}, {item:'botania:rune_earth'}, {tag: 'minecraft:leaves'}],
             mana: 15000,
             output: {item: 'botania:rune_summer'},
             id: `${prefix}rune_summer`
