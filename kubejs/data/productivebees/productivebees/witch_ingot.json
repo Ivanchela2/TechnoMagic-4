@@ -1,9 +1,0 @@
-{
-    "primaryColor": "#741244",
-    "secondaryColor": "#911d58",
-    "size": 0.8,
-    "attack": 1.5,
-    "flowerBlock": "hexerei:witch_ingot_block",
-    "createComb": true,
-    "fireproof": true
-}

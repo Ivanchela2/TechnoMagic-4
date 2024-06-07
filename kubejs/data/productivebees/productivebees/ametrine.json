@@ -1,9 +1,0 @@
-{
-    "primaryColor": "#f06de7",
-    "secondaryColor": "#b147d2",
-    "size": 0.7,
-    "attack": 1.5,
-    "flowerTag": "gribtweaks:ametrine_blocks",
-    "createComb": true,
-    "renderer": "default_crystal"
-}

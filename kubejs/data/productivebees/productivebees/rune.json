@@ -1,9 +1,0 @@
-{
-    "primaryColor": "#590042",
-    "secondaryColor": "#7e1f66",
-    "size": 0.7,
-    "attack": 1.5,
-    "flowerBlock": "forbidden_arcanus:rune_block",
-    "createComb": true,
-    "renderer": "default_crystal"
-}
