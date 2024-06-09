@@ -9,8 +9,8 @@ ClientEvents.tick(event => {
 
     let x = 8;
     let y = 8;
-    let w = 20 + currentDayString.length * 5;
-    let h = 9;
+    let w = 40 + currentDayString.length * 5;
+    let h = 18;
 
     event.player.paint({
         SHADOWbackgroundImageS: {
@@ -24,7 +24,7 @@ ClientEvents.tick(event => {
             alignY: 'top',
             draw: 'always',
             remove: false,
-            visible: true
+            visible: global.isVisible
         },
         SHADOWbackgroundImageF: {
             type: 'rectangle',
@@ -37,7 +37,7 @@ ClientEvents.tick(event => {
             alignY: 'top',
             draw: 'always',
             remove: false,
-            visible: true
+            visible: global.isVisible
         },
         backgroundImageF: {
             type: 'rectangle',
@@ -50,7 +50,7 @@ ClientEvents.tick(event => {
             alignY: 'top',
             draw: 'always',
             remove: false,
-            visible: true
+            visible: global.isVisible
         },
         backgroundImageS: {
             type: 'rectangle',
@@ -63,7 +63,7 @@ ClientEvents.tick(event => {
             alignY: 'top',
             draw: 'always',
             remove: false,
-            visible: true
+            visible: global.isVisible
         },
     });
 
@@ -72,14 +72,14 @@ ClientEvents.tick(event => {
             type: 'text',
             text: currentDayString,
             shadow: true,
-            x: x / 2 + (w - currentDayString.length * 5) / 2 + 2,
-            y: y / 2 + h / 2,
-            scale: 1,
+            x: x / 2 + (w - currentDayString.length * 8) / 2 + 2,
+            y: y / 2 + h / 2 - 1.5,
+            scale: 1.5,
             alignX: 'left',
             alignY: 'top',
             draw: 'always',
             remove: false,
-            visible: true
+            visible: global.isVisible
         }
     });
 });

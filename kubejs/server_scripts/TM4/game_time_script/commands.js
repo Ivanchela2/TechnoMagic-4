@@ -5,7 +5,7 @@ ServerEvents.commandRegistry(event => {
         Commands.literal("gametimer")
             .executes(ctx => {
                 let player = ctx.source.player;
-                player.tell("Доступные аргументы: debug | add | remove");
+                player.tell("Доступные аргументы: debug | add | remove | show | sync");
 
                 return 1;
             })
@@ -13,9 +13,22 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.argument("mode", Arguments.STRING.create(event))
                 .executes(ctx => {
                     let player = ctx.source.player;
+                    let level = ctx.source.level;
                     const mode = Arguments.STRING.getResult(ctx, "mode");
 
                     switch (mode) {
+                        case "sync":
+                            ctx.source.level.setDayTime(level.getTime());
+                            player.tell("Клиент и Сервер успешно синхронизированы!");
+                            break;
+                        case "show":
+                            global.isVisible = !global.isVisible;
+                            if (global.isVisible) {
+                                player.tell("Счетчик Показан! Если видите визуальные баги - перезайдите в мир!");
+                            } else {
+                                player.tell("Счетчик Скрыт! Если видите визуальные баги - перезайдите в мир!");
+                            }
+                            break;
                         case "debug":
                             debugMode = !debugMode;
                             player.tell(`debug mode: ${debugMode}`);
@@ -26,7 +39,7 @@ ServerEvents.commandRegistry(event => {
                         case "remove":
                             player.tell("После add | remove укажите время в тиках!");
                         default:
-                            player.tell("Доступные аргументы: debug | add | remove");
+                            player.tell("Доступные аргументы: debug | add | remove | show | sync");
                             break;
                     }
 
@@ -47,8 +60,7 @@ ServerEvents.commandRegistry(event => {
                         switch (mode) {
                             case "add":
                                 if (level.getTime() + time >= 2147483645) {
-                                    player.tell("Превышен лимит! Время сброшено!");
-                                    level.setTime(0);
+                                    player.tell("Превышен лимит! Время не поменялось!");
                                     break;
                                 }    
                                 level.setTime(level.getTime() + time);
