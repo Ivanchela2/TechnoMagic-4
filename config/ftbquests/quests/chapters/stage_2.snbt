@@ -209,7 +209,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7AB3B86EACDCFD4C"]
 			description: ["Нож, позволяющий срезать кору с деревьев."]
 			hide: true
 			id: "34A3F8B6B2B7E460"
@@ -224,6 +223,8 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "581A2FB63CE4808D"
 				item: {
@@ -238,26 +239,6 @@
 			title: "Нож лесника"
 			x: -5.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5810E01625CA0519"]
-			description: ["Вы календарь перевернёте..."]
-			hide: true
-			id: "5B3942F16CA07FE4"
-			rewards: [{
-				id: "228A53375A630BE0"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "239155ED7F06C531"
-				item: "sereneseasons:calendar"
-				type: "item"
-			}]
-			title: "Звёздное лето"
-			x: 0.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["6187009683A16AB1"]
@@ -477,10 +458,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6C701395031DE8EA"]
+			dependencies: ["34A3F8B6B2B7E460"]
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
-			hide_dependency_lines: true
 			id: "785BFED9C892DA25"
 			rewards: [{
 				count: 16
@@ -600,48 +580,6 @@
 			}]
 			title: "Увядший"
 			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C701395031DE8EA"]
-			description: ["Отправляйтесь в шахту и добудьте алмазы новой киркой."]
-			hide: true
-			id: "7AB3B86EACDCFD4C"
-			rewards: [{
-				id: "0D6DF5757C72863D"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			subtitle: "Моя прелесть"
-			tasks: [{
-				id: "6FF07F2F3784E813"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "Первый алмаз"
-			x: -7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3B1B6F0B1BF3A5D2"]
-			description: ["Кости Байкока обладают удивительной прочностью, достаточной для создания кирки, способной добывать алмазную руду."]
-			hide: true
-			id: "6C701395031DE8EA"
-			shape: "gear"
-			size: 1.2d
-			tasks: [{
-				id: "38CFA92321D299FB"
-				item: {
-					Count: 1b
-					id: "gribtweaks:baykok_bone_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Кирка из павшего"
-			x: -9.5d
 			y: 0.0d
 		}
 		{

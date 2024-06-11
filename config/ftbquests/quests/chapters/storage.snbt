@@ -18,7 +18,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:gold_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "oak"
 					}
 				}
 				random_bonus: 2
@@ -30,7 +30,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:gold_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -47,7 +47,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:diamond_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "oak"
 					}
 				}
 				random_bonus: 2
@@ -59,7 +59,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:diamond_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -76,7 +76,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:netherite_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "oak"
 					}
 				}
 				random_bonus: 2
@@ -88,7 +88,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:netherite_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -202,7 +202,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:gold_chest"
 					tag: {
-						woodType: "oak"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -231,7 +231,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:diamond_chest"
 					tag: {
-						woodType: "oak"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -260,7 +260,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:netherite_chest"
 					tag: {
-						woodType: "oak"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -285,14 +285,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "5EB40C6D2EE177AE"
 				item: "dimstorage:dimensional_chest"
 				type: "item"
 			}]
-			x: -10.435034013605417d
-			y: 4.720068027210893d
+			x: -10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3A6C46994552C0A4"]
@@ -344,14 +343,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "1ED277D5C25199A9"
 				item: "dimstorage:dimensional_tank"
 				type: "item"
 			}]
-			x: -11.935034013605417d
-			y: 4.720068027210893d
+			x: -12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -369,7 +367,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "1A7BC8AA1D226F55"
 				item: {
@@ -386,8 +383,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.185034013605417d
-			y: 5.470068027210893d
+			x: -11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7942B6D2D2D2663F"]
@@ -1126,23 +1123,25 @@
 					Count: 1b
 					id: "sophisticatedstorage:barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "oak"
 					}
 				}
 				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
-				id: "510E1FFFECCB6001"
+				id: "4AEBF61DFE5E00F6"
 				item: {
 					Count: 1b
 					id: "sophisticatedstorage:barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "any"
 					}
 				}
+				title: "Бочка"
 				type: "item"
 			}]
+			title: "Бочка"
 			x: -30.0d
 			y: -4.5d
 		}
@@ -1169,7 +1168,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:chest"
 					tag: {
-						woodType: "oak"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -1782,8 +1781,8 @@
 				item: "dimstorage:dim_wall"
 				type: "item"
 			}]
-			x: -9.617176870748281d
-			y: 3.558163265306142d
+			x: -9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["758CA053B018B926"]
@@ -1801,7 +1800,7 @@
 				item: "dimstorage:solid_dim_core"
 				type: "item"
 			}]
-			x: -11.091836734693857d
+			x: -11.0d
 			y: 3.5d
 		}
 		{
@@ -3642,7 +3641,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
-						woodType: "oak"
+						woodType: "any"
 					}
 				}
 				type: "item"
@@ -3659,7 +3658,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:iron_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "oak"
 					}
 				}
 				random_bonus: 2
@@ -3671,7 +3670,7 @@
 					Count: 1b
 					id: "sophisticatedstorage:iron_barrel"
 					tag: {
-						woodType: "spruce"
+						woodType: "any"
 					}
 				}
 				type: "item"

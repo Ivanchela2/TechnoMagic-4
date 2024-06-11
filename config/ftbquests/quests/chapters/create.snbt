@@ -14,15 +14,13 @@
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "1E84ED25A996910E"
-			shape: "gear"
-			size: 2.0d
 			tasks: [{
 				id: "434E8FCE31BBEF89"
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 0.0d
+			x: -26.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0749D26B0CAA8918"]
@@ -33,27 +31,27 @@
 				item: "create:shaft"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Да здравствует Create."
 			tasks: [{
 				id: "5177F1C5CDF745E5"
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -2.5d
+			x: -26.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0749D26B0CAA8918"]
 			id: "5D1AFEF9268A9857"
-			shape: "gear"
-			size: 2.0d
 			tasks: [{
 				id: "2FBB89D53801BF4A"
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -3.0d
+			x: -26.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -70,8 +68,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 0.5d
+			x: -22.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -95,8 +93,8 @@
 					type: "item"
 				}
 			]
-			x: -19.5d
-			y: 0.5d
+			x: -22.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -113,12 +111,13 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 0.5d
+			x: -24.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
+			dependencies: ["0BF2452DF5C085CA"]
 			hide: true
+			hide_dependency_lines: true
 			id: "0E1D1D91B842C4A8"
 			tasks: [
 				{
@@ -132,8 +131,8 @@
 					type: "item"
 				}
 			]
-			x: -29.0d
-			y: -1.0d
+			x: -20.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0BF2452DF5C085CA"]
@@ -150,8 +149,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -1.5d
+			x: -24.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -167,8 +166,8 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -0.5d
+			x: -24.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4FDF35361031D25E"]
@@ -191,8 +190,8 @@
 					type: "item"
 				}
 			]
-			x: -20.5d
-			y: -0.5d
+			x: -22.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -213,8 +212,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 2.0d
+			x: -18.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["08EAF26673CE5F22"]
@@ -231,12 +230,13 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 2.0d
+			x: -18.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
+			dependencies: ["0BF2452DF5C085CA"]
 			hide: true
+			hide_dependency_lines: true
 			id: "6E545C68D9B4F830"
 			subtitle: "В туалет с ней лучше не ходить."
 			tasks: [{
@@ -250,8 +250,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: -2.5d
+			x: -24.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6E545C68D9B4F830"]
@@ -262,8 +262,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: -22.5d
-			y: -1.0d
+			x: -24.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["08EAF26673CE5F22"]
@@ -280,8 +280,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 3.5d
+			x: -16.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E1D1D91B842C4A8"]
@@ -298,12 +298,13 @@
 					type: "item"
 				}
 			]
-			x: -29.0d
-			y: 1.5d
+			x: -20.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["744223264E0F1603"]
+			dependencies: ["0BF2452DF5C085CA"]
 			hide: true
+			hide_dependency_lines: true
 			id: "0B50483F8FF876BC"
 			tasks: [{
 				id: "17487F40BDB141BC"
@@ -316,8 +317,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.5d
-			y: -1.0d
+			x: -19.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0B50483F8FF876BC"]
@@ -331,8 +332,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.5d
-			y: 1.5d
+			x: -19.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["64AD5C6C44A874BB"]
@@ -358,8 +359,8 @@
 				}
 			]
 			title: "Медный Лист"
-			x: -16.5d
-			y: 2.0d
+			x: -20.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4FDF35361031D25E"]
@@ -383,8 +384,8 @@
 				}
 			]
 			title: "Цепные привода"
-			x: -18.5d
-			y: -0.5d
+			x: -26.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["64AD5C6C44A874BB"]
@@ -409,8 +410,8 @@
 					type: "item"
 				}
 			]
-			x: -18.0d
-			y: 2.0d
+			x: -20.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -420,8 +421,6 @@
 			hide: true
 			icon: "create:white_sail"
 			id: "7B503ADAF682DD96"
-			shape: "gear"
-			size: 2.0d
 			tasks: [
 				{
 					id: "41D0EDEEFFC6AC47"
@@ -436,8 +435,8 @@
 				}
 			]
 			title: "Ветряная мельница"
-			x: -25.0d
-			y: 3.0d
+			x: -26.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["356ADE2ABF0E62EC"]
@@ -448,8 +447,8 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 0.5d
+			x: -24.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7389E3685582FF11"]
@@ -465,8 +464,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 5.5d
+			x: -19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7389E3685582FF11"]
@@ -489,8 +488,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -18.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -507,8 +506,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 5.5d
+			x: -21.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -525,8 +524,8 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 6.5d
+			x: -20.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -543,8 +542,8 @@
 				item: "create_enchantment_industry:printer"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 7.0d
+			x: -19.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -561,8 +560,8 @@
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 7.0d
+			x: -17.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -579,8 +578,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 6.5d
+			x: -17.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4DFEBB987B2F0E42"]
@@ -597,8 +596,8 @@
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.5d
+			x: -18.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7389E3685582FF11"]
@@ -622,8 +621,8 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
-			y: 3.5d
+			x: -18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6C6F16E6B121C2D0"]
@@ -640,8 +639,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 4.5d
+			x: -16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6C6F16E6B121C2D0"]
@@ -658,15 +657,13 @@
 				item: "create:fluid_valve"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.5d
+			x: -16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7B503ADAF682DD96"]
 			icon: "create:steam_engine"
 			id: "0FDC1D377A4567DB"
-			shape: "gear"
-			size: 2.0d
 			tasks: [
 				{
 					consume_items: false
@@ -688,8 +685,8 @@
 				}
 			]
 			title: "Паровой генератор"
-			x: -25.0d
-			y: 6.0d
+			x: -26.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7389E3685582FF11"]
@@ -706,8 +703,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 4.5d
+			x: -20.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7389E3685582FF11"]
@@ -724,21 +721,19 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: -18.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0FDC1D377A4567DB"]
 			id: "7930336C13A7CF46"
-			shape: "gear"
-			size: 2.0d
 			tasks: [{
 				id: "5D3DB88090A5A198"
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 9.0d
+			x: -26.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -757,8 +752,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -2.0d
+			x: -10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -777,8 +772,8 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -2.0d
+			x: -12.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -815,8 +810,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -2.0d
+			x: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7CAB0375A59AC778"]
@@ -833,8 +828,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 5.0d
+			x: -14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["67482E513F189F57"]
@@ -851,8 +846,8 @@
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 5.0d
+			x: -16.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["67482E513F189F57"]
@@ -871,8 +866,8 @@
 				type: "item"
 			}]
 			title: "Колесо Дробленния"
-			x: -22.0d
-			y: 6.0d
+			x: -12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["67482E513F189F57"]
@@ -895,8 +890,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 4.0d
+			x: -14.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["67482E513F189F57"]
@@ -913,8 +908,8 @@
 				item: "createaddition:capacitor"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 6.5d
+			x: -12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6737335B4B0EC692"]
@@ -931,8 +926,8 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 8.0d
+			x: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2045922DBFC74250"]
@@ -949,8 +944,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 9.5d
+			x: -8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -977,8 +972,8 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
-			y: -2.0d
+			x: -16.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -997,8 +992,8 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -0.5d
+			x: -16.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -1025,8 +1020,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -0.5d
+			x: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -1052,8 +1047,8 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
-			y: -0.5d
+			x: -12.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -1072,8 +1067,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -0.5d
+			x: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["67482E513F189F57"]
@@ -1103,8 +1098,8 @@
 				}
 			]
 			title: "Прогресивные Двигатели"
-			x: -20.0d
-			y: 6.0d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["21D6728A30E2D8BB"]
@@ -1121,8 +1116,8 @@
 				type: "item"
 			}]
 			title: "Медный Джетпак"
-			x: -18.0d
-			y: 7.0d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4A9398A7903FDA8D"]
@@ -1139,8 +1134,8 @@
 				type: "item"
 			}]
 			title: "Медный Экзоскелет"
-			x: -18.0d
-			y: 8.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1167,8 +1162,8 @@
 				type: "item"
 			}]
 			title: "Подбиратель блоков"
-			x: -18.0d
-			y: 6.0d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["38DF0C61396A090C"]
@@ -1191,8 +1186,8 @@
 				type: "item"
 			}]
 			title: "Портативная дрель"
-			x: -20.0d
-			y: 7.0d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7B8022CD4A359472"]
@@ -1209,8 +1204,8 @@
 				type: "item"
 			}]
 			title: "Латунный Джетпак"
-			x: -20.0d
-			y: 8.0d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["68B6DC231FCB163F"]
@@ -1227,8 +1222,8 @@
 				type: "item"
 			}]
 			title: "Латунный Экзоскелет"
-			x: -20.0d
-			y: 9.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1255,8 +1250,8 @@
 				type: "item"
 			}]
 			title: "Крюк-кошка"
-			x: -19.0d
-			y: 6.5d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["42B7FB125394F19F"]
@@ -1273,8 +1268,8 @@
 				type: "item"
 			}]
 			title: "Андезитовый Джетпак"
-			x: -19.0d
-			y: 7.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7E79D9794708914B"]
@@ -1291,8 +1286,8 @@
 				type: "item"
 			}]
 			title: "Андезитовый Экзоскелет"
-			x: -19.0d
-			y: 8.5d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -1311,8 +1306,8 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -0.5d
+			x: -14.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["38DF0C61396A090C"]
@@ -1334,8 +1329,8 @@
 				type: "item"
 			}]
 			title: "Огнемёт"
-			x: -19.0d
-			y: 5.5d
+			x: -14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4C9FF4A3314D3B15"]
@@ -1353,8 +1348,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -2.0d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2C85649966922F5C"]
@@ -1372,8 +1367,8 @@
 				type: "item"
 			}]
 			title: "Кусочки опыта?"
-			x: -22.0d
-			y: 7.0d
+			x: -10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["44A5556D88A872EC"]
@@ -1426,8 +1421,8 @@
 				}
 			]
 			title: "Опытные инструмены"
-			x: -22.0d
-			y: 8.0d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["32697BCFC9B16CB4"]
@@ -1437,8 +1432,44 @@
 				item: "gribtweaks:mechanical_ingot"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 2.0d
+			x: -18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["64AD5C6C44A874BB"]
+			id: "118AEE1345160F9E"
+			rewards: [{
+				count: 8
+				id: "7BB455BEC56FA30D"
+				item: "twilightforest:ironwood_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Один из главных материалов в сборке."
+			tasks: [{
+				id: "0490130587996989"
+				item: "ftbic:iron_plate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["118AEE1345160F9E"]
+			id: "1C3FFF1F0C4152CE"
+			rewards: [{
+				id: "6C5F8F01F059C801"
+				item: "minecraft:diamond_block"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CFB3D41834E564C"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -2.0d
 		}
 	]
 	title: "&6Let's Create"

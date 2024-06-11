@@ -13,6 +13,7 @@
 	}
 	id: "332765A53BD1F606"
 	order_index: 0
+	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
@@ -139,7 +140,6 @@
 		{
 			dependencies: ["417DCE7F7196C6FF"]
 			description: ["Создайте верстак. "]
-			hide: true
 			id: "72CEB74B0928C7C3"
 			shape: "gear"
 			size: 1.2d
@@ -189,7 +189,6 @@
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Отправляйтесь в шахту и добудьте уголь."]
-			hide: true
 			id: "28541DF5F861F45D"
 			rewards: [{
 				count: 4
@@ -212,7 +211,6 @@
 				"24DBBA23D05F1699"
 			]
 			description: ["Создайте костер."]
-			hide: true
 			id: "73995DDB352A2786"
 			tasks: [{
 				id: "36B490F0F4AA5B6D"
@@ -226,7 +224,6 @@
 		{
 			dependencies: ["73995DDB352A2786"]
 			description: ["Чтобы создать камень необходимо переплавить булыжник в костре."]
-			hide: true
 			id: "77A2452ACD969D50"
 			rewards: [{
 				id: "0A3E33CAB0ECD6B0"
@@ -246,7 +243,6 @@
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Отправляйтесь в шахту и добудьте железо."]
-			hide: true
 			id: "3EE32FBF22B7DBFA"
 			tasks: [{
 				id: "499CE15F77317FDA"
@@ -284,7 +280,6 @@
 		{
 			dependencies: ["211AE1FCA3393F0E"]
 			description: ["Создайте железную кирку из полученых ранее слитков."]
-			hide: true
 			id: "1EB6928031F52962"
 			tasks: [{
 				id: "03D69CE446E71997"
@@ -333,7 +328,6 @@
 		{
 			dependencies: ["7F65431A411A36D5"]
 			description: ["Маленькая ваза является маленьким переносным хранилищем наподобии рюкзака."]
-			hide: true
 			id: "21F9907FD66925B1"
 			subtitle: "Для начала пойдет"
 			tasks: [{
@@ -348,7 +342,6 @@
 		{
 			dependencies: ["7F65431A411A36D5"]
 			description: ["Большая ваза служит примитивным хранилищем предметов."]
-			hide: true
 			id: "33F946785D2BF16C"
 			rewards: [{
 				id: "3E2D72C2BB0BF920"
@@ -381,7 +374,6 @@
 		{
 			dependencies: ["211AE1FCA3393F0E"]
 			description: ["Используйте нож для вырезания тотемов для создания тотемов, придающих эффекты."]
-			hide: true
 			id: "4483B26DA29EB896"
 			rewards: [{
 				id: "6FEF117E0481DA3A"
@@ -421,7 +413,6 @@
 				""
 				"Дождитесь взросления бизонов и убейте их, получив шкуру и зуб бизонов. "
 			]
-			hide: true
 			id: "5E66179B19904D5E"
 			rewards: [{
 				id: "030AF563296197F8"
@@ -465,7 +456,6 @@
 		{
 			dependencies: ["57EF6D6B886AA24C"]
 			description: ["Барабан используется для ритуалов из Totemic."]
-			hide: true
 			id: "4C4FAFD2EDC48D20"
 			rewards: [{
 				id: "1D6DC326BC92045E"
@@ -484,7 +474,6 @@
 		{
 			dependencies: ["5E66179B19904D5E"]
 			description: ["Типи имеет схожий функционал с кроватью."]
-			hide: true
 			id: "77B5B020F036C0E6"
 			subtitle: "Почувствуй себя индейцем"
 			tasks: [{
@@ -556,7 +545,6 @@
 		{
 			dependencies: ["211AE1FCA3393F0E"]
 			description: ["Звенящее платье создаёт дополнительную музыку для ритуалов из Totemic."]
-			hide: true
 			id: "4EB5E7BF233723F6"
 			shape: "diamond"
 			tasks: [{
@@ -583,7 +571,6 @@
 				""
 				"&l&4Открывает следующую стадию!&r&r"
 			]
-			hide: true
 			id: "3B1B6F0B1BF3A5D2"
 			rewards: [
 				{
@@ -627,7 +614,6 @@
 		{
 			dependencies: ["2EFAB1FFEE0413F4"]
 			description: ["Музыкальная подвеска создаёт дополнительную музыку для ритуалов из Totemic."]
-			hide: true
 			id: "4C726E51016719B2"
 			tasks: [{
 				id: "6EE0F47F9CAA01A5"
@@ -641,7 +627,6 @@
 		{
 			dependencies: ["5E66179B19904D5E"]
 			description: ["Трещотка используется для ритуалов из Totemic."]
-			hide: true
 			id: "203470031D4BE97E"
 			tasks: [{
 				id: "18D81C97A7838BCA"
@@ -674,7 +659,6 @@
 		{
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Зола получается путём сжигания легковоспламеняющихся блоков. Чтобы поджечь блок, можно использовать зажигалку."]
-			hide: true
 			id: "24DBBA23D05F1699"
 			tasks: [{
 				id: "719186B246A851BD"
@@ -784,6 +768,24 @@
 			}]
 			x: 9.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["57EF6D6B886AA24C"]
+			description: ["Глайдер позволяет безопасно спускаться с большой высоты и преодолевать небольшие расстояния."]
+			id: "555F9224BD436B70"
+			tasks: [{
+				id: "523A589B0DD689D5"
+				item: {
+					Count: 1b
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 	]
 	title: "&5Стадия: 1"
