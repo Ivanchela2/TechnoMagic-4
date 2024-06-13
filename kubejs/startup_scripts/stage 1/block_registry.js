@@ -1,2 +1,0 @@
-StartupEvents.registry('block', e => {
-})

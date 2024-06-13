@@ -1,8 +1,17 @@
-StartupEvents.registry('item', e => {
+StartupEvents.registry('item', event => {
     const items = {
+        // stage 1
+        'unforgotten_soul' : 'Незабвенная душа',
         'buffalo_hide_fiber': 'Волокно шкуры бизона',
         'buffalo_hide_rope': 'Веревка из шкуры бизона',
         'baykok_bone': 'Кость Байкока',
+
+        // stage 5
+        'creative_honeycomb' : 'Творческая сота',
+        'infinity_honeycomb' : 'Сота бесконечности',
+        'neutronium_honeycomb' : 'Сота нейтрония',
+
+        // stage 7
         'ad_astra:reinforced_rocket_fin':'§6Reinforced Rocket Fin',
         'ad_astra:reinforced_rocket_nose_cone':'§6Reinforced Rocket Nose Cone',
         'ad_astra:advanced_rocket_fin':'§5Advanced Rocket Fin',
@@ -38,12 +47,12 @@ StartupEvents.registry('item', e => {
             name = `gribtweaks:${id}`
         } else name = id;
         
-        e.create(name).displayName(dName);
+        event.create(name).displayName(dName);
     };
 
-    const create = (id, dName) => e.create(id).displayName(dName);
+    const create = (id, dName) => event.create(id).displayName(dName);
 
-    e.create('gribtweaks:baykok_bone_pickaxe', 'pickaxe')
+    event.create('gribtweaks:baykok_bone_pickaxe', 'pickaxe')
         .displayName('Кирка из кости Байкока')
         .tier('diamond');
 

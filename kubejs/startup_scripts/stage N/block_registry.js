@@ -1,5 +1,20 @@
-StartupEvents.registry('block', e => {
-    e.create('ad_astra:reinforced_covering')
+StartupEvents.registry('block', event => {
+    event.create('gribtweaks:comb_infinity')
+    .soundType('metal')
+    .hardness(0.6)
+    .displayName('Блок Бесконечных сот') 
+    .tagBlock('forge:storage_blocks') 
+    .tagBlock('forge:storage_blocks/honeycombs')
+    .requiresTool(false)
+  
+    event.create('gribtweaks:comb_neutronium')
+    .hardness(0.6)
+    .displayName('Блок нейтроных сот') 
+    .tagBlock('forge:storage_blocks') 
+    .tagBlock('forge:storage_blocks/honeycombs')
+    .requiresTool(false)
+    
+    event.create('ad_astra:reinforced_covering')
     .soundType('stone')
     .hardness(0.8)
     .displayName('§6Reinforced Covering') 
@@ -7,7 +22,7 @@ StartupEvents.registry('block', e => {
     .tagBlock('minecraft:needs_diamond_tool')
     .requiresTool(true)
 
-    e.create('ad_astra:advanced_covering')
+    event.create('ad_astra:advanced_covering')
     .soundType('stone')
     .hardness(0.8)
     .displayName('§5Advanced Covering') 
@@ -15,7 +30,7 @@ StartupEvents.registry('block', e => {
     .tagBlock('minecraft:needs_diamond_tool')
     .requiresTool(true)
 
-    e.create('ad_astra:ultra_covering')
+    event.create('ad_astra:ultra_covering')
     .soundType('stone')
     .hardness(0.8)
     .displayName('§cUltra Covering') 
@@ -23,7 +38,7 @@ StartupEvents.registry('block', e => {
     .tagBlock('minecraft:needs_diamond_tool')
     .requiresTool(true)
 
-    e.create('botania:life_essence_block')
+    event.create('botania:life_essence_block')
     .material('metal')
     .hardness(1.5)
     .displayName('§bLife Essence Block') 
