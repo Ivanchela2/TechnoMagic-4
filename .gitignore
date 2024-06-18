@@ -3,7 +3,6 @@ screenshots
 local
 .curseclient
 minecraftinstance.json
-defaultconfigs - по желанию
 saves
 logs
 crash-reports
@@ -11,3 +10,5 @@ backups
 usercache.json
 usernamecache.json
 options.txt
+lightspeed-cache
+XaeroWorldMap
