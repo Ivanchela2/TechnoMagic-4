@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
             id: `${prefix}mortar`
           }, 
           {
-            output: '2x rootsclassic:mundane_standing_stone',
+            output: '4x rootsclassic:mundane_standing_stone',
             pattern: ['EDE', 'ECE', 'ABA'],
             key: {
               A: 'minecraft:amethyst_block',
