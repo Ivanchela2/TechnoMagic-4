@@ -1167,7 +1167,6 @@
 		}
 		{
 			dependencies: ["38DF0C61396A090C"]
-			description: ["Только не забудь ее заправить сначала."]
 			id: "7B8022CD4A359472"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1469,17 +1468,6 @@
 				type: "item"
 			}]
 			x: -22.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1E84ED25A996910E"]
-			id: "7D7E08A74174F9DC"
-			tasks: [{
-				id: "2973D465B4CF0B89"
-				item: "create:large_water_wheel"
-				type: "item"
-			}]
-			x: -28.0d
 			y: -2.0d
 		}
 	]

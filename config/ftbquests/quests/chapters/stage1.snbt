@@ -89,7 +89,7 @@
 				}
 				type: "item"
 			}]
-			title: "Кремниевый нож"
+			title: "Кремневый нож"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -143,6 +143,7 @@
 			id: "72CEB74B0928C7C3"
 			shape: "gear"
 			size: 1.2d
+			subtitle: "Начало каждой сборки"
 			tasks: [{
 				id: "6FCBD45174ACBACF"
 				item: "minecraft:crafting_table"
@@ -747,6 +748,7 @@
 				item: "chickens:catcher"
 				type: "item"
 			}]
+			title: "Устройство для ловли цыплят"
 			x: 9.5d
 			y: 5.5d
 		}
@@ -766,6 +768,7 @@
 				}
 				type: "item"
 			}]
+			title: "Кремневый курятин"
 			x: 9.5d
 			y: 7.5d
 		}
@@ -773,6 +776,7 @@
 			dependencies: ["57EF6D6B886AA24C"]
 			description: ["Глайдер позволяет безопасно спускаться с большой высоты и преодолевать небольшие расстояния."]
 			id: "555F9224BD436B70"
+			subtitle: "Да Винчи одобряет!"
 			tasks: [{
 				id: "523A589B0DD689D5"
 				item: {
@@ -784,6 +788,7 @@
 				}
 				type: "item"
 			}]
+			title: "Параплан"
 			x: 5.5d
 			y: -2.5d
 		}

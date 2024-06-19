@@ -803,6 +803,7 @@
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
+			title: "Призма Террастомпа"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -822,6 +823,7 @@
 				item: "forbidden_arcanus:ferrognetic_mixture"
 				type: "item"
 			}]
+			title: "Ферромагнитная смесь"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -1341,6 +1343,7 @@
 				"3CE7FF2F60D14597"
 			]
 			id: "3F160189551AB2D8"
+			subtitle: "Повелитель стихий"
 			tasks: [
 				{
 					id: "37A0E43876BCE0B7"
@@ -1384,6 +1387,7 @@
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
+			description: ["С небольшим шансом дропается из аметриновой руды."]
 			id: "3CE7FF2F60D14597"
 			tasks: [{
 				id: "6C3F27E376F2CB4E"
@@ -1581,6 +1585,7 @@
 				item: "ftbiceg:advanced_geothermal_generator"
 				type: "item"
 			}]
+			title: "Улучшенный геотермальный генератор"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -1593,6 +1598,7 @@
 				item: "ftbiceg:advanced_generator"
 				type: "item"
 			}]
+			title: "Улучшенный генератор"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -1864,6 +1870,7 @@
 				item: "forbidden_arcanus:deorum_ingot"
 				type: "item"
 			}]
+			title: "Cлиток деорума"
 			x: 1.0d
 			y: -4.0d
 		}

@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["05EBC27472F491E3"]
-			description: ["Используется для создания порошка для заклинаний."]
+			description: ["Позволяет перемалывая смешивать ресурсы."]
 			id: "6E7022D88A1A53B1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -73,7 +73,7 @@
 		}
 		{
 			dependencies: ["262A0C340C7F9AEA"]
-			description: ["Используется для наполнения посохов."]
+			description: ["Вы нашли способ как использовать магический песок. "]
 			id: "7884E53192A5FD6F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -140,11 +140,7 @@
 		}
 		{
 			dependencies: ["6E7022D88A1A53B1"]
-			description: [
-				"Для усиления модификаторов в ступку (к предметам, из которых получается необходимый порошок) следует положить порох | редстоуновую пыль | светокаменную пыль."
-				""
-				"Для получения слотов для модификаторов нужно использовать конкретный редкий материал. (Старый корень - +0 слотов для модификаторов, Зелёная веточка - +1 слот, Адская луковица - +2 слота, Глаз дракона - 3+ слота). 4 редких материала любого типа максимум."
-			]
+			description: ["Вы получили пыль окутанный странной магической аурой. Осталось только понять как её использовать."]
 			hide: true
 			id: "262A0C340C7F9AEA"
 			rewards: [{
@@ -346,8 +342,8 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "3E3FEB991BA6B06F"
-				item: "naturesaura:ancient_log"
+				id: "0750EF6F1F6206AC"
+				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
 			title: "Глубокие рассуждения"
@@ -434,6 +430,7 @@
 						stored_type: "naturesaura:overworld"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Личный лучик света"
@@ -709,6 +706,7 @@
 			dependencies: [
 				"7524E89870BE34C6"
 				"7275A9136C0543FE"
+				"719CBE19584F107B"
 			]
 			description: ["Используется для создания предметов. (см. Размышления)"]
 			id: "49FA63E436B4A94D"
@@ -729,6 +727,7 @@
 				item: "naturesaura:death_ring"
 				type: "item"
 			}]
+			title: "Кольцо последнего шанса"
 			x: 17.5d
 			y: -2.0d
 		}
@@ -765,6 +764,7 @@
 				item: "naturesaura:loot_finder"
 				type: "item"
 			}]
+			title: "Посох богатства"
 			x: 12.5d
 			y: -4.0d
 		}
@@ -772,11 +772,13 @@
 			dependencies: ["7C80BEA676A0078A"]
 			description: ["Стреляет светом, который навсегда остается на блоках."]
 			id: "034D220749B2C0E1"
+			subtitle: "Долой факела"
 			tasks: [{
 				id: "654F8966CDEF7F14"
 				item: "naturesaura:light_staff"
 				type: "item"
 			}]
+			title: "Посох Бальдра"
 			x: 18.5d
 			y: -5.0d
 		}
@@ -789,6 +791,7 @@
 				item: "naturesaura:animal_container"
 				type: "item"
 			}]
+			title: "Телесный глаз"
 			x: 16.5d
 			y: 2.0d
 		}
@@ -813,6 +816,7 @@
 				item: "naturesaura:blast_furnace_booster"
 				type: "item"
 			}]
+			title: "Помощь оружейников"
 			x: 15.5d
 			y: -1.0d
 		}
@@ -837,6 +841,7 @@
 				item: "naturesaura:chorus_generator"
 				type: "item"
 			}]
+			title: "Жнец высот Эндера"
 			x: 12.5d
 			y: -6.0d
 		}
@@ -863,6 +868,7 @@
 						stored_type: "naturesaura:nether"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 8.5d
@@ -880,6 +886,7 @@
 						stored_type: "naturesaura:end"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.5d
@@ -893,6 +900,7 @@
 				item: "naturesaura:tainted_gold"
 				type: "item"
 			}]
+			title: "Испорченный золотой слиток"
 			x: 14.5d
 			y: -4.0d
 		}
@@ -915,18 +923,6 @@
 			]
 			x: 13.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["7884E53192A5FD6F"]
-			description: ["Для начала необходимо создать Порошок для заклинаний с необходимым Типом и модификаторами. Далее нужно поместить порошок в наполнитель и обычную палку (пкм. по Наполнителю)."]
-			id: "7AF140A14BDE4016"
-			tasks: [{
-				id: "744D869506760B29"
-				item: "rootsclassic:staff"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.0d
 		}
 	]
 	title: "&5Стадия: 2"

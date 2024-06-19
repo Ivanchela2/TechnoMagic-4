@@ -1118,6 +1118,7 @@
 		{
 			dependencies: ["426DCFB3F028EB08"]
 			id: "1911A831AA9E5A96"
+			subtitle: "Не будь Албоном. Улучши транспорт."
 			tasks: [{
 				id: "4C5C3F454F715D4B"
 				item: {
@@ -1129,6 +1130,7 @@
 				}
 				type: "item"
 			}]
+			title: "Максимальный апгрейд"
 			x: 0.5d
 			y: 6.0d
 		}

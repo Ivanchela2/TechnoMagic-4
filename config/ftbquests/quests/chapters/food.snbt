@@ -1291,18 +1291,11 @@
 				xp_levels: 3
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "188B6033EABB7156"
-					item: "fastfooddelight:cheese"
-					type: "item"
-				}
-				{
-					id: "4D6FFBB8076A761B"
-					item: "ad_astra:cheese"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D6FFBB8076A761B"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.5d
 		}

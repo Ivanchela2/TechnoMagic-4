@@ -178,29 +178,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["118410C89DF00062"]
-			description: [
-				"Убивая любых существ, при этом владея кристаллом души, вы поглащаете душу того, кого вы убили."
-				""
-				"Кристалл вмещает только 1 вид души."
-			]
-			hide: true
-			hide_dependency_lines: true
-			id: "2ADD3B41B236056F"
-			tasks: [{
-				id: "7E62B0EDF919B1EF"
-				title: "Первое убийство"
-				type: "checkmark"
-			}]
-			title: "Им удобно?"
-			x: -18.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"0068B039920F45E3"
 				"02A0D443A9B73CE4"
-				"2ADD3B41B236056F"
 			]
 			description: ["&e1/3&r &l&4Открывает следующую стадию!&r&r"]
 			id: "045C3D369D9FADD6"
@@ -929,7 +909,7 @@
 				item: "vitalize:pylon_efficiency"
 				type: "item"
 			}]
-			title: "Эффективный пилон"
+			title: "Пилон эффективности"
 			x: -15.5d
 			y: 4.5d
 		}
@@ -948,7 +928,7 @@
 				item: "vitalize:pylon_beheading"
 				type: "item"
 			}]
-			title: "Обезглавливающий пилон"
+			title: "Пилон обезглавливания"
 			x: -14.0d
 			y: 5.0d
 		}
@@ -967,7 +947,7 @@
 				item: "vitalize:pylon_looting"
 				type: "item"
 			}]
-			title: "Пилон мародера"
+			title: "Пилон добычи"
 			x: -15.5d
 			y: 1.5d
 		}
@@ -986,7 +966,7 @@
 				item: "vitalize:pylon_speed"
 				type: "item"
 			}]
-			title: "Скоростной пилон"
+			title: "Пилон скорости"
 			x: -14.0d
 			y: 1.0d
 		}
@@ -1024,7 +1004,7 @@
 				item: "vitalize:pylon_flame"
 				type: "item"
 			}]
-			title: "Огненный пилон"
+			title: "Пилон пламени"
 			x: -12.0d
 			y: 3.0d
 		}
@@ -1043,7 +1023,7 @@
 				item: "vitalize:pylon_recursive"
 				type: "item"
 			}]
-			title: "Пилон рекурсмии"
+			title: "Пилон рекурсии"
 			x: -12.5d
 			y: 4.5d
 		}
@@ -1063,6 +1043,7 @@
 				item: "spirit:pedestal"
 				type: "item"
 			}]
+			title: "Пьедестал"
 			x: -23.0d
 			y: 2.0d
 		}
@@ -1081,6 +1062,7 @@
 				item: "spirit:crystal_pedestal"
 				type: "item"
 			}]
+			title: "Кристальный пьедестал"
 			x: -21.0d
 			y: 2.0d
 		}
@@ -1111,6 +1093,7 @@
 				item: "spirit:soul_pedestal"
 				type: "item"
 			}]
+			title: "Пьедестал души"
 			x: -19.0d
 			y: 2.0d
 		}
@@ -1396,6 +1379,7 @@
 				item: "spirit:soul_steel_ingot"
 				type: "item"
 			}]
+			title: "Стальной слиток души"
 			x: -20.0d
 			y: 7.0d
 		}

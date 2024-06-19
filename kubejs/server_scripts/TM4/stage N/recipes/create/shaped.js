@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
           key: {
             A: 'sorcerium:molten_crystal', 
             B: 'ftbic:iron_plate',
-            C: 'twilightforest:knightmetal_ingot',
+            C: 'alloyed:steel_ingot',
             D: 'minecraft:netherrack'
           },
           id: `${prefix}empty_blaze_burner`
