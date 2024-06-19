@@ -2,11 +2,11 @@ ServerEvents.recipes((event) => {
   const prefix = 'gribtweaks:delightful/shaped/';
   const recipes = [
     {
-      output: 'delightful:leaf_knife', 
+      output: 'farmersdelight:flint_knife', 
       pattern: [' B', 'A '],
       key: {
-        A: 'gribtweaks:baykok_bone',
-        B: 'rootsclassic:verdant_sprig'
+        A: 'stick',
+        B: 'flint'
       },
       id: `${prefix}leaf_knife`
     },
@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         ],
       key: {
         A: 'minecraft:copper_ingot', 
-        B: 'farmersdelight:flint_knife',
+        B: 'delighful:leaf_knife',
         C: 'rootsclassic:oak_bark'
       },
       id: `${prefix}copper_knife`
@@ -154,15 +154,15 @@ ServerEvents.recipes((event) => {
       id: `${prefix}enderite_knife`
     },
     { // Кремниевый нож
-      output: 'farmersdelight:flint_knife', 
+      output: 'delightful:leaf_knife', 
       pattern: [
         '  A', 
         ' B ', 
         'C  '
         ],
       key: {
-        A: 'minecraft:flint',
-        B: 'delightful:leaf_knife',
+        A: 'rootsclassic:verdant_sprig',
+        B: 'farmersdelight:flint_knife',
         C: 'sorcerium:earth_crystal'
       },
       id: `${prefix}flint_knife`
