@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'naturesaura:gold_powder',
             'naturesaura:wood_stand'
         ])
-        .scene('gribtweaks:nature_aura_ritual', 'Natures Aura - Ритуал.', 'kubejs:nature_ritual', (scene, util) => {
+        .scene('gribtweaks:nature_aura_ritual', 'Natures Aura - Ритуал.', 'nature_ritual', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)
@@ -19,7 +19,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Разместите деревянные подставки таким образом.', [2, 1.5, 2])
+        .text(60, 'Разместите деревянные подставки таким образом:', [2, 1.5, 2])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -34,13 +34,13 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Разместите золотой порошок таким образом.', [4, 1.5, 3])
+        .text(60, 'Разместите золотой порошок таким образом:', [4, 1.5, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(65)
     scene
-        .text(60, 'Положите на подставки ритуальные предметы.', [2, 2, 2])
+        .text(60, 'Положите на подставки ритуальные предметы:', [2, 2, 2])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -59,7 +59,7 @@ Ponder.registry(event => {
     scene.world.createItemEntity(util.vector.topOf(1,1,5), (util.vector.of(0, 0, 0)),'minecraft:spider_eye');
     scene.idle(15)
     scene
-        .text(60, 'Разместите в центре структуры саженец дуба.', [5, 1.5, 5])
+        .text(60, 'Разместите в центре структуры саженец дуба:', [5, 1.5, 5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -68,7 +68,7 @@ Ponder.registry(event => {
     scene.world.setBlock([5, 1, 5], 'minecraft:oak_sapling', false);
     scene.idle(30)
     scene
-        .text(60, 'Когда саженец вырастет, начнется ритуал.', [5, 1.5, 5])
+        .text(60, 'Когда саженец вырастет, начнется ритуал:', [5, 1.5, 5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()

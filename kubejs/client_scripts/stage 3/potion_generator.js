@@ -4,14 +4,14 @@ Ponder.registry(e => {
         .create([
             'naturesaura:potion_generator'
         ])
-        .scene('gribtweaks:potion_generator', "Potion generator", 'potion_generator', (scene, util) => {
+        .scene('gribtweaks:potion_generator', "Затяжной поглотитель", 'potion_generator', (scene, util) => {
             scene.showBasePlate()
             scene.setSceneOffsetY(-2);
             scene.rotateCameraY(30);
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.GREEN)
-                .text("Затяжной поглотитель генерирует ауру с помощью любых положительных зелий")
+                .text("Затяжной поглотитель генерирует ауру с помощью любых положительных зелий.")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()

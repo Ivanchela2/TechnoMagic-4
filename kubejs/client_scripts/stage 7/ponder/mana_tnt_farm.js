@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             'botania:entropinnyum'
         ])
-        .scene("gribtweaks:mana_tnt_farm", "Лучшая ферма маны!", "kubejs:mana_tnt_farm", (scene, util) => {
+        .scene("gribtweaks:mana_tnt_farm", "Лучшая ферма маны!", "mana_tnt_farm", (scene, util) => {
             //scene.showStructure()
             scene.addKeyframe()
             scene.idle(0)

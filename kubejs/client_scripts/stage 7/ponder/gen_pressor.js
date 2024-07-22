@@ -3,10 +3,7 @@ Ponder.registry((event) => {
     event
         .create('productivebees:gene_bottle'
         )
-        .scene(
-            "gen_pressor",
-            "Пчелинные гены",
-            "kubejs:gen_pressor",
+        .scene("gribtweaks:gen_pressor", "Пчелинные гены", "gen_pressor",
             (scene, util) => {
                 //scene.showStructure()
                 scene.rotateCameraY(-145);

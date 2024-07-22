@@ -554,6 +554,7 @@
 				item: "chemlib:nickel"
 				type: "item"
 			}]
+			title: "Никель"
 			x: 1.1d
 			y: -15.4d
 		}
@@ -568,6 +569,7 @@
 				item: "chemlib:cobalt"
 				type: "item"
 			}]
+			title: "Кобальт"
 			x: -1.0d
 			y: -15.4d
 		}
@@ -582,6 +584,7 @@
 				item: "chemlib:palladium"
 				type: "item"
 			}]
+			title: "Палладий"
 			x: 1.1d
 			y: -13.4d
 		}
@@ -596,6 +599,7 @@
 				item: "chemlib:silver"
 				type: "item"
 			}]
+			title: "Серебро"
 			x: 3.2d
 			y: -13.4d
 		}
@@ -610,6 +614,7 @@
 				item: "chemlib:cadmium"
 				type: "item"
 			}]
+			title: "Кадмий"
 			x: 5.3d
 			y: -13.4d
 		}
@@ -624,6 +629,7 @@
 				item: "chemlib:indium"
 				type: "item"
 			}]
+			title: "Индий"
 			x: 7.4d
 			y: -13.4d
 		}
@@ -638,6 +644,7 @@
 				item: "chemlib:tin"
 				type: "item"
 			}]
+			title: "Олово"
 			x: 9.5d
 			y: -13.4d
 		}
@@ -652,6 +659,7 @@
 				item: "chemlib:antimony"
 				type: "item"
 			}]
+			title: "Сурьма"
 			x: 11.6d
 			y: -13.4d
 		}
@@ -666,6 +674,7 @@
 				item: "chemlib:tellurium"
 				type: "item"
 			}]
+			title: "Теллур"
 			x: 13.7d
 			y: -13.4d
 		}
@@ -680,6 +689,7 @@
 				item: "chemlib:iodine"
 				type: "item"
 			}]
+			title: "Йод"
 			x: 15.8d
 			y: -13.4d
 		}
@@ -694,6 +704,7 @@
 				item: "chemlib:xenon"
 				type: "item"
 			}]
+			title: "Ксенон"
 			x: 17.9d
 			y: -13.4d
 		}
@@ -708,6 +719,7 @@
 				item: "chemlib:rhodium"
 				type: "item"
 			}]
+			title: "Родий"
 			x: -1.0d
 			y: -13.4d
 		}
@@ -722,6 +734,7 @@
 				item: "chemlib:ruthenium"
 				type: "item"
 			}]
+			title: "Рутений"
 			x: -3.1d
 			y: -13.4d
 		}
@@ -736,6 +749,7 @@
 				item: "chemlib:technetium"
 				type: "item"
 			}]
+			title: "Технеций"
 			x: -5.2d
 			y: -13.4d
 		}
@@ -750,6 +764,7 @@
 				item: "chemlib:molybdenum"
 				type: "item"
 			}]
+			title: "Молибден"
 			x: -7.3d
 			y: -13.4d
 		}
@@ -764,6 +779,7 @@
 				item: "chemlib:niobium"
 				type: "item"
 			}]
+			title: "Ниобий"
 			x: -9.4d
 			y: -13.4d
 		}
@@ -778,6 +794,7 @@
 				item: "chemlib:zirconium"
 				type: "item"
 			}]
+			title: "Цирконий"
 			x: -11.5d
 			y: -13.4d
 		}
@@ -792,6 +809,7 @@
 				item: "chemlib:yttrium"
 				type: "item"
 			}]
+			title: "Иттрий"
 			x: -13.6d
 			y: -13.4d
 		}
@@ -806,6 +824,7 @@
 				item: "chemlib:rubidium"
 				type: "item"
 			}]
+			title: "Рубидий"
 			x: -17.849999999999998d
 			y: -13.35d
 		}
@@ -820,6 +839,7 @@
 				item: "chemlib:barium"
 				type: "item"
 			}]
+			title: "Барий"
 			x: -15.7d
 			y: -11.4d
 		}
@@ -834,6 +854,7 @@
 				item: "chemlib:cesium"
 				type: "item"
 			}]
+			title: "Цезий"
 			x: -17.8d
 			y: -11.4d
 		}
@@ -848,6 +869,7 @@
 				item: "chemlib:krypton"
 				type: "item"
 			}]
+			title: "Криптон"
 			x: 17.9d
 			y: -15.4d
 		}
@@ -862,6 +884,7 @@
 				item: "chemlib:bromine"
 				type: "item"
 			}]
+			title: "Бром"
 			x: 15.8d
 			y: -15.4d
 		}
@@ -876,6 +899,7 @@
 				item: "chemlib:selenium"
 				type: "item"
 			}]
+			title: "Селен"
 			x: 13.7d
 			y: -15.4d
 		}
@@ -890,6 +914,7 @@
 				item: "chemlib:arsenic"
 				type: "item"
 			}]
+			title: "Мышьяк"
 			x: 11.6d
 			y: -15.4d
 		}
@@ -904,6 +929,7 @@
 				item: "chemlib:germanium"
 				type: "item"
 			}]
+			title: "Германий"
 			x: 9.5d
 			y: -15.4d
 		}
@@ -918,6 +944,7 @@
 				item: "chemlib:gallium"
 				type: "item"
 			}]
+			title: "Галлий"
 			x: 7.4d
 			y: -15.4d
 		}
@@ -932,6 +959,7 @@
 				item: "chemlib:lead"
 				type: "item"
 			}]
+			title: "Свинец"
 			x: 9.5d
 			y: -11.4d
 		}
@@ -946,6 +974,7 @@
 				item: "chemlib:mercury"
 				type: "item"
 			}]
+			title: "Ртуть"
 			x: 5.3d
 			y: -11.4d
 		}
@@ -960,6 +989,7 @@
 				item: "chemlib:gold"
 				type: "item"
 			}]
+			title: "Золото"
 			x: 3.2d
 			y: -11.4d
 		}
@@ -974,6 +1004,7 @@
 				item: "chemlib:platinum"
 				type: "item"
 			}]
+			title: "Платина"
 			x: 1.1d
 			y: -11.4d
 		}
@@ -988,6 +1019,7 @@
 				item: "chemlib:iridium"
 				type: "item"
 			}]
+			title: "Иридий"
 			x: -1.0d
 			y: -11.4d
 		}
@@ -1002,6 +1034,7 @@
 				item: "chemlib:osmium"
 				type: "item"
 			}]
+			title: "Осмий"
 			x: -3.1d
 			y: -11.4d
 		}
@@ -1016,6 +1049,7 @@
 				item: "chemlib:rhenium"
 				type: "item"
 			}]
+			title: "Рений"
 			x: -5.2d
 			y: -11.4d
 		}
@@ -1030,6 +1064,7 @@
 				item: "chemlib:tungsten"
 				type: "item"
 			}]
+			title: "Вольфрам"
 			x: -7.3d
 			y: -11.4d
 		}
@@ -1044,6 +1079,7 @@
 				item: "chemlib:tantalum"
 				type: "item"
 			}]
+			title: "Тантал"
 			x: -9.4d
 			y: -11.4d
 		}
@@ -1058,6 +1094,7 @@
 				item: "chemlib:hafnium"
 				type: "item"
 			}]
+			title: "Гафний"
 			x: -11.5d
 			y: -11.4d
 		}
@@ -1072,6 +1109,7 @@
 				item: "chemlib:copper"
 				type: "item"
 			}]
+			title: "Медь"
 			x: 3.2d
 			y: -15.4d
 		}
@@ -1086,6 +1124,7 @@
 				item: "chemlib:zinc"
 				type: "item"
 			}]
+			title: "Цинк"
 			x: 5.3d
 			y: -15.4d
 		}
@@ -1100,6 +1139,7 @@
 				item: "chemlib:iron"
 				type: "item"
 			}]
+			title: "Железо"
 			x: -3.1d
 			y: -15.4d
 		}
@@ -1114,6 +1154,7 @@
 				item: "chemlib:manganese"
 				type: "item"
 			}]
+			title: "Марганец"
 			x: -5.2d
 			y: -15.4d
 		}
@@ -1128,6 +1169,7 @@
 				item: "chemlib:chromium"
 				type: "item"
 			}]
+			title: "Хром"
 			x: -7.3d
 			y: -15.4d
 		}
@@ -1142,6 +1184,7 @@
 				item: "chemlib:vanadium"
 				type: "item"
 			}]
+			title: "Ванадий"
 			x: -9.4d
 			y: -15.4d
 		}
@@ -1156,6 +1199,7 @@
 				item: "chemlib:titanium"
 				type: "item"
 			}]
+			title: "Титан"
 			x: -11.5d
 			y: -15.4d
 		}
@@ -1170,6 +1214,7 @@
 				item: "chemlib:scandium"
 				type: "item"
 			}]
+			title: "Скандий"
 			x: -13.6d
 			y: -15.4d
 		}
@@ -1184,6 +1229,7 @@
 				item: "chemlib:strontium"
 				type: "item"
 			}]
+			title: "Стронций"
 			x: -15.7d
 			y: -13.4d
 		}
@@ -1198,6 +1244,7 @@
 				item: "chemlib:calcium"
 				type: "item"
 			}]
+			title: "Кальций"
 			x: -15.7d
 			y: -15.4d
 		}
@@ -1212,6 +1259,7 @@
 				item: "chemlib:potassium"
 				type: "item"
 			}]
+			title: "Калий"
 			x: -17.8d
 			y: -15.4d
 		}
@@ -1226,6 +1274,7 @@
 				item: "chemlib:magnesium"
 				type: "item"
 			}]
+			title: "Магний"
 			x: -15.7d
 			y: -17.4d
 		}
@@ -1240,6 +1289,7 @@
 				item: "chemlib:sodium"
 				type: "item"
 			}]
+			title: "Натрий"
 			x: -17.8d
 			y: -17.4d
 		}
@@ -1254,6 +1304,7 @@
 				item: "chemlib:aluminum"
 				type: "item"
 			}]
+			title: "Алюминий"
 			x: 7.4d
 			y: -17.4d
 		}
@@ -1268,6 +1319,7 @@
 				item: "chemlib:silicon"
 				type: "item"
 			}]
+			title: "Кремний"
 			x: 9.5d
 			y: -17.4d
 		}
@@ -1282,6 +1334,7 @@
 				item: "chemlib:phosphorus"
 				type: "item"
 			}]
+			title: "Фосфор"
 			x: 11.6d
 			y: -17.4d
 		}
@@ -1296,6 +1349,7 @@
 				item: "chemlib:sulfur"
 				type: "item"
 			}]
+			title: "Сера"
 			x: 13.7d
 			y: -17.4d
 		}
@@ -1310,6 +1364,7 @@
 				item: "chemlib:chlorine"
 				type: "item"
 			}]
+			title: "Хлор"
 			x: 15.8d
 			y: -17.4d
 		}
@@ -1324,6 +1379,7 @@
 				item: "chemlib:argon"
 				type: "item"
 			}]
+			title: "Аргон"
 			x: 17.9d
 			y: -17.4d
 		}
@@ -1338,6 +1394,7 @@
 				item: "chemlib:thallium"
 				type: "item"
 			}]
+			title: "Таллий"
 			x: 7.4d
 			y: -11.4d
 		}
@@ -1352,6 +1409,7 @@
 				item: "chemlib:neon"
 				type: "item"
 			}]
+			title: "Неон"
 			x: 17.9d
 			y: -19.4d
 		}
@@ -1366,6 +1424,7 @@
 				item: "chemlib:fluorine"
 				type: "item"
 			}]
+			title: "Фтор"
 			x: 15.8d
 			y: -19.4d
 		}
@@ -1380,6 +1439,7 @@
 				item: "chemlib:oxygen"
 				type: "item"
 			}]
+			title: "Кислород"
 			x: 13.7d
 			y: -19.4d
 		}
@@ -1394,6 +1454,7 @@
 				item: "chemlib:nitrogen"
 				type: "item"
 			}]
+			title: "Азот"
 			x: 11.6d
 			y: -19.4d
 		}
@@ -1408,6 +1469,7 @@
 				item: "chemlib:carbon"
 				type: "item"
 			}]
+			title: "Углерод"
 			x: 9.5d
 			y: -19.4d
 		}
@@ -1422,6 +1484,7 @@
 				item: "chemlib:hydrogen"
 				type: "item"
 			}]
+			title: "Водород"
 			x: -17.799999999999997d
 			y: -21.499999999999996d
 		}
@@ -1436,6 +1499,7 @@
 				item: "chemlib:lithium"
 				type: "item"
 			}]
+			title: "Литий"
 			x: -17.79999999999999d
 			y: -19.499999999999993d
 		}
@@ -1450,6 +1514,7 @@
 				item: "chemlib:beryllium"
 				type: "item"
 			}]
+			title: "Бериллий"
 			x: -15.7d
 			y: -19.499999999999996d
 		}
@@ -1464,6 +1529,7 @@
 				item: "chemlib:boron"
 				type: "item"
 			}]
+			title: "Бор"
 			x: 7.399999999999999d
 			y: -19.4d
 		}
@@ -1478,6 +1544,7 @@
 				item: "chemlib:helium"
 				type: "item"
 			}]
+			title: "Гелий"
 			x: 17.875d
 			y: -21.45d
 		}
@@ -1557,6 +1624,7 @@
 				item: "alchemistry:combiner"
 				type: "item"
 			}]
+			title: "Объединитель"
 			x: -14.0d
 			y: 7.0d
 		}
@@ -1577,6 +1645,7 @@
 				item: "alchemistry:dissolver"
 				type: "item"
 			}]
+			title: "Растворитель"
 			x: -14.0d
 			y: 3.0d
 		}
@@ -1597,6 +1666,7 @@
 				item: "alchemistry:compactor"
 				type: "item"
 			}]
+			title: "Компактор"
 			x: -13.0d
 			y: 5.0d
 		}
@@ -1631,6 +1701,7 @@
 				item: "alchemistry:reactor_casing"
 				type: "item"
 			}]
+			title: "Корпус реактора"
 			x: -10.0d
 			y: 5.0d
 		}
@@ -1654,6 +1725,7 @@
 				item: "alchemistry:fusion_chamber_controller"
 				type: "item"
 			}]
+			title: "Контроллер термоядерной камеры"
 			x: -7.0d
 			y: 5.0d
 		}
@@ -1673,6 +1745,7 @@
 				item: "alchemistry:fusion_core"
 				type: "item"
 			}]
+			title: "Термоядерное ядро"
 			x: -10.5d
 			y: 3.0d
 		}
@@ -1704,6 +1777,7 @@
 					type: "item"
 				}
 			]
+			title: "Вход/выход реактора"
 			x: -10.5d
 			y: 7.0d
 		}
@@ -1739,6 +1813,7 @@
 					type: "item"
 				}
 			]
+			title: "Слиток актиния"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -1779,6 +1854,7 @@
 				item: "biggerreactors:reactor_terminal"
 				type: "item"
 			}]
+			title: "Терминал реактора"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -1804,6 +1880,7 @@
 					type: "item"
 				}
 			]
+			title: "Топливный стержень реактора"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -1830,6 +1907,7 @@
 					type: "item"
 				}
 			]
+			title: "Вход/выход реактора"
 			x: 4.5d
 			y: 5.0d
 		}
@@ -1853,6 +1931,7 @@
 				item: "biggerreactors:cyanite_reprocessor"
 				type: "item"
 			}]
+			title: "Репрессор цианита"
 			x: 6.5d
 			y: 5.0d
 		}
@@ -2012,6 +2091,7 @@
 				item: "arclight:arclight_core"
 				type: "item"
 			}]
+			title: "Ядро рассвета"
 			x: -4.5d
 			y: 11.0d
 		}
@@ -2035,6 +2115,7 @@
 				item: "arclight:moonlight_core"
 				type: "item"
 			}]
+			title: "Ядро лунного света"
 			x: -1.0d
 			y: 11.0d
 		}
@@ -2053,6 +2134,7 @@
 				item: "arclight:arclight_gem"
 				type: "item"
 			}]
+			title: "Рассвет"
 			x: -14.0d
 			y: 11.5d
 		}
@@ -2071,6 +2153,7 @@
 				item: "arclight:moonlight_crystal"
 				type: "item"
 			}]
+			title: "Лунный свет"
 			x: -14.0d
 			y: 10.5d
 		}
@@ -2089,6 +2172,7 @@
 				item: "arclight:jade_gem"
 				type: "item"
 			}]
+			title: "Нефрит"
 			x: -14.0d
 			y: 9.5d
 		}
@@ -2107,6 +2191,7 @@
 				item: "arclight:bloodstone_gem"
 				type: "item"
 			}]
+			title: "Кровавый камень"
 			x: -14.0d
 			y: 8.5d
 		}
@@ -2119,6 +2204,7 @@
 				item: "arclight:arclight_ingot"
 				type: "item"
 			}]
+			title: "Сплав рассвета"
 			x: -8.5d
 			y: 11.5d
 		}
@@ -2131,6 +2217,7 @@
 				item: "arclight:moonlight_ingot"
 				type: "item"
 			}]
+			title: "Сплав лунного света"
 			x: -8.5d
 			y: 10.5d
 		}
@@ -2143,6 +2230,7 @@
 				item: "arclight:bloodstone_ingot"
 				type: "item"
 			}]
+			title: "Сплав кровавого камня"
 			x: -9.5d
 			y: 8.5d
 		}
@@ -2155,6 +2243,7 @@
 				item: "arclight:jade_ingot"
 				type: "item"
 			}]
+			title: "Сплав нефрита"
 			x: -9.0d
 			y: 9.5d
 		}
@@ -2228,6 +2317,7 @@
 				item: "biggerreactors:turbine_terminal"
 				type: "item"
 			}]
+			title: "Терминал турбины"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -2257,6 +2347,7 @@
 					type: "item"
 				}
 			]
+			title: "Вход/выход турбины"
 			x: 11.5d
 			y: 2.5d
 		}
@@ -2291,6 +2382,7 @@
 					type: "item"
 				}
 			]
+			title: "Лопасть ротора турбины"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -2343,6 +2435,7 @@
 				item: "biggerreactors:heat_exchanger_terminal"
 				type: "item"
 			}]
+			title: "Терминал теплообменника"
 			x: -1.0238095238095042d
 			y: 0.0d
 		}
@@ -2371,6 +2464,7 @@
 					type: "item"
 				}
 			]
+			title: "Канал конденсатора теплообменника"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -2393,6 +2487,7 @@
 				item: "biggerreactors:heat_exchanger_fluid_port"
 				type: "item"
 			}]
+			title: "Жидкостный порт теплообменника"
 			x: -3.0d
 			y: 2.5d
 		}
@@ -2487,6 +2582,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Стань закатом"
 			x: -4.511904761904738d
 			y: 16.892857142857153d
 		}
@@ -2565,6 +2661,7 @@
 				item: "arclight:sculk_core"
 				type: "item"
 			}]
+			title: "Ядро скалка"
 			x: -1.0323129251700962d
 			y: 14.059523809523796d
 		}
@@ -2584,6 +2681,7 @@
 				item: "arclight:scorpion_core"
 				type: "item"
 			}]
+			title: "Ядро кровавого камня"
 			x: -6.0d
 			y: 13.5d
 		}
@@ -2955,6 +3053,7 @@
 				item: "chemlib:bismuth"
 				type: "item"
 			}]
+			title: "Висмут"
 			x: 11.61530612244899d
 			y: -11.40306122448979d
 		}
@@ -2969,6 +3068,7 @@
 				item: "chemlib:polonium"
 				type: "item"
 			}]
+			title: "Полоний"
 			x: 13.73877551020408d
 			y: -11.40306122448979d
 		}
@@ -2983,6 +3083,7 @@
 				item: "chemlib:astatine"
 				type: "item"
 			}]
+			title: "Астат"
 			x: 15.799999999999999d
 			y: -11.400000000000002d
 		}
@@ -2997,6 +3098,7 @@
 				item: "chemlib:radon"
 				type: "item"
 			}]
+			title: "Радон"
 			x: 17.887755102040828d
 			y: -11.39897959183674d
 		}
@@ -3011,6 +3113,7 @@
 				item: "chemlib:radium"
 				type: "item"
 			}]
+			title: "Радий"
 			x: -15.70408163265305d
 			y: -9.430272108843546d
 		}
@@ -3025,6 +3128,7 @@
 				item: "chemlib:francium"
 				type: "item"
 			}]
+			title: "Франций"
 			x: -17.799999999999997d
 			y: -9.425d
 		}
@@ -3051,6 +3155,7 @@
 				item: "arclight:armor_forge"
 				type: "item"
 			}]
+			title: "Кузница паладинов"
 			x: -11.5d
 			y: 11.0d
 		}
@@ -3069,6 +3174,7 @@
 				item: "arclight:cryorium_gem"
 				type: "item"
 			}]
+			title: "Криориум"
 			x: -14.0d
 			y: 12.5d
 		}
@@ -3099,6 +3205,7 @@
 				item: "arclight:cryorium_ingot"
 				type: "item"
 			}]
+			title: "Сплав криориума"
 			x: -9.0d
 			y: 12.5d
 		}
@@ -3111,6 +3218,7 @@
 				item: "arclight:sculk_ingot"
 				type: "item"
 			}]
+			title: "Сплав скалка"
 			x: -9.5d
 			y: 13.5d
 		}
@@ -3125,6 +3233,7 @@
 				item: "chemlib:roentgenium"
 				type: "item"
 			}]
+			title: "Рентгений"
 			x: 3.2250000000000005d
 			y: -9.4d
 		}
@@ -3139,6 +3248,7 @@
 				item: "chemlib:copernicium"
 				type: "item"
 			}]
+			title: "Коперниций"
 			x: 5.25d
 			y: -9.4d
 		}
@@ -3153,6 +3263,7 @@
 				item: "chemlib:oganesson"
 				type: "item"
 			}]
+			title: "Оганессон"
 			x: 17.9d
 			y: -9.4d
 		}
@@ -3167,6 +3278,7 @@
 				item: "chemlib:tennessine"
 				type: "item"
 			}]
+			title: "Теннесий"
 			x: 15.773809523809518d
 			y: -9.416666666666686d
 		}
@@ -3181,6 +3293,7 @@
 				item: "chemlib:meitnerium"
 				type: "item"
 			}]
+			title: "Мейтнерий"
 			x: -0.975d
 			y: -9.4d
 		}
@@ -3195,6 +3308,7 @@
 				item: "chemlib:darmstadtium"
 				type: "item"
 			}]
+			title: "Дармштадтий"
 			x: 1.0749999999999997d
 			y: -9.4d
 		}
@@ -3209,6 +3323,7 @@
 				item: "chemlib:lanthanum"
 				type: "item"
 			}]
+			title: "Лантан"
 			x: -13.600000000000001d
 			y: -6.524999999999999d
 		}
@@ -3223,6 +3338,7 @@
 				item: "chemlib:livermorium"
 				type: "item"
 			}]
+			title: "Ливерморий"
 			x: 13.700000000000001d
 			y: -9.4d
 		}
@@ -3237,6 +3353,7 @@
 				item: "chemlib:hassium"
 				type: "item"
 			}]
+			title: "Хассий"
 			x: -3.1d
 			y: -9.4d
 		}
@@ -3251,6 +3368,7 @@
 				item: "chemlib:nihonium"
 				type: "item"
 			}]
+			title: "Нихоний"
 			x: 7.375000000000002d
 			y: -9.4d
 		}
@@ -3265,6 +3383,7 @@
 				item: "chemlib:flerovium"
 				type: "item"
 			}]
+			title: "Флеровий"
 			x: 9.525d
 			y: -9.4d
 		}
@@ -3279,6 +3398,7 @@
 				item: "chemlib:moscovium"
 				type: "item"
 			}]
+			title: "Московий"
 			x: 11.650000000000002d
 			y: -9.4d
 		}
@@ -3293,6 +3413,7 @@
 				item: "chemlib:bohrium"
 				type: "item"
 			}]
+			title: "Борий"
 			x: -5.207653061224484d
 			y: -9.4d
 		}
@@ -3307,6 +3428,7 @@
 				item: "chemlib:seaborgium"
 				type: "item"
 			}]
+			title: "Сиборгий"
 			x: -7.300000000000001d
 			y: -9.4d
 		}
@@ -3321,6 +3443,7 @@
 				item: "chemlib:dubnium"
 				type: "item"
 			}]
+			title: "Дубний"
 			x: -9.4d
 			y: -9.4d
 		}
@@ -3335,6 +3458,7 @@
 				item: "chemlib:rutherfordium"
 				type: "item"
 			}]
+			title: "Резерфордий"
 			x: -11.5d
 			y: -9.4d
 		}
@@ -3349,6 +3473,7 @@
 				item: "chemlib:erbium"
 				type: "item"
 			}]
+			title: "Эрбий"
 			x: 9.5d
 			y: -6.5d
 		}
@@ -3363,6 +3488,7 @@
 				item: "chemlib:holmium"
 				type: "item"
 			}]
+			title: "Гольмий"
 			x: 7.4d
 			y: -6.5d
 		}
@@ -3377,6 +3503,7 @@
 				item: "chemlib:terbium"
 				type: "item"
 			}]
+			title: "Тербий"
 			x: 3.1999999999999997d
 			y: -6.5d
 		}
@@ -3391,6 +3518,7 @@
 				item: "chemlib:dysprosium"
 				type: "item"
 			}]
+			title: "Диспрозий"
 			x: 5.300000000000001d
 			y: -6.5d
 		}
@@ -3405,6 +3533,7 @@
 				item: "chemlib:gadolinium"
 				type: "item"
 			}]
+			title: "Гадолиний"
 			x: 1.0999999999999996d
 			y: -6.5d
 		}
@@ -3419,6 +3548,7 @@
 				item: "chemlib:samarium"
 				type: "item"
 			}]
+			title: "Самарий"
 			x: -3.1d
 			y: -6.5d
 		}
@@ -3433,6 +3563,7 @@
 				item: "chemlib:europium"
 				type: "item"
 			}]
+			title: "Европий"
 			x: -1.0d
 			y: -6.5d
 		}
@@ -3447,6 +3578,7 @@
 				item: "chemlib:neodymium"
 				type: "item"
 			}]
+			title: "Неодим"
 			x: -7.299999999999999d
 			y: -6.5d
 		}
@@ -3461,6 +3593,7 @@
 				item: "chemlib:praseodymium"
 				type: "item"
 			}]
+			title: "Празеодим"
 			x: -9.400000000000002d
 			y: -6.5d
 		}
@@ -3475,6 +3608,7 @@
 				item: "chemlib:cerium"
 				type: "item"
 			}]
+			title: "Церий"
 			x: -11.5d
 			y: -6.5d
 		}
@@ -3489,6 +3623,7 @@
 				item: "chemlib:thulium"
 				type: "item"
 			}]
+			title: "Тулий"
 			x: 11.6d
 			y: -6.5d
 		}
@@ -3503,6 +3638,7 @@
 				item: "chemlib:ytterbium"
 				type: "item"
 			}]
+			title: "Иттербий"
 			x: 13.7d
 			y: -6.5d
 		}
@@ -3517,6 +3653,7 @@
 				item: "chemlib:lutetium"
 				type: "item"
 			}]
+			title: "Лютеций"
 			x: 15.799999999999999d
 			y: -6.5d
 		}
@@ -3531,6 +3668,7 @@
 				item: "chemlib:actinium"
 				type: "item"
 			}]
+			title: "Актиний"
 			x: -13.600000000000001d
 			y: -4.475d
 		}
@@ -3545,6 +3683,7 @@
 				item: "chemlib:lawrencium"
 				type: "item"
 			}]
+			title: "Лоуренсий"
 			x: 15.799999999999999d
 			y: -4.5d
 		}
@@ -3559,6 +3698,7 @@
 				item: "chemlib:nobelium"
 				type: "item"
 			}]
+			title: "Нобелий"
 			x: 13.700000000000001d
 			y: -4.5d
 		}
@@ -3573,6 +3713,7 @@
 				item: "chemlib:mendelevium"
 				type: "item"
 			}]
+			title: "Менделевий"
 			x: 11.6d
 			y: -4.5d
 		}
@@ -3587,6 +3728,7 @@
 				item: "chemlib:fermium"
 				type: "item"
 			}]
+			title: "Фермий"
 			x: 9.5d
 			y: -4.5d
 		}
@@ -3601,6 +3743,7 @@
 				item: "chemlib:einsteinium"
 				type: "item"
 			}]
+			title: "Эйнштейний"
 			x: 7.4d
 			y: -4.5d
 		}
@@ -3615,6 +3758,7 @@
 				item: "chemlib:californium"
 				type: "item"
 			}]
+			title: "Калифорний"
 			x: 5.300000000000001d
 			y: -4.5d
 		}
@@ -3629,6 +3773,7 @@
 				item: "chemlib:berkelium"
 				type: "item"
 			}]
+			title: "Берклий"
 			x: 3.1999999999999997d
 			y: -4.5d
 		}
@@ -3643,6 +3788,7 @@
 				item: "chemlib:curium"
 				type: "item"
 			}]
+			title: "Кюрий"
 			x: 1.1d
 			y: -4.5d
 		}
@@ -3657,6 +3803,7 @@
 				item: "chemlib:americium"
 				type: "item"
 			}]
+			title: "Америций"
 			x: -1.0d
 			y: -4.5d
 		}
@@ -3671,6 +3818,7 @@
 				item: "chemlib:plutonium"
 				type: "item"
 			}]
+			title: "Плутоний"
 			x: -3.0999999999999996d
 			y: -4.5d
 		}
@@ -3685,6 +3833,7 @@
 				item: "chemlib:neptunium"
 				type: "item"
 			}]
+			title: "Нептуний"
 			x: -5.199999999999999d
 			y: -4.5d
 		}
@@ -3699,6 +3848,7 @@
 				item: "chemlib:uranium"
 				type: "item"
 			}]
+			title: "Уран"
 			x: -7.300000000000001d
 			y: -4.5d
 		}
@@ -3713,6 +3863,7 @@
 				item: "chemlib:protactinium"
 				type: "item"
 			}]
+			title: "Протактиний"
 			x: -9.4d
 			y: -4.5d
 		}
@@ -3727,6 +3878,7 @@
 				item: "chemlib:thorium"
 				type: "item"
 			}]
+			title: "Торий"
 			x: -11.5d
 			y: -4.5d
 		}
@@ -3741,6 +3893,7 @@
 				item: "chemlib:promethium"
 				type: "item"
 			}]
+			title: "Прометий"
 			x: -5.200000000000001d
 			y: -6.5d
 		}
@@ -4162,7 +4315,7 @@
 					type: "item"
 				}
 			]
-			title: "Arclight броня"
+			title: "Броня рассвета"
 			x: -4.5d
 			y: 8.5d
 		}

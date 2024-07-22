@@ -3,11 +3,7 @@ Ponder.registry((event) => {
     event
         .create('forbidden_arcanus:hephaestus_forge'
         )
-        .scene(
-            "hephaestus_forge",
-            "Кузница Гефеста",
-            "kubejs:hephaestus_forge",
-            (scene, util) => {
+        .scene("gribtweaks:hephaestus_forge", "Кузница Гефеста", "hephaestus_forge", (scene, util) => {
                 scene.addKeyframe()
                 scene.idle(0);
                 scene.world.showSection(util.select.fromTo(0, 1, 0, 8, 1, 8), Facing.SOUTH)

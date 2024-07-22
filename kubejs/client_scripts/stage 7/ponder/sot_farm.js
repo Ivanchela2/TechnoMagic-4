@@ -4,11 +4,7 @@ Ponder.registry((event) => {
             'productivebees:powered_centrifuge',
             '#forge:honeycombs'
         ])
-        .scene(
-            "sot_farm",
-            "Sot Farm",
-            "kubejs:sot_farm",
-            (scene, util) => {
+        .scene("sot_farm", "Sot Farm", "sot_farm", (scene, util) => {
                 //scene.showStructure()
                 scene.scaleSceneView(.7);
                 scene.rotateCameraY(-60);

@@ -1,11 +1,7 @@
 Ponder.registry((event) => {
     event
         .create('botania:hydroangeas')
-        .scene(
-            "vodogortenzia_farm",
-            "Mana farm on water hydrangeas",
-            "kubejs:vodogortenzia",
-            (scene, util, grid) => {
+        .scene("gribtweaks:vodogortenzia_farm", "Mana farm on water hydrangeas", "vodogortenzia", (scene, util, grid) => {
                 scene.addKeyframe()
                 scene.idle(0)
                 scene.rotateCameraY(-55);

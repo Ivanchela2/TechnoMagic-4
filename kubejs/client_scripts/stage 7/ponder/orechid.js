@@ -4,7 +4,7 @@ Ponder.registry(e => {
             'botania:orechid',
             'botania:floating_orechid'
         ])
-        .scene('gribtweaks:orechid', 'Ore farm with Orechid', 'kubejs:orechid', (scene, util) => {
+        .scene('gribtweaks:orechid', 'Ore farm with Orechid', 'orechid', (scene, util) => {
     const redstone = util.select.fromTo(4,3,10,6,3,10)
     scene.world.setBlocks([4,2,2,6,2,7], 'minecraft:stone', false)
     scene.scaleSceneView(.7);

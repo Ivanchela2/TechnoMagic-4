@@ -4,12 +4,12 @@ Ponder.registry(e => {
         .create([
             'naturesaura:offering_table'
         ])
-        .scene('gribtweaks:offering_table', "Offering table", 'offering_table', (scene, util) => {
+        .scene('gribtweaks:offering_table', "Стол подношения", 'offering_table', (scene, util) => {
             scene.showBasePlate()
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("Для того чтобы начать ритуал, вам нужно построить следующую конструкцию...")
+                .text("Для того чтобы начать ритуал, вам нужно построить следующую конструкцию:")
                 .placeNearTarget();
             scene.idle(60)
             scene.idle(0)
@@ -27,7 +27,7 @@ Ponder.registry(e => {
             scene.addKeyframe()
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("И разместите стол в центре")
+                .text("И разместите стол в центре:")
                 .placeNearTarget();
             scene.world.showSection(util.grid.at(5, 1, 5), Facing.DOWN)
             scene.idle(60)
@@ -35,7 +35,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("Разместите первый предмет (см. JEI) на стол")
+                .text("Разместите первый предмет (см. JEI) на стол:")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
@@ -49,7 +49,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.BLUE)
-                .text("Сюда же дух призыва")
+                .text("Сюда же дух призыва:")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()

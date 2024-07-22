@@ -752,7 +752,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.0d
 			y: -10.0d
 		}
 		{
@@ -1347,7 +1347,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -10.0d
 			y: -10.0d
 		}
 		{
@@ -1469,6 +1469,63 @@
 			}]
 			x: -22.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4C59EFB0C6BC4AA7"]
+			description: ["Посторойку можно посмотреть с помощью Размышлений на дубовом бревне или пиле."]
+			icon: "minecraft:oak_sapling"
+			id: "3E2D47E35D70ACC1"
+			subtitle: "Дерево лишним не будет"
+			tasks: [
+				{
+					id: "098E36CDFB42CC88"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6CCB75A8770B0D8B"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "0100D13451DF0D0D"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2D73349ACA0DF1D5"
+					item: "create:secondary_linear_chassis"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "74A8612A2D099274"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "068DA8E46B391487"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4C06F01619C6D756"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "Ферма дерева"
+			x: -6.0d
+			y: -10.0d
 		}
 	]
 	title: "&6Let's Create"

@@ -4,13 +4,13 @@ Ponder.registry(event => {
             'naturesaura:nature_altar',
             'naturesaura:gold_brick'
         ])
-        .scene('gribtweaks:nature_aura_altar', 'Natures Aura - Природный Алтарь.', 'kubejs:nature_altar', (scene, util) => {
+        .scene('gribtweaks:nature_aura_altar', 'Natures Aura - Природный Алтарь.', 'nature_altar', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)
     scene.idle(20)
     scene
-        .text(140, 'Обратите внимание на основание. Глубинный сланец может быть любым блоком, а все остальные блоки, строго должны находиться в таком расположении.', [4, 1.5, 4])
+        .text(140, 'Обратите внимание на основание. Глубинный сланец может быть любым блоком, а все остальные должны быть размещены следующим образом:', [4, 1.5, 4])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()

@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
         {
             type: "createaddition:rolling",
             input: {
-                item: 'twilightforest:giant_log'
+                item: 'minecraft:oak_log'
             },
             result: {
                 item: 'gribtweaks:wooden_rod',

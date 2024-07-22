@@ -5,7 +5,7 @@ Ponder.registry(e => {
             'minecraft:iron_ingot',
             'minecraft:iron_block'
         ])
-        .scene("gribtweaks:iron_farm", "Iron Farm", "kubejs:iron_farm", (scene, util) => {
+        .scene("gribtweaks:iron_farm", "Iron Farm", "iron_farm", (scene, util) => {
     scene.world.setBlock([6,2,12], Block.id('create:shaft').with("axis","z"), false)
     scene.scaleSceneView(.6);
     scene.setSceneOffsetY(-1);

@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'rootsclassic:altar',
             'rootsclassic:brazier'
         ])
-        .scene('gribtweaks:roots_ritual', 'Roots - Ритуал.', 'kubejs:roots_ritual', (scene, util) => {
+        .scene('gribtweaks:roots_ritual', 'Roots - Ритуал.', 'roots_ritual', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)
@@ -19,13 +19,13 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Для проведения ритуалов требуется данная структура.', [5, 2, 5])
+        .text(60, 'Для проведения ритуалов требуется данная структура:', [5, 2, 5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(70)
     scene
-        .text(60, 'Поместите ритуальные предметы в жаровни и зажгите их.', [5, 2, 3])
+        .text(60, 'Поместите ритуальные предметы в жаровни и зажгите их:', [5, 2, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -44,7 +44,7 @@ Ponder.registry(event => {
         .showControls(110, [5, 2.5, 5], 'down')
         .rightClick()
     scene
-        .text(100, 'Поместите ритуальные предметы на алтарь, убедитесь, что все сделали правильно, и нажмите Shift + ПКМ.', [5, 2, 5])
+        .text(100, 'Поместите ритуальные предметы на алтарь, убедитесь, что все сделали правильно, и нажмите Shift + ПКМ:', [5, 2, 5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()

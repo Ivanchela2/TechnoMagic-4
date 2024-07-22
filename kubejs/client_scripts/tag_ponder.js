@@ -6,6 +6,7 @@ Ponder.tags(event => {
     ]);
     event.createTag('gribtweaks:farms', 'minecraft:diamond', 'TM4: Фермы/Заводы', 'Нужны ресурсы?', [
         'create:andesite_alloy',
+        'minecraft:oak_log',
         'minecraft:lava_bucket',
         'botania:endoflame',
         'botania:gourmaryllis',

@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'minecraft:pointed_dripstone',
             'minecraft:lava_bucket'
         ])
-        .scene('gribtweaks:lava', 'Простая ферма лавы.', 'kubejs:simple_lava_farm', (scene, util) => {
+        .scene('gribtweaks:lava', 'Простая ферма лавы.', 'simple_lava_farm', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.setSceneOffsetY(0);
     scene.world.showSection(util.select.layer(0), Facing.UP)
@@ -22,7 +22,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Разместите котёл на жидкостную трубу.', [2.5, 1, 3])
+        .text(60, 'Разместите котёл на жидкостную трубу:', [2.5, 1, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -34,7 +34,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Над котлом должны находиться капельники, разместите их на любой блок.', [2.5, 2, 3])
+        .text(60, 'Над котлом должны находиться капельники, разместите их на любой блок:', [2.5, 2, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -48,7 +48,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'На блоке, под которым находится капельник, должна быть лава.', [2.5, 4, 3])
+        .text(60, 'На блоке, под которым находится капельник, должна быть лава:', [2.5, 4, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -60,7 +60,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(70, 'Данную структуру можно расширять до бесконечности, тем самым повышая эффективность.', [1.5, 3, 3])
+        .text(70, 'Данную структуру можно расширять до бесконечности, тем самым повышая эффективность:', [1.5, 3, 3])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()

@@ -3,7 +3,7 @@ Ponder.registry(e => {
         .create([
             'naturesaura:animal_spawner'
         ])
-        .scene('gribtweaks:animal_spawner', "Animal spawner", 'animal_spawner', (scene, util) => {
+        .scene('gribtweaks:animal_spawner', "Алтарь возрождения", 'animal_spawner', (scene, util) => {
             const centerBlockPos = util.grid.at(4, 2, 4);
             const centerTop = util.vector.topOf(centerBlockPos);
             scene.showBasePlate()

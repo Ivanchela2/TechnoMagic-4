@@ -1,0 +1,22 @@
+
+#<-_ CHICKENS PLUS MOD _->
+["Roost Settings"]
+	#Progress rate multiplier for VANILA ROOTS
+	#Range: 0.001 ~ 999999.0
+	defaultRoostProgressRateMultiplier = 20.0
+	#Progress rate multiplier for Roost Tier 1
+	#Range: 0.001 ~ 999999.0
+	roostTier1ProgressRate = 14.0
+	#Progress rate multiplier for Roost Tier 2
+	#Range: 0.001 ~ 999999.0
+	roostTier2ProgressRate = 6.0
+	#Progress rate multiplier for Roost Tier 3
+	#Range: 0.001 ~ 999999.0
+	roostTier3ProgressRate = 1.5
+	#Progress rate multiplier for Roost Tier 4
+	#Range: 0.001 ~ 999999.0
+	roostTier4ProgressRate = 0.25
+	#Progress rate multiplier for Roost Tier 5
+	#Range: 0.001 ~ 999999.0
+	roostTier5ProgressRate = 0.05
+

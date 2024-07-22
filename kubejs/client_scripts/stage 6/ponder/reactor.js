@@ -4,7 +4,7 @@ Ponder.registry(event => {
             'biggerreactors:reactor_casing',
             'biggerreactors:reactor_terminal'
         ])
-        .scene('gribtweaks:reactor', 'Начальный реактор', 'kubejs:efficient_reactor', (scene, util) => {
+        .scene('gribtweaks:reactor', 'Начальный реактор', 'efficient_reactor', (scene, util) => {
     scene.scaleSceneView(.8);
     scene.rotateCameraY(-180);
     scene.setSceneOffsetY(0);
@@ -23,7 +23,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Разместите основание 11 на 11.', [4.5, 1, 4.5])
+        .text(60, 'Разместите основание 11 на 11:', [4.5, 1, 4.5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -35,19 +35,19 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'Далее разместите в центре топливный стержень. По диагонали от него ещё 2.', [4.5, 2, 4.5])
+        .text(60, 'Далее разместите в центре топливный стержень. По диагонали от него ещё 2:', [4.5, 2, 4.5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(80)
     scene
-        .text(60, 'Пустое пространоство заполните хладогентом. В этом случае - алмазный блок.', [6, 2, 5])
+        .text(60, 'Пустое пространоство заполните хладогентом. В этом случае - алмазный блок:', [6, 2, 5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
     scene.idle(80)
     scene
-        .text(60, 'Контроллер - мозг реактора. Разместите его на боковой стороне структуры.', [5, 2, 9])
+        .text(60, 'Контроллер - мозг реактора. Разместите его на боковой стороне структуры:', [5, 2, 9])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()
@@ -65,7 +65,7 @@ Ponder.registry(event => {
         scene.idle(3);
     }
     scene
-        .text(60, 'На топливный стержень разместите управляющий стержень.', [4.5, 3, 4.5])
+        .text(60, 'На топливный стержень разместите управляющий стержень:', [4.5, 3, 4.5])
         .colored(PonderPalette.WHITE)
         .placeNearTarget()
         .attachKeyFrame()

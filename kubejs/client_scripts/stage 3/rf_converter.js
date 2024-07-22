@@ -4,14 +4,14 @@ Ponder.registry(e => {
         .create([
             'naturesaura:rf_converter'
         ])
-        .scene('gribtweaks:rf_converter', "Aura generator on potions", 'energy_convertor_natures_aura', (scene, util) => {
+        .scene('gribtweaks:rf_converter', "Генератор Ауры", 'rf_converter', (scene, util) => {
             scene.showBasePlate()
             scene.setSceneOffsetY(-2);
             scene.rotateCameraY(30);
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.INPUT)
-                .text("Кузница энергетической Ауры будет генерировать RF при помощи ауры")
+                .text("Кузница энергетической Ауры будет генерировать RF при помощи ауры.")
                 .placeNearTarget();
             scene.idle(60)
             scene.addKeyframe()
@@ -38,7 +38,7 @@ Ponder.registry(e => {
             scene.idle(0)
             scene.overlay.showText(60)
                 .colored(PonderPalette.RED)
-                .text("Теперь создайте ауру (любым способом)")
+                .text("Теперь создайте ауру (любым способом).")
                 .placeNearTarget();
             scene.idle(60)  
         })
