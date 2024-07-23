@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
         { output: 'create:basin' },
         { output: 'create:chute' },
         { output: 'create:belt_connector' },
+        { output: 'create:precision_mechanism' },
         { output: 'createbigcannons:cast_iron_ingot' }
     ])
 })

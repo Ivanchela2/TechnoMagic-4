@@ -119,6 +119,22 @@ ServerEvents.recipes((event) => {
           },
           id: `${prefix}belt_connector`
         },
+        {
+          output: 'create:precision_mechanism', 
+          pattern: [
+            ' AD', 
+            'ACE', 
+            'BA '
+            ],
+          key: {
+            A: 'minecraft:gold_ingot', 
+            B: 'ftbic:gold_gear',
+            C: 'create:cogwheel',
+            D: 'create:large_cogwheel',
+            E: 'create:andesite_alloy'
+          },
+          id: `${prefix}precision_mechanism`
+        },
   ];
   
   recipes.forEach((recipe) => {
