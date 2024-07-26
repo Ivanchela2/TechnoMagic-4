@@ -43,6 +43,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6B1D528F48DE25FC"
 				item: "spirit:soul_crystal_shard"
@@ -64,6 +65,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "443467A2E61B7883"
 				item: "spirit:crude_soul_crystal"
@@ -85,6 +87,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6971EE0DAA578EB1"
 				item: "spirit:soul_crystal"
@@ -144,6 +147,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "hexagon"
 			subtitle: "Первая подготовка к созданию вещей из мода Spirit."
 			tasks: [
 				{
@@ -190,6 +194,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "square"
 			subtitle: "Простой спавнер из мода Spirit."
 			tasks: [{
 				id: "70F51D928747FC08"
@@ -209,6 +214,7 @@
 				table_id: 4853888491522249095L
 				type: "random"
 			}]
+			shape: "hexagon"
 			subtitle: "Четвертая подготовка к созданию вещей из мода Spirit."
 			tasks: [{
 				id: "0F5D0924F0B6AB68"
@@ -224,6 +230,7 @@
 			description: ["Видимо, быть тихим - не получилось. Разберитесь с Хранителем и получите его сердце."]
 			hide: true
 			id: "0152D66E23EE30B1"
+			shape: "hexagon"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0311549681A50D29"
@@ -238,6 +245,7 @@
 			dependencies: ["0152D66E23EE30B1"]
 			description: ["Сердце позволяет активировать портал в центре структуры. Зайдите в него."]
 			id: "41C65BD1CB61D79B"
+			shape: "hexagon"
 			tasks: [{
 				id: "6046F1C34010E17F"
 				item: "deeperdarker:heart_of_the_deep"
@@ -745,6 +753,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "52D9A3489790B662"
 				item: "aquamirae:frozen_key"
@@ -1122,6 +1131,7 @@
 			dependencies: ["41C65BD1CB61D79B"]
 			description: ["Отправьтесь в мир Хранителя."]
 			id: "6ADEE70572D80725"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "minecraft:reinforced_deepslate"
@@ -1134,6 +1144,7 @@
 		}
 		{
 			dependencies: ["6ADEE70572D80725"]
+			description: ["Выпадает с раздробленного."]
 			id: "2772EEDF07C08810"
 			tasks: [{
 				count: 4L
@@ -1147,6 +1158,7 @@
 		}
 		{
 			dependencies: ["6ADEE70572D80725"]
+			description: ["Выпадает с скалковой пиявки и кусаки."]
 			id: "364054C734A4EF77"
 			tasks: [{
 				count: 4L
@@ -1162,6 +1174,7 @@
 			dependencies: ["0152D66E23EE30B1"]
 			description: ["Выпадает с хранителя."]
 			id: "75B3A6074727C560"
+			shape: "hexagon"
 			tasks: [{
 				id: "1CF165DF3EDF7830"
 				item: "deeperdarker:warden_carapace"
@@ -1175,6 +1188,7 @@
 			dependencies: ["75B3A6074727C560"]
 			description: ["Используется в крафтах. Также позволяет улучшить незеритовые предметы."]
 			id: "6AFCB6E9C3CD66FE"
+			shape: "hexagon"
 			tasks: [{
 				id: "29D2E70090A2CB59"
 				item: "deeperdarker:reinforced_echo_shard"
@@ -1238,6 +1252,7 @@
 				item: "deeperdarker:warden_carapace"
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:soul_crystal"
@@ -1253,6 +1268,7 @@
 			dependencies: ["6ADEE70572D80725"]
 			description: ["Найдите и исследуйте Древний Храм."]
 			id: "6441D13ED875FC08"
+			shape: "hexagon"
 			subtitle: "Да. У меня все тихое... (ничего умнее не придумал)"
 			tasks: [{
 				icon: "deeperdarker:sculk_stone_bricks"
@@ -1347,6 +1363,7 @@
 			dependencies: ["3ED7F94EE99EAF66"]
 			description: ["Отправьтесь в Ад и найдите светокамень."]
 			id: "11D2A3E29F320A24"
+			shape: "hexagon"
 			tasks: [{
 				count: 8L
 				id: "671D579B9E3D8812"
@@ -1361,6 +1378,7 @@
 			dependencies: ["11D2A3E29F320A24"]
 			description: ["Пыль души создается путем броска светокаменной пыли в огонь душ."]
 			id: "5578A92C34074516"
+			shape: "hexagon"
 			tasks: [{
 				count: 4L
 				id: "08BBEF5B91585FFA"
@@ -1374,6 +1392,7 @@
 		{
 			dependencies: ["5578A92C34074516"]
 			id: "7ACCA38035DBC9BF"
+			shape: "hexagon"
 			tasks: [{
 				id: "47DD388912A22CE9"
 				item: "spirit:soul_steel_ingot"
@@ -1605,6 +1624,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				biome: "minecraft:deep_frozen_ocean"
 				icon: "minecraft:packed_ice"
@@ -1633,6 +1653,7 @@
 			dependencies: ["141BF7BC0C730C31"]
 			description: ["Отыщите пиратский корабль. Тут точно что-то скрывают."]
 			id: "57BCA5342F4DC2DF"
+			shape: "hexagon"
 			tasks: [{
 				icon: "aquamirae:pirate_pouch"
 				id: "074EA406AEDF8B7F"
@@ -1647,6 +1668,7 @@
 			dependencies: ["57BCA5342F4DC2DF"]
 			description: ["Предмет призыва босса. Можно найти на корабле."]
 			id: "4986FFC1C7A5B1E0"
+			shape: "hexagon"
 			tasks: [{
 				id: "79A3D86FFD8A83D1"
 				item: "aquamirae:shell_horn"

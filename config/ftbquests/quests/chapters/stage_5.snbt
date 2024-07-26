@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "circle"
 	filename: "stage_5"
 	group: "472A643616306AAC"
 	hide_quest_until_deps_visible: true
@@ -33,7 +33,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "Создайте кузницу гефеста."
 			tasks: [
 				{
@@ -429,6 +429,7 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			description: ["Используется для наиболее выгодного получения стержней, шестерёнок и проводов."]
 			hide_dependency_lines: true
 			id: "49FE185BA36BBE9E"
 			subtitle: "Да куда ещё больше ресурсов"
@@ -1081,6 +1082,7 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			description: ["Помпа — устройство для автоматической откачки жидкостей."]
 			hide_dependency_lines: true
 			id: "39720DB40191DF9E"
 			tasks: [{
@@ -1293,6 +1295,7 @@
 		}
 		{
 			dependencies: ["2AB9D41EA6F6EFF3"]
+			description: ["Добудьте аметриновую жеоду."]
 			icon: "gribtweaks:ametrine_ore"
 			id: "27CD2C168B13BCA9"
 			tasks: [{
@@ -1305,6 +1308,7 @@
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
+			description: ["Создайте пустую руну."]
 			id: "6159EDAAEB866FF7"
 			tasks: [{
 				id: "2109EFAF5FC8F2F2"
@@ -1316,6 +1320,7 @@
 		}
 		{
 			dependencies: ["27CD2C168B13BCA9"]
+			description: ["Создайте блок элементальных фрагментов."]
 			id: "543253F809DF8CCB"
 			tasks: [{
 				id: "79457F38175E890C"
@@ -1327,6 +1332,7 @@
 		}
 		{
 			dependencies: ["543253F809DF8CCB"]
+			description: ["Создайте элементальный слиток."]
 			id: "1AB577DB0DA1D1BC"
 			tasks: [{
 				id: "5B5BD957846BE5C7"
@@ -1342,6 +1348,7 @@
 				"1AB577DB0DA1D1BC"
 				"3CE7FF2F60D14597"
 			]
+			description: ["Наполните руны всеми стихиями."]
 			id: "3F160189551AB2D8"
 			subtitle: "Повелитель стихий"
 			tasks: [
@@ -1549,6 +1556,7 @@
 		}
 		{
 			dependencies: ["29A64888EFA4C537"]
+			description: ["Благодаря им механизмы становятся более функциональными."]
 			id: "281F3284BB747CA2"
 			tasks: [
 				{
@@ -1664,6 +1672,11 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
+			description: [
+				"Для выработки электроэнергии использует лаву."
+				""
+				"Один мВ лавы даёт 10⚡."
+			]
 			hide_dependency_lines: true
 			id: "651CF9EA2EC026DC"
 			tasks: [{
@@ -1710,6 +1723,7 @@
 		}
 		{
 			dependencies: ["0C07ED4E937D391B"]
+			description: ["Предназначена для дополнения к ядерному реактору, увеличивая его активную зону на 1 столбик и повышая теплоустойчивость."]
 			hide_dependency_lines: true
 			id: "34976B4919052C4B"
 			tasks: [{
@@ -1722,6 +1736,11 @@
 		}
 		{
 			dependencies: ["34976B4919052C4B"]
+			description: [
+				"Самый мощный и эффективный тип генератора в FTB Industrial contraptions."
+				""
+				"Работает на стержнях обогащённого урана."
+			]
 			id: "0060369E412BF5CF"
 			tasks: [{
 				id: "209D78F152476E80"
@@ -1756,6 +1775,7 @@
 		}
 		{
 			dependencies: ["0C07ED4E937D391B"]
+			description: ["Вырабатывает 1 антиматерию за 100000⚡."]
 			id: "35978A8DB25CAEB1"
 			tasks: [{
 				id: "6D91096D811411C2"
@@ -1853,6 +1873,7 @@
 				"6B8743E39A6E14B1"
 				"1CDCB4AE59BFBCFA"
 			]
+			description: ["Позволяет создавать более продвинутые механизмы."]
 			id: "0C07ED4E937D391B"
 			tasks: [{
 				id: "2F094DB8DCD58A1C"
@@ -1864,6 +1885,7 @@
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
+			description: ["Скрафтите слиток деорума."]
 			id: "514E931A23995A86"
 			tasks: [{
 				id: "0334E778CCC3F842"
@@ -1876,6 +1898,7 @@
 		}
 		{
 			dependencies: ["514E931A23995A86"]
+			description: ["Создайте слиток Гефеста на кузнице Гефеста."]
 			id: "0B23FC093A1BFCAE"
 			tasks: [{
 				id: "074E66EBE952EBB9"
@@ -1888,6 +1911,7 @@
 		{
 			dependencies: ["3F7BF82CF8C81EE2"]
 			id: "50D5D6FEAEF2ED4B"
+			shape: "hexagon"
 			tasks: [{
 				id: "5FC7E9FC63783313"
 				item: "gribtweaks:component_base"
@@ -1899,6 +1923,7 @@
 		{
 			dependencies: ["50D5D6FEAEF2ED4B"]
 			id: "3757B37584645585"
+			shape: "hexagon"
 			tasks: [{
 				id: "49095FDE0E6A767D"
 				item: "gribtweaks:sculk_component"
@@ -1910,6 +1935,7 @@
 		{
 			dependencies: ["3757B37584645585"]
 			id: "65935C8CDE6A150C"
+			shape: "hexagon"
 			tasks: [{
 				id: "60778E38A0D56689"
 				item: "gribtweaks:sculk_advanced_component"
@@ -1953,9 +1979,13 @@
 		}
 		{
 			dependencies: ["65935C8CDE6A150C"]
-			description: ["&l&4Открывает следующую стадию!&r&r"]
+			description: [
+				"Открывает возможность крафта более сложных механизмов."
+				""
+				"&l&4Открывает следующую стадию!&r&r"
+			]
 			id: "52006E555FBF3A27"
-			shape: "gear"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "0BFE7BBD530BC627"

@@ -19,6 +19,7 @@
 				table_id: 620023622523066540L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "39E48AB23440B358"
@@ -54,6 +55,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7A3C4D2B5FB6A15A"
@@ -101,6 +103,7 @@
 				table_id: 620023622523066540L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				count: 8L
 				id: "21EA0630DC8B7725"
@@ -122,6 +125,7 @@
 				table_id: 620023622523066540L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "019621A150F7B837"
@@ -168,6 +172,7 @@
 				table_id: 620023622523066540L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "415CC8C85047F122"
@@ -245,6 +250,7 @@
 			description: ["Благодаря технологиям вы обнаружили волокно способное распространятся по листве, окрашивая её."]
 			hide: true
 			id: "69374D2A54D2E8A7"
+			shape: "hexagon"
 			tasks: [{
 				id: "7C91AF6944C112B8"
 				item: "naturesaura:gold_fiber"
@@ -264,6 +270,7 @@
 				table_id: 4669929033245206696L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7E0652C58FC233F1"
 				item: "naturesaura:gold_leaf"
@@ -363,6 +370,7 @@
 				table_id: 4669929033245206696L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "763F63D9BA211250"
 				item: "naturesaura:token_joy"
@@ -387,7 +395,7 @@
 				table_id: 7654854154124048604L
 				type: "loot"
 			}]
-			shape: "gear"
+			shape: "square"
 			tasks: [{
 				id: "61B2B644EEC497BA"
 				item: "naturesaura:nature_altar"
@@ -421,6 +429,8 @@
 			description: ["С помощью пресcа вам удалось запаковать солнечный свет. КАК!?"]
 			hide: true
 			id: "7275A9136C0543FE"
+			shape: "hexagon"
+			subtitle: "Личный лучик света"
 			tasks: [{
 				id: "704ECAB3EB386B7D"
 				item: {
@@ -433,7 +443,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Личный лучик света"
+			title: "Бутилированный солнечный свет"
 			x: 8.5d
 			y: -2.0d
 		}
@@ -470,6 +480,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Не chisel, но лучше"
 			tasks: [
 				{
 					id: "1460412D8DB76229"
@@ -507,7 +518,7 @@
 					type: "item"
 				}
 			]
-			title: "Не chisel, но лучше"
+			title: "Столы обработки блоков"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -523,6 +534,7 @@
 				id: "4CF8DBDB606575F9"
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "4FC02EEBACFC7B12"
 				item: "create:andesite_alloy"
@@ -635,6 +647,7 @@
 		}
 		{
 			dependencies: ["6AC6E0BBE565BFC2"]
+			description: ["Сделайте подношение богам, чтобы получить это слиток."]
 			id: "7C80BEA676A0078A"
 			tasks: [{
 				id: "378AD8F247BC6E8C"
@@ -649,6 +662,7 @@
 				"7DC86FEBB7F17821"
 				"7C80BEA676A0078A"
 			]
+			description: ["Создайте слиток глубин."]
 			id: "03F66036C8134D82"
 			tasks: [{
 				id: "07EB90F3D505EAC1"
@@ -847,7 +861,9 @@
 		}
 		{
 			dependencies: ["6187009683A16AB1"]
+			description: ["Скрафтите бутылку с пробку."]
 			id: "139C7F3B1CBD9CDF"
+			shape: "hexagon"
 			tasks: [{
 				id: "27F133C1AC18DA43"
 				item: "naturesaura:bottle_two_the_rebottling"
@@ -858,6 +874,7 @@
 		}
 		{
 			dependencies: ["139C7F3B1CBD9CDF"]
+			description: ["Наполните бутылку с пробкой призраками в аду. "]
 			id: "7524E89870BE34C6"
 			tasks: [{
 				id: "5EED10AB34E454CA"
@@ -876,6 +893,7 @@
 		}
 		{
 			dependencies: ["139C7F3B1CBD9CDF"]
+			description: ["Наполните бутылку с пробкой тьмой в эндер мире."]
 			id: "38E578EAF2E3F91A"
 			tasks: [{
 				id: "62148C56FC84FFB0"
@@ -894,6 +912,7 @@
 		}
 		{
 			dependencies: ["719CBE19584F107B"]
+			description: ["Испортите золотой слиток в природном алтаре."]
 			id: "7DC86FEBB7F17821"
 			tasks: [{
 				id: "1D25355398F01960"

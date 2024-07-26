@@ -20,7 +20,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7C85E8B7EB2FDB93"
@@ -69,7 +69,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "2E72DB5E3D6B643F"
 				item: {
@@ -98,7 +98,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "27EBCFCFAFCC8225"
@@ -133,7 +133,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				count: 6L
 				id: "3BF60D3D2E6F9978"
@@ -159,7 +159,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "423E4150ADA4E92B"
 				item: "forbidden_arcanus:quantum_catcher"
@@ -179,7 +179,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "14AA5EC3A58EC81C"
 				item: "farmersdelight:cooking_pot"
@@ -204,7 +204,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "56682AB1A2D7294D"
@@ -244,7 +244,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "5D9494CD2A99A24C"
@@ -292,7 +292,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "37780F48DB716EF6"
 				item: "quark:magnet"
@@ -317,7 +317,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "3005B1C0C7532A44"
 				item: "botania:loonium"

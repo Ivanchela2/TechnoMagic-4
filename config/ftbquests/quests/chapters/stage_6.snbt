@@ -17,8 +17,8 @@
 			image: "placebo:textures/wings/angel.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -4.5d
-			y: 16.5d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -31,8 +31,8 @@
 			order: -10
 			rotation: 0.0d
 			width: 3.0d
-			x: -4.511904761904745d
-			y: 16.90476190476194d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -45,32 +45,8 @@
 			order: -5
 			rotation: 0.0d
 			width: 5.5d
-			x: -4.5d
-			y: 17.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.5d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.0d
-			y: 5.0d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -197,30 +173,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -1.0d
-			y: 11.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "forbidden_arcanus:textures/effect/magic_circle/repel.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -14.0d
-			y: 7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
 			hover: [ ]
 			image: "ad_astra:textures/sky/glacio.png"
@@ -243,145 +195,6 @@
 		}
 		{
 			click: ""
-			corner: false
-			dependency: "22D3571C9AB084E1"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_solid_layer_1"
-			rotation: 0.0d
-			width: 0.5d
-			x: -17.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			color: 14886454
-			corner: false
-			dependency: "22D3571C9AB084E1"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_liquid_layer_0"
-			order: -1
-			rotation: 0.0d
-			width: 0.5d
-			x: -17.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "31BA881F9BA2E723"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_solid_layer_1"
-			rotation: -45.0d
-			width: 0.5d
-			x: -17.75d
-			y: 4.25d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "4BC8FABEEF773E06"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_solid_layer_1"
-			rotation: -90.0d
-			width: 0.5d
-			x: -18.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "27F16682E4761ED8"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_solid_layer_1"
-			rotation: -180.0d
-			width: 0.5d
-			x: -17.0d
-			y: 6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "2D45BE7AC519B83A"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_solid_layer_1"
-			rotation: -135.0d
-			width: 0.5d
-			x: -17.75d
-			y: 5.75d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "4BC8FABEEF773E06"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_liquid_layer_0"
-			order: -1
-			rotation: -90.0d
-			width: 0.5d
-			x: -18.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			color: 8388564
-			corner: false
-			dependency: "31BA881F9BA2E723"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_liquid_layer_0"
-			order: -1
-			rotation: -45.0d
-			width: 0.5d
-			x: -17.75d
-			y: 4.25d
-		}
-		{
-			click: ""
-			color: 0
-			corner: false
-			dependency: "27F16682E4761ED8"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_liquid_layer_0"
-			order: -1
-			rotation: -180.0d
-			width: 0.5d
-			x: -17.0d
-			y: 6.0d
-		}
-		{
-			click: ""
-			color: 16764736
-			corner: false
-			dependency: "2D45BE7AC519B83A"
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "chemlib:items/element_liquid_layer_0"
-			order: -1
-			rotation: -135.0d
-			width: 0.5d
-			x: -17.75d
-			y: 5.75d
-		}
-		{
-			click: ""
 			color: 8026746
 			corner: false
 			dependency: "1AC8D7847D07D95A"
@@ -392,8 +205,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 4.35d
-			x: -4.5d
-			y: 16.65d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -407,8 +220,8 @@
 			order: -10
 			rotation: 0.0d
 			width: 5.75d
-			x: -4.5d
-			y: 17.35d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -541,6 +354,7 @@
 		}
 	]
 	order_index: 5
+	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1596,15 +1410,15 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "&5Начало 6й стадии"
 			tasks: [{
 				id: "0F19AC7358A27D52"
 				title: "Все любят химию!"
 				type: "checkmark"
 			}]
-			x: -17.0d
-			y: 5.0d
+			x: -11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0DF0EAE626C09688"]
@@ -1617,7 +1431,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "&5Переход к другому моду"
 			tasks: [{
 				id: "704ABAD6E737647D"
@@ -1625,8 +1439,8 @@
 				type: "item"
 			}]
 			title: "Объединитель"
-			x: -14.0d
-			y: 7.0d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0DF0EAE626C09688"]
@@ -1638,16 +1452,15 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
 				id: "63FEC76352472CCD"
 				item: "alchemistry:dissolver"
 				type: "item"
 			}]
 			title: "Растворитель"
-			x: -14.0d
-			y: 3.0d
+			x: -9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0DF0EAE626C09688"]
@@ -1659,16 +1472,15 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
 				id: "1B699A55C55B43B9"
 				item: "alchemistry:compactor"
 				type: "item"
 			}]
 			title: "Компактор"
-			x: -13.0d
-			y: 5.0d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1695,15 +1507,14 @@
 				}
 			]
 			shape: "circle"
-			size: 1.5d
 			tasks: [{
 				id: "75518D0E164211FC"
 				item: "alchemistry:reactor_casing"
 				type: "item"
 			}]
 			title: "Корпус реактора"
-			x: -10.0d
-			y: 5.0d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1719,15 +1530,14 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 2.0d
 			tasks: [{
 				id: "288B5EFAB2B03BA0"
 				item: "alchemistry:fusion_chamber_controller"
 				type: "item"
 			}]
 			title: "Контроллер термоядерной камеры"
-			x: -7.0d
-			y: 5.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["49B1935183B37CE5"]
@@ -1746,8 +1556,8 @@
 				type: "item"
 			}]
 			title: "Термоядерное ядро"
-			x: -10.5d
-			y: 3.0d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49B1935183B37CE5"]
@@ -1778,8 +1588,8 @@
 				}
 			]
 			title: "Вход/выход реактора"
-			x: -10.5d
-			y: 7.0d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["44F96715665B92F6"]
@@ -1799,7 +1609,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "&5Переход к другому моду"
 			tasks: [
 				{
@@ -1814,8 +1624,8 @@
 				}
 			]
 			title: "Слиток актиния"
-			x: -4.0d
-			y: 5.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["31BA881F9BA2E723"]
@@ -1827,8 +1637,7 @@
 				item: "biggerreactors:reactor_glass"
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "circle"
 			subtitle: "&6Дополнительный источник энергии"
 			tasks: [{
 				id: "5222692DD2F8F92E"
@@ -1836,8 +1645,8 @@
 				type: "item"
 			}]
 			title: "Первый большой реактор"
-			x: -1.0d
-			y: 5.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -1849,14 +1658,15 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "66B1856035F356D9"
 				item: "biggerreactors:reactor_terminal"
 				type: "item"
 			}]
 			title: "Терминал реактора"
-			x: 1.5d
-			y: 5.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -1868,6 +1678,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [
 				{
 					id: "75809C3093C47D7F"
@@ -1881,8 +1692,8 @@
 				}
 			]
 			title: "Топливный стержень реактора"
-			x: 3.0d
-			y: 5.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -1894,6 +1705,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [
 				{
 					id: "621E63ECBE62470C"
@@ -1909,7 +1721,7 @@
 			]
 			title: "Вход/выход реактора"
 			x: 4.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1925,7 +1737,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			size: 1.2d
+			shape: "circle"
 			tasks: [{
 				id: "6682EE52899605D8"
 				item: "biggerreactors:cyanite_reprocessor"
@@ -1933,7 +1745,7 @@
 			}]
 			title: "Репрессор цианита"
 			x: 6.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -1945,7 +1757,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [
 				{
 					id: "384D141C347C416D"
@@ -1958,8 +1769,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 6.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -1971,7 +1782,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				count: 2L
 				id: "0CDB9CAC6221DE5A"
@@ -1979,8 +1789,8 @@
 				type: "item"
 			}]
 			title: "Стальной бак"
-			x: 9.75d
-			y: 7.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -2009,8 +1819,8 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
-			size: 6.0d
+			shape: "circle"
+			size: 1.2d
 			subtitle: "&6Первая остановка - Луна"
 			tasks: [{
 				id: "321A66C703F72048"
@@ -2024,7 +1834,7 @@
 				type: "item"
 			}]
 			title: "К взлету готов! Прием?.. "
-			x: 15.0d
+			x: 2.5d
 			y: 11.0d
 		}
 		{
@@ -2037,7 +1847,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				count: 4L
 				id: "22365FD11490B06A"
@@ -2045,7 +1854,7 @@
 				type: "item"
 			}]
 			title: "Стабилизатор"
-			x: 8.25d
+			x: -3.5d
 			y: 13.0d
 		}
 		{
@@ -2058,13 +1867,12 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "07FD8574C554F132"
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: 9.75d
+			x: -3.5d
 			y: 15.0d
 		}
 		{
@@ -2084,7 +1892,7 @@
 				table_id: 6910744682423747065L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "circle"
 			subtitle: "&6Сердце Ангела (почти)"
 			tasks: [{
 				id: "0A9033C4461F6836"
@@ -2092,7 +1900,7 @@
 				type: "item"
 			}]
 			title: "Ядро рассвета"
-			x: -4.5d
+			x: -9.5d
 			y: 11.0d
 		}
 		{
@@ -2108,7 +1916,6 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.5d
 			subtitle: "&5Переход к другому моду"
 			tasks: [{
 				id: "3CAA22086525CEA4"
@@ -2116,8 +1923,8 @@
 				type: "item"
 			}]
 			title: "Ядро лунного света"
-			x: -1.0d
-			y: 11.0d
+			x: -7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -2135,8 +1942,8 @@
 				type: "item"
 			}]
 			title: "Рассвет"
-			x: -14.0d
-			y: 11.5d
+			x: -8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -2154,8 +1961,8 @@
 				type: "item"
 			}]
 			title: "Лунный свет"
-			x: -14.0d
-			y: 10.5d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -2173,8 +1980,8 @@
 				type: "item"
 			}]
 			title: "Нефрит"
-			x: -14.0d
-			y: 9.5d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -2192,8 +1999,8 @@
 				type: "item"
 			}]
 			title: "Кровавый камень"
-			x: -14.0d
-			y: 8.5d
+			x: -7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -2205,8 +2012,8 @@
 				type: "item"
 			}]
 			title: "Сплав рассвета"
-			x: -8.5d
-			y: 11.5d
+			x: -8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -2218,8 +2025,8 @@
 				type: "item"
 			}]
 			title: "Сплав лунного света"
-			x: -8.5d
-			y: 10.5d
+			x: -8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -2231,8 +2038,8 @@
 				type: "item"
 			}]
 			title: "Сплав кровавого камня"
-			x: -9.5d
-			y: 8.5d
+			x: -7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -2244,8 +2051,8 @@
 				type: "item"
 			}]
 			title: "Сплав нефрита"
-			x: -9.0d
-			y: 9.5d
+			x: -11.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0D3E772E07907857"]
@@ -2264,15 +2071,15 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "&5Переход к другому моду"
 			tasks: [{
 				id: "2C121F109D81DCDA"
 				item: "biggerreactors:reinforced_ludicrite_block"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.0d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -2288,8 +2095,7 @@
 				item: "biggerreactors:turbine_glass"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.5d
+			shape: "circle"
 			subtitle: "&6Дополнительный источник энергии"
 			tasks: [{
 				id: "169772905B2B5CEC"
@@ -2297,8 +2103,8 @@
 				type: "item"
 			}]
 			title: "Турбина"
-			x: 9.5d
-			y: 2.21d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3534283B09AF261F"]
@@ -2311,15 +2117,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "0D21F9E8B1197697"
 				item: "biggerreactors:turbine_terminal"
 				type: "item"
 			}]
 			title: "Терминал турбины"
-			x: 9.5d
-			y: 0.0d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2348,8 +2153,8 @@
 				}
 			]
 			title: "Вход/выход турбины"
-			x: 11.5d
-			y: 2.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2383,8 +2188,8 @@
 				}
 			]
 			title: "Лопасть ротора турбины"
-			x: 7.5d
-			y: 2.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -2400,16 +2205,15 @@
 				item: "biggerreactors:heat_exchanger_glass"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
 				id: "7216FFCAE342A459"
 				item: "biggerreactors:heat_exchanger_casing"
 				type: "item"
 			}]
 			title: "Теплообменник"
-			x: -1.0d
-			y: 2.2113095238095113d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["349C095C296C8A9C"]
@@ -2429,15 +2233,14 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "0F255F6AD22774A3"
 				item: "biggerreactors:heat_exchanger_terminal"
 				type: "item"
 			}]
 			title: "Терминал теплообменника"
-			x: -1.0238095238095042d
-			y: 0.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2465,8 +2268,8 @@
 				}
 			]
 			title: "Канал конденсатора теплообменника"
-			x: 1.0d
-			y: 2.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2488,8 +2291,8 @@
 				type: "item"
 			}]
 			title: "Жидкостный порт теплообменника"
-			x: -3.0d
-			y: 2.5d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2499,7 +2302,7 @@
 			description: ["Используйте корону на пьедестале, чтобы призвать Ангела! Пьедестал можно найти на острове."]
 			hide: true
 			id: "1AC8D7847D07D95A"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "63DDA5A9C8523D62"
 				item: {
@@ -2512,8 +2315,8 @@
 				type: "item"
 			}]
 			title: "Ее нельзя надеть!"
-			x: -4.5d
-			y: 13.5d
+			x: -9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7E49B7C62FAE8271"]
@@ -2544,14 +2347,15 @@
 					type: "item"
 				}
 			]
+			shape: "circle"
 			tasks: [{
 				id: "7039D1E340A9FA50"
 				item: "arclight:angel_feather"
 				type: "item"
 			}]
 			title: "Перо Ангела"
-			x: -1.0d
-			y: 8.5d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
 			can_repeat: true
@@ -2567,7 +2371,7 @@
 				type: "random"
 			}]
 			shape: "circle"
-			size: 2.5d
+			size: 1.2d
 			subtitle: "&6Думаешь это легко?"
 			tasks: [{
 				entity: "arclight:angel"
@@ -2583,8 +2387,8 @@
 				value: 1L
 			}]
 			title: "Стань закатом"
-			x: -4.511904761904738d
-			y: 16.892857142857153d
+			x: -7.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["395110AEC64CC6BE"]
@@ -2596,7 +2400,7 @@
 				table_id: 6910744682423747065L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "128F6096E41C8C1E"
@@ -2644,8 +2448,8 @@
 				}
 			]
 			title: "Ангельская броня"
-			x: 3.5d
-			y: 8.5d
+			x: -3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2D45BE7AC519B83A"]
@@ -2655,15 +2459,14 @@
 				item: "arclight:arclight_core"
 				type: "item"
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "2A03AA04177DAE8D"
 				item: "arclight:sculk_core"
 				type: "item"
 			}]
 			title: "Ядро скалка"
-			x: -1.0323129251700962d
-			y: 14.059523809523796d
+			x: -5.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["25A4EAB98B5899DD"]
@@ -2675,15 +2478,15 @@
 				item: "forbidden_arcanus:dark_nether_star"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "08D6F8358A976BDE"
 				item: "arclight:scorpion_core"
 				type: "item"
 			}]
 			title: "Ядро кровавого камня"
-			x: -6.0d
-			y: 13.5d
+			x: -9.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2D45BE7AC519B83A"]
@@ -2695,13 +2498,12 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 1.5d
 			tasks: [{
 				id: "379362A20BF7D4C2"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -2715,14 +2517,14 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [{
 				id: "243E8FC6E95F56A8"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: -3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["07A43935DD1AAD3A"]
@@ -2756,8 +2558,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
+			shape: "circle"
 			tasks: [
 				{
 					id: "3C6AC9C77A7A6926"
@@ -2806,8 +2607,8 @@
 				}
 			]
 			title: "Скафандр"
-			x: 8.25d
-			y: 9.0d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["65C9C12C7EB39E79"]
@@ -2824,15 +2625,14 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
 				id: "1B1644C4BE0D2905"
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.0d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["33053530B0E14028"]
@@ -2844,14 +2644,14 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [{
 				id: "617B494A56818B52"
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: -1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["593F2BC8C93AF274"]
@@ -2862,14 +2662,14 @@
 				item: "ad_astra:white_flag"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [{
 				id: "293505943EE9FA8F"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["27F16682E4761ED8"]
@@ -3149,15 +2949,14 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "62DCA907B0D42495"
 				item: "arclight:armor_forge"
 				type: "item"
 			}]
 			title: "Кузница паладинов"
-			x: -11.5d
-			y: 11.0d
+			x: -9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -3175,8 +2974,8 @@
 				type: "item"
 			}]
 			title: "Криориум"
-			x: -14.0d
-			y: 12.5d
+			x: -11.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -3193,8 +2992,8 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 13.5d
+			x: -11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -3206,8 +3005,8 @@
 				type: "item"
 			}]
 			title: "Сплав криориума"
-			x: -9.0d
-			y: 12.5d
+			x: -11.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -3219,8 +3018,8 @@
 				type: "item"
 			}]
 			title: "Сплав скалка"
-			x: -9.5d
-			y: 13.5d
+			x: -11.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0DF0EAE626C09688"]
@@ -4001,14 +3800,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "2B783B23176A3A8C"
 				item: "ad_astra:rocket_covering"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["27F16682E4761ED8"]
@@ -4268,7 +4066,7 @@
 				table_id: 6910744682423747065L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "2236DCEF06DDDFCA"
@@ -4316,8 +4114,8 @@
 				}
 			]
 			title: "Броня рассвета"
-			x: -4.5d
-			y: 8.5d
+			x: -11.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7F00A0CECCE9E515"]
@@ -4488,16 +4286,17 @@
 				"09FE183569C4CBB1"
 				"4F7F6A58036E16E6"
 			]
+			description: ["Создайте ангельский слиток используя ритуал \"Связывание высшего Стригора\"."]
 			hide_dependency_lines: true
 			id: "5881059B79007B10"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "3BBC8F6FAA9BE502"
 				item: "gribtweaks:angel_ingot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.5d
+			x: -11.5d
+			y: 15.0d
 		}
 	]
 	title: "&5Стадия: 6"

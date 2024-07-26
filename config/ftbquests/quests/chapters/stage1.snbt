@@ -77,6 +77,7 @@
 			]
 			description: ["При ломании травы при помощи ножа выпадает растительное волокно, используемое для создания нитей."]
 			id: "7B908CABA361E481"
+			shape: "hexagon"
 			subtitle: "Пригодится в нарезке свинины"
 			tasks: [{
 				id: "453BCDE7FE04CDED"
@@ -103,6 +104,7 @@
 				item: "notreepunching:plant_fiber"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3F98EDEF74A4FDE5"
 				item: "notreepunching:plant_fiber"
@@ -121,6 +123,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "hexagon"
 			subtitle: "Уже не обезьяна"
 			tasks: [{
 				id: "31920DE4B0D76CE0"
@@ -172,6 +175,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3C2E9F1ED2A2DDB0"
 				item: {
@@ -245,6 +249,7 @@
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Отправляйтесь в шахту и добудьте железо."]
 			id: "3EE32FBF22B7DBFA"
+			shape: "hexagon"
 			tasks: [{
 				id: "499CE15F77317FDA"
 				item: "minecraft:raw_iron"
@@ -387,6 +392,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3856FB3CE56EBB52"
 				item: {
@@ -420,6 +426,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "57AF1D2318540262"
@@ -495,6 +502,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "hexagon"
 			tasks: [{
 				icon: "minecraft:feather"
 				id: "34DD129890C53D54"
@@ -521,6 +529,7 @@
 				item: "totemic:eagle_bone"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "422B5C9D053D6E46"
 				item: "totemic:eagle_bone"
@@ -534,6 +543,7 @@
 			dependencies: ["0A2E19584BBEDCF3"]
 			description: ["Благодаря свистку из орлиной кости вы можете призвать босса Байкока."]
 			id: "433AA6BC59B57D44"
+			shape: "hexagon"
 			tasks: [{
 				id: "26070C0E17930E1A"
 				item: "totemic:eagle_bone_whistle"
@@ -592,7 +602,7 @@
 					xp_levels: 10
 				}
 			]
-			shape: "gear"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				entity: "totemic:baykok"
@@ -671,6 +681,7 @@
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Создайте ножницы для сбора листвы."]
 			id: "58FA09982DA65E3C"
 			tasks: [{
 				id: "2567FDF0141674F0"
@@ -688,6 +699,7 @@
 		}
 		{
 			dependencies: ["72CEB74B0928C7C3"]
+			description: ["Отличный вариант в качестве первой брони."]
 			id: "05EED6B5A54A6D57"
 			subtitle: "Первая броня!"
 			tasks: [
@@ -742,6 +754,7 @@
 		}
 		{
 			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Используется для сбора сбежавших курятинов."]
 			id: "7F0EF22AFEEAC209"
 			tasks: [{
 				id: "7CCBBCBCD35E6770"

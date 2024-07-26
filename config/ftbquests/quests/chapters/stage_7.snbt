@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "circle"
 	filename: "stage_7"
 	group: "472A643616306AAC"
 	hide_quest_until_deps_visible: true
@@ -84,7 +84,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 1.2d
 			tasks: [{
 				id: "0B5A3B6B8F720EB3"
 				title: "&5Стадия 7"
@@ -116,7 +116,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [
 				{
 					id: "66F1A12C63DD5BA9"
@@ -130,8 +129,8 @@
 				}
 			]
 			title: "Чистая маргаритка"
-			x: -1.1000000000000059d
-			y: 2.2714285714285616d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["044526F172270DF5"]
@@ -156,8 +155,8 @@
 				type: "item"
 			}]
 			title: "Как получить мистические цветы?"
-			x: -1.1000000000000059d
-			y: 0.021428571428561582d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7CF4C70423A53448"]
@@ -177,8 +176,8 @@
 				type: "item"
 			}]
 			title: "Жизнедерево"
-			x: -3.100000000000006d
-			y: 4.021428571428562d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7CF4C70423A53448"]
@@ -198,8 +197,8 @@
 				type: "item"
 			}]
 			title: "Жизнекамень"
-			x: 0.8999999999999941d
-			y: 4.021428571428562d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39D12BB895A1D8D8"]
@@ -221,8 +220,8 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			x: -3.100000000000006d
-			y: 6.521428571428562d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["70361FA058FFB101"]
@@ -241,8 +240,8 @@
 				item: "botania:diluted_pool"
 				type: "item"
 			}]
-			x: 0.8999999999999941d
-			y: 6.521428571428562d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7CF4C70423A53448"]
@@ -274,8 +273,8 @@
 				}
 			]
 			title: "Первая мана!"
-			x: -1.092857142857146d
-			y: 5.257142857142849d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -308,7 +307,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.0d
 			tasks: [
 				{
 					id: "7C2E1EB746B95EFC"
@@ -327,8 +325,8 @@
 				}
 			]
 			title: "Мана-ресурсы"
-			x: -1.1000000000000059d
-			y: 8.021428571428562d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39D12BB895A1D8D8"]
@@ -340,7 +338,6 @@
 				table_id: 4664548526860651201L
 				type: "random"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "23D2A9768A1F69D4"
 				item: {
@@ -350,8 +347,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.9000000000000057d
-			y: 3.2214285714285618d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4230A40240172024"]
@@ -367,15 +364,15 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "Подробнее в лексиконе."
 			tasks: [{
 				id: "2EE3B857C63C9CDD"
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: -1.1000000000000059d
-			y: 12.771428571428562d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["774A31C218E33D61"]
@@ -394,8 +391,8 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			x: -1.1000000000000059d
-			y: 10.521428571428562d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0487B8A00D49AB0F"]
@@ -407,15 +404,14 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			size: 0.8d
 			subtitle: "Подробнее в лексиконе"
 			tasks: [{
 				id: "1DEB8580FB17D89D"
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.2d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4230A40240172024"]
@@ -431,8 +427,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: -2.600000000000006d
-			y: 11.021428571428562d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["774A31C218E33D61"]
@@ -443,14 +439,13 @@
 				item: "botania:manasteel_block"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "47F6BDC23A65C6F4"
 				item: "botania:mana_pylon"
 				type: "item"
 			}]
-			x: 0.49999999999999467d
-			y: 8.821428571428562d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["774A31C218E33D61"]
@@ -462,14 +457,13 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "746C15DE412427B9"
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: -2.700000000000006d
-			y: 8.821428571428562d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4230A40240172024"]
@@ -486,8 +480,8 @@
 				item: "botania:mana_ring"
 				type: "item"
 			}]
-			x: 0.39999999999999414d
-			y: 11.021428571428562d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A35127266C9F2D0"]
@@ -505,15 +499,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.3d
 			subtitle: "Подробнее в лексиконе"
 			tasks: [{
 				id: "244507B5C592A67A"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 1.738095238095248d
-			y: 12.759523809523778d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0D40BBE03A8EDABF"]
@@ -526,14 +519,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "532C43A0C048C672"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 4.649319727891161d
-			y: 12.755782312925163d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1225DF902E41CFCE"]
@@ -550,6 +542,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.2d
 			subtitle: "Подробнее в лексиконе"
 			tasks: [
 				{
@@ -577,8 +570,8 @@
 				}
 			]
 			title: "Портал в эльфхейм"
-			x: 6.976190476190482d
-			y: 12.723979591836738d
+			x: 17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["27167BC51C639600"]
@@ -599,7 +592,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.5d
 			tasks: [
 				{
 					id: "540D541CF8F67B63"
@@ -621,8 +613,8 @@
 				}
 			]
 			title: "Полет на &6Марс"
-			x: 6.98571428571428d
-			y: 9.706547619047619d
+			x: 19.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1225DF902E41CFCE"]
@@ -680,8 +672,8 @@
 				}
 			]
 			title: "Броня из террастали"
-			x: 3.5d
-			y: 14.5d
+			x: 13.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1225DF902E41CFCE"]
@@ -730,8 +722,8 @@
 				}
 			]
 			title: "Инструменты из террастали"
-			x: 6.0d
-			y: 14.5d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1225DF902E41CFCE"]
@@ -748,8 +740,8 @@
 				item: "botania:mana_ring_greater"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A35127266C9F2D0"]
@@ -761,15 +753,14 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			size: 0.8d
 			subtitle: "Подробнее в лексиконе"
 			tasks: [{
 				id: "223004575A58EA02"
 				item: "botania:aura_ring"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.5d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7A0A0C200A682AED"]
@@ -788,8 +779,8 @@
 				type: "item"
 			}]
 			title: "Острум"
-			x: 4.995578231292491d
-			y: 9.696938775510198d
+			x: 21.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1225DF902E41CFCE"]
@@ -806,8 +797,8 @@
 				item: "botania:aura_ring_greater"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7A0A0C200A682AED"]
@@ -825,8 +816,8 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 6.990476190476194d
-			y: 7.455187074829922d
+			x: 21.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7967A8ED6E8D76A4"]
@@ -847,7 +838,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
 			tasks: [
 				{
 					count: 4L
@@ -862,8 +852,8 @@
 				}
 			]
 			title: "Ритуал Гайи"
-			x: 7.0d
-			y: 5.5d
+			x: 23.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C511DC62177DF3C"]
@@ -882,7 +872,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: "botania:gaia_head"
@@ -890,8 +880,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: 25.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -913,8 +903,8 @@
 				item: "botanicadds:gaia_plate"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 27.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27167BC51C639600"]
@@ -924,14 +914,13 @@
 				item: "botanicadds:elven_lapis"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "1C91E70380606229"
 				item: "botanicadds:elven_lapis"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.6d
+			x: 19.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["27167BC51C639600"]
@@ -941,14 +930,13 @@
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "45834E254399AD39"
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: 8.8d
-			y: 12.8d
+			x: 19.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["27167BC51C639600"]
@@ -958,14 +946,13 @@
 				item: "botania:pixie_dust"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "54C72A4485AFDECA"
 				item: "botania:pixie_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["01441E30124110D2"]
@@ -976,15 +963,14 @@
 				item: "botania:spark"
 				type: "item"
 			}]
-			size: 0.8d
 			subtitle: "Подробнее в лексиконе"
 			tasks: [{
 				id: "5F3C2F0C5A42B429"
 				item: "botania:spark"
 				type: "item"
 			}]
-			x: 1.6d
-			y: 7.2d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15587FC673553B60"]
@@ -1001,8 +987,8 @@
 				title: "&cГайясталь"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 29.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51D38EB848F121C3"]
@@ -1023,7 +1009,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.5d
 			tasks: [
 				{
 					id: "3AB0CD010E49F39A"
@@ -1045,8 +1030,8 @@
 				}
 			]
 			title: "Полет на &6Венеру"
-			x: 4.5d
-			y: 1.05d
+			x: 27.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -1062,8 +1047,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: 27.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["750DE25BC082CF89"]
@@ -1075,8 +1060,7 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.3d
+			shape: "circle"
 			subtitle: "Подробнее в лексиконе"
 			tasks: [{
 				id: "2C7CD6B4D0B3AAD2"
@@ -1084,8 +1068,8 @@
 				type: "item"
 			}]
 			title: "Гайа 2-го уровня"
-			x: 3.452380952380963d
-			y: 9.128571428571405d
+			x: 29.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["577AFF77E648C927"]
@@ -1105,8 +1089,8 @@
 				type: "item"
 			}]
 			title: "&cКалорит"
-			x: 6.6d
-			y: 1.05d
+			x: 29.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1137,7 +1121,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 3.0d
 			subtitle: "(почти)"
 			tasks: [
 				{
@@ -1160,8 +1143,8 @@
 				}
 			]
 			title: "&l&bФинал!"
-			x: 9.1d
-			y: 1.05d
+			x: 31.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0D40BBE03A8EDABF"]
@@ -1173,15 +1156,14 @@
 				item: "botania:orange_petal_block"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
 				id: "54F04E9DD84471A1"
 				item: "botania:infinity_petal"
 				type: "item"
 			}]
-			x: 1.75d
-			y: 14.664285714285683d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -1193,14 +1175,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.2d
 			tasks: [{
 				id: "2A227104F65C2416"
 				item: "botania:gaia_catalyst"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.5d
+			x: 25.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4D62279676E67C46"]
@@ -1212,15 +1193,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.4d
 			tasks: [{
 				id: "6D505EF3892BA7F9"
 				item: "botania:maximum_catalyst"
 				type: "item"
 			}]
 			title: "&bМаксимальный катализатор!"
-			x: 9.1d
-			y: 3.5d
+			x: 31.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -1233,7 +1213,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.3d
 			tasks: [
 				{
 					id: "7EF14C5480499A2B"
@@ -1282,8 +1261,8 @@
 				}
 			]
 			title: "Скафандр 2-го уровня"
-			x: 4.5d
-			y: 3.5d
+			x: 25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -1310,8 +1289,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 23.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A35127266C9F2D0"]
@@ -1322,14 +1301,13 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			size: 0.8d
 			tasks: [{
 				id: "785571575DCB3516"
 				item: "botania:brewery"
 				type: "item"
 			}]
-			x: -1.497619047619061d
-			y: 14.36071428571426d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["577AFF77E648C927"]
@@ -1348,8 +1326,8 @@
 				type: "dimension"
 			}]
 			title: "Полет на &5Меркурий"
-			x: 2.5d
-			y: 1.05d
+			x: 25.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F46B82276A6CCF7"]
@@ -1409,8 +1387,8 @@
 				}
 			]
 			title: "&cРеактивный костюм"
-			x: 6.6d
-			y: -0.7559523809523654d
+			x: 29.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7967A8ED6E8D76A4"]
@@ -1427,8 +1405,8 @@
 				item: "botania:elven_spreader"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 7.5d
+			x: 21.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5AA76ACC046A771E"]
@@ -1445,8 +1423,8 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 27.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A35127266C9F2D0"]
@@ -1470,14 +1448,13 @@
 					type: "item"
 				}
 			]
-			size: 0.8d
 			tasks: [{
 				id: "585A2452D4EB45AB"
 				item: "botanicalmachinery:mechanical_runic_altar"
 				type: "item"
 			}]
-			x: -2.9357142857142833d
-			y: 12.18928571428571d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0D40BBE03A8EDABF"]
@@ -1497,8 +1474,8 @@
 				item: "botanicalmachinery:industrial_agglomeration_factory"
 				type: "item"
 			}]
-			x: 1.721428571428575d
-			y: 11.017857142857139d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2FB0CB328E6CA691"]
@@ -1539,8 +1516,8 @@
 				item: "botanicalmachinery:mechanical_mana_pool"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7CF4C70423A53448"]
@@ -1557,8 +1534,8 @@
 				item: "botanicalmachinery:mechanical_daisy"
 				type: "item"
 			}]
-			x: 0.8976190476190595d
-			y: 2.290476190476191d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27167BC51C639600"]
@@ -1599,8 +1576,8 @@
 				item: "botanicalmachinery:alfheim_market"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.0d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7CF4C70423A53448"]
@@ -1617,8 +1594,8 @@
 				item: "botanicalmachinery:mechanical_apothecary"
 				type: "item"
 			}]
-			x: -3.0833333333333357d
-			y: 2.213095238095221d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5BE613023BEDDB20"]
@@ -1647,8 +1624,8 @@
 				item: "botanicalmachinery:mechanical_brewery"
 				type: "item"
 			}]
-			x: -1.8309523809523895d
-			y: 15.682142857142829d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1675,8 +1652,8 @@
 				item: "botanicalmachinery:mana_battery"
 				type: "item"
 			}]
-			x: 6.792857142857166d
-			y: 2.1809523809523483d
+			x: 29.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A35127266C9F2D0"]
@@ -1689,14 +1666,13 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			size: 1.3d
 			tasks: [{
 				id: "5D8CC6456D97982A"
 				item: "botania:botany_catalyst"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 14.0d
+			x: 13.0d
+			y: 0.0d
 		}
 	]
 	title: "&5Стадия: 7"

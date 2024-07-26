@@ -512,6 +512,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Высушит все"
 			tasks: [{
 				id: "4D699799E0EE483E"
@@ -703,6 +704,7 @@
 			dependencies: ["1D2A03062704637C"]
 			description: ["После сушки вы получили комбинированный слиток."]
 			id: "296EA10B4BB5C2B3"
+			shape: "hexagon"
 			tasks: [{
 				id: "4E83A99663B7EE36"
 				item: "gribtweaks:dry_ingot_combining"
@@ -722,6 +724,7 @@
 				"&e1/2&r &l&4Открывает следующую стадию!&r&r"
 			]
 			id: "4030F51C7D65F7C7"
+			shape: "square"
 			tasks: [{
 				id: "2771D98FBBEC498F"
 				item: "gribtweaks:magical_steel"
@@ -822,6 +825,7 @@
 				item: "occultism:otherworld_sapling"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Это не просто камень... "
 			tasks: [{
 				count: 4L
@@ -1094,6 +1098,7 @@
 				"Другой вариант - воспользоваться призрачным огнём."
 			]
 			id: "6CEF8EBFD54F6D96"
+			shape: "hexagon"
 			tasks: [{
 				id: "41C7FD4C2726DF6C"
 				item: "occultism:otherworld_log"

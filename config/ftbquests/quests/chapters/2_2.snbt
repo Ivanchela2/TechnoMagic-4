@@ -7,16 +7,73 @@
 	id: "366371793E964615"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7F0EF22AFEEAC209"]
-		id: "5699CCF0A3E5ED71"
-		tasks: [{
-			id: "426B9C3FF8FAEE26"
-			item: "chickens:roost"
-			type: "item"
-		}]
-		x: -6.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["7F0EF22AFEEAC209"]
+			id: "5699CCF0A3E5ED71"
+			tasks: [{
+				id: "426B9C3FF8FAEE26"
+				item: "chickens:roost"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5699CCF0A3E5ED71"]
+			id: "3303F6246FCDE73E"
+			tasks: [{
+				id: "0FCE7FFD26EB8035"
+				item: "chickensplus:roost_tier_1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3303F6246FCDE73E"]
+			id: "0CBB0C8A77F445F9"
+			tasks: [{
+				id: "0716BC69EC1670A6"
+				item: "chickensplus:roost_tier_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CBB0C8A77F445F9"]
+			id: "11495EBD9FA08FC3"
+			tasks: [{
+				id: "13404F6574AE148B"
+				item: "chickensplus:roost_tier_3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11495EBD9FA08FC3"]
+			id: "250FE876B36BC26D"
+			tasks: [{
+				id: "29DFABF729D3D22E"
+				item: "chickensplus:roost_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["250FE876B36BC26D"]
+			id: "05FF60B940EF79AD"
+			tasks: [{
+				id: "5A535CC323EAEF82"
+				item: "chickensplus:roost_tier_5"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
 	title: "&7Пассивные ресурсы"
 }

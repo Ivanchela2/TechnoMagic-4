@@ -1962,8 +1962,8 @@
 			size: 2.0d
 			subtitle: "&7Выбор грибов!"
 			tasks: [{
-				id: "5D9435729A4AAD00"
-				item: "solarflux:sp_custom_mushroom_infinity"
+				id: "60D03E872CF8F051"
+				item: "solarflux:sp_custom_gribony_infinity"
 				type: "item"
 			}]
 			x: 7.5d
