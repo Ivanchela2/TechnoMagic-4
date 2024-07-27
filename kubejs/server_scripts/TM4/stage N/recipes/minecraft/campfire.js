@@ -7,6 +7,6 @@ ServerEvents.recipes(e => {
             'stone'
         ]
     ].forEach(recipe => {
-        e.campfireCooking(recipe[0], recipe[1]).cookingTime(recipe[2] * 20).id(`tm4:minecraft/campfire/${recipe[3]}`)
+        e.campfireCooking(recipe[0], recipe[1]).cookingTime(recipe[2] * 20).id(`gribtweaks:minecraft/campfire/${recipe[3]}`)
     })
 })

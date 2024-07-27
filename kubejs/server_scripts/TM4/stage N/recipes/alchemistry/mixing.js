@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
             "type": "create:mixing",
             "ingredients": [
               {
-                'item': 'botania:maximum_catalyst'
+                'item': 'gribtweaks:maximum_catalyst'
               },
               {
-                'item': 'biggerreactors:reinforced_ludicrite_ingot'
+                'item': 'gribtweaks:reinforced_ludicrite_ingot'
               },
               {
-                'item': 'ad_astra:protasteel_ingot'
+                'item': 'gribtweaks:protasteel_ingot'
               },
               {
                 'item': 'chemlib:sulfuric_acid'

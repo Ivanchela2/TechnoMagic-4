@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const prefix = 'gribtweaks:shapeless/';
+    const prefix = 'gribtweaks:twilightforest/shapeless/';
     const recipes = [
         {
             output: '2x twilightforest:raw_ironwood',
@@ -12,19 +12,23 @@ ServerEvents.recipes(event => {
             id: `${prefix}raw_ironwood`
         },
         {
-            output: 'gribtweaks:quantum_ingot',
+            output: '2x twilightforest:liveroot_block',
             inputs: [
-                'ftbic:iridium_alloy',
-                '#forge:ingots/lead',
-                '#forge:ingots/uranium',
-                'ftbic:enderium_ingot',
-                '#forge:ingots/iridium',
-                '#forge:ingots/bronze',
-                '#forge:ingots/tin',
-                '#forge:ingots/aluminum',
-                'ftbic:advanced_alloy'
+                'minecraft:mud',
+                'minecraft:oak_leaves',
+                'minecraft:mangrove_roots'
             ],
-            id: `${prefix}quantum_ingot`
+            id: `${prefix}liveroot_block`
+        },
+        {
+            output: 'twilightforest:liveroot',
+            inputs: [
+                'minecraft:dirt',
+                '#minecraft:logs',
+                'minecraft:bone_meal',
+                '#minecraft:leaves'
+            ],
+            id: `${prefix}liveroot`
         },
     ]
 

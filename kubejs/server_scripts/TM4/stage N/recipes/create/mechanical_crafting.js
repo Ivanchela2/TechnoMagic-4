@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
                 H: 'enigmaticlegacy:the_infinitum', 
                 I: 'gribtweaks:infinity_heavy_cogwheel', 
                 K: 'create:creative_blaze_cake', 
-                L: 'biggerreactors:reinforced_ludicrite_block', 
+                L: 'gribtweaks:reinforced_ludicrite_block', 
                 M: 'chemlib:all_alkali_metals_element',
                 O: 'create:copper_casing',
                 U: 'biggerreactors:ludicrite_block',

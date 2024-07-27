@@ -56,6 +56,13 @@ ServerEvents.recipes(e => {
         count: 1,
         output: 'gribtweaks:antimatter_l4',
         id: `${prefix}antimatter_l4`
+      },
+      {
+        input: 'minecraft:dark_oak_log',
+        energy: 250000,
+        count: 1,
+        output: 'twilightforest:encased_towerwood',
+        id: `${prefix}encased_towerwood`
       }
     ]
 

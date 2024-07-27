@@ -1,4 +1,4 @@
-ServerEvents.recipes(e => { 
+ServerEvents.recipes(event => { 
 
     const output = [
         'ceramicshears:clay_shears_part',
@@ -40,7 +40,16 @@ ServerEvents.recipes(e => {
         'botania:mana_ring',
         'botania:aura_ring',
         'botania:pixie_ring',
-        'botania:reach_ring'
+        'botania:reach_ring',
+
+        'botanicalmachinery:mechanical_mana_pool',
+        'botanicalmachinery:industrial_agglomeration_factory',
+        'botanicalmachinery:alfheim_market',
+        'botanicalmachinery:mechanical_apothecary',
+        'botanicalmachinery:mechanical_brewery',
+        'botanicalmachinery:mechanical_daisy',
+        'botanicalmachinery:mechanical_runic_altar',
+        'botanicalmachinery:mana_battery'
     ]
 
     const id = [
@@ -69,10 +78,10 @@ ServerEvents.recipes(e => {
     ]
 
     output.forEach(recipe => {
-        e.remove({output: recipe})
+        event.remove({output: recipe})
     })
 
     id.forEach(recipe => {
-        e.remove({id: recipe})
+        event.remove({id: recipe})
     })
 })

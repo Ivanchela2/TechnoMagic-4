@@ -171,7 +171,30 @@ ServerEvents.recipes(event => {
                 D: 'ftbic:upgrade_template'
             },
             id: `${prefix}transformer_upgrade`
-        }
+        },
+        {
+            output: 'ftbic:machine_block',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'ftbic:industrial_grade_metal',
+                B: 'ftbic:fuse',
+                C: 'gribtweaks:oblivion_powder',
+                D: 'twilightforest:carminite_reactor'
+            },
+            id: `${prefix}machine_block`
+        },
+        {
+            output: 'ftbic:advanced_machine_block',
+            pattern: ['DCB', 'EAE', 'BCD'],
+            key: {
+                A: 'ftbic:machine_block',
+                B: 'gribtweaks:antimatter_ingot',
+                C: 'ftbic:advanced_alloy',
+                D: 'aquaculture:neptunium_ingot',
+                E: 'ftbic:carbon_plate'
+            },
+            id: `${prefix}advanced_machine_block`
+        },
     ];
 recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

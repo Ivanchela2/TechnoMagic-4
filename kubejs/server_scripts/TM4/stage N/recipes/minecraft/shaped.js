@@ -44,6 +44,16 @@ ServerEvents.recipes((event) => {
           },
           id: `${prefix}cauldron`
         },
+        {
+          output: 'minecraft:hopper', 
+          pattern: ['CBC', 'CAC', ' C '],
+          key: {
+              A: '#forge:chests/wooden', 
+              B: 'quark:chute',
+              C: 'minecraft:iron_ingot'
+          },
+          id: `${prefix}hopper`
+        },
   ];
   
   recipes.forEach((recipe) => {

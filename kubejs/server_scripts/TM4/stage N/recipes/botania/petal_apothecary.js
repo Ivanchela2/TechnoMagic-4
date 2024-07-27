@@ -45,7 +45,7 @@ ServerEvents.recipes(e => {
         },
         {
             ingredients: [{tag: "botania:petals/green",},{tag: "botania:petals/green",},
-            {tag: "botania:petals/green"},{tag: "botania:petals/green"}, {tag: "botania:petals/gray"},  {item: "botania:botany_catalyst"}, {item: 'botania:pixie_dust'},{item: 'botania:elementium_block'}, {item:'botania:redstone_root'}],
+            {tag: "botania:petals/green"},{tag: "botania:petals/green"}, {tag: "botania:petals/gray"},  {item: "gribtweaks:botany_catalyst"}, {item: 'botania:pixie_dust'},{item: 'botania:elementium_block'}, {item:'botania:redstone_root'}],
             output: {item: 'botania:loonium'},
             reagent: {tag: "botania:seed_apothecary_reagent"},
             id: `${prefix}loonium`
@@ -59,7 +59,7 @@ ServerEvents.recipes(e => {
         },
         {
             ingredients: [{tag: "botania:petals/light_gray",},{tag: "botania:petals/light_gray",},
-            {tag: "botania:petals/cyan"},{tag: "botania:petals/white"},{tag: "botania:petals/white"}, {item: "botania:botany_catalyst"},  {item: "botania:infinity_petal"}, {item: 'pipez:universal_pipe'},{item: 'pipez:universal_pipe'}, {item: 'botania:dragonstone_block'}],
+            {tag: "botania:petals/cyan"},{tag: "botania:petals/white"},{tag: "botania:petals/white"}, {item: "gribtweaks:botany_catalyst"},  {item: "gribtweaks:infinity_petal"}, {item: 'pipez:universal_pipe'},{item: 'pipez:universal_pipe'}, {item: 'botania:dragonstone_block'}],
             output: {item: 'botania:spectranthemum'},
             reagent: {tag: "botania:seed_apothecary_reagent"},
             id: `${prefix}spectranthemum`

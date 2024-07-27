@@ -1,12 +1,18 @@
 ServerEvents.recipes((event) => {
-    event.remove([
-        { output: 'minecraft:crafting_table' },
-        { output: 'minecraft:furnace' },
-        { output: 'minecraft:campfire' },
-        { output: 'minecraft:cauldron' },
+    const output = [
+        'minecraft:crafting_table',
+        'minecraft:furnace',
+        'minecraft:campfire',
+        'minecraft:cauldron',
+        'minecraft:hopper',
 
-        { output: 'quark:blackstone_furnace' },
-        { output: 'quark:deepslate_furnace' },
-        { output: 'nethersdelight:blackstone_furnace' },
-    ]);
+        'quark:blackstone_furnace',
+        'quark:deepslate_furnace',
+        'nethersdelight:blackstone_furnace'
+    ]
+
+
+    output.forEach(recipe => {
+        event.remove({output: recipe})
+    })
 });

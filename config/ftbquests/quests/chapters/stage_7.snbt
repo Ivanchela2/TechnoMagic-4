@@ -1158,8 +1158,8 @@
 			}]
 			shape: "circle"
 			tasks: [{
-				id: "54F04E9DD84471A1"
-				item: "botania:infinity_petal"
+				id: "575764A935C74A4E"
+				item: "gribtweaks:infinity_petal"
 				type: "item"
 			}]
 			x: 15.0d
@@ -1170,14 +1170,14 @@
 			description: ["&7Гайа катализатор&r - используется в крафтах компонентов ракеты 3-го уровня."]
 			id: "5485DC01C6AF3AE0"
 			rewards: [{
-				id: "3D3F7397CB13390F"
-				item: "botania:botany_catalyst"
+				id: "15387CD0653E686A"
+				item: "gribtweaks:botany_catalyst"
 				type: "item"
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "2A227104F65C2416"
-				item: "botania:gaia_catalyst"
+				id: "321D2A4C2BFA80A2"
+				item: "gribtweaks:gaia_catalyst"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1188,14 +1188,14 @@
 			description: ["&bМаксимальный катализатор&r - используется в крафтах компонентов ракеты 4-го уровня."]
 			id: "4460AFFB060545C0"
 			rewards: [{
-				id: "0B5C03A636CC0D10"
-				item: "botania:gaia_catalyst"
+				id: "0FBC38691453B3C9"
+				item: "gribtweaks:gaia_catalyst"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "6D505EF3892BA7F9"
-				item: "botania:maximum_catalyst"
+				id: "06EEAF8DE0D282ED"
+				item: "gribtweaks:maximum_catalyst"
 				type: "item"
 			}]
 			title: "&bМаксимальный катализатор!"
@@ -1667,8 +1667,8 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				id: "5D8CC6456D97982A"
-				item: "botania:botany_catalyst"
+				id: "747FF70BACDF5385"
+				item: "gribtweaks:botany_catalyst"
 				type: "item"
 			}]
 			x: 13.0d

@@ -536,25 +536,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4AD658DE7A3D5202"]
-			id: "2C0FCB77BCCB47A8"
-			rewards: [{
-				count: 4
-				id: "538799B8B6229935"
-				item: "ftbic:lv_cable"
-				random_bonus: 12
-				type: "item"
-			}]
-			subtitle: "Преобразование напряжения."
-			tasks: [{
-				id: "0CE8226EFE9F5CC3"
-				item: "ftbic:mv_transformer"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["4FAFAEF13F8BC981"]
 			id: "2371EF16B1EB318E"
 			subtitle: "Это то, что нужно!!"
@@ -565,25 +546,6 @@
 			}]
 			x: 11.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["2C0FCB77BCCB47A8"]
-			id: "11C2765619D893B4"
-			rewards: [{
-				count: 3
-				id: "667E82FDB97C5D2C"
-				item: "ftbic:iv_cable"
-				random_bonus: 13
-				type: "item"
-			}]
-			subtitle: "Преобразование напряжения."
-			tasks: [{
-				id: "49B337A0FE03860C"
-				item: "ftbic:hv_transformer"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["7439FE304A184259"]
@@ -768,25 +730,6 @@
 			}]
 			x: 7.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["11C2765619D893B4"]
-			dependency_requirement: "all_started"
-			hide_dependency_lines: false
-			id: "7C6B6E9411F68188"
-			rewards: [{
-				id: "4C24B977ED60CECC"
-				item: "ftbic:hv_transformer"
-				type: "item"
-			}]
-			subtitle: "Преобразование напряжения."
-			tasks: [{
-				id: "2FC7B005FB12E0E5"
-				item: "ftbic:ev_transformer"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["1172FCA541C97A82"]
@@ -1707,19 +1650,6 @@
 			}]
 			x: 13.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["6B8743E39A6E14B1"]
-			hide_dependency_lines: true
-			id: "4AD658DE7A3D5202"
-			subtitle: "Преобразование напряжения."
-			tasks: [{
-				id: "224A1ABE5D21DFCF"
-				item: "ftbic:lv_transformer"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["0C07ED4E937D391B"]

@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             pattern: ['ABA', 'ACA', 'ABA'],
             key: {
                 A: 'silentgear:diamond_shard',
-                B: 'botania:basic_runic_stone',
+                B: 'gribtweaks:basic_runic_stone',
                 C: 'minecraft:netherite_scrap'
             },
             id: `${prefix}diamond_lattice`

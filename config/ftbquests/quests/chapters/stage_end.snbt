@@ -167,30 +167,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "botania:item/specific_rune_base"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.25d
-			hover: [ ]
-			image: "botania:item/basic_runic_stone"
-			rotation: 0.0d
-			width: 2.25d
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
 			hover: [ ]
 			image: "avaritia:blocks/machine/absolute_collector/front"

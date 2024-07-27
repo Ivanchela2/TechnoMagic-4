@@ -53,8 +53,8 @@ ServerEvents.recipes(event => {
                 '  B   B  '
             ],
             key: {
-                A: Item.of('chemlib:gribony_block').toJson(),
-                B: Item.of('chemlib:unstable_gribony_block').toJson(),
+                A: Item.of('gribtweaks:gribony_block').toJson(),
+                B: Item.of('gribtweaks:unstable_gribony_block').toJson(),
                 C: Item.of('chemlib:cosmic_element').toJson(),
                 D: Item.of('chemlib:destabilizing_element').toJson(),
                 I: Item.of('chemlib:infinity_element').toJson(),

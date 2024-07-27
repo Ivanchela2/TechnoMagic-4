@@ -214,6 +214,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3B1B6F0B1BF3A5D2"]
 			description: ["Нож, позволяющий срезать кору с деревьев."]
 			hide: true
 			id: "34A3F8B6B2B7E460"

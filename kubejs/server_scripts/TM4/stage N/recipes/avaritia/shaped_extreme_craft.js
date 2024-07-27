@@ -14,34 +14,13 @@ ServerEvents.recipes(event => {
                 '   AAA   '
             ],
             key: {
-                A: Item.of('minecraft:end_stone_bricks').toJson(),
-			    B: Item.of('endersdelight:ender_shard').toJson(),
-			    C: Item.of('avaritia:neutronium_ingot').toJson(),
-			    D: Item.of('ae2:singularity').toJson()
+                A: Item.of('minecraft:end_stone_bricks'),
+			    B: Item.of('endersdelight:ender_shard'),
+			    C: Item.of('avaritia:neutronium_ingot'),
+			    D: Item.of('ae2:singularity')
             },
             output: 'avaritia:endest_pearl',
             id: `${prefix}endest_pearl`
-        },
-        {
-            pattern: [ 
-                'AB  C  BA',
-                'BABACABAB',
-                ' BADADAB ',
-                ' ADDADDA ',
-                'CCAAAAACC',
-                ' ADDADDA ',
-                ' BADADAB ',
-                'BABACABAB',
-                'AB  C  BA'
-            ],
-            key: {
-                A: { type: 'forge:nbt', item: 'avaritia:singularity', count: 1, nbt: '{Id:\"avaritia:neutronium\"}' },
-			    B: Item.of('reaper:soul_catalyst').toJson(),
-			    C: Item.of('avaritia:neutronium_ingot').toJson(),
-			    D: Item.of('gribtweaks:cosmic_scrap').toJson()
-            },
-            output: 'gribtweaks:neutronium_catalyst',
-            id: `${prefix}neutronium_catalyst`
         },
         {
             pattern: [ 
@@ -56,11 +35,11 @@ ServerEvents.recipes(event => {
                 '  A B A  ' 
             ],
             key: {
-                A: Item.of('avaritia:neutron_nugget').toJson(),
-			    B: Item.of('avaritia:neutronium_ingot').toJson(),
-			    C: Item.of('create:cogwheel').toJson(),
-			    D: Item.of('create:large_cogwheel').toJson(),
-			    E: Item.of('forbidden_arcanus:dark_nether_star').toJson()
+                A: Item.of('avaritia:neutron_nugget'),
+			    B: Item.of('avaritia:neutronium_ingot'),
+			    C: Item.of('create:cogwheel'),
+			    D: Item.of('create:large_cogwheel'),
+			    E: Item.of('forbidden_arcanus:dark_nether_star')
             },
             output: 'avaritia:neutronium_gear',
             id: `${prefix}neutronium_gear`
@@ -78,11 +57,11 @@ ServerEvents.recipes(event => {
                 'AAADADAAA' 
             ],
             key: {
-                A: Item.of('botania:corporea_block').toJson(),
-			    B: Item.of('minecraft:waxed_cut_copper').toJson(),
-			    C: Item.of('minecraft:amethyst_block').toJson(),
-			    D: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    E: Item.of('avaritia:neutronium_gear' ).toJson()
+                A: Item.of('botania:corporea_block'),
+			    B: Item.of('minecraft:waxed_cut_copper'),
+			    C: Item.of('minecraft:amethyst_block'),
+			    D: Item.of('avaritia:crystal_matrix_ingot'),
+			    E: Item.of('naturesaura:depth_ingot_block')
             },
             output: 'avaritia:neutron_collector',
             id: `${prefix}neutron_collector`
@@ -100,14 +79,14 @@ ServerEvents.recipes(event => {
                 'AAABABAAA' 
             ],
             key: {
-                A: Item.of('ad_astra:steel_block').toJson(),
-			    B: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    C: Item.of('minecraft:amethyst_block').toJson(),
-			    D: Item.of('ftbic:compressor').toJson(),
-			    E: Item.of('create:mechanical_press').toJson(),
-			    F: Item.of('ad_astra:calorite_plate').toJson(),
-			    G: Item.of('avaritia:neutronium_gear' ).toJson(),
-			    J: Item.of('avaritia:neutronium_ingot').toJson()
+                A: Item.of('ad_astra:steel_block'),
+			    B: Item.of('avaritia:crystal_matrix_ingot'),
+			    C: Item.of('minecraft:amethyst_block'),
+			    D: Item.of('ftbic:compressor'),
+			    E: Item.of('create:mechanical_press'),
+			    F: Item.of('ad_astra:calorite_plate'),
+			    G: Item.of('avaritia:neutronium_gear' ),
+			    J: Item.of('avaritia:neutronium_ingot')
             },
             output: 'avaritia:neutronium_compressor',
             id: `${prefix}neutronium_compressor`
@@ -125,11 +104,11 @@ ServerEvents.recipes(event => {
                 'AAADADAAA' 
             ],
             key: {
-                A: Item.of('twilightforest:carminite_block').toJson(),
-			    B: Item.of('arclight:bloodstone_block' ).toJson(),
-			    C: Item.of('ad_astra:calorite_block').toJson(),
-			    D: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    E: Item.of('avaritia:neutron_collector' ).toJson()
+                A: Item.of('twilightforest:carminite_block'),
+			    B: Item.of('arclight:bloodstone_block' ),
+			    C: Item.of('ad_astra:calorite_block'),
+			    D: Item.of('avaritia:crystal_matrix_ingot'),
+			    E: Item.of('avaritia:neutron_collector' )
             },
             output: 'avaritia:advanced_neutron_collector',
             id: `${prefix}advanced_neutron_collector`
@@ -147,10 +126,10 @@ ServerEvents.recipes(event => {
                 ' AAAAAAA ' 
             ],
             key: {
-                A: Item.of('ftbic:graphene' ).toJson(),
-			    B: Item.of('minecraft:coal_block' ).toJson(),
-			    C: Item.of('ftbic:carbon_plate').toJson(),
-			    D: Item.of('createbigcannons:cast_iron_block').toJson()
+                A: Item.of('ftbic:graphene' ),
+			    B: Item.of('minecraft:coal_block' ),
+			    C: Item.of('ftbic:carbon_plate'),
+			    D: Item.of('createbigcannons:cast_iron_block')
             },
             output: 'avaritia:star_fuel',
             id: `${prefix}star_fuel`
@@ -168,23 +147,23 @@ ServerEvents.recipes(event => {
                 '1 E 1 R 1' 
             ],
             key: {
-                Q: Item.of('naturesaura:token_joy').toJson(),
-			    W: Item.of('naturesaura:token_fear').toJson(),
-			    E: Item.of('naturesaura:token_anger').toJson(),
-			    T: Item.of('naturesaura:token_sorrow').toJson(),
-			    Y: Item.of('naturesaura:token_euphoria').toJson(),
-			    U: Item.of('naturesaura:token_terror').toJson(),
-			    I: Item.of('naturesaura:token_rage').toJson(),
-			    R: Item.of('naturesaura:token_grief').toJson(),
-			    F: Item.of('ad_astra:steel_block').toJson(),
-			    G: Item.of('avaritia:cosmic_meatballs').toJson(),
-			    H: Item.of('twilightforest:fiery_block').toJson(),
-			    L: Item.of('avaritia:ultimate_stew').toJson(),
-			    Z: Item.of('avaritia:endest_pearl').toJson(),
-			    X: Item.of('avaritia:record_fragment').toJson(),
-			    B: Item.of('botanicadds:gaiasteel_block').toJson(),
-			    N: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    M: Item.of('minecraft:amethyst_block').toJson(),
+                Q: Item.of('naturesaura:token_joy'),
+			    W: Item.of('naturesaura:token_fear'),
+			    E: Item.of('naturesaura:token_anger'),
+			    T: Item.of('naturesaura:token_sorrow'),
+			    Y: Item.of('naturesaura:token_euphoria'),
+			    U: Item.of('naturesaura:token_terror'),
+			    I: Item.of('naturesaura:token_rage'),
+			    R: Item.of('naturesaura:token_grief'),
+			    F: Item.of('ad_astra:steel_block'),
+			    G: Item.of('avaritia:cosmic_meatballs'),
+			    H: Item.of('twilightforest:fiery_block'),
+			    L: Item.of('avaritia:ultimate_stew'),
+			    Z: Item.of('avaritia:endest_pearl'),
+			    X: Item.of('avaritia:record_fragment'),
+			    B: Item.of('botanicadds:gaiasteel_block'),
+			    N: Item.of('avaritia:crystal_matrix_ingot'),
+			    M: Item.of('minecraft:amethyst_block'),
 			    O: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:amethyst\"}"},
 			    P: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:bronze\"}"},
 			    A: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:calorite\"}"},
@@ -193,7 +172,7 @@ ServerEvents.recipes(event => {
 			    J: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:etherium\"}"},
 			    K: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:experience\"}"},
 			    C: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:fiery_blood\"}"},
-			    1: Item.of('gribtweaks:antimatter_l4').toJson(),
+			    1: Item.of('gribtweaks:antimatter_l4'),
 			    2: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:knight_metal\"}"},
 			    3: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:precision_mechanism\"}"},
 			    4: { type: "forge:nbt", item: 'avaritia:singularity', count: 1, nbt: "{Id:\"avaritia:soul_steel\"}"},
@@ -217,10 +196,10 @@ ServerEvents.recipes(event => {
                 '         ' 
             ],
             key: {
-                M: Item.of('avaritia:infinity_catalyst').toJson(),
-			    1: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    2: Item.of('botania:maximum_catalyst').toJson(),
-			    3: Item.of('avaritia:neutronium_ingot').toJson()
+                M: Item.of('avaritia:infinity_catalyst'),
+			    1: Item.of('avaritia:crystal_matrix_ingot'),
+			    2: Item.of('gribtweaks:maximum_catalyst'),
+			    3: Item.of('avaritia:neutronium_ingot')
             },
             output: 'avaritia:infinity_ingot',
             id: `${prefix}infinity_ingot`
@@ -238,11 +217,11 @@ ServerEvents.recipes(event => {
                 'CCCMCMCCC', 
             ],
             key: {
-			    A: Item.of('avaritia:advanced_neutron_collector').toJson(),
-			    C: Item.of('botania:dragonstone_block').toJson(),
-			    L: Item.of('biggerreactors:ludicrite_block').toJson(),
-			    M: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-			    R: Item.of('forbidden_arcanus:dark_rune_block').toJson(),
+			    A: Item.of('avaritia:advanced_neutron_collector'),
+			    C: Item.of('botania:dragonstone_block'),
+			    L: Item.of('biggerreactors:ludicrite_block'),
+			    M: Item.of('avaritia:crystal_matrix_ingot'),
+			    R: Item.of('forbidden_arcanus:dark_rune_block'),
             },
             output: 'avaritia:absolute_neutron_collector',
             id: `${prefix}absolute_neutron_collector`
@@ -260,25 +239,25 @@ ServerEvents.recipes(event => {
                 '   A A   '
             ],
             key: {
-			    A: Item.of('gribtweaks:infinity_honeycomb').toJson(),
-			    B: Item.of('megacells:mana_storage_cell_256m').toJson(),
-			    C: Item.of('megacells:fluid_storage_cell_256m').toJson(),
-			    D: Item.of('megacells:item_storage_cell_256m').toJson(),
-			    E: Item.of('megacells:bulk_item_cell').toJson(),
-			    F: Item.of('aquaculture:neptunium_block').toJson(),
+			    A: Item.of('gribtweaks:infinity_honeycomb'),
+			    B: Item.of('megacells:mana_storage_cell_256m'),
+			    C: Item.of('megacells:fluid_storage_cell_256m'),
+			    D: Item.of('megacells:item_storage_cell_256m'),
+			    E: Item.of('megacells:bulk_item_cell'),
+			    F: Item.of('aquaculture:neptunium_block'),
 			    G: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:amethyst\"}"},
 			    H: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:precision_mechanism\"}"},
 			    I: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:terrasteel\"}"},
 			    J: { type: "forge:nbt", item: "avaritia:singularity", count: 1, nbt: "{Id:\"avaritia:tyrian_steel\"}"},
-                1: Item.of('chemlib:time_ingot').toJson(),
-                2: Item.of('botanicadds:gaiasteel_ingot').toJson(),
-                3: Item.of('twilightforest:fiery_ingot').toJson(),
-                4: Item.of('avaritia:crystal_matrix_ingot').toJson(),
-                5: Item.of('upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot').toJson(),
-                6: Item.of('enigmaticlegacy:etherium_ingot').toJson(),
-                7: Item.of('ad_astra:protasteel_ingot').toJson(),
-                8: Item.of('biggerreactors:reinforced_ludicrite_ingot').toJson(),
-                9: Item.of('ad_astra:calorite_ingot').toJson(),
+                1: Item.of('chemlib:time_ingot'),
+                2: Item.of('botanicadds:gaiasteel_ingot'),
+                3: Item.of('twilightforest:fiery_ingot'),
+                4: Item.of('avaritia:crystal_matrix_ingot'),
+                5: Item.of('upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'),
+                6: Item.of('enigmaticlegacy:etherium_ingot'),
+                7: Item.of('gribtweaks:protasteel_ingot'),
+                8: Item.of('gribtweaks:reinforced_ludicrite_ingot'),
+                9: Item.of('ad_astra:calorite_ingot'),
             },
             output: 'upgradednetherite_creative:creative_upgraded_netherite_ingot',
             id: `${prefix}creative_upgraded_netherite_ingot`
@@ -296,24 +275,24 @@ ServerEvents.recipes(event => {
                 ' NNN     '
             ],
             key: {
-			    N: Item.of('avaritia:neutron_nugget').toJson(),
-			    a: Item.of('forbidden_arcanus:cooked_tentacle').toJson(),
-			    b: Item.of('delightful:cooked_venison_chops').toJson(),
-			    c: Item.of('quark:cooked_crab_leg').toJson(),
-			    d: Item.of('farmersdelight:cooked_bacon').toJson(),
-			    e: Item.of('twilightforest:hydra_chop').toJson(),
-			    f: Item.of('farmersdelight:cooked_cod_slice').toJson(),
-			    g: Item.of('farmersdelight:fried_egg').toJson(),
-			    h: Item.of('alexsmobs:cooked_kangaroo_meat').toJson(),
-			    i: Item.of('alexsmobs:cooked_moose_ribs').toJson(),
-			    j: Item.of('alexsmobs:cooked_lobster_tail').toJson(),
-			    k: Item.of('farmersdelight:cooked_mutton_chops').toJson(),
-			    l: Item.of('aquamirae:cooked_spinefish').toJson(),
-			    m: Item.of('collectorsreap:baked_portobello_cap').toJson(),
-			    n: Item.of('farmersdelight:cooked_chicken_cuts').toJson(),
-			    o: Item.of('alexsmobs:cooked_catfish').toJson(),
-			    1: Item.of('gribtweaks:quantum_burger').toJson(),
-			    2: Item.of('gribtweaks:astral_burger').toJson(),
+			    N: Item.of('avaritia:neutron_nugget'),
+			    a: Item.of('forbidden_arcanus:cooked_tentacle'),
+			    b: Item.of('delightful:cooked_venison_chops'),
+			    c: Item.of('quark:cooked_crab_leg'),
+			    d: Item.of('farmersdelight:cooked_bacon'),
+			    e: Item.of('twilightforest:hydra_chop'),
+			    f: Item.of('farmersdelight:cooked_cod_slice'),
+			    g: Item.of('farmersdelight:fried_egg'),
+			    h: Item.of('alexsmobs:cooked_kangaroo_meat'),
+			    i: Item.of('alexsmobs:cooked_moose_ribs'),
+			    j: Item.of('alexsmobs:cooked_lobster_tail'),
+			    k: Item.of('farmersdelight:cooked_mutton_chops'),
+			    l: Item.of('aquamirae:cooked_spinefish'),
+			    m: Item.of('collectorsreap:baked_portobello_cap'),
+			    n: Item.of('farmersdelight:cooked_chicken_cuts'),
+			    o: Item.of('alexsmobs:cooked_catfish'),
+			    1: Item.of('gribtweaks:quantum_burger'),
+			    2: Item.of('gribtweaks:astral_burger'),
             },
             output: 'avaritia:cosmic_meatballs',
             id: `${prefix}cosmic_meatballs`
@@ -331,32 +310,75 @@ ServerEvents.recipes(event => {
                 'n NNNNN n'
             ],
             key: {
-                N: Item.of('avaritia:neutronium_ingot').toJson(),
-			    n: Item.of('avaritia:neutron_nugget').toJson(),
-			    l: Item.of('gribtweaks:admiration_liquid').toJson(),
-                a: Item.of('create:honeyed_apple').toJson(),
-                b: Item.of('minecraft:glistering_melon_slice').toJson(),
-                c: Item.of('farmersdelight:apple_pie').toJson(),
-                d: Item.of('gribtweaks:combined_jelly').toJson(),
-                e: Item.of('create:sweet_roll').toJson(),
-                f: Item.of('fastfooddelight:cheeseburger').toJson(),
-                g: Item.of('minecraft:pumpkin_pie').toJson(),
-                h: Item.of('farmersdelight:glow_berry_custard').toJson(),
-                i: Item.of('farmersdelight:dumplings').toJson(),
-                j: Item.of('supplementaries:pancake').toJson(),
-                k: Item.of('farmersdelight:barbecue_stick').toJson(),
-                m: Item.of('nethersdelight:nether_skewer').toJson(),
-                o: Item.of('farmersdelight:shepherds_pie_block').toJson(),
-                p: Item.of('farmersdelight:grilled_salmon').toJson(),
-                q: Item.of('farmersdelight:rice_roll_medley_block').toJson(),
-                r: Item.of('endersdelight:crawling_sandwich').toJson(),
-                s: Item.of('endersdelight:pearl_pasta').toJson(),
-                t: Item.of('endersdelight:ender_paella').toJson(),
-                u: Item.of('minecraft:rabbit_stew').toJson(),
-                v: Item.of('minecraft:enchanted_golden_apple').toJson()
+                N: Item.of('avaritia:neutronium_ingot'),
+			    n: Item.of('avaritia:neutron_nugget'),
+			    l: Item.of('gribtweaks:admiration_liquid'),
+                a: Item.of('create:honeyed_apple'),
+                b: Item.of('minecraft:glistering_melon_slice'),
+                c: Item.of('farmersdelight:apple_pie'),
+                d: Item.of('gribtweaks:combined_jelly'),
+                e: Item.of('create:sweet_roll'),
+                f: Item.of('fastfooddelight:cheeseburger'),
+                g: Item.of('minecraft:pumpkin_pie'),
+                h: Item.of('farmersdelight:glow_berry_custard'),
+                i: Item.of('farmersdelight:dumplings'),
+                j: Item.of('supplementaries:pancake'),
+                k: Item.of('farmersdelight:barbecue_stick'),
+                m: Item.of('nethersdelight:nether_skewer'),
+                o: Item.of('farmersdelight:shepherds_pie_block'),
+                p: Item.of('farmersdelight:grilled_salmon'),
+                q: Item.of('farmersdelight:rice_roll_medley_block'),
+                r: Item.of('endersdelight:crawling_sandwich'),
+                s: Item.of('endersdelight:pearl_pasta'),
+                t: Item.of('endersdelight:ender_paella'),
+                u: Item.of('minecraft:rabbit_stew'),
+                v: Item.of('minecraft:enchanted_golden_apple')
             },
-            output: 'avaritia:ultimate_stew', // две штуки?
+            output: '8x avaritia:ultimate_stew',
             id: `${prefix}ultimate_stew`
+        },
+        {
+            pattern: [
+                '  ATI  ',
+                ' AABII ',
+                'AACDCII',
+                'AEFGHEI',
+                'AACDCII',
+                ' AABII ',
+                '  ATI  ',
+              ], 
+              key: {
+                A: Item.of('botania:elementium_ingot'),
+                B: Item.of('reliquary:frozen_core'),
+                C: Item.of('botania:gaia_ingot'),
+                D: Item.of('forbidden_arcanus:deorum_ingot'),
+                E: Item.of('botania:gaia_pylon'),
+                F: Item.of('gribtweaks:purple_piece_of_specific_rune'),
+                G: Item.of('arclight:arclight_core'),
+                H: Item.of('gribtweaks:blue_piece_of_specific_rune'),
+                T: Item.of('gribtweaks:basic_runic_stone'),
+                I: Item.of('botania:manasteel_ingot') 
+            },
+            output: 'gribtweaks:specific_rune_base',
+            id: `${prefix}specific_rune_base`
+        },
+        {
+            pattern: [ 
+                '  A   A  ', 
+                ' AAA AAA ', 
+                'AA AAA AA', 
+                ' AAAAAAA ', 
+                '  AAAAA  ', 
+                ' AAAAAAA ', 
+                'AA AAA AA', 
+                ' AAA AAA ', 
+                '  A   A  '
+            ],
+            key: {
+                A: Item.of('gribtweaks:infinity_catalyst_pile')
+            },
+            output: 'avaritia:infinity_catalyst',
+            id: `${prefix}infinity_catalyst_of_pile`
         },
     ];
 
@@ -365,7 +387,7 @@ ServerEvents.recipes(event => {
             type: 'avaritia:shaped_extreme_craft',
             pattern: recipe.pattern,
             key: recipe.key,
-            result: Ingredient.of(recipe.output).toJson()
+            result: Item.of(recipe.output).toJson()
         };
         event.custom(constructed_recipe).id(recipe.id);
     });

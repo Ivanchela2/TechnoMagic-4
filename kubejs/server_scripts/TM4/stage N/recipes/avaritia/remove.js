@@ -1,13 +1,17 @@
 ServerEvents.recipes(event => {
-    event.remove([
-        { output: 'avaritia:neutronium_compressor' },
-        { output: 'avaritia:neutron_collector' },
-        { output: 'avaritia:endest_pearl' },
-        { output: 'avaritia:ultimate_stew' },
-        { output: 'avaritia:cosmic_meatballs' },
-        { id: 'avaritia:infinity_ingot' },
-        { id: 'avaritiafurnace:ifrcp' },
-        { id: 'enigmaticlegacy:cosmic_heart' },
-        { id: 'avaritia:diamond_lattice' }
-    ])
+    const output = [
+        'avaritia:neutronium_compressor',
+        'avaritia:neutron_collector',
+        'avaritia:endest_pearl',
+        'avaritia:ultimate_stew',
+        'avaritia:cosmic_meatballs',
+        'avaritia:extreme_crafting_table',
+        'avaritia:infinity_ingot',
+        'avaritia:diamond_lattice',
+        'avaritiafurnace:infinity_fuel'
+    ]
+
+    output.forEach(recipe => {
+        event.remove({output: recipe})
+    })
 })

@@ -20,17 +20,6 @@ ServerEvents.recipes((event) => {
             id: `${prefix}compressed_knightmetal_block`
         },
         {
-            output: 'twilightforest:liveroot',
-            pattern: ['AB', 'CD'],
-            key: {
-                A: 'minecraft:dirt',
-                B: '#minecraft:logs',
-                C: 'minecraft:bone_meal',
-                D: '#minecraft:leaves'
-            },
-            id: `${prefix}liveroot`
-        },
-        {
             output: 'twilightforest:ice_sword',
             pattern: ['C', 'B', 'A'],
             key: {

@@ -32,9 +32,9 @@ ServerEvents.recipes(e => {
             id: `${prefix}rune_mana`
         },
         {
-            ingredients: [{item: "ad_astra:advanced_covering"}, {item: "ad_astra:advanced_covering"}, {item: "ad_astra:ostrum_block"}, {item: "ad_astra:ostrum_block"}, {tag: "botania:elementium_blocks"}, {item:'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'ad_astra:reinforced_rocket_nose_cone'}],
+            ingredients: [{item: "gribtweaks:advanced_covering"}, {item: "gribtweaks:advanced_covering"}, {item: "ad_astra:ostrum_block"}, {item: "ad_astra:ostrum_block"}, {tag: "botania:elementium_blocks"}, {item:'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'gribtweaks:reinforced_rocket_nose_cone'}],
             mana: 60000,
-            output: {item: 'ad_astra:advanced_rocket_nose_cone'},
+            output: {item: 'gribtweaks:advanced_rocket_nose_cone'},
             id: `${prefix}advanced_rocket_nose_cone`
         },
         {
@@ -50,19 +50,19 @@ ServerEvents.recipes(e => {
             id: `${prefix}desh_tank`
         },
         {
-            ingredients: [{item: 'ad_astra:ostrum_block'}, {item: 'botania:gaia_catalyst'}, {item: 'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'botania:dragonstone_block'}, {item: 'ad_astra:desh_engine'}],
+            ingredients: [{item: 'ad_astra:ostrum_block'}, {item: 'gribtweaks:gaia_catalyst'}, {item: 'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'botania:dragonstone_block'}, {item: 'ad_astra:desh_engine'}],
             mana: 45000,
             output: {item: 'ad_astra:ostrum_engine'},
             id: `${prefix}ostrum_engine`
         },
         {
-            ingredients: [{item: 'ad_astra:ostrum_block'}, {item: 'botania:gaia_catalyst'}, {item: 'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item:'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'ad_astra:desh_tank'}],
+            ingredients: [{item: 'ad_astra:ostrum_block'}, {item: 'gribtweaks:gaia_catalyst'}, {item: 'botania:gaia_ingot'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item: 'botania:life_essence'}, {item:'botania:elementium_block'}, {item: 'botania:elementium_block'}, {item: 'ad_astra:desh_tank'}],
             mana: 40000,
             output: {item: 'ad_astra:ostrum_tank'},
             id: `${prefix}ostrum_tank`
         },
         {
-            ingredients: [{item: 'occultism:miner_djinni_ores'}, {item: 'minecraft:diamond_ore'}, {item: 'minecraft:gold_ore'}, {item: 'minecraft:redstone_ore'}, {item: 'botania:terrasteel_block'}, {item:'botania:botany_catalyst'},{tag: 'botania:petals/gray'}, {tag: 'botania:petals/gray'}, {tag: 'botania:petals/yellow'}, {tag: 'botania:petals/green'}, {tag: 'botania:petals/red'} ],
+            ingredients: [{item: 'occultism:miner_djinni_ores'}, {item: 'minecraft:diamond_ore'}, {item: 'minecraft:gold_ore'}, {item: 'minecraft:redstone_ore'}, {item: 'botania:terrasteel_block'}, {item:'gribtweaks:botany_catalyst'},{tag: 'botania:petals/gray'}, {tag: 'botania:petals/gray'}, {tag: 'botania:petals/yellow'}, {tag: 'botania:petals/green'}, {tag: 'botania:petals/red'} ],
             mana: 40000,
             output: {item: 'botania:orechid'},
             id: `${prefix}orechid`
@@ -74,7 +74,7 @@ ServerEvents.recipes(e => {
             id: `${prefix}orechid_ignem`
         },
         {
-            ingredients: [{item: 'botania:gaia_ingot'}, {item: 'botania:gaia_ingot'}, {item: 'botania:elementium_block'}, {item: 'constructionwand:core_angel'}, {item:'reliquary:rending_gale'}, {item:'botania:botany_catalyst'}, {item: 'botania:ender_air_bottle'},{item: 'botania:dragonstone_block'}, {item:'hexerei:willow_broom'}, {item: 'botania:life_essence'}, {item: 'botania:infinity_petal'}],
+            ingredients: [{item: 'botania:gaia_ingot'}, {item: 'botania:gaia_ingot'}, {item: 'botania:elementium_block'}, {item: 'constructionwand:core_angel'}, {item:'reliquary:rending_gale'}, {item:'gribtweaks:botany_catalyst'}, {item: 'botania:ender_air_bottle'},{item: 'botania:dragonstone_block'}, {item:'hexerei:willow_broom'}, {item: 'botania:life_essence'}, {item: 'gribtweaks:infinity_petal'}],
             mana: 60000,
             output: {item: 'botania:flight_tiara'},
             id: `${prefix}flight_tiara`
@@ -82,13 +82,13 @@ ServerEvents.recipes(e => {
         {
             ingredients: [{item: 'botania:terrasteel_block'}, {item: 'botania:natura_pylon'}, {item: 'botania:terrasteel_chestplate'}, {item: 'botania:mana_ring_greater'}, {item:'botania:terrasteel_block'}, {item:'botania:terra_sword'}],
             mana: 100000,
-            output: {item: 'botania:terrasteel_potency'},
+            output: {item: 'gribtweaks:terrasteel_potency'},
             id: `${prefix}terrasteel_potency`
         },
         {
             ingredients: [{item: 'botania:elementium_block'}, {item: 'botania:gaia_pylon'}, {item: 'botania:elementium_chestplate'}, {item: 'botania:reach_ring'}, {item:'botania:dragonstone_block'}, {item:'botania:star_sword'}],
             mana: 100000,
-            output: {item: 'botania:elves_endowment'},
+            output: {item: 'gribtweaks:elves_endowment'},
             id: `${prefix}elves_endowment`
         },
         {
@@ -118,13 +118,13 @@ ServerEvents.recipes(e => {
         {
             ingredients: [{item: 'botania:rune_lust'}, {item: 'botania:rune_gluttony'}, {item: 'botania:rune_greed'}, {item: 'botania:rune_sloth'}, {item:'botania:rune_wrath'}, {item:'botania:rune_envy'}, {item: 'botania:rune_pride'}, {item: 'botanicadds:rune_energy'}, {item:'botanicadds:rune_tp'}, {item:'gribtweaks:rune_sun'}, {item:'gribtweaks:rune_night'}, {item:'gribtweaks:rune_admiration'}],
             mana: 70000,
-            output: {item: 'botania:botany_catalyst'},
+            output: {item: 'gribtweaks:botany_catalyst'},
             id: `${prefix}botany_catalyst`
         },
         {
-            ingredients: [{item: 'botanicadds:gaiasteel_ingot'}, {item: 'botanicadds:gaiasteel_ingot'}, {item: 'botania:botany_catalyst'}, {item: 'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item: 'enigmaticlegacy:astral_block'}],
+            ingredients: [{item: 'botanicadds:gaiasteel_ingot'}, {item: 'botanicadds:gaiasteel_ingot'}, {item: 'gribtweaks:botany_catalyst'}, {item: 'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item:'botania:shimmerrock'}, {item: 'enigmaticlegacy:astral_block'}],
             mana: 100000,
-            output: {item: 'botania:rune_suspension'},
+            output: {item: 'gribtweaks:rune_suspension'},
             id: `${prefix}rune_suspension`
         }
     ]

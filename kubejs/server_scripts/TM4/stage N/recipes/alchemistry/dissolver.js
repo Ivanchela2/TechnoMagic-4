@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         'group': 'alchemistry:dissolver',
         'input': {
           'ingredient': {
-            'item': 'chemlib:gribony_block'
+            'item': 'gribtweaks:gribony_block'
           },
           'count': 1
         },
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
         'group': 'alchemistry:dissolver',
         'input': {
           'ingredient': {
-            'item': 'chemlib:pre_gribony_block'
+            'item': 'gribtweaks:pre_gribony_block'
           },
           'count': 1
         },
@@ -177,7 +177,7 @@ ServerEvents.recipes((event) => {
         'group': 'alchemistry:dissolver',
         'input': {
           'ingredient': {
-            'item': 'chemlib:unstable_gribony_block'
+            'item': 'gribtweaks:unstable_gribony_block'
           },
           'count': 1
         },

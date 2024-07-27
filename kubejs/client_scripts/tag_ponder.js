@@ -14,7 +14,7 @@ Ponder.tags(event => {
         'botania:orechid',
         'botania:orechid_ignem',
         'botania:entropinnyum',
-        'create:steam_power_generator',
+        'gribtweaks:steam_power_generator',
         'minecraft:iron_ore',
         'minecraft:iron_ingot',
         'create:precision_mechanism',

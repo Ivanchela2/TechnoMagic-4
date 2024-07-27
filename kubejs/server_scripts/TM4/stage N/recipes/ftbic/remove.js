@@ -1,25 +1,37 @@
 ServerEvents.recipes(event => {
-    event.remove([
-		{ output: 'ftbic:carbon_helmet' },
-		{ output: 'ftbic:carbon_chestplate' },
-		{ output: 'ftbic:carbon_leggings' },
-		{ output: 'ftbic:carbon_boots' },
-		{ output: 'ftbic:canning_machine' },
-		{ output: 'ftbic:lv_transformer' },
-		{ output: 'ftbic:ev_transformer' },
-		{ output: 'ftbic:hv_battery_box' },
-		{ output: 'ftbic:ev_battery_box' },
-		{ output: 'ftbic:compressor' },
-		{ id: 'ftbic:shaped/machine_block' },
-		{ id: 'ftbic:shapeless/advanced_machine_block' },
-		{ output: 'ftbic:quantum_helmet' },
-		{ output: 'ftbic:quantum_chestplate' },
-		{ output: 'ftbic:quantum_leggings' },
-		{ output: 'ftbic:quantum_boots' },
-		{ output: 'ftbic:overclocker_upgrade' },
-		{ output: 'ftbic:energy_storage_upgrade' },
-		{ output: 'ftbic:transformer_upgrade' },
-		{ output: 'ftbic:ejector_upgrade' },
-		{ output: 'ftbic:industrial_grade_metal' },
-    ])
+    const output = [
+		'ftbic:carbon_helmet',
+		'ftbic:carbon_chestplate',
+		'ftbic:carbon_leggings',
+		'ftbic:carbon_boots',
+		'ftbic:canning_machine',
+		'ftbic:hv_battery_box',
+		'ftbic:ev_battery_box',
+		'ftbic:compressor',
+		'ftbic:quantum_helmet',
+		'ftbic:quantum_chestplate',
+		'ftbic:quantum_leggings',
+		'ftbic:quantum_boots',
+		'ftbic:overclocker_upgrade',
+		'ftbic:energy_storage_upgrade',
+		'ftbic:transformer_upgrade',
+		'ftbic:ejector_upgrade',
+		'ftbic:industrial_grade_metal',
+		'ftbic:energy_crystal',
+        'ftbic:antimatter_crystal',
+		'ftbic:machine_block',
+		'ftbic:advanced_machine_block',
+        'ftbic:electric_furnace',
+        'ftbic:roller',
+        'ftbic:macerator',
+        'ftbic:extruder',
+        'ftbic:recycler',
+        'ftbic:iron_furnace',
+		'ftbic:centrifuge'
+    ]
+
+
+    output.forEach(recipe => {
+        event.remove({output: recipe})
+    })
 })

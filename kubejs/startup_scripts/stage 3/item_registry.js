@@ -9,7 +9,7 @@ StartupEvents.registry('item', (e) => {
     e.create('gribtweaks:mix_of_ingot_combinations').displayName('Комбинированная смесь');
     e.create('gribtweaks:ingot_osmium').displayName('Осмиевый слиток').tag('forge:ingots/osmium').tag('forge:ingots').tag('balm:ingots');
     e.create('gribtweaks:raw_osmium').displayName('Сырой осмий').tag('forge:raw_materials')
-    e.create('gribtweaks:nugget_osmium').displayName('Осмиевый самородок').tag('forge:nuggets').tag('balm:nuggets')
+    e.create('gribtweaks:nugget_osmium').displayName('Осмиевый самородок').tag('forge:nuggets').tag('balm:nuggets').tag('forge:nuggets/osmium')
     e.create('gribtweaks:witch_ingot').displayName('§5Ведьминский слиток').tag('forge:ingots').tag('balm:ingots');
     e.create('gribtweaks:witch_nugget').displayName('§5Ведьминский самородок').tag('forge:nuggets').tag('balm:nuggets')
     e.create('gribtweaks:raw_witch_ingot').displayName('§5Сырой Ведьминский самородок').tag('forge:raw_materials')

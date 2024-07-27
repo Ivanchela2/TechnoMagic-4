@@ -1,0 +1,7 @@
+License Agreement
+The scripts provided are licensed under the following terms:
+
+Non-Commercial Use: The scripts may not be used for commercial purposes without explicit permission from the author.
+Attribution: Proper credit must be given to the author when using or sharing the scripts.
+No Derivatives: The scripts may not be redistributed without permission.
+Permissions: To request permission for commercial use, please contact the author.

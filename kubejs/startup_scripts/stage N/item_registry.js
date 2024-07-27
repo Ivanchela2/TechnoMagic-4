@@ -12,32 +12,32 @@ StartupEvents.registry('item', event => {
         'neutronium_honeycomb' : 'Сота нейтрония',
 
         // stage 7
-        'ad_astra:reinforced_rocket_fin':'§6Reinforced Rocket Fin',
-        'ad_astra:reinforced_rocket_nose_cone':'§6Reinforced Rocket Nose Cone',
-        'ad_astra:advanced_rocket_fin':'§5Advanced Rocket Fin',
-        'ad_astra:advanced_rocket_nose_cone':'§5Advanced Rocket Nose Cone',
-        'ad_astra:ultra_rocket_fin':'§cUltra Rocket Fin',
-        'ad_astra:ultra_rocket_nose_cone':'§cUltra Rocket Nose Cone',
-        'ad_astra:incomplete_reinforced_rocket_fin':'Incomplete Reinforced Rocket Fin',
-        'ad_astra:incomplete_advanced_rocket_fin':'Incomplete Advanced Rocket Fin',
-        'ad_astra:incomplete_ultra_rocket_fin': 'Incomplete Ultra Rocket Fin',
-        'botania:infinity_petal': '§dInfinity Petal',
-        'botania:gaia_catalyst': '§7Gaia Catalyst',
-        'botania:maximum_catalyst': '§bMaximum Catalyst',
-        'botania:gaia_punishment': '§3Gaia Punishment',
-        'botania:terrasteel_potency': '§aTerrasteel Potency',
-        'botania:elves_endowment':'§dElves Endowment',
-        'botania:incomplete_terra_pick':'Incomplete Terra Shatterer',
-        'botania:incomplete_terra_axe':'Incomplete Terra Truncator',
-        'botania:incomplete_terra_sword':'Incomplete Terra Sword',
-        'botania:rune_base':'§dRune Base',
-        'botania:rune_suspension':'§dRune Suspension',
-        'botania:botany_catalyst':'§dBotany Catalyst',
-        'create:steam_power_generator':'Steam Power Generator',
-        'botania:specific_rune_base':'§dSpecific Rune Base',
-        'botania:basic_runic_stone':'§9Basic Runic Stone',
-        'botania:purple_piece_of_specific_rune':'§dPurple Piece of Specific Rune',
-        'botania:blue_piece_of_specific_rune':'§bBlue Piece of Specific Rune'
+        'reinforced_rocket_fin':'§6Reinforced Rocket Fin',
+        'reinforced_rocket_nose_cone':'§6Reinforced Rocket Nose Cone',
+        'advanced_rocket_fin':'§5Advanced Rocket Fin',
+        'advanced_rocket_nose_cone':'§5Advanced Rocket Nose Cone',
+        'ultra_rocket_fin':'§cUltra Rocket Fin',
+        'ultra_rocket_nose_cone':'§cUltra Rocket Nose Cone',
+        'incomplete_reinforced_rocket_fin':'Incomplete Reinforced Rocket Fin',
+        'incomplete_advanced_rocket_fin':'Incomplete Advanced Rocket Fin',
+        'incomplete_ultra_rocket_fin': 'Incomplete Ultra Rocket Fin',
+        'infinity_petal': '§dInfinity Petal',
+        'gaia_catalyst': '§7Gaia Catalyst',
+        'maximum_catalyst': '§bMaximum Catalyst',
+        'gaia_punishment': '§3Gaia Punishment',
+        'terrasteel_potency': '§aTerrasteel Potency',
+        'elves_endowment':'§dElves Endowment',
+        'incomplete_terra_pick':'Incomplete Terra Shatterer',
+        'incomplete_terra_axe':'Incomplete Terra Truncator',
+        'incomplete_terra_sword':'Incomplete Terra Sword',
+        'rune_base':'§dRune Base',
+        'rune_suspension':'§dRune Suspension',
+        'botany_catalyst':'§dBotany Catalyst',
+        'steam_power_generator':'Steam Power Generator',
+        'specific_rune_base':'§dSpecific Rune Base',
+        'basic_runic_stone':'§9Basic Runic Stone',
+        'purple_piece_of_specific_rune':'§dPurple Piece of Specific Rune',
+        'blue_piece_of_specific_rune':'§bBlue Piece of Specific Rune'
     };
 
     for (const [id,dName] of Object.entries(items)) {
@@ -56,8 +56,40 @@ StartupEvents.registry('item', event => {
         .displayName('Кирка из кости Байкока')
         .tier('diamond');
 
-    create('chemlib:terrasteel_element','§aTerrasteel').group('chemlib.elements').tooltip('§bTr (500)').tooltip('§7Transition Metals')
-    create('chemlib:gaia_element','§dGaia').group('chemlib.elements').tooltip('§bGi (320)').tooltip('§7Transition Metals')
-    create('chemlib:mana_element','§9Mana').group('chemlib.elements').tooltip('§bMa (3000)').tooltip('§7Transition Metals')
-    create('chemlib:botany_compound','§5Botany Compound').group('chemlib.compounds').tooltip('§3Ma₂Tr₂Gi')
+    // create('gribtweaks:watering_can', 'Лейка').maxStackSize(1);
+    // create('gribtweaks:advanced_watering_can', 'Улучшенная лейка').maxStackSize(1);
+    // create('gribtweaks:ultimate_watering_can', 'Совершенная лейка').maxStackSize(1);
+
+    create('chemlib:terrasteel_element','§aTerrasteel')
+        .group('chemlib.elements').tooltip('§bTr (500)').tooltip('§7Transition Metals')
+    create('chemlib:gaia_element','§dGaia')
+        .group('chemlib.elements').tooltip('§bGi (320)').tooltip('§7Transition Metals')
+    create('chemlib:mana_element','§9Mana')
+        .group('chemlib.elements').tooltip('§bMa (3000)').tooltip('§7Transition Metals')
+    create('chemlib:botany_compound','§5Botany Compound')
+        .group('chemlib.compounds').tooltip('§3Ma₂Tr₂Gi')
+
+    // food
+    event.create('gribtweaks:quantum_burger').displayName('Квантовый бургер').food(food => {
+		food
+    		.hunger(14)
+    		.saturation(2.5)
+      		.effect('speed', 4500, 1, 1)
+      		.effect('strength', 4500, 0, 1)
+      		.effect('night_vision', 4500, 0, 1)
+      		.effect('resistance', 4500, 1, 1)
+      		.alwaysEdible()
+      		.meat()
+	})
+    event.create('gribtweaks:astral_burger').displayName('§dАстральный бургер').food(food => {
+		food
+    		.hunger(10)
+    		.saturation(1.5)
+      		.effect('haste', 2500, 0, 1)
+      		.effect('night_vision', 2500, 0, 1)
+      		.effect('water_breathing', 2500, 0, 1)
+      		.effect('regeneration', 700, 1, 1)
+      		.alwaysEdible()
+      		.meat()
+	})    
 });

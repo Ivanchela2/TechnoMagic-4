@@ -1,7 +1,7 @@
 Ponder.registry(e => {
     e
         .create([
-            'create:steam_power_generator',
+            'gribtweaks:steam_power_generator',
             'create:steam_engine'
         ])
         .scene('gribtweaks:steam_power_generation', "Steam Power Generation", "steam_power_generator", (scene, util) => {

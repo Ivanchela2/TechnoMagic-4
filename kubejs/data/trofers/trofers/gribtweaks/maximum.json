@@ -7,7 +7,7 @@
         { "text": "§7Возглавь ботаническое поколение!" }
     ],
     "item": {
-        "item": "botania:maximum_catalyst"
+        "item": "gribtweaks:maximum_catalyst"
     },
     "animation": {
         "type": "spinning",

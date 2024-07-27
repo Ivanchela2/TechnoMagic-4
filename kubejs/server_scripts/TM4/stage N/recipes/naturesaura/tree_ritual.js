@@ -2,7 +2,6 @@ ServerEvents.recipes((event) => {
   const prefix = 'gribtweaks:naturesaura/tree_ritual/'
   const recipes = [
       {
-        type: 'naturesaura:tree_ritual',
         ingredients: [
           { item: 'minecraft:golden_apple' },
           { 
@@ -24,7 +23,6 @@ ServerEvents.recipes((event) => {
         id: `${prefix}token_joy`
       },
       {
-        type: 'naturesaura:tree_ritual',
         ingredients: [
           { item: 'naturesaura:token_joy' },
           { item: 'minecraft:smooth_stone'},
@@ -41,7 +39,6 @@ ServerEvents.recipes((event) => {
         id: `${prefix}nature_altar`
       },
       {
-        type: 'naturesaura:tree_ritual',
         ingredients: [
           { item: 'minecraft:coal_block' },
           { item: 'gribtweaks:witch_ingot' },
@@ -63,7 +60,6 @@ ServerEvents.recipes((event) => {
         id: `${prefix}token_anger`
       },
       {
-        type: 'naturesaura:tree_ritual',
         ingredients: [
           { item: 'naturesaura:infused_iron_block' },
           { item: 'naturesaura:infused_stone' },
@@ -80,7 +76,6 @@ ServerEvents.recipes((event) => {
         id: `${prefix}crushing_catalyst`
       },
       {
-        type: 'naturesaura:tree_ritual',
         ingredients: [
           { item: 'twilightforest:liveroot' },
           { item: 'hexerei:selenite_shard' },
@@ -100,7 +95,7 @@ ServerEvents.recipes((event) => {
 
   recipes.forEach(recipe => {
     event.custom({
-      type: recipe.type,
+      type: 'naturesaura:tree_ritual',
       ingredients: recipe.ingredients,
       output: recipe.output,
       sapling: recipe.sapling,

@@ -17,6 +17,14 @@ ServerEvents.recipes(event => {
             ],
             id: `${prefix}large_cogwheel`
         },
+        {
+            output: 'createbigcannons:cast_iron_ingot',
+            inputs: [
+                '3x minecraft:coal', 
+                '#forge:plates/iron'
+            ],
+            id: `${prefix}cast_iron_ingot`
+        },
     ];
 
     recipes.forEach((recipe) => {

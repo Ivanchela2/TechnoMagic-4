@@ -4,7 +4,7 @@ Ponder.registry(e => {
             'botania:life_essence',
             'botania:gaia_pylon',
             'botania:gaia_head',
-            'botania:life_essence_block',
+            'gribtweaks:life_essence_block',
             'minecraft:beacon'
         ])
         .scene('gribtweaks:gaia_ritual', 'Гайа ритуал', 'gaia_summon', (scene, util) => {

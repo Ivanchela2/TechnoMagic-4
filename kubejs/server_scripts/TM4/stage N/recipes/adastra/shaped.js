@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
             id: 'gribtweaks:ad_astra_giselle_addon/shaped/oxygen_gear'
         },
         {
-          output: 'ad_astra:protasteel_block',
+          output: 'gribtweaks:protasteel_block',
           pattern: ['SBA', 'BRB', 'ABS'],
           key: {
             A: 'gribtweaks:super_alloy',
@@ -134,21 +134,65 @@ ServerEvents.recipes((event) => {
           id: `${prefix}protasteel_block`
         },
         {
-          output: 'ad_astra:protasteel_block',
+          output: 'gribtweaks:protasteel_block',
           pattern: ['LLL', 'LLL', 'LLL'],
           key: {
-            L: 'ad_astra:protasteel_ingot'
+            L: 'gribtweaks:protasteel_ingot'
           },
           id: `${prefix}protasteel_block_of_ingots`
         },
         {
-          output: '9x ad_astra:protasteel_ingot',
+          output: '9x gribtweaks:protasteel_ingot',
           pattern: ['L'],
           key: {
-            L: 'ad_astra:protasteel_block'
+            L: 'gribtweaks:protasteel_block'
           },
           id: `${prefix}protasteel_ingot`
         },
+        {
+            output: 'ad_astra:jet_suit',
+            pattern: ['ABA','CDC','EFE'],
+            key: {
+                A: 'botanicadds:gaiasteel_ingot',
+                B: 'botania:flight_tiara',
+                C: 'ad_astra:calorite_tank',
+                D: 'ad_astra:netherite_space_suit',
+                E: 'ad_astra:calorite_block',
+                F: 'ad_astra:calorite_engine'
+            },
+            id: `${prefix}jet_suit`
+        },
+        {
+            output: 'ad_astra:jet_suit_helmet',
+            pattern: ['ABA','CDC','   '],
+            key: {
+                A: 'botanicadds:gaiasteel_ingot',
+                B: 'ad_astra:netherite_space_helmet',
+                C: 'ad_astra:calorite_plate',
+                D: '#forge:glass'
+            },
+            id: `${prefix}jet_suit_helmet`
+        },
+        {
+            output: 'ad_astra:jet_suit_pants',
+            pattern: ['ABA','C C','C C'],
+            key: {
+                A: 'botanicadds:gaiasteel_ingot',
+                B: 'ad_astra:netherite_space_pants',
+                C: 'ad_astra:calorite_plate'
+            },
+            id: `${prefix}jet_suit_pants`
+        },
+        {
+            output: 'ad_astra:jet_suit_boots',
+            pattern: ['   ','ABA','C C'],
+            key: {
+                A: 'botanicadds:gaiasteel_ingot',
+                B: 'ad_astra:netherite_space_boots',
+                C: 'ad_astra:calorite_block'
+            },
+            id: `${prefix}jet_suit_boots`
+        }
     ];
 
 

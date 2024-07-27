@@ -2074,8 +2074,8 @@
 			size: 1.2d
 			subtitle: "&5Переход к другому моду"
 			tasks: [{
-				id: "2C121F109D81DCDA"
-				item: "biggerreactors:reinforced_ludicrite_block"
+				id: "3C0007862E331571"
+				item: "gribtweaks:reinforced_ludicrite_block"
 				type: "item"
 			}]
 			x: 8.5d
@@ -3801,8 +3801,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2B783B23176A3A8C"
-				item: "ad_astra:rocket_covering"
+				id: "0634087B415CE4E5"
+				item: "gribtweaks:rocket_covering"
 				type: "item"
 			}]
 			x: 4.5d

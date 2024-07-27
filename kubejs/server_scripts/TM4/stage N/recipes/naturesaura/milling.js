@@ -15,7 +15,23 @@ ServerEvents.recipes((event) => {
                     item: 'naturesaura:gold_powder'
                 },
             ]
-        }
+        },
+        {
+            type: 'create:milling',
+            ingredients: [
+                {
+                    item: 'gribtweaks:tained_gold_leaf'
+                }
+            ],
+            processingTime: 100,
+            results: [
+                {
+                    count: 2,
+                    item: 'gribtweaks:tained_gold_powder'
+                },
+            ]
+
+        },
     ];
     recipes.forEach(recipe => {
         event.custom({

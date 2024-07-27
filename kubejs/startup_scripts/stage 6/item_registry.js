@@ -82,8 +82,8 @@ StartupEvents.registry('item', event => {
     event.create('chemlib:infinity_neutronium_ingot').displayName('§b§lБесконечный нейтрониевый слиток');  
 
     // biggerreactors + ad_astra
-    event.create('biggerreactors:reinforced_ludicrite_ingot').displayName('Усиленный лудикритовый слиток');   
-    event.create('ad_astra:protasteel_ingot').displayName('Прота-стальной слиток');
+    event.create('gribtweaks:reinforced_ludicrite_ingot').displayName('Усиленный лудикритовый слиток');   
+    event.create('gribtweaks:protasteel_ingot').displayName('Прота-стальной слиток');
 
     // items used throughout the gameplay (stage: 1, 2 ... 7, end game)
     // create
@@ -265,28 +265,4 @@ StartupEvents.registry('item', event => {
     event.create('gribtweaks:neutronium_catalyst').displayName('§0◂ §cНейтронный катализатор §0▸');
     event.create('gribtweaks:upgraded_photovoltaic_cell').displayName('§bМодифицированный фотоэлектрический элемент');
     event.create('gribtweaks:energium_dust').displayName('Энергетическая пыль');
-
-    // food
-    event.create('gribtweaks:quantum_burger').displayName('Квантовый бургер').food(food => {
-		food
-    		.hunger(14)
-    		.saturation(2.5)
-      		.effect('speed', 4500, 1, 1)
-      		.effect('strength', 4500, 0, 1)
-      		.effect('night_vision', 4500, 0, 1)
-      		.effect('resistance', 4500, 1, 1)
-      		.alwaysEdible()
-      		.meat()
-	})
-    event.create('gribtweaks:astral_burger').displayName('§dАстральный бургер').food(food => {
-		food
-    		.hunger(10)
-    		.saturation(1.5)
-      		.effect('haste', 2500, 0, 1)
-      		.effect('night_vision', 2500, 0, 1)
-      		.effect('water_breathing', 2500, 0, 1)
-      		.effect('regeneration', 700, 1, 1)
-      		.alwaysEdible()
-      		.meat()
-	})
 })  

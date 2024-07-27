@@ -16,6 +16,28 @@ ServerEvents.recipes((event) => {
             output: Item.of('gribtweaks:oblivion_powder', 1),
 			heated: true,
             id: `${prefix}oblivion_powder`
+        },
+        {
+            inputs: [
+                'collectorsreap:lime_gummy', 
+                'collectorsreap:pomegranate_gummy', 
+                'collectorsreap:melon_gummy', 
+                'collectorsreap:apple_gummy', 
+                'collectorsreap:banana_gummy', 
+                'collectorsreap:vanilla_gummy', 
+                'collectorsreap:chocolate_gummy', 
+                'collectorsreap:strawberry_gummy', 
+                'collectorsreap:mint_gummy', 
+                'collectorsreap:adzuki_gummy', 
+                'collectorsreap:green_tea_gummy', 
+                'collectorsreap:yellow_tea_gummy', 
+                'collectorsreap:black_tea_gummy', 
+                'collectorsreap:coffee_gummy', 
+                'delightful:salmonberry_gummy'
+            ],
+            output: Item.of('gribtweaks:combined_jelly', 1),
+            heated: true,
+            id: `${prefix}combined_jelly`
         }
 	];
 	
