@@ -3,6 +3,7 @@ ServerEvents.recipes((event) => {
         'ad_astra:hammer',
         'ad_astra:cable_duct',
         'ad_astra:steel_cable', 
+        'ad_astra:solar_panel',
         'ad_astra:compressor', 
         'ad_astra:coal_generator', 
         'ad_astra:rocket_fin', 
@@ -35,7 +36,11 @@ ServerEvents.recipes((event) => {
         'ad_astra:jet_suit',
         'ad_astra:jet_suit_helmet',
         'ad_astra:jet_suit_pants',
-        'ad_astra:jet_suit_boots'
+        'ad_astra:jet_suit_boots',
+        'ad_astra:netherite_space_boots',
+        'ad_astra:netherite_space_pants',
+        'ad_astra:netherite_space_suit',
+        'ad_astra:netherite_space_helmet'
     ]
 
     output.forEach(recipe => {

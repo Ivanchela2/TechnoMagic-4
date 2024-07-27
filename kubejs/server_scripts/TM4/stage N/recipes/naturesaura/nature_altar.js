@@ -44,6 +44,21 @@ ServerEvents.recipes((event) => {
             time: 20,
             id: `${prefix}tained_gold_powder`
         },
+        {
+            input: {
+                item: 'naturesaura:gold_leaf'
+            },
+            output: {
+                item: 'naturesaura:gold_powder',
+                'count': 4
+            },
+            catalyst: {
+                item: 'naturesaura:crushing_catalyst'
+            },
+            aura: 2000,
+            time: 20,
+            id: `${prefix}gold_powder`
+        },
     ]
   
     recipes.forEach(recipe => {

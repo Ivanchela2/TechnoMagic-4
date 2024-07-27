@@ -67,16 +67,16 @@ block.solarflux.sp_de.draconic=Солнечная панель Дракона
 block.solarflux.sp_de.chaotic=Солнечная панель Хаоса
 
 ## TWILIGHT FOREST ##
-block.solarflux.sp_tf.carminite=Carminite Solar Panel
-block.solarflux.sp_tf.fiery=Fiery Solar Panel
+block.solarflux.sp_tf.carminite=Карминитовая солнечная панель
+block.solarflux.sp_tf.fiery=Огненная солнечная панель
 
-item.solarflux.twilightforest.twilight_cell_1=Twilight Cell I
-item.solarflux.twilightforest.twilight_cell_2=Twilight Cell II
-item.solarflux.twilightforest.twilight_upgrade=Twi-Light Upgrade
+item.solarflux.twilightforest.twilight_cell_1=Сумеречная ячейка I
+item.solarflux.twilightforest.twilight_cell_2=Сумеречная ячейка II
+item.solarflux.twilightforest.twilight_upgrade=Сумеречное улучшение
 
-info.solarflux.twilightforest.twilight_upgrade=Slightly increases light gathered by Solar Panel in The Twilight Forest.
+info.solarflux.twilightforest.twilight_upgrade=Немного увеличивает количество света, собираемого солнечной панелью в Сумеречном лесу.
 
 ## APPLIED ENERGISTICS ##
-item.solarflux.ae2.energy_upgrade=AEU Energy Upgrade
+item.solarflux.ae2.energy_upgrade=Улучшение: AEU энергия
 
-info.solarflux.ae2.energy_upgrade=Allows connecting Solar Panel directly into ME Grid.
+info.solarflux.ae2.energy_upgrade=Позволяет подключать Солнечную панель напрямую к МЭ системе.

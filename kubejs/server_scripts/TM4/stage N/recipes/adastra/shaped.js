@@ -192,7 +192,64 @@ ServerEvents.recipes((event) => {
                 C: 'ad_astra:calorite_block'
             },
             id: `${prefix}jet_suit_boots`
-        }
+        },
+        {
+            output: 'ad_astra:netherite_space_boots',
+            pattern: ['CBC','DAD'],
+            key: {
+                A: 'twilightforest:ironwood_boots',
+                B: 'ad_astra:space_boots',
+                C: 'ad_astra:ostrum_plate',
+                D: 'gribtweaks:endrium_uranium_iridium_alloy'
+            },
+            id: `${prefix}netherite_space_boots`
+        },
+        {
+            output: 'ad_astra:netherite_space_helmet',
+            pattern: [' A ','DBD','CEC'],
+            key: {
+                A: 'twilightforest:ironwood_helmet',
+                B: 'ad_astra:space_helmet',
+                C: 'ad_astra:ostrum_plate',
+                D: 'gribtweaks:endrium_uranium_iridium_alloy',
+                E: 'biggerreactors:reactor_glass'
+            },
+            id: `${prefix}netherite_space_helmet`
+        },
+        {
+            output: 'ad_astra:netherite_space_suit',
+            pattern: ['CAC','FEF','DBD'],
+            key: {
+                A: 'twilightforest:ironwood_chestplate',
+                B: 'ad_astra:space_suit',
+                C: 'ad_astra:ostrum_plate',
+                D: 'gribtweaks:endrium_uranium_iridium_alloy',
+                E: 'ad_astra:oxygen_gear',
+                F: 'ad_astra:ostrum_tank'
+            },
+            id: `${prefix}netherite_space_suit`
+        },
+        {
+            output: 'ad_astra:netherite_space_pants',
+            pattern: ['DBD','CAC','C C'],
+            key: {
+                A: 'twilightforest:ironwood_leggings',
+                B: 'ad_astra:space_pants',
+                C: 'ad_astra:ostrum_plate',
+                D: 'gribtweaks:endrium_uranium_iridium_alloy'
+            },
+            id: `${prefix}netherite_space_pants`
+        },
+        {
+            output: '6x ad_astra:steel_cable',
+            pattern: ['AAA','CBC','AAA'],
+            key: {
+                A: '#forge:nuggets/steel',
+                B: '#createbigcannons:block_steel',
+                C: 'ftbic:hv_cable'
+            },
+            id: `${prefix}steel_cable`
+        },
     ];
 
 

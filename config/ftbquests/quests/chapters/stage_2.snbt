@@ -474,12 +474,20 @@
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
-			rewards: [{
-				count: 16
-				id: "1587E40C4FE786AF"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "1587E40C4FE786AF"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28A12572CBFB62C9"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Не chisel, но лучше"
 			tasks: [

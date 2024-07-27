@@ -146,7 +146,7 @@ ServerEvents.recipes((event) => {
 			],
 			liquidOutput: {fluid: 'hexerei:life_liquid_essence'},
 			output: {item: 'gribtweaks:focus_element'},
-			fluidLevelsConsumed: 1000,
+			fluidLevelsConsumed: 2000,
 			id: `${prefixt}focus_element`
 		},
 		{ // Мокрый соеденяющий слиток

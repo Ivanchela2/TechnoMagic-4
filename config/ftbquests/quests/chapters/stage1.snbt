@@ -671,6 +671,13 @@
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Зола получается путём сжигания легковоспламеняющихся блоков. Чтобы поджечь блок, можно использовать зажигалку."]
 			id: "24DBBA23D05F1699"
+			rewards: [{
+				count: 6
+				id: "5D9371D230E80EA4"
+				item: "supplementaries:ash"
+				random_bonus: 10
+				type: "item"
+			}]
 			tasks: [{
 				id: "719186B246A851BD"
 				item: "supplementaries:ash"

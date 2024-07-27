@@ -490,7 +490,6 @@
 				""
 				"Для своей работы она требует структуру 3x3 под ней, состоящую из четырех блоков лазурита и пяти жизнекамня."
 				""
-				"{image:stage7:textures/screenshots/terra_plate.png width:150 height:100 align:1}"
 			]
 			id: "0D40BBE03A8EDABF"
 			rewards: [{
@@ -533,7 +532,6 @@
 				"Портал в эльфхейм нужен для получения важных ресурсов."
 				""
 				"Для активации портала требуется мана."
-				"{image:stage7:textures/screenshots/Botania_Portal_to_Alfheim.png width:100 height:100 align:1}"
 			]
 			id: "27167BC51C639600"
 			rewards: [{
@@ -827,7 +825,6 @@
 				"Когда вы готовы, кликните террасталью по маяку и Страж Гайи появится."
 				""
 				"&c&lВажно:&r Страж Гайи - очень сильный босс, и перед битвой с ним, стоит хорошо подготовиться."
-				"{image:stage7:textures/screenshots/Gaia_Ritual.png width:100 height:100 align:1}"
 			]
 			icon: "botania:gaia_pylon"
 			id: "4C511DC62177DF3C"

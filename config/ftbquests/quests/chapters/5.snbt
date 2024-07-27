@@ -297,21 +297,6 @@
 			id: "67605DBA2DD3208C"
 			rewards: [
 				{
-					id: "74827E7655641447"
-					item: "silentgear:blaze_gold_ingot"
-					type: "item"
-				}
-				{
-					id: "5D386A08BCBA1C09"
-					item: "silentgear:netherwood_sapling"
-					type: "item"
-				}
-				{
-					id: "67AB7BEB6FAE269D"
-					item: "silentgear:crimson_iron_ingot"
-					type: "item"
-				}
-				{
 					id: "10321CFB0501DF76"
 					item: "sophisticatedbackpacks:iron_backpack"
 					type: "item"

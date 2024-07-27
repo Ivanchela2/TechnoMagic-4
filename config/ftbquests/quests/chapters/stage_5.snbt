@@ -85,7 +85,6 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "Эфир. Происхождение этой руды неизвестно, но охотники за сокровищами поговаривают, что искать его нужно в городах энда."
 			tasks: [{
 				id: "7B28EF9423429B5A"
 				item: "enigmaticlegacy:etherium_ingot"
@@ -348,7 +347,6 @@
 				}
 			}
 			id: "3B5302E294514151"
-			invisible: true
 			rewards: [
 				{
 					id: "1AA9BB2167F2B338"
@@ -788,13 +786,13 @@
 			dependencies: ["60C044E0BAE70655"]
 			id: "3C4FAAC29B6437CA"
 			rewards: [{
-				id: "76E55C488037B657"
+				id: "61F5262AE0FDAF55"
 				item: {
 					Count: 1b
 					id: "reliquary:mob_charm"
 					tag: {
 						Damage: 0
-						entity: "enemyexpansion:scorpion"
+						entity: "minecraft:endermite"
 					}
 				}
 				type: "item"
@@ -848,13 +846,13 @@
 			dependencies: ["0F2B8B22CF4D5730"]
 			id: "295B34A99DDA14E6"
 			rewards: [{
-				id: "1F9206AD65094C62"
+				id: "716A046D8E921710"
 				item: {
 					Count: 1b
 					id: "reliquary:mob_charm"
 					tag: {
 						Damage: 0
-						entity: "enemyexpansion:zobgoblin"
+						entity: "minecraft:slime"
 					}
 				}
 				type: "item"
@@ -1130,13 +1128,13 @@
 			dependencies: ["219762AA6306D027"]
 			id: "0F2B8B22CF4D5730"
 			rewards: [{
-				id: "2C87081A824072FB"
+				id: "15EAEEC6A92436F3"
 				item: {
 					Count: 1b
 					id: "reliquary:mob_charm"
 					tag: {
 						Damage: 0
-						entity: "illageandspillage:preserver"
+						entity: "minecraft:blaze"
 					}
 				}
 				type: "item"
@@ -1464,9 +1462,10 @@
 			dependencies: ["1CDCB4AE59BFBCFA"]
 			hide_dependency_lines: true
 			id: "7614670D3B37C767"
+			subtitle: "Эфир. Происхождение этой руды неизвестно, но охотники за сокровищами поговаривают, что искать его нужно в городах энда."
 			tasks: [{
-				id: "39E92A25D8FCDD3F"
-				item: "gribtweaks:chunk_of_etherium"
+				id: "1A0014793DA7134F"
+				item: "enigmaticlegacy:etherium_ore"
 				type: "item"
 			}]
 			x: 5.0d
@@ -2069,19 +2068,21 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["1BFCEB3384BDA1ED"]
+			dependencies: [
+				"0EFBA96667CFD8B6"
+				"07240471AFE9491F"
+			]
 			id: "3CF5EBB4A957523F"
 			tasks: [{
 				id: "157901E88261ECB4"
 				item: "gribtweaks:oblivion_liquid"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -18.0d
 		}
 		{
-			dependencies: ["7A9A5C36D0332D8A"]
-			hide_dependency_lines: true
+			dependencies: ["61AF07D29B095317"]
 			id: "1BFCEB3384BDA1ED"
 			tasks: [{
 				id: "10990DA6F0325E3D"
@@ -2092,18 +2093,24 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["3CF5EBB4A957523F"]
+			dependencies: [
+				"21040627E49B4E5E"
+				"1BFCEB3384BDA1ED"
+			]
 			id: "07240471AFE9491F"
 			tasks: [{
 				id: "214FF6ED2F428AFB"
 				item: "gribtweaks:admiration_liquid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: -18.0d
 		}
 		{
-			dependencies: ["07240471AFE9491F"]
+			dependencies: [
+				"4ADDC0808FD283C2"
+				"3CF5EBB4A957523F"
+			]
 			id: "566D4F0029AE0377"
 			tasks: [{
 				id: "6AC77C308D762F33"
@@ -2114,7 +2121,10 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["566D4F0029AE0377"]
+			dependencies: [
+				"566D4F0029AE0377"
+				"750AEBD40DCD9C16"
+			]
 			id: "326A9F75AC04B8E6"
 			tasks: [{
 				id: "17BE93F4A016A8D3"

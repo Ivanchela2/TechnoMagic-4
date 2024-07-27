@@ -124,6 +124,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Бедная ворона"
 			tasks: [{
 				entity: "twilightforest:raven"
@@ -140,6 +141,7 @@
 			description: ["Ядро магической карты."]
 			hide: true
 			id: "3841D2CBA8F8DA70"
+			shape: "hexagon"
 			tasks: [{
 				id: "68751FB5D6F7B660"
 				item: "twilightforest:magic_map_focus"
@@ -176,6 +178,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "4FC6E5FCA7500C82"
 				item: "twilightforest:magic_map"
@@ -202,13 +205,12 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:naga"
-				icon: "twilightforest:naga_trophy"
-				id: "569289C58428F732"
-				type: "kill"
-				value: 1L
+				id: "4EAABB20262616A8"
+				item: "twilightforest:naga_trophy"
+				type: "item"
 			}]
 			title: "Удав"
 			x: -10.0d
@@ -239,13 +241,12 @@
 			description: ["Следуящая цель - Лич. Не сильно сложный начальный босс, главная проблема - щиты. Чтобы уничтожить их, нужно отбивать его снаряды - они бьют его. Далее убивается обычно."]
 			hide: true
 			id: "12E9E1E0CB224E79"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:lich"
-				icon: "twilightforest:lich_trophy"
-				id: "1FE4267967597AC1"
-				type: "kill"
-				value: 1L
+				id: "15CEF250BF9E354B"
+				item: "twilightforest:lich_trophy"
+				type: "item"
 			}]
 			title: "Торчок"
 			x: -8.0d
@@ -374,13 +375,12 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:minoshroom"
-				icon: "twilightforest:minoshroom_trophy"
-				id: "3FD682D07495C5A0"
-				type: "kill"
-				value: 1L
+				id: "4AEB013DF533C8A8"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
 			}]
 			title: "Мясо"
 			x: -6.0d
@@ -407,13 +407,12 @@
 			hide: true
 			icon: "twilightforest:hydra_trophy"
 			id: "7A8A8A7BC104BE62"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:hydra"
-				icon: "twilightforest:hydra_trophy"
-				id: "74312A8646F71366"
-				type: "kill"
-				value: 1L
+				id: "0AE49A8BA53E7AE4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
 			}]
 			title: "Аллигатор"
 			x: -4.0d
@@ -458,13 +457,12 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-				icon: "twilightforest:knight_phantom_trophy"
-				id: "07CB4EAC8490D284"
-				type: "advancement"
+				id: "3D46FF7B9DE49C78"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
 			}]
 			title: "Клешня"
 			x: -2.0d
@@ -475,13 +473,12 @@
 			description: ["В центре Тёмного Леса находится большая башня. На её вершине следующий босс. Сначала следует зарядить ловушку, убивая маленьких гастов, далее встать на плиту и притянуть Ур-Гаста."]
 			hide: true
 			id: "6AA5410B18036CF1"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				icon: "twilightforest:ur_ghast_trophy"
-				id: "280F11AC4DE32D4A"
-				type: "kill"
-				value: 1L
+				id: "73015590F124E050"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
 			}]
 			title: "Нытик"
 			x: 0.0d
@@ -514,13 +511,12 @@
 			description: ["Очень легкий противник, но без его убийства не обойтись."]
 			hide: true
 			id: "5B88777F5BCC6401"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				icon: "twilightforest:alpha_yeti_trophy"
-				id: "656B31DE428B50F9"
-				type: "kill"
-				value: 1L
+				id: "73113962653D76EA"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
 			}]
 			title: "Терпила"
 			x: 1.5d
@@ -542,13 +538,12 @@
 			description: ["Почти конец! Королева находится в башне, в центре зимнего биома. Не особо сложный босс, главное то, что снизу её ударить будет проблемно."]
 			hide: true
 			id: "293224F2DD3DFDAE"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				entity: "twilightforest:snow_queen"
-				icon: "twilightforest:snow_queen_trophy"
-				id: "4C8DE506D78879AD"
-				type: "kill"
-				value: 1L
+				id: "74A7133D4AD34057"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
 			}]
 			title: "Домохозяйка"
 			x: 2.5d
@@ -592,6 +587,7 @@
 			dependencies: ["293224F2DD3DFDAE"]
 			description: ["Бобы следует найти в Тролльих пещерах. (В малом обсидиановом кубе)"]
 			id: "4FDC9D5FBC9DF033"
+			shape: "hexagon"
 			tasks: [{
 				id: "25C354D29B4CBBE9"
 				item: "twilightforest:magic_beans"
@@ -604,6 +600,7 @@
 			dependencies: ["3A501AB7322F7292"]
 			description: ["Гигантская кирка способка разрушить большой куб обсидиана. Внутри него хранятся сокровища."]
 			id: "69BBC645446F5153"
+			shape: "hexagon"
 			tasks: [{
 				id: "1B67E28E4A146427"
 				item: {
@@ -623,6 +620,7 @@
 			description: ["Используйте бобы на поверхности, прямо над пещерами находятся \"Заоблачные коттеджи\", там обитают Гиганты."]
 			hide: true
 			id: "3A501AB7322F7292"
+			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:giant_miner"
 				icon: {
@@ -741,7 +739,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "761D4B54B75A8976"

@@ -659,6 +659,15 @@ ServerEvents.recipes((event) => {
                 U: 'twilightforest:firefly'
             },
             id: `${prefix}blaze_cell`
+        },
+        {
+            output: '6x gribtweaks:energium_dust',
+            pattern: ['ABA', 'BAB', 'ABA'],
+            key: {
+                A: '#forge:dusts/diamond',
+                B: 'minecraft:redstone',
+            },
+            id: `${prefix}energium_dust`
         }
     ];
     
