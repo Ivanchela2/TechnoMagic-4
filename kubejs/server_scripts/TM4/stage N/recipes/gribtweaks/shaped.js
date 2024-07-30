@@ -639,15 +639,16 @@ ServerEvents.recipes((event) => {
             id: `${prefix}mechanical_ingot`
         },
         {
-            output: '6x gribtweaks:component_ingot',
-            pattern: ['ABA', 'DCD', 'ABA'],
+            output: '2x gribtweaks:component_ingot',
+            pattern: ['ABA', 'DCE', 'ABA'],
             key: {
                 A: 'minecraft:black_dye',
                 B: 'createbigcannons:cast_iron_ingot',
                 C: 'minecraft:iron_block',
-                D: 'gribtweaks:component_ingot'
+                D: 'twilightforest:ironwood_block',
+                E: 'biggerreactors:graphite_block'
             },
-            id: `${prefix}dlg_component_ingot`
+            id: `${prefix}component_ingot`
         },
         {
             output: 'gribtweaks:blaze_cell',

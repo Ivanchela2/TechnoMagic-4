@@ -1450,16 +1450,6 @@
 					item: "endersdelight:stuffed_shulker_bowl"
 					type: "item"
 				}
-				{
-					id: "0878B496BDB1025E"
-					item: "miners_delight:bat_wing"
-					type: "item"
-				}
-				{
-					id: "073BCD4B434742ED"
-					item: "miners_delight:squid"
-					type: "item"
-				}
 			]
 			title: "Гадости (или нет...)"
 			x: 2.5d

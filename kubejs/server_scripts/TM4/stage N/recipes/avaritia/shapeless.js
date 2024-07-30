@@ -4,17 +4,16 @@ ServerEvents.recipes(event => {
         {
             output: 'gribtweaks:block_infinity_catalyst',
             inputs: [
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst', 
-                'avaritia:infinity_catalyst'
+                '9x avaritia:infinity_catalyst'
             ],
             id: `${prefix}block_infinity_catalyst`
+        },
+        {
+            output: 'avaritia:infinity_ingot',
+            inputs: [
+                '9x avaritia:infinity_nugget'
+            ],
+            id: `${prefix}infinity_ingot_from_nuggets`
         },
         {
             output: '9x avaritia:infinity_catalyst',

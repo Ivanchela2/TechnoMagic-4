@@ -18,19 +18,19 @@ ServerEvents.recipes((event) => {
                 'results': [
                     {
                         'item': 'chemlib:titanium_oxide',
-                        'count': 12
+                        'count': 3
                     },
                     {
                         'item': 'chemlib:cellulose',
-                        'count': 24
+                        'count': 6
                     },
                     {
                         'item': 'chemlib:graphite',
-                        'count': 8
+                        'count': 2
                     },
                     {
                       'item': 'chemlib:iron',
-                      'count': 48
+                      'count': 12
                   },
                 ]
             }

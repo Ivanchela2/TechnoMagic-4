@@ -337,19 +337,19 @@
 		}
 		{
 			dependencies: ["64AD5C6C44A874BB"]
-			icon: "create:copper_sheet"
+			icon: "ftbic:copper_plate"
 			id: "7389E3685582FF11"
 			rewards: [{
 				count: 5
 				id: "7C0A50EAF85693EE"
-				item: "create:copper_sheet"
+				item: "ftbic:copper_plate"
 				type: "item"
 			}]
 			subtitle: "Компонент для создания латуни №2 и основа для жидкостных механизмов."
 			tasks: [
 				{
 					id: "6A5B1D365412B06B"
-					item: "create:copper_sheet"
+					item: "ftbic:copper_plate"
 					type: "item"
 				}
 				{

@@ -2,14 +2,24 @@ ServerEvents.recipes(event => {
     const prefix = 'gribtweaks:avaritia/shaped/';
     const recipes = [
         {
-            output: '2x avaritia:diamond_lattice',
-            pattern: ['ABA', 'ACA', 'ABA'],
+            output: 'avaritia:diamond_lattice',
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: 'silentgear:diamond_shard',
-                B: 'gribtweaks:basic_runic_stone',
+                A: 'enigmaticlegacy:etherium_nugget',
+                B: 'minecraft:diamond',
                 C: 'minecraft:netherite_scrap'
             },
             id: `${prefix}diamond_lattice`
+        },
+        {
+            output: 'avaritia:crystal_matrix_ingot',
+            pattern: ['CCC', 'BCB', 'CCC'],
+            key: {
+                A: 'minecraft:nether_star',
+                B: 'avaritia:diamond_lattice',
+                C: 'gribtweaks:super_alloy'
+            },
+            id: `${prefix}crystal_matrix_ingot`
         },
         {
             output: 'solarflux:sp_avaritia.neutronium',
@@ -39,23 +49,6 @@ ServerEvents.recipes(event => {
             },
             id: `${prefix}infinity_furnace`
         },
-        {
-            output: Item.of('ftbquests:lootcrate', '{type:"singularity_crate"}'),
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: '#create:toolboxes',
-                B: 'avaritia:infinity_catalyst'
-            },
-            id: `${prefix}singularity_crate`
-        },
-        {
-            output: 'avaritia:infinity_ingot',
-            pattern: ['AAA', 'AAA', 'AAA'],
-            key: {
-                A: 'avaritia:infinity_nugget'
-            },
-            id: `${prefix}infinity_ingot`
-        }
     ];
 recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

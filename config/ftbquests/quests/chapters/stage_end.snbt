@@ -1045,33 +1045,7 @@
 				item: "botania:creative_pool"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3EEBC16C4F823614"]
-			id: "7563E9CA2580B2EE"
-			rewards: [
-				{
-					id: "492E6413DFBB549A"
-					item: "botanicadds:gaiasteel_block"
-					type: "item"
-				}
-				{
-					id: "53AE9055D05851B7"
-					item: "simplehats:hatbag_easter"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				count: 64L
-				id: "356C18A23EA93005"
-				item: "botania:infrangible_platform"
-				type: "item"
-			}]
-			x: -6.5d
+			x: -5.25d
 			y: 1.5d
 		}
 		{

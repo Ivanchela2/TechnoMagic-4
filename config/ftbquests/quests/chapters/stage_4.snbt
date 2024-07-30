@@ -49,7 +49,6 @@
 				item: "spirit:soul_crystal_shard"
 				type: "item"
 			}]
-			title: "Осколок души"
 			x: -22.0d
 			y: 3.0d
 		}
@@ -71,7 +70,6 @@
 				item: "spirit:crude_soul_crystal"
 				type: "item"
 			}]
-			title: "Сырой кристалл души"
 			x: -20.0d
 			y: 3.0d
 		}
@@ -93,7 +91,6 @@
 				item: "spirit:soul_crystal"
 				type: "item"
 			}]
-			title: "Кристалл души"
 			x: -18.0d
 			y: 3.0d
 		}
@@ -1052,7 +1049,6 @@
 				item: "spirit:pedestal"
 				type: "item"
 			}]
-			title: "Пьедестал"
 			x: -23.0d
 			y: 2.0d
 		}
@@ -1071,7 +1067,6 @@
 				item: "spirit:crystal_pedestal"
 				type: "item"
 			}]
-			title: "Кристальный пьедестал"
 			x: -21.0d
 			y: 2.0d
 		}
@@ -1102,7 +1097,6 @@
 				item: "spirit:soul_pedestal"
 				type: "item"
 			}]
-			title: "Пьедестал души"
 			x: -19.0d
 			y: 2.0d
 		}
@@ -1215,6 +1209,11 @@
 			dependencies: ["4AF2A3CCED0DF671"]
 			description: ["Почему осколок эха всегда в хорошем настроении?"]
 			id: "27D1FD7C54F4E87C"
+			rewards: [{
+				id: "39263BC329DF54AE"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "321FA2195FCA3212"
@@ -1341,12 +1340,19 @@
 			]
 			description: ["Для дальнейшего развития, нужно отправиться в Ад."]
 			id: "3ED7F94EE99EAF66"
-			rewards: [{
-				count: 4
-				id: "50F219E99F749DA2"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "50F219E99F749DA2"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "5D68D1863C1850B0"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
@@ -1385,7 +1391,6 @@
 				item: "spirit:soul_powder_block"
 				type: "item"
 			}]
-			title: "Блок порошка душ"
 			x: -22.0d
 			y: 7.0d
 		}
@@ -1398,7 +1403,6 @@
 				item: "spirit:soul_steel_ingot"
 				type: "item"
 			}]
-			title: "Стальной слиток души"
 			x: -20.0d
 			y: 7.0d
 		}
@@ -1425,7 +1429,6 @@
 				item: "reaper:rune_reficiat"
 				type: "item"
 			}]
-			title: "Рефициатная руна"
 			x: -21.5d
 			y: 10.0d
 		}
@@ -1439,7 +1442,6 @@
 				item: "reaper:rune_obitus"
 				type: "item"
 			}]
-			title: "Руна Обитуса"
 			x: -19.0d
 			y: 11.0d
 		}
@@ -1453,7 +1455,6 @@
 				item: "reaper:rune_humano"
 				type: "item"
 			}]
-			title: "Человеческая руна"
 			x: -18.5d
 			y: 9.0d
 		}
@@ -1467,7 +1468,6 @@
 				item: "reaper:rune_dilato"
 				type: "item"
 			}]
-			title: "Руна Дилато"
 			x: -21.5d
 			y: 9.0d
 		}
@@ -1481,7 +1481,6 @@
 				item: "reaper:rune_velocitas"
 				type: "item"
 			}]
-			title: "Руна Велоцитас"
 			x: -21.0d
 			y: 11.0d
 		}
@@ -1495,7 +1494,6 @@
 				item: "reaper:rune_spiritus"
 				type: "item"
 			}]
-			title: "Руна Духа"
 			x: -18.5d
 			y: 10.0d
 		}
@@ -1522,7 +1520,6 @@
 				item: "reaper:rune_block_possessio"
 				type: "item"
 			}]
-			title: "Блок рун владений"
 			x: -23.0d
 			y: 11.0d
 		}
@@ -1536,7 +1533,6 @@
 				item: "reaper:rune_block_hostilis"
 				type: "item"
 			}]
-			title: "Блок рун Хостилис"
 			x: -25.5d
 			y: 9.0d
 		}
@@ -1550,7 +1546,6 @@
 				item: "reaper:rune_block_dilato"
 				type: "item"
 			}]
-			title: "Блок рун Дилато"
 			x: -22.5d
 			y: 9.0d
 		}
@@ -1564,7 +1559,6 @@
 				item: "reaper:rune_block_beastia"
 				type: "item"
 			}]
-			title: "Блок рун зверя"
 			x: -22.5d
 			y: 10.0d
 		}
@@ -1578,7 +1572,6 @@
 				item: "reaper:rune_block_duplici"
 				type: "item"
 			}]
-			title: "Дубликат блока рун"
 			x: -25.0d
 			y: 11.0d
 		}
@@ -1592,7 +1585,6 @@
 				item: "reaper:rune_block_efficacia"
 				type: "item"
 			}]
-			title: "Блок рун эффективности"
 			x: -25.5d
 			y: 10.0d
 		}

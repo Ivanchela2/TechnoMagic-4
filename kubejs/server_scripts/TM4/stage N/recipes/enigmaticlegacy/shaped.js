@@ -95,14 +95,6 @@ ServerEvents.recipes(event => {
             },
             id: `${prefix}extradimensional_eye`
         },
-		{
-            output: 'enigmaticlegacy:etherium_ingot',
-            pattern: ['AAA', 'AAA', 'AAA'],
-            key: {
-                A: 'enigmaticlegacy:etherium_nugget'
-            },
-            id: `${prefix}etherium_ingot`
-        },
         {
             output: 'enigmaticlegacy:etherium_ingot',
             pattern: ['ABA', 'BCB', 'ABA'],

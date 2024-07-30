@@ -8,7 +8,7 @@ Ponder.registry(e => {
             const centerTop = util.vector.topOf(centerBlockPos);
             scene.showBasePlate()
             scene.idle(0)
-                        scene.overlay.showText(50)
+            scene.overlay.showText(50)
                 .colored(PonderPalette.BLUE)
                 .text("Давайте же построим алтарь возрождения!")
                 .placeNearTarget();

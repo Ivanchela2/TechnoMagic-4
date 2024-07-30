@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
         'avaritia:extreme_crafting_table',
         'avaritia:infinity_ingot',
         'avaritia:diamond_lattice',
-        'avaritiafurnace:infinity_fuel'
+        'avaritiafurnace:infinity_fuel',
+        'avaritia:crystal_matrix_ingot'
     ]
 
     output.forEach(recipe => {

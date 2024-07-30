@@ -21,6 +21,16 @@ ServerEvents.recipes(event => {
             ],
             id: `${prefix}arcane_crystal_dust`
         },
+        {
+            output: '32x deeperdarker:soul_dust',
+            inputs: [
+                'gribtweaks:oblivion_powder', 
+                'minecraft:glowstone_dust',
+                'deeperdarker:soul_dust',
+                '#forge:dusts/ender_pearl'
+            ],
+            id: `${prefix}soul_dust`
+        },
     ];
 
     recipes.forEach((recipe) => {

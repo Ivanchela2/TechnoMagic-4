@@ -85,6 +85,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			subtitle: "Эфир. Происхождение этой руды неизвестно, но охотники за сокровищами поговаривают, что искать его нужно в городах энда."
 			tasks: [{
 				id: "7B28EF9423429B5A"
 				item: "enigmaticlegacy:etherium_ingot"
@@ -347,6 +348,7 @@
 				}
 			}
 			id: "3B5302E294514151"
+			invisible: true
 			rewards: [
 				{
 					id: "1AA9BB2167F2B338"
@@ -476,6 +478,11 @@
 			]
 			hide_dependency_lines: true
 			id: "2AB9D41EA6F6EFF3"
+			rewards: [{
+				id: "5939E90C7E7C89E1"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Добудьте тёмный камень."
@@ -546,124 +553,78 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7439FE304A184259"]
-			id: "63BE8D9BF4A9F95D"
-			rewards: [{
-				id: "5BBA0B04885122A4"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:zombie"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4A7FF8B40AD2CD31"
-				item: {
-					Count: 1b
-					id: "ftbic:carbon_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["62D5EB2F4D59A4D3"]
+			dependencies: ["7C19F6A9C765E262"]
+			hide_dependency_lines: true
 			id: "47A3F275A2C21198"
-			rewards: [{
-				id: "270BE1277293A24E"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:witch"
+			rewards: [
+				{
+					id: "270BE1277293A24E"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:witch"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "20FE757D21B85207"
+					item: "ftbic:mv_battery"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			tasks: [{
-				id: "5CF2F35DF98DCAE0"
-				item: {
-					Count: 1b
-					id: "ftbic:carbon_chestplate"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5CF2F35DF98DCAE0"
+					item: {
+						Count: 1b
+						id: "ftbic:carbon_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["4DA01161D393BBAC"]
-			id: "219762AA6306D027"
-			rewards: [{
-				id: "462CB9F3F4054506"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "seeds:bad_grass"
+				{
+					id: "2CA406F851C65ACA"
+					item: {
+						Count: 1b
+						id: "ftbic:carbon_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "58D20A939452728F"
-				item: {
-					Count: 1b
-					id: "ftbic:carbon_leggings"
-					tag: {
-						Damage: 0
+				{
+					id: "6F26A54ACD1FD7A8"
+					item: {
+						Count: 1b
+						id: "ftbic:carbon_leggings"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5E3EA498752A83D3"]
-			id: "36E3E9B27BE1BF7D"
-			rewards: [{
-				id: "32E47C85542F980D"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:ghast"
+				{
+					id: "4C15091BDF6E10D3"
+					item: {
+						Count: 1b
+						id: "ftbic:carbon_boots"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0B1019FF288B459F"
-				item: {
-					Count: 1b
-					id: "ftbic:carbon_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: -1.5d
+			]
+			title: "Карбоновая броня"
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CDCB4AE59BFBCFA"]
@@ -783,129 +744,88 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["60C044E0BAE70655"]
-			id: "3C4FAAC29B6437CA"
-			rewards: [{
-				id: "61F5262AE0FDAF55"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:endermite"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0E60574D07EB0BC2"
-				item: {
-					Count: 1b
-					id: "ftbic:quantum_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 21.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["43162D61A6C59044"]
+			dependencies: ["47A3F275A2C21198"]
 			id: "269E4EB0991081B1"
-			rewards: [{
-				id: "55C08AD1E333988D"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "alexsmobs:crimson_mosquito"
+			rewards: [
+				{
+					id: "55C08AD1E333988D"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "alexsmobs:crimson_mosquito"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "4F560DF1359DEB5C"
+					item: "ftbic:antimatter"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			tasks: [{
-				id: "11E47EEC57D043F4"
-				item: {
-					Count: 1b
-					id: "ftbic:quantum_chestplate"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "11E47EEC57D043F4"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 21.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0F2B8B22CF4D5730"]
-			id: "295B34A99DDA14E6"
-			rewards: [{
-				id: "716A046D8E921710"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:slime"
+				{
+					id: "3B0E4D24CA009BE3"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6D81CE1629E3CB42"
-				item: {
-					Count: 1b
-					id: "ftbic:quantum_leggings"
-					tag: {
-						Damage: 0
+				{
+					id: "7FF030A710A55F57"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 21.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6A7F6D194AD73234"]
-			id: "6C7967AFBD51BDAC"
-			rewards: [{
-				id: "040FC189643E7C13"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "twilightforest:naga"
+				{
+					id: "2ABA76C9C3E856C4"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_boots"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "76A7DAF428E69AAF"
-				item: {
-					Count: 1b
-					id: "ftbic:quantum_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 21.0d
-			y: -1.5d
+			]
+			title: "Квантовая броня"
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C07ED4E937D391B"]
 			hide_dependency_lines: true
 			id: "6D47A9120BCDFB6C"
+			rewards: [{
+				id: "172326310DB4C1F7"
+				item: "ftbic:nuke_arrow"
+				type: "item"
+			}]
 			subtitle: "&cИскусство &r— &cэто &4ВЗРЫВ!"
 			tasks: [{
 				id: "00C7327E6B3FD580"
@@ -917,6 +837,7 @@
 		}
 		{
 			dependencies: ["6224DF2E7449E678"]
+			description: ["Запитывает энергией механизмы."]
 			id: "7E077B4483E9F928"
 			rewards: [{
 				count: 3
@@ -1035,126 +956,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["63BE8D9BF4A9F95D"]
-			id: "60C044E0BAE70655"
-			rewards: [{
-				id: "75B09BD043FBB2AF"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "occultism:possessed_ghast"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "31154D5093A93E26"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:etherium_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["47A3F275A2C21198"]
-			id: "43162D61A6C59044"
-			rewards: [{
-				id: "6F0DDBF06E7BD860"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "twilightforest:maze_slime"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3C16BC1A729FB551"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:etherium_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["36E3E9B27BE1BF7D"]
-			id: "6A7F6D194AD73234"
-			rewards: [{
-				id: "421481FB1658AFB1"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "seeds:bad_grass"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "31D2888AC7F579F6"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:etherium_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["219762AA6306D027"]
-			id: "0F2B8B22CF4D5730"
-			rewards: [{
-				id: "15EAEEC6A92436F3"
-				item: {
-					Count: 1b
-					id: "reliquary:mob_charm"
-					tag: {
-						Damage: 0
-						entity: "minecraft:blaze"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "36C02B4F897774C7"
-				item: {
-					Count: 1b
-					id: "enigmaticlegacy:etherium_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["1172FCA541C97A82"]
 			description: ["Веселье начинается прямо сейчас."]
 			hide_dependency_lines: false
@@ -1239,6 +1040,20 @@
 			description: ["Добудьте аметриновую жеоду."]
 			icon: "gribtweaks:ametrine_ore"
 			id: "27CD2C168B13BCA9"
+			rewards: [{
+				id: "3E295070C7348E5C"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6587EE9FED4F1C52"
 				item: "gribtweaks:ametrine_geode"
@@ -1263,6 +1078,12 @@
 			dependencies: ["27CD2C168B13BCA9"]
 			description: ["Создайте блок элементальных фрагментов."]
 			id: "543253F809DF8CCB"
+			rewards: [{
+				count: 2
+				id: "3DCA7F2D54F5ADA3"
+				item: "gribtweaks:elemental_fragment"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79457F38175E890C"
 				item: "gribtweaks:elemental_fragments_block"
@@ -1291,6 +1112,12 @@
 			]
 			description: ["Наполните руны всеми стихиями."]
 			id: "3F160189551AB2D8"
+			rewards: [{
+				count: 7
+				id: "1C017C23A6756003"
+				item: "gribtweaks:empty_rune"
+				type: "item"
+			}]
 			subtitle: "Повелитель стихий"
 			tasks: [
 				{
@@ -1462,10 +1289,9 @@
 			dependencies: ["1CDCB4AE59BFBCFA"]
 			hide_dependency_lines: true
 			id: "7614670D3B37C767"
-			subtitle: "Эфир. Происхождение этой руды неизвестно, но охотники за сокровищами поговаривают, что искать его нужно в городах энда."
 			tasks: [{
-				id: "1A0014793DA7134F"
-				item: "enigmaticlegacy:etherium_ore"
+				id: "39E92A25D8FCDD3F"
+				item: "gribtweaks:chunk_of_etherium"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1485,7 +1311,6 @@
 		}
 		{
 			dependencies: ["6B8743E39A6E14B1"]
-			description: ["ЗНАЮ ЧТО НЕТ ПОТОМ БУДЕТ В ОТДЕЛЬНОМ МОДЕ"]
 			hide_dependency_lines: true
 			id: "29A64888EFA4C537"
 			tasks: [{
@@ -1631,7 +1456,11 @@
 		}
 		{
 			dependencies: ["6E0F0B0D128568FD"]
-			description: ["&l&4ИСПОЛЬЗУЙТЕ ДАННЫЙ КАБЕЛЬ, ЧТОБЫ ПИТАТЬ МЕХАНИЗМЫ, КОТОРЫЕ ТРЕБУЮТ БОЛЬШОЕ КОЛ-ВО ЭНЕРГИИ.&r&r"]
+			description: [
+				"Максимальная проводимость энергии за счет технологий оптоволокна."
+				""
+				"&l&4ИСПОЛЬЗУЙТЕ ДАННЫЙ КАБЕЛЬ, ЧТОБЫ ПИТАТЬ МЕХАНИЗМЫ, КОТОРЫЕ ТРЕБУЮТ БОЛЬШОЕ КОЛ-ВО ЭНЕРГИИ.&r&r"
+			]
 			id: "136679E2D09795D6"
 			rewards: [{
 				count: 3
@@ -1655,6 +1484,18 @@
 			description: ["Предназначена для дополнения к ядерному реактору, увеличивая его активную зону на 1 столбик и повышая теплоустойчивость."]
 			hide_dependency_lines: true
 			id: "34976B4919052C4B"
+			rewards: [{
+				count: 4
+				id: "5BFAB4A4DD5B3BD8"
+				item: {
+					Count: 1b
+					id: "ftbic:advanced_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "703F0E9F5ED9FEF5"
 				item: "ftbic:nuclear_reactor_chamber"
@@ -1666,11 +1507,23 @@
 		{
 			dependencies: ["34976B4919052C4B"]
 			description: [
-				"Самый мощный и эффективный тип генератора в FTB Industrial contraptions."
+				"Самый мощный и эффективный \"начальный\" тип генератора в FTB Industrial Contraptions."
 				""
 				"Работает на стержнях обогащённого урана."
 			]
 			id: "0060369E412BF5CF"
+			rewards: [{
+				count: 2
+				id: "5420EF2E696BE165"
+				item: {
+					Count: 1b
+					id: "ftbic:quad_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "209D78F152476E80"
 				item: "ftbic:nuclear_reactor"
@@ -1716,7 +1569,9 @@
 		}
 		{
 			dependencies: ["35978A8DB25CAEB1"]
+			description: ["Противоположность материи."]
 			id: "7A9A5C36D0332D8A"
+			subtitle: "Давным-давно в пространстве и времени"
 			tasks: [{
 				id: "232087F6A81489D1"
 				item: "ftbic:antimatter"
@@ -1724,78 +1579,6 @@
 			}]
 			x: 11.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: true
-			id: "7439FE304A184259"
-			tasks: [{
-				id: "740FFD3CAA75891E"
-				item: {
-					Count: 1b
-					id: "forbidden_arcanus:mortem_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: true
-			id: "62D5EB2F4D59A4D3"
-			tasks: [{
-				id: "2C91CC9D5476E491"
-				item: {
-					Count: 1b
-					id: "forbidden_arcanus:mortem_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: true
-			id: "4DA01161D393BBAC"
-			tasks: [{
-				id: "385F285CEA8E041E"
-				item: {
-					Count: 1b
-					id: "forbidden_arcanus:mortem_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1172FCA541C97A82"]
-			hide_dependency_lines: true
-			id: "5E3EA498752A83D3"
-			tasks: [{
-				id: "1B45306EB413DB05"
-				item: {
-					Count: 1b
-					id: "forbidden_arcanus:mortem_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2068,21 +1851,19 @@
 			y: -16.0d
 		}
 		{
-			dependencies: [
-				"0EFBA96667CFD8B6"
-				"07240471AFE9491F"
-			]
+			dependencies: ["1BFCEB3384BDA1ED"]
 			id: "3CF5EBB4A957523F"
 			tasks: [{
 				id: "157901E88261ECB4"
 				item: "gribtweaks:oblivion_liquid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: -18.0d
 		}
 		{
-			dependencies: ["61AF07D29B095317"]
+			dependencies: ["7A9A5C36D0332D8A"]
+			hide_dependency_lines: true
 			id: "1BFCEB3384BDA1ED"
 			tasks: [{
 				id: "10990DA6F0325E3D"
@@ -2093,24 +1874,18 @@
 			y: -18.0d
 		}
 		{
-			dependencies: [
-				"21040627E49B4E5E"
-				"1BFCEB3384BDA1ED"
-			]
+			dependencies: ["3CF5EBB4A957523F"]
 			id: "07240471AFE9491F"
 			tasks: [{
 				id: "214FF6ED2F428AFB"
 				item: "gribtweaks:admiration_liquid"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -18.0d
 		}
 		{
-			dependencies: [
-				"4ADDC0808FD283C2"
-				"3CF5EBB4A957523F"
-			]
+			dependencies: ["07240471AFE9491F"]
 			id: "566D4F0029AE0377"
 			tasks: [{
 				id: "6AC77C308D762F33"
@@ -2121,10 +1896,7 @@
 			y: -18.0d
 		}
 		{
-			dependencies: [
-				"566D4F0029AE0377"
-				"750AEBD40DCD9C16"
-			]
+			dependencies: ["566D4F0029AE0377"]
 			id: "326A9F75AC04B8E6"
 			tasks: [{
 				id: "17BE93F4A016A8D3"

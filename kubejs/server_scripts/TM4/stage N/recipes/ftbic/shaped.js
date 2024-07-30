@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
             key: {
                 A: 'ftbic:industrial_grade_metal',
                 B: 'ftbic:fuse',
-                C: 'gribtweaks:oblivion_powder',
+                C: 'gribtweaks:iridium_shard',
                 D: 'twilightforest:carminite_reactor'
             },
             id: `${prefix}machine_block`

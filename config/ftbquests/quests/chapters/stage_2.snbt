@@ -214,21 +214,27 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3B1B6F0B1BF3A5D2"]
 			description: ["Нож, позволяющий срезать кору с деревьев."]
 			hide: true
 			id: "34A3F8B6B2B7E460"
-			rewards: [{
-				id: "2949B284E7B62418"
-				item: {
-					Count: 1b
-					id: "rootsclassic:runic_tablet"
-					tag: {
-						currentGroup: 2
+			rewards: [
+				{
+					id: "2949B284E7B62418"
+					item: {
+						Count: 1b
+						id: "rootsclassic:runic_tablet"
+						tag: {
+							currentGroup: 2
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7A388659B36F5BFA"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -474,20 +480,12 @@
 			description: ["Способов обработки материалов много, но для качественной работы нужно удобное место."]
 			hide: true
 			id: "785BFED9C892DA25"
-			rewards: [
-				{
-					count: 16
-					id: "1587E40C4FE786AF"
-					item: "minecraft:andesite"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "28A12572CBFB62C9"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "1587E40C4FE786AF"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Не chisel, но лучше"
 			tasks: [
@@ -620,6 +618,11 @@
 			dependencies: ["7C80BEA676A0078A"]
 			description: ["В активированном режиме позволяет за раз полностью срубать дерево."]
 			id: "656A3DF610E6F2EA"
+			rewards: [{
+				id: "4E145209372F6D67"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "742F28145C2B49E0"
 				item: {
@@ -639,6 +642,20 @@
 			dependencies: ["03F66036C8134D82"]
 			description: ["В активированном режиме позволяет за раз полностью срубать дерево."]
 			id: "373D77DCC4017A89"
+			rewards: [{
+				id: "0129B696F2DA62A0"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "12C82E6A0D65C077"
 				item: {
@@ -658,6 +675,11 @@
 			dependencies: ["6AC6E0BBE565BFC2"]
 			description: ["Сделайте подношение богам, чтобы получить это слиток."]
 			id: "7C80BEA676A0078A"
+			rewards: [{
+				id: "636476F6FB4B9866"
+				item: "naturesaura:calling_spirit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "378AD8F247BC6E8C"
 				item: "naturesaura:sky_ingot"
@@ -673,6 +695,12 @@
 			]
 			description: ["Создайте слиток глубин."]
 			id: "03F66036C8134D82"
+			rewards: [{
+				count: 4
+				id: "7251855FC06BCF4B"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07EB90F3D505EAC1"
 				item: "naturesaura:depth_ingot"
@@ -686,6 +714,20 @@
 			dependencies: ["03F66036C8134D82"]
 			description: ["В активированном режиме позволяет за раз полностью выкапывать рудную жилу."]
 			id: "01BE4810A6D480A8"
+			rewards: [{
+				id: "26D0E211E8F8055E"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10EE499ADD0755F3"
 				item: {
@@ -705,6 +747,11 @@
 			dependencies: ["7C80BEA676A0078A"]
 			description: ["Позволяет создавать ауру из зелий с положительным эффектом. (см. Размышления)"]
 			id: "309340F82DE406B2"
+			rewards: [{
+				id: "754019B730EAA263"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
 			tasks: [{
 				id: "603FC49EA1F7ED20"
 				item: "naturesaura:potion_generator"
@@ -717,6 +764,11 @@
 			dependencies: ["7C80BEA676A0078A"]
 			description: ["Позволяет создавать мобов. (см. Размышления)"]
 			id: "0C6AF36D3DCD6432"
+			rewards: [{
+				id: "22A49216E343FEF5"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2784D8DDF9CFB999"
 				item: "naturesaura:animal_spawner"
@@ -782,6 +834,12 @@
 			dependencies: ["49FA63E436B4A94D"]
 			description: ["При использовании подсвечивает хранилища в большом радиусе."]
 			id: "111AB55A84315A2C"
+			rewards: [{
+				count: 2
+				id: "37EF3F315A043D51"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "189068C9E0DFA0F4"
 				item: "naturesaura:loot_finder"
@@ -795,6 +853,11 @@
 			dependencies: ["7C80BEA676A0078A"]
 			description: ["Стреляет светом, который навсегда остается на блоках."]
 			id: "034D220749B2C0E1"
+			rewards: [{
+				id: "1D8E18FB568AB234"
+				item: "naturesaura:netherite_finder"
+				type: "item"
+			}]
 			subtitle: "Долой факела"
 			tasks: [{
 				id: "654F8966CDEF7F14"
@@ -822,6 +885,11 @@
 			dependencies: ["7DC86FEBB7F17821"]
 			description: ["Зажмите SHIFT во время прыжка, чтобы нанести урон по области."]
 			id: "768B824D63376E0E"
+			rewards: [{
+				id: "58118C791DAD036A"
+				item: "createaddition:electrum_amulet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C9D8649C1C1262D"
 				item: "naturesaura:shockwave_creator"
@@ -859,6 +927,11 @@
 			dependencies: ["49FA63E436B4A94D"]
 			description: ["По сигналу редстоуна соберёт большое кол-во ауры с выросших цветков Хоруса. Чем выше цветок, тем больше ауры."]
 			id: "75CDFA76951A0E01"
+			rewards: [{
+				id: "21117C1B440FC196"
+				item: "naturesaura:token_rage"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BBE7F4866B913C5"
 				item: "naturesaura:chorus_generator"
@@ -872,6 +945,12 @@
 			dependencies: ["6187009683A16AB1"]
 			description: ["Скрафтите бутылку с пробку."]
 			id: "139C7F3B1CBD9CDF"
+			rewards: [{
+				count: 4
+				id: "46B199754DFBD30C"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "27F133C1AC18DA43"
@@ -923,6 +1002,11 @@
 			dependencies: ["719CBE19584F107B"]
 			description: ["Испортите золотой слиток в природном алтаре."]
 			id: "7DC86FEBB7F17821"
+			rewards: [{
+				id: "3BFDB498B26FD755"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D25355398F01960"
 				item: "naturesaura:tainted_gold"

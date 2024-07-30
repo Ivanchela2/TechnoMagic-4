@@ -45,11 +45,12 @@ ServerEvents.recipes((event) => {
         },
         {
           output: 'create:goggles', 
-          pattern: [' C ', 'BAB'],
+          pattern: ['DCD', 'BAB'],
           key: {
-            A: 'create:golden_sheet', 
+            A: '#forge:plates/gold', 
             B: 'minecraft:glass',
-            C: 'naturesaura:gold_fiber'
+            C: 'naturesaura:gold_fiber',
+            D: '#notreepunching:string'
           },
           id: `${prefix}goggles`
         },
@@ -58,8 +59,8 @@ ServerEvents.recipes((event) => {
           pattern: ['DCD', 'BAB', 'DCD'],
           key: {
             A: 'sorcerium:molten_crystal', 
-            B: 'ftbic:iron_plate',
-            C: 'alloyed:steel_ingot',
+            B: '#forge:plates/iron',
+            C: '#forge:ingots/steel',
             D: 'minecraft:netherrack'
           },
           id: `${prefix}empty_blaze_burner`

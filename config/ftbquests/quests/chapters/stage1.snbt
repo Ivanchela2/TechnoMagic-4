@@ -116,7 +116,7 @@
 		}
 		{
 			dependencies: ["6BD0436432D75B84"]
-			description: ["Создайте кремниевый топор и добудьте дерево."]
+			description: ["Создайте кремневый топор и добудьте дерево."]
 			id: "417DCE7F7196C6FF"
 			rewards: [{
 				id: "3B8E39DA98FA2EC2"
@@ -136,7 +136,6 @@
 				}
 				type: "item"
 			}]
-			title: "Кремниевый топор"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -266,12 +265,19 @@
 			]
 			description: ["Выплавьте слиток железа в печи."]
 			id: "211AE1FCA3393F0E"
-			rewards: [{
-				count: 4
-				id: "6174D144E720B362"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6174D144E720B362"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3899382D92D79412"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
@@ -671,13 +677,6 @@
 			dependencies: ["3E89E8171FEBCAB2"]
 			description: ["Зола получается путём сжигания легковоспламеняющихся блоков. Чтобы поджечь блок, можно использовать зажигалку."]
 			id: "24DBBA23D05F1699"
-			rewards: [{
-				count: 6
-				id: "5D9371D230E80EA4"
-				item: "supplementaries:ash"
-				random_bonus: 10
-				type: "item"
-			}]
 			tasks: [{
 				id: "719186B246A851BD"
 				item: "supplementaries:ash"
@@ -774,6 +773,7 @@
 		}
 		{
 			dependencies: ["7F0EF22AFEEAC209"]
+			description: ["Кремневая курица встречается в обычном мире."]
 			id: "606741D4648EDCBA"
 			tasks: [{
 				id: "79FC8FB1FE17CC86"

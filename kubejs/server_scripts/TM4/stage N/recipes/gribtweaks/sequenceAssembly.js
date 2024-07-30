@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('gribtweaks:incomplete_component_ingot',['gribtweaks:incomplete_component_ingot','biggerreactors:graphite_ingot']),
         event.recipes.create.deploying('gribtweaks:incomplete_component_ingot',['gribtweaks:incomplete_component_ingot','minecraft:black_dye']),
         event.recipes.create.pressing('gribtweaks:incomplete_component_ingot', 'gribtweaks:incomplete_component_ingot'),
-      ]).transitionalItem('gribtweaks:incomplete_component_ingot').loops(5).id(`${prefix}component_ingot`)
+      ]).transitionalItem('gribtweaks:incomplete_component_ingot').loops(3).id(`${prefix}component_ingot`)
 
       event.recipes.createSequencedAssembly(['gribtweaks:oak_clock'], 'minecraft:clock', [
         event.recipes.create.deploying('minecraft:clock',['minecraft:clock','minecraft:oak_log']),

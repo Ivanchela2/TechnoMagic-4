@@ -17,7 +17,7 @@
 			image: "placebo:textures/wings/angel.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -31,7 +31,7 @@
 			order: -10
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -45,7 +45,7 @@
 			order: -5
 			rotation: 0.0d
 			width: 5.5d
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -205,7 +205,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 4.35d
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -220,7 +220,7 @@
 			order: -10
 			rotation: 0.0d
 			width: 5.75d
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -1408,6 +1408,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1F0EA3163EDC8BA9"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.2d
@@ -1417,7 +1422,7 @@
 				title: "Все любят химию!"
 				type: "checkmark"
 			}]
-			x: -11.5d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
@@ -1439,7 +1444,7 @@
 				type: "item"
 			}]
 			title: "Объединитель"
-			x: -9.5d
+			x: -8.0d
 			y: 5.0d
 		}
 		{
@@ -1459,7 +1464,7 @@
 				type: "item"
 			}]
 			title: "Растворитель"
-			x: -9.5d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -1472,14 +1477,14 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "1B699A55C55B43B9"
 				item: "alchemistry:compactor"
 				type: "item"
 			}]
 			title: "Компактор"
-			x: -9.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -1506,14 +1511,14 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "75518D0E164211FC"
 				item: "alchemistry:reactor_casing"
 				type: "item"
 			}]
 			title: "Корпус реактора"
-			x: -7.5d
+			x: -6.0d
 			y: 3.0d
 		}
 		{
@@ -1529,14 +1534,14 @@
 				item: "pipez:advanced_upgrade"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "288B5EFAB2B03BA0"
 				item: "alchemistry:fusion_chamber_controller"
 				type: "item"
 			}]
 			title: "Контроллер термоядерной камеры"
-			x: -5.5d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -1556,7 +1561,7 @@
 				type: "item"
 			}]
 			title: "Термоядерное ядро"
-			x: -7.5d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -1588,7 +1593,7 @@
 				}
 			]
 			title: "Вход/выход реактора"
-			x: -7.5d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
@@ -1624,7 +1629,7 @@
 				}
 			]
 			title: "Слиток актиния"
-			x: -3.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -1637,7 +1642,7 @@
 				item: "biggerreactors:reactor_glass"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "&6Дополнительный источник энергии"
 			tasks: [{
 				id: "5222692DD2F8F92E"
@@ -1645,7 +1650,7 @@
 				type: "item"
 			}]
 			title: "Первый большой реактор"
-			x: -1.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -1658,15 +1663,15 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "66B1856035F356D9"
 				item: "biggerreactors:reactor_terminal"
 				type: "item"
 			}]
 			title: "Терминал реактора"
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -1678,7 +1683,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "75809C3093C47D7F"
@@ -1692,7 +1697,7 @@
 				}
 			]
 			title: "Топливный стержень реактора"
-			x: 2.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -1705,7 +1710,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "621E63ECBE62470C"
@@ -1720,8 +1725,8 @@
 				}
 			]
 			title: "Вход/выход реактора"
-			x: 4.5d
-			y: 3.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1737,15 +1742,15 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "6682EE52899605D8"
 				item: "biggerreactors:cyanite_reprocessor"
 				type: "item"
 			}]
 			title: "Репрессор цианита"
-			x: 6.5d
-			y: 3.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -1769,8 +1774,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 5.0d
+			x: 2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -1789,8 +1794,8 @@
 				type: "item"
 			}]
 			title: "Стальной бак"
-			x: 6.5d
-			y: 5.0d
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1819,7 +1824,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "square"
 			size: 1.2d
 			subtitle: "&6Первая остановка - Луна"
 			tasks: [{
@@ -1834,8 +1839,8 @@
 				type: "item"
 			}]
 			title: "К взлету готов! Прием?.. "
-			x: 2.5d
-			y: 11.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["46D10C4412BC495B"]
@@ -1854,8 +1859,8 @@
 				type: "item"
 			}]
 			title: "Стабилизатор"
-			x: -3.5d
-			y: 13.0d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["46D10C4412BC495B"]
@@ -1872,8 +1877,8 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 15.0d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1892,15 +1897,14 @@
 				table_id: 6910744682423747065L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "&6Сердце Ангела (почти)"
 			tasks: [{
 				id: "0A9033C4461F6836"
 				item: "arclight:arclight_core"
 				type: "item"
 			}]
-			title: "Ядро рассвета"
-			x: -9.5d
+			x: -8.0d
 			y: 11.0d
 		}
 		{
@@ -1923,7 +1927,7 @@
 				type: "item"
 			}]
 			title: "Ядро лунного света"
-			x: -7.5d
+			x: -6.0d
 			y: 13.0d
 		}
 		{
@@ -1941,8 +1945,7 @@
 				item: "arclight:arclight_gem"
 				type: "item"
 			}]
-			title: "Рассвет"
-			x: -8.0d
+			x: -6.5d
 			y: 8.0d
 		}
 		{
@@ -1960,8 +1963,7 @@
 				item: "arclight:moonlight_crystal"
 				type: "item"
 			}]
-			title: "Лунный свет"
-			x: -8.0d
+			x: -6.5d
 			y: 6.0d
 		}
 		{
@@ -1979,8 +1981,7 @@
 				item: "arclight:jade_gem"
 				type: "item"
 			}]
-			title: "Нефрит"
-			x: -11.0d
+			x: -9.5d
 			y: 6.0d
 		}
 		{
@@ -1998,8 +1999,7 @@
 				item: "arclight:bloodstone_gem"
 				type: "item"
 			}]
-			title: "Кровавый камень"
-			x: -7.5d
+			x: -6.0d
 			y: 7.0d
 		}
 		{
@@ -2011,8 +2011,7 @@
 				item: "arclight:arclight_ingot"
 				type: "item"
 			}]
-			title: "Сплав рассвета"
-			x: -8.0d
+			x: -6.5d
 			y: 11.0d
 		}
 		{
@@ -2024,8 +2023,7 @@
 				item: "arclight:moonlight_ingot"
 				type: "item"
 			}]
-			title: "Сплав лунного света"
-			x: -8.0d
+			x: -6.5d
 			y: 9.0d
 		}
 		{
@@ -2037,8 +2035,7 @@
 				item: "arclight:bloodstone_ingot"
 				type: "item"
 			}]
-			title: "Сплав кровавого камня"
-			x: -7.5d
+			x: -6.0d
 			y: 10.0d
 		}
 		{
@@ -2050,8 +2047,7 @@
 				item: "arclight:jade_ingot"
 				type: "item"
 			}]
-			title: "Сплав нефрита"
-			x: -11.0d
+			x: -9.5d
 			y: 9.0d
 		}
 		{
@@ -2074,12 +2070,12 @@
 			size: 1.2d
 			subtitle: "&5Переход к другому моду"
 			tasks: [{
-				id: "3C0007862E331571"
+				id: "4AA6D67A7179A467"
 				item: "gribtweaks:reinforced_ludicrite_block"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4BC8FABEEF773E06"]
@@ -2103,8 +2099,8 @@
 				type: "item"
 			}]
 			title: "Турбина"
-			x: 8.5d
-			y: 1.0d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3534283B09AF261F"]
@@ -2116,15 +2112,15 @@
 				item: "pipez:ultimate_upgrade"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "0D21F9E8B1197697"
 				item: "biggerreactors:turbine_terminal"
 				type: "item"
 			}]
 			title: "Терминал турбины"
-			x: 8.5d
-			y: -1.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2139,7 +2135,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3F3E3B7BBBDDE01F"
@@ -2153,8 +2149,8 @@
 				}
 			]
 			title: "Вход/выход турбины"
-			x: 10.5d
-			y: -1.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2169,7 +2165,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "1A189D8C5445B9EA"
@@ -2188,8 +2184,8 @@
 				}
 			]
 			title: "Лопасть ротора турбины"
-			x: 6.5d
-			y: -1.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["23AB2E375D4C3EC2"]
@@ -2212,7 +2208,7 @@
 				type: "item"
 			}]
 			title: "Теплообменник"
-			x: -1.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -2232,14 +2228,14 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "0F255F6AD22774A3"
 				item: "biggerreactors:heat_exchanger_terminal"
 				type: "item"
 			}]
 			title: "Терминал теплообменника"
-			x: -1.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -2254,7 +2250,7 @@
 				item: "reliquary:emperor_chalice"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "1C12F380C8611343"
@@ -2268,7 +2264,7 @@
 				}
 			]
 			title: "Канал конденсатора теплообменника"
-			x: -3.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -2284,14 +2280,14 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "4233228C7F7586F2"
 				item: "biggerreactors:heat_exchanger_fluid_port"
 				type: "item"
 			}]
 			title: "Жидкостный порт теплообменника"
-			x: 0.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -2315,13 +2311,12 @@
 				type: "item"
 			}]
 			title: "Ее нельзя надеть!"
-			x: -9.5d
+			x: -10.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["7E49B7C62FAE8271"]
 			description: ["Частичка могущественного Ангела."]
-			hide_dependency_lines: true
 			id: "395110AEC64CC6BE"
 			rewards: [
 				{
@@ -2354,7 +2349,7 @@
 				type: "item"
 			}]
 			title: "Перо Ангела"
-			x: -5.5d
+			x: -8.0d
 			y: 13.0d
 		}
 		{
@@ -2371,7 +2366,7 @@
 				type: "random"
 			}]
 			shape: "circle"
-			size: 1.2d
+			size: 1.3d
 			subtitle: "&6Думаешь это легко?"
 			tasks: [{
 				entity: "arclight:angel"
@@ -2387,7 +2382,7 @@
 				value: 1L
 			}]
 			title: "Стань закатом"
-			x: -7.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -2448,8 +2443,8 @@
 				}
 			]
 			title: "Ангельская броня"
-			x: -3.5d
-			y: 11.0d
+			x: -6.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2D45BE7AC519B83A"]
@@ -2459,14 +2454,15 @@
 				item: "arclight:arclight_core"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "2A03AA04177DAE8D"
 				item: "arclight:sculk_core"
 				type: "item"
 			}]
 			title: "Ядро скалка"
-			x: -5.5d
-			y: 15.0d
+			x: -4.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["25A4EAB98B5899DD"]
@@ -2485,7 +2481,7 @@
 				type: "item"
 			}]
 			title: "Ядро кровавого камня"
-			x: -9.5d
+			x: -12.0d
 			y: 15.0d
 		}
 		{
@@ -2497,13 +2493,13 @@
 				item: "ftbic:antimatter_constructor"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "379362A20BF7D4C2"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: 11.0d
 		}
 		{
@@ -2517,13 +2513,13 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "243E8FC6E95F56A8"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.0d
 			y: 9.0d
 		}
 		{
@@ -2607,8 +2603,8 @@
 				}
 			]
 			title: "Скафандр"
-			x: -1.5d
-			y: 11.0d
+			x: -4.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["65C9C12C7EB39E79"]
@@ -2625,14 +2621,14 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "1B1644C4BE0D2905"
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["33053530B0E14028"]
@@ -2644,14 +2640,14 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "617B494A56818B52"
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["593F2BC8C93AF274"]
@@ -2662,13 +2658,13 @@
 				item: "ad_astra:white_flag"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "293505943EE9FA8F"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -2954,8 +2950,7 @@
 				item: "arclight:armor_forge"
 				type: "item"
 			}]
-			title: "Кузница паладинов"
-			x: -9.5d
+			x: -8.0d
 			y: 8.0d
 		}
 		{
@@ -2973,9 +2968,8 @@
 				item: "arclight:cryorium_gem"
 				type: "item"
 			}]
-			title: "Криориум"
-			x: -11.0d
-			y: 8.0d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["22D3571C9AB084E1"]
@@ -2992,7 +2986,7 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -10.0d
 			y: 7.0d
 		}
 		{
@@ -3004,9 +2998,8 @@
 				item: "arclight:cryorium_ingot"
 				type: "item"
 			}]
-			title: "Сплав криориума"
-			x: -11.0d
-			y: 11.0d
+			x: -8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["233193BCDDD1FD7B"]
@@ -3017,8 +3010,7 @@
 				item: "arclight:sculk_ingot"
 				type: "item"
 			}]
-			title: "Сплав скалка"
-			x: -11.5d
+			x: -10.0d
 			y: 10.0d
 		}
 		{
@@ -3801,12 +3793,12 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0634087B415CE4E5"
+				id: "1E47676F453BC035"
 				item: "gribtweaks:rocket_covering"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.0d
+			x: 0.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["27F16682E4761ED8"]
@@ -3991,8 +3983,8 @@
 			dependencies: ["07A00DF6A1E8C23D"]
 			id: "11EEBCE394B7F8E6"
 			tasks: [{
-				id: "7EC60C6A82272F04"
-				item: "chemlib:pre_gribony_block"
+				id: "697AD7FC2E783FD3"
+				item: "gribtweaks:pre_gribony_block"
 				type: "item"
 			}]
 			x: 23.0d
@@ -4025,8 +4017,8 @@
 			dependencies: ["4FF3447A2E4201D9"]
 			id: "3D8A2DA5427C9E1E"
 			tasks: [{
-				id: "4920B13CB08CA5D3"
-				item: "chemlib:unstable_gribony_block"
+				id: "6B3011CF9DDE50D4"
+				item: "gribtweaks:unstable_gribony_block"
 				type: "item"
 			}]
 			x: 29.5d
@@ -4113,9 +4105,9 @@
 					type: "item"
 				}
 			]
-			title: "Броня рассвета"
-			x: -11.5d
-			y: 13.0d
+			title: "Броня Арклайта"
+			x: -10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7F00A0CECCE9E515"]
@@ -4175,8 +4167,8 @@
 			dependencies: ["08C45BD5C6CF0FD3"]
 			id: "7A0464D1C40623A6"
 			tasks: [{
-				id: "5F369D43A2291489"
-				item: "chemlib:gribony_block"
+				id: "267A0FE591575249"
+				item: "gribtweaks:gribony_block"
 				type: "item"
 			}]
 			x: 36.0d
@@ -4295,8 +4287,8 @@
 				item: "gribtweaks:angel_ingot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 15.0d
+			x: -12.0d
+			y: 13.0d
 		}
 	]
 	title: "&5Стадия: 6"

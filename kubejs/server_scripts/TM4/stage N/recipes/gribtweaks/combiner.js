@@ -8,25 +8,25 @@ ServerEvents.recipes((event) => {
                 'ingredient': {
                     'item': 'chemlib:cellulose'
                 },
-                'count': 24
+                'count': 6
             },
             {
                 'ingredient': {
                     'item': 'chemlib:iron'
                 },
-                'count': 48
+                'count': 12
             },
             {
                 'ingredient': {
                     'item': 'chemlib:titanium_oxide'
                 },
-                'count': 12
+                'count': 3
             },
             {
                 'ingredient': {
                     'item': 'chemlib:graphite'
                 },
-                'count': 8
+                'count': 2
             }
         ],
         'result': {

@@ -22,9 +22,6 @@ ServerEvents.recipes((event) => {
             output: {
                 item: 'gribtweaks:tained_gold_leaf'
             },
-            catalyst: {
-                item: 'naturesaura:conversion_catalyst'
-            },
             aura: 15000,
             time: 300,     
             id: `${prefix}tained_gold_leaf`
@@ -62,13 +59,18 @@ ServerEvents.recipes((event) => {
     ]
   
     recipes.forEach(recipe => {
-      event.custom({
-        type: 'naturesaura:altar',
-        input: recipe.input,
-        output: recipe.output,
-        catalyst: recipe.catalyst,
-        aura: recipe.aura,
-        time: recipe.time
-      })
+        let customRecipe = {
+            type: 'naturesaura:altar',
+            input: recipe.input,
+            output: recipe.output,
+            aura: recipe.aura,
+            time: recipe.time
+        };
+
+        if (recipe.catalyst) {
+            customRecipe.catalyst = recipe.catalyst;
+        }
+
+        event.custom(customRecipe).id(recipe.id);
     })
   });

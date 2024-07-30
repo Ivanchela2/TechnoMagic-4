@@ -26,10 +26,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"64E73B969D9D64AE"
-				"7B28EF9423429B5A"
-			]
+			dependencies: ["64E73B969D9D64AE"]
 			id: "6CA5FE01B5BD0C2B"
 			invisible: true
 			rewards: [{
@@ -108,10 +105,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"2EC8A574557BFF7D"
-				"1FFE7F36620CA712"
-			]
+			dependencies: ["1FFE7F36620CA712"]
 			description: ["Убирает вокруг вас спавн железного голема, эндермена, пиглина и зомбифицированного пиглина"]
 			id: "0AC834D221186A62"
 			invisible: true

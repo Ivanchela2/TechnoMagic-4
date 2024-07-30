@@ -101,6 +101,19 @@ ServerEvents.recipes(event => {
             inputs: [ 'gribtweaks:ametrine_block' ],
             id: `${prefix}ametrine_ingot_of_block`
         },
+
+
+        // enigmaticlegacy:etherium ------------------------------------------------------------------
+        {
+            output: 'enigmaticlegacy:etherium_ingot',
+            inputs: [ '9x enigmaticlegacy:etherium_nugget' ],
+            id: `${prefix}etherium_ingot_from_nuggets`
+        },
+        {
+            output: '9x enigmaticlegacy:etherium_ingot',
+            inputs: [ 'enigmaticlegacy:etherium_block' ],
+            id: `${prefix}etherium_ingot_of_block`
+        },
     ]
 
     recipes.forEach((recipe) => {

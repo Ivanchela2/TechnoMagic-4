@@ -582,10 +582,10 @@
   "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_1": "Wet Enhanced Broom Brush",
   "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_2": "  Just like the normal Wet Broom Brush this is made in a cauldron and must be dried before using.",
 
-  "book.hexerei.items_moon_dust_brush_1.passage_1": "Moon Dust Brush",
+  "book.hexerei.items_moon_dust_brush_1.passage_1": "Лунный веник для метлы",
   "book.hexerei.items_moon_dust_brush_1.passage_2": "  This Broom Brush makes the broom faster, especially during the full moon. It is otherwise the same as the Enhanced Broom Brush.",
 
-  "book.hexerei.items_wet_moon_dust_brush_1.passage_1": "Wet Moon Dust Brush",
+  "book.hexerei.items_wet_moon_dust_brush_1.passage_1": "Мокрый лунный веник для метлы",
   "book.hexerei.items_wet_moon_dust_brush_1.passage_2": "  Like the other brushes, the Moon Dust Brush is made in the mixing cauldron and must be dried before use.",
 
   "book.hexerei.items_crow_flute_1.passage_1": "Crow Flute",
@@ -816,7 +816,7 @@
   "tooltip.hexerei.candle_swirl_layer": "Swirl Layer: %s",
   "tooltip.hexerei.candle_effect": "Effect: %s",
 
-  "item.hexerei.ender_satchel": "Ender Satchel",
+  "item.hexerei.ender_satchel": "Эндер-сумка",
   "item.hexerei.replacer_satchel": "Replacer Satchel",
   "tooltip.hexerei.ender_satchel": "Extends the broom inventory into the players ender inventory.",
   "tooltip.hexerei.replacer_satchel_1": "Replaces broken broom brushes with the",
@@ -903,11 +903,11 @@
   "tooltip.hexerei.wax": "Wax",
   "tooltip.hexerei.infinite_wax": "Wax: Infinite",
 
-  "item.hexerei.willow_boat" : "Willow Boat",
+  "item.hexerei.willow_boat" : "Ивовая лодка",
   "item.hexerei.polished_willow_boat" : "Polished Willow Boat",
   "item.hexerei.mahogany_boat" : "Mahogany Boat",
   "item.hexerei.polished_mahogany_boat" : "Polished Mahogany Boat",
-  "item.hexerei.willow_chest_boat" : "Willow Chest Boat",
+  "item.hexerei.willow_chest_boat" : "Ивовая грузовая лодка",
   "item.hexerei.polished_willow_chest_boat" : "Polished Willow Chest Boat",
   "item.hexerei.mahogany_chest_boat" : "Mahogany Chest Boat",
   "item.hexerei.polished_mahogany_chest_boat" : "Polished Mahogany Chest Boat",
@@ -1006,8 +1006,8 @@
   "block.hexerei.infused_fabric_block_ornate" : "Ornate Infused Fabric Block",
   "block.hexerei.waxed_infused_fabric_block_ornate" : "(Waxed) Ornate Infused Fabric Block",
 
-  "entity.hexerei.boat" : "Boat",
-  "entity.hexerei.chest_boat" : "Chest Boat",
+  "entity.hexerei.boat" : "Лодка",
+  "entity.hexerei.chest_boat" : "Грузовая лодка",
 
   "item.hexerei.crow_blank_amulet" : "Crow Blank Amulet Trinket",
   "item.hexerei.crow_filled_amulet" : " Amulet",
@@ -1095,10 +1095,10 @@
 
   "item.hexerei.stone_window": "Stone Window",
   "item.hexerei.stone_window_pane": "Stone Window Pane",
-  "item.hexerei.wet_moon_dust_brush": "Wet Moon Dust Brush",
-  "item.hexerei.moon_dust_brush": "Moon Dust Brush",
+  "item.hexerei.wet_moon_dust_brush": "Мокрый лунный веник для метлы",
+  "item.hexerei.moon_dust_brush": "Лунный веник для метлы",
   "item.hexerei.broom_thruster_brush": "Broom Thruster Brush",
-  "item.hexerei.moon_dust": "Moon Dust",
+  "item.hexerei.moon_dust": "Лунный порошок",
   "item.hexerei.broom_seat": "Broom Seat",
   "tooltip.hexerei.broom_seat_1": "Allows a second player to hop onto the broom.",
   "tooltip.hexerei.broom_seat_2": "If only one player is on the broom, that player uses the seat.",
@@ -1116,15 +1116,15 @@
   "tooltip.hexerei.moon_dust_brush": "Increases broom speed, and drastically increases the speed on a full moon.",
   "tooltip.hexerei.dyeable": "Can be dyed.",
 
-  "tooltip.hexerei.full_moon": "§fFull Moon§r",
+  "tooltip.hexerei.full_moon": "§fПолнолуние§r",
   "tooltip.hexerei.waning_gibbous": "§fWaning Gibbous§r",
   "tooltip.hexerei.last_quarter": "§fLast Quarter§r",
   "tooltip.hexerei.waning_crescent": "§fWaning Crescent§r",
-  "tooltip.hexerei.new_moon": "§fNew Moon§r",
+  "tooltip.hexerei.new_moon": "§fНоволуние§r",
   "tooltip.hexerei.waxing_crescent": "§fWaxing Crescent§r",
   "tooltip.hexerei.first_quarter": "§fFirst Quarter§r",
   "tooltip.hexerei.waxing_gibbous": "§fWaxing Gibbous§r",
-  "tooltip.hexerei.moon_phase": "§fMoon Phase§r",
+  "tooltip.hexerei.moon_phase": "§fФаза Луны§r",
   "tooltip.hexerei.recipe_moon": "This recipe requires a moon phase of '%s' at night to craft",
   "tooltip.hexerei.recipe_moon_1": "Only craft-able at night, must be the shown moon above.",
 

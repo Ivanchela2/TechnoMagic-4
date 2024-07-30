@@ -93,6 +93,11 @@
 			description: ["С помощью метлы вы смогли взлететь! Это ваша первая метла, так что управление оставляет желать лучшего."]
 			hide: true
 			id: "6F833510FBC27BD8"
+			rewards: [{
+				id: "18653359650189E4"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0375870710A4ABDA"
 				item: "sorcerium:sorcerers_broom_item"
@@ -309,6 +314,12 @@
 			dependencies: ["22E35B1B54FADBD2"]
 			description: ["Позволит управлять воронами."]
 			id: "44B196BE6006F132"
+			rewards: [{
+				count: 2
+				id: "473FEA380BF3CBF4"
+				item: "gribtweaks:wet_raven_cloth"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.75d
 			tasks: [{
@@ -403,6 +414,13 @@
 			hide: true
 			id: "4A6CFFB0BD31BCB4"
 			optional: true
+			rewards: [{
+				command: "/give @s red_mushroom{display:{Name:'{\"text\":\"Гриб-компаньон\",\"color\":\"red\"}',Lore:[\"Ваш верный друг!\"]}}"
+				icon: "minecraft:red_mushroom"
+				id: "13E210082AC34179"
+				title: "Грибочек"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2688D42EA70F6E6B"
 				item: {
@@ -467,6 +485,12 @@
 			dependencies: ["593117BA3091815E"]
 			description: ["Данный блок при использывании усилит силу вашей магии на 10 минут."]
 			id: "16F754EDBDD35A35"
+			rewards: [{
+				count: 4
+				id: "64F721EA9CB2994C"
+				item: "sorcerium:charged_mana_prism"
+				type: "item"
+			}]
 			subtitle: "Очисти свою ауру"
 			tasks: [{
 				id: "3F4D8C60E61BF2A7"
@@ -778,6 +802,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2529AD19EEC02D27"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.2d
@@ -798,6 +827,11 @@
 				"Привяжитесь к андезиту, чтобы найти камень из иного мира. К листве - листья из иного мира."
 			]
 			id: "00C75AAE6948A0D2"
+			rewards: [{
+				id: "6F6002420BF68AB5"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F190198DBFD816F"
 				item: {
@@ -911,6 +945,12 @@
 			dependencies: ["2ED26DB7D77AFF40"]
 			description: ["Очки из иного мира дают постоянный эффект Третий глаз."]
 			id: "42B95EADCDBE5589"
+			rewards: [{
+				count: 5
+				id: "5740BD4A3D7F56E8"
+				item: "neapolitan:vanilla_chocolate_fingers"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.75d
 			tasks: [{
