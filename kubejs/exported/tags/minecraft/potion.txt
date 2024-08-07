@@ -1,7 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 10, 2023, 9:10:44 PM
-
-#supplementaries:tipped_spikes_blacklist
-- ars_nouveau:blasting? (from supplementaries-1.19.2-2.3.10.jar)
-
-#supplementaries:quiver_blacklist
-- ars_nouveau:blasting? (from supplementaries-1.19.2-2.3.10.jar)
